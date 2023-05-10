@@ -1,0 +1,67 @@
+site_name: ELIXIR Training Lesson
+nav:
+    - About: index.md
+    - Course Content:
+      - "1. title of first chapter": chapters/chapter_01.md
+      - "2. title of second chapter": chapters/chapter_02.md
+      - "References": chapters/references.md
+    - "Follow up training": follow_up_training.md
+
+theme:
+  name: material
+  logo: assets/images/white-orange-logo.png
+  favicon: assets/images/elixir_favicon.ico
+  custom_dir: overrides
+  features:
+    - navigation.top
+    - navigation.footer
+    - toc.integrate
+  font: 
+    text: Lato
+
+# Repository
+repo_name: elixir-europe-training/ELIXIR-TrP-LessonTemplate-MkDocs
+repo_url: https://github.com/elixir-europe-training/ELIXIR-TrP-LessonTemplate-MkDocs
+edit_uri: edit/main/docs/
+
+plugins:
+  - tags:
+      tags_file: keywords.md
+  - search
+  - bibtex:
+      bib_file: "references.bib"
+  - mkdocs-video # embed videos to the docs
+
+  
+# Footer
+copyright: By the ELIXIR Training Platform
+
+markdown_extensions:
+  - abbr
+  - def_list
+  - footnotes
+  - tables
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - sane_lists
+  - smarty
+  - toc:
+      toc_depth: 3
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  - neoteroi.cards
+
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/neoteroi-mkdocs.css
+
