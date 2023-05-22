@@ -10,7 +10,7 @@ Greek Mythology icons made by [max.icons](https://www.flaticon.com/authors/maxic
 
 !!! overview ""
     :fontawesome-regular-bookmark: **Description**  
-    This is the FAIR lesson plan. Add a short description of the training materail should be inserted here.
+    Are you a trainer and looking for material on teaching researchers or your peers (trainers, data stewards, policy makers etc.) on FAIR data? Do you want community help in creating inspiring FAIR data lessons? Then this FAIR Lesson Plan handbook might be of use, providing you guidance on teaching about FAIR data to integrate in your organisation's curriculum. Note that the FAIR lesson Plan handbook is still under development, as part of various hackathons-style events that have been organised with the (beyond life sciences) community since June 2022. The FAIR Lesson Plan Handbook is an initiative of ELIXIR (https://elixir-europe.org/), and is based on the FAIRsFAIR Teaching Handbook (https://fairsfair.gitbook.io/fair-teaching-handbook/) and its lesson plans (https://fairsfair.gitbook.io/fair-teaching-handbook/0lessonplans). Add a short description of the training materail should be inserted here.
     
     
     </br>
