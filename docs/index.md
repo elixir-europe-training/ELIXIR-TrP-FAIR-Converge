@@ -24,9 +24,7 @@ Greek Mythology icons made by [max.icons](https://www.flaticon.com/authors/maxic
     </br>
     
     :fontawesome-solid-arrow-right: **Learning Outcomes:**  
-    By the end of the course, learners will be able to:  
-    &emsp;1. First item  
-    &emsp;2. Second item  
+    The FAIR Lesson Plans in this handbook have various learning outcomes. Make sure to check the individual lesson plans for information on learning outcomes
     
     </br>
     
