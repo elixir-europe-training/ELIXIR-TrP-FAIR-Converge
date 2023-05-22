@@ -9,9 +9,9 @@ Greek Mythology icons made by [max.icons](https://www.flaticon.com/authors/maxic
 ## Lesson overview
 
 !!! overview ""
-    :fontawesome-regular-bookmark: **Since June 2022, in ELIXIR-CONVERGE, hackathons-style events have been organised with the (beyond life sciences) community to develop FAIR lesson plans. Community-led, open lesson plans originate from the 2021 FAIRsFAIR training handbook, addressing competencies, training designs and 16 lesson plans. 
-**  
-    Add a short description of the training materail should be inserted here. 
+    :fontawesome-regular-bookmark: **Description**  
+    Add a short description of the training materail should be inserted here. Since June 2022, in ELIXIR-CONVERGE, hackathons-style events have been organised with the (beyond life sciences) community to develop FAIR lesson plans. Community-led, open lesson plans originate from the 2021 FAIRsFAIR training handbook, addressing competencies, training designs and 16 lesson plans. 
+
     
     </br>
     
