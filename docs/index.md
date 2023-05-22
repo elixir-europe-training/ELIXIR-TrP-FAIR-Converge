@@ -12,17 +12,14 @@ Greek Mythology icons made by [max.icons](https://www.flaticon.com/authors/maxic
     :fontawesome-regular-bookmark: **Description**  
     Are you a trainer and looking for material on teaching researchers or your peers (trainers, data stewards, policy makers etc.) on FAIR data? Do you want community help in creating inspiring FAIR data lessons? Then this FAIR Lesson Plan handbook might be of use, providing you guidance on teaching about FAIR data to integrate in your organisation's curriculum. 
     
-    Note that the FAIR lesson Plan handbook is still under development, as part of various hackathons-style events that have been organised with the (beyond life sciences) community since June 2022. 
-    
-    The FAIR Lesson Plan Handbook is an initiative of [ELIXIR](https://elixir-europe.org/), and is based on the [FAIRsFAIR Teaching Handbook](https://fairsfair.gitbook.io/fair-teaching-handbook/) and its [FAIR lesson plans](https://fairsfair.gitbook.io/fair-teaching-handbook/0lessonplans).
+    Note that the FAIR lesson Plan handbook is still under development, as part of various hackathons-style events that have been organised with the (beyond life sciences) community since June 2022. The FAIR Lesson Plan Handbook is an initiative of [ELIXIR](https://elixir-europe.org/), and is based on the [FAIRsFAIR Teaching Handbook](https://fairsfair.gitbook.io/fair-teaching-handbook/) and its [FAIR lesson plans](https://fairsfair.gitbook.io/fair-teaching-handbook/0lessonplans).
     
     
     </br>
     
     :fontawesome-solid-arrow-left: **Prerequisites**  
-    To be able to follow this course, learners should have knowledge in:  
-    &emsp;1. First requirement  
-    &emsp;2. Second requirement  
+    The FAIR Lesson Plans in this handbook have various audiences and learning levels. Make sure to check the individual lesson plans for information on prerequisites.  
+  
     
     </br>
     
