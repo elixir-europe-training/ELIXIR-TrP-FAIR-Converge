@@ -12,6 +12,7 @@ Greek Mythology icons made by [max.icons](https://www.flaticon.com/authors/maxic
     :fontawesome-regular-bookmark: **Description**  
     Add a short description of the training materail should be inserted here.
     
+    
     </br>
     
     :fontawesome-solid-arrow-left: **Prerequisites**  
