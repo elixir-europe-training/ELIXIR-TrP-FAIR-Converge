@@ -25,5 +25,5 @@ Note that the FAIR lesson Plan handbook is still under development, as part of v
 
 #### Contributors
 
-[cards class_name="contributors" cols="6"(./docs/assets/cards/contributor_cards.yaml)]
+[cards class_name="contributors" cols="4"(./docs/assets/cards/contributor_cards.yaml)]
 Greek Mythology icons made by [max.icons](https://www.flaticon.com/authors/maxicons) from [www.flaticon.com](www.flaticon.com)

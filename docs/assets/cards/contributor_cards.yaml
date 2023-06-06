@@ -1,35 +1,11 @@
-- title: Artemis
+- title: "Minna Ahokas"
   content: |
-    [:custom-orcid:](https://orcid.org/) [:simple-github:](https://github.com/) [:simple-linkedin:](https://linkedin.com/)<br>
-    Lorem ipsum dolor sit amet.
-  image: ./assets/images/cards/021-artemis.png
+    [:custom-orcid:](https://orcid.org/0000-0003-2313-0011)
 
-- title: Ares
+- title: "Siri Fuchsi"
   content: |
-    [:custom-orcid:](https://orcid.org/) [:simple-github:](https://github.com/) [:simple-linkedin:](https://linkedin.com/)<br>
-    Lorem ipsum dolor sit amet.
-  image: ./assets/images/cards/006-ares.png
+    [:custom-orcid:](https://orcid.org/0000-0003-1391-9959)
 
-- title: Nike
+- title: "Vilem Ded"
   content: |
-    [:custom-orcid:](https://orcid.org/) [:simple-github:](https://github.com/) [:simple-linkedin:](https://linkedin.com/)<br>
-    Lorem ipsum dolor sit amet.
-  image: ./assets/images/cards/027-nike.png
-
-- title: Prometheus
-  content: |
-    [:custom-orcid:](https://orcid.org/) [:simple-github:](https://github.com/) [:simple-linkedin:](https://linkedin.com/)<br>
-    Lorem ipsum dolor sit amet.
-  image: ./assets/images/cards/019-prometheus.png
-
-- title: Perseus
-  content: |
-    [:custom-orcid:](https://orcid.org/) [:simple-github:](https://github.com/) [:simple-linkedin:](https://linkedin.com/)<br>
-    Lorem ipsum dolor sit amet.
-  image: ./assets/images/cards/025-perseus.png
-
-- title: Hercules
-  content: |
-    [:custom-orcid:](https://orcid.org/) [:simple-github:](https://github.com/) [:simple-linkedin:](https://linkedin.com/)<br>
-    Lorem ipsum dolor sit amet.
-  image: ./assets/images/cards/042-hercules.png 
+    [:custom-orcid:](https://orcid.org/0000-0001-9235-8496)

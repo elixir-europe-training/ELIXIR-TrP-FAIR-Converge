@@ -1,4 +1,21 @@
-## Topic, definition and scope
+---
+template: 'lesson-plan.html'
+authors:
+  - orcid: "0000-0003-2313-0011"
+    name: "Minna Ahokas"
+
+  - orcid: "0000-0003-1391-9959"
+    name: "Siiri Fuchs"
+
+  - orcid: "0000-0001-9235-8496"
+    name: "Vilem Ded"
+
+reviewers:
+  - orcid: "0000-0002-7702-4495"
+    name: "Allyson Lister"
+--- 
+
+## Topic, definition and scopes
 * Research data in the institutional policy framework.
 * Benefits of FAIR data management at institutional level.
 * Implementing and adopting the FAIR principles at the institutional level.
@@ -72,19 +89,9 @@
 * Science Europe. (2021). Practical Guide to the International Alignment of Research Data Management - Extended Edition. [https://doi.org/10.5281/zenodo.4915862](https://doi.org/10.5281/zenodo.4915862)
 * Davidson, Joy, Grootveld, Marjan, Verburg, Maaike, van Horik, René, O'Connor, Ryan, Engelhardt, Claudia, Garbuglia, Federica, Vieira, André, Newbold, Elizabeth, Proudman, Vanessa, & Horton, Laurence. (2022). FAIR-enabling Data Policy Checklist (1.0). Zenodo. [https://doi.org/10.5281/zenodo.6225775](https://doi.org/10.5281/zenodo.6225775)  
 
-
+ 
 
 ## Take home tasks/preparation
 * Review an existing institutional data policy and assess the adoption FAIR principles.
 * Recognize relevant stakeholders at your institution who should be involved with making and implementing the data policy.
 * Draft a FAIR data policy for a specific use case. You can use the FAIR data policy description checklist to help ([DCC news item](https://dcc.ac.uk/blog/fairsharing-and-dcc-collaborate-align-policy-metadata), [FAIRsharing news item](https://blog.fairsharing.org/?p=451)).
-
-
-
-=== "Authors"
-    * Minna Ahokas (ORCID: 0000-0003-2313-0011)
-    * Siiri Fuchs (ORCID: 0000-0003-1391-9959)
-    * Vilem Ded (ORCID: 0000-0001-9235-8496)
-
-=== "Reviewers"
-    * Allyson Lister (https://orcid.org/0000-0002-7702-4495) 
