@@ -1,12 +1,15 @@
-site_name: ELIXIR Training Lesson
+site_name: ELIXIR FAIR Lesson Plans
 nav:
     - About: index.md
-    - Course Content:
-      - "1. title of first chapter": chapters/chapter_01.md
-      - "2. title of second chapter": chapters/chapter_02.md
-      - "References": chapters/references.md
-    - "Follow up training": follow_up_training.md
-
+    - Units:
+      - "1. FAIR generics": 
+        - "Overview": 'units/unit-1/index.md'
+        - "1.4 FAIR and/in institutional data policies": 'units/unit-1/topics/topic-4.md'
+      # - "2. Findable data": 'units/unit-1/index.md'
+      # - "3. Accessible data": 'units/unit-1/index.md'
+      # - "4. Interoperable data": 'units/unit-1/index.md'
+      # - "5. Reusable data": 'units/unit-1/index.md'
+      # - "6. FAIR software": 'units/unit-1/index.md'
 theme:
   name: material
   logo: assets/images/white-orange-logo.png
@@ -20,8 +23,8 @@ theme:
     text: Lato
 
 # Repository
-repo_name: elixir-europe-training/ELIXIR-TrP-LessonTemplate-MkDocs
-repo_url: https://github.com/elixir-europe-training/ELIXIR-TrP-LessonTemplate-MkDocs
+repo_name: elixir-europe-training/ELIXIR-TrP-FAIR-Converge
+repo_url: https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-Converge
 edit_uri: edit/main/docs/
 
 plugins:
@@ -50,7 +53,8 @@ markdown_extensions:
       toc_depth: 3
   - pymdownx.superfences
   - attr_list
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: true 
   - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
