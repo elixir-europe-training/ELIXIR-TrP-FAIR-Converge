@@ -21,6 +21,8 @@ reviewers:
     name: "Allyson Lister"
 --- 
 
+## Topic 1.1 Why FAIR?
+
 ## [terms4FAIRskills](https://terms4fairskills.github.io/)
 [researcher](http://purl.obolibrary.org/obo/T4FS_0000220) [wants competency in](http://purl.obolibrary.org/obo/T4FS_0000558) [fair training](http://purl.obolibrary.org/obo/T4FS_0000259), [knowledge of theories underlying fair implementation](http://purl.obolibrary.org/obo/T4FS_0000490)</br>
 
