@@ -60,7 +60,7 @@ reviewers:
 
 ---
 
-##Learning outcomes
+## Learning outcomes
 
 After this lesson students:
 
