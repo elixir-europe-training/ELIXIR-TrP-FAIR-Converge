@@ -21,6 +21,8 @@ reviewers:
     name: "NN"
 --- 
 
+## Topic 1.3 Data Life Cycle approach to FAIR/FAIR right from the start
+
 ## [terms4FAIRskills](https://terms4fairskills.github.io/)
 
 [Data steward](http://purl.obolibrary.org/obo/T4FS_0000178), [researcher](http://purl.obolibrary.org/obo/T4FS_0000220), [data custodian](http://purl.obolibrary.org/obo/T4FS_0000276) [wants competency in](http://purl.obolibrary.org/obo/T4FS_0000558) [data management](http://purl.obolibrary.org/obo/T4FS_0000141), [data governance](http://purl.obolibrary.org/obo/T4FS_0000458), [knowledge of theories underlying fair implementation](http://purl.obolibrary.org/obo/T4FS_0000490)
