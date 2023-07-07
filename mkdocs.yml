@@ -2,7 +2,7 @@ site_name: ELIXIR FAIR Lesson Plans
 nav:
     - About: index.md
     - Units:
-      - 1. FAIR generics: 
+      - "1. FAIR generics": 
         - "Overview": 'units/unit-1/topics/index.md'
         - "1.1 Why FAIR?": 'units/unit-1/topics/topic-1.md'
         - "1.2 FAIR vs open data (science)": 'units/unit-1/topics/topic-2.md'
