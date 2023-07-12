@@ -1,4 +1,5 @@
 ---
+title: Persistent identifiers (PIDs)
 template: 'lesson-plan.html'
 authors:
   - orcid: "0000-0002-7702-4495"
@@ -14,21 +15,26 @@ authors:
     name: "Mijke Jetten"
 
 reviewers:
-  - orcid: "XXXX-XXXX-XXXX-XXXX"
-    name: "NN"
 --- 
-
-## Topic 2.3 Persistent identifiers (PIDs)
 
 [terms4FAIRskills](https://terms4fairskills.github.io/)
 
 [Data steward](http://purl.obolibrary.org/obo/T4FS_0000178), [data curator](http://purl.obolibrary.org/obo/T4FS_0000492), [data librarian](http://purl.obolibrary.org/obo/T4FS_0000202), [data manager](http://purl.obolibrary.org/obo/T4FS_0000520), [researcher](http://purl.obolibrary.org/obo/T4FS_0000220) [wants competency in](http://purl.obolibrary.org/obo/T4FS_0000558) [understanding persistent identifiers](http://purl.obolibrary.org/obo/T4FS_0000492), [data discovery](http://purl.obolibrary.org/obo/T4FS_0000076), [data citation](http://purl.obolibrary.org/obo/T4FS_0000302)
 
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [confers competency about](http://purl.obolibrary.org/obo/T4FS_0000554) [understanding persistent identifiers](http://purl.obolibrary.org/obo/T4FS_0000492), [data discovery](http://purl.obolibrary.org/obo/T4FS_0000076), [data citation](http://purl.obolibrary.org/obo/T4FS_0000302)
 
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [confers knowledge about](http://purl.obolibrary.org/obo/T4FS_0000555) [persistent identifier](http://purl.obolibrary.org/obo/T4FS_0000453), [citable data](http://purl.obolibrary.org/obo/T4FS_0000250) 
+        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+          label: Online documentation
+ [confers competency about](http://purl.obolibrary.org/obo/T4FS_0000554) [understanding persistent identifiers](http://purl.obolibrary.org/obo/T4FS_0000492), [data discovery](http://purl.obolibrary.org/obo/T4FS_0000076), [data citation](http://purl.obolibrary.org/obo/T4FS_0000302)
 
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [supports implementation of](http://purl.obolibrary.org/obo/T4FS_0000560) [F1. (meta)data are assigned a globally unique and persistent identifier](http://purl.obolibrary.org/obo/T4FS_0000512), [F3. metadata clearly and explicitly include the identifier of the data they describe](http://purl.obolibrary.org/obo/T4FS_0000435), [A1. (meta)data are retrievable by their identifier using a standardised communications protocol](http://purl.obolibrary.org/obo/T4FS_0000038) 
+
+        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+          label: Online documentation
+ [confers knowledge about](http://purl.obolibrary.org/obo/T4FS_0000555) [persistent identifier](http://purl.obolibrary.org/obo/T4FS_0000453), [citable data](http://purl.obolibrary.org/obo/T4FS_0000250) 
+
+
+        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+          label: Online documentation
+ [supports implementation of](http://purl.obolibrary.org/obo/T4FS_0000560) [F1. (meta)data are assigned a globally unique and persistent identifier](http://purl.obolibrary.org/obo/T4FS_0000512), [F3. metadata clearly and explicitly include the identifier of the data they describe](http://purl.obolibrary.org/obo/T4FS_0000435), [A1. (meta)data are retrievable by their identifier using a standardised communications protocol](http://purl.obolibrary.org/obo/T4FS_0000038) 
 
 
 ## Topic, definition and scope
@@ -145,13 +151,13 @@ reviewers:
 * The benefits of assigning PIDs are numerous:
     * Disambiguation (e.g. between two researchers who have the same first and last names, using their ORCID ID)
     * Increase research citation and reach of research outputs
-    * Contribute to making research data FAIR (see section “FAIR element(s) (F, A, I and/or R)”  for more details)
+    * Contribute to making research data FAIR (see section “FAIR element(s)”  for more details)
     * Permanent identifiability/referencability/linkage of scientific output/people/institutions/funders
 
 
 ---
 
-## FAIR element(s) (F, A, I and/or R)
+## FAIR element(s)
 
 (from the FAIR data maturity model: [https://doi.org/10.5334/dsj-2020-041](https://doi.org/10.5334/dsj-2020-041))
 
@@ -220,7 +226,7 @@ reviewers:
       * Resolve to the landing page of the repository showing metadata: [https://zenodo.org/record/3333025](https://zenodo.org/record/3333025). “Real” data can be downloaded from this page.
     * Enabling compute workflows (e.g. [https://doi.org/10.12688/f1000research.12168.1](https://doi.org/10.12688/f1000research.12168.1))
     * Identifying (chunks) of code
-  4. Show the importance of PIDs for FAIR data by referring to the FAIR elements mentioned in the section “FAIR element(s) (F, A, I and/or R)”.
+  4. Show the importance of PIDs for FAIR data by referring to the FAIR elements mentioned in the section “FAIR element(s)”.
   5. How to use PIDs to access research data and other resources?
     * Dataset (e.g. DOI: 10.5281/zenodo.3333025)
     * Text publication (e.g. DOI: 10.5281/zenodo.6674301)

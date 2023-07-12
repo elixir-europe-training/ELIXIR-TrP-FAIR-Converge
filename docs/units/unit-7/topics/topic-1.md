@@ -1,4 +1,5 @@
 ---
+title: Data Repositories and FAIR
 template: 'lesson-plan.html'
 authors:
   - orcid: "0000-0002-7159-1448"
@@ -22,17 +23,24 @@ reviewers:
 
 --- 
 
-## Topic 7.1 Data Repositories and FAIR
-
 [terms4FAIRskills](https://terms4fairskills.github.io/)
 
 [Data steward](http://purl.obolibrary.org/obo/T4FS_0000178), [data manager](http://purl.obolibrary.org/obo/T4FS_0000520), [data scientist](http://purl.obolibrary.org/obo/TF4S_0000566), [researcher](http://purl.obolibrary.org/obo/T4FS_0000220) [wants competency in](http://purl.obolibrary.org/obo/T4FS_0000558) [data discovery](http://purl.obolibrary.org/obo/T4FS_0000076), [knowledge to choose fair data handling approaches appropriate to the research phenomena](http://purl.obolibrary.org/obo/T4FS_0000367), [understanding persistent identifiers](http://purl.obolibrary.org/obo/T4FS_0000492), [knowledge of theories underlying fair implementation](http://purl.obolibrary.org/obo/T4FS_0000490), [data sharing](http://purl.obolibrary.org/obo/T4FS_0000482)
 
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [confers competency about](http://purl.obolibrary.org/obo/T4FS_0000554) [data discovery](http://purl.obolibrary.org/obo/T4FS_0000076), [knowledge to choose fair data handling approaches appropriate to the research phenomena](http://purl.obolibrary.org/obo/T4FS_0000367), [understanding persistent identifiers](http://purl.obolibrary.org/obo/T4FS_0000492), [knowledge of theories underlying fair implementation](http://purl.obolibrary.org/obo/T4FS_0000490), [data sharing](http://purl.obolibrary.org/obo/T4FS_0000482)
 
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [confers knowledge about](http://purl.obolibrary.org/obo/T4FS_0000555) [metadata](http://purl.obolibrary.org/obo/T4FS_0000527), [standard](http://purl.obolibrary.org/obo/T4FS_0000381), [persistent identifier](http://purl.obolibrary.org/obo/T4FS_0000453), [repository](http://purl.obolibrary.org/obo/T4FS_0000489), [citable data](http://purl.obolibrary.org/obo/T4FS_0000250), [access](http://purl.obolibrary.org/obo/T4FS_0000283)
+        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+          label: Online documentation
+ [confers competency about](http://purl.obolibrary.org/obo/T4FS_0000554) [data discovery](http://purl.obolibrary.org/obo/T4FS_0000076), [knowledge to choose fair data handling approaches appropriate to the research phenomena](http://purl.obolibrary.org/obo/T4FS_0000367), [understanding persistent identifiers](http://purl.obolibrary.org/obo/T4FS_0000492), [knowledge of theories underlying fair implementation](http://purl.obolibrary.org/obo/T4FS_0000490), [data sharing](http://purl.obolibrary.org/obo/T4FS_0000482)
 
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [supports implementation of](http://purl.obolibrary.org/obo/T4FS_0000560) the —?
+
+        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+          label: Online documentation
+ [confers knowledge about](http://purl.obolibrary.org/obo/T4FS_0000555) [metadata](http://purl.obolibrary.org/obo/T4FS_0000527), [standard](http://purl.obolibrary.org/obo/T4FS_0000381), [persistent identifier](http://purl.obolibrary.org/obo/T4FS_0000453), [repository](http://purl.obolibrary.org/obo/T4FS_0000489), [citable data](http://purl.obolibrary.org/obo/T4FS_0000250), [access](http://purl.obolibrary.org/obo/T4FS_0000283)
+
+
+        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+          label: Online documentation
+ [supports implementation of](http://purl.obolibrary.org/obo/T4FS_0000560) the —?
 
 
 ## Topic, definition and scope
@@ -59,7 +67,7 @@ reviewers:
 
 ---
 
-## FAIR element(s) (F, A, I and/or R)
+## FAIR element(s)
 
 
 

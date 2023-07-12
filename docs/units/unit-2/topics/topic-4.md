@@ -1,4 +1,5 @@
 ---
+title: Metadata standards
 template: 'lesson-plan.html'
 authors:
   - orcid: "0000-0003-1378-5495"
@@ -11,22 +12,26 @@ authors:
     name: "Pascal de Boer"
 
 reviewers:
-  - orcid: "XXXX-XXXX-XXXX-XXXX"
-    name: "NN"
 --- 
-
-
-## Topic 2.4 Metadata standards
 
 [terms4FAIRskills](https://terms4fairskills.github.io/) 
 
 [Data steward](http://purl.obolibrary.org/obo/T4FS_0000178), [data curator](http://purl.obolibrary.org/obo/T4FS_0000492), [data librarian](http://purl.obolibrary.org/obo/T4FS_0000202), [data manager](http://purl.obolibrary.org/obo/T4FS_0000520), [researcher](http://purl.obolibrary.org/obo/T4FS_0000220) [wants competency in](http://purl.obolibrary.org/obo/T4FS_0000558) [knowledge of theories underlying fair implementation](http://purl.obolibrary.org/obo/T4FS_0000490), [data sharing](http://purl.obolibrary.org/obo/T4FS_0000482)
 
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [confers competency about](http://purl.obolibrary.org/obo/T4FS_0000554) [knowledge of theories underlying fair implementation](http://purl.obolibrary.org/obo/T4FS_0000490), [data sharing](http://purl.obolibrary.org/obo/T4FS_0000482), [choosing the appropriate model or format for your data](http://purl.obolibrary.org/obo/T4FS_0000401), [choosing the appropriate reporting guideline for your data](http://purl.obolibrary.org/obo/T4FS_0000011), [choosing the appropriate terminology for your data](http://purl.obolibrary.org/obo/T4FS_0000294)
 
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [confers knowledge about](http://purl.obolibrary.org/obo/T4FS_0000554) [metadata](http://purl.obolibrary.org/obo/T4FS_0000527), [standard](http://purl.obolibrary.org/obo/T4FS_0000381), [record standardisation](http://purl.obolibrary.org/obo/T4FS_0000094), [semantic interoperability](http://purl.obolibrary.org/obo/T4FS_0000188)
+        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+          label: Online documentation
+ [confers competency about](http://purl.obolibrary.org/obo/T4FS_0000554) [knowledge of theories underlying fair implementation](http://purl.obolibrary.org/obo/T4FS_0000490), [data sharing](http://purl.obolibrary.org/obo/T4FS_0000482), [choosing the appropriate model or format for your data](http://purl.obolibrary.org/obo/T4FS_0000401), [choosing the appropriate reporting guideline for your data](http://purl.obolibrary.org/obo/T4FS_0000011), [choosing the appropriate terminology for your data](http://purl.obolibrary.org/obo/T4FS_0000294)
 
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [supports implementation of](http://purl.obolibrary.org/obo/T4FS_0000560) [FAIR Principles](http://purl.obolibrary.org/obo/T4FS_0000447)
+
+        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+          label: Online documentation
+ [confers knowledge about](http://purl.obolibrary.org/obo/T4FS_0000554) [metadata](http://purl.obolibrary.org/obo/T4FS_0000527), [standard](http://purl.obolibrary.org/obo/T4FS_0000381), [record standardisation](http://purl.obolibrary.org/obo/T4FS_0000094), [semantic interoperability](http://purl.obolibrary.org/obo/T4FS_0000188)
+
+
+        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+          label: Online documentation
+ [supports implementation of](http://purl.obolibrary.org/obo/T4FS_0000560) [FAIR Principles](http://purl.obolibrary.org/obo/T4FS_0000447)
 
 
 ## Topic, definition, and scope
@@ -54,7 +59,7 @@ Topics to be covered in the lesson plan:
 
 ---
 
-## FAIR element(s) (F, A, I and/or R)
+## FAIR element(s)
 
 
 

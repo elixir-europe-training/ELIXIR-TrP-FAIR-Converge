@@ -1,4 +1,5 @@
 ---
+title: FAIR vs open data (science)
 template: 'lesson-plan.html'
 authors:
   - orcid: "0000-0003-2043-0772"
@@ -15,16 +16,23 @@ reviewers:
     name: "Diana Pilvar"
 --- 
 
-## Topic 1.2 FAIR vs open data (science)
-
 [terms4FAIRskills](https://terms4fairskills.github.io/)
 [Data steward](http://purl.obolibrary.org/obo/T4FS_0000178), [researcher](http://purl.obolibrary.org/obo/T4FS_0000220), [manager](http://purl.obolibrary.org/obo/T4FS_0000415), [trainer/teacher](http://purl.obolibrary.org/obo/T4FS_0000122) [wants competency in](http://purl.obolibrary.org/obo/T4FS_0000558) [flexibility in relating fair criteria to openness](http://purl.obolibrary.org/obo/T4FS_0000293), [data sharing](http://purl.obolibrary.org/obo/T4FS_0000482)
 
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [confers competency about](http://purl.obolibrary.org/obo/T4FS_0000554) [flexibility in relating fair criteria to openness](http://purl.obolibrary.org/obo/T4FS_0000293), [data sharing](http://purl.obolibrary.org/obo/T4FS_0000482)
 
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [confers knowledge about](http://purl.obolibrary.org/obo/T4FS_0000555) [open data](http://purl.obolibrary.org/obo/T4FS_0000264), [access](http://purl.obolibrary.org/obo/T4FS_0000283)
+        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+          label: Online documentation
+ [confers competency about](http://purl.obolibrary.org/obo/T4FS_0000554) [flexibility in relating fair criteria to openness](http://purl.obolibrary.org/obo/T4FS_0000293), [data sharing](http://purl.obolibrary.org/obo/T4FS_0000482)
 
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [supports implementation of](http://purl.obolibrary.org/obo/T4FS_0000560) [F4. (meta)data are registered or indexed in a searchable resource](http://purl.obolibrary.org/obo/T4FS_0000393), [A1.1 The protocol is open, free, and universally implementable](http://purl.obolibrary.org/obo/T4FS_0000103), [A1.2 The protocol allows for an authentication and authorisation procedure, where necessary](http://purl.obolibrary.org/obo/T4FS_0000371), [R1.1: (Meta)data are released with a clear and accessible data usage license](http://purl.obolibrary.org/obo/T4FS_0000200)
+
+        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+          label: Online documentation
+ [confers knowledge about](http://purl.obolibrary.org/obo/T4FS_0000555) [open data](http://purl.obolibrary.org/obo/T4FS_0000264), [access](http://purl.obolibrary.org/obo/T4FS_0000283)
+
+
+        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+          label: Online documentation
+ [supports implementation of](http://purl.obolibrary.org/obo/T4FS_0000560) [F4. (meta)data are registered or indexed in a searchable resource](http://purl.obolibrary.org/obo/T4FS_0000393), [A1.1 The protocol is open, free, and universally implementable](http://purl.obolibrary.org/obo/T4FS_0000103), [A1.2 The protocol allows for an authentication and authorisation procedure, where necessary](http://purl.obolibrary.org/obo/T4FS_0000371), [R1.1: (Meta)data are released with a clear and accessible data usage license](http://purl.obolibrary.org/obo/T4FS_0000200)
 
 
 ## Topic, definition and scope**
@@ -59,7 +67,7 @@ Initiatives, external resources (some beginner resources, but mostly extra mater
 
 ---
 
-## FAIR element(s) (F, A, I and/or R)
+## FAIR element(s)
 
 **Findable** - for you to participate in Open Science, you need to put your research somewhere.  \
 

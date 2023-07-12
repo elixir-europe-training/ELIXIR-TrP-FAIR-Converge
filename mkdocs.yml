@@ -3,7 +3,7 @@ nav:
     - About: index.md
     - Units:
       - "1. FAIR generics": 
-        - "Overview": 'units/unit-1/topics/index.md'
+        - "Overview": 'units/unit-1/index.md'
         - "1.1 Why FAIR?": 'units/unit-1/topics/topic-1.md'
         - "1.2 FAIR vs open data (science)": 'units/unit-1/topics/topic-2.md'
         - "1.3 Data Life Cycle approach to FAIR/FAIR right from the start": 'units/unit-1/topics/topic-3.md'

@@ -1,4 +1,5 @@
 ---
+title: Data/Repository discovery
 template: 'lesson-plan.html'
 authors:
   - orcid: "0000-0001-6675-4639"
@@ -12,17 +13,24 @@ reviewers:
     name: "Anne-Françoise Adam-Blondon"
 --- 
 
-## Topic 2.1 Data/Repository discovery
-
 [terms4FAIRskills](https://terms4fairskills.github.io/)
 
 [Data steward](http://purl.obolibrary.org/obo/T4FS_0000178), [data manager](http://purl.obolibrary.org/obo/T4FS_0000520), [researcher](http://purl.obolibrary.org/obo/T4FS_0000220) [wants competency in](http://purl.obolibrary.org/obo/T4FS_0000558) [data discovery](http://purl.obolibrary.org/obo/T4FS_0000076), [data citation](http://purl.obolibrary.org/obo/T4FS_0000302)
 
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [confers competency about](http://purl.obolibrary.org/obo/T4FS_0000554) [data discovery](http://purl.obolibrary.org/obo/T4FS_0000076), [data citation](http://purl.obolibrary.org/obo/T4FS_0000302)
 
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [confers knowledge about](http://purl.obolibrary.org/obo/T4FS_0000555) [repository](http://purl.obolibrary.org/obo/T4FS_0000489), [citable data](http://purl.obolibrary.org/obo/T4FS_0000250), [data lifecycle](http://purl.obolibrary.org/obo/T4FS_0000213), [metadata](http://purl.obolibrary.org/obo/T4FS_0000527), [access](http://purl.obolibrary.org/obo/T4FS_0000283)
+        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+          label: Online documentation
+ [confers competency about](http://purl.obolibrary.org/obo/T4FS_0000554) [data discovery](http://purl.obolibrary.org/obo/T4FS_0000076), [data citation](http://purl.obolibrary.org/obo/T4FS_0000302)
 
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [supports implementation of](http://purl.obolibrary.org/obo/T4FS_0000560) [the FAIR Principles](http://purl.obolibrary.org/obo/T4FS_0000447)
+
+        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+          label: Online documentation
+ [confers knowledge about](http://purl.obolibrary.org/obo/T4FS_0000555) [repository](http://purl.obolibrary.org/obo/T4FS_0000489), [citable data](http://purl.obolibrary.org/obo/T4FS_0000250), [data lifecycle](http://purl.obolibrary.org/obo/T4FS_0000213), [metadata](http://purl.obolibrary.org/obo/T4FS_0000527), [access](http://purl.obolibrary.org/obo/T4FS_0000283)
+
+
+        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+          label: Online documentation
+ [supports implementation of](http://purl.obolibrary.org/obo/T4FS_0000560) [the FAIR Principles](http://purl.obolibrary.org/obo/T4FS_0000447)
 
 
 ## Topic, definition and scope
@@ -35,7 +43,7 @@ Image: [https://phaidra.univie.ac.at/download/o:1201054](https://phaidra.univie.
 
 ---
 
-## FAIR element(s) (F, A, I and/or R)
+## FAIR element(s)
 
 * Findable: Data should be available in a discoverable resource (i.e. repository), have appropriate description (i.e. metadata) and have a persistent identifier (PID)
 * Accessible: Data should be retrievable and understandable for both humans and machines

@@ -1,4 +1,5 @@
 ---
+title: FAIR Data visiting
 template: 'lesson-plan.html'
 authors:
   - orcid: "XXXX-XXXX-XXXX-XXXX"
@@ -8,11 +9,7 @@ authors:
     name: "Bruna"
 
 reviewers:
-  - orcid: "XXXX-XXXX-XXXX-XXXX"
-    name: "NN"
 --- 
-
-## Topic 5.1 FAIR Data visiting
 
 ## Topic, definition and scope
 
@@ -25,7 +22,7 @@ reviewers:
 
 ---
 
-## FAIR element(s) (F, A, I and/or R)
+## FAIR element(s)
 
 
 

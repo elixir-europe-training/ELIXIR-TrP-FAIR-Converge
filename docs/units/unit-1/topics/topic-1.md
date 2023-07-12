@@ -1,4 +1,5 @@
 ---
+title: Why FAIR?
 template: 'lesson-plan.html'
 authors:
   - orcid: "0000-0001-6675-4639"
@@ -13,15 +14,12 @@ authors:
   - orcid: "0000-0002-2613-5953"
     name: "Marta Kargó"
 
-  - orcid: "XXXX-XXXX-XXXX-XXXX"
-    name: "Reinier Dickhout"
+  - name: "Reinier Dickhout"
 
 reviewers:
   - orcid: "0000-0002-7702-4495"
     name: "Allyson Lister"
 --- 
-
-## Topic 1.1 Why FAIR?
 
 ## [terms4FAIRskills](https://terms4fairskills.github.io/)
 [researcher](http://purl.obolibrary.org/obo/T4FS_0000220) [wants competency in](http://purl.obolibrary.org/obo/T4FS_0000558) [fair training](http://purl.obolibrary.org/obo/T4FS_0000259), [knowledge of theories underlying fair implementation](http://purl.obolibrary.org/obo/T4FS_0000490)</br>
@@ -46,7 +44,7 @@ reviewers:
 
 ---
 
-## FAIR element(s) (F, A, I and/or R)
+## FAIR element(s)
 
 * All FAIR elements
 

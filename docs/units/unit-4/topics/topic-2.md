@@ -1,15 +1,12 @@
 ---
+title: M4M workshop
 template: 'lesson-plan.html'
 authors:
   - orcid: "0000-0001-9114-2896"
     name: "Mijke Jetten"
 
 reviewers:
-  - orcid: "XXXX-XXXX-XXXX-XXXX"
-    name: "NN"
 --- 
-
-## Topic 4.2 M4M workshop
 
 ## Topic, definition and scope
 
@@ -23,7 +20,7 @@ reviewers:
 
 ---
 
-## FAIR element(s) (F, A, I and/or R)
+## FAIR element(s)
 
 
 

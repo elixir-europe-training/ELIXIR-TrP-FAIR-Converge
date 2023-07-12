@@ -34,7 +34,7 @@
 
             <div class="tabbed-content">
                 <div class="tabbed-block">
-                    {% if "authors" in page.meta %}
+                    {% if "authors" in page.meta and page.meta.authors %}
                         <ul>
                             {% for author in page.meta.authors %}
                             <li>
@@ -50,7 +50,7 @@
                     {% endif %}
                 </div>
                 <div class="tabbed-block">
-                    {% if "reviewers" in page.meta %}
+                    {% if "reviewers" in page.meta and page.meta.reviewers %}
                         <ul>
                             {% for reviewer in page.meta.reviewers %}
                             <li>

@@ -1,4 +1,5 @@
 ---
+title: Defining FAIR
 template: 'lesson-plan.html'
 authors:
   - orcid: "XXXX-XXXX-XXXX-XXXX"
@@ -25,19 +26,29 @@ reviewers:
 
 --- 
 
-## Topic 1.5 Defining FAIR
-
 [terms4FAIRskills](https://terms4fairskills.github.io/)
 
 [Data steward](http://purl.obolibrary.org/obo/T4FS_0000178), [data manager](http://purl.obolibrary.org/obo/T4FS_0000520), [principal investigator](http://purl.obolibrary.org/obo/T4FS_0000441), [researcher](http://purl.obolibrary.org/obo/T4FS_0000220) [wants competency in](http://purl.obolibrary.org/obo/T4FS_0000558) [data management](http://purl.obolibrary.org/obo/T4FS_0000141), [develop fair and open research strategy](http://purl.obolibrary.org/obo/T4FS_0000285), [understanding fair and open research challenges in your organization](http://purl.obolibrary.org/obo/T4FS_0000041), [knowledge of theories underlying fair implementation](http://purl.obolibrary.org/obo/T4FS_0000490), [knowledge to choose fair data handling approaches appropriate to the research phenomena](http://purl.obolibrary.org/obo/T4FS_0000367)
 
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [confers competency about] [data management](http://purl.obolibrary.org/obo/T4FS_0000554), [develop fair and open research strategy](http://purl.obolibrary.org/obo/T4FS_0000285), [understanding fair and open research challenges in your organization](http://purl.obolibrary.org/obo/T4FS_0000041), [knowledge of theories underlying fair implementation](http://purl.obolibrary.org/obo/T4FS_0000490), [knowledge to choose fair data handling approaches appropriate to the research phenomena](http://purl.obolibrary.org/obo/T4FS_0000367)
 
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [confers knowledge about](http://purl.obolibrary.org/obo/T4FS_0000555) [data management plan](http://purl.obolibrary.org/obo/T4FS_0000196)
+        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+          label: Online documentation
+ [confers competency about] [data management](http://purl.obolibrary.org/obo/T4FS_0000554), [develop fair and open research strategy](http://purl.obolibrary.org/obo/T4FS_0000285), [understanding fair and open research challenges in your organization](http://purl.obolibrary.org/obo/T4FS_0000041), [knowledge of theories underlying fair implementation](http://purl.obolibrary.org/obo/T4FS_0000490), [knowledge to choose fair data handling approaches appropriate to the research phenomena](http://purl.obolibrary.org/obo/T4FS_0000367)
 
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [supports implementation of](http://purl.obolibrary.org/obo/T4FS_0000560) [the FAIR Principles](http://purl.obolibrary.org/obo/T4FS_0000447)
 
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [demonstrates how to fulfil the requirements for FAIRplus dataset maturity model indicator](http://purl.obolibrary.org/obo/T4FS_0000582)
+        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+          label: Online documentation
+ [confers knowledge about](http://purl.obolibrary.org/obo/T4FS_0000555) [data management plan](http://purl.obolibrary.org/obo/T4FS_0000196)
+
+
+        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+          label: Online documentation
+ [supports implementation of](http://purl.obolibrary.org/obo/T4FS_0000560) [the FAIR Principles](http://purl.obolibrary.org/obo/T4FS_0000447)
+
+
+        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+          label: Online documentation
+ [demonstrates how to fulfil the requirements for FAIRplus dataset maturity model indicator](http://purl.obolibrary.org/obo/T4FS_0000582)
 
 
 ## Topic, definition and scope
@@ -46,7 +57,7 @@ reviewers:
 
 ---
 
-## FAIR element(s) (F, A, I and/or R)
+## FAIR element(s)
 
 * Pre-FAIRification
 * All aspects of FAIR - because this topic is about a project defining the ways in which they are FAIR?

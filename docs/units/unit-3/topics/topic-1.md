@@ -1,4 +1,5 @@
 ---
+title: Access modes, sensitive data, registered access, controlled access
 template: 'lesson-plan.html'
 authors:
   - orcid: "0000-0002-7702-4495"
@@ -11,21 +12,26 @@ authors:
     name: "Nazeefa Fatima"
 
 reviewers:
-  - orcid: "XXXX-XXXX-XXXX-XXXX"
-    name: "NN"
 --- 
-
-## Topic 3.1 Access modes, sensitive data, registered access, controlled access
 
 [terms4FAIRskills](https://terms4fairskills.github.io/)
 
 [Data steward](http://purl.obolibrary.org/obo/T4FS_0000178), [data librarian](http://purl.obolibrary.org/obo/T4FS_0000202), [data manager](http://purl.obolibrary.org/obo/T4FS_0000520), [principal investigator](http://purl.obolibrary.org/obo/T4FS_0000441), [researcher](http://purl.obolibrary.org/obo/T4FS_0000220) [wants competency in](http://purl.obolibrary.org/obo/T4FS_0000558) [information security](http://purl.obolibrary.org/obo/T4FS_0000107), [understand information security challenges](http://purl.obolibrary.org/obo/T4FS_0000124), [understanding fair and open research challenges in your organization](http://purl.obolibrary.org/obo/T4FS_0000041), [authorisation management](http://purl.obolibrary.org/obo/T4FS_0000142)
 
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [confers competency about](http://purl.obolibrary.org/obo/T4FS_0000554) [information security](http://purl.obolibrary.org/obo/T4FS_0000107), [understand information security challenges](http://purl.obolibrary.org/obo/T4FS_0000124), [understanding fair and open research challenges in your organization](http://purl.obolibrary.org/obo/T4FS_0000041), [authorisation management](http://purl.obolibrary.org/obo/T4FS_0000142)
 
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [confers knowledge about](http://purl.obolibrary.org/obo/T4FS_0000555) [access](http://purl.obolibrary.org/obo/T4FS_0000283)
+        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+          label: Online documentation
+ [confers competency about](http://purl.obolibrary.org/obo/T4FS_0000554) [information security](http://purl.obolibrary.org/obo/T4FS_0000107), [understand information security challenges](http://purl.obolibrary.org/obo/T4FS_0000124), [understanding fair and open research challenges in your organization](http://purl.obolibrary.org/obo/T4FS_0000041), [authorisation management](http://purl.obolibrary.org/obo/T4FS_0000142)
 
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [supports implementation of](http://purl.obolibrary.org/obo/T4FS_0000560) [accessibility of digital assets](http://purl.obolibrary.org/obo/T4FS_0000478)
+
+        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+          label: Online documentation
+ [confers knowledge about](http://purl.obolibrary.org/obo/T4FS_0000555) [access](http://purl.obolibrary.org/obo/T4FS_0000283)
+
+
+        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+          label: Online documentation
+ [supports implementation of](http://purl.obolibrary.org/obo/T4FS_0000560) [accessibility of digital assets](http://purl.obolibrary.org/obo/T4FS_0000478)
 
 
 ## Topic, definition and scope
@@ -39,7 +45,7 @@ reviewers:
 
 ---
 
-## FAIR element(s) (F, A, I and/or R)
+## FAIR element(s)
 
 
 

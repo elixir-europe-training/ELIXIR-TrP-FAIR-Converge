@@ -1,18 +1,10 @@
 ---
+title: Findable data
 template: 'lesson-plan.html'
 authors:
-  - orcid: "XXXX-XXXX-XXXX-XXXX"
-    name: "NN"
-
-  - orcid: "XXXX-XXXX-XXXX-XXXX"
-    name: "NN"
 
 reviewers:
-  - orcid: "XXXX-XXXX-XXXX-XXXX"
-    name: "NN"
 --- 
-
-## Topic 2.2 Findable data
 
 ## Topic, definition and scope
 
@@ -21,7 +13,7 @@ reviewers:
 
 ---
 
-## FAIR element(s) (F, A, I and/or R)
+## FAIR element(s)
 
 * Findability
     * F1

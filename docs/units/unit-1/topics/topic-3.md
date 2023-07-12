@@ -1,4 +1,5 @@
 ---
+title: Data Life Cycle approach to FAIR/FAIR right from the start
 template: 'lesson-plan.html'
 authors:
   - orcid: "0000-0002-4437-5504"
@@ -17,21 +18,26 @@ authors:
     name: "Jessica Lindvall"
 
 reviewers:
-  - orcid: "XXXX-XXXX-XXXX-XXXX"
-    name: "NN"
 --- 
-
-## Topic 1.3 Data Life Cycle approach to FAIR/FAIR right from the start
 
 ## [terms4FAIRskills](https://terms4fairskills.github.io/)
 
 [Data steward](http://purl.obolibrary.org/obo/T4FS_0000178), [researcher](http://purl.obolibrary.org/obo/T4FS_0000220), [data custodian](http://purl.obolibrary.org/obo/T4FS_0000276) [wants competency in](http://purl.obolibrary.org/obo/T4FS_0000558) [data management](http://purl.obolibrary.org/obo/T4FS_0000141), [data governance](http://purl.obolibrary.org/obo/T4FS_0000458), [knowledge of theories underlying fair implementation](http://purl.obolibrary.org/obo/T4FS_0000490)
 
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [confers competency about](http://purl.obolibrary.org/obo/T4FS_0000554) [data management](http://purl.obolibrary.org/obo/T4FS_0000141), [data governance](http://purl.obolibrary.org/obo/T4FS_0000458), [knowledge of theories underlying fair implementation](http://purl.obolibrary.org/obo/T4FS_0000490)
 
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [confers knowledge about](http://purl.obolibrary.org/obo/T4FS_0000555) [data lifecycle](http://purl.obolibrary.org/obo/T4FS_0000213)
+        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+          label: Online documentation
+ [confers competency about](http://purl.obolibrary.org/obo/T4FS_0000554) [data management](http://purl.obolibrary.org/obo/T4FS_0000141), [data governance](http://purl.obolibrary.org/obo/T4FS_0000458), [knowledge of theories underlying fair implementation](http://purl.obolibrary.org/obo/T4FS_0000490)
 
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [supports implementation of](http://purl.obolibrary.org/obo/T4FS_0000560) [the FAIR Principles](http://purl.obolibrary.org/obo/T4FS_0000447)
+
+        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+          label: Online documentation
+ [confers knowledge about](http://purl.obolibrary.org/obo/T4FS_0000555) [data lifecycle](http://purl.obolibrary.org/obo/T4FS_0000213)
+
+
+        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+          label: Online documentation
+ [supports implementation of](http://purl.obolibrary.org/obo/T4FS_0000560) [the FAIR Principles](http://purl.obolibrary.org/obo/T4FS_0000447)
 
 
 ## Topic, definition and scope
@@ -41,7 +47,7 @@ reviewers:
 
 ---
 
-## FAIR element(s) (F, A, I and/or R)
+## FAIR element(s)
 
 All FAIR elements
 

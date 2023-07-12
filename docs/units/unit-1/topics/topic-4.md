@@ -1,4 +1,5 @@
 ---
+title: FAIR and/in institutional data policies
 template: 'lesson-plan.html'
 authors:
   - orcid: "0000-0003-2313-0011"
@@ -14,8 +15,6 @@ reviewers:
   - orcid: "0000-0002-7702-4495"
     name: "Allyson Lister"
 --- 
-
-## Topic 1.4 FAIR and/in institutional data policies
 
 ## Topic, definition and scopes
 * Research data in the institutional policy framework.

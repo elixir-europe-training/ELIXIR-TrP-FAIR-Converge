@@ -1,15 +1,12 @@
 ---
+title: Linked data and semantic web technologies
 template: 'lesson-plan.html'
 authors:
   - orcid: "0000-0003-3357-3027"
     name: "Martijn Kersloot"
 
 reviewers:
-  - orcid: "XXXX-XXXX-XXXX-XXXX"
-    name: "NN"
 ---
-
-## Topic 4.1 Linked data and semantic web technologies
 
 ## Topic, definition and scope
 
@@ -20,7 +17,7 @@ reviewers:
 
 ---
 
-## FAIR element(s) (F, A, I and/or R)
+## FAIR element(s)
 
 
 
