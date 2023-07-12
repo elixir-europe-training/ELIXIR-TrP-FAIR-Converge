@@ -15,27 +15,74 @@ authors:
     name: "Mijke Jetten"
 
 reviewers:
+
+terms4FAIRskills:
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
+        label: Data steward
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000492'
+        label: Data curator
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000202'
+        label: Data librarian
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000520'
+        label: Data manager
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000220)'
+        label: researcher
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000558'
+        label: wants competency in
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000492'
+        label: understanding persistent identifiers
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000076'
+        label: data discovery
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000302'
+        label: data citation
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000554'
+        label: confers competency about
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000492'
+        label: understanding persistent identifiers
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000076'
+        label: data discovery
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000302'
+        label: data citation
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000555'
+        label: confers knowledge about
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000453'
+        label: persistent identifier
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000250'
+        label: citable data
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000560'
+        label: supports implementation of
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000512'
+        label: >-
+          F1. (meta)data are assigned a globally unique and persistent
+          identifier
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000435'
+        label: >-
+          F3. metadata clearly and explicitly include the identifier of the data
+          they describe
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000038'
+        label: >-
+          A1. (meta)data are retrievable by their identifier using a
+          standardised communications protocol
+
 --- 
-
-[terms4FAIRskills](https://terms4fairskills.github.io/)
-
-[Data steward](http://purl.obolibrary.org/obo/T4FS_0000178), [data curator](http://purl.obolibrary.org/obo/T4FS_0000492), [data librarian](http://purl.obolibrary.org/obo/T4FS_0000202), [data manager](http://purl.obolibrary.org/obo/T4FS_0000520), [researcher](http://purl.obolibrary.org/obo/T4FS_0000220) [wants competency in](http://purl.obolibrary.org/obo/T4FS_0000558) [understanding persistent identifiers](http://purl.obolibrary.org/obo/T4FS_0000492), [data discovery](http://purl.obolibrary.org/obo/T4FS_0000076), [data citation](http://purl.obolibrary.org/obo/T4FS_0000302)
-
-
-        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
-          label: Online documentation
- [confers competency about](http://purl.obolibrary.org/obo/T4FS_0000554) [understanding persistent identifiers](http://purl.obolibrary.org/obo/T4FS_0000492), [data discovery](http://purl.obolibrary.org/obo/T4FS_0000076), [data citation](http://purl.obolibrary.org/obo/T4FS_0000302)
-
-
-        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
-          label: Online documentation
- [confers knowledge about](http://purl.obolibrary.org/obo/T4FS_0000555) [persistent identifier](http://purl.obolibrary.org/obo/T4FS_0000453), [citable data](http://purl.obolibrary.org/obo/T4FS_0000250) 
-
-
-        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
-          label: Online documentation
- [supports implementation of](http://purl.obolibrary.org/obo/T4FS_0000560) [F1. (meta)data are assigned a globally unique and persistent identifier](http://purl.obolibrary.org/obo/T4FS_0000512), [F3. metadata clearly and explicitly include the identifier of the data they describe](http://purl.obolibrary.org/obo/T4FS_0000435), [A1. (meta)data are retrievable by their identifier using a standardised communications protocol](http://purl.obolibrary.org/obo/T4FS_0000038) 
-
 
 ## Topic, definition and scope
 

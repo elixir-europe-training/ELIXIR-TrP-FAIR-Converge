@@ -19,16 +19,49 @@ authors:
 reviewers:
   - orcid: "0000-0002-7702-4495"
     name: "Allyson Lister"
+
+terms4FAIRskills:
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000220'
+        label: researcher
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000558'
+        label: wants competency in
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000259'
+        label: fair training
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000490'
+        label: knowledge of theories underlying fair implementation
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000554'
+        label: confers competency about
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000259'
+        label: fair training
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000490'
+        label: knowledge of theories underlying fair implementation
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000555'
+        label: confers knowledge about
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000318'
+        label: digital preservation
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000560'
+        label: supports implementation of
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000447'
+        label: the FAIR Principles
 --- 
-
-## [terms4FAIRskills](https://terms4fairskills.github.io/)
-[researcher](http://purl.obolibrary.org/obo/T4FS_0000220) [wants competency in](http://purl.obolibrary.org/obo/T4FS_0000558) [fair training](http://purl.obolibrary.org/obo/T4FS_0000259), [knowledge of theories underlying fair implementation](http://purl.obolibrary.org/obo/T4FS_0000490)</br>
-
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [confers competency about](http://purl.obolibrary.org/obo/T4FS_0000554) [fair training](http://purl.obolibrary.org/obo/T4FS_0000259), [knowledge of theories underlying fair implementation](http://purl.obolibrary.org/obo/T4FS_0000490)
-
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [confers knowledge about](http://purl.obolibrary.org/obo/T4FS_0000555) [digital preservation](http://purl.obolibrary.org/obo/T4FS_0000318)
-
-[Online documentation](http://purl.obolibrary.org/obo/T4FS_0000095) [supports implementation of](http://purl.obolibrary.org/obo/T4FS_0000560) [the FAIR Principles](http://purl.obolibrary.org/obo/T4FS_0000447)
 
 ## Topic, definition and scope
 

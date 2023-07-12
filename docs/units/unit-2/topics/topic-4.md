@@ -12,26 +12,71 @@ authors:
     name: "Pascal de Boer"
 
 reviewers:
+
+terms4FAIRskills:
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
+        label: Data steward
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000492'
+        label: Data curator
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000202'
+        label: Data librarian
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000520'
+        label: Data manager
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000220)'
+        label: researcher
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000558'
+        label: wants competency in
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000490'
+        label: knowledge of theories underlying fair implementation
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000482'
+        label: data sharing
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000554'
+        label: confers competency about
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000490'
+        label: knowledge of theories underlying fair implementation
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000482'
+        label: data sharing
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000401'
+        label: choosing the appropriate model or format for your data
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000011'
+        label: choosing the appropriate reporting guideline for your data
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000294'
+        label: choosing the appropriate terminology for your data
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000555'
+        label: confers knowledge about
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000527'
+        label: metadata
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000381'
+        label: standard
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000094'
+        label: record standardisation
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000188'
+        label: semantic interoperability
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000560'
+        label: supports implementation of
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000447'
+        label: the FAIR Principles
+
 --- 
-
-[terms4FAIRskills](https://terms4fairskills.github.io/) 
-
-[Data steward](http://purl.obolibrary.org/obo/T4FS_0000178), [data curator](http://purl.obolibrary.org/obo/T4FS_0000492), [data librarian](http://purl.obolibrary.org/obo/T4FS_0000202), [data manager](http://purl.obolibrary.org/obo/T4FS_0000520), [researcher](http://purl.obolibrary.org/obo/T4FS_0000220) [wants competency in](http://purl.obolibrary.org/obo/T4FS_0000558) [knowledge of theories underlying fair implementation](http://purl.obolibrary.org/obo/T4FS_0000490), [data sharing](http://purl.obolibrary.org/obo/T4FS_0000482)
-
-
-        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
-          label: Online documentation
- [confers competency about](http://purl.obolibrary.org/obo/T4FS_0000554) [knowledge of theories underlying fair implementation](http://purl.obolibrary.org/obo/T4FS_0000490), [data sharing](http://purl.obolibrary.org/obo/T4FS_0000482), [choosing the appropriate model or format for your data](http://purl.obolibrary.org/obo/T4FS_0000401), [choosing the appropriate reporting guideline for your data](http://purl.obolibrary.org/obo/T4FS_0000011), [choosing the appropriate terminology for your data](http://purl.obolibrary.org/obo/T4FS_0000294)
-
-
-        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
-          label: Online documentation
- [confers knowledge about](http://purl.obolibrary.org/obo/T4FS_0000554) [metadata](http://purl.obolibrary.org/obo/T4FS_0000527), [standard](http://purl.obolibrary.org/obo/T4FS_0000381), [record standardisation](http://purl.obolibrary.org/obo/T4FS_0000094), [semantic interoperability](http://purl.obolibrary.org/obo/T4FS_0000188)
-
-
-        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
-          label: Online documentation
- [supports implementation of](http://purl.obolibrary.org/obo/T4FS_0000560) [FAIR Principles](http://purl.obolibrary.org/obo/T4FS_0000447)
 
 
 ## Topic, definition, and scope

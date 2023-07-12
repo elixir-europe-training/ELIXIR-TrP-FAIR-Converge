@@ -26,10 +26,14 @@
         <div class="tabbed-set tabbed-alternate" data-tabs="1:2">
             <input checked id="__author_tabbed_1" name="__author_tabbed" type="radio">
             <input id="__author_tabbed_2" name="__author_tabbed" type="radio">
+            <input id="__author_tabbed_3" name="__author_tabbed" type="radio">
             
             <div class="tabbed-labels">
                 <label for="__author_tabbed_1">Authors</label>
                 <label for="__author_tabbed_2">Reviewers</label>
+                {% if "terms4FAIRskills" in page.meta and page.meta.terms4FAIRskills %}
+                    <label for="__author_tabbed_3">terms4FAIRskills</label>
+                {% endif %}
             </div>
 
             <div class="tabbed-content">
@@ -63,6 +67,39 @@
                             </li>
                             {% endfor %}
                         </ul>
+                    {% endif %}
+                </div>
+                <div class="tabbed-block">
+                    <p>
+                        The <a href="https://terms4fairskills.github.io/" target="_blank">terms4FAIRskills</a> project has created a formalised terminology that describes the competencies, skills and knowledge associated with making and keeping data FAIR. 
+                    </p>
+
+                    {% if "terms4FAIRskills" in page.meta and page.meta.terms4FAIRskills %}
+                        <table id="terms4FAIRskills">
+                            {% for triple in page.meta.terms4FAIRskills %}
+                            <tr>
+                                <td>
+                                    <ul>
+                                    {% for subject in triple.subject %}
+                                        <li><a href="{{ subject.uri }}" target="_blank">{{ subject.label }}</a></li>
+                                    {% endfor %}
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                    {% for predicate in triple.predicate %}
+                                        <li><a href="{{ predicate.uri }}" target="_blank">{{ predicate.label }}</a></li>
+                                    {% endfor %}
+                                    </ul>
+                                </td>
+                                <td>
+                                    {% for object in triple.object %}
+                                        <li><a href="{{ object.uri }}" target="_blank">{{ object.label }}</a></li>
+                                    {% endfor %}
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </table>
                     {% endif %}
                 </div>
             </div>

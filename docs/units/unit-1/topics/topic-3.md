@@ -18,27 +18,58 @@ authors:
     name: "Jessica Lindvall"
 
 reviewers:
+
+terms4FAIRskills:
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
+        label: Data steward
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000220'
+        label: researcher
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000276'
+        label: data custodian
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000558'
+        label: wants competency in
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000141'
+        label: data management in
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000458'
+        label: data governance
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000490'
+        label: knowledge of theories underlying fair implementation
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000554'
+        label: confers competency about
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000141'
+        label: data management in
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000458'
+        label: data governance
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000490'
+        label: knowledge of theories underlying fair implementation
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000555'
+        label: confers knowledge about
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000213'
+        label: data lifecycle
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000560'
+        label: supports implementation of
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000447'
+        label: the FAIR Principles
+
 --- 
-
-## [terms4FAIRskills](https://terms4fairskills.github.io/)
-
-[Data steward](http://purl.obolibrary.org/obo/T4FS_0000178), [researcher](http://purl.obolibrary.org/obo/T4FS_0000220), [data custodian](http://purl.obolibrary.org/obo/T4FS_0000276) [wants competency in](http://purl.obolibrary.org/obo/T4FS_0000558) [data management](http://purl.obolibrary.org/obo/T4FS_0000141), [data governance](http://purl.obolibrary.org/obo/T4FS_0000458), [knowledge of theories underlying fair implementation](http://purl.obolibrary.org/obo/T4FS_0000490)
-
-
-        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
-          label: Online documentation
- [confers competency about](http://purl.obolibrary.org/obo/T4FS_0000554) [data management](http://purl.obolibrary.org/obo/T4FS_0000141), [data governance](http://purl.obolibrary.org/obo/T4FS_0000458), [knowledge of theories underlying fair implementation](http://purl.obolibrary.org/obo/T4FS_0000490)
-
-
-        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
-          label: Online documentation
- [confers knowledge about](http://purl.obolibrary.org/obo/T4FS_0000555) [data lifecycle](http://purl.obolibrary.org/obo/T4FS_0000213)
-
-
-        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
-          label: Online documentation
- [supports implementation of](http://purl.obolibrary.org/obo/T4FS_0000560) [the FAIR Principles](http://purl.obolibrary.org/obo/T4FS_0000447)
-
 
 ## Topic, definition and scope
 

@@ -12,27 +12,66 @@ authors:
     name: "Nazeefa Fatima"
 
 reviewers:
+
+terms4FAIRskills:
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
+        label: Data steward
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000202'
+        label: data librarian
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000520'
+        label: data manager
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000441'
+        label: principal investigator
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000220'
+        label: researcher
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000558'
+        label: wants competency in
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000107'
+        label: information security
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000124'
+        label: understand information security challenges
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000041'
+        label: understanding fair and open research challenges in your organization
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000142'
+        label: authorisation management
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000554'
+        label: confers competency about
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000107'
+        label: information security
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000124'
+        label: understand information security challenges
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000041'
+        label: understanding fair and open research challenges in your organization
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000142'
+        label: authorisation management
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000555'
+        label: confers knowledge about
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000283'
+        label: access
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000560'
+        label: supports implementation of
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000478'
+        label: accessibility of digital assets
+
 --- 
-
-[terms4FAIRskills](https://terms4fairskills.github.io/)
-
-[Data steward](http://purl.obolibrary.org/obo/T4FS_0000178), [data librarian](http://purl.obolibrary.org/obo/T4FS_0000202), [data manager](http://purl.obolibrary.org/obo/T4FS_0000520), [principal investigator](http://purl.obolibrary.org/obo/T4FS_0000441), [researcher](http://purl.obolibrary.org/obo/T4FS_0000220) [wants competency in](http://purl.obolibrary.org/obo/T4FS_0000558) [information security](http://purl.obolibrary.org/obo/T4FS_0000107), [understand information security challenges](http://purl.obolibrary.org/obo/T4FS_0000124), [understanding fair and open research challenges in your organization](http://purl.obolibrary.org/obo/T4FS_0000041), [authorisation management](http://purl.obolibrary.org/obo/T4FS_0000142)
-
-
-        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
-          label: Online documentation
- [confers competency about](http://purl.obolibrary.org/obo/T4FS_0000554) [information security](http://purl.obolibrary.org/obo/T4FS_0000107), [understand information security challenges](http://purl.obolibrary.org/obo/T4FS_0000124), [understanding fair and open research challenges in your organization](http://purl.obolibrary.org/obo/T4FS_0000041), [authorisation management](http://purl.obolibrary.org/obo/T4FS_0000142)
-
-
-        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
-          label: Online documentation
- [confers knowledge about](http://purl.obolibrary.org/obo/T4FS_0000555) [access](http://purl.obolibrary.org/obo/T4FS_0000283)
-
-
-        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
-          label: Online documentation
- [supports implementation of](http://purl.obolibrary.org/obo/T4FS_0000560) [accessibility of digital assets](http://purl.obolibrary.org/obo/T4FS_0000478)
-
 
 ## Topic, definition and scope
 

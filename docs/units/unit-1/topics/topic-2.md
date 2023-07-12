@@ -14,26 +14,67 @@ authors:
 reviewers:
   - orcid: "0000-0002-5788-2687"
     name: "Diana Pilvar"
+
+terms4FAIRskills:
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
+        label: Data steward
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000220'
+        label: researcher
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000415'
+        label: manager
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000122'
+        label: trainer/teacher
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000558'
+        label: wants competency in
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000293'
+        label: flexibility in relating fair criteria to openness
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000482'
+        label: data sharing
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000554'
+        label: confers competency about
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000293'
+        label: flexibility in relating fair criteria to openness
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000482'
+        label: data sharing
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000555'
+        label: confers knowledge about
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000264'
+        label: open data
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000283'
+        label: access
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000560'
+        label: supports implementation of
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000393'
+        label: F4. (meta)data are registered or indexed in a searchable resource
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000103'
+        label: 'A1.1 The protocol is open, free, and universally implementable'
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000371'
+        label: >-
+          A1.2 The protocol allows for an authentication and authorisation
+          procedure, where necessary
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000200'
+        label: >-
+          R1.1 (Meta)data are released with a clear and accessible data usage
+          license
 --- 
-
-[terms4FAIRskills](https://terms4fairskills.github.io/)
-[Data steward](http://purl.obolibrary.org/obo/T4FS_0000178), [researcher](http://purl.obolibrary.org/obo/T4FS_0000220), [manager](http://purl.obolibrary.org/obo/T4FS_0000415), [trainer/teacher](http://purl.obolibrary.org/obo/T4FS_0000122) [wants competency in](http://purl.obolibrary.org/obo/T4FS_0000558) [flexibility in relating fair criteria to openness](http://purl.obolibrary.org/obo/T4FS_0000293), [data sharing](http://purl.obolibrary.org/obo/T4FS_0000482)
-
-
-        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
-          label: Online documentation
- [confers competency about](http://purl.obolibrary.org/obo/T4FS_0000554) [flexibility in relating fair criteria to openness](http://purl.obolibrary.org/obo/T4FS_0000293), [data sharing](http://purl.obolibrary.org/obo/T4FS_0000482)
-
-
-        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
-          label: Online documentation
- [confers knowledge about](http://purl.obolibrary.org/obo/T4FS_0000555) [open data](http://purl.obolibrary.org/obo/T4FS_0000264), [access](http://purl.obolibrary.org/obo/T4FS_0000283)
-
-
-        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
-          label: Online documentation
- [supports implementation of](http://purl.obolibrary.org/obo/T4FS_0000560) [F4. (meta)data are registered or indexed in a searchable resource](http://purl.obolibrary.org/obo/T4FS_0000393), [A1.1 The protocol is open, free, and universally implementable](http://purl.obolibrary.org/obo/T4FS_0000103), [A1.2 The protocol allows for an authentication and authorisation procedure, where necessary](http://purl.obolibrary.org/obo/T4FS_0000371), [R1.1: (Meta)data are released with a clear and accessible data usage license](http://purl.obolibrary.org/obo/T4FS_0000200)
-
 
 ## Topic, definition and scope**
 

@@ -11,27 +11,62 @@ authors:
 reviewers:
   - orcid: "0000-0002-3412-9086"
     name: "Anne-Françoise Adam-Blondon"
+
+terms4FAIRskills:
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
+        label: Data steward
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000520'
+        label: Data manager
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000220'
+        label: researcher
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000558'
+        label: wants competency in
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000076'
+        label: data discovery
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000302'
+        label: data citation
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000554'
+        label: confers competency about
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000076'
+        label: data discovery
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000302'
+        label: data citation
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000555'
+        label: confers knowledge about
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000489'
+        label: repository
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000250'
+        label: citable data
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000213'
+        label: data lifecycle
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000527'
+        label: metadata
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000283'
+        label: access
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000560'
+        label: supports implementation of
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000447'
+        label: the FAIR Principles
+
 --- 
-
-[terms4FAIRskills](https://terms4fairskills.github.io/)
-
-[Data steward](http://purl.obolibrary.org/obo/T4FS_0000178), [data manager](http://purl.obolibrary.org/obo/T4FS_0000520), [researcher](http://purl.obolibrary.org/obo/T4FS_0000220) [wants competency in](http://purl.obolibrary.org/obo/T4FS_0000558) [data discovery](http://purl.obolibrary.org/obo/T4FS_0000076), [data citation](http://purl.obolibrary.org/obo/T4FS_0000302)
-
-
-        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
-          label: Online documentation
- [confers competency about](http://purl.obolibrary.org/obo/T4FS_0000554) [data discovery](http://purl.obolibrary.org/obo/T4FS_0000076), [data citation](http://purl.obolibrary.org/obo/T4FS_0000302)
-
-
-        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
-          label: Online documentation
- [confers knowledge about](http://purl.obolibrary.org/obo/T4FS_0000555) [repository](http://purl.obolibrary.org/obo/T4FS_0000489), [citable data](http://purl.obolibrary.org/obo/T4FS_0000250), [data lifecycle](http://purl.obolibrary.org/obo/T4FS_0000213), [metadata](http://purl.obolibrary.org/obo/T4FS_0000527), [access](http://purl.obolibrary.org/obo/T4FS_0000283)
-
-
-        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
-          label: Online documentation
- [supports implementation of](http://purl.obolibrary.org/obo/T4FS_0000560) [the FAIR Principles](http://purl.obolibrary.org/obo/T4FS_0000447)
-
 
 ## Topic, definition and scope
 

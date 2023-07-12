@@ -24,31 +24,80 @@ reviewers:
   - orcid: "0000-0002-3060-3967"
     name: "Pradeep Eranti"
 
+terms4FAIRskills:
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
+        label: Data steward
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000520'
+        label: Data manager
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000441'
+        label: principal investigator
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000220'
+        label: researcher
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000558'
+        label: wants competency in
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000141'
+        label: data management
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000285'
+        label: develop fair and open research strategy
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000041'
+        label: understanding fair and open research challenges in your organization
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000490'
+        label: knowledge of theories underlying fair implementation
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000367'
+        label: >-
+          knowledge to choose fair data handling approaches appropriate to the
+          research phenomena
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000554'
+        label: confers competency about
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000141'
+        label: data management
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000285'
+        label: develop fair and open research strategy
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000041'
+        label: understanding fair and open research challenges in your organization
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000490'
+        label: knowledge of theories underlying fair implementation
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000367'
+        label: >-
+          knowledge to choose fair data handling approaches appropriate to the
+          research phenomena
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000555'
+        label: confers knowledge about
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000196'
+        label: data management plan
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000560'
+        label: supports implementation of
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000447'
+        label: the FAIR Principles
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000582'
+        label: demonstrates how to fulfil the requirements for
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000583'
+        label: fairplus dataset maturity model indicator
+
 --- 
-
-[terms4FAIRskills](https://terms4fairskills.github.io/)
-
-[Data steward](http://purl.obolibrary.org/obo/T4FS_0000178), [data manager](http://purl.obolibrary.org/obo/T4FS_0000520), [principal investigator](http://purl.obolibrary.org/obo/T4FS_0000441), [researcher](http://purl.obolibrary.org/obo/T4FS_0000220) [wants competency in](http://purl.obolibrary.org/obo/T4FS_0000558) [data management](http://purl.obolibrary.org/obo/T4FS_0000141), [develop fair and open research strategy](http://purl.obolibrary.org/obo/T4FS_0000285), [understanding fair and open research challenges in your organization](http://purl.obolibrary.org/obo/T4FS_0000041), [knowledge of theories underlying fair implementation](http://purl.obolibrary.org/obo/T4FS_0000490), [knowledge to choose fair data handling approaches appropriate to the research phenomena](http://purl.obolibrary.org/obo/T4FS_0000367)
-
-
-        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
-          label: Online documentation
- [confers competency about] [data management](http://purl.obolibrary.org/obo/T4FS_0000554), [develop fair and open research strategy](http://purl.obolibrary.org/obo/T4FS_0000285), [understanding fair and open research challenges in your organization](http://purl.obolibrary.org/obo/T4FS_0000041), [knowledge of theories underlying fair implementation](http://purl.obolibrary.org/obo/T4FS_0000490), [knowledge to choose fair data handling approaches appropriate to the research phenomena](http://purl.obolibrary.org/obo/T4FS_0000367)
-
-
-        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
-          label: Online documentation
- [confers knowledge about](http://purl.obolibrary.org/obo/T4FS_0000555) [data management plan](http://purl.obolibrary.org/obo/T4FS_0000196)
-
-
-        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
-          label: Online documentation
- [supports implementation of](http://purl.obolibrary.org/obo/T4FS_0000560) [the FAIR Principles](http://purl.obolibrary.org/obo/T4FS_0000447)
-
-
-        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
-          label: Online documentation
- [demonstrates how to fulfil the requirements for FAIRplus dataset maturity model indicator](http://purl.obolibrary.org/obo/T4FS_0000582)
 
 
 ## Topic, definition and scope

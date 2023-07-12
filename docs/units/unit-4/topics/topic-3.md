@@ -6,28 +6,62 @@ authors:
     name: "Aliya Aktau"
 
 reviewers:
+
+terms4FAIRskills:
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
+        label: Data steward
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000202'
+        label: data librarian
+      - uri: 'http://purl.obolibrary.org/obo/TF4S_0000569'
+        label: software engineer
+      - uri: 'http://purl.obolibrary.org/obo/TF4S_0000568'
+        label: terminology manager
+      - uri: 'http://purl.obolibrary.org/obo/TF4S_0000567'
+        label: ontologist
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000220)'
+        label: researcher
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000558'
+        label: wants competency in
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000294'
+        label: choosing the appropriate terminology for your data
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000554'
+        label: confers competency about
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000294'
+        label: choosing the appropriate terminology for your data
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000555'
+        label: confers knowledge about
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000188'
+        label: semantic interoperability
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000335'
+        label: controlled vocabulary
+  - subject:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
+        label: Online documentation
+    predicate:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000560'
+        label: supports implementation of
+    object:
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000248'
+        label: findability of digital assets
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000014'
+        label: interoperability of digital assets
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000170'
+        label: reuse of digital assets
+
 --- 
-
-[terms4FAIRskills](https://terms4fairskills.github.io/)
-
-[Data steward](http://purl.obolibrary.org/obo/T4FS_0000178), [data librarian](http://purl.obolibrary.org/obo/T4FS_0000202), [software engineer](http://purl.obolibrary.org/obo/TF4S_0000569), [terminology manager](http://purl.obolibrary.org/obo/TF4S_0000568), [ontologist](http://purl.obolibrary.org/obo/TF4S_0000567), [researcher](http://purl.obolibrary.org/obo/T4FS_0000220) [wants competency in](http://purl.obolibrary.org/obo/T4FS_0000558) [choosing the appropriate terminology for your data](http://purl.obolibrary.org/obo/T4FS_0000294)
-
-
-        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
-          label: Online documentation
- [confers competency about](http://purl.obolibrary.org/obo/T4FS_0000554) [choosing the appropriate terminology for your data](http://purl.obolibrary.org/obo/T4FS_0000294)
-
-
-        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
-          label: Online documentation
- [confers knowledge about](http://purl.obolibrary.org/obo/T4FS_0000555) [semantic interoperability](http://purl.obolibrary.org/obo/T4FS_0000188), [controlled vocabulary](http://purl.obolibrary.org/obo/T4FS_0000335)
-
-
-        - uri: http://purl.obolibrary.org/obo/T4FS_0000095
-          label: Online documentation
- [supports implementation of](http://purl.obolibrary.org/obo/T4FS_0000560) [findability of digital assets](http://purl.obolibrary.org/obo/T4FS_0000248), [interoperability of digital assets](http://purl.obolibrary.org/obo/T4FS_0000014), [reuse of digital assets](http://purl.obolibrary.org/obo/T4FS_0000170)
-
-
 
 This part will help you better understand why ontologies are important, as well as their core principles and requirements for building effective semantic models.
  
