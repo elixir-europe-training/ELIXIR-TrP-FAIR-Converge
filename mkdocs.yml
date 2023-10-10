@@ -3,37 +3,37 @@ nav:
     - About: index.md
     - Units:
       - "1. FAIR generics": 
-        - "Overview": 'units/unit-1/index.md'
-        - "1.1 Why FAIR?": 'units/unit-1/topics/topic-1.md'
-        - "1.2 FAIR vs open data (science)": 'units/unit-1/topics/topic-2.md'
-        - "1.3 Data Life Cycle approach to FAIR/FAIR right from the start": 'units/unit-1/topics/topic-3.md'
-        - "1.4 FAIR and/in institutional data policies": 'units/unit-1/topics/topic-4.md'
-        - "1.5 Defining FAIR Objectives for a research / scientific project": 'units/unit-1/topics/topic-5.md'
-        - "1.6 Defining FAIR Objectives for Organisations": 'units/unit-1/topics/topic-6.md'
-        - "1.7 Policies and consent": 'units/unit-1/topics/topic-7.md'
+        - "Overview": 'units/FAIR-generics/index.md'
+        - "1.1 Why FAIR?": 'units/FAIR-generics/topics/1-why-fair.md'
+        - "1.2 FAIR vs open data (science)": 'units/FAIR-generics/topics/2-FAIR-vs-open-data.md'
+        - "1.3 Data Life Cycle approach to FAIR/FAIR right from the start": 'units/FAIR-generics/topics/3-data-life-cycle-and-FAIR-from-start.md'
+        - "1.4 FAIR and/in institutional data policies": 'units/FAIR-generics/topics/4-FAIR-in-data-policies.md'
+        - "1.5 Defining FAIR Objectives for a research / scientific project": 'units/FAIR-generics/topics/5-defining-FAIR-objectives-for-projects.md'
+        - "1.6 Defining FAIR Objectives for Organisations": 'units/FAIR-generics/topics/6-FAIR-objectives-for-organisations.md'
+        - "1.7 Policies and consent": 'units/FAIR-generics/topics/7-policies-and-consent.md'
       - "2. Findable data":
-        - "Overview": 'units/unit-2/index.md'
-        - "2.1 Data/Repository discovery": 'units/unit-2/topics/topic-1.md'
-        - "2.2 Findable data": 'units/unit-2/topics/topic-2.md'
-        - "2.3 Persistent identifiers (PIDs)": 'units/unit-2/topics/topic-3.md'
-        - "2.4 Metadata standards": 'units/unit-2/topics/topic-4.md'
+        - "Overview": 'units/findable-data/index.md'
+        - "2.1 Data/Repository discovery": 'units/findable-data/topics/1-data-and-repository-discovery.md'
+        - "2.2 Findable data": 'units/findable-data/topics/2-findable-data.md'
+        - "2.3 Persistent identifiers (PIDs)": 'units/findable-data/topics/3-persistent-identifiers.md'
+        - "2.4 Metadata standards": 'units/findable-data/topics/4-metadata-standards.md'
       - "3. Accessible data":
-        - "Overview": 'units/unit-3/index.md'
-        - "3.1 Access modes, sensitive data, registered access,  controlled access": 'units/unit-3/topics/topic-1.md'
+        - "Overview": 'units/accessible-data/index.md'
+        - "3.1 Access modes, sensitive data, registered access,  controlled access": 'units/accessible-data/topics/1-data-access.md'
       - "4. Interoperable data":
-        - "Overview": 'units/unit-4/index.md'
-        - "4.1 Linked data and semantic web technologies": 'units/unit-4/topics/topic-1.md'
-        - "4.2 M4M workshop": 'units/unit-4/topics/topic-2.md'
-        - "4.3 Data vocabularies and ontologies": 'units/unit-4/topics/topic-3.md'
+        - "Overview": 'units/interoperable-data/index.md'
+        - "4.1 Linked data and semantic web technologies": 'units/interoperable-data/topics/1-linked-and-semantic-data.md'
+        - "4.2 M4M workshop": 'units/interoperable-data/topics/2-M4M-workshop.md'
+        - "4.3 Data vocabularies and ontologies": 'units/interoperable-data/topics/3-vocabularies-and-ontologies.md'
       - "5. Reusable data":
-        - "Overview": 'units/unit-5/index.md'
-        - "5.1 FAIR Data visiting": 'units/unit-5/topics/topic-1.md'
+        - "Overview": 'units/reusable-data/index.md'
+        - "5.1 FAIR Data visiting": 'units/reusable-data/topics/1-FAIR-data-visiting.md'
       - "6. FAIR software":
-        - "Overview": 'units/unit-6/index.md'
-        - "6.1 FAIR Software": 'units/unit-6/topics/topic-1.md'
+        - "Overview": 'units/FAIR-software/index.md'
+        - "6.1 FAIR Software": 'units/FAIR-software/topics/1-FAIR-software.md'
       - "7. Data Repositories and FAIR":
-        - "Overview": 'units/unit-7/index.md'
-        - "7.1 Data Repositories and FAIR": 'units/unit-7/topics/topic-1.md'
+        - "Overview": 'units/data-repositories/index.md'
+        - "7.1 Data Repositories and FAIR": 'units/data-repositories/topics/1-repositories-and-FAIR.md'
 theme:
   name: material
   logo: assets/images/white-orange-logo.png
