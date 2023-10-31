@@ -65,15 +65,15 @@ terms4FAIRskills:
 
 ## Topic, definition and scope
 
-* What is FAIR (FAIRsFAIR lesson plan available “FAIR in a nutshell”)
-* Who are the stakeholders? Answers to FAIR questions are different for the different stakeholders. (Researcher, organisations,  management, society) 
+* What is FAIR? (FAIRsFAIR lesson plan available [“FAIR in a nutshell”](https://fairsfair.gitbook.io/fair-teaching-handbook/0lessonplans/1lessonplan))
+* Who are the stakeholders? Answers to FAIR questions are different for the different stakeholders (researcher, organisations,  management, society). 
 * Motivation to implement FAIR: (depends on stakeholder)
     * Why make data Findable?
     * Why make data Accessible?
     * Why make data Interoperable?
     * Why make data Reusable?
 * Benefits for different roles/levels (individual researcher benefit vs scientific/discipline knowledge benefit vs societal benefit)
-* Incentives (Requirements by funding bodies (e.g. Horizon 2020, [UKRI](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf), [EOSC](https://www.eosc.eu/about-eosc)
+* Incentives (Requirements by funding bodies and others (e.g. [Science Europe](https://scienceeurope.org/our-priorities/research-data/research-data-management/), [EU](https://digital-strategy.ec.europa.eu/en/policies/strategy-data), [UKRI](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf), [EOSC](https://www.eosc.eu/about-eosc))
 
 ---
 
@@ -95,10 +95,10 @@ terms4FAIRskills:
 
 After this lesson students:
 
-* can explain the FAIR principles on a generic level;
-* understand why you should apply the FAIR principles to your data;
-* know of some common issues that prevent data reuse and how FAIR can help;
-* have an impression of what could go wrong if you don’t apply FAIR (horror stories topic overlap).
+* Can explain the FAIR principles on a generic level;
+* Understand why you should apply the FAIR principles to your data;
+* Know of some common issues that prevent data reuse and how FAIR can help;
+* Have an impression of what could go wrong if you don’t apply FAIR (horror stories topic overlap).
 * Identify what changes are required in your work/group/organisation to facilitate FAIRer data practices.
 * Identify the significance of FAIR for the quality of research performance and the required changes in an organisation to facilitate FAIR data management 
 
