@@ -12,6 +12,8 @@ authors:
     name: "Pascal de Boer"
 
 reviewers:
+  - orcid: "0000-0002-3412-9086"
+    name: "Anne-Françoise Adam-Blondon"
 
 terms4FAIRskills:
   - subject:
