@@ -22,7 +22,7 @@ nav:
         - "3.1 Access modes, sensitive data, registered access,  controlled access": 'units/accessible-data/topics/1-data-access.md'
       - "4. Interoperable data":
         - "Overview": 'units/interoperable-data/index.md'
-        - "4.1 Linked data and semantic web technologies": 'units/interoperable-data/topics/1-linked-and-semantic-data.md'
+        - "4.1 Linked data and semantic web technologies": 'units/interoperable-data/topics/1-linked-data-and-semantic-web.md'
         - "4.2 M4M workshop": 'units/interoperable-data/topics/2-M4M-workshop.md'
         - "4.3 Data vocabularies and ontologies": 'units/interoperable-data/topics/3-vocabularies-and-ontologies.md'
       - "5. Reusable data":
