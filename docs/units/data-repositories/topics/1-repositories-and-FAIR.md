@@ -92,10 +92,9 @@ terms4FAIRskills:
 
 
 
-* How repositories support FAIR?
-* The topic concerns the capacity of digital repositories in assuring the research data findability, accessibility, interoperability and reusability. This content is a summarised version suitable as a recap for those with pre-existing knowledge in data science. 
-* **Data repositories** are key in putting the FAIR principles into practice.
-* Not only do they enable findability and access, but they also provide persistent identifiers, documentation and metadata, thus fostering reusability for humans and machines.
+* How do repositories support FAIR?
+* The topic concerns the capacity of digital repositories to ensure the research data findability, accessibility, interoperability and reusability. This content is a summarised version suitable as a recap for those with pre-existing knowledge of data science. 
+* **Data repositories** are key in putting the FAIR principles into practice. They not only enable findability and accessibility but also provide persistent identifiers, documentation, and metadata, thus fostering reusability for humans and machines.
 * A “form” needs to be filled –metadata by default.
 * The form complies with a specific metadata standard.
 * Metadata will then become machine-actionable and searchable in an online resource.
