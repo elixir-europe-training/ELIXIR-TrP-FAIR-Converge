@@ -160,14 +160,10 @@ Topics to be covered in the lesson plan:
 
 ## Prerequisites
 
-
-
 * Basic understanding of FAIR principles
 * Knowledge of different types of data (e.g. raw vs processed)
 * Familiarity with repositories 
 * Familiarity with PIDs
-* Knowledge of dictionaries, vocabularies and ontologies
-
 
 ---
 
