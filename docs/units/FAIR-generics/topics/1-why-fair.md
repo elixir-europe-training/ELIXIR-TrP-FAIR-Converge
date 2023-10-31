@@ -66,7 +66,7 @@ terms4FAIRskills:
 ## Topic, definition and scope
 
 * What is FAIR? (FAIRsFAIR lesson plan available [“FAIR in a nutshell”](https://fairsfair.gitbook.io/fair-teaching-handbook/0lessonplans/1lessonplan))
-* Who are the stakeholders? Answers to FAIR questions are different for the different stakeholders (researcher, organisations,  management, society). 
+* Who are the stakeholders? Answers to FAIR questions are different for the different stakeholders (researchers, organisations,  management, society). 
 * Motivation to implement FAIR: (depends on stakeholder)
     * Why make data Findable?
     * Why make data Accessible?
@@ -229,7 +229,7 @@ Societal    Societal value
 * Fact sheets with summary (broad audience) - zenodo pub?
 * eBook (background information for a broader audience, maybe not citizens, but including management) - published where? zenodo?
 * Best practices examples of FAIR data (researchers) interactive sessions
-* FAIRification framework recipe: https://faircookbook.elixir-europe.org/content/recipes/introduction/fairification-process.html  \
+* [FAIRification framework recipe](https://faircookbook.elixir-europe.org/content/recipes/introduction/fairification-process.html) from the FAIR Cookbook
 
 ---
 
