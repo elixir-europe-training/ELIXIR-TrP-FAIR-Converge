@@ -73,7 +73,7 @@ terms4FAIRskills:
     * Why make data Interoperable?
     * Why make data Reusable?
 * Benefits for different roles/levels (individual researcher benefit vs scientific/discipline knowledge benefit vs societal benefit)
-* Incentives (Requirements by funding bodies and others (e.g. [Science Europe](https://scienceeurope.org/our-priorities/research-data/research-data-management/), [EU](https://digital-strategy.ec.europa.eu/en/policies/strategy-data), [UKRI](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf), [EOSC](https://www.eosc.eu/about-eosc))
+* Incentives such as requirements from journals, institutions, and funding bodies. Exemplary recommendations from major entities include the ones from [Horizon 2020](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf), [UKRI](https://www.ukri.org/manage-your-award/publishing-your-research-findings/making-your-research-data-open/), [EOSC](https://eosc.eu/events/monitoring-eosc-readiness-fair-data-policies/), [NIH](https://sharing.nih.gov/data-management-and-sharing-policy/data-management#:~:text=NIH%20encourages%20data%20management%20and,repurposing%20datasets%20for%20secondary%20research).
 
 ---
 
@@ -85,8 +85,8 @@ terms4FAIRskills:
 
 ## Primary audience(s)
 
-* Any researcher, research-affiliated staff, or student of any level generating and working with data for research purposes in any discipline, policy oriented staff and managers.
-* Not domain specific and for all types of data that are used to perform research, analysis, archiving and publishing of data
+* Any researcher, research-affiliated staff, or student of any level generating and working with data for research purposes in any discipline, policy-oriented staff and managers.
+* Not domain-specific and for all types of data that are used to perform research, analysis, archiving and publishing of data
 * Not too technical, not too focused on data stewards
 
 ---
@@ -114,18 +114,18 @@ After this lesson students:
 * Generic answer to **why** question - formulate an answer not specific to any stakeholder
     * Making your data FAIR can ([Ten reasons to share your data | News | Nature Index](https://www.natureindex.com/news-blog/ten-reasons-to-share-your-data)):
         * Maximise the impact of and engagement with your research, and allow others to continue your legacy by using your data.
-        * Save money and other resources by reducing the need for funding bodies from supporting the same research multiple times, thereby freeing up funding for new ideas. This includes research with negative outcomes that were previously not published and thus are not Findable.
+        * Save money and other resources by reducing the need for funding bodies to support the same research multiple times, thereby freeing up funding for new ideas. This includes research with negative outcomes that were previously not published and thus are not Findable.
         * Ensure your research stays relevant (i.e. actively used/cited by others).
         * Make you and your research more visible both in and outside of your discipline.
         * Encourage professionalism and improve quality control.
         * Contribute back to the scientific community and increase reciprocity.
         * Create more connections between you and other researchers, both in and outside of your discipline.
-* Identify common stakeholders related to FAIR-usage and group them in the 3 groups mentioned in the next bullet points (perform (p), facilitate (f) and benefit (b))
+* Identify common stakeholders related to FAIR usage and group them in the 3 groups mentioned in the next bullet points (perform (p), facilitate (f) and benefit (b))
     * Researchers (p), scientific publishers (b) and funding agencies (f), suppliers of software for data management, analysis and processing (f), data science community (p) ([link](https://genestack.com/resources/library/the-fair-principles-of-data-management/) to source of stakeholders)
-    * Research funders, policy makers (f), coordination fora (f), standard bodies (f, b), research providers (p, f, b), research communities (p, f, b), data service providers (f), data stewards (p, f) ([link](https://www.rd-alliance.org/sites/default/files/RDA-SHARC%20Poster%20template%20Melbourne%20-%202020%20V10032020%20.jpg))
+    * Research funders, policymakers (f), coordination fora (f), standard bodies (f, b), research providers (p, f, b), research communities (p, f, b), data service providers (f), data stewards (p, f) ([link](https://www.rd-alliance.org/sites/default/files/RDA-SHARC%20Poster%20template%20Melbourne%20-%202020%20V10032020%20.jpg))
     * Society (b)
 
-The [stakeholders](https://fairsharing.org/stakeholders) (with descriptions) within FAIRsharing might be of direct relevance here. Not only do they include the society, researchers, and research funders/policymakers listed above, but also Research data facilitators, librarians, trainers. Feel free to use the descriptions/definitions here as it might help.
+The [stakeholders](https://fairsharing.org/stakeholders) (with descriptions) within FAIRsharing might be of direct relevance here. Not only do they include the society, researchers, and research funders/policymakers listed above, but also Research data facilitators, librarians, and trainers. Feel free to use the descriptions/definitions here as it might help.
 
 * Why FAIR for different stakeholders:
     * Why FAIR for those who **perform the research**:
@@ -209,7 +209,7 @@ Societal    Societal value
 
 <li>Money saved from reusing data can be put towards new research for societal good. 
 
-<li>More research transparency and accountability, thereby improved trust. 
+<li>More research transparency and accountability, thereby improving trust. 
  
 </li>
 </ul>
@@ -256,11 +256,11 @@ Societal    Societal value
 
 ## Take home tasks/preparation
 
-* Preparation: read the fact sheet with summary.
+* Preparation: read the fact sheet with the summary.
 * Take home: 
     * Identify opportunities to apply FAIR principles in your own organisation
     * Identify benefits from applying FAIR principles in your own organisation
     * Template document for each FAIR principle - researcher has to go through each point and write down what they will do in their dataset for F, A, I, R.? Maybe even each of the F1, F2, F3, F4?
-    * An understanding of how this framework to guide FAIRification might help? https://doi.org/10.1038/s41597-023-02167-2  \
+    * An understanding of how this framework guides FAIRification might help. https://doi.org/10.1038/s41597-023-02167-2  \
 
 ---
