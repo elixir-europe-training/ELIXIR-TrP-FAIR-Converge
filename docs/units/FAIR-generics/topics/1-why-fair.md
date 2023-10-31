@@ -73,7 +73,7 @@ terms4FAIRskills:
     * Why make data Interoperable?
     * Why make data Reusable?
 * Benefits for different roles/levels (individual researcher benefit vs scientific/discipline knowledge benefit vs societal benefit)
-* Incentives (Requirements by funding bodies and others (e.g. [Science Europe](https://scienceeurope.org/our-priorities/research-data/research-data-management/), [EU](https://digital-strategy.ec.europa.eu/en/policies/strategy-data), [UKRI](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf), [EOSC](https://www.eosc.eu/about-eosc)
+* Incentives (Requirements by funding bodies and others (e.g. [Science Europe](https://scienceeurope.org/our-priorities/research-data/research-data-management/), [EU](https://digital-strategy.ec.europa.eu/en/policies/strategy-data), [UKRI](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf), [EOSC](https://www.eosc.eu/about-eosc))
 
 ---
 
