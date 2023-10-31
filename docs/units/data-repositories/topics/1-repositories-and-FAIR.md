@@ -317,8 +317,7 @@ terms4FAIRskills:
 * **[https://www.snf.ch/en/7GhWDP8omTMLZ00O/news/news-210122-open-research-data-which-data-repositories-can-be-used](https://www.snf.ch/en/7GhWDP8omTMLZ00O/news/news-210122-open-research-data-which-data-repositories-can-be-used)**
 * **[Zenodo](https://about.zenodo.org/principles/)**
 * **[FAIR_principles_translation_SNSF_logo (snf.ch)](https://www.snf.ch/SiteCollectionDocuments/FAIR_principles_translation_SNSF_logo.pdf)**
-* FAIRsharing’s educational factsheet on databasesFAIRsharing will have a database-specific infographic ready in the next month or two
-
+* **[FAIRsharing’s educational factsheet on databases](https://doi.org/10.25504/FAIRsharing.dab53d)**
 
 ---
 
