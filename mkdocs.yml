@@ -34,6 +34,8 @@ nav:
       - "7. Data Repositories and FAIR":
         - "Overview": 'units/data-repositories/index.md'
         - "7.1 Data Repositories and FAIR": 'units/data-repositories/topics/1-repositories-and-FAIR.md'
+    - "Contribute":
+        - "Style guide": 'contribute/style_guide.md'
 theme:
   name: material
   logo: assets/images/white-orange-logo.png
