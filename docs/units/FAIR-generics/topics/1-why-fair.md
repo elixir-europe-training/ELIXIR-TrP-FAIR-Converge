@@ -122,7 +122,7 @@ After this lesson students:
         * Create more connections between you and other researchers, both in and outside of your discipline.
 * Identify common stakeholders related to FAIR usage and group them in the 3 groups mentioned in the next bullet points (perform (p), facilitate (f) and benefit (b))
     * Researchers (p), scientific publishers (b) and funding agencies (f), suppliers of software for data management, analysis and processing (f), data science community (p) ([link](https://genestack.com/resources/library/the-fair-principles-of-data-management/) to source of stakeholders)
-    * Research funders, policymakers (f), coordination fora (f), standard bodies (f, b), research providers (p, f, b), research communities (p, f, b), data service providers (f), data stewards (p, f) ([link](https://www.rd-alliance.org/sites/default/files/RDA-SHARC%20Poster%20template%20Melbourne%20-%202020%20V10032020%20.jpg))
+    * Research funders, policymakers (f), community managers (f), standardization bodies (f, b), research providers (p, f, b), research communities (p, f, b), data service providers (f), data stewards (p, f) ([link](https://www.rd-alliance.org/sites/default/files/RDA-SHARC%20Poster%20template%20Melbourne%20-%202020%20V10032020%20.jpg))
     * Society (b)
 
 The [stakeholders](https://fairsharing.org/stakeholders) (with descriptions) within FAIRsharing might be of direct relevance here. Not only do they include the society, researchers, and research funders/policymakers listed above, but also Research data facilitators, librarians, and trainers. Feel free to use the descriptions/definitions here as it might help.
