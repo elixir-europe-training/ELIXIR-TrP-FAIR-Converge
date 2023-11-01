@@ -63,16 +63,16 @@ terms4FAIRskills:
 
 --- 
 
-This part will help you better understand why ontologies are important, as well as their core principles and requirements for building effective semantic models.
+The purpose of using predefined data vocabularies and ontologies in science is to establish standardized and consistent terminology and conceptual frameworks. By defining and organizing terms and concepts in a structured manner, predefined vocabularies and ontologies enable effective communication and knowledge sharing among scientists within and across different disciplines. These tools help researchers to accurately describe and represent scientific data, experiments, and theories, facilitating data integration, interoperability, and collaboration. Furthermore, predefined vocabularies and ontologies promote the discovery of relevant scientific information, enhance data mining and analysis, and enable the development of intelligent systems and applications in various scientific domains. This lesson plan will help you better understand why ontologies are important, as well as their core principles and requirements for building effective semantic models.
  
 
 ## Topic, definition and scope
 
 
 
-* What are ontologies and when/why  do we need them
-* What is the selection criteria
-* Types of vocabularies
+* What are ontologies and when/why do we need them
+* What selection criteria do we use to chose ontologies and vocabularies
+* What types of vocabularies there are
 * Create data vocabularies from scratch / apply existing ones
 * How do use ontologies in real life (practical demonstration)
 
@@ -81,16 +81,17 @@ This part will help you better understand why ontologies are important, as well 
 
 ## FAIR element(s)
 
+* Findability: An ontology can improve findability by providing a standardized vocabulary for describing data. By using established terms and relationships, researchers can ensure that their data is discoverable by others who are searching for specific concepts or entities.
 
+* Accessibility: An ontology can enhance accessibility by providing a clear and well-defined structure for organizing and representing data. By adhering to ontology standards, researchers can make their data more accessible to both humans and machines, enabling easier understanding and interpretation.
 
-* F, I, R elements
+* Interoperability: An ontology plays a crucial role in achieving interoperability by providing a shared understanding of concepts and their relationships. By using standardized terms and relationships from an ontology, researchers can enable data integration and exchange across different systems and domains.
 
+* Reusability: An ontology supports reusability by providing a common vocabulary that can be used across multiple datasets and applications. By using established ontologies, researchers can ensure that their data is reusable and can be easily integrated with other datasets for further analysis or comparison.
 
 ---
 
 ## Primary audience(s)
-
-
 
 * Data stewards
 * General researchers or/and researchers are involved in designing semantic data models
@@ -103,8 +104,8 @@ This part will help you better understand why ontologies are important, as well 
 
 
 
-* Explain what ontologies are and why we use them;
-* Describe the usage of ontologies in filling out metadata schemas 
+* Explain what ontologies and vocabularies are and why we use them;
+* Describe the use of ontologies in filling out metadata schemas 
 * Describe how ontologies are used on a domain repository of choice
 * FAIRsharing will list standards that are implemented by databases, and vice versa, therefore if you are required to use a particular set of databases, then you can see those terminologies that are implemented by those databases
 * Explain how vocabularies lead to the Findability, Interoperability and Reusability;
