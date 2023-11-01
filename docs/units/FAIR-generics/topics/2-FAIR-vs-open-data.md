@@ -41,6 +41,9 @@ learning_outcomes:
     outcome: Choose a suitable repository to make data open
     level: expert
 
+prerequisites:
+  - Have basic knowledge of the FAIR Principles 
+
 content:
   - subject: "Contrast FAIR and OPEN"
     learning_outcome: 1
@@ -48,9 +51,6 @@ content:
     level: beginner 
     audience: any
     timing: 
-
-prerequisites:
-  - Have basic knowledge of the FAIR Principles 
 
 terms4FAIRskills:
   - subject:

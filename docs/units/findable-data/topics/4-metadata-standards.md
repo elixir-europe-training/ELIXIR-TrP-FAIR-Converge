@@ -32,7 +32,12 @@ learning_outcomes:
     outcome: Explore available tools for working with a specific metadata standard
   7:
     outcome: Describe the concept of machine-actionability and validation with a focus on data brokering to a repository of choice
-
+    
+prerequisites:
+  - Basic understanding of FAIR principles
+  - Knowledge of different types of data (e.g. raw vs processed)
+  - Familiarity with repositories 
+  - Familiarity with PIDs
 
 terms4FAIRskills:
   - subject:
@@ -121,16 +126,6 @@ Topics to be covered in the lesson plan:
     * Find
     * Create
     * Use Case
-
-
----
-
-## Prerequisites
-
-* Basic understanding of FAIR principles
-* Knowledge of different types of data (e.g. raw vs processed)
-* Familiarity with repositories 
-* Familiarity with PIDs
 
 ---
 

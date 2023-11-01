@@ -23,7 +23,6 @@ audience:
   - Data producing/analysis staff-scientists at a Research Infrastructure
   - Anyone working with research data
 
-
 learning_outcomes:
   1:
     outcome: Define the FAIR principles (Understand/Remember)
@@ -47,6 +46,9 @@ learning_outcomes:
     outcome: Make sure your data is following above mentioned requirements (Apply)
   11:
     outcome: Describe the relationship between open data with the different phases of the research data life cycle (_also see lesson plan on Open data vs FAIR - discussion point_)
+
+prerequisites:
+  - Basic understanding about Research Data Management
 
 terms4FAIRskills:
   - subject:
@@ -104,12 +106,6 @@ terms4FAIRskills:
 
 * Understanding data life cycle and its use in a research project.
 * Understanding how each step in the lifecycle supports making research data FAIR by-design.
-
----
-
-## Prerequisites
-
-* Basic understanding about Research Data Management.
 
 ---
 
