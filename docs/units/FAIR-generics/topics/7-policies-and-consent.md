@@ -7,20 +7,17 @@ authors:
   - "Bruna Vieira"
     
 reviewers:
+
+fair_elements:
+  - A
+  - R
+
 --- 
 
 ## Topic, definition and scope
 
 * Data Access Policy (DAP), Informed Consent Form (ICF) Machine readable
 * **Overview of Open Policies (differences and similarities across countries)**
-* …
-
----
-
-## FAIR element(s)
-
-* A and R
-* …
 * …
 
 ---

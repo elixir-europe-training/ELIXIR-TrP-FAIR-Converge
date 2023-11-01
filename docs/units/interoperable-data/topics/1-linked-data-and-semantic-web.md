@@ -6,6 +6,10 @@ authors:
   - "0000-0003-3357-3027"
 
 reviewers:
+
+fair_elements:
+  - I
+
 ---
 
 ## Topic, definition and scope
@@ -14,17 +18,6 @@ reviewers:
 
 * Description of the Linked Data / the Semantic web and related concepts (triples, graphs, RDF, URIs)
 
-
----
-
-## FAIR element(s)
-
-
-
-* Interoperability
-
-
----
 
 ## Primary audience(s)
 

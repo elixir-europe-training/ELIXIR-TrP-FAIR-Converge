@@ -11,6 +11,12 @@ authors:
 
 reviewers:
 
+fair_elements:
+  - F
+  - A
+  - I
+  - R
+
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
@@ -70,12 +76,6 @@ terms4FAIRskills:
 
 ---
 
-## FAIR element(s)
-
-All FAIR elements
-
----
-
 ## Primary audience(s)
 
 * Data stewards
@@ -104,22 +104,6 @@ All FAIR elements
 * At the end of this lesson you will be able to list the RDM and FAIR requirements from different funders (European and national) _(discussion point - applicable to this lessonplan or another unit?)_
 * At the end of the lesson you will be able to make sure your data is following above mentioned requirements (Apply)
 * You will be able to describe the relationship between open data with the different phases of the research data life cycle (_also see lesson plan on Open data vs FAIR - discussion point_)
-
-## Delivery format
-
-* In-person training
-* Online training
-    * Interactive training
-    * Tutorial
-    * Webinar
-
-## Format of content
-
-* Powerpoint
-* PDF
-* Games
-* Excel/csv (for dataset for exercise)
-* Videos
 
 ---
 

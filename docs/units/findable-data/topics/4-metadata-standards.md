@@ -101,48 +101,6 @@ Topics to be covered in the lesson plan:
 
 ---
 
-## FAIR element(s)
-
-
-
-* Findable
-    * F1. (Meta)data are assigned a globally unique and persistent identifier
-        * Globally unique and persistent identifiers are assigned to every element in the metadata and to every element (e.g. measurement) of the dataset. This removes ambiguity and allows for the datasets to be maintained over time. This relies on external services (e.g.  http://www.doi.org, http://identifiers.org) that provide persistent identifiers.
-    * F2. Data are described with rich metadata
-        * A rich and standardised metadata model allows for granular queries and filtering of published datasets. Ideally, a user should be able to access the relevance of a dataset only from the metadata, i.e. without downloading and analysing the dataset itself. 
-    * F3. Metadata clearly and explicitly includes the identifier of the data they describe
-        * See also F1. Machine-actionable linking between data and metadata is  central to the idea of FAIR data. 
-    * F4. (Meta)data are registered or indexed in a searchable resource
-        * Using unique identifiers is not enough to make the data findable by either man or machine. Metadata needs to be discoverable, possibly through a resource compatible with the metadata model in F2.
-* Accessible
-    * A1. (Meta)data are retrievable by their identifier using a standardised communications protocol
-        * A1.1 The protocol is open, free, and universally implementable
-        * A1.2 The protocol allows for an authentication and authorisation procedure, where necessary
-            * The identifiers in the metadata scheme are used to fetch the data or other information. 
-    * A2. Metadata is accessible, even when the data is no longer available
-        * Metadata marks the fact that a certain experiment/computation/researchtook place.
-* Interoperable
-    * I1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
-        * This boosts the machine-actionability of metadata and facilitates the integration with between datasets from different sources.
-    * I2. (Meta)data use vocabularies that follow FAIR principles
-        * This is the core of semantic interoperability. Metadata should use a controlled language and, when available, ontologies, which would provide the entry with a persistent unique identifier. 
-    * I3. (Meta)data include qualified references to other (meta)data
-        * This helps understand the relationship between datasets in a structured way. 
-* Reusable
-    * R1. (Meta)data are richly described with a plurality of accurate and relevant attributes
-        * This allows to correctly interpret the information within the datasets to verify its reusability/repurposing for another study. 
-        * R1.1. (Meta)data are released with a clear and accessible data usage licence
-            * Conditions for reusing data should be stated. 
-        * R1.2. (Meta)data are associated with detailed provenance
-            * This describes the history of the data including the analysis workflow that generated processed data 
-        * R1.3. (Meta)data meet domain-relevant community standards
-            * Domain-relevant community standards aim at capturing as much as possible information about the protocols used to generate the data
-            * They are also based on domain-relevant underlying knowledge representation (semantic model?)
-            * They bring domain relevant vocabulary (also important for F)
-
-
----
-
 ## Primary audience(s)
 
 

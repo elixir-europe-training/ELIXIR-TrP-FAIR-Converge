@@ -7,6 +7,11 @@ authors:
   - "Bruna Vieira"
 
 reviewers:
+
+fair_elements:
+  - A
+  - R
+
 --- 
 
 ## Topic, definition and scope
@@ -15,17 +20,6 @@ reviewers:
 
 * Federated / FAIR Data visiting (query, authentication, authorisation, data access policy, icf)
 * 
-* …
-
-
----
-
-## FAIR element(s)
-
-
-
-* A and R
-* …
 * …
 
 

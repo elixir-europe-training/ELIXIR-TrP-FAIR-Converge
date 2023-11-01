@@ -13,6 +13,13 @@ reviewers:
   - "0000-0002-4385-9312"
   - "0000-0002-3060-3967"
 
+fair_elements:
+  - pre
+  - F
+  - A
+  - I
+  - R
+
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
@@ -92,14 +99,6 @@ terms4FAIRskills:
 ## Topic, definition and scope
 
 * Defining FAIR Objectives for a **research / scientific project as a part of data management plan creation.**
-
----
-
-## FAIR element(s)
-
-* Pre-FAIRification
-* All aspects of FAIR - because this topic is about a project defining the ways in which they are FAIR?
-* …
 
 ---
 

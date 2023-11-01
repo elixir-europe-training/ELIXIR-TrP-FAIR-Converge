@@ -7,20 +7,15 @@ authors:
   - "Bruna Vieira"
     
 reviewers:
+
+fair_elements:
+  - pre
 --- 
 
 ## Topic, definition and scope
 
 * Defining FAIR Objectives for **Organisations**
 * 
-* …
-
----
-
-## FAIR element(s)
-
-* Pre-FAIRification
-* …
 * …
 
 ---

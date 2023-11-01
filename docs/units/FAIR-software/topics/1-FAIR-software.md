@@ -21,17 +21,6 @@ reviewers:
 * Reproducible Software
 * Software management plans
 
-
----
-
-## FAIR element(s)
-
-
-
-* …
-* …
-
-
 ---
 
 ## Primary audience(s)

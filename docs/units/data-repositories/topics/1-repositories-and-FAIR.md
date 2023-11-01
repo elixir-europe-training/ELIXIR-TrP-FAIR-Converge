@@ -99,17 +99,6 @@ terms4FAIRskills:
 * **Background:**
     * A number of previous projects and working groups have been discussing what a common set of attributes should be to enable FAIR data, and to allow repository stakeholders to make their own decisions about which repository is best for them. Details of these previous efforts are summarised in the [case statement](https://www.rd-alliance.org/group/data-repository-attributes-wg/case-statement/data-repository-attributes-wg-case-statement) of one existing cross-domain, worldwide effort under the auspices of the RDA: the [RDA Data repository attributes Working Group](https://www.rd-alliance.org/groups/data-repository-attributes-wg). Therefore, how FAIR is implemented in a repository, and how each FAIR principle aligns with a particular data attribute, can be discovered from these efforts.
 
-
----
-
-## FAIR element(s)
-
-
-
-* …
-* …
-
-
 ---
 
 ## Primary audience(s)

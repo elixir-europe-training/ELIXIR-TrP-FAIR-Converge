@@ -9,6 +9,9 @@ authors:
 
 reviewers:
 
+fair_elements:
+  - A
+
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'

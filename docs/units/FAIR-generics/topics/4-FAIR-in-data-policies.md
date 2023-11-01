@@ -9,6 +9,13 @@ authors:
 
 reviewers:
   - "0000-0002-7702-4495"
+
+fair_elements:
+  - F
+  - A
+  - I
+  - R
+
 --- 
 
 ## Topic, definition and scopes
@@ -16,13 +23,6 @@ reviewers:
 * Benefits of FAIR data management at institutional level.
 * Implementing and adopting the FAIR principles at the institutional level.
     * See chapter 6 Implementing FAIR on D7.4 How to be FAIR with your data. A teaching and training handbook for higher education institutions. https://doi.org/10.5281/zenodo.6674301 (or the direct link at https://fairsfair.gitbook.io/fair-teaching-handbook/1introduction-1/2institutionalpolicies)  
-
-
-
-## FAIR element(s)
-* All F, A, I, R elements
-* https://doi.org/10.1038/sdata.2016.18 
-
 
 
 ## Primary audience(s)

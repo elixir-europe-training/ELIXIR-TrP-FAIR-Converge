@@ -20,16 +20,6 @@ reviewers:
 
 ---
 
-## FAIR element(s)
-
-
-
-* 
-* …
-
-
----
-
 ## Primary audience(s)
 
 
