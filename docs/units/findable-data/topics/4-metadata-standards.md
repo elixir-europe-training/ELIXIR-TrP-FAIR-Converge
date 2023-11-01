@@ -8,8 +8,7 @@ authors:
   - "0000-0001-6989-2252"
 
 reviewers:
-  - orcid: "0000-0002-3412-9086"
-    name: "Anne-Françoise Adam-Blondon"
+  - "0000-0002-3412-9086"
 
 terms4FAIRskills:
   - subject:
