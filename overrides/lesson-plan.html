@@ -7,12 +7,13 @@
         {% if "material/tags" in config.plugins %}
             {% include "partials/tags.html" %}
         {% endif %}
-        {% include "partials/actions.html" %}
 
         <div class="lesson-plan-header">
             {% if "\x3ch1" not in page.content %}
                 <h1>{{ page.title | d(config.site_name, true)}}</h1>
             {% endif %}
+            
+            {% include "partials/actions.html" %}
         </div>
 
         <div class="lesson-plan-metadata">
