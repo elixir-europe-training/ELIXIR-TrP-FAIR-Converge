@@ -1,5 +1,6 @@
 ---
 title: FAIR Software
+status: in_progress
 template: 'lesson-plan.html'
 authors:
   - "Alexia Cardona"
