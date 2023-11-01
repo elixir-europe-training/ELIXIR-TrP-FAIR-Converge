@@ -58,7 +58,8 @@ terms4FAIRskills:
 ## Topic, definition and scope
 
 * What is FAIR? (FAIRsFAIR lesson plan available [“FAIR in a nutshell”](https://fairsfair.gitbook.io/fair-teaching-handbook/0lessonplans/1lessonplan))
-* Who are the stakeholders? Answers to FAIR questions are different for the different stakeholders (researchers, organisations,  management, society). 
+* Who are the stakeholders? Answers to FAIR questions are different for the different stakeholders (researchers, organisations,  management, society)
+* Generic answers to **why** different stakeholders benefit from implementing the FAIR principles 
 * Motivation to implement FAIR: (depends on stakeholder)
     * Why make data Findable?
     * Why make data Accessible?
@@ -100,15 +101,6 @@ After this lesson students:
 
 * Introduction to FAIR principles
     * Explanation of each letter (focus on **what** it means) (link to [FAIRsFAIR lesson plan, slide 1-19](https://zenodo.org/record/5078286), [The FAIR principles explained - Maastricht University](https://www.youtube.com/watch?v=5OeCrQE3HhE), [Make your research data F.A.I.R](https://www.youtube.com/watch?v=kIwHJ6DkFdc), Cessda training, NL, [DCC PO FAIR datamanagement](https://www.youtube.com/watch?v=AL8L0fHgdI0)).
-* Generic answer to **why** question - formulate an answer not specific to any stakeholder
-    * Making your data FAIR can ([Ten reasons to share your data | News | Nature Index](https://www.natureindex.com/news-blog/ten-reasons-to-share-your-data)):
-        * Maximise the impact of and engagement with your research, and allow others to continue your legacy by using your data.
-        * Save money and other resources by reducing the need for funding bodies to support the same research multiple times, thereby making funding available for new ideas. This includes research with negative outcomes that were previously not published and thus are not Findable.
-        * Ensure your research stays relevant (i.e. actively used/cited by others).
-        * Make you and your research more visible both in and outside of your discipline.
-        * Encourage professionalism and improve quality control.
-        * Contribute back to the scientific community and increase reciprocity.
-        * Create more connections between you and other researchers, both in and outside of your discipline.
 
 * Identify common stakeholders related to FAIR usage in the following links, and group them in the following three categories; perform (p), facilitate (f) and benefit (b). ([link](https://genestack.com/resources/library/the-fair-principles-of-data-management/), ([link](https://www.rd-alliance.org/sites/default/files/RDA-SHARC%20Poster%20template%20Melbourne%20-%202020%20V10032020%20.jpg))
 
