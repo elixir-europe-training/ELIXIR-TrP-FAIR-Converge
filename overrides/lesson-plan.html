@@ -8,10 +8,17 @@
             {% include "partials/tags.html" %}
         {% endif %}
         {% include "partials/actions.html" %}
-        {% if "\x3ch1" not in page.content %}
-            <h1>{{ page.title | d(config.site_name, true)}}</h1>
-        {% endif %}
-    
+
+        <div class="lesson-plan-header">
+            {% if "\x3ch1" not in page.content %}
+                <h1>{{ page.title | d(config.site_name, true)}}</h1>
+            {% endif %}
+            {% if "status" in page.meta and page.meta.authors %}
+                <div class="lesson-plan-status lesson-plan-status-{{ page.meta.status }}">
+                    {{ config.extra.statuses[page.meta.status].title }}
+                </div>
+            {% endif %}
+        </div>
 
         {{ page.content }}
         

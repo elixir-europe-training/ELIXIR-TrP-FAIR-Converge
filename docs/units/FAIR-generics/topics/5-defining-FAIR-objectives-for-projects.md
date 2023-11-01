@@ -1,5 +1,6 @@
 ---
 title: Defining FAIR
+status: in_progress
 template: 'lesson-plan.html'
 authors:
   - "Pauline l'Henaff"

@@ -1,5 +1,6 @@
 ---
 title: Data Repositories and FAIR
+status: ready_for_review
 template: 'lesson-plan.html'
 authors:
   - "0000-0002-7159-1448"

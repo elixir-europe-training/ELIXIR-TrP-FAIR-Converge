@@ -1,5 +1,6 @@
 ---
 title: FAIR vs open data (science)
+status: ready_for_review
 template: 'lesson-plan.html'
 authors:
   - "0000-0003-2043-0772"

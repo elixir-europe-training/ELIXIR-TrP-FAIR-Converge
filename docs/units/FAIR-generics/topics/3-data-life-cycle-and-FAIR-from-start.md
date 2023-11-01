@@ -1,5 +1,6 @@
 ---
 title: Data Life Cycle approach to FAIR/FAIR right from the start
+status: ready_for_review
 template: 'lesson-plan.html'
 authors:
   - "0000-0002-4437-5504"

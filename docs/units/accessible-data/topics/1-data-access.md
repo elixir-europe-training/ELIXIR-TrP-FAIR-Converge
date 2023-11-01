@@ -1,5 +1,6 @@
 ---
 title: Access modes, sensitive data, registered access, controlled access
+status: ready_for_review
 template: 'lesson-plan.html'
 authors:
   - "0000-0002-7702-4495"

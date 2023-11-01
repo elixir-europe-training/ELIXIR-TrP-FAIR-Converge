@@ -1,5 +1,6 @@
 ---
 title: Linked data and semantic web technologies
+status: in_progress
 template: 'lesson-plan.html'
 authors:
   - "0000-0003-3357-3027"

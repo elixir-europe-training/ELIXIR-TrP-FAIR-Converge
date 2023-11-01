@@ -1,5 +1,6 @@
 ---
 title: FAIR and/in institutional data policies
+status: ready_for_review
 template: 'lesson-plan.html'
 authors:
   - "0000-0003-2313-0011"

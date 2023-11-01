@@ -1,5 +1,6 @@
 ---
 title: Data/Repository discovery
+status: ready_for_review
 template: 'lesson-plan.html'
 authors:
   - "0000-0001-6675-4639"

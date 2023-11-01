@@ -1,5 +1,6 @@
 ---
 title: M4M workshop
+status: in_progress
 template: 'lesson-plan.html'
 authors:
   - "0000-0001-9114-2896"

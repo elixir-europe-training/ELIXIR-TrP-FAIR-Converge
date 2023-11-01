@@ -1,5 +1,6 @@
 ---
 title: Data vocabularies and ontologies
+status: in_progress
 template: 'lesson-plan.html'
 authors:
   - "0000-0003-4942-2725"

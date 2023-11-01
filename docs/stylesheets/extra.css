@@ -59,3 +59,37 @@
   /* line-height: 1; */
   font-size: 14px;
 }
+
+.lesson-plan-header {   
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.lesson-plan-status {
+  padding: 5px 10px;
+  border-radius: 2px;
+  background: #eaeaea;
+  font-size: 14px;
+}
+
+.lesson-plan-header h1 {
+  margin-bottom: 0;
+}
+
+.lesson-plan-status.lesson-plan-status-ready_for_review {
+  background-color: #ddf3fd;
+  color: #0288d1;
+}
+
+
+.lesson-plan-status.lesson-plan-status-in_progress {
+  background-color: #ffeccf;
+  color: #f57c00;
+}
+
+
+.lesson-plan-status.lesson-plan-status-published {
+  background-color: #e2f0e3;
+  color: #388e3c;
+}

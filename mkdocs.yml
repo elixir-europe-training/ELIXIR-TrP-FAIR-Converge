@@ -1,7 +1,5 @@
 site_name: ELIXIR FAIR Lesson Plans
 nav:
-    - About: index.md
-    - Units:
     - Home: index.md
     - About: 
       - "Contributors": "about/contributors.md"
@@ -68,6 +66,7 @@ plugins:
   - macros:
       include_yaml:
         - contributors: _data/contributors.yaml
+        - statuses: _data/statuses.yaml
   
 # Footer
 copyright: By the ELIXIR Training Platform
