@@ -17,15 +17,12 @@ This website is generated with [MkDocs](https://www.mkdocs.org/), with the theme
 
 To host it locally, install MkDocs:
 ```bash
-pip install mkdocs
+pip3 install mkdocs
 ```
 
 and Material with some plugins:
 ```bash
-pip install mkdocs-material
-pip install mkdocs-video
-pip install mkdocs-bibtex 
-pip install neoteroi-mkdocs
+pip3 install mkdocs-material mkdocs-bibtex neoteroi-mkdocs mkdocs-video mkdocs-include-markdown-plugin mkdocs-markdownextradata-plugin mkdocs-macros-plugin
 ```
 
 Clone this repository to your local computer. Then, make the repository your current directory and type:

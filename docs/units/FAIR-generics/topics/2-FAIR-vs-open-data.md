@@ -10,6 +10,48 @@ authors:
 reviewers:
   - "0000-0002-5788-2687"
 
+fair_elements:
+  - F:
+    - F4
+  - A:
+    - A1.1
+    - A1.2
+  - R: 
+    - R1.1
+
+audience:
+  - Students, researchers and PIs who would like an introduction to open data compared to FAIR
+  - Onboarding data stewards
+  - Not domain-specific, but suitable for all fields
+
+learning_outcomes:
+  1:
+    outcome: Contrast FAIR and open data
+    level: beginner
+  2:
+    outcome: Know where to get more information/help about open science
+    level: beginner
+  3:
+    outcome: Describe the benefits and challenges of open science
+    level: intermediate
+  4:
+    outcome: Explain the challenges of making data open
+    level: intermediate
+  5:
+    outcome: Choose a suitable repository to make data open
+    level: expert
+
+content:
+  - subject: "Contrast FAIR and OPEN"
+    learning_outcome: 1
+    activity: "Discuss the differences between the two terms and how they can be used to complement each other (being open with slightly FAIR aspects)"
+    level: beginner 
+    audience: any
+    timing: 
+
+prerequisites:
+  - Have basic knowledge of the FAIR Principles 
+
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
@@ -116,34 +158,6 @@ Initiatives, external resources (some beginner resources, but mostly extra mater
 **Reusable** - in Europe, to have full legal rights to use any source, a license has to be added to it. 
 
 * R1.1: (Meta)data are released with a clear and accessible data usage license
-
-
----
-
-## Primary audience(s)
-
-* Students, researchers and PIs who would like an introduction to open data compared to FAIR
-* Onboarding data stewards
-* Not domain-specific, but suitable for all fields
-
-## Prerequisites
-
-* Have basic knowledge of the FAIR Principles 
-
----
-
-## Learning outcomes
-
-After completing this section, learners should be able to:
-
-* Contrast FAIR and open data (beginner)
-* Know where to get more information/help about open science (beginner)
-* Describe the benefits and challenges of open science (intermediate)
-* Explain the challenges of making data open (intermediate) 
-
-* Choose a suitable repository to make data open (expert)
-
----
 
 ## Summary of Tasks / Actions
 

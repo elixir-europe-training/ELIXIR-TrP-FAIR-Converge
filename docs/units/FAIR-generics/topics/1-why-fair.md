@@ -12,6 +12,31 @@ authors:
 reviewers:
   - "0000-0002-7702-4495"
 
+fair_elements:
+  - F
+  - A
+  - I
+  - R
+
+audience:
+  - Any researcher, research-performing academic staff, or student of any level generating and working with data for research purposes in any discipline, policy-oriented staff and managers.
+  - Not domain-specific and for all types of data that are used to perform research, analysis, archiving and publishing of data
+  - Not too technical, not too focused on data stewards
+
+learning_outcomes:
+  1:
+    outcome: Can explain the FAIR principles on a generic level
+  2:
+    outcome: Understand why you should apply the FAIR principles to your data
+  3:
+    outcome: Know of some common issues that prevent data reuse and how FAIR can help;
+  4:
+    outcome: Have an impression of what could go wrong if you don’t apply FAIR (horror stories topic overlap).
+  5:
+    outcome: Identify what changes are required in your work/group/organisation to facilitate FAIRer data practices.
+  6:
+    outcome: Identify the significance of FAIR for the quality of research performance and the required changes in an organisation to facilitate FAIR data management 
+
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000220'
@@ -67,33 +92,6 @@ terms4FAIRskills:
     * Why make data Reusable?
 * Benefits for different roles/levels (individual researcher vs scientific/discipline knowledge vs societal)
 * Incentives such as requirements from journals, institutions, and funding bodies. Exemplary recommendations from major entities include the ones from [Horizon 2020](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf), [UKRI](https://www.ukri.org/manage-your-award/publishing-your-research-findings/making-your-research-data-open/), [EOSC](https://eosc.eu/events/monitoring-eosc-readiness-fair-data-policies/), [NIH](https://sharing.nih.gov/data-management-and-sharing-policy/data-management#:~:text=NIH%20encourages%20data%20management%20and,repurposing%20datasets%20for%20secondary%20research).
-
----
-
-## FAIR element(s)
-
-* All FAIR elements
-
----
-
-## Primary audience(s)
-
-* Any researcher, research-performing academic staff, or student of any level generating and working with data for research purposes in any discipline, policy-oriented staff and managers.
-* Not domain-specific and for all types of data that are used to perform research, analysis, archiving and publishing of data
-* Not too technical, not too focused on data stewards
-
----
-
-## Learning outcomes
-
-After this lesson students:
-
-* Can explain the FAIR principles on a generic level;
-* Understand why you should apply the FAIR principles to your data;
-* Know of some common issues that prevent data reuse and how FAIR can help;
-* Have an impression of what could go wrong if you do not apply FAIR (horror stories topic overlap).
-* Identify what changes are required in your work/group/organisation to facilitate more FAIR data practices.
-* Identify the significance of FAIR for the quality of research performance and the required changes in an organisation to facilitate FAIR data management 
 
 ---
 
@@ -212,5 +210,3 @@ Societal    Societal value
     * Identify benefits from applying FAIR principles in your own organisation
     * Template document for each FAIR principle - researcher has to go through each point and write down what they will do in their dataset for F, A, I, R.? Maybe even each of the F1, F2, F3, F4?
     * An understanding of how this framework guides FAIRification might help. https://doi.org/10.1038/s41597-023-02167-2  \
-
----
