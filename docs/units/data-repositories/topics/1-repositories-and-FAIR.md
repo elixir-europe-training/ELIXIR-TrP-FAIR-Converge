@@ -83,10 +83,9 @@ terms4FAIRskills:
 
 
 
-* How repositories support FAIR?
-* The topic concerns the capacity of digital repositories in assuring the research data findability, accessibility, interoperability and reusability. This content is a summarised version suitable as a recap for those with pre-existing knowledge in data science. 
-* **Data repositories** are key in putting the FAIR principles into practice.
-* Not only do they enable findability and access, but they also provide persistent identifiers, documentation and metadata, thus fostering reusability for humans and machines.
+* How do repositories support FAIR?
+* The topic concerns the capacity of digital repositories to ensure the research data findability, accessibility, interoperability and reusability. This content is a summarised version suitable as a recap for those with pre-existing knowledge of data science. 
+* **Data repositories** are key in putting the FAIR principles into practice. They not only enable findability and accessibility but also provide persistent identifiers, documentation, and metadata, thus fostering reusability for humans and machines.
 * A “form” needs to be filled –metadata by default.
 * The form complies with a specific metadata standard.
 * Metadata will then become machine-actionable and searchable in an online resource.
@@ -308,8 +307,7 @@ terms4FAIRskills:
 * **[https://www.snf.ch/en/7GhWDP8omTMLZ00O/news/news-210122-open-research-data-which-data-repositories-can-be-used](https://www.snf.ch/en/7GhWDP8omTMLZ00O/news/news-210122-open-research-data-which-data-repositories-can-be-used)**
 * **[Zenodo](https://about.zenodo.org/principles/)**
 * **[FAIR_principles_translation_SNSF_logo (snf.ch)](https://www.snf.ch/SiteCollectionDocuments/FAIR_principles_translation_SNSF_logo.pdf)**
-* FAIRsharing’s educational factsheet on databasesFAIRsharing will have a database-specific infographic ready in the next month or two
-
+* **[FAIRsharing’s educational factsheet on databases](https://doi.org/10.25504/FAIRsharing.dab53d)**
 
 ---
 

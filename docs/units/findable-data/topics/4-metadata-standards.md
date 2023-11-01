@@ -8,6 +8,8 @@ authors:
   - "0000-0001-6989-2252"
 
 reviewers:
+  - orcid: "0000-0002-3412-9086"
+    name: "Anne-Françoise Adam-Blondon"
 
 terms4FAIRskills:
   - subject:
@@ -154,14 +156,10 @@ Topics to be covered in the lesson plan:
 
 ## Prerequisites
 
-
-
 * Basic understanding of FAIR principles
 * Knowledge of different types of data (e.g. raw vs processed)
 * Familiarity with repositories 
 * Familiarity with PIDs
-* Knowledge of dictionaries, vocabularies and ontologies
-
 
 ---
 

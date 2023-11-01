@@ -164,6 +164,7 @@ Duration will be adjusted based on the overall scheme of the course, the audienc
 * Games: 
     * [Welcome to League of Data | League of Data (sshopencloud.eu)](https://lod.sshopencloud.eu/)
     * [UZH - Open Science - Open Science Game: Open Up Your Research](https://www.openscience.uzh.ch/en/moreopenscience/game.html)
+    * [Data Horror Escape Room](https://sites.google.com/vu.nl/datahorror/home)
 * RDM toolkit:
     [https://rdmkit.elixir-europe.org/](https://rdmkit.elixir-europe.org/)
 * FAIR Cookbook: https://doi.org/10.1038/s41597-023-02166-3 and [https://faircookbook.elixir-europe.org/content/home.html](https://faircookbook.elixir-europe.org/content/home.html) 

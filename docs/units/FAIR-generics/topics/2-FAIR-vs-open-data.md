@@ -71,15 +71,14 @@ terms4FAIRskills:
           license
 --- 
 
-## Topic, definition and scope**
+## Topic, definition and scope
 
-Open Science (OS) is the movement to make scientific research, data and their dissemination available to any member of an inquiring society, from professionals to citizens. It impinges on principles of scientific growth and public access including practices such as publishing open research and campaigning for open access, with the ultimate aim of making it easier to publish and communicate scientific knowledge. From development to dissemination of knowledge, several concepts belong under the umbrella term of ‘Open Science’. 
+[Open Science (OS)](https://www.orion-openscience.eu/resources/open-science) is the movement to make scientific research, data and their dissemination available to any member of an inquiring society, from professionals to citizens. It impinges on principles of scientific growth and public access including practices such as publishing open research and campaigning for open access, with the ultimate aim of making it easier to publish and communicate scientific knowledge. From development to the dissemination of knowledge, several concepts belong under the umbrella term of *Open Science*. 
 
-[https://www.orion-openscience.eu/resources/open-science](https://www.orion-openscience.eu/resources/open-science) 
+[Open Science]((https://www.fosteropenscience.eu/foster-taxonomy/open-science-definition) ) is the practice of science in such a way that others can collaborate and contribute, where research data, lab notes and other research processes are freely available, under terms that enable the reuse, redistribution and reproduction of the research and its underlying data and methods.
 
-Open Science is the practice of science in such a way that others can collaborate and contribute, where research data, lab notes and other research processes are freely available, under terms that enable reuse, redistribution and reproduction of the research and its underlying data and methods. [https://www.fosteropenscience.eu/foster-taxonomy/open-science-definition](https://www.fosteropenscience.eu/foster-taxonomy/open-science-definition) 
+Topics to be covered in the lesson plan:
 
-Topics to be covered in the lesson plan: 
 * FAIR and OPEN SCIENCE definitions (beginner, intermediate, expert)
     * Open, restricted, embargo and closed access (beginner)
     * Open data and open research (methods, software, tools, codes) (beginner/intermediate)
@@ -88,12 +87,11 @@ Topics to be covered in the lesson plan:
     * Berlin declaration (data stewards)
 * Benefits of being OPEN (intermediate)
     * Comparison with FAIR
-* Why you wouldn’t be OPEN (intermediate)
+* Reasons for not being OPEN (intermediate)
     * Sensitive/patient data, anonymisation  
-* How can I be open? (expert)
+* How can I be OPEN? (expert)
     * Practical examples - _link to unit on choosing a repository_ 
 * European (/national) OS policies (data steward)
-
 
 Initiatives, external resources (some beginner resources, but mostly extra material for data stewards)
 * Software Carpentries
@@ -109,12 +107,12 @@ Initiatives, external resources (some beginner resources, but mostly extra mater
 
 * F4. (Meta)data are registered or indexed in a searchable resource
 
-**Accessible** - in Open Science, the data should be fully available for everybody. However, that is not always possible, for this reason, the authentication and authorisation procedures in the FAIR Principle are necessary. 
+**Accessible** - in Open Science, the data should be fully available to everybody. However, that is not always possible, for this reason, the authentication and authorisation procedures in the FAIR Principle are necessary. 
 
 * A1.1 The protocol is open, free, and universally implementable
 * A1.2 The protocol allows for an authentication and authorisation procedure, where necessary
 
-**Reusable** - in Europe, to have full legal rights to use any source, license has to be added to it. 
+**Reusable** - in Europe, to have full legal rights to use any source, a license has to be added to it. 
 
 * R1.1: (Meta)data are released with a clear and accessible data usage license
 
@@ -125,11 +123,11 @@ Initiatives, external resources (some beginner resources, but mostly extra mater
 
 * Students, researchers and PIs who would like an introduction to open data compared to FAIR
 * Onboarding data stewards
-* Not domain specific, but suitable for all fields
+* Not domain-specific, but suitable for all fields
 
 ## Prerequisites
 
-* Have basic knowledge about the FAIR Principles 
+* Have basic knowledge of the FAIR Principles 
 
 ---
 
@@ -152,10 +150,10 @@ After completing this section, learners should be able to:
     * Is open science just about data? Discuss other ways it is possible to be open
 * Identify the benefits of open science (intermediate)
     * Identify the benefits for different groups, including researchers, institutes, funders, the public
-    * **EXERCISE**: Divide into smaller groups, use white board, sticky notes or an app to note down the benefits, then organise them and discuss in a bigger group
+    * **EXERCISE**: Divide into smaller groups, use a whiteboard, sticky notes or an app to note down the benefits, then organise them and discuss in a bigger group
 * Identify the challenges of making data open (intermediate)
     * Identify reasons why researchers may find it difficult to make data open or may not be able to make it open
-    * **EXERCISE**: Divide into smaller groups, use white board, sticky notes or an app to note down the challenges, then organise them and discuss in a bigger group
+    * **EXERCISE**: Divide into smaller groups, use a whiteboard, sticky notes or an app to note down the challenges, then organise them and discuss them in a bigger group
     * Talk about sensitive/patient data, anonymisation
 * How can you make your data open? (expert)
     * Search for open data repositories related to the type of data you have
@@ -167,9 +165,9 @@ After completing this section, learners should be able to:
 
 ## Materials / Equipment
 
-* Computer / laptop
+* Computer/laptop
 * Internet / Browser
-* F2F lessons: White board, sticky notes
+* F2F lessons: Whiteboard, sticky notes
 * Online lessons: Online sticky note collaboration tool, e.g. Padlet
 
 ---
@@ -194,11 +192,9 @@ Everyone:
 * Submit your data to an open repository (expert)
 
 For data stewards: 
-* Look more into depth about your national/institutional Open Science policies: 
+* Look more in detail about your national/institutional Open Science policies: 
     * [An Analysis of Open Science policies in Europe](https://zenodo.org/record/4725817#.YrwrtBNBw-Q)
     * [Open Science in Europe’s Universities](https://zenodo.org/record/5062982#.YrwrrRNBw-Q)
+    * [National resources pages on RDMkit](https://rdmkit.elixir-europe.org/national_resources)
 * Look through [EC Open Science Policy](https://ec.europa.eu/info/research-and-innovation/strategy/strategy-2020-2024/our-digital-future/open-science_en) 
-* Local Libraries are (usually) the experts in Open Science. Make contact with them and learn what they are doing. 
-
-
-
+* Local University Libraries are (usually) the experts in Open Science. Take contact with them and learn what they are doing.
