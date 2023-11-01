@@ -2,7 +2,10 @@
   --md-primary-fg-color:        #0c3450ff;
   --md-accent-fg-color:         #eb8339ff;
   --md-typeset-a-color:         #047eaaff;
-  --md-admonition-icon--overview: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 12a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"/><path d="M12 3.5c3.432 0 6.124 1.534 8.054 3.241 1.926 1.703 3.132 3.61 3.616 4.46a1.6 1.6 0 0 1 0 1.598c-.484.85-1.69 2.757-3.616 4.461-1.929 1.706-4.622 3.24-8.054 3.24-3.432 0-6.124-1.534-8.054-3.24C2.02 15.558.814 13.65.33 12.8a1.6 1.6 0 0 1 0-1.598c.484-.85 1.69-2.757 3.616-4.462C5.875 5.034 8.568 3.5 12 3.5ZM1.633 11.945a.115.115 0 0 0-.017.055c.001.02.006.039.017.056.441.774 1.551 2.527 3.307 4.08C6.691 17.685 9.045 19 12 19c2.955 0 5.31-1.315 7.06-2.864 1.756-1.553 2.866-3.306 3.307-4.08a.111.111 0 0 0 .017-.056.111.111 0 0 0-.017-.056c-.441-.773-1.551-2.527-3.307-4.08C17.309 6.315 14.955 5 12 5 9.045 5 6.69 6.314 4.94 7.865c-1.756 1.552-2.866 3.306-3.307 4.08Z"/></svg>')
+  --md-admonition-icon--overview: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 12a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"/><path d="M12 3.5c3.432 0 6.124 1.534 8.054 3.241 1.926 1.703 3.132 3.61 3.616 4.46a1.6 1.6 0 0 1 0 1.598c-.484.85-1.69 2.757-3.616 4.461-1.929 1.706-4.622 3.24-8.054 3.24-3.432 0-6.124-1.534-8.054-3.24C2.02 15.558.814 13.65.33 12.8a1.6 1.6 0 0 1 0-1.598c.484-.85 1.69-2.757 3.616-4.462C5.875 5.034 8.568 3.5 12 3.5ZM1.633 11.945a.115.115 0 0 0-.017.055c.001.02.006.039.017.056.441.774 1.551 2.527 3.307 4.08C6.691 17.685 9.045 19 12 19c2.955 0 5.31-1.315 7.06-2.864 1.756-1.553 2.866-3.306 3.307-4.08a.111.111 0 0 0 .017-.056.111.111 0 0 0-.017-.056c-.441-.773-1.551-2.527-3.307-4.08C17.309 6.315 14.955 5 12 5 9.045 5 6.69 6.314 4.94 7.865c-1.756 1.552-2.866 3.306-3.307 4.08Z"/></svg>');
+  --md-icon--done: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg>');
+  --md-icon--mark_chat_read: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M694-160 553-302l56-56 85 85 170-170 56 57-226 226ZM80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v280h-80v-280H160v525l46-45h274v80H240L80-80Zm80-240v-480 480Z"/></svg>');
+  --md-icon--edit_note: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M160-400v-80h280v80H160Zm0-160v-80h440v80H160Zm0-160v-80h440v80H160Zm360 560v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q8 9 12.5 20t4.5 22q0 11-4 22.5T863-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z"/></svg>');
 }
 
 .md-banner {
@@ -64,6 +67,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  margin-bottom: 20px;
 }
 
 .lesson-plan-status {
@@ -92,4 +96,85 @@
 .lesson-plan-status.lesson-plan-status-published {
   background-color: #e2f0e3;
   color: #388e3c;
+}
+
+.md-status--ready_for_review::after {
+  mask-image: var(--md-icon--mark_chat_read);
+  -webkit-mask-image: var(--md-icon--mark_chat_read);
+  background-color: #0288d1;
+}
+
+.md-status--published::after {
+  mask-image: var(--md-icon--done);
+  -webkit-mask-image: var(--md-icon--done);
+  background-color: #388e3c;
+}
+
+.md-status--in_progress::after {
+  mask-image: var(--md-icon--edit_note);
+  -webkit-mask-image: var(--md-icon--edit_note);
+  background-color: #f57c00;
+}
+
+.md-nav__link {
+  justify-content: space-between;
+}
+
+.md-nav__link .md-status::after {
+  opacity: 0.5;
+}
+
+.lesson-plan-metadata, 
+.lesson-plan-credits {
+  padding: 10px;
+  border-radius: 2px;
+  background: #f6f6f6;
+  font-size: 16px;
+}
+
+.lesson-plan-metadata .lesson-plan-metadata-icon,
+.lesson-plan-credits  .lesson-plan-metadata-icon
+{
+  font-size: 12px;
+}
+
+.lesson-plan-metadata .tabbed-set, .lesson-plan-credits .tabbed-set {
+  margin: 0;
+}
+
+.lesson-plan-metadata-blocks {
+  display: flex;
+  margin: 10px;
+}
+
+.lesson-plan-metadata-block {
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+.lesson-plan-metadata-block:last-child {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.lesson-plan-metadata-block-title {
+  font-weight: bold;
+  font-size: 14px;
+  color: var(--md-default-fg-color);
+}
+
+ul.lesson-plan-tags {
+  margin: 0!important;
+  padding: 0;
+  list-style: none;
+}
+
+ul.lesson-plan-tags li.lesson-plan-tag {
+  margin-left: 0;
+  padding: 5px 10px;
+  border-radius: 2px;
+  background: #eaeaea;
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 2px;
 }

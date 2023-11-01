@@ -13,12 +13,124 @@
             {% if "\x3ch1" not in page.content %}
                 <h1>{{ page.title | d(config.site_name, true)}}</h1>
             {% endif %}
-            {% if "status" in page.meta and page.meta.authors %}
-                <div class="lesson-plan-status lesson-plan-status-{{ page.meta.status }}">
-                    {{ config.extra.statuses[page.meta.status].title }}
-                </div>
-            {% endif %}
         </div>
+
+        <div class="lesson-plan-metadata">
+
+            <div class="tabbed-set tabbed-alternate" data-tabs="1:2">
+                <input checked id="__meta_tabbed_1" name="__meta_tabbed" type="radio">
+                <input id="__meta_tabbed_2" name="__meta_tabbed" type="radio">
+                <input id="__meta_tabbed_3" name="__meta_tabbed" type="radio">
+                
+                <div class="tabbed-labels">
+                    <label for="__meta_tabbed_1">
+                        <span class="lesson-plan-metadata-icon material-symbols-outlined">info</span>
+                        General
+                    </label>
+                    <label for="__meta_tabbed_2">
+                        <span class="lesson-plan-metadata-icon material-symbols-outlined">groups</span>
+                        Target audience
+                    </label>
+                    <label for="__meta_tabbed_3">
+                        <span class="lesson-plan-metadata-icon material-symbols-outlined">target</span>
+                        Learning outcomes
+                    </label>
+                </div>
+    
+                <div class="tabbed-content">
+                    <div class="tabbed-block">
+                        <div class="lesson-plan-metadata-blocks">
+                            <div class="lesson-plan-metadata-block">
+                                <div class="lesson-plan-metadata-block-title">Status</div>
+
+                                {% if "status" in page.meta and page.meta.authors %}
+                                    <div class="lesson-plan-tag lesson-plan-status lesson-plan-status-{{ page.meta.status }}">
+                                        <span class="md-status md-status--{{ page.meta.status }}" title="{{ config.extra.status[page.meta.status] }}">
+                                        </span> 
+                                        {{ config.extra.status[page.meta.status] }}
+                                    </div>
+                                {% endif %}
+                            </div>
+
+                            <div class="lesson-plan-metadata-block">
+                                <div class="lesson-plan-metadata-block-title">FAIR elements</div>
+                            
+                                {% if "fair_elements" in page.meta and page.meta.fair_elements %}
+                                    <ul class="lesson-plan-tags lesson-plan-tags-elements">
+                                        {% for fair_element in page.meta.fair_elements %}
+                                        
+                                        <li class="lesson-plan-tag">
+                                            {% if fair_element is mapping %}
+                                                {{ config.extra.fair_principles[fair_element | first].title }}
+                                            {% else %}
+                                                {{ config.extra.fair_principles[fair_element].title }}
+                                            {% endif %}
+                                        </li>
+                                        {% endfor %}
+                                    </ul>
+                                {% endif %}
+                            </div>
+
+                            <div class="lesson-plan-metadata-block">
+                                <div class="lesson-plan-metadata-block-title">Level</div>
+                            </div>
+
+                            <!-- Prerequisites -->
+                        </div>
+                    </div>
+                    <div class="tabbed-block">
+                        {% if "audience" in page.meta and page.meta.audience %}
+                            <ul>
+                                {% for audience in page.meta.audience %}
+                                <li>
+                                    {{ audience }}
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </div>
+                    <div class="tabbed-block">
+                        {% if "learning_outcomes" in page.meta and page.meta.learning_outcomes %}
+                            <ul>
+                                {% for learning_outcome_number in page.meta.learning_outcomes %}
+                                <li>
+                                    {{ page.meta.learning_outcomes[learning_outcome_number].outcome }}
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% if "content" in page.meta and page.meta.content %}
+        
+        <table>
+            <thead>
+                <th>Stage</th>
+                <th>Subject</th>
+                <th>Learning outcome</th>
+                <th>Activity</th>
+                <th>Level</th>
+                <th>Audience</th>
+            </thead>
+            <tbody>
+                {% for content_item in page.meta.content %}
+                    <tr>
+                        <td>Preparation</td>
+                        <td>{{ content_item.subject }}</td>
+                        <td>{{ page.meta.learning_outcomes[content_item.learning_outcome].outcome }}</td>
+                        <td>{{ content_item.activity }}</td>
+                        <td>{{ content_item.level }}</td>
+                        <td>{{ content_item.audience }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        {% endif %}
+
 
         {{ page.content }}
         
@@ -31,85 +143,87 @@
 
         <hr />
 
-        <div class="tabbed-set tabbed-alternate" data-tabs="1:2">
-            <input checked id="__author_tabbed_1" name="__author_tabbed" type="radio">
-            <input id="__author_tabbed_2" name="__author_tabbed" type="radio">
-            <input id="__author_tabbed_3" name="__author_tabbed" type="radio">
-            
-            <div class="tabbed-labels">
-                <label for="__author_tabbed_1">Authors</label>
-                <label for="__author_tabbed_2">Reviewers</label>
-                {% if "terms4FAIRskills" in page.meta and page.meta.terms4FAIRskills %}
-                    <label for="__author_tabbed_3">terms4FAIRskills</label>
-                {% endif %}
-            </div>
-
-            <div class="tabbed-content">
-                <div class="tabbed-block">
-                    {% if "authors" in page.meta and page.meta.authors %}
-                        <ul>
-                            {% for authorId in page.meta.authors %}
-                            
-                            <li>
-                                {{ config.extra.contributors[authorId].firstName }} {{ config.extra.contributors[authorId].lastName }}
-                                {% if config.extra.contributors[authorId].orcid %}
-                                        <a href="https://orcid.org/{{ config.extra.contributors[authorId].orcid }}" target="_blank">
-                                            <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
-                                        </a>
-                                {% endif %}
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    {% endif %}
-                </div>
-                <div class="tabbed-block">
-                    {% if "reviewers" in page.meta and page.meta.reviewers %}
-                        <ul>
-                            {% for reviewerId in page.meta.reviewers %}
-                            <li>
-                                {{ config.extra.contributors[reviewerId].firstName }} {{ config.extra.contributors[reviewerId].lastName }}
-                                {% if config.extra.contributors[reviewerId].orcid %}
-                                        <a href="https://orcid.org/{{ config.extra.contributors[reviewerId].orcid }}" target="_blank">
-                                            <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
-                                        </a>
-                                {% endif %}
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    {% endif %}
-                </div>
-                <div class="tabbed-block">
-                    <p>
-                        The <a href="https://terms4fairskills.github.io/" target="_blank">terms4FAIRskills</a> project has created a formalised terminology that describes the competencies, skills and knowledge associated with making and keeping data FAIR. 
-                    </p>
-
+        <div class="lesson-plan-credits">
+            <div class="tabbed-set tabbed-alternate" data-tabs="1:2">
+                <input checked id="__author_tabbed_1" name="__author_tabbed" type="radio">
+                <input id="__author_tabbed_2" name="__author_tabbed" type="radio">
+                <input id="__author_tabbed_3" name="__author_tabbed" type="radio">
+                
+                <div class="tabbed-labels">
+                    <label for="__author_tabbed_1">Authors</label>
+                    <label for="__author_tabbed_2">Reviewers</label>
                     {% if "terms4FAIRskills" in page.meta and page.meta.terms4FAIRskills %}
-                        <table id="terms4FAIRskills">
-                            {% for triple in page.meta.terms4FAIRskills %}
-                            <tr>
-                                <td>
-                                    <ul>
-                                    {% for subject in triple.subject %}
-                                        <li><a href="{{ subject.uri }}" target="_blank">{{ subject.label }}</a></li>
-                                    {% endfor %}
-                                    </ul>
-                                </td>
-                                <td>
-                                    <ul>
-                                    {% for predicate in triple.predicate %}
-                                        <li><a href="{{ predicate.uri }}" target="_blank">{{ predicate.label }}</a></li>
-                                    {% endfor %}
-                                    </ul>
-                                </td>
-                                <td>
-                                    {% for object in triple.object %}
-                                        <li><a href="{{ object.uri }}" target="_blank">{{ object.label }}</a></li>
-                                    {% endfor %}
-                                </td>
-                            </tr>
-                            {% endfor %}
-                        </table>
+                        <label for="__author_tabbed_3">terms4FAIRskills</label>
                     {% endif %}
+                </div>
+
+                <div class="tabbed-content">
+                    <div class="tabbed-block">
+                        {% if "authors" in page.meta and page.meta.authors %}
+                            <ul>
+                                {% for authorId in page.meta.authors %}
+                                
+                                <li>
+                                    {{ config.extra.contributors[authorId].firstName }} {{ config.extra.contributors[authorId].lastName }}
+                                    {% if config.extra.contributors[authorId].orcid %}
+                                            <a href="https://orcid.org/{{ config.extra.contributors[authorId].orcid }}" target="_blank">
+                                                <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
+                                            </a>
+                                    {% endif %}
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </div>
+                    <div class="tabbed-block">
+                        {% if "reviewers" in page.meta and page.meta.reviewers %}
+                            <ul>
+                                {% for reviewerId in page.meta.reviewers %}
+                                <li>
+                                    {{ config.extra.contributors[reviewerId].firstName }} {{ config.extra.contributors[reviewerId].lastName }}
+                                    {% if config.extra.contributors[reviewerId].orcid %}
+                                            <a href="https://orcid.org/{{ config.extra.contributors[reviewerId].orcid }}" target="_blank">
+                                                <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
+                                            </a>
+                                    {% endif %}
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </div>
+                    <div class="tabbed-block">
+                        <p>
+                            The <a href="https://terms4fairskills.github.io/" target="_blank">terms4FAIRskills</a> project has created a formalised terminology that describes the competencies, skills and knowledge associated with making and keeping data FAIR. 
+                        </p>
+
+                        {% if "terms4FAIRskills" in page.meta and page.meta.terms4FAIRskills %}
+                            <table id="terms4FAIRskills">
+                                {% for triple in page.meta.terms4FAIRskills %}
+                                <tr>
+                                    <td>
+                                        <ul>
+                                        {% for subject in triple.subject %}
+                                            <li><a href="{{ subject.uri }}" target="_blank">{{ subject.label }}</a></li>
+                                        {% endfor %}
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                        {% for predicate in triple.predicate %}
+                                            <li><a href="{{ predicate.uri }}" target="_blank">{{ predicate.label }}</a></li>
+                                        {% endfor %}
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        {% for object in triple.object %}
+                                            <li><a href="{{ object.uri }}" target="_blank">{{ object.label }}</a></li>
+                                        {% endfor %}
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                            </table>
+                        {% endif %}
+                    </div>
                 </div>
             </div>
         </div>

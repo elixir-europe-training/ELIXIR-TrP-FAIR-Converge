@@ -67,7 +67,7 @@ plugins:
   - macros:
       include_yaml:
         - contributors: _data/contributors.yaml
-        - statuses: _data/statuses.yaml
+        - fair_principles: _data/fair_principles.yaml
   
 # Footer
 copyright: By the ELIXIR Training Platform
@@ -98,8 +98,13 @@ markdown_extensions:
   - neoteroi.cards
   - md_in_html
 
+extra:
+  status:
+    ready_for_review: "Ready for review"
+    in_progress: "In progress"
+    published: "Published"
 
 extra_css:
   - stylesheets/extra.css
   - stylesheets/neoteroi-mkdocs.css
-
+  - https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200

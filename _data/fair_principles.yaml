@@ -1,0 +1,42 @@
+F:
+  title: "Findability"
+  principles:
+    F1:
+      title: "(Meta)data are assigned a globally unique and persistent identifier"
+    F2:
+      title: "Data are described with rich metadata"
+    F3:
+      title: "Metadata clearly and explicitly include the identifier of the data they describe"
+    F4:
+      title: "(Meta)data are registered or indexed in a searchable resource"
+A:
+  title: "Accessibility"
+  principles:
+    A1:
+      title: (Meta)data are retrievable by their identifier using a standardised communications protocol
+    A1.1:
+      title: The protocol is open, free, and universally implementable
+    A1.2:
+      title: The protocol allows for an authentication and authorisation procedure, where necessary
+    A2:
+      title: Metadata are accessible, even when the data are no longer available
+I:
+  title: "Interoperability"
+  principles:
+    I1:
+      title: (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
+    I2:
+      title: (Meta)data use vocabularies that follow FAIR principles
+    I3:
+      title: (Meta)data include qualified references to other (meta)data
+R:
+  title: "Reusability"
+  principles:
+    R1:
+      title: (Meta)data are richly described with a plurality of accurate and relevant attributes
+    R1.1:
+      title: (Meta)data are released with a clear and accessible data usage license
+    R1.2:
+      title: (Meta)data are associated with detailed provenance
+    R1.3:
+      title: (Meta)data meet domain-relevant community standards
