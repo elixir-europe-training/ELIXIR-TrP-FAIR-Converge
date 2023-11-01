@@ -1,5 +1,5 @@
 ---
-title: FAIR vs open data (science)
+title: FAIR vs open data/science
 status: ready_for_review
 template: 'lesson-plan.html'
 authors:
@@ -79,19 +79,19 @@ terms4FAIRskills:
 
 Topics to be covered in the lesson plan:
 
-* FAIR and OPEN SCIENCE definitions (beginner, intermediate, expert)
+* FAIR and open science definitions (beginner, intermediate, expert)
     * Open, restricted, embargo and closed access (beginner)
     * Open data and open research (methods, software, tools, codes) (beginner/intermediate)
     * Reproducibility problem (beginner)
     * Data availability statement (expert)
     * Berlin declaration (data stewards)
-* Benefits of being OPEN (intermediate)
-    * Comparison with FAIR
-* Reasons for not being OPEN (intermediate)
+* Benefits open data (intermediate)
+    * Comparison with FAIR data
+* Reasons for not making the data open (intermediate)
     * Sensitive/patient data, anonymisation  
-* How can I be OPEN? (expert)
+* How can I adopt the principles and tooling of open science? (expert)
     * Practical examples - _link to unit on choosing a repository_ 
-* European (/national) OS policies (data steward)
+* European (/national) open science policies (data steward)
 
 Initiatives, external resources (some beginner resources, but mostly extra material for data stewards)
 
@@ -104,11 +104,11 @@ Initiatives, external resources (some beginner resources, but mostly extra mater
 
 ## FAIR element(s)
 
-**Findable** - for you to participate in Open Science, you need to put your research somewhere.  \
+**Findable** - for you to participate in open science, you need to put your research somewhere.  \
 
 * F4. (Meta)data are registered or indexed in a searchable resource
 
-**Accessible** - in Open Science, the data should be fully available to everybody. However, that is not always possible, for this reason, the authentication and authorisation procedures in the FAIR Principle are necessary. 
+**Accessible** - in open science, the data should be fully available to everybody. However, that is not always possible. For this reason, authentication and authorisation procedures need to be in place, as specified in the FAIR Principles. 
 
 * A1.1 The protocol is open, free, and universally implementable
 * A1.2 The protocol allows for an authentication and authorisation procedure, where necessary
@@ -136,18 +136,19 @@ Initiatives, external resources (some beginner resources, but mostly extra mater
 
 After completing this section, learners should be able to:
 
-* Contrast FAIR and OPEN (beginner)
-* Know where to get more information/help with OPEN science (beginner)
-* Describe the benefits and challenges of OPEN Science (intermediate)
-* Explain the challenges of making data OPEN (intermediate) 
+* Contrast FAIR and open data (beginner)
+* Know where to get more information/help about open science (beginner)
+* Describe the benefits and challenges of open science (intermediate)
+* Explain the challenges of making data open (intermediate) 
+
 * Choose a suitable repository to make data open (expert)
 
 ---
 
 ## Summary of Tasks / Actions
 
-* Contrast FAIR and OPEN (beginner)
-    * Discuss the differences between the two terms and how they can be used to complement each other (being open with slightly FAIR aspects)
+* Compare FAIR and open data (beginner)
+    * Discuss the differences between the two terms and how they can be used to complement each other
 * Discuss the breadth of the term open (beginner)
     * Is open science just about data? Discuss other ways it is possible to be open
 * Identify the benefits of open science (intermediate)
@@ -161,7 +162,7 @@ After completing this section, learners should be able to:
     * Search for open data repositories related to the type of data you have
     * **EXERCISE**: Each student (or a pair of students) will find repositories suitable for their data and will make a presentation about the database (referencing FAIR principles and open science)
     * Look through open data examples in repositories, how would FAIR Principles benefit these materials
-* Discuss national/institutional Open Science policies (data stewards)
+* Discuss national/institutional open science policies (data stewards)
 
 ---
 
