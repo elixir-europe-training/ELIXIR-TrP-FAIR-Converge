@@ -99,10 +99,7 @@ After this lesson students:
 ## Summary of Tasks / Actions
 
 * Introduction to FAIR principles
-    * Explanation of each letter (focus on **what** it means) (link to FAIRsFAIR lesson plan [https://zenodo.org/record/5078286](https://zenodo.org/record/5078286) slide 1-19, [The FAIR principles explained - Maastricht University](https://www.youtube.com/watch?v=5OeCrQE3HhE), [Make your research data F.A.I.R](https://www.youtube.com/watch?v=kIwHJ6DkFdc). - Cessda training, NL, [DCC PO FAIR datamanagement](https://www.youtube.com/watch?v=AL8L0fHgdI0)).
-    * Suggested: DCC PO Publiceren 2022
-    * 0:02 / 3:56
-    * )
+    * Explanation of each letter (focus on **what** it means) (link to [FAIRsFAIR lesson plan, slide 1-19](https://zenodo.org/record/5078286), [The FAIR principles explained - Maastricht University](https://www.youtube.com/watch?v=5OeCrQE3HhE), [Make your research data F.A.I.R](https://www.youtube.com/watch?v=kIwHJ6DkFdc), Cessda training, NL, [DCC PO FAIR datamanagement](https://www.youtube.com/watch?v=AL8L0fHgdI0)).
 * Generic answer to **why** question - formulate an answer not specific to any stakeholder
     * Making your data FAIR can ([Ten reasons to share your data | News | Nature Index](https://www.natureindex.com/news-blog/ten-reasons-to-share-your-data)):
         * Maximise the impact of and engagement with your research, and allow others to continue your legacy by using your data.
@@ -112,10 +109,8 @@ After this lesson students:
         * Encourage professionalism and improve quality control.
         * Contribute back to the scientific community and increase reciprocity.
         * Create more connections between you and other researchers, both in and outside of your discipline.
-* Identify common stakeholders related to FAIR usage and group them in the 3 groups mentioned in the next bullet points (perform (p), facilitate (f) and benefit (b))
-    * Researchers (p), scientific publishers (b) and funding agencies (f), suppliers of software for data management, analysis and processing (f), data science community (p) ([link](https://genestack.com/resources/library/the-fair-principles-of-data-management/) to source of stakeholders)
-    * Research funders, policymakers (f), community managers (f), standardization bodies (f, b), research providers (p, f, b), research communities (p, f, b), data service providers (f), data stewards (p, f) ([link](https://www.rd-alliance.org/sites/default/files/RDA-SHARC%20Poster%20template%20Melbourne%20-%202020%20V10032020%20.jpg))
-    * Society (b)
+      
+* Identify common stakeholders related to FAIR usage in the following links, and group them in the following three categories; perform (p), facilitate (f) and benefit (b). ([link](https://genestack.com/resources/library/the-fair-principles-of-data-management/), ([link](https://www.rd-alliance.org/sites/default/files/RDA-SHARC%20Poster%20template%20Melbourne%20-%202020%20V10032020%20.jpg))
 
 The [stakeholders](https://fairsharing.org/stakeholders) (with descriptions) within FAIRsharing might be of direct relevance here. Not only do they include the society, researchers, and research funders/policymakers listed above, but also Research data facilitators, librarians, and trainers. Feel free to use the descriptions/definitions here as it might help.
 
