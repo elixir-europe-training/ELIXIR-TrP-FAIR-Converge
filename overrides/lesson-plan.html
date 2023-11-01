@@ -7,12 +7,13 @@
         {% if "material/tags" in config.plugins %}
             {% include "partials/tags.html" %}
         {% endif %}
-        {% include "partials/actions.html" %}
 
         <div class="lesson-plan-header">
             {% if "\x3ch1" not in page.content %}
                 <h1>{{ page.title | d(config.site_name, true)}}</h1>
             {% endif %}
+            
+            {% include "partials/actions.html" %}
         </div>
 
         <div class="lesson-plan-metadata">
@@ -21,6 +22,7 @@
                 <input checked id="__meta_tabbed_1" name="__meta_tabbed" type="radio">
                 <input id="__meta_tabbed_2" name="__meta_tabbed" type="radio">
                 <input id="__meta_tabbed_3" name="__meta_tabbed" type="radio">
+                <input id="__meta_tabbed_4" name="__meta_tabbed" type="radio">
                 
                 <div class="tabbed-labels">
                     <label for="__meta_tabbed_1">
@@ -32,6 +34,10 @@
                         Target audience
                     </label>
                     <label for="__meta_tabbed_3">
+                        <span class="lesson-plan-metadata-icon material-symbols-outlined">checklist</span>
+                        Prerequisites
+                    </label>
+                    <label for="__meta_tabbed_4">
                         <span class="lesson-plan-metadata-icon material-symbols-outlined">target</span>
                         Learning outcomes
                     </label>
@@ -74,8 +80,6 @@
                             <div class="lesson-plan-metadata-block">
                                 <div class="lesson-plan-metadata-block-title">Level</div>
                             </div>
-
-                            <!-- Prerequisites -->
                         </div>
                     </div>
                     <div class="tabbed-block">
@@ -84,6 +88,17 @@
                                 {% for audience in page.meta.audience %}
                                 <li>
                                     {{ audience }}
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </div>
+                    <div class="tabbed-block">
+                        {% if "prerequisites" in page.meta and page.meta.prerequisites %}
+                            <ul>
+                                {% for prerequisite in page.meta.prerequisites %}
+                                <li>
+                                    {{ prerequisite }}
                                 </li>
                                 {% endfor %}
                             </ul>

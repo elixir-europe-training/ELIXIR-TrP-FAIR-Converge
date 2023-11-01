@@ -12,6 +12,28 @@ reviewers:
   - "0000-0002-5788-2687"
   - "0000-0002-3412-9086"
 
+audience:
+  - Researchers
+  - Data scientists
+  - Data Managers
+  - Data Stewards
+
+learning_outcomes:
+  1:
+    outcome: Understand how digital repositories can offer support for metadata
+  2:
+    outcome: Learn about repositories and interoperable file formats
+  3:
+    outcome: Know how repositories aid persistent identifiers for future citations 
+  4:
+    outcome: FAIRsharing stores information about which persistent identifiers are used by which repository 
+  5:
+    outcome: Navigate some trustworthy repositories to understand how they implement FAIR 
+  6:
+    outcome: Understand what FAIR principles and sub-principle are fulfilled by the repository and what are researchers' responsibility.
+  7:
+    outcome: Assess data FAIRness using F-UJI
+
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
@@ -98,43 +120,6 @@ terms4FAIRskills:
 * Interfaces for external services like [OAI-PMH](https://www.openarchives.org/pmh/) allow harvesting of metadata for stored records** **
 * **Background:**
     * A number of previous projects and working groups have been discussing what a common set of attributes should be to enable FAIR data, and to allow repository stakeholders to make their own decisions about which repository is best for them. Details of these previous efforts are summarised in the [case statement](https://www.rd-alliance.org/group/data-repository-attributes-wg/case-statement/data-repository-attributes-wg-case-statement) of one existing cross-domain, worldwide effort under the auspices of the RDA: the [RDA Data repository attributes Working Group](https://www.rd-alliance.org/groups/data-repository-attributes-wg). Therefore, how FAIR is implemented in a repository, and how each FAIR principle aligns with a particular data attribute, can be discovered from these efforts.
-
-
----
-
-## FAIR element(s)
-
-
-
-* …
-* …
-
-
----
-
-## Primary audience(s)
-
-
-
-* Researchers
-* Data scientists
-* Data Managers
-* Data Stewards
-
-
----
-
-## Learning outcomes
-
-
-
-* Understand how digital repositories can offer support for metadata
-* Learn about repositories and interoperable file formats: [This use case in FAIRsharing](https://fairsharing.gitbook.io/fairsharing/how-to/unsure-where-to-start) was created for this lesson plan
-* Know how repositories aid persistent identifiers for future citations 
-    * FAIRsharing stores information about which persistent identifiers are used by which repository (same [use case](https://fairsharing.gitbook.io/fairsharing/how-to/unsure-where-to-start) applies)
-* Navigate some trustworthy repositories to understand how they implement FAIR (same [use case](https://fairsharing.gitbook.io/fairsharing/how-to/unsure-where-to-start) applies)
-* Understand what FAIR principles and sub-principle are fulfilled by the repository and what are researchers' responsibility.
-* Assess data FAIRness using [F-UJI](https://www.f-uji.net/). See also [https://fairassist.org](https://fairassist.org) 
 
 
 ---

@@ -10,6 +10,41 @@ authors:
 
 reviewers:
 
+fair_elements:
+  - F:
+    - F1
+    - F3
+  - A:
+    - A1
+
+audience:
+  - Developers & curators of resources and tools
+  - Journal publishers and organisations with data policies
+  - Research data facilitators (e.g. data stewards, librarians, trainers)
+  - Societies, unions and community alliances
+  - Funders and data policy makers
+  - Researchers in academia, industry and government (e.g. PhD candidate, postdoctoral researcher)
+
+learning_outcomes:
+  1:
+    outcome: Define and recognise PIDs (basic level)
+  2:
+    outcome: Explain the syntax of widely-used PIDs  (basic level)
+  3:
+    outcome: Explain the different use cases for PIDs (basic level)
+  4:
+    outcome: Explain the importance of PIDs for FAIR data (basic level)
+  5:
+    outcome: Use PIDs to access research data or other resources (basic level)
+  6:
+    outcome: Apply PIDs to their own research outputs (intermediate level)
+  7:
+    outcome: Use PIDs to collaborate with others (intermediate level)
+  8:
+    outcome: Knows about data provenance and versioning of data (advanced level)
+  9:
+    outcome: Knows PID graphs (advanced level)
+
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
@@ -211,37 +246,6 @@ terms4FAIRskills:
 * Accessible
     * A1 RDA-A1-03M Metadata identifier resolves to a metadata record (essential)
     * A1 RDA-A1-03D Data identifier resolves to a digital object (essential)
-
-
----
-
-## Primary audience(s)
-
-
-
-  * Developers & curators of resources and tools
-  * Journal publishers and organisations with data policies
-  * Research data facilitators (e.g. data stewards, librarians, trainers)
-  * Societies, unions and community alliances
-  * Funders and data policy makers
-  * Researchers in academia, industry and government (e.g. PhD candidate, postdoctoral researcher)
-
-
----
-
-## Learning outcomes
-
-
-
-  1. Can define and recognise PIDs (basic level)
-  2. Can explain the syntax of widely-used PIDs  (basic level)
-  3. Can explain the different use cases for PIDs (basic level)
-  4. Can explain the importance of PIDs for FAIR data (basic level)
-  5. Can use PIDs to access research data or other resources (basic level)
-  6. Can apply PIDs to their own research outputs (intermediate level)
-  7. Can use PIDs to collaborate with others (intermediate level)
-  8. Knows about data provenance and versioning of data (advanced level)
-  9. Knows PID graphs (advanced level)
 
 
 ---

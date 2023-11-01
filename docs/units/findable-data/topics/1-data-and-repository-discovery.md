@@ -9,6 +9,36 @@ authors:
 reviewers:
   - "0000-0002-3412-9086"
 
+fair_elements:
+  - F
+  - A
+  - I
+  - R
+
+audience:
+  - Data Manager
+  - Repository Manager
+  - Researcher
+  - Data Stewards
+
+learning_outcomes:
+  1:
+    outcome: Explain why data discovery is important and how researchers **Find** and **Reuse** data that they do not create themselves
+  2:
+    outcome: "Recognize new ways to discover data (i.e: visualisation, semantic, annotation, ….etc): Importance of metadata and semantic annotations for data findability, importance of reusability for data annotation, importance of data crosslink"
+  3:
+    outcome: Develop a strategy to search for data and link it with the research data lifecycle.
+  4:
+    outcome: Extract datasets and build their own work on them.
+  5:
+    outcome: Search for data in different resources and identify the differences among them
+  6:
+    outcome: Recognize the purpose for data citation and the relation with the FAIR
+  7:
+    outcome: Recognize the purpose for data licence and the relation with FAIR
+  8:
+    outcome: How to cite and licence your data
+
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
@@ -80,29 +110,7 @@ Image: [https://phaidra.univie.ac.at/download/o:1201054](https://phaidra.univie.
 * Findable: Data should be available in a discoverable resource (i.e. repository), have appropriate description (i.e. metadata) and have a persistent identifier (PID)
 * Accessible: Data should be retrievable and understandable for both humans and machines
 * Interoperable: Machines and humans can interpret and use the data in different settings and will be able to distinguish the metadata from the data file
-* Reusable: The ultimate goal of FAIR is to advance the reuse of data in the future research and allow integration with other compatible data sources.
-
----
-
-## Primary audience(s)
-
-* Data Manager, Repository Manager, Researcher, Data Stewards 
-
----
-
-## Learning outcomes
-
-* Explain why data discovery is important and how researchers **Find** and **Reuse** data that they do not create themselves
-* Recognize new ways to discover data (i.e: visualisation, semantic, annotation, ….etc)
-    * Importance of metadata and semantic annotations for data findability
-    * Importance of reusability for data annotation
-    * Importance of data crosslink
-* Develop a strategy to search for data and link it with the research data lifecycle.
-* Extract datasets and build their own work on them.
-* Search for data in different resources and identify the differences among them
-* Recognize the purpose for data citation and the relation with the FAIR
-* Recognize the purpose for data licence and the relation with FAIR
-* How to cite and licence your data
+* Reusable: The ultimate goal of FAIR is to advance the reuse of data in the future research and allow integration with other compatible data sources. 
 
 ---
 

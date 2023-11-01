@@ -11,6 +11,45 @@ authors:
 
 reviewers:
 
+fair_elements:
+  - F
+  - A
+  - I
+  - R
+
+audience:
+  - Data stewards
+  - Researchers
+  - Data producing/analysis staff-scientists at a Research Infrastructure
+  - Anyone working with research data
+
+learning_outcomes:
+  1:
+    outcome: Define the FAIR principles (Understand/Remember)
+  2:
+    outcome: Define the different phases of the data life cycle (Understand/Remember)
+  3:
+    outcome: List the reasons why you should start implementing FAIR at the start of the research life cycle/your project
+  4:
+    outcome: Recognize several versions/models of research data life cycle
+  5:
+    outcome: Describe ways of making your data FAIR at every phase of the research data life cycle 
+  6:
+    outcome: Aware of the different tools, technologies and methods that are available to help with FAIR data at different phases of the research data life cycle (Understand/Remember)
+  7:
+    outcome: Apply tools that are available to assess the FAIRness of your data (Apply)
+  8:
+    outcome: Describe the RDM policies at your institute _(discussion point - applicable to this lessonplan or another unit?)_
+  9:
+    outcome: List the RDM and FAIR requirements from different funders (European and national) _(discussion point - applicable to this lessonplan or another unit?)_
+  10:
+    outcome: Make sure your data is following above mentioned requirements (Apply)
+  11:
+    outcome: Describe the relationship between open data with the different phases of the research data life cycle (_also see lesson plan on Open data vs FAIR - discussion point_)
+
+prerequisites:
+  - Basic understanding about Research Data Management
+
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
@@ -67,59 +106,6 @@ terms4FAIRskills:
 
 * Understanding data life cycle and its use in a research project.
 * Understanding how each step in the lifecycle supports making research data FAIR by-design.
-
----
-
-## FAIR element(s)
-
-All FAIR elements
-
----
-
-## Primary audience(s)
-
-* Data stewards
-* Researchers
-* Data producing/analysis staff-scientists at a Research Infrastructure
-* Anyone working with research data
-
----
-
-## Prerequisites
-
-* Basic understanding about Research Data Management.
-
----
-
-## Learning outcomes (Bloom’s taxonomy)
-
-* At the end of this lesson you will be able to define the FAIR principles (Understand/Remember)
-* At the end of this lesson you will be able to define the different phases of the data life cycle (Understand/Remember)
-* You will be able to list the reasons why you should start implementing FAIR at the start of the research life cycle/your project
-* You will be able to recognize several versions/models of research data life cycle
-* At the end of this lesson you will be able to describe ways of making your data FAIR at every phase of the research data life cycle 
-* At the end of this lesson you are aware of the different tools, technologies and methods that are available to help with FAIR data at different phases of the research data life cycle (Understand/Remember)
-* You will be able to apply tools that are available to assess the FAIRness of your data (Apply)
-* You are able to describe the RDM policies at your institute _(discussion point - applicable to this lessonplan or another unit?)_
-* At the end of this lesson you will be able to list the RDM and FAIR requirements from different funders (European and national) _(discussion point - applicable to this lessonplan or another unit?)_
-* At the end of the lesson you will be able to make sure your data is following above mentioned requirements (Apply)
-* You will be able to describe the relationship between open data with the different phases of the research data life cycle (_also see lesson plan on Open data vs FAIR - discussion point_)
-
-## Delivery format
-
-* In-person training
-* Online training
-    * Interactive training
-    * Tutorial
-    * Webinar
-
-## Format of content
-
-* Powerpoint
-* PDF
-* Games
-* Excel/csv (for dataset for exercise)
-* Videos
 
 ---
 

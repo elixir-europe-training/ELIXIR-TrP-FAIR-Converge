@@ -47,6 +47,7 @@ theme:
     - navigation.top
     - navigation.footer
     - toc.integrate
+    - content.action.edit
   font: 
     text: Lato
 

@@ -178,3 +178,12 @@ ul.lesson-plan-tags li.lesson-plan-tag {
   display: inline-block;
   margin-right: 2px;
 }
+
+.cc-license {
+  display: flex;
+}
+
+.cc-license img {
+  height: 20px;
+  margin-right: 10px;
+}

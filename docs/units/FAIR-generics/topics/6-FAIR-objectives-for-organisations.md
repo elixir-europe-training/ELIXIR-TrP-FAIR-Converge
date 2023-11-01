@@ -7,6 +7,28 @@ authors:
   - "Bruna Vieira"
     
 reviewers:
+
+fair_elements:
+  - pre
+
+audience:
+  - Managers / High Managerial Board
+  - Nodes FAIR Coordinators
+  - Nodes Strategic Contact Point
+
+learning_outcomes:
+  1:
+    outcome: Learn about the Do I Pass for FAIR (DIP4F)
+  2:
+    outcome: Identify what level your organisation is
+  3:
+    outcome: Learn how to define objectives
+  4:
+    outcome: Define organisational FAIR objectives based on DIP4F, …
+  5:
+    outcome: Identify what to do about it (where to go next) / map answers to practical steps…
+  6:
+    outcome: Organisation-level data policies for their members
 --- 
 
 ## Topic, definition and scope
@@ -14,34 +36,6 @@ reviewers:
 * Defining FAIR Objectives for **Organisations**
 * 
 * …
-
----
-
-## FAIR element(s)
-
-* Pre-FAIRification
-* …
-* …
-
----
-
-## Primary audience(s)
-
-* Managers / High Managerial Board
-* Nodes FAIR Coordinators
-* Nodes Strategic Contact Point …
-* …
-
----
-
-## Learning outcomes
-
-* Learn about the Do I Pass for FAIR (DIP4F)
-* Identify what level your organisation is
-* Learn how to define objectives
-* Define organisational FAIR objectives based on DIP4F, …
-* Identify what to do about it (where to go next) / map answers to practical steps…
-* Organisation-level data policies for their members
 
 ---
 
@@ -76,12 +70,3 @@ reviewers:
 * …
 
 ---
-
-## Lesson plan authors (incl. ORCID)
-
-* Pauline
-* Bruna…
-* …
-
----
-

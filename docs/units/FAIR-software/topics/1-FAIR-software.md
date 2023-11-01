@@ -1,5 +1,6 @@
 ---
 title: FAIR Software
+status: in_progress
 template: 'lesson-plan.html'
 authors:
   - "Alexia Cardona"
@@ -7,6 +8,10 @@ authors:
   - "Ablikim Abudukerim"
 
 reviewers:
+
+audience:
+- Researchers but open to all
+
 --- 
 
 ## Topic, definition and scope**
@@ -19,37 +24,6 @@ reviewers:
 * Interoperable Software
 * Reproducible Software
 * Software management plans
-
-
----
-
-## FAIR element(s)
-
-
-
-* …
-* …
-
-
----
-
-## Primary audience(s)
-
-
-
-* Researchers but open to all
-* …
-
-
----
-
-## Learning outcomes
-
-
-
-* …
-* …
-
 
 ---
 

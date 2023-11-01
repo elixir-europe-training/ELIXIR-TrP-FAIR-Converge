@@ -7,6 +7,41 @@ authors:
 
 reviewers:
 
+fair_elements:
+  - F
+  - A
+  - I
+  - R
+
+audience:
+  - Data stewards
+  - General researchers or/and researchers are involved in designing semantic data models
+  - Software engineers working on e.g. data portals or workflows
+
+learning_outcomes:
+  1:
+    outcome: Explain what ontologies and vocabularies are and why we use them;
+  2:
+    outcome: Describe the use of ontologies in filling out metadata schemas 
+  3:
+    outcome: Describe how ontologies are used on a domain repository of choice
+  4:
+    outcome: FAIRsharing will list standards that are implemented by databases, and vice versa, therefore if you are required to use a particular set of databases, then you can see those terminologies that are implemented by those databases
+  5:
+    outcome: Explain how vocabularies lead to the Findability, Interoperability and Reusability;
+  6:
+    outcome: Describe how to select ontologies (selection criteria for ontologies when creating semantic data models)
+  7:
+    outcome: Filtering search results for the  ( >800 terminologies listed within FAIRsharing)
+  8:
+    outcome: Examples of good ontologies
+  9:
+    outcome: Ways of creating vocabularies 
+  10:
+    outcome: Vocabularies in BioPortal (how to select them, how to create them from scratch)
+  11:
+    outcome: How to use vocabularies - practical part
+
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
@@ -88,36 +123,6 @@ The purpose of using predefined data vocabularies and ontologies in science is t
 * Interoperability: An ontology plays a crucial role in achieving interoperability by providing a shared understanding of concepts and their relationships. By using standardized terms and relationships from an ontology, researchers can enable data integration and exchange across different systems and domains.
 
 * Reusability: An ontology supports reusability by providing a common vocabulary that can be used across multiple datasets and applications. By using established ontologies, researchers can ensure that their data is reusable and can be easily integrated with other datasets for further analysis or comparison.
-
----
-
-## Primary audience(s)
-
-* Data stewards
-* General researchers or/and researchers are involved in designing semantic data models
-* Software engineers working on e.g. data portals or workflows
-
-
----
-
-## Learning outcomes
-
-
-
-* Explain what ontologies and vocabularies are and why we use them;
-* Describe the use of ontologies in filling out metadata schemas 
-* Describe how ontologies are used on a domain repository of choice
-* FAIRsharing will list standards that are implemented by databases, and vice versa, therefore if you are required to use a particular set of databases, then you can see those terminologies that are implemented by those databases
-* Explain how vocabularies lead to the Findability, Interoperability and Reusability;
-* Describe how to select ontologies (selection criteria for ontologies when creating semantic data models)
-* Filtering search results for the  ( >800 terminologies listed within FAIRsharing)
-* Examples of good ontologies
-* Ways of creating vocabularies 
-    * Vocabularies in BioPortal
-        * How to select them
-        * How to create them from scratch
-* How to use vocabularies - practical part
-
 
 ---
 

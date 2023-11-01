@@ -5,31 +5,13 @@ template: 'lesson-plan.html'
 authors:
 
 reviewers:
+
+fair_elements:
+  - F:
+    - F1
 --- 
 
 ## Topic, definition and scope
-
-* …
-* …
-
----
-
-## FAIR element(s)
-
-* Findability
-    * F1
-* …
-
----
-
-## Primary audience(s)
-
-* …
-* …
-
----
-
-## Learning outcomes
 
 * …
 * …
@@ -58,13 +40,6 @@ reviewers:
 ---
 
 ## Take home tasks/preparation
-
-* …
-* …
-
----
-
-## Lesson plan authors (incl. ORCID)
 
 * …
 * …
