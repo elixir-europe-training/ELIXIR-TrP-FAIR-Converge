@@ -12,5 +12,5 @@ jobs:
         with:
           python-version: 3.x
       - run: |
-          pip install mkdocs-material mkdocs-bibtex neoteroi-mkdocs mkdocs-video mkdocs-include-markdown-plugin mkdocs-markdownextradata-plugin
+          pip install mkdocs-material mkdocs-bibtex neoteroi-mkdocs mkdocs-video mkdocs-include-markdown-plugin mkdocs-markdownextradata-plugin mkdocs-macros-plugin
           mkdocs gh-deploy --force
