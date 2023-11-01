@@ -107,10 +107,7 @@ After this lesson students:
 ## Summary of Tasks / Actions
 
 * Introduction to FAIR principles
-    * Explanation of each letter (focus on **what** it means) (link to FAIRsFAIR lesson plan [https://zenodo.org/record/5078286](https://zenodo.org/record/5078286) slide 1-19, [The FAIR principles explained - Maastricht University](https://www.youtube.com/watch?v=5OeCrQE3HhE), [Make your research data F.A.I.R](https://www.youtube.com/watch?v=kIwHJ6DkFdc). - Cessda training, NL, [DCC PO FAIR datamanagement](https://www.youtube.com/watch?v=AL8L0fHgdI0)).
-    * Suggested: DCC PO Publiceren 2022
-    * 0:02 / 3:56
-    * )
+    * Explanation of each letter (focus on **what** it means) ([FAIRsFAIR lesson plan](https://zenodo.org/record/5078286) slide 1-19, [The FAIR principles explained - Maastricht University (video)](https://www.youtube.com/watch?v=5OeCrQE3HhE), [Make your research data FAIR (video)](https://www.youtube.com/watch?v=kIwHJ6DkFdc). - Cessda training, NL, [DCC PO FAIR datamanagement (video)](https://www.youtube.com/watch?v=AL8L0fHgdI0)).
 * Generic answer to **why** question - formulate an answer not specific to any stakeholder
     * Making your data FAIR can ([Ten reasons to share your data | News | Nature Index](https://www.natureindex.com/news-blog/ten-reasons-to-share-your-data)):
         * Maximise the impact of and engagement with your research, and allow others to continue your legacy by using your data.
