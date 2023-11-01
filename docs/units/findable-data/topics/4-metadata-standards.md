@@ -17,6 +17,23 @@ audience:
   - Research support staff (e.g. Data Stewards, Librarians, Research Software Engineers)
   - Research infrastructure personnel
 
+learning_outcomes:
+  1:
+    outcome: Describe the concept of metadata
+  2:
+    outcome: Understand the pivotal role of metadata in the FAIR principles 
+  3:
+    outcome: Identify relevant metadata standards and their use in repositories and datasets
+  4:
+    outcome: Retrieve data from a repository/registries using metadata
+  5:
+    outcome: Assess the richness of a metadata standard and its semantic annotation
+  6:
+    outcome: Explore available tools for working with a specific metadata standard
+  7:
+    outcome: Describe the concept of machine-actionability and validation with a focus on data brokering to a repository of choice
+
+
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
@@ -114,21 +131,6 @@ Topics to be covered in the lesson plan:
 * Knowledge of different types of data (e.g. raw vs processed)
 * Familiarity with repositories 
 * Familiarity with PIDs
-
----
-
-## Learning outcomes
-
-
-
-* Describe the concept of metadata
-* Understand the pivotal role of metadata in the FAIR principles 
-* Identify relevant metadata standards and their use in repositories and datasets
-* Retrieve data from a repository/registries using metadata
-* Assess the richness of a metadata standard and its semantic annotation
-* Explore available tools for working with a specific metadata standard
-* Describe the concept of machine-actionability and validation with a focus on data brokering to a repository of choice
-
 
 ---
 

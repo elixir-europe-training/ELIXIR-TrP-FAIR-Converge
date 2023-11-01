@@ -20,6 +20,24 @@ audience:
   - Anyone who creates DMPs
   - Students and researchers (including PIs) in life sciences working on personal and sensitive data 
 
+learning_outcomes:
+  1:
+    outcome: "Become familiar with data sharing principles (also: understand what Accessible means in FAIR principles)"
+  2:
+    outcome: Able to define what is e.g. a controlled access, registered access, etc
+  3:
+    outcome: Understand basics of how licensing and archival works in a context of controlled/registered access  
+  4:
+    outcome: Know about various (FAIR) data sharing services
+  5:
+    outcome: Understand underlying concepts for sensitive data sharing e.g. anonymisation, pseudonymisation
+  6:
+    outcome: Learn about various roles relevant to (and involved in) processes for which approvals are required e.g. data controller, data protection officer
+  7:
+    outcome: Relevant agreements e.g. data access agreement, DPIA
+  8:
+    outcome: Understand different types of life sciences data in terms of accessibility levels
+
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
@@ -96,22 +114,6 @@ terms4FAIRskills:
 
 
 * A - Accessible: working with the community of researchers who have sensitive data and wish to know how to enable FAIR for data that needs to have controlled access.
-
-
----
-
-## Learning outcomes
-
-
-
-* Become familiar with data sharing principles (also: understand what Accessible means in FAIR principles)
-* Able to define what is e.g. a controlled access, registered access, etc
-* Understand basics of how licensing and archival works in a context of controlled/registered access  
-* Know about various (FAIR) data sharing services
-* Understand underlying concepts for sensitive data sharing e.g. anonymisation, pseudonymisation
-* Learn about various roles relevant to (and involved in) processes for which approvals are required e.g. data controller, data protection officer,
-* Relevant agreements e.g. data access agreement, DPIA
-* Understand different types of life sciences data in terms of accessibility levels
 
 
 ---

@@ -18,13 +18,6 @@ fair_elements:
 
 ---
 
-## Learning outcomes
-
-* …
-* …
-
----
-
 ## Summary of Tasks / Actions
 
 * …
@@ -47,13 +40,6 @@ fair_elements:
 ---
 
 ## Take home tasks/preparation
-
-* …
-* …
-
----
-
-## Lesson plan authors (incl. ORCID)
 
 * …
 * …

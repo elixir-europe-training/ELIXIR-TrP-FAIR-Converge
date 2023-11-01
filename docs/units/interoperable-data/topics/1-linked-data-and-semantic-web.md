@@ -12,7 +12,17 @@ fair_elements:
 
 audience:
   - Data stewards
-  
+
+learning_outcomes:
+  1:
+    outcome: Know what Linked Data is and how it relates to FAIR Data
+  2:
+    outcome: Know what triples, graphs, and RDF are
+  3:
+    outcome: Understand why PIDs/URIs are important for Linked Data
+  4:
+    outcome: Understand how to ‘assemble’ triples
+    
 ---
 
 ## Topic, definition and scope
@@ -20,18 +30,6 @@ audience:
 
 
 * Description of the Linked Data / the Semantic web and related concepts (triples, graphs, RDF, URIs)
-
-
----
-
-## Learning outcomes
-
-
-
-* Knows what Linked Data is and how it relates to FAIR Data
-* Knows what triples, graphs, and RDF are
-* Understands why PIDs/URIs are important for Linked Data
-* Understands how to ‘assemble’ triples
 
 
 ---

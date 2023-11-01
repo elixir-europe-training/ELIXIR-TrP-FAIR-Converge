@@ -17,6 +17,21 @@ audience:
   - Data access committe
   - Contracts 
   - Legal people
+
+learning_outcomes:
+  1:
+    outcome: What FAIR means to ELSI?
+  2:
+    outcome: What does it mean to visit data
+  3:
+    outcome: How does data “sharing” works in FAIR
+  4:
+    outcome: How we can optimise documentation and regulation for FAIR data visiting
+  5:
+    outcome: What should I worry about / what is safer because of FAIR
+  6:
+    outcome: Query filtering tools, do all queries need to go trough data access committee? Automating data access control
+
 --- 
 
 ## Topic, definition and scope
@@ -26,20 +41,6 @@ audience:
 * Federated / FAIR Data visiting (query, authentication, authorisation, data access policy, icf)
 * 
 * …
-
-
----
-
-## Learning outcomes**
-
-
-
-* What FAIR means to ELSI?
-* What does it mean to visit data
-* How does data “sharing” works in FAIR
-* How we can optimise documentation and regulation for FAIR data visiting
-* What should I worry about / what is safer because of FAIR
-* Query filtering tools, do all queries need to go trough data access committee? Automating data access control
 
 
 ---

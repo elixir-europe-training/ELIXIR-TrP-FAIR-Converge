@@ -22,6 +22,24 @@ audience:
   - Other research support staff, e.g. Data Protection Officers, University Librarians, who should understand importance of data policies
   - PIs
 
+learning_outcomes:
+  1:
+    outcome: Identify how FAIR principles can be adopted on institutional level policies.
+  2:
+    outcome: Describe how institutional policy commitment to the FAIR principles can strengthen policies and efforts in safeguarding research integrity.
+  3:
+    outcome: Understand that writing and implementing institutional policies is a collaborative effort. 
+  4:
+    outcome: Recognize the importance of engaging with different policy owners from different units (e.g., IT, ethics, etc.) to develop a cohesive FAIR research data framework.
+  5:
+    outcome: Know where to search for existing data (management) policies or their templates 
+  6:
+    outcome: Know how to make your policies more FAIR
+  7:
+    outcome: Sketch the basic elements of a FAIR data policy.
+  8:
+    outcome: Describe how are the policies properly disseminated, used and built upon
+
 --- 
 
 ## Topic, definition and scopes
@@ -29,18 +47,6 @@ audience:
 * Benefits of FAIR data management at institutional level.
 * Implementing and adopting the FAIR principles at the institutional level.
     * See chapter 6 Implementing FAIR on D7.4 How to be FAIR with your data. A teaching and training handbook for higher education institutions. https://doi.org/10.5281/zenodo.6674301 (or the direct link at https://fairsfair.gitbook.io/fair-teaching-handbook/1introduction-1/2institutionalpolicies)  
-
-
-## Learning outcomes
-* You are able to identify how FAIR principles can be adopted on institutional level policies.
-* You are able to describe how institutional policy commitment to the FAIR principles can strengthen policies and efforts in safeguarding research integrity.
-* You understand that writing and implementing institutional policies is a collaborative effort. 
-* You recognize the importance of engaging with different policy owners from different units (e.g., IT, ethics, etc.) to develop a cohesive FAIR research data framework.
-* You know where to search for existing data (management) policies or their templates 
-* You know how to make your policies more FAIR
-* You can sketch the basic elements of a FAIR data policy.
-* You can describe how are the policies properly disseminated, used and built upon
-
 
 
 ## Summary of Tasks / Actions

@@ -25,6 +25,14 @@ audience:
   - Data Stewards
   - Data Manager/Data Champion
 
+learning_outcomes:
+  1:
+    outcome: Maturity Model (FAIR Evaluator and its metrics, FIP, FAIRplus Dataset Maturity Indicators)
+  2:
+    outcome: E.g., evaluate your existing dataset maturity by assigning a DSM indicator to your project data. Then make a set of objectives that will lead your project from its existing to its ideal maturity level to move along the spectrum of data maturity and FAIR. This will also provide a good exercise in awareness of what the next levels are. This will also provide a good exercise in awareness of what the next levels are.
+  3:
+    outcome: Use tooling from goal modelling to define better objectives
+
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
@@ -104,15 +112,6 @@ terms4FAIRskills:
 ## Topic, definition and scope
 
 * Defining FAIR Objectives for a **research / scientific project as a part of data management plan creation.**
-
----
-
-## Learning outcomes
-
-* Maturity Model (FAIR Evaluator and its metrics (see https://faircookbook.elixir-europe.org/content/recipes/assessing-fairness/fair-assessment-fairevaluator.html), FIP, FAIRplus Dataset Maturity Indicators (https://fairplus.github.io/Data-Maturity/))…
-* E.g. Evaluate your existing dataset maturity by assigning a DSM indicator to your project data (https://fairplus.github.io/Data-Maturity/) Then make a set of objectives that will lead your project from its existing to its ideal maturity level to move along the spectrum of data maturity and FAIR. This will also provide a good exercise in awareness of what the next levels are. This will also provide a good exercise in awareness of what the next levels are.
-* 
-* Use tooling from goal modelling to define better objectives
 
 ---
 

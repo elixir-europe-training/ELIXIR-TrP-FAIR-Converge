@@ -27,16 +27,6 @@ audience:
 
 ---
 
-## Learning outcomes
-
-
-
-* …
-* …
-
-
----
-
 ## Summary of Tasks / Actions
 
 
