@@ -1,0 +1,22 @@
+<div class="nt-cards nt-grid cols-4 contributors">
+{% for contributor in contributors.items()|sort(attribute='1.lastName') %}
+<div class="nt-card">
+    <div class="nt-card-wrap">
+        <div>
+            <div class="nt-card-content">
+                <p class="nt-card-title">
+                    {{ contributor.1.firstName }} {{ contributor.1.lastName }}
+                </p>
+                <p class="nt-card-text">
+                    {% if contributor.1.orcid %}
+                    <a href="https://orcid.org/{{ contributor.1.orcid }}" target="_blank">
+                        <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
+                    </a>
+                    {% endif %}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+</div>

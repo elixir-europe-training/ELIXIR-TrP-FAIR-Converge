@@ -2,6 +2,10 @@ site_name: ELIXIR FAIR Lesson Plans
 nav:
     - About: index.md
     - Units:
+    - Home: index.md
+    - About: 
+      - "Contributors": "about/contributors.md"
+    - Lesson plans:
       - "1. FAIR generics": 
         - "Overview": 'units/FAIR-generics/index.md'
         - "1.1 Why FAIR?": 'units/FAIR-generics/topics/1-why-fair.md'
@@ -34,6 +38,7 @@ nav:
       - "7. Data Repositories and FAIR":
         - "Overview": 'units/data-repositories/index.md'
         - "7.1 Data Repositories and FAIR": 'units/data-repositories/topics/1-repositories-and-FAIR.md'
+
 theme:
   name: material
   logo: assets/images/white-orange-logo.png
@@ -58,7 +63,11 @@ plugins:
   - bibtex:
       bib_file: "references.bib"
   - mkdocs-video # embed videos to the docs
-
+  - include-markdown
+  - markdownextradata
+  - macros:
+      include_yaml:
+        - contributors: _data/contributors.yaml
   
 # Footer
 copyright: By the ELIXIR Training Platform
@@ -87,6 +96,7 @@ markdown_extensions:
         custom_icons:
           - overrides/.icons
   - neoteroi.cards
+  - md_in_html
 
 
 extra_css:
