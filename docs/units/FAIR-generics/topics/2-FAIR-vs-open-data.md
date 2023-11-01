@@ -1,19 +1,14 @@
 ---
 title: FAIR vs open data (science)
+status: ready_for_review
 template: 'lesson-plan.html'
 authors:
-  - orcid: "0000-0003-2043-0772"
-    name: "Heleri Inno"
-
-  - orcid: "0000-0003-1810-3756"
-    name: "Anna Swan"
-
-  - orcid: "0000-0002-3060-3967"
-    name: "Pradeep Eranti"
+  - "0000-0003-2043-0772"
+  - "0000-0003-1810-3756"
+  - "0000-0002-3060-3967"
 
 reviewers:
-  - orcid: "0000-0002-5788-2687"
-    name: "Diana Pilvar"
+  - "0000-0002-5788-2687"
 
 terms4FAIRskills:
   - subject:

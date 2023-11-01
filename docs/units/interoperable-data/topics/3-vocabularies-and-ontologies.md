@@ -1,9 +1,9 @@
 ---
 title: Data vocabularies and ontologies
+status: in_progress
 template: 'lesson-plan.html'
 authors:
-  - orcid: "0000-0003-4942-2725"
-    name: "Aliya Aktau"
+  - "0000-0003-4942-2725"
 
 reviewers:
 

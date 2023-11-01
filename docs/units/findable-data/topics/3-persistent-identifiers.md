@@ -1,18 +1,12 @@
 ---
 title: Persistent identifiers (PIDs)
+status: ready_for_review
 template: 'lesson-plan.html'
 authors:
-  - orcid: "0000-0002-7702-4495"
-    name: "Allyson Lister"
-
-  - orcid: "0000-0002-3412-9086"
-    name: "Anne-Françoise Adam-Blondon"
-
-  - orcid: "0000-0002-9421-8582"
-    name: "Justine Vandendorpe"
-
-  - orcid: "0000-0001-9114-2896"
-    name: "Mijke Jetten"
+  - "0000-0002-7702-4495"
+  - "0000-0002-3412-9086"
+  - "0000-0002-9421-8582"
+  - "0000-0001-9114-2896"
 
 reviewers:
 

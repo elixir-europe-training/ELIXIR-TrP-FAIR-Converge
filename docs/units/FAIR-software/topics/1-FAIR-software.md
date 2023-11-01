@@ -2,14 +2,9 @@
 title: FAIR Software
 template: 'lesson-plan.html'
 authors:
-  - orcid: "XXXX-XXXX-XXXX-XXXX"
-    name: "Alexia Cardona"
-
-  - orcid: "0000-0003-0011-9397"
-    name: "Lisanna Paladin"
-
-  - orcid: "XXXX-XXXX-XXXX-XXXX"
-    name: "Ablikim Abudukerim"
+  - "Alexia Cardona"
+  - "0000-0003-0011-9397"
+  - "Ablikim Abudukerim"
 
 reviewers:
 --- 
