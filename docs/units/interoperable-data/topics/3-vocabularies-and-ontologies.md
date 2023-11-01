@@ -123,9 +123,9 @@ The purpose of using predefined data vocabularies and ontologies in science is t
 
 ## Summary of Tasks / Actions
 
+* Browse the [BioPortal](https://bioportal.bioontology.org/) and [Linked Open Vocabularies (LOV)](https://lov.linkeddata.es/dataset/lov) for general overview and understanding of ontologies. 
 
-
-* e.g. Search and filter the [>800 terminologies](https://fairsharing.org/search?fairsharingRegistry=Standard&recordType=terminology_artefact&page=1) listed within FAIRsharing.
+* e.g. Search and filter the [>800 terminologies](https://fairsharing.org/search?fairsharingRegistry=Standard&recordType=terminology_artefact&page=1) listed within FAIRsharing accordning to a selected criteria.
 * …
 
 
