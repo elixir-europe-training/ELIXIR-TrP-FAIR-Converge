@@ -10,6 +10,13 @@ authors:
 reviewers:
   - "0000-0002-3412-9086"
 
+audience:
+  - Students
+  - Early career researchers
+  - Senior researchers 
+  - Research support staff (e.g. Data Stewards, Librarians, Research Software Engineers)
+  - Research infrastructure personnel
+
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
@@ -100,16 +107,6 @@ Topics to be covered in the lesson plan:
 
 
 ---
-
-## Primary audience(s)
-
-
-
-* Students
-* Early career researchers
-* Senior researchers 
-* Research support staff (e.g. Data Stewards, Librarians, Research Software Engineers)
-* Research infrastructure personnel
 
 ## Prerequisites
 

@@ -10,6 +10,9 @@ reviewers:
 fair_elements:
   - I
 
+audience:
+  - Data stewards
+  
 ---
 
 ## Topic, definition and scope
@@ -17,13 +20,6 @@ fair_elements:
 
 
 * Description of the Linked Data / the Semantic web and related concepts (triples, graphs, RDF, URIs)
-
-
-## Primary audience(s)
-
-
-
-* Data stewards
 
 
 ---

@@ -15,6 +15,12 @@ fair_elements:
   - I
   - R
 
+audience:
+  - Data Manager
+  - Repository Manager
+  - Researcher
+  - Data Stewards
+
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
@@ -86,13 +92,7 @@ Image: [https://phaidra.univie.ac.at/download/o:1201054](https://phaidra.univie.
 * Findable: Data should be available in a discoverable resource (i.e. repository), have appropriate description (i.e. metadata) and have a persistent identifier (PID)
 * Accessible: Data should be retrievable and understandable for both humans and machines
 * Interoperable: Machines and humans can interpret and use the data in different settings and will be able to distinguish the metadata from the data file
-* Reusable: The ultimate goal of FAIR is to advance the reuse of data in the future research and allow integration with other compatible data sources.
-
----
-
-## Primary audience(s)
-
-* Data Manager, Repository Manager, Researcher, Data Stewards 
+* Reusable: The ultimate goal of FAIR is to advance the reuse of data in the future research and allow integration with other compatible data sources. 
 
 ---
 

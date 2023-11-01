@@ -13,6 +13,11 @@ fair_elements:
   - I
   - R
 
+audience:
+  - Data stewards
+  - General researchers or/and researchers are involved in designing semantic data models
+  - Software engineers working on e.g. data portals or workflows
+
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
@@ -94,14 +99,6 @@ The purpose of using predefined data vocabularies and ontologies in science is t
 * Interoperability: An ontology plays a crucial role in achieving interoperability by providing a shared understanding of concepts and their relationships. By using standardized terms and relationships from an ontology, researchers can enable data integration and exchange across different systems and domains.
 
 * Reusability: An ontology supports reusability by providing a common vocabulary that can be used across multiple datasets and applications. By using established ontologies, researchers can ensure that their data is reusable and can be easily integrated with other datasets for further analysis or comparison.
-
----
-
-## Primary audience(s)
-
-* Data stewards
-* General researchers or/and researchers are involved in designing semantic data models
-* Software engineers working on e.g. data portals or workflows
 
 
 ---

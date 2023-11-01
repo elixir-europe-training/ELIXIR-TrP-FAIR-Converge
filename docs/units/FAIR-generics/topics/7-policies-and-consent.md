@@ -12,23 +12,18 @@ fair_elements:
   - A
   - R
 
+audience:
+  - IT personnel
+  - Infrastructure Data Stewards
+  - Architects
+  - ELSI for consultancy on DAP and ICF rules
+
 --- 
 
 ## Topic, definition and scope
 
 * Data Access Policy (DAP), Informed Consent Form (ICF) Machine readable
 * **Overview of Open Policies (differences and similarities across countries)**
-* …
-
----
-
-## Primary audience(s)
-
-* IT personnel
-* Infrastructure Data Stewards
-* Architects
-* ELSI for consultancy on DAP and ICF rules
-* …
 * …
 
 ---

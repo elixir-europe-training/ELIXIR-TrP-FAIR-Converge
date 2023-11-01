@@ -10,6 +10,12 @@ reviewers:
 
 fair_elements:
   - pre
+
+audience:
+  - Managers / High Managerial Board
+  - Nodes FAIR Coordinators
+  - Nodes Strategic Contact Point
+  
 --- 
 
 ## Topic, definition and scope
@@ -18,14 +24,6 @@ fair_elements:
 * 
 * …
 
----
-
-## Primary audience(s)
-
-* Managers / High Managerial Board
-* Nodes FAIR Coordinators
-* Nodes Strategic Contact Point …
-* …
 
 ---
 

@@ -17,6 +17,12 @@ fair_elements:
   - I
   - R
 
+audience:
+  - Data stewards
+  - Researchers
+  - Data producing/analysis staff-scientists at a Research Infrastructure
+  - Anyone working with research data
+
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
@@ -73,15 +79,6 @@ terms4FAIRskills:
 
 * Understanding data life cycle and its use in a research project.
 * Understanding how each step in the lifecycle supports making research data FAIR by-design.
-
----
-
-## Primary audience(s)
-
-* Data stewards
-* Researchers
-* Data producing/analysis staff-scientists at a Research Infrastructure
-* Anyone working with research data
 
 ---
 

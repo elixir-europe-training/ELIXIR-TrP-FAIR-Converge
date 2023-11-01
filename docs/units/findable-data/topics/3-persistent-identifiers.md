@@ -17,6 +17,14 @@ fair_elements:
   - A:
     - A1
 
+audience:
+  - Developers & curators of resources and tools
+  - Journal publishers and organisations with data policies
+  - Research data facilitators (e.g. data stewards, librarians, trainers)
+  - Societies, unions and community alliances
+  - Funders and data policy makers
+  - Researchers in academia, industry and government (e.g. PhD candidate, postdoctoral researcher)
+
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
@@ -218,21 +226,6 @@ terms4FAIRskills:
 * Accessible
     * A1 RDA-A1-03M Metadata identifier resolves to a metadata record (essential)
     * A1 RDA-A1-03D Data identifier resolves to a digital object (essential)
-
-
----
-
-## Primary audience(s)
-
-
-
-  * Developers & curators of resources and tools
-  * Journal publishers and organisations with data policies
-  * Research data facilitators (e.g. data stewards, librarians, trainers)
-  * Societies, unions and community alliances
-  * Funders and data policy makers
-  * Researchers in academia, industry and government (e.g. PhD candidate, postdoctoral researcher)
-
 
 ---
 

@@ -20,6 +20,11 @@ fair_elements:
   - I
   - R
 
+audience:
+  - Project Manager / PI / Researcher
+  - Data Stewards
+  - Data Manager/Data Champion
+
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
@@ -99,16 +104,6 @@ terms4FAIRskills:
 ## Topic, definition and scope
 
 * Defining FAIR Objectives for a **research / scientific project as a part of data management plan creation.**
-
----
-
-## Primary audience(s)
-
-* Project Manager / PI / Researcher
-* Data Stewards
-* Data Manager/Data Champion
-* …
-* …
 
 ---
 

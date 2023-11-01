@@ -16,6 +16,12 @@ fair_elements:
   - I
   - R
 
+audience:
+  - Data Stewards, Data Managers - Especially policy oriented
+  - Policy makers / research administrators at institutions research support
+  - Other research support staff, e.g. Data Protection Officers, University Librarians, who should understand importance of data policies
+  - PIs
+
 --- 
 
 ## Topic, definition and scopes
@@ -23,14 +29,6 @@ fair_elements:
 * Benefits of FAIR data management at institutional level.
 * Implementing and adopting the FAIR principles at the institutional level.
     * See chapter 6 Implementing FAIR on D7.4 How to be FAIR with your data. A teaching and training handbook for higher education institutions. https://doi.org/10.5281/zenodo.6674301 (or the direct link at https://fairsfair.gitbook.io/fair-teaching-handbook/1introduction-1/2institutionalpolicies)  
-
-
-## Primary audience(s)
-* Data Stewards, Data Managers - Especially policy oriented
-* Policy makers / research administrators at institutions research support
-* Other research support staff, e.g. Data Protection Officers, University Librarians, who should understand importance of data policies
-* PIs
-
 
 
 ## Learning outcomes

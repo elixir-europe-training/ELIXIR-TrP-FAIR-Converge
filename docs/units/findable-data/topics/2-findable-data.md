@@ -18,13 +18,6 @@ fair_elements:
 
 ---
 
-## Primary audience(s)
-
-* …
-* …
-
----
-
 ## Learning outcomes
 
 * …

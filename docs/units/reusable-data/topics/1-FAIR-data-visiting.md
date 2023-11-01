@@ -12,6 +12,11 @@ fair_elements:
   - A
   - R
 
+audience:
+  - ELSI 
+  - Data access committe
+  - Contracts 
+  - Legal people
 --- 
 
 ## Topic, definition and scope
@@ -20,20 +25,6 @@ fair_elements:
 
 * Federated / FAIR Data visiting (query, authentication, authorisation, data access policy, icf)
 * 
-* …
-
-
----
-
-## Primary audience(s)
-
-
-
-* ELSI 
-* Data access committe
-* Contracts 
-* Legal people
-* …
 * …
 
 

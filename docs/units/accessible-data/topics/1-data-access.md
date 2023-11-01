@@ -12,6 +12,14 @@ reviewers:
 fair_elements:
   - A
 
+audience:
+  - Researchers and Project leaders
+  - Data stewards
+  - Data controllers and processors
+  - Data protection officers
+  - Anyone who creates DMPs
+  - Students and researchers (including PIs) in life sciences working on personal and sensitive data 
+
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
@@ -88,20 +96,6 @@ terms4FAIRskills:
 
 
 * A - Accessible: working with the community of researchers who have sensitive data and wish to know how to enable FAIR for data that needs to have controlled access.
-
-
----
-
-## Primary audience(s)
-
-
-
-* Researchers and Project leaders
-* Data stewards
-* Data controllers and processors
-* Data protection officers
-* Anyone who creates DMPs
-* Students and researchers (including PIs) in life sciences working on personal and sensitive data 
 
 
 ---

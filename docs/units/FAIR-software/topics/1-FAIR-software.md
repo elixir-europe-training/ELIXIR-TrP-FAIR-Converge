@@ -8,6 +8,10 @@ authors:
   - "Ablikim Abudukerim"
 
 reviewers:
+
+audience:
+- Researchers but open to all
+
 --- 
 
 ## Topic, definition and scope**
@@ -20,16 +24,6 @@ reviewers:
 * Interoperable Software
 * Reproducible Software
 * Software management plans
-
----
-
-## Primary audience(s)
-
-
-
-* Researchers but open to all
-* …
-
 
 ---
 
