@@ -8,12 +8,20 @@
             {% include "partials/tags.html" %}
         {% endif %}
         {% include "partials/actions.html" %}
-        {% if "\x3ch1" not in page.content %}
-            <h1>{{ page.title | d(config.site_name, true)}}</h1>
-        {% endif %}
-    
+
+        <div class="lesson-plan-header">
+            {% if "\x3ch1" not in page.content %}
+                <h1>{{ page.title | d(config.site_name, true)}}</h1>
+            {% endif %}
+            {% if "status" in page.meta and page.meta.authors %}
+                <div class="lesson-plan-status lesson-plan-status-{{ page.meta.status }}">
+                    {{ config.extra.statuses[page.meta.status].title }}
+                </div>
+            {% endif %}
+        </div>
 
         {{ page.content }}
+        
         {% if page.meta and (
             page.meta.git_revision_date_localized or
             page.meta.revision_date
@@ -40,11 +48,12 @@
                 <div class="tabbed-block">
                     {% if "authors" in page.meta and page.meta.authors %}
                         <ul>
-                            {% for author in page.meta.authors %}
+                            {% for authorId in page.meta.authors %}
+                            
                             <li>
-                                {{ author.name }}
-                                {% if author.orcid %}
-                                        <a href="https://orcid.org/{{ author.orcid }}" target="_blank">
+                                {{ config.extra.contributors[authorId].firstName }} {{ config.extra.contributors[authorId].lastName }}
+                                {% if config.extra.contributors[authorId].orcid %}
+                                        <a href="https://orcid.org/{{ config.extra.contributors[authorId].orcid }}" target="_blank">
                                             <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
                                         </a>
                                 {% endif %}
@@ -56,11 +65,11 @@
                 <div class="tabbed-block">
                     {% if "reviewers" in page.meta and page.meta.reviewers %}
                         <ul>
-                            {% for reviewer in page.meta.reviewers %}
+                            {% for reviewerId in page.meta.reviewers %}
                             <li>
-                                {{ reviewer.name }}
-                                {% if reviewer.orcid %}
-                                        <a href="https://orcid.org/{{ reviewer.orcid }}" target="_blank">
+                                {{ config.extra.contributors[reviewerId].firstName }} {{ config.extra.contributors[reviewerId].lastName }}
+                                {% if config.extra.contributors[reviewerId].orcid %}
+                                        <a href="https://orcid.org/{{ config.extra.contributors[reviewerId].orcid }}" target="_blank">
                                             <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
                                         </a>
                                 {% endif %}

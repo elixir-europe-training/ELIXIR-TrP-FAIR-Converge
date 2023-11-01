@@ -1,12 +1,10 @@
 ---
 title: FAIR Data visiting
+status: in_progress
 template: 'lesson-plan.html'
 authors:
-  - orcid: "XXXX-XXXX-XXXX-XXXX"
-    name: "Pauline"
-
-  - orcid: "XXXX-XXXX-XXXX-XXXX"
-    name: "Bruna"
+  - "Pauline l'Henaff"
+  - "Bruna Vieira"
 
 reviewers:
 --- 

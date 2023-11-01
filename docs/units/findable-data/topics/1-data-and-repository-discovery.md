@@ -1,16 +1,13 @@
 ---
 title: Data/Repository discovery
+status: ready_for_review
 template: 'lesson-plan.html'
 authors:
-  - orcid: "0000-0001-6675-4639"
-    name: "Samah Jaber"
-
-  - orcid: "0000-0002-8611-162X"
-    name: "Dayane Araujo"
-
+  - "0000-0001-6675-4639"
+  - "0000-0002-8611-162X"
+  
 reviewers:
-  - orcid: "0000-0002-3412-9086"
-    name: "Anne-Françoise Adam-Blondon"
+  - "0000-0002-3412-9086"
 
 terms4FAIRskills:
   - subject:

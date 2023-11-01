@@ -1,21 +1,13 @@
 ---
 title: Data Life Cycle approach to FAIR/FAIR right from the start
+status: ready_for_review
 template: 'lesson-plan.html'
 authors:
-  - orcid: "0000-0002-4437-5504"
-    name: "Anna Lien Bouhuis"
-
-  - orcid: "0000-0003-2321-5568"
-    name: "Alexandra Holinski"
-
-  - orcid: "0000-0003-4475-0164"
-    name: "Naeem Muhammad"
-
-  - orcid: "0000-0003-2313-0011"
-    name: "Minna Ahokas"
-
-  - orcid: "0000-0002-5042-8481"
-    name: "Jessica Lindvall"
+  - "0000-0002-4437-5504"
+  - "0000-0003-2321-5568"
+  - "0000-0003-4475-0164"
+  - "0000-0003-2313-0011"
+  - "0000-0002-5042-8481"
 
 reviewers:
 

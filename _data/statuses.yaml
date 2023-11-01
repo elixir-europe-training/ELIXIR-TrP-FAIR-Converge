@@ -1,0 +1,6 @@
+ready_for_review:
+  title: "Ready for review"
+in_progress:
+  title: "In progress"
+published:
+  title: "Published"

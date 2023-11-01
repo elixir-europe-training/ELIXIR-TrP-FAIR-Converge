@@ -1,24 +1,16 @@
 ---
 title: Why FAIR?
+status: ready_for_review
 template: 'lesson-plan.html'
 authors:
-  - orcid: "0000-0001-6675-4639"
-    name: "Jolanda Strubel"
-
-  - orcid: "0000-0002-8611-162X"
-    name: "Saskia Lawson-Tovey"
-
-  - orcid: "0000-0001-7236-7379"
-    name: "Julia Philipp"
-
-  - orcid: "0000-0002-2613-5953"
-    name: "Marta Kargó"
-
-  - name: "Reinier Dickhout"
+  - "0000-0001-6675-4639"
+  - "0000-0002-8611-162X"
+  - "0000-0001-7236-7379"
+  - "0000-0002-2613-5953"
+  - "Reinier Dickhout"
 
 reviewers:
-  - orcid: "0000-0002-7702-4495"
-    name: "Allyson Lister"
+  - "0000-0002-7702-4495"
 
 terms4FAIRskills:
   - subject:

@@ -1,28 +1,17 @@
 ---
 title: Defining FAIR
+status: in_progress
 template: 'lesson-plan.html'
 authors:
-  - orcid: "XXXX-XXXX-XXXX-XXXX"
-    name: "Pauline l’Hénaff"
-
-  - orcid: "XXXX-XXXX-XXXX-XXXX"
-    name: "Bruna Vieira"
-
-  - orcid: "XXXX-XXXX-XXXX-XXXX"
-    name: "Cesar Bernabe"
-
-  - orcid: "0000-0002-3412-9086"
-    name: "Anne-Françoise Adam-Blondon"
+  - "Pauline l'Henaff"
+  - "Bruna Vieira"
+  - "Cesar Bernabe"
+  - "0000-0002-3412-9086"
     
 reviewers:
-  - orcid: "0000-0002-7702-4495"
-    name: "Allyson Lister"
-
-  - orcid: "0000-0002-4385-9312"
-    name: "Fieke Schoots"
-
-  - orcid: "0000-0002-3060-3967"
-    name: "Pradeep Eranti"
+  - "0000-0002-7702-4495"
+  - "0000-0002-4385-9312"
+  - "0000-0002-3060-3967"
 
 terms4FAIRskills:
   - subject:
