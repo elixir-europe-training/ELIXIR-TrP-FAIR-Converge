@@ -94,6 +94,7 @@ Topics to be covered in the lesson plan:
 * European (/national) OS policies (data steward)
 
 Initiatives, external resources (some beginner resources, but mostly extra material for data stewards)
+
 * Software Carpentries
 * Budapest Open Access Initiative 
 * EC declarations
@@ -134,6 +135,7 @@ Initiatives, external resources (some beginner resources, but mostly extra mater
 ## Learning outcomes
 
 After completing this section, learners should be able to:
+
 * Contrast FAIR and OPEN (beginner)
 * Know where to get more information/help with OPEN science (beginner)
 * Describe the benefits and challenges of OPEN Science (intermediate)
@@ -168,7 +170,7 @@ After completing this section, learners should be able to:
 * Computer/laptop
 * Internet / Browser
 * F2F lessons: Whiteboard, sticky notes
-* Online lessons: Online sticky note collaboration tool, e.g. Padlet
+* Online lessons: Online sticky note collaboration tool, e.g., Padlet
 
 ---
 
@@ -177,21 +179,25 @@ After completing this section, learners should be able to:
 * [The Turing Way](https://the-turing-way.netlify.app/reproducible-research/open.html)
 * [FOSTER Open Science Training Handbook](https://zenodo.org/record/2587951#.YrwsLhNBw-R)
 * [Open Data Handbook](https://opendatahandbook.org/)
-* Higman, Rosie, Daniel Bangert, and Sarah Jones. 2019. “Three Camps, One Destination: The Intersections of Research Data Management, FAIR and Open”. Insights 32 (1): 18. DOI: [http://doi.org/10.1629/uksg.468](http://doi.org/10.1629/uksg.468) 
+* Higman, Rosie, Daniel Bangert, and Sarah Jones. 2019. “Three Camps, One Destination: The Intersections of Research Data Management, FAIR and Open.” Insights 32 (1): 18. DOI: [http://doi.org/10.1629/uksg.468](http://doi.org/10.1629/uksg.468) 
 * [OpenAIRE - How to select a repository?](https://www.openaire.eu/opendatapilot-repository-guide)
+* [OpenAIRE - How do I license my (research) data?](https://www.openaire.eu/how-do-i-license-my-research-data)
 * [FAIR in (biological) practice](https://carpentries-incubator.github.io/fair-bio-practice/) 
 * [UNESCO Recommendations on Open Science](https://unesdoc.unesco.org/ark:/48223/pf0000379949.locale=en)
-
+* [Identify the Open Access policy of journals using Sherpa Romeo](https://help.figshare.com/article/using-sherpa-romeo-to-check-publisher-open-access-policies)
+  
 ---
 
-## Take home tasks/preparation
+## Take-home tasks/preparation
 
 Everyone:
+
 * Find out if your organisation/funder has requirements around making data open (intermediate)
 * Identify data repositories related to the type of data you have (expert)
 * Submit your data to an open repository (expert)
 
 For data stewards: 
+
 * Look more in detail about your national/institutional Open Science policies: 
     * [An Analysis of Open Science policies in Europe](https://zenodo.org/record/4725817#.YrwrtBNBw-Q)
     * [Open Science in Europe’s Universities](https://zenodo.org/record/5062982#.YrwrrRNBw-Q)
