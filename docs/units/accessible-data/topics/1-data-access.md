@@ -2,14 +2,9 @@
 title: Access modes, sensitive data, registered access, controlled access
 template: 'lesson-plan.html'
 authors:
-  - orcid: "0000-0002-7702-4495"
-    name: "Allyson Lister"
-
-  - orcid: "XXXX-XXXX-XXXX-XXXX"
-    name: "Branka Franicevic"
-
-  - orcid: "0000-0001-7791-4984"
-    name: "Nazeefa Fatima"
+  - "0000-0002-7702-4495"
+  - "Branka Franicevic"
+  - "0000-0001-7791-4984"
 
 reviewers:
 

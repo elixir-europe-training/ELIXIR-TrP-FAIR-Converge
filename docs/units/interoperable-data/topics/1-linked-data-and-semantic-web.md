@@ -2,8 +2,7 @@
 title: Linked data and semantic web technologies
 template: 'lesson-plan.html'
 authors:
-  - orcid: "0000-0003-3357-3027"
-    name: "Martijn Kersloot"
+  - "0000-0003-3357-3027"
 
 reviewers:
 ---

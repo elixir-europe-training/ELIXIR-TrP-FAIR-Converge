@@ -2,18 +2,12 @@
 title: FAIR and/in institutional data policies
 template: 'lesson-plan.html'
 authors:
-  - orcid: "0000-0003-2313-0011"
-    name: "Minna Ahokas"
-
-  - orcid: "0000-0003-1391-9959"
-    name: "Siiri Fuchs"
-
-  - orcid: "0000-0001-9235-8496"
-    name: "Vilem Ded"
+  - "0000-0003-2313-0011"
+  - "0000-0003-1391-9959"
+  - "0000-0001-9235-8496"
 
 reviewers:
-  - orcid: "0000-0002-7702-4495"
-    name: "Allyson Lister"
+  - "0000-0002-7702-4495"
 --- 
 
 ## Topic, definition and scopes

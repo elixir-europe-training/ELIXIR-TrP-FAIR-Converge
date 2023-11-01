@@ -2,11 +2,8 @@
 title: FAIR Data visiting
 template: 'lesson-plan.html'
 authors:
-  - orcid: "XXXX-XXXX-XXXX-XXXX"
-    name: "Pauline"
-
-  - orcid: "XXXX-XXXX-XXXX-XXXX"
-    name: "Bruna"
+  - "Pauline l'Henaff"
+  - "Bruna Vieira"
 
 reviewers:
 --- 

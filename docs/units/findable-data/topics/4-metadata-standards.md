@@ -2,14 +2,9 @@
 title: Metadata standards
 template: 'lesson-plan.html'
 authors:
-  - orcid: "0000-0003-1378-5495"
-    name: "Sara El-Gebali"
-
-  - orcid: "0000-0002-9016-4820"
-    name: "Federico Bianchini"
-
-  - orcid: "0000-0001-6989-2252"
-    name: "Pascal de Boer"
+  - "0000-0003-1378-5495"
+  - "0000-0002-9016-4820"
+  - "0000-0001-6989-2252"
 
 reviewers:
 

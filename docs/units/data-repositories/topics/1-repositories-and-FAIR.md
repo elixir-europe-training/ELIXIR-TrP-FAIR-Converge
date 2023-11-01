@@ -2,24 +2,14 @@
 title: Data Repositories and FAIR
 template: 'lesson-plan.html'
 authors:
-  - orcid: "0000-0002-7159-1448"
-    name: "Samah Jaber"
-
-  - orcid: "0000-0003-2211-0107"
-    name: "Dayane Araujo"
-
-  - orcid: "XXXX-XXXX-XXXX-XXXX"
-    name: "Branka Franicevic"
-
-  - orcid: "0000-0002-7702-4495"
-    name: "Allyson Lister"
+  - "0000-0002-7159-1448"
+  - "0000-0003-2211-0107"
+  - "Branka Franicevic"
+  - "0000-0002-7702-4495"
     
 reviewers:
-  - orcid: "0000-0002-5788-2687"
-    name: "Diana Pilvar"
-
-  - orcid: "0000-0002-3412-9086"
-    name: "Anne-Françoise Adam-Blondon"
+  - "0000-0002-5788-2687"
+  - "0000-0002-3412-9086"
 
 terms4FAIRskills:
   - subject:
