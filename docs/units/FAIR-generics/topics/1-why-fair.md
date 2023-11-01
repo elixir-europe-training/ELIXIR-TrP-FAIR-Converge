@@ -72,7 +72,7 @@ terms4FAIRskills:
     * Why make data Accessible?
     * Why make data Interoperable?
     * Why make data Reusable?
-* Benefits for different roles/levels (individual researcher benefit vs scientific/discipline knowledge benefit vs societal benefit)
+* Benefits for different roles/levels (individual researcher vs scientific/discipline knowledge vs societal)
 * Incentives such as requirements from journals, institutions, and funding bodies. Exemplary recommendations from major entities include the ones from [Horizon 2020](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf), [UKRI](https://www.ukri.org/manage-your-award/publishing-your-research-findings/making-your-research-data-open/), [EOSC](https://eosc.eu/events/monitoring-eosc-readiness-fair-data-policies/), [NIH](https://sharing.nih.gov/data-management-and-sharing-policy/data-management#:~:text=NIH%20encourages%20data%20management%20and,repurposing%20datasets%20for%20secondary%20research).
 
 ---
@@ -85,7 +85,7 @@ terms4FAIRskills:
 
 ## Primary audience(s)
 
-* Any researcher, research-affiliated staff, or student of any level generating and working with data for research purposes in any discipline, policy-oriented staff and managers.
+* Any researcher, research-performing academic staff, or student of any level generating and working with data for research purposes in any discipline, policy-oriented staff and managers.
 * Not domain-specific and for all types of data that are used to perform research, analysis, archiving and publishing of data
 * Not too technical, not too focused on data stewards
 
@@ -98,8 +98,8 @@ After this lesson students:
 * Can explain the FAIR principles on a generic level;
 * Understand why you should apply the FAIR principles to your data;
 * Know of some common issues that prevent data reuse and how FAIR can help;
-* Have an impression of what could go wrong if you don’t apply FAIR (horror stories topic overlap).
-* Identify what changes are required in your work/group/organisation to facilitate FAIRer data practices.
+* Have an impression of what could go wrong if you do not apply FAIR (horror stories topic overlap).
+* Identify what changes are required in your work/group/organisation to facilitate more FAIR data practices.
 * Identify the significance of FAIR for the quality of research performance and the required changes in an organisation to facilitate FAIR data management 
 
 ---
@@ -114,15 +114,15 @@ After this lesson students:
 * Generic answer to **why** question - formulate an answer not specific to any stakeholder
     * Making your data FAIR can ([Ten reasons to share your data | News | Nature Index](https://www.natureindex.com/news-blog/ten-reasons-to-share-your-data)):
         * Maximise the impact of and engagement with your research, and allow others to continue your legacy by using your data.
-        * Save money and other resources by reducing the need for funding bodies to support the same research multiple times, thereby freeing up funding for new ideas. This includes research with negative outcomes that were previously not published and thus are not Findable.
+        * Save money and other resources by reducing the need for funding bodies to support the same research multiple times, thereby making funding available for new ideas. This includes research with negative outcomes that were previously not published and thus are not Findable.
         * Ensure your research stays relevant (i.e. actively used/cited by others).
         * Make you and your research more visible both in and outside of your discipline.
         * Encourage professionalism and improve quality control.
         * Contribute back to the scientific community and increase reciprocity.
         * Create more connections between you and other researchers, both in and outside of your discipline.
-* Identify common stakeholders related to FAIR usage and group them in the 3 groups mentioned in the next bullet points (perform (p), facilitate (f) and benefit (b))
-    * Researchers (p), scientific publishers (b) and funding agencies (f), suppliers of software for data management, analysis and processing (f), data science community (p) ([link](https://genestack.com/resources/library/the-fair-principles-of-data-management/) to source of stakeholders)
-    * Research funders, policymakers (f), community managers (f), standardization bodies (f, b), research providers (p, f, b), research communities (p, f, b), data service providers (f), data stewards (p, f) ([link](https://www.rd-alliance.org/sites/default/files/RDA-SHARC%20Poster%20template%20Melbourne%20-%202020%20V10032020%20.jpg))
+* Identify common stakeholders related to FAIR usage and group them in the 3 groups mentioned in the next bullet points (perform (p), facilitate (f) and benefit (b)) (see also ([link](https://www.rd-alliance.org/sites/default/files/RDA-SHARC%20Poster%20template%20Melbourne%20-%202020%20V10032020%20.jpg)))
+    * Researchers (p), scientific publishers (b) and funding agencies (f), suppliers of software for data management, analysis and processing (f), data science community (p)
+    * Research funders, policymakers (f), community managers (f), standardisation bodies (f, b), research providers (p, f, b), research communities (p, f, b), data service providers (f), data stewards (p, f) 
     * Society (b)
 
 The [stakeholders](https://fairsharing.org/stakeholders) (with descriptions) within FAIRsharing might be of direct relevance here. Not only do they include the society, researchers, and research funders/policymakers listed above, but also Research data facilitators, librarians, and trainers. Feel free to use the descriptions/definitions here as it might help.
