@@ -112,36 +112,7 @@ After this lesson students:
 
 * Identify common stakeholders related to FAIR usage in the following links, and group them in the following three categories; perform (p), facilitate (f) and benefit (b). ([link](https://genestack.com/resources/library/the-fair-principles-of-data-management/), ([link](https://www.rd-alliance.org/sites/default/files/RDA-SHARC%20Poster%20template%20Melbourne%20-%202020%20V10032020%20.jpg))
 
-The [stakeholders](https://fairsharing.org/stakeholders) (with descriptions) within FAIRsharing might be of direct relevance here. Not only do they include the society, researchers, and research funders/policymakers listed above, but also Research data facilitators, librarians, and trainers. Feel free to use the descriptions/definitions here as it might help.
-
-* Why FAIR for different stakeholders:
-    * Why FAIR for those who **perform the research**:
-        * F - findable
-            * Why?
-        * A - accessible
-            * Why?
-        * I - interoperable
-            * Why?
-        * R - reusable
-            * Why?
-    * Why FAIR for those who **facilitate the research**:
-        * F - findable
-            * Why?
-        * A - accessible
-            * Why?
-        * I - interoperable
-            * Why?
-        * R - reusable
-            * Why?
-    * Why FAIR for those who **benefit from research**:
-        * F - findable
-            * Why?
-        * A - accessible
-            * Why?
-        * I - interoperable
-            * Why?
-        * R - reusable
-            * Why?
+* For each stakeholder identified in the previous exercise, go through each letter of FAIR and explore why they should be motivated to implement each principle. Think about incentives on an individual, scientific, and societal level (show example table below).
 
 
 Example of stakeholder (PI) incentives
