@@ -97,7 +97,7 @@ references:
   - title: "FAIR Cookbook: [What are the FAIR Principles?"
     url: https://faircookbook.elixir-europe.org/content/recipes/introduction/brief-FAIR-principles.html
   - title: Introduction to FAIR principles
-    author: Elixir Luxembourg, LCSB
+    author: ELIXIR Luxembourg, LCSB
     url: https://zenodo.org/record/5078286
   - title: FAIR in action - a flexible framework to guide FAIRification
     doi: https://doi.org/10.1038/s41597-023-02167-2 
