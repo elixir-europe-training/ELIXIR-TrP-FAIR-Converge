@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block container %}
+<div class="md-content" data-md-component="content">
+  <article class="md-content__inner md-typeset">
+    {% block content %}
+        {% if "material/tags" in config.plugins %}
+            {% include "partials/tags.html" %}
+        {% endif %}
+
+        <div class="unit-header">
+            {% if "\x3ch1" not in page.content %}
+                <h1>{{ page.title | d(config.site_name, true)}}</h1>
+            {% endif %}
+            
+            {% include "partials/actions.html" %}
+        </div>
+
+        {{ page.content }}
+        
+        {% if page.meta and (
+            page.meta.git_revision_date_localized or
+            page.meta.revision_date
+        ) %}
+            {% include "partials/source-file.html" %}
+        {% endif %}
+
+        <hr />
+
+        {{ page.file }}
+
+        {{ nav }}
+
+        {% if nav|length > 1 %}
+        <ul>
+        {% for nav_item in nav %}
+            {% if nav_item.children %}
+                <li>{{ nav_item.title }}
+                    <ul>
+                    {% for nav_item in nav_item.children %}
+                        <li class="{% if nav_item.active %}current{% endif %}">
+                            <a href="{{ nav_item.url|url }}">{{ nav_item.title }}</a>
+                        </li>
+                    {% endfor %}
+                    </ul>
+                </li>
+            {% else %}
+                <li class="{% if nav_item.active %}current{% endif %}">
+                    <a href="{{ nav_item.url|url }}">{{ nav_item.title }}</a>
+                </li>
+            {% endif %}
+        {% endfor %}
+        </ul>
+    {% endif %}
+
+        {% include "partials/feedback.html" %}
+        {% include "partials/comments.html" %}
+    {% endblock %}
+  </article>
+</div>
+{% endblock %}

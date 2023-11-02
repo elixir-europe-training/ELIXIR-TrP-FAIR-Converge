@@ -3,7 +3,9 @@ nav:
     - Home: index.md
     - About: 
       - "Contributors": "about/contributors.md"
+      - "Support": "about/support.md"
     - Contribute:
+        - "How to contribute": "contribute/how_to_contribute.md"
         - "Style guide": 'contribute/style_guide.md'
     - Lesson plans:
       - "1. FAIR generics": 
@@ -106,6 +108,7 @@ extra:
     published: "Published"
 
 extra_css:
+  - stylesheets/skeleton.css
   - stylesheets/extra.css
   - stylesheets/neoteroi-mkdocs.css
   - https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200

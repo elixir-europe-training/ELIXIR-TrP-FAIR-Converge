@@ -1,21 +1,29 @@
 <div class="nt-cards nt-grid cols-4 contributors">
 {% for contributor in contributors.items()|sort(attribute='1.lastName') %}
-<div class="nt-card">
-    <div class="nt-card-wrap">
-        <div>
-            <div class="nt-card-content">
-                <p class="nt-card-title">
-                    {{ contributor.1.firstName }} {{ contributor.1.lastName }}
-                </p>
-                <p class="nt-card-text">
-                    {% if contributor.1.orcid %}
-                    <a href="https://orcid.org/{{ contributor.1.orcid }}" target="_blank">
-                        <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
-                    </a>
-                    {% endif %}
-                </p>
-            </div>
-        </div>
+<div class="author-card">
+    <div class="author-image">
+        {% if contributor.1.image %}
+            <img src="{{ image }}" alt="{{ contributor.1.firstName }} {{ contributor.1.lastName }}" />
+        {% elif contributor.1.git %}
+            <img src="https://avatars.githubusercontent.com/{{ contributor.1.git }}" alt="{{ contributor.1.firstName }} {{ contributor.1.lastName }}" />
+        {% else %}
+            <img src="https://ui-avatars.com/api/?name={{ contributor.1.firstName }} {{ contributor.1.lastName }}" alt="{{ contributor.1.firstName }} {{ contributor.1.lastName }}" />
+        {% endif %}
+    </div>
+    <p class="author-name">
+        {{ contributor.1.firstName }} {{ contributor.1.lastName }}
+    </p>
+    <div class="author-socials">
+        {% if contributor.1.orcid %}
+        <a href="https://orcid.org/{{ contributor.1.orcid }}" target="_blank">
+            <img alt="ORCID logo" src="/assets/images/icons/orcid.svg" width="16" height="16" />
+        </a>
+        {% endif %}
+        {% if contributor.1.git %}
+        <a href="https://github.com/{{ contributor.1.git }}" target="_blank">
+            <img alt="GitHub logo" src="/assets/images/icons/github.svg" width="16" height="16" />
+        </a>
+        {% endif %}
     </div>
 </div>
 {% endfor %}

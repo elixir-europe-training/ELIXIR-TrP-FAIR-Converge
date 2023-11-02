@@ -4,11 +4,13 @@
   orcid: "0000-0003-2313-0011"
   firstName: "Minna"
   lastName: "Ahokas"
+  git: "minnami"
 
 0000-0003-1391-9959:
   orcid: "0000-0003-1391-9959"
   firstName: "Siiri"
   lastName: "Fuchs"
+  git: "siirif"
 
 0000-0001-9235-8496:
   orcid: "0000-0001-9235-8496"
@@ -19,6 +21,7 @@
   orcid: "0000-0002-7702-4495"
   firstName: "Allyson"
   lastName: "Lister"
+  git: "allysonlister"
 
 0000-0001-6675-4639:
   orcid: "0000-0001-6675-4639"
@@ -58,6 +61,7 @@ Reinier Dickhout:
   orcid: "0000-0002-3060-3967"
   firstName: "Pradeep"
   lastName: "Eranti"
+  git: "peranti"
 
 0000-0002-5788-2687:
   orcid: "0000-0002-5788-2687"
@@ -91,6 +95,7 @@ Pauline l'Henaff:
 Bruna Vieira:
   firstName: "Bruna"
   lastName: "Vieira"
+  git: "brunasv"
 
 Cesar Bernabe:
   firstName: "Cesar"
@@ -105,6 +110,7 @@ Cesar Bernabe:
   orcid: "0000-0002-4385-9312"
   firstName: "Fieke"
   lastName: "Schoots"
+  git: "Fieke-Schoots"
 
 Branka Franicevic:
   firstName: "Branka"
@@ -142,11 +148,13 @@ Ablikim Abudukerim:
   orcid: "0000-0002-9421-8582"
   firstName: "Justine"
   lastName: "Vandendorpe"
+  git: "jvddorpe"
 
 0000-0001-9114-2896:
   orcid: "0000-0001-9114-2896"
   firstName: "Mijke"
   lastName: "Jetten"
+  git: "MijkeJetten"
 
 0000-0003-1378-5495:
   orcid: "0000-0003-1378-5495"
@@ -157,6 +165,7 @@ Ablikim Abudukerim:
   orcid: "0000-0002-9016-4820"
   firstName: "Federico"
   lastName: "Bianchini"
+  git: "bianchini88"
 
 0000-0001-6989-2252:
   orcid: "0000-0001-6989-2252"
@@ -167,8 +176,21 @@ Ablikim Abudukerim:
   orcid: "0000-0003-3357-3027"
   firstName: "Martijn"
   lastName: "Kersloot"
+  git: "MartijnKersloot"
 
 0000-0003-4942-2725:
   orcid: "0000-0003-4942-2725"
   firstName: "Aliya"
   lastName: "Aktau"
+
+0000-0001-5199-7128:
+  orcid: "0000-0001-5199-7128"
+  firstName: "Stephan"
+  lastName: "Nylinder"
+  git: "stephan-nylinder"
+
+0000-0001-7250-7239: 
+  orcid: "0000-0001-7250-7239"
+  firstName: "Sander"
+  lastName: "de Ridder"
+  git: "aderidder"
