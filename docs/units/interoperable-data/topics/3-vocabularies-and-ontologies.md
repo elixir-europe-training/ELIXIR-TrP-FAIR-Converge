@@ -158,21 +158,3 @@ The purpose of using predefined data vocabularies and ontologies in science is t
 * https://faircookbook.elixir-europe.org/content/recipes/interoperability/ontology-new-term-request-recipe.html
 * https://faircookbook.elixir-europe.org/content/recipes/interoperability/creating-data-dictionary.html
 * https://rdmkit.elixir-europe.org/metadata_management#how-do-you-find-appropriate-vocabularies-or-ontologies
-* 
-* …
-
-
----
-
-## Take home tasks/preparation**
-
-
-
-* …
-* …
-
-
----
-
-
-

@@ -30,40 +30,5 @@ audience:
 
 ## Summary of Tasks / Actions
 
-
-
 * Participants list of resources we have compiled in day 1
 * Action plan:  in the next hackathon day we will split tasks for the different subtopics
-
-
----
-
-## Materials / Equipment
-
-
-
-* [See table with list of resources collected in the Notes section](#notes-hackathon-unit-6-subgroup)
-* …
-
-
----
-
-## References
-
-
-
-*  …
-* …
-
-
----
-
-## Take home tasks/preparation
-
-
-
-* …
-* …
-
-
----

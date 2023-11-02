@@ -41,6 +41,19 @@ learning_outcomes:
   8:
     outcome: Describe how are the policies properly disseminated, used and built upon
 
+additionalResources:
+  - title: "How to be FAIR with your data: A teaching and training handbook for higher education institutions"
+    url: https://doi.org/10.5281/zenodo.6674301
+  - title: Institutional Research Data Management Policies and Procedures
+    author: Australian Research Data Commons
+    url: https://doi.org/10.5281/zenodo.5784765
+  - title: Practical Guide to the International Alignment of Research Data Management - Extended Edition
+    author: Science Europe
+    url: https://doi.org/10.5281/zenodo.4915862
+  - title: FAIR-enabling Data Policy Checklist (1.0)
+    author: Davidson, Joy, Grootveld, Marjan, Verburg, Maaike, van Horik, René, O'Connor, Ryan, et al.
+    url: https://doi.org/10.5281/zenodo.6225775
+
 --- 
 
 ## Topic, definition and scopes
@@ -75,12 +88,6 @@ learning_outcomes:
     * Documents which should refer to the policies including Data Management Plan (DMP), Data Protection Impact Assessment (DPIA), procedures, ethical approval
     * Dissemination to different stakeholders via e.g. training events or a newsletter.
     * Registration within FAIRsharing
-
-## References
-* D7.4 How to be FAIR with your data. A teaching and training handbook for higher education institutions (V1.2.1) \[Computer software\]. Zenodo. [https://doi.org/10.5281/zenodo.6674301](https://doi.org/10.5281/zenodo.6674301)
-* Australian Research Data Commons. (2021). Institutional Research Data Management Policies and Procedures. Zenodo. [https://doi.org/10.5281/zenodo.5784765](https://doi.org/10.5281/zenodo.5784765)
-* Science Europe. (2021). Practical Guide to the International Alignment of Research Data Management - Extended Edition. [https://doi.org/10.5281/zenodo.4915862](https://doi.org/10.5281/zenodo.4915862)
-* Davidson, Joy, Grootveld, Marjan, Verburg, Maaike, van Horik, René, O'Connor, Ryan, Engelhardt, Claudia, Garbuglia, Federica, Vieira, André, Newbold, Elizabeth, Proudman, Vanessa, & Horton, Laurence. (2022). FAIR-enabling Data Policy Checklist (1.0). Zenodo. [https://doi.org/10.5281/zenodo.6225775](https://doi.org/10.5281/zenodo.6225775)  
 
  
 

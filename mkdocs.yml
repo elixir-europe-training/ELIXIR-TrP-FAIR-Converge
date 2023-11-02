@@ -22,8 +22,8 @@ nav:
       - "2. Findable data":
         - "Overview": 'units/findable-data/index.md'
         - 'units/findable-data/topics/1-data-and-repository-discovery.md'
-        - 'units/findable-data/topics/3-persistent-identifiers.md'
-        - 'units/findable-data/topics/4-metadata-standards.md'
+        - 'units/findable-data/topics/2-persistent-identifiers.md'
+        - 'units/findable-data/topics/3-metadata-standards.md'
       - "3. Accessible data":
         - "Overview": 'units/accessible-data/index.md'
         - 'units/accessible-data/topics/1-data-access.md'

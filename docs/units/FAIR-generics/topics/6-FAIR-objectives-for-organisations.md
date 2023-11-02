@@ -30,6 +30,10 @@ learning_outcomes:
     outcome: Identify what to do about it (where to go next) / map answers to practical steps…
   6:
     outcome: Organisation-level data policies for their members
+
+additionalResources:
+  - title: "Do I-PASS for FAIR: A self assessment tool to measure the FAIR-ness of an organization"
+    url: https://doi.org/10.5281/zenodo.4080867
 --- 
 
 ## Topic, definition and scope
@@ -47,27 +51,3 @@ learning_outcomes:
 * Map desirable DIP4F to a FAIRification practical steps process / define a plan (how?)
     * _Fill out Smart Guidance once we add DIP4F chapter there = output is the plan to become advanced, etc…_
 * …
-
----
-
-## Materials / Equipment
-
-* [Do I Pass for FAIR?](https://www.lcrdm.nl/files/lcrdm/2020-10/Do-IPASS-for-FAIR.pdf) Grading system…
-* Need to develop a planning tool (e.g. inside smart guidance)
-    * Identify bottlenecks for your plan: where does my organisation need training? More resources? More personnel?
-
----
-
-## References
-
-*  …
-* …
-
----
-
-## Take home tasks/preparation
-
-* …
-* …
-
----

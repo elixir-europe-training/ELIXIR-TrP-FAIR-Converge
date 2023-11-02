@@ -12,6 +12,12 @@ audience:
   - This lesson plan is designed to train local trainers to facilitate M4M workshops in their local institutions (so a Train-the-Trainer)
   - "The audience of the M4M workshop itself are twofold (you need both of them to be in the training): Domain experts (who represent a domain community), FAIR metadata experts (data stewards) who guide a discussion leading to the metadata requirements that meet the FAIR data needs of that domain community" 
 
+additionalResources:
+  - title: "Metadata for Machines resource"
+    url: https://www.gofairfoundation.org/m4m
+  - title: "Run Metadata for Machines workshops"
+    url: https://www.go-fair.org/how-to-go-fair/metadata-for-machines/
+
 --- 
 
 ## Topic, definition and scope
@@ -31,38 +37,3 @@ audience:
 
 * **By exporting FAIRsharing metadata using its API, you gain machine-accessible metadata on standards, databases and data policies in JSON format**…We are developing an infographic about this kind of usage, and are happy to share it here once complete
 * …
-
-
----
-
-## Materials / Equipment
-
-
-
-* …
-* …
-
-
----
-
-## References
-
-
-
-* GO FAIR Foundation Metadata for Machines resources page:
-    * [https://www.gofairfoundation.org/m4m/](https://www.gofairfoundation.org/m4m/) 
-    * [https://www.go-fair.org/how-to-go-fair/metadata-for-machines/](https://www.go-fair.org/how-to-go-fair/metadata-for-machines/) 
-* …
-
-
----
-
-## Take home tasks/preparation
-
-
-
-* …
-* …
-
-
----

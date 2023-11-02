@@ -94,6 +94,30 @@ terms4FAIRskills:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000447'
         label: the FAIR Principles
 
+additionalResources:
+  - title: "The FAIR Guiding Principles for scientific data management and stewardship"
+    url: https://www.nature.com/articles/sdata201618
+  - title: "FAIR data"
+    author: Swedish University of Agricultural Sciences
+    url: https://www.slu.se/en/subweb/library/publish-and-analyse/archiving-and-publishing-research-data/fair-data/
+  - title: "Lost or Found? Discovering Data Needed for Research"
+    author: "Kathleen Gregory, Paul Groth, Andrea Scharnhorst, Sally Wyatt"
+    url: https://doi.org/10.1162/99608f92.e38165eb
+  - title: "GOFAIR Discovery Implementation Network"
+    url: https://phaidra.univie.ac.at/download/o:1201054
+  - title: "What is Data Mining"
+    author: techtarget.com
+    url: https://www.techtarget.com/searchbusinessanalytics/definition/data-mining
+  - title: "Discover - Data Management Expert Guide"
+    author: CESSDA ERIC
+    url: https://dmeg.cessda.eu/Data-Management-Expert-Guide/7.-Discover
+  - title: "Citing your data - Data Management Expert Guide"
+    author: CESSDA ERIC
+    url: https://dmeg.cessda.eu/Data-Management-Expert-Guide/6.-Archive-Publish/Publishing-with-CESSDA-archives/Citing-your-data
+  - title: "Data reuse and the open data citation advantage"
+    author: "Heather A. Piwowar​, Todd J. Vision"
+    url: https://doi.org/10.7717/peerj.175
+
 --- 
 
 ## Topic, definition and scope
@@ -169,20 +193,6 @@ _“A Bio-Chemistry researcher needs some enzymology data for a research questio
 
 ---
 
-## References
-
-* [The FAIR Guiding Principles for scientific data management and stewardship](https://www.nature.com/articles/sdata201618)
-* [FAIR data | Externwebben (slu.se)](https://www.slu.se/en/subweb/library/publish-and-analyse/archiving-and-publishing-research-data/fair-data/)
-* [Lost or Found? Discovering Data Needed for Research · Issue 2.2, Spring 2020 (mit.edu)](https://hdsr.mitpress.mit.edu/pub/gw3r97ht/release/6)
-* [GOFAIR Discovery Implementation Network](https://phaidra.univie.ac.at/download/o:1201054)
-* [What is Data Mining? (techtarget.com)](https://www.techtarget.com/searchbusinessanalytics/definition/data-mining#:~:text=Data%20mining%20is%20the%20process,make%20more%2Dinformed%20business%20decisions.)
-* [Discover - Data Management Expert Guide (cessda.eu)](https://dmeg.cessda.eu/Data-Management-Expert-Guide/7.-Discover)
-* <span style="text-decoration:underline;">[ Citing your data - Data Management Expert Guide (cessda.eu)](https://dmeg.cessda.eu/Data-Management-Expert-Guide/6.-Archive-Publish/Publishing-with-CESSDA-archives/Citing-your-data)</span>
-* [Data reuse and the open data citation advantage [PeerJ]](https://peerj.com/articles/175/)
-* [FAIRsharing educational factsheet for databases](https://fairsharing.org/educational#databases)
-
----
-
 ## Take home tasks/preparation
 
 * Hands-on exercise:  Find the data behind a publication of your interest using [Europe PMC](https://europepmc.org/) and answer the questions:
@@ -191,8 +201,3 @@ _“A Bio-Chemistry researcher needs some enzymology data for a research questio
     * Could you access the data? Is the data format machine-readable?
     * Could you easily find the licensing for the data of interest?
     * How do you believe the use of FAIR principles contributed for your data discovery?
-
----
-
-
-
