@@ -45,12 +45,86 @@ prerequisites:
   - Have basic knowledge of the FAIR Principles 
 
 content:
-  - subject: "Contrast FAIR and OPEN"
-    learning_outcome: 1
-    activity: "Discuss the differences between the two terms and how they can be used to complement each other (being open with slightly FAIR aspects)"
-    level: beginner 
-    audience: any
-    timing: 
+  during:
+    - subject: "Contrast FAIR and OPEN"
+      learning_outcome: 1
+      activities: 
+        - "Discuss the differences between the two terms and how they can be used to complement each other (being open with slightly FAIR aspects)"
+      level: beginner 
+      audience: any
+      timing: 
+    - subject: "Discuss the breadth of the term open"
+      learning_outcome: 
+      activities: 
+        - "Is open science just about data? Discuss other ways it is possible to be open"
+      level: beginner 
+      audience: any
+      timing: 
+    - subject: "Identify the benefits of open science"
+      learning_outcome: 
+      activities: 
+        - "Identify the benefits for different groups, including researchers, institutes, funders, the public"
+        - "Divide into smaller groups, use a whiteboard, sticky notes or an app to note down the benefits, then organise them and discuss in a bigger group"
+      level: intermediate 
+      audience: any
+      timing: 
+    - subject: "Identify the challenges of making data open"
+      learning_outcome: 
+      activities: 
+        - "Identify reasons why researchers may find it difficult to make data open or may not be able to make it open"
+        - "Divide into smaller groups, use a whiteboard, sticky notes or an app to note down the challenges, then organise them and discuss them in a bigger group"
+        - "Talk about sensitive/patient data, anonymisation"
+      level: intermediate 
+      audience: any
+      timing: 
+    - subject: "How can you make your data open?"
+      learning_outcome: 
+      activities: 
+        - "Search for open data repositories related to the type of data you have"
+        - "Each student (or a pair of students) will find repositories suitable for their data and will make a presentation about the database (referencing FAIR principles and open science)"
+        - "Look through open data examples in repositories, how would FAIR Principles benefit these materials"
+      level: expert 
+      audience: any
+      timing: 
+    - subject: "How can you make your data open?"
+      learning_outcome: 
+      activities: 
+        - "Discuss national/institutional open science policies"
+      level: any 
+      audience: Data stewards
+      timing: 
+  after:
+    - subject: "Requirements"
+      activities: 
+        - "Find out if your organisation/funder has requirements around making data open"
+      level: intermediate 
+      audience: any
+      timing: 
+    - subject: "Identify repositories"
+      activities: 
+        - "Identify data repositories related to the type of data you have"
+      level: expert 
+      audience: any
+      timing: 
+    - subject: "Data submission"
+      activities: 
+        - "Submit your data to an open repository"
+      level: intermediate 
+      audience: any
+      timing: 
+    - subject: "Policies"
+      activities: 
+        - > 
+          Look more in detail about your national/institutional Open Science policies:
+          * [An Analysis of Open Science policies in Europe](https://zenodo.org/record/4725817#.YrwrtBNBw-Q)
+          * [Open Science in Europe’s Universities](https://zenodo.org/record/5062982#.YrwrrRNBw-Q)
+          * [National resources pages on RDMkit](https://rdmkit.elixir-europe.org/national_resources)
+        - "Look through [EC Open Science Policy](https://ec.europa.eu/info/research-and-innovation/strategy/strategy-2020-2024/our-digital-future/open-science_en)"
+        - "Local University Libraries are (usually) the experts in Open Science. Take contact with them and learn what they are doing"
+      level: any 
+      audience: Data stewards
+      timing: 
+
 
 terms4FAIRskills:
   - subject:
@@ -111,6 +185,33 @@ terms4FAIRskills:
         label: >-
           R1.1 (Meta)data are released with a clear and accessible data usage
           license
+
+additionalResources:
+  - title: The Turing Way
+    url: https://the-turing-way.netlify.app/reproducible-research/open.html
+  - title: FOSTER Open Science Training Handbook
+    url: https://zenodo.org/record/2587951#.YrwsLhNBw-R
+  - title: Open Data Handbook
+    url: https://opendatahandbook.org/
+  - title: "Three Camps, One Destination: The Intersections of Research Data Management, FAIR and Open."
+    author: Higman, Rosie, Daniel Bangert, Sarah Jones 
+    year: 2019
+    journal: "Insights"
+    volume: 32
+    number: 1
+    pages: 18
+    url: http://doi.org/10.1629/uksg.468
+  - title: OpenAIRE - How to select a repository?
+    url: https://www.openaire.eu/opendatapilot-repository-guide
+  - title: OpenAIRE - How do I license my (research) data?
+    url: https://www.openaire.eu/how-do-i-license-my-research-data
+  - title: FAIR in (biological) practice
+    url: https://carpentries-incubator.github.io/fair-bio-practice/
+  - title: UNESCO Recommendations on Open Science
+    url: https://unesdoc.unesco.org/ark:/48223/pf0000379949.locale=en
+  - title: Identify the Open Access policy of journals using Sherpa Romeo
+    url: https://help.figshare.com/article/using-sherpa-romeo-to-check-publisher-open-access-policies
+
 --- 
 
 ## Topic, definition and scope
@@ -158,64 +259,3 @@ Initiatives, external resources (some beginner resources, but mostly extra mater
 **Reusable** - in Europe, to have full legal rights to use any source, a license has to be added to it. 
 
 * R1.1: (Meta)data are released with a clear and accessible data usage license
-
-## Summary of Tasks / Actions
-
-* Compare FAIR and open data (beginner)
-    * Discuss the differences between the two terms and how they can be used to complement each other
-* Discuss the breadth of the term open (beginner)
-    * Is open science just about data? Discuss other ways it is possible to be open
-* Identify the benefits of open science (intermediate)
-    * Identify the benefits for different groups, including researchers, institutes, funders, the public
-    * **EXERCISE**: Divide into smaller groups, use a whiteboard, sticky notes or an app to note down the benefits, then organise them and discuss in a bigger group
-* Identify the challenges of making data open (intermediate)
-    * Identify reasons why researchers may find it difficult to make data open or may not be able to make it open
-    * **EXERCISE**: Divide into smaller groups, use a whiteboard, sticky notes or an app to note down the challenges, then organise them and discuss them in a bigger group
-    * Talk about sensitive/patient data, anonymisation
-* How can you make your data open? (expert)
-    * Search for open data repositories related to the type of data you have
-    * **EXERCISE**: Each student (or a pair of students) will find repositories suitable for their data and will make a presentation about the database (referencing FAIR principles and open science)
-    * Look through open data examples in repositories, how would FAIR Principles benefit these materials
-* Discuss national/institutional open science policies (data stewards)
-
----
-
-## Materials / Equipment
-
-* Computer/laptop
-* Internet / Browser
-* F2F lessons: Whiteboard, sticky notes
-* Online lessons: Online sticky note collaboration tool, e.g., Padlet
-
----
-
-## References
-
-* [The Turing Way](https://the-turing-way.netlify.app/reproducible-research/open.html)
-* [FOSTER Open Science Training Handbook](https://zenodo.org/record/2587951#.YrwsLhNBw-R)
-* [Open Data Handbook](https://opendatahandbook.org/)
-* Higman, Rosie, Daniel Bangert, and Sarah Jones. 2019. “Three Camps, One Destination: The Intersections of Research Data Management, FAIR and Open.” Insights 32 (1): 18. DOI: [http://doi.org/10.1629/uksg.468](http://doi.org/10.1629/uksg.468) 
-* [OpenAIRE - How to select a repository?](https://www.openaire.eu/opendatapilot-repository-guide)
-* [OpenAIRE - How do I license my (research) data?](https://www.openaire.eu/how-do-i-license-my-research-data)
-* [FAIR in (biological) practice](https://carpentries-incubator.github.io/fair-bio-practice/) 
-* [UNESCO Recommendations on Open Science](https://unesdoc.unesco.org/ark:/48223/pf0000379949.locale=en)
-* [Identify the Open Access policy of journals using Sherpa Romeo](https://help.figshare.com/article/using-sherpa-romeo-to-check-publisher-open-access-policies)
-  
----
-
-## Take-home tasks/preparation
-
-Everyone:
-
-* Find out if your organisation/funder has requirements around making data open (intermediate)
-* Identify data repositories related to the type of data you have (expert)
-* Submit your data to an open repository (expert)
-
-For data stewards: 
-
-* Look more in detail about your national/institutional Open Science policies: 
-    * [An Analysis of Open Science policies in Europe](https://zenodo.org/record/4725817#.YrwrtBNBw-Q)
-    * [Open Science in Europe’s Universities](https://zenodo.org/record/5062982#.YrwrrRNBw-Q)
-    * [National resources pages on RDMkit](https://rdmkit.elixir-europe.org/national_resources)
-* Look through [EC Open Science Policy](https://ec.europa.eu/info/research-and-innovation/strategy/strategy-2020-2024/our-digital-future/open-science_en) 
-* Local University Libraries are (usually) the experts in Open Science. Take contact with them and learn what they are doing.
