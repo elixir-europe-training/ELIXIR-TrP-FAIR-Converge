@@ -106,7 +106,7 @@ terms4FAIRskills:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000583'
         label: fairplus dataset maturity model indicator
 
-references:
+additionalResources:
   - title: Ten Simple Rules for Creating a Good Data Management Plan
     author: Michener WK 
     year: 2015
@@ -114,7 +114,7 @@ references:
     volume: 11
     number: 10
     pages: e1004525
-    doi: https://doi.org/10.1371/journal.pcbi.1004525
+    url: https://doi.org/10.1371/journal.pcbi.1004525
   - title: Data management
     author: European Commission
     url: https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/data-management_en.htm

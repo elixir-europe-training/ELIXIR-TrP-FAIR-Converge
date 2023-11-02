@@ -190,6 +190,10 @@ ul.lesson-plan-tags li.lesson-plan-tag {
   margin-right: 10px;
 }
 
+.cc-license span {
+  flex: 1;
+}
+
 .author-card {
   background: #f6f6f6;
   border-radius: 2px;
@@ -250,6 +254,6 @@ ul.lesson-plan-tags li.lesson-plan-tag {
   color: var(--md-default-fg-color--light);
 }
 
-.reference-list .reference-link .icon {
+.reference-list .reference-title .icon {
   font-size: 14px;
 }

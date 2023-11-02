@@ -3,7 +3,7 @@
         {% if affiliation.image_url %}
         <div class="three columns">
             {% if affiliation.url %}<a href="{{ affiliation.url }}" target="_blank">{% endif %}
-                <img class="rounded p-3" src="{{ affiliation.image_url }}" alt="{{ affiliation.name }}">
+                <img class="rounded p-3" src="site:{{ affiliation.image_url }}" alt="{{ affiliation.name }}">
             {% if affiliation.url %}</a>{% endif %}
         </div>
         {% endif %}
