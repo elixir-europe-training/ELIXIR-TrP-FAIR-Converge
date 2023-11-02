@@ -127,14 +127,14 @@ references:
 --- 
 ## Topic
 
-To be FAIR (Findable, Accessible, Interoperable, and Reusable) with research data is of great importance in a data-driven world. By knowing of and adopting FAIR principles, organizations and researchers can reach new levels of data and resource impacts, leading to numerous benefits for both the researcher community as well as society at large.
+Making research data FAIR (Findable, Accessible, Interoperable, and Reusable) is of great importance in a data-driven world. By knowing of and adopting the FAIR principles, organisations and researchers can reach new levels of data and resource impacts, leading to numerous benefits for both the researcher community and society at large.
 
-In short, knowledge of, and going FAIR in practice, is crucial for maximizing the value of data and resources, leading to more efficient research and increased sharing of knowledge. Adopting and embracing the FAIR principles is a vital step toward advancing research and addressing complex challenges in various domains.
+In short, knowledge of the FAIR data principles and their practical application is crucial for maximising the value of data and resources, leading to more efficient research and increased knowledge sharing. Adopting and embracing the FAIR principles is a vital step towards advancing research and addressing complex challenges in all domains.
 
 [Glossary references]
 
 ### Alignment with FAIR principles
-The topic of "Why FAIR" aligns with all aspects of FAIR in a more general way than other topics. It includes general knowledge of what FAIR is, what different  stakeholders of the FAIR principles expects from researchers going FAIR and why/how they benefit from its implementation. There are also incentives such as requirements from journals, institutions, and funding bodies. Exemplary recommendations from major entities include the ones from [Horizon 2020](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf), [UKRI](https://www.ukri.org/manage-your-award/publishing-your-research-findings/making-your-research-data-open/), [EOSC](https://eosc.eu/events/monitoring-eosc-readiness-fair-data-policies/), [NIH](https://sharing.nih.gov/data-management-and-sharing-policy/data-management#:~:text=NIH%20encourages%20data%20management%20and,repurposing%20datasets%20for%20secondary%20research).
+The topic of "Why FAIR" aligns with all aspects of FAIR in a more general way than other topics. It includes general knowledge of what FAIR is, what different  stakeholders of the FAIR principles expect from researchers going FAIR and why/how they benefit from its implementation. There are also incentives such as requirements from journals, institutions, and funding bodies. Exemplary recommendations from major entities include the ones from [Horizon 2020](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf), [UKRI](https://www.ukri.org/manage-your-award/publishing-your-research-findings/making-your-research-data-open/), [EOSC](https://eosc.eu/events/monitoring-eosc-readiness-fair-data-policies/), and [NIH](https://sharing.nih.gov/data-management-and-sharing-policy/data-management#:~:text=NIH%20encourages%20data%20management%20and,repurposing%20datasets%20for%20secondary%20research).
 
 <!--
 ## Topic, definition and scope
