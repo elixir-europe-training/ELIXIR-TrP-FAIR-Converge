@@ -12,7 +12,7 @@
             {% if "\x3ch1" not in page.content %}
                 <h1>{{ page.title | d(config.site_name, true)}}</h1>
             {% endif %}
-            
+
             {% include "partials/actions.html" %}
         </div>
 
@@ -155,6 +155,8 @@
         ) %}
             {% include "partials/source-file.html" %}
         {% endif %}
+
+        {% include "partials/references.html" %}
 
         <hr />
 

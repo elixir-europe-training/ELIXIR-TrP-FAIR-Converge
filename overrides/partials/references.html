@@ -1,0 +1,44 @@
+<h2 id="references">References</h2>
+
+{% if "references" in page.meta and page.meta.references %}
+<div class="reference-list">
+    <ul>
+    {% for reference in page.meta.references %}
+        <li>
+            <span class="reference-author">{{ reference.author }}</span>
+            <span class="reference-title">{{ reference.title }}</span>
+            <span class="reference-source">
+                <span class="reference-details">
+                    {% if reference.journal %}
+                        {{ reference.journal }}
+                    {% endif %}
+                    {% if reference.volume %}
+                        {{ reference.volume }}
+                    {% endif %}
+                    {% if reference.number %}({{ reference.number }}){% endif %}{% if reference.pages %}: {{ reference.pages }}{% endif %}
+                    {% if reference.year %}
+                        ({{ reference.year }})
+                    {% endif %}
+                </span>
+                {% if reference.doi %}
+                    <span class="reference-doi reference-link">
+                        <a href="{{ reference.doi }}" target="_blank">
+                            {{ reference.doi }}
+                            <span class="icon material-symbols-outlined"> arrow_outward </span>
+                        </a>
+                    </span>
+                {% endif %}
+                {% if reference.url %}
+                    <span class="reference-url reference-link">
+                        <a href="{{ reference.url }}" target="_blank">
+                            {{ reference.url }}
+                            <span class="icon material-symbols-outlined"> arrow_outward </span>
+                        </a>
+                    </span>
+                {% endif %}
+            </span>
+        </li>
+    {% endfor %}
+    </ul>
+</div>
+{% endif %}
