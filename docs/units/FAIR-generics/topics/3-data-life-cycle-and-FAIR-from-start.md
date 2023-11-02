@@ -1,5 +1,5 @@
 ---
-title: Data Life Cycle approach to FAIR/FAIR right from the start
+title: Data Life Cycle approach to FAIR: FAIR by design
 status: ready_for_review
 template: 'lesson-plan.html'
 authors:
@@ -31,24 +31,20 @@ learning_outcomes:
   3:
     outcome: List the reasons why you should start implementing FAIR at the start of the research life cycle/your project
   4:
-    outcome: Recognize several versions/models of research data life cycle
+    outcome: Recognise several versions/models of research data life cycle
   5:
     outcome: Describe ways of making your data FAIR at every phase of the research data life cycle 
   6:
-    outcome: Aware of the different tools, technologies and methods that are available to help with FAIR data at different phases of the research data life cycle (Understand/Remember)
+    outcome: Awareness of the different tools, technologies and methods that are available to help with FAIR data at different phases of the research data life cycle (Understand/Remember)
   7:
     outcome: Apply tools that are available to assess the FAIRness of your data (Apply)
   8:
-    outcome: Describe the RDM policies at your institute _(discussion point - applicable to this lessonplan or another unit?)_
+    outcome: Make sure your data is following the above-mentioned requirements (Apply)
   9:
-    outcome: List the RDM and FAIR requirements from different funders (European and national) _(discussion point - applicable to this lessonplan or another unit?)_
-  10:
-    outcome: Make sure your data is following above mentioned requirements (Apply)
-  11:
     outcome: Describe the relationship between open data with the different phases of the research data life cycle (_also see lesson plan on Open data vs FAIR - discussion point_)
 
 prerequisites:
-  - Basic understanding about Research Data Management
+  - Basic understanding of Research Data Management
 
 terms4FAIRskills:
   - subject:
@@ -104,8 +100,7 @@ terms4FAIRskills:
 
 ## Topic, definition and scope
 
-* Understanding data life cycle and its use in a research project.
-* Understanding how each step in the lifecycle supports making research data FAIR by-design.
+In this lesson plan, we describe the data life cycle and its steps, describing for each of them the best practices to make your data FAIR. Awareness of these processes would allow you to plan in advance and get in touch with the right infrastructures, with the final scope to make your research data FAIR by design.
 
 ---
 
@@ -113,35 +108,23 @@ terms4FAIRskills:
 
 Duration will be adjusted based on the overall scheme of the course, the audience and the delivery format.
 
-* For webinar or tutorial, one hour is foreseen.
-* For more interactive trainings it can be a morning/afternoon session
+* For a webinar or a tutorial, one hour is foreseen.
+* For more interactive training events, it can be a half-day session
 
 ---
 
 ## Summary of Tasks / Actions
 
-* Exercise for audience: List the research life cycle phases and the applicable FAIR elements with explanations
+* Exercise for the participants: List the research life cycle phases and the applicable FAIR elements with explanations
 * Prepare an exercise for the audience: using a particular tool to assess FAIRness in your research data/research data of researchers that you are supporting _(maybe this exercise is more suitable in other units? Instructors can also provide datasets)_
-* Exercise for audience: Try to find datasets (through a repository) that are FAIR
+* Exercise for the participants: Try to find datasets (through a repository) that are FAIR
 * Exercise: play games (see references)
-
----
-
-## Materials / Equipment
-
-* Overview of different research data life cycle models
-* Computer / laptop
-* Internet / browser
-* Whiteboard + markers
-* Post-its
-* Pre-reading material?
-* Examples (good and not as good)?
 
 ---
 
 ## References
 
-* Research data management (UNiversity of Virginia): [https://guides.lib.virginia.edu/c.php?g=515290&p=3522215](https://guides.lib.virginia.edu/c.php?g=515290&p=3522215) 
+* Research data management (University of Virginia): [https://guides.lib.virginia.edu/c.php?g=515290&p=3522215](https://guides.lib.virginia.edu/c.php?g=515290&p=3522215) 
 * FOSTER data life cycle +Open Science principles:[https://docs.google.com/presentation/d/1SZ6ADqTNp_GBT3UT-JAsH-6zKfAWab_1xMOSxZhdZvw/edit?usp=sharing](https://docs.google.com/presentation/d/1SZ6ADqTNp_GBT3UT-JAsH-6zKfAWab_1xMOSxZhdZvw/edit?usp=sharing)  
 * Research data management (UK Data service): [https://ukdataservice.ac.uk/learning-hub/research-data-management/](https://ukdataservice.ac.uk/learning-hub/research-data-management/) 
 * The FAIRplus Dataset Maturity (DSM) Model: https://fairplus.github.io/Data-Maturity/ 
