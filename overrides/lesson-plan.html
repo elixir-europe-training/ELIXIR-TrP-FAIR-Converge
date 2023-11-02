@@ -119,35 +119,10 @@
             </div>
         </div>
 
-        {% if "content" in page.meta and page.meta.content %}
         
-        <table>
-            <thead>
-                <th>Stage</th>
-                <th>Subject</th>
-                <th>Learning outcome</th>
-                <th>Activity</th>
-                <th>Level</th>
-                <th>Audience</th>
-            </thead>
-            <tbody>
-                {% for content_item in page.meta.content %}
-                    <tr>
-                        <td>Preparation</td>
-                        <td>{{ content_item.subject }}</td>
-                        <td>{{ page.meta.learning_outcomes[content_item.learning_outcome].outcome }}</td>
-                        <td>{{ content_item.activity }}</td>
-                        <td>{{ content_item.level }}</td>
-                        <td>{{ content_item.audience }}</td>
-                    </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-
-        {% endif %}
-
-
         {{ page.content }}
+
+        {% include "partials/content.html" %}
         
         {% if page.meta and (
             page.meta.git_revision_date_localized or
