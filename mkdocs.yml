@@ -71,6 +71,7 @@ plugins:
       include_yaml:
         - contributors: _data/contributors.yaml
         - fair_principles: _data/fair_principles.yaml
+        - levels: _data/levels.yaml
   - site-urls
   
 # Footer
