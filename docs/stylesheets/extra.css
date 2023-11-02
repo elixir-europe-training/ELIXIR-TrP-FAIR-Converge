@@ -222,6 +222,7 @@ ul.lesson-plan-tags li.lesson-plan-tag {
   width: 80px;
   height: 80px;
   border-radius: 100%;
+}
 
 .md-nav--integrated>.md-nav__list>.md-nav__item--active:not(.md-nav__item--nested) {
   padding: 0;
