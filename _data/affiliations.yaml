@@ -1,0 +1,11 @@
+funders:
+  - name: ELIXIR CONVERGE
+    image_url: /assets/images/funders/elixir-converge.svg
+    url: https://elixir-europe.org/about-us/how-funded/eu-projects/converge
+institutions:
+  - name: Health-RI
+    url: https://health-ri.nl/
+    image_url: /assets/images/institutions/health-ri.svg
+  - name: Amsterdam UMC
+    url: https://www.amsterdamumc.org/en.htm
+    image_url: /assets/images/institutions/amsterdamumc.svg
