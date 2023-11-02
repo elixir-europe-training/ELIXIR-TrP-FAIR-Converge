@@ -1,4 +1,5 @@
 ---
+number: 1.2
 title: FAIR vs open data/science
 status: ready_for_review
 template: 'lesson-plan.html'

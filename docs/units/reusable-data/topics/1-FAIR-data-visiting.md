@@ -1,4 +1,5 @@
 ---
+number: 5.1
 title: FAIR Data visiting
 status: in_progress
 template: 'lesson-plan.html'

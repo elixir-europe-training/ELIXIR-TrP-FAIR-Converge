@@ -1,4 +1,5 @@
 ---
+number: 4.1
 title: Linked data and semantic web technologies
 status: in_progress
 template: 'lesson-plan.html'

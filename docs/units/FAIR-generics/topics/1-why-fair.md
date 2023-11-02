@@ -1,4 +1,5 @@
 ---
+number: 1.1
 title: Why FAIR?
 status: ready_for_review
 template: 'lesson-plan.html'

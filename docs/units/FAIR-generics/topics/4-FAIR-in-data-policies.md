@@ -1,4 +1,5 @@
 ---
+number: 1.4
 title: FAIR and/in institutional data policies
 status: ready_for_review
 template: 'lesson-plan.html'

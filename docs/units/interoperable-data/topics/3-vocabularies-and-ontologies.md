@@ -1,4 +1,5 @@
 ---
+number: 4.3
 title: Data vocabularies and ontologies
 status: in_progress
 template: 'lesson-plan.html'

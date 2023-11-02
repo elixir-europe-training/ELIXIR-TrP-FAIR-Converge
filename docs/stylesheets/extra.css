@@ -72,6 +72,23 @@
   margin-bottom: 20px;
 }
 
+.lesson-plan-header h1 {
+  display: flex;
+  align-items: center;
+}
+
+.lesson-plan-header h1 .lesson-plan-number {
+  color: var(--md-default-fg-color--light);
+  border: 1px solid var(--md-default-fg-color--light);
+  display: inline-block;
+  font-size: 14px;
+  padding: 2px 6px;
+  border-radius: 2px;
+  margin-right: 10px;
+  margin-top: 2px;
+  font-weight: 400;
+}
+
 .lesson-plan-status {
   padding: 5px 10px;
   border-radius: 2px;
@@ -286,6 +303,42 @@ ul.lesson-plan-tags li.lesson-plan-tag {
   font-variation-settings: 'FILL' 1;
 }
 
-.lesson-plan-content-level-any {
+.lesson-plan-content-level-any,
+.lesson-plan-content-audience-any
+ {
   color: var(--md-default-fg-color--light);
+}
+
+.nav-lesson-plan-number,
+.nav-unit-number {
+  font-size: 11px;
+  padding: 1px 3px;
+  border-radius: 2px;
+  margin: 2px 6px 0 0;
+  border: 1px solid var(--md-default-fg-color--light);
+  color: var(--md-default-fg-color--light);
+}
+
+.nav-unit-number {
+  padding: 1px 5px;
+}
+
+.md-nav__link:focus .nav-lesson-plan-number,
+.md-nav__link:hover .nav-lesson-plan-number,
+.md-nav__link:focus .nav-unit-number,
+.md-nav__link:hover .nav-unit-number 
+{
+  border-color: var(--md-accent-fg-color);
+  color: var(--md-accent-fg-color);
+}
+
+.md-nav__item .md-nav__link--active .nav-lesson-plan-number {
+  background: var(--md-typeset-a-color);
+  border-color: var(--md-typeset-a-color);
+  color: white;
+}
+
+.md-nav__link .md-ellipsis {
+  display: flex;
+  align-items: flex-start;
 }

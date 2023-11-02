@@ -1,4 +1,5 @@
 ---
+number: 3.1
 title: Access modes, sensitive data, registered access, controlled access
 status: ready_for_review
 template: 'lesson-plan.html'

@@ -1,4 +1,5 @@
 ---
+number: 2.2
 title: Persistent identifiers (PIDs)
 status: ready_for_review
 template: 'lesson-plan.html'

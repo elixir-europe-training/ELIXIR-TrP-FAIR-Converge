@@ -1,4 +1,5 @@
 ---
+number: 7.1
 title: Data Repositories and FAIR
 status: ready_for_review
 template: 'lesson-plan.html'

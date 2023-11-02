@@ -1,4 +1,5 @@
 ---
+number: 2.1
 title: Data/Repository discovery
 status: ready_for_review
 template: 'lesson-plan.html'

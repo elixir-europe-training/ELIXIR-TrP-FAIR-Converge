@@ -1,5 +1,6 @@
 ---
-title: Defining FAIR
+number: 1.5
+title: Defining FAIR Objectives for a project
 status: in_progress
 template: 'lesson-plan.html'
 authors:

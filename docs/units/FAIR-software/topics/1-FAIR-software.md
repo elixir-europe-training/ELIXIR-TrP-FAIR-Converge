@@ -1,4 +1,5 @@
 ---
+number: 6.1
 title: FAIR Software
 status: in_progress
 template: 'lesson-plan.html'

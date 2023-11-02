@@ -1,4 +1,5 @@
 ---
+number: 1.7
 title: Policies and consent
 status: in_progress
 template: 'lesson-plan.html'

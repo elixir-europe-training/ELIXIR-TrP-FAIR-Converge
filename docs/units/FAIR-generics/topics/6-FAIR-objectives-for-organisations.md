@@ -1,4 +1,5 @@
 ---
+number: 1.6
 title: Defining FAIR Objectives for Organisations
 status: in_progress
 template: 'lesson-plan.html'

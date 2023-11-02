@@ -1,4 +1,5 @@
 ---
+number: 1.3
 title: 'Data Life Cycle approach to FAIR: FAIR by design'
 status: ready_for_review
 template: 'lesson-plan.html'
