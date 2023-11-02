@@ -106,6 +106,19 @@ terms4FAIRskills:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000583'
         label: fairplus dataset maturity model indicator
 
+references:
+  - title: Ten Simple Rules for Creating a Good Data Management Plan
+    author: Michener WK 
+    year: 2015
+    journal: PLoS Comput Biol
+    volume: 11
+    number: 10
+    pages: e1004525
+    doi: https://doi.org/10.1371/journal.pcbi.1004525
+  - title: Data management
+    author: European Commission
+    url: https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/data-management_en.htm
+
 --- 
 
 
@@ -131,15 +144,6 @@ terms4FAIRskills:
 * **Would the list of existing DMP tools and assessment tools help, like this at FAIRassist? https://fairassist.org **
 * Need a tool such as DIP4F for FAIRification Objective (e.g. cancer data produced in the project is Findable for the patients community; cancer data produced in the project is reusable by the research community; connect rd data so that we have enough data to run disease natural history studies; accelerate new treatments discovery; Leo’s email) …
 * …
-
----
-
-## References
-
-* Michener WK (2015) Ten Simple Rules for Creating a Good Data Management Plan. PLoS Comput Biol 11(10): e1004525. [https://doi.org/10.1371/journal.pcbi.1004525](https://doi.org/10.1371/journal.pcbi.1004525)
-* [https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/data-management_en.htm](https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/data-management_en.htm)
-* 
-* 
 
 ---
 

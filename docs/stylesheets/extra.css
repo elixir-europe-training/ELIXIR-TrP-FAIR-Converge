@@ -187,3 +187,33 @@ ul.lesson-plan-tags li.lesson-plan-tag {
   height: 20px;
   margin-right: 10px;
 }
+
+.md-nav--integrated>.md-nav__list>.md-nav__item--active:not(.md-nav__item--nested) {
+  padding: 0;
+}
+
+.reference-list ul li {
+  padding-left: 6px;
+}
+
+.reference-list .reference-author,
+.reference-list .reference-title,
+.reference-list .reference-source {
+  display: block;
+}
+
+.reference-list .reference-author {
+  font-size: 14px;
+}
+
+.reference-list .reference-source {
+  font-size: 14px;
+}
+
+.reference-list .reference-details {
+  color: var(--md-default-fg-color--light);
+}
+
+.reference-list .reference-link .icon {
+  font-size: 14px;
+}

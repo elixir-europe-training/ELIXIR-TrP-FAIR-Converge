@@ -78,6 +78,52 @@ terms4FAIRskills:
     object:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000447'
         label: the FAIR Principles
+
+references:
+  - title: 'FAIR Cookbook - Introduction'
+    author: "ELIXIR Europe"
+    url: https://faircookbook.elixir-europe.org/content/recipes/introduction/FAIR-cookbook-audience.html
+  - title: FAIR in (biological) practice - Carpentries course
+    url: https://carpentries-incubator.github.io/fair-bio-practice/
+  - title: Why FAIR - FAIR data principles
+    author: howtofair.dk
+    url: https://howtofair.dk/why-fair/
+  - title: D7.4 How to be FAIR with your data. A teaching and training handbook for higher education institutions | Zenodo
+    url: https://zenodo.org/record/5837500#.YrwP3RXMKUk
+    additionalInformation: Page 114 - FAIR in a nutshell lesson plan
+  - title: Ten reasons to share your data
+    author: Amanda S. Barnard
+    url: https://www.natureindex.com/news-blog/ten-reasons-to-share-your-data
+  - title: "FAIR Cookbook: [What are the FAIR Principles?"
+    url: https://faircookbook.elixir-europe.org/content/recipes/introduction/brief-FAIR-principles.html
+  - title: Introduction to FAIR principles
+    author: Elixir Luxembourg, LCSB
+    url: https://zenodo.org/record/5078286
+  - title: FAIR in action - a flexible framework to guide FAIRification
+    doi: https://doi.org/10.1038/s41597-023-02167-2 
+  - title: The FAIR principles of data management
+    url: https://genestack.com/resources/library/the-fair-principles-of-data-management/
+    additionalInformation: section about stakeholders
+  - title: "Implementing FAIR in data sharing: who are the stakeholders and what are their responsibilities?"
+    author: RDA
+    url: https://www.rd-alliance.org/implementing-fair-data-sharing-who-are-stakeholders-and-what-are-their-responsibilities
+  - title: Turning FAIR into reality
+    author: European Commission
+    url: https://ec.europa.eu/info/sites/default/files/turning_fair_into_reality_0.pdf
+    additionalInformation: chapter on Why FAIR?
+  - title: FAIR data - ARDC
+    url: https://ardc.edu.au/resources/aboutdata/fair-data/
+  - title: Hurdles to implement FAIR principles
+    url: https://www.fairsfair.eu/sites/default/files/Presentation_T2.1%20Webinar4February2021_Clearing%20some%20of%20the%20highest%20FAIR%20hurdles.pdf
+  - title: Why is FAIR Data important in 2022?
+    author: EUDAT
+    url: https://eudat.eu/news/why-is-fair-data-important-in-2022
+  - title: Costs of not having FAIR research data
+    url: https://op.europa.eu/en/publication-detail/-/publication/d375368c-1a0a-11e9-8d04-01aa75ed71a1/language-en
+  - title: "Stakeholders"
+    author: FAIRsharing
+    url: https://fairsharing.org/stakeholders
+
 --- 
 
 ## Topic, definition and scope
@@ -178,27 +224,6 @@ Societal    Societal value
 * eBook (background information for a broader audience, maybe not citizens, but including management) - published where? zenodo?
 * Best practices examples of FAIR data (researchers) interactive sessions
 * [FAIRification framework recipe](https://faircookbook.elixir-europe.org/content/recipes/introduction/fairification-process.html) from the FAIR Cookbook
-
----
-
-## References
-
-* [Introduction (elixir-europe.org)](https://faircookbook.elixir-europe.org/content/recipes/introduction/FAIR-cookbook-audience.html)
-* [FAIR in (biological) practice - Carpentries course](https://carpentries-incubator.github.io/fair-bio-practice/)
-* [Why FAIR - FAIR data principles (howtofair.dk)](https://howtofair.dk/why-fair/)
-* [D7.4 How to be FAIR with your data. A teaching and training handbook for higher education institutions | Zenodo](https://zenodo.org/record/5837500#.YrwP3RXMKUk) - Page 114 - FAIR in a nutshell lesson plan
-* [https://www.natureindex.com/news-blog/ten-reasons-to-share-your-data](https://www.natureindex.com/news-blog/ten-reasons-to-share-your-data)
-* FAIR Cookbook: [What are the FAIR Principles?](https://faircookbook.elixir-europe.org/content/recipes/introduction/brief-FAIR-principles.html)
-* Introduction to FAIR principles (Elixir Luxembourg, LCSB) [https://zenodo.org/record/5078286](https://zenodo.org/record/5078286) 
-* FAIR in action - a flexible framework to guide FAIRification: https://doi.org/10.1038/s41597-023-02167-2 
-* [https://genestack.com/resources/library/the-fair-principles-of-data-management/](https://genestack.com/resources/library/the-fair-principles-of-data-management/) (section about stakeholders)
-* [Implementing FAIR in data sharing: who are the stakeholders and what are their responsibilities? | RDA (rd-alliance.org)](https://www.rd-alliance.org/implementing-fair-data-sharing-who-are-stakeholders-and-what-are-their-responsibilities)
-* [Turning FAIR into reality (europa.eu)](https://ec.europa.eu/info/sites/default/files/turning_fair_into_reality_0.pdf) - European Commission - chapter on Why FAIR?
-* [FAIR data - ARDC](https://ardc.edu.au/resources/aboutdata/fair-data/)
-* [https://www.fairsfair.eu/sites/default/files/Presentation_T2.1%20Webinar4February2021_Clearing%20some%20of%20the%20highest%20FAIR%20hurdles.pdf](https://www.fairsfair.eu/sites/default/files/Presentation_T2.1%20Webinar4February2021_Clearing%20some%20of%20the%20highest%20FAIR%20hurdles.pdf) (Hurdles to implement FAIR principles)
-* [Why is FAIR Data important in 2022? - EUDAT](https://eudat.eu/news/why-is-fair-data-important-in-2022)
-* [https://op.europa.eu/en/publication-detail/-/publication/d375368c-1a0a-11e9-8d04-01aa75ed71a1/language-en](https://op.europa.eu/en/publication-detail/-/publication/d375368c-1a0a-11e9-8d04-01aa75ed71a1/language-en) Costs of not having FAIR research data
-* FAIRsharing [stakeholders: researchers, journal publishers, funders, societies, librarians, resource developers and curators](https://fairsharing.org/stakeholders) \
 
 ---
 
