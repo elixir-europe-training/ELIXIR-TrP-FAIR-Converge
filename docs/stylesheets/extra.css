@@ -258,6 +258,15 @@ ul.lesson-plan-tags li.lesson-plan-tag {
   font-size: 14px;
 }
 
+.learning-outcome {
+  background: var(--md-typeset-a-color);
+  padding: 3px 5px;
+  border-radius: 2px;
+  color: white;
+  cursor: help;
+  font-size: 12px;
+}
+
 .lesson-plan-content-level {
   cursor: help;
 }

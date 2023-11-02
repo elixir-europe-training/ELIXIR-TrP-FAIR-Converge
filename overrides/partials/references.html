@@ -3,26 +3,26 @@
 {% if "additionalResources" in page.meta and page.meta.additionalResources %}
 <div class="reference-list">
     <ul>
-    {% for additionalResource in page.meta.additionalResource %}
+    {% for additionalResource in page.meta.additionalResources %}
         <li>
             <span class="reference-title">
-                {% if reference.url %}<a href="{{ additionalResources.url }}" target="_blank">{% endif %}
-                {{ reference.title }}
+                {% if additionalResource.url %}<a href="{{ additionalResource.url }}" target="_blank">{% endif %}
+                {{ additionalResource.title }}
                 <span class="icon material-symbols-outlined"> arrow_outward </span>
-                {% if reference.url %}</a>{% endif %}
+                {% if additionalResource.url %}</a>{% endif %}
             </span>
-            <span class="reference-author">{{ additionalResources.author }}</span>
+            <span class="reference-author">{{ additionalResource.author }}</span>
             <span class="reference-source">
                 <span class="reference-details">
-                    {% if additionalResources.journal %}
-                        {{ additionalResources.journal }}
+                    {% if additionalResource.journal %}
+                        {{ additionalResource.journal }}
                     {% endif %}
-                    {% if additionalResources.volume %}
-                        {{ additionalResources.volume }}
+                    {% if additionalResource.volume %}
+                        {{ additionalResource.volume }}
                     {% endif %}
-                    {% if additionalResources.number %}({{ additionalResources.number }}){% endif %}{% if additionalResources.pages %}: {{ additionalResources.pages }}{% endif %}
-                    {% if additionalResources.year %}
-                        ({{ additionalResources.year }})
+                    {% if additionalResource.number %}({{ additionalResource.number }}){% endif %}{% if additionalResource.pages %}: {{ additionalResource.pages }}{% endif %}
+                    {% if additionalResource.year %}
+                        ({{ additionalResource.year }})
                     {% endif %}
                 </span>
             </span>

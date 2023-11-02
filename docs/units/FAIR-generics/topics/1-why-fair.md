@@ -38,26 +38,30 @@ learning_outcomes:
     outcome: Identify the significance of FAIR for the quality of research performance and the required changes in an organisation to facilitate FAIR data management 
 
 content:
-  - subject: "Explain what FAIR means"
-    learning_outcome: 1
-    activity: "Explain what each letter in the FAIR acronym mean, and how they relate to each other"
-    level: beginner 
-    audience: any
-    timing: 10 mins
+  during:
+    - subject: "Explain what FAIR means"
+      learning_outcome: 1
+      activities: 
+        - "Explain what each letter in the FAIR acronym mean, and how they relate to each other"
+      level: beginner 
+      audience: any
+      timing: 10 mins
 
-  - subject: "Identify stakeholders of FAIR usage"
-    learning_outcome: 2
-    activity: "Identify common stakeholders related to FAIR usage in the following links, and group them in the following three categories; perform (p), facilitate (f) and benefit (b). [Link 1](https://genestack.com/resources/library/the-fair-principles-of-data-management/), [Link 2](https://www.rd-alliance.org/sites/default/files/RDA-SHARC%20Poster%20template%20Melbourne%20-%202020%20V10032020%20.jpg) "
-    level: beginner 
-    audience: any
-    timing: 15 mins
+    - subject: "Identify stakeholders of FAIR usage"
+      learning_outcome: 2
+      activities: 
+        - "Identify common stakeholders related to FAIR usage in the following links, and group them in the following three categories; perform (p), facilitate (f) and benefit (b). [Link 1](https://genestack.com/resources/library/the-fair-principles-of-data-management/), [Link 2](https://www.rd-alliance.org/sites/default/files/RDA-SHARC%20Poster%20template%20Melbourne%20-%202020%20V10032020%20.jpg) "
+      level: beginner 
+      audience: any
+      timing: 15 mins
 
-  - subject: "Identify FAIR motivators for stakeholders"
-    learning_outcome: 6
-    activity: "For each stakeholder identified in the previous exercise, go through each letter of FAIR and explore why they should be motivated to implement each principle."
-    level: beginner 
-    audience: any
-    timing: 10 mins
+    - subject: "Identify FAIR motivators for stakeholders"
+      learning_outcome: 6
+      activities: 
+        - "For each stakeholder identified in the previous exercise, go through each letter of FAIR and explore why they should be motivated to implement each principle."
+      level: beginner 
+      audience: any
+      timing: 10 mins
 
 terms4FAIRskills:
   - subject:
