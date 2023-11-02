@@ -39,9 +39,9 @@ learning_outcomes:
   7:
     outcome: Apply tools that are available to assess the FAIRness of your data (Apply)
   8:
-    outcome: Make sure your data is following the above-mentioned requirements (Apply)
+    outcome: Make sure your data is following the requirements mentioned above (Apply)
   9:
-    outcome: Describe the relationship between open data with the different phases of the research data life cycle (_also see lesson plan on Open data vs FAIR - discussion point_)
+    outcome: Describe the relationship between open data and the different phases of the research data life cycle (_also see lesson plan on Open data vs FAIR - discussion point_)
 
 prerequisites:
   - Basic understanding of Research Data Management
@@ -104,15 +104,6 @@ In this lesson plan, we describe the data life cycle and its steps, describing f
 
 ---
 
-## Duration
-
-Duration will be adjusted based on the overall scheme of the course, the audience and the delivery format.
-
-* For a webinar or a tutorial, one hour is foreseen.
-* For more interactive training events, it can be a half-day session
-
----
-
 ## Summary of Tasks / Actions
 
 * Exercise for the participants: List the research life cycle phases and the applicable FAIR elements with explanations
@@ -145,12 +136,9 @@ Duration will be adjusted based on the overall scheme of the course, the audienc
 
 ---
 
-## Preparation/getting to know the audience
-
-* Motivation to follow the training
-* Experience with FAIR research data
-
 ## Take home message
 
-* You can relate different elements in DMP or in a research project in general to different phases of the data life cycle.
-* When looking at the different phases of your own research project, you know which methods / tools can you apply to make your research FAIR
+You can relate different elements in a research project in general to different phases of the data life cycle.
+At each step, different methods, tools, or infrastructures are required to make your data FAIR. 
+Planning for this in advance is extremely beneficial for your projects, not only to produce FAIR data by design but also in terms of organisation and budgeting. This information should be recorded in a data management plan (DMP) at an early stage. 
+
