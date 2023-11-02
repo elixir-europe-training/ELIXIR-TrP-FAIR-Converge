@@ -161,7 +161,7 @@ In short, knowledge of the FAIR data principles and their practical application 
 
 [Glossary references]
 
-### Alignment with FAIR principles
+## Alignment with FAIR principles
 The topic of "Why FAIR" aligns with all aspects of FAIR in a more general way than other topics. It includes general knowledge of what FAIR is, what different  stakeholders of the FAIR principles expect from researchers going FAIR and why/how they benefit from its implementation. There are also incentives such as requirements from journals, institutions, and funding bodies. Exemplary recommendations from major entities include the ones from [Horizon 2020](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf), [UKRI](https://www.ukri.org/manage-your-award/publishing-your-research-findings/making-your-research-data-open/), [EOSC](https://eosc.eu/events/monitoring-eosc-readiness-fair-data-policies/), and [NIH](https://sharing.nih.gov/data-management-and-sharing-policy/data-management#:~:text=NIH%20encourages%20data%20management%20and,repurposing%20datasets%20for%20secondary%20research).
 
 <!--
@@ -184,7 +184,7 @@ The topic of "Why FAIR" aligns with all aspects of FAIR in a more general way th
 
 The "Why FAIR?" lesson plan introduces the FAIR principles in a general way by explaining the meaning and intention of each letter of the FAIR acronym one by one, and how they relate to each other.
 References: [FAIRsFAIR lesson plan, slide 1-19](https://zenodo.org/record/5078286), [The FAIR principles explained - Maastricht University](https://www.youtube.com/watch?v=5OeCrQE3HhE), [Make your research data F.A.I.R](https://www.youtube.com/watch?v=kIwHJ6DkFdc), Cessda training, NL, [DCC PO FAIR datamanagement](https://www.youtube.com/watch?v=AL8L0fHgdI0))
--->
+
 
 ## Summary of Tasks / Actions
 
@@ -194,7 +194,7 @@ References: [FAIRsFAIR lesson plan, slide 1-19](https://zenodo.org/record/507828
 * Identify common stakeholders related to FAIR usage in the following links, and group them in the following three categories; perform (p), facilitate (f) and benefit (b). ([link](https://genestack.com/resources/library/the-fair-principles-of-data-management/), ([link](https://www.rd-alliance.org/sites/default/files/RDA-SHARC%20Poster%20template%20Melbourne%20-%202020%20V10032020%20.jpg))
 
 * For each stakeholder identified in the previous exercise, go through each letter of FAIR and explore why they should be motivated to implement each principle. Think about incentives on an individual, scientific, and societal level (show example table below).
-<!-- -->
+
 
 Example of stakeholder (PI) incentives
 
@@ -280,3 +280,4 @@ Societal    Societal value
     * Identify benefits from applying FAIR principles in your own organisation
     * Template document for each FAIR principle - researcher has to go through each point and write down what they will do in their dataset for F, A, I, R.? Maybe even each of the F1, F2, F3, F4?
     * An understanding of how this framework guides FAIRification might help. https://doi.org/10.1038/s41597-023-02167-2  \
+-->
