@@ -2,9 +2,9 @@
 
 Are you a trainer and looking for material on teaching researchers or your peers (trainers, data stewards, policy makers etc.) on FAIR data? Do you want community help in creating inspiring FAIR data lessons? Then this FAIR Lesson Plan handbook might be of use, providing you guidance on teaching about FAIR data to integrate in your organisation's curriculum. 
 
-The FAIR lesson plans handbook facilitate trainers to advance FAIR skills by helping them build training programs within life sciences research organisations. Many organisations struggle with training on how to implement FAIR in practice. The lesson plans are not a training in itself but offer a framework and eventually learning paths to design FAIR trainings. 
+The FAIR lesson plans handbook facilitates trainers to advance FAIR skills by helping them build training programs within life sciences research organisations. Many organisations struggle with training on how to implement FAIR in practice. The lesson plans are not a training in itself but offer a framework and learning paths to design FAIR trainings for specific audiences. 
 
-The lesson plans have been created in a community effort from over 50 contributors. For each FAIR element, the lesson plans contain brief introductions to relevant topics and offer suggestions for tasks and actions and key materials to use in training. Learning outcomes are specified for each topic. 
+The lesson plans have been created in a community effort from over 50 contributors. For each FAIR element, the lesson plans contain brief introductions to relevant topics and offer suggestions for tasks and actions and key materials. Learning outcomes are specified for each topic. 
 
 Learning paths show how trainers and learners can design their own training programme and give insight in learning goals and pre-required knowledge. 
 
