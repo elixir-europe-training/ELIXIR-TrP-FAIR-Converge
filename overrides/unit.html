@@ -10,7 +10,7 @@
 
         <div class="unit-header">
             {% if "\x3ch1" not in page.content %}
-                <h1>{{ page.title | d(config.site_name, true)}}</h1>
+                <h1>{{ page.meta.title }}</h1>
             {% endif %}
             
             {% include "partials/actions.html" %}
@@ -27,31 +27,26 @@
 
         <hr />
 
-        {{ page.file }}
+        {% if "lesson_plans" in page.meta and page.meta.lesson_plans %}
+            <h2>Lesson plans</h2>
 
-        {{ nav }}
-
-        {% if nav|length > 1 %}
-        <ul>
-        {% for nav_item in nav %}
-            {% if nav_item.children %}
-                <li>{{ nav_item.title }}
-                    <ul>
-                    {% for nav_item in nav_item.children %}
-                        <li class="{% if nav_item.active %}current{% endif %}">
-                            <a href="{{ nav_item.url|url }}">{{ nav_item.title }}</a>
-                        </li>
-                    {% endfor %}
-                    </ul>
-                </li>
-            {% else %}
-                <li class="{% if nav_item.active %}current{% endif %}">
-                    <a href="{{ nav_item.url|url }}">{{ nav_item.title }}</a>
-                </li>
+            {% if "content_intro" in page.meta and page.meta.content_intro %}
+                <p>{{ page.meta.content_intro }}</p>
             {% endif %}
-        {% endfor %}
-        </ul>
-    {% endif %}
+
+            <div class="unit-lesson-plans-index">
+                {% for lesson_plan in page.meta.lesson_plans %}
+                
+                <div class="unit-lesson-plan">
+                    <a href="{{ lesson_plan.link }}" class="unit-lesson-plan-link">
+                        <span class="unit-lesson-plan-number">{{ lesson_plan.number }}</span>
+                        <span class="unit-lesson-plan-title">{{ lesson_plan.title }}</span>
+                    </a>
+                    <span class="unit-lesson-plan-description">{{ lesson_plan.description }}</span>
+                </div>
+                {% endfor %}
+            </div>
+        {% endif %}
 
         {% include "partials/feedback.html" %}
         {% include "partials/comments.html" %}

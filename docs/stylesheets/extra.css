@@ -342,3 +342,50 @@ ul.lesson-plan-tags li.lesson-plan-tag {
   display: flex;
   align-items: flex-start;
 }
+
+.unit-lesson-plans-index {
+  margin-top: 30px;
+}
+
+.unit-lesson-plan {
+  display: flex;
+  align-items: flex-start;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-bottom: 0.05rem solid var(--md-default-fg-color--lightest);
+  padding-bottom: 10px;
+}
+
+.unit-lesson-plan-link {
+  display: flex;
+  align-items: flex-start;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.unit-lesson-plan-number {
+  font-size: 11px;
+  padding: 1px 3px;
+  border-radius: 2px;
+  margin: 4px 8px 0 0;
+  border: 1px solid var(--md-default-fg-color--light);
+  color: var(--md-default-fg-color--light);
+}
+
+.unit-lesson-plan-title {
+  flex: 1;
+}
+
+.unit-lesson-plan-description {
+  flex: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .unit-lesson-plan {
+    display: block;
+  }
+  .unit-lesson-plan-link {
+    width: auto;
+    margin-bottom: 6px;
+  }
+}
