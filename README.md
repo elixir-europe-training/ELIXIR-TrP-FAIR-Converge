@@ -15,23 +15,17 @@ https://elixir-europe-training.github.io/ELIXIR-TrP-LessonTemplateInstructions-M
 
 This website is generated with [MkDocs](https://www.mkdocs.org/), with the theme [Material](https://squidfunk.github.io/mkdocs-material/).
 
-To host it locally, install MkDocs:
+To host it locally, clone this repository to your local computer. Install the required dependencies by runnning: 
+
 ```bash
-pip3 install mkdocs
+pip install -r requirements.txt
 ```
 
-and Material with some plugins:
-```bash
-pip3 install mkdocs-material mkdocs-bibtex neoteroi-mkdocs mkdocs-video mkdocs-include-markdown-plugin mkdocs-markdownextradata-plugin mkdocs-macros-plugin
-```
-
-Clone this repository to your local computer. Then, make the repository your current directory and type:
+Next, you can launch the website by making the repository your current directory and typing:
 
 ```bash
 mkdocs serve
 ```
-
-To host it locally.
 
 Check it out with your browser at [http://localhost:8000/](http://localhost:8000/).
 
