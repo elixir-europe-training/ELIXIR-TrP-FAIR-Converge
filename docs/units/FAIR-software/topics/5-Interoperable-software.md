@@ -1,34 +1,35 @@
 ---
 number: 6.1
-title: FAIR Software
+title: Interoperable Software
 status: in_progress
 template: 'lesson-plan.html'
 authors:
-  - "Alexia Cardona"
-  - "0000-0003-0011-9397"
-  - "Ablikim Abudukerim"
+  - "Thomas Pronk"
+  - "0000-0002-1322-1553"
 
 reviewers:
 
+fair_elements:
+  - I
+
 audience:
-- Researchers but open to all
+  - Data stewards
+  - Software stewards
+  - Research software consultants
 
 --- 
 
 ## Topic, definition and scope**
 
-
-
-* Introduction(General Overview)
-* Findable Software
-* Accessible Software
-* Interoperable Software
-* Reproducible Software
-* Software management plans
+* Open-source programming languages
+* Input/output data
+* Instructional documentation
+* Vendor locking
 
 ---
 
-## Summary of Tasks / Actions
+## Exercises
 
-* Participants list of resources we have compiled in day 1
-* Action plan:  in the next hackathon day we will split tasks for the different subtopics
+* What promming languages do your research colleagues typically use? Are they open?
+* What data formats are recommended within your organisation? Do they align with DANS?
+* How might a research software be 'locked' (untentionally or unintentionally) by the developer?

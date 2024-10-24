@@ -1,11 +1,11 @@
 ---
 number: 6.1
-title: FAIR Software
+title: Defining research software
 status: in_progress
 template: 'lesson-plan.html'
 authors:
-  - "0000-0002-1322-1553"
   - "Thomas Pronk"
+  - "0000-0002-1322-1553"
 
 reviewers:
 
@@ -28,18 +28,23 @@ learning_outcomes:
   3:
     outcome: Provide examples of research software.
 
+prerequisites:
+  - Have basic knowledge of the FAIR Principles 
+
 ---
-
-
 
 ## Topic, definition and scope
 
-* TP to add references here
-* More stuff
-* And so on
+* TP to add references.
+* More stuff.
+* And so on.
 
 ---
 
 ## Exercises
 
+* Identify an exmaple of software in research
 * Identify an example of research software
+* What were some of the challenges you faced in developing research software?
+* How might researchers get 'credit' for developing research software?
+* How can researchers give credit to others when using research software?

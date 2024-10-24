@@ -1,34 +1,37 @@
 ---
 number: 6.1
-title: FAIR Software
+title: Reusable Software
 status: in_progress
 template: 'lesson-plan.html'
 authors:
-  - "Alexia Cardona"
-  - "0000-0003-0011-9397"
-  - "Ablikim Abudukerim"
+  - "Thomas Pronk"
+  - "0000-0002-1322-1553"
 
 reviewers:
 
+fair_elements:
+  - R
+
 audience:
-- Researchers but open to all
+  - Data stewards
+  - Software stewards
+  - Research software consultants
 
 --- 
 
-## Topic, definition and scope**
+## Topic, definition and scope
 
-
-
-* Introduction(General Overview)
-* Findable Software
-* Accessible Software
-* Interoperable Software
-* Reproducible Software
-* Software management plans
+* Licences
+* Public software repositories
+* Documentation
+* Modular coding
+* Version control 
+* Virtual environments
+* (Automated) testing
 
 ---
 
-## Summary of Tasks / Actions
+## Exercises
 
-* Participants list of resources we have compiled in day 1
-* Action plan:  in the next hackathon day we will split tasks for the different subtopics
+* How might a virtual environment (e.g., venv, renv) enhance re-usability?
+* What factors might determine whether you create automated tests for research software?
