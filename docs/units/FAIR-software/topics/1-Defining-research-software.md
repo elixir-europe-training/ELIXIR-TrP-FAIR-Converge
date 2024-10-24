@@ -26,7 +26,9 @@ learning_outcomes:
   2:
     outcome: Differentiate between research software and 'software in research'.
   3:
-    outcome: Provide examples of research software.
+    outcome: Provide examples of research software (e.g., a GitHub repository, a file on your local machine)
+  4:
+    outcome: Understand the challenges facing the development of research software in the current academic landscape.
 
 prerequisites:
   - Have basic knowledge of the FAIR Principles 
@@ -35,9 +37,11 @@ prerequisites:
 
 ## Topic, definition and scope
 
-* TP to add references.
-* More stuff.
-* And so on.
+* Differentiating research software and software in research
+* Where research software lies in the research cycle
+* Identifying the role of research software in research outputs (e.g., publications)
+* The challenges facing research software
+* Ways in which reseach software can be credited
 
 ---
 

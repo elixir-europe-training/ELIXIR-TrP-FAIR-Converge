@@ -17,6 +17,13 @@ audience:
   - Software stewards
   - Research software consultants
 
+learning_outcomes:
+  1:
+    outcome: Name and navigate through a software directory, such as [RSD](https://research-software-directory.org/).
+  2:
+    outcome: Undestand why metadata can help make research software more finable.
+  3:
+    outcome: List the important components of a README file.
 
 --- 
 

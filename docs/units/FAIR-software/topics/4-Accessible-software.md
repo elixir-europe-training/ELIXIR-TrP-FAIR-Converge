@@ -17,6 +17,13 @@ audience:
   - Software stewards
   - Research software consultants
 
+learning_outcomes:
+  1:
+    outcome: Understand the importance of licences and the implications of not having one.
+  2:
+    outcome: Know how to create a CFF file.
+  3:
+    outcome: List some the pros and cons of popular software repositories, such as GitHub and GitLab.
 
 --- 
 

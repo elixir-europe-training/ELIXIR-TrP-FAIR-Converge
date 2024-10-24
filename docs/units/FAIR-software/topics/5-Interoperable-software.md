@@ -17,6 +17,14 @@ audience:
   - Software stewards
   - Research software consultants
 
+learning_outcomes:
+  1:
+    outcome: Be able to define vendor locking and why it is important to FAIR research software.
+  2:
+    outcome: Understand why the programming language itself can determine interoperability.
+  3:
+    outcome: Critique common data formats (e.g., csv) in the context of research software.
+
 --- 
 
 ## Topic, definition and scope**

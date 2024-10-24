@@ -20,6 +20,12 @@ audience:
   - Software stewards
   - Research software consultants
 
+learning_outcomes:
+  1:
+    outcome: Map FAIR principles to research software.
+  2:
+    outcome: Understand the benefits of ensuring research software is FAIR
+
 --- 
 
 ## Topic, definition and scope
