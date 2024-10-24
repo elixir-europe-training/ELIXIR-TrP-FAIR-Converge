@@ -2,7 +2,7 @@
 title: FAIR Software
 template: 'unit.html'
 content_intro: > 
-    Where does this appear?
+    The contents of these lessons provide an overview of what research software is, how the FAIR principles can be applied to research software, and why doing so can be beneficial both for individual researchers and the scientific community. Exercises can be conducted individually or in groups. The lesson plan is divided into topics, outlined as follows:
 lesson_plans:
     - number: 6.1
       title: Defining research software
