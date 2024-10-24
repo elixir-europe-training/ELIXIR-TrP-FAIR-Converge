@@ -15,11 +15,9 @@ audience:
 
 --- 
 
-## Topic, definition and scope**
+## Topic, definition and scope
 
-
-
-* Introduction(General Overview)
+* Why it's important
 * Findable Software
 * Accessible Software
 * Interoperable Software

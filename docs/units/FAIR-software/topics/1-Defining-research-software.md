@@ -4,31 +4,42 @@ title: FAIR Software
 status: in_progress
 template: 'lesson-plan.html'
 authors:
-  - "Alexia Cardona"
-  - "0000-0003-0011-9397"
-  - "Ablikim Abudukerim"
+  - "0000-0002-1322-1553"
+  - "Thomas Pronk"
 
 reviewers:
 
+fair_elements:
+  - F
+  - A
+  - I
+  - R
+
 audience:
-- Researchers but open to all
+  - Data stewards
+  - Software stewards
+  - Research software consultants
 
---- 
-
-## Topic, definition and scope**
-
-
-
-* Introduction(General Overview)
-* Findable Software
-* Accessible Software
-* Interoperable Software
-* Reproducible Software
-* Software management plans
+learning_outcomes:
+  1:
+    outcome: Provide a concise definition of research software.
+  2:
+    outcome: Differentiate between research software and 'software in research'.
+  3:
+    outcome: Provide examples of research software.
 
 ---
 
-## Summary of Tasks / Actions
 
-* Participants list of resources we have compiled in day 1
-* Action plan:  in the next hackathon day we will split tasks for the different subtopics
+
+## Topic, definition and scope
+
+* TP to add references here
+* More stuff
+* And so on
+
+---
+
+## Exercises
+
+* Identify an example of research software
