@@ -18,22 +18,22 @@ lesson_plans:
       title: Findable software
       link: 'topics/3-Findable-software'
       description: >
-        This topic details how to ensure research software is findable by covering the fundamentals of software directories, personal identifiers, software metadata and clear descriptive information (e.g., README).
+        This topic details how to ensure research software is Findable by covering the fundamentals of software directories, personal identifiers, software metadata and clear descriptive information (e.g., README). 
     - number: 6.4
       title: Accessible software
       link: 'topics/4-Accessible-software'
       description: >
-        A description here.
+        This topic explains how to make research software Accessible by raising awareness about licencing and public software repositories. We offer advice on how to best choose an appropriate licence for research software and provide guidance that helps attendees better understand the pros and cons of different software repositories (e.g., GitHub, GitLab, BitBucket).
     - number: 6.5
       title: Interoperable software
       link: 'topics/5-Interoperable-software'
       description: >
-        A description here.
+        This topic outlines how research software can be made Interoperable by using common, open-source programming languages (e.g, R, Python) and by ensuring that research software is usable with open-format input and output data.
     - number: 6.6
       title: Reusable software
       link: 'topics/6-Reusable-software'
       description: >
-        A description here.
+        This topic address the reusability of research software. Reusability relies on many of the factors already covered, including licencing, public repositories and clear documentation. But to encourage and facilitate re-use further, research software should use a modular coding structure, version control (e.g., git), virtual environments, and in some cases automated testing, to enhance reproducibility.
     - number: 6.7
       title: Software Management Plans
       link: 'topics/7-Software-Management-Plans'
@@ -43,4 +43,4 @@ lesson_plans:
 
 ---
 
-This unit is about FAIR research software. We define research software as code that has been created during the research process, such as analysis scripts or reusable tools. The unit maps the generics of the FAIR framework to research software and outlines how such an approach can add value to science by ensuring computational reproducibility, speeding-up scientific progress, facilitating replication studies and saving research time. (F)indable research software is archived within a software directory, has a clear description, personal identifier(s) and appropriate metadata. A(accesible) research software is hosted on a public software repository (e.g., GitHub) using an appropriate (open) licence. (I)interoperable research software uses common, open-source programming languages and uses open formats for input and output data. R(usable) research software, in addition to having an appropriate licence, and a public repository, is clearly documented, uses modular coding practices, version control and sufficient tests and environment snapshots to ensure reproducibility.
+This unit is about FAIR research software. We define research software as code that has been created during the research process, such as analysis scripts or reusable tools. The unit maps the generics of the FAIR framework to research software and outlines how such an approach can add value to science by enhancing computational reproducibility, speeding-up scientific progress through code re-use, facilitating replications and saving research time. We then provide guidance on how the FAIR principals can be implemented. (F)indable research software is archived within a software directory, has a clear description, personal identifier(s) and appropriate metadata. A(accesible) research software is hosted on a public software repository (e.g., GitHub) using an appropriate (open) licence. (I)interoperable research software uses common, open-source programming languages and uses open formats for input and output data. R(usable) research software, in addition to having an appropriate licence, and a public repository, is clearly documented, uses modular coding practices, version control and sufficient tests and environment snapshots to ensure reproducibility.
