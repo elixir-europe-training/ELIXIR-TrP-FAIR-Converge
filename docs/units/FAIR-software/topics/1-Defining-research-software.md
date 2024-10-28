@@ -4,7 +4,7 @@ title: Defining research software
 status: in_progress
 template: 'lesson-plan.html'
 authors:
-  - "Thomas Pronk"
+  - "0000-0001-9334-7190"
   - "0000-0002-1322-1553"
 
 reviewers:
