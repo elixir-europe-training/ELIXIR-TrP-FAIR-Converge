@@ -1,34 +1,42 @@
 ---
 number: 6.1
-title: FAIR Software
+title: Accessible Software
 status: in_progress
 template: 'lesson-plan.html'
 authors:
-  - "Alexia Cardona"
-  - "0000-0003-0011-9397"
-  - "Ablikim Abudukerim"
+  - "Thomas Pronk"
+  - "0000-0002-1322-1553"
 
 reviewers:
 
+fair_elements:
+  - A
+
 audience:
-- Researchers but open to all
+  - Data stewards
+  - Software stewards
+  - Research software consultants
+
+learning_outcomes:
+  1:
+    outcome: Understand the importance of licences and the implications of not having one.
+  2:
+    outcome: Know how to create a CFF file.
+  3:
+    outcome: List some the pros and cons of popular software repositories, such as GitHub and GitLab.
 
 --- 
 
 ## Topic, definition and scope**
 
-
-
-* Introduction(General Overview)
-* Findable Software
-* Accessible Software
-* Interoperable Software
-* Reproducible Software
-* Software management plans
+* Licencing 
+* Software repositories 
+* Comparing different software repositories 
 
 ---
 
-## Summary of Tasks / Actions
+## Exercises
 
-* Participants list of resources we have compiled in day 1
-* Action plan:  in the next hackathon day we will split tasks for the different subtopics
+* Identify a research software
+* Does it have a licence? If so, which one?
+* List some advantages of using GitHub and GitLab, respectively

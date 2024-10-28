@@ -1,34 +1,41 @@
 ---
 number: 6.1
-title: FAIR Software
+title: Findable Software
 status: in_progress
 template: 'lesson-plan.html'
 authors:
-  - "Alexia Cardona"
-  - "0000-0003-0011-9397"
-  - "Ablikim Abudukerim"
+  - "Thomas Pronk"
+  - "0000-0002-1322-1553"
 
 reviewers:
 
+fair_elements:
+  - F
+
 audience:
-- Researchers but open to all
+  - Data stewards
+  - Software stewards
+  - Research software consultants
+
+learning_outcomes:
+  1:
+    outcome: Name and navigate through a software directory, such as [RSD](https://research-software-directory.org/).
+  2:
+    outcome: Undestand why metadata can help make research software more finable.
+  3:
+    outcome: List the important components of a README file.
 
 --- 
 
 ## Topic, definition and scope**
 
-
-
-* Introduction(General Overview)
-* Findable Software
-* Accessible Software
-* Interoperable Software
-* Reproducible Software
-* Software management plans
+* Software directories
+* Personal identifiers
+* Metadata
+* Descriptive information (e.g., README)
 
 ---
 
-## Summary of Tasks / Actions
+## Exercises
 
-* Participants list of resources we have compiled in day 1
-* Action plan:  in the next hackathon day we will split tasks for the different subtopics
+* Some exercise ideas here.

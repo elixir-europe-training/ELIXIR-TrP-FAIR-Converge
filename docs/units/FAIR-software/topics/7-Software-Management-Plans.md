@@ -1,34 +1,28 @@
 ---
 number: 6.1
-title: FAIR Software
+title: Software Management Plans Software
 status: in_progress
 template: 'lesson-plan.html'
 authors:
-  - "Alexia Cardona"
-  - "0000-0003-0011-9397"
-  - "Ablikim Abudukerim"
+  - "Thomas Pronk"
+  - "0000-0002-1322-1553"
 
 reviewers:
 
 audience:
-- Researchers but open to all
+  - Data stewards
+  - Software stewards
+  - Research software consultants
+
 
 --- 
 
 ## Topic, definition and scope**
 
-
-
-* Introduction(General Overview)
-* Findable Software
-* Accessible Software
-* Interoperable Software
-* Reproducible Software
-* Software management plans
+* To do. We could draw upon the [e-science center teaching material](https://esciencecenter-digital-skills.github.io/research-software-support/modules/softwaremanagementplans/info.)
 
 ---
 
-## Summary of Tasks / Actions
+## Exercises
 
-* Participants list of resources we have compiled in day 1
-* Action plan:  in the next hackathon day we will split tasks for the different subtopics
+* Some exercises here.

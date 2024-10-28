@@ -1,34 +1,48 @@
 ---
 number: 6.1
-title: FAIR Software
+title: Reusable Software
 status: in_progress
 template: 'lesson-plan.html'
 authors:
-  - "Alexia Cardona"
-  - "0000-0003-0011-9397"
-  - "Ablikim Abudukerim"
+  - "Thomas Pronk"
+  - "0000-0002-1322-1553"
 
 reviewers:
 
+fair_elements:
+  - R
+
 audience:
-- Researchers but open to all
+  - Data stewards
+  - Software stewards
+  - Research software consultants
+
+learning_outcomes:
+  1:
+    outcome: Understand the benefits of virtual environments for reusability.
+  2:
+    outcome: Have sufficient understanding of modular scripting to identify it within a repository and translate a single (large) script into multiple (smaller) modules.
+  3:
+    outcome: Define version control and have a basic understanding of how git operates.
+  4:
+    outcome: Be able to critically assess whether automated testing might be worth implementing for a research software project.
 
 --- 
 
-## Topic, definition and scope**
+## Topic, definition and scope
 
+* Licences
+* Public software repositories
+* Documentation
+* Modular scripting
+* Version control 
+* Virtual environments
+* (Automated) testing
 
-
-* Introduction(General Overview)
-* Findable Software
-* Accessible Software
-* Interoperable Software
-* Reproducible Software
-* Software management plans
-
+    
 ---
 
-## Summary of Tasks / Actions
+## Exercises
 
-* Participants list of resources we have compiled in day 1
-* Action plan:  in the next hackathon day we will split tasks for the different subtopics
+* How might a virtual environment (e.g., venv, renv) enhance re-usability?
+* What factors might determine whether you create automated tests for research software?
