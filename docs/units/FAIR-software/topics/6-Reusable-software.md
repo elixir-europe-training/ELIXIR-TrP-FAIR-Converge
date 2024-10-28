@@ -1,10 +1,10 @@
 ---
-number: 6.1
+number: 6.6
 title: Reusable Software
 status: in_progress
 template: 'lesson-plan.html'
 authors:
-  - "Thomas Pronk"
+  - "0000-0001-9334-7190"
   - "0000-0002-1322-1553"
 
 reviewers:
@@ -46,3 +46,9 @@ learning_outcomes:
 
 * How might a virtual environment (e.g., venv, renv) enhance re-usability?
 * What factors might determine whether you create automated tests for research software?
+
+--- 
+
+## Recommended reading
+
+* A large-scale study on research code quality and execution [(Trisovic et al., 2022)](https://doi.org/10.1038/s41597-022-01143-6)

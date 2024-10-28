@@ -1,10 +1,10 @@
 ---
-number: 6.1
+number: 6.5
 title: Interoperable Software
 status: in_progress
 template: 'lesson-plan.html'
 authors:
-  - "Thomas Pronk"
+  - "0000-0001-9334-7190"
   - "0000-0002-1322-1553"
 
 reviewers:
@@ -27,7 +27,7 @@ learning_outcomes:
 
 --- 
 
-## Topic, definition and scope**
+## Topic, definition and scope
 
 * Open-source programming languages
 * Input/output data
@@ -38,6 +38,12 @@ learning_outcomes:
 
 ## Exercises
 
-* What promming languages do your research colleagues typically use? Are they open?
+* What programming languages do your research colleagues typically use? Are they open?
 * What data formats are recommended within your organisation? Do they align with DANS?
 * How might a research software be 'locked' (untentionally or unintentionally) by the developer?
+
+--- 
+
+## Recommended reading
+
+* Dealing with software collapse [(Hinsen, 2019)](https://doi.org/10.1109/MCSE.2019.2900945)

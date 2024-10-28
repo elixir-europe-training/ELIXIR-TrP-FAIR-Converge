@@ -1,10 +1,10 @@
 ---
-number: 6.1
+number: 6.4
 title: Accessible Software
 status: in_progress
 template: 'lesson-plan.html'
 authors:
-  - "Thomas Pronk"
+  - "0000-0001-9334-7190"
   - "0000-0002-1322-1553"
 
 reviewers:
@@ -27,7 +27,7 @@ learning_outcomes:
 
 --- 
 
-## Topic, definition and scope**
+## Topic, definition and scope
 
 * Licencing 
 * Software repositories 
@@ -40,3 +40,9 @@ learning_outcomes:
 * Identify a research software
 * Does it have a licence? If so, which one?
 * List some advantages of using GitHub and GitLab, respectively
+
+--- 
+
+## Recommended reading
+
+* TU Delft guidelines on research software [(Akhmerov et at., 2021)](https://doi.org/10.5281/zenodo.4629634)
