@@ -27,7 +27,7 @@ learning_outcomes:
 
 --- 
 
-## Topic, definition and scope**
+## Topic, definition and scope
 
 * Licencing 
 * Software repositories 
@@ -40,3 +40,9 @@ learning_outcomes:
 * Identify a research software
 * Does it have a licence? If so, which one?
 * List some advantages of using GitHub and GitLab, respectively
+
+--- 
+
+## Recommended reading
+
+* TU Delft guidelines on research software [(Akhmerov et at., 2021)](https://doi.org/10.5281/zenodo.4629634)

@@ -21,13 +21,13 @@ learning_outcomes:
   1:
     outcome: Name and navigate through a software directory, such as [RSD](https://research-software-directory.org/).
   2:
-    outcome: Undestand why metadata can help make research software more finable.
+    outcome: Understand why metadata can help make research software more findable.
   3:
     outcome: List the important components of a README file.
 
---- 
+---
 
-## Topic, definition and scope**
+## Topic, definition and scope
 
 * Software directories
 * Personal identifiers
@@ -38,4 +38,11 @@ learning_outcomes:
 
 ## Exercises
 
-* Some exercise ideas here.
+* Discuss what a good README must, should, and could contain
+* Which identifiers, registries, catalogs are most authorative in your field?
+
+--- 
+
+## Recommended reading
+
+* Nine best practices for research software registries and repositories [(Gajiro et at., 2022)](https://doi.org/10.7717/peerj-cs.1023)

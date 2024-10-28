@@ -24,9 +24,9 @@ learning_outcomes:
   1:
     outcome: Map FAIR principles to research software.
   2:
-    outcome: Understand the benefits of ensuring research software is FAIR
+    outcome: Understand the benefits of ensuring research software is FAIR.
 
---- 
+---
 
 ## Topic, definition and scope
 
@@ -42,4 +42,12 @@ learning_outcomes:
 
 ## Exercises
 
-* Some exercise ideas here.
+* Try to reproduce the analysis of a well-known publication in your field. How challenging/easy was it to undertake in terms of FAIR principles?
+* Provide a brief definition for each FAIR principle. Match each principle to an aspect of research software that it could improve.
+
+--- 
+
+## Recommended reading
+
+* Introducing the FAIR Principles for research software [(Barker et al., 2022)](https://doi.org/10.1038/s41597-022-01710-x)
+* The FAIR for Research Software Principles after two years: an adoption update [(Barker et al., 2024)](https://www.researchsoft.org/blog/2024-03/)

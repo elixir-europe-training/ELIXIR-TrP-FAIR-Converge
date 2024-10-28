@@ -46,3 +46,9 @@ learning_outcomes:
 
 * How might a virtual environment (e.g., venv, renv) enhance re-usability?
 * What factors might determine whether you create automated tests for research software?
+
+--- 
+
+## Recommended reading
+
+* A large-scale study on research code quality and execution [(Trisovic et al., 2022)](https://doi.org/10.1038/s41597-022-01143-6)

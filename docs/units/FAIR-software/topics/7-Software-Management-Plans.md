@@ -17,12 +17,23 @@ audience:
 
 --- 
 
-## Topic, definition and scope**
+## Topic, definition and scope
 
-* To do. We could draw upon the [e-science center teaching material](https://esciencecenter-digital-skills.github.io/research-software-support/modules/softwaremanagementplans/info.)
+* How Software Management Plans (SMPs) are related to, but distinct from Data Management Plans (DMPs)
+* Contents of an SMP and adapting it to the software 
+* SMP templates tailored to life science and health research
+* Machine-actionable SMPs:
 
 ---
 
 ## Exercises
 
 * Some exercises here.
+
+--- 
+
+## Recommended reading
+
+* Practical guide to Software Management Plans [(Martinez-Ortiz et al., 2023)](https://doi.org/10.5281/zenodo.7038280) 
+* Elixir Software Management Plan for Life Sciences [(Alves et al., 2021)](https://doi.org/10.37044/osf.io/k8znb)
+* Five minutes to write a Software Management Plan – A machine-actionable approach to simplify the creation of SMPs [(Castro et al., 2023)](https://doi.org/10.5281/zenodo.10374838)
