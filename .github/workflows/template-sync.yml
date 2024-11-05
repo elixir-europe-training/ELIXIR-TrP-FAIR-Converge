@@ -1,9 +1,12 @@
 # File: .github/workflows/template-sync.yml
+name: template sync
 
 on:
   schedule:
+  # every month on the first day
   - cron:  "0 0 1 * *"
   workflow_dispatch:
+
 jobs:
   repo-sync:
     runs-on: ubuntu-latest
@@ -11,9 +14,9 @@ jobs:
     steps:
       # To use this repository's private action, you must check out the repository
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: actions-template-sync
-        uses: AndreasAugustin/actions-template-sync@v0.8.0
+        uses: AndreasAugustin/actions-template-sync@v2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           source_repo_path: elixir-europe-training/ELIXIR-TrP-LessonTemplate-MkDocs
