@@ -45,7 +45,7 @@ content:
       activities: 
         - "Present to participants what each letter in the FAIR acronym means and how they relate to each other (10-15 min)"
         - "Divide people into pairs and let them explain to each other how they are already making their data FAIR and what is one thing they can easily do to make their data FAIRer (15 min)"
-        - "To prepare for this, familiarise yourself with the FAIRisFAIR [FAIR in a nutshell](https://fairsfair.gitbook.io/fair-teaching-handbook/0lessonplans/1lessonplan) lesson plan"
+        - "To prepare for this, familiarise yourself with FAIRsFAIR's [FAIR in a nutshell](https://fairsfair.gitbook.io/fair-teaching-handbook/0lessonplans/1lessonplan) lesson plan"
       level: beginner 
       audience: any
       timing: 10 mins
