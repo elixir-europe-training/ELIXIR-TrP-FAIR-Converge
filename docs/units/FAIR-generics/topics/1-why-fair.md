@@ -43,7 +43,9 @@ content:
     - subject: "Explain what FAIR means"
       learning_outcome: 1
       activities: 
-        - "Explain what each letter in the FAIR acronym mean, and how they relate to each other"
+        - "Present to participants what each letter in the FAIR acronym means and how they relate to each other (10-15 min)"
+        - "Divide people into pairs and let them explain to each other how they are already making their data FAIR and what is one thing they can easily do to make their data FAIRer (15 min)"
+        - "To prepare for this, familiarise yourself with the FAIRisFAIR [FAIR in a nutshell](https://fairsfair.gitbook.io/fair-teaching-handbook/0lessonplans/1lessonplan) lesson plan"
       level: beginner 
       audience: any
       timing: 10 mins
@@ -153,8 +155,18 @@ references:
 
 
 --- 
-## Topic
+## Overview
 
+Topic the lesson plan covers:
+Making research data FAIR (Findable, Accessible, Interoperable, and Reusable) is of great importance in a data-driven world. Knowledge of the FAIR data principles and their practical application is crucial for maximising the value of data and resources, leading to more efficient research and increased knowledge sharing. This lesson plan includes general knowledge of what FAIR is, what different  stakeholders of the FAIR principles expect from researchers going FAIR and why/how they benefit from its implementation. 
+
+The added value/benefit: 
+By knowing of and adopting the FAIR principles, organisations and researchers can reach new levels of data and resource impacts, leading to numerous benefits for both the researcher community and society at large. 
+
+The impact for the research: 
+Adopting and embracing the FAIR principles is a vital step towards advancing research and addressing complex challenges in all domains. The journals, institutions, and funding bodies are now requiring more and more often that the research follows the FAIR principles ([Horizon Europe](https://horizoneuropencpportal.eu/sites/default/files/2022-09/ore-fair-data-guide.pdf) and [NIH](https://sharing.nih.gov/data-management-and-sharing-policy/data-management#:~:text=NIH%20encourages%20data%20management%20and,repurposing%20datasets%20for%20secondary%20research) requirements). 
+
+ORIGINAL TEXT: 
 Making research data FAIR (Findable, Accessible, Interoperable, and Reusable) is of great importance in a data-driven world. By knowing of and adopting the FAIR principles, organisations and researchers can reach new levels of data and resource impacts, leading to numerous benefits for both the researcher community and society at large.
 
 In short, knowledge of the FAIR data principles and their practical application is crucial for maximising the value of data and resources, leading to more efficient research and increased knowledge sharing. Adopting and embracing the FAIR principles is a vital step towards advancing research and addressing complex challenges in all domains.
