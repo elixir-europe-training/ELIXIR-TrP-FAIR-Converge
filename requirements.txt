@@ -1,9 +1,6 @@
-mkdocs
+setuptools
 mkdocs-material
 mkdocs-bibtex
 neoteroi-mkdocs
 mkdocs-video
-mkdocs-include-markdown-plugin
-mkdocs-markdownextradata-plugin
-mkdocs-macros-plugin
-mkdocs-site-urls
+addbioschemas
