@@ -164,7 +164,7 @@ The added value/benefit:
 By knowing of and adopting the FAIR principles, organisations and researchers can reach new levels of data and resource impacts, leading to numerous benefits for both the researcher community and society at large. 
 
 The impact for the research: 
-Adopting and embracing the FAIR principles is a vital step towards advancing research and addressing complex challenges in all domains. The journals, institutions, and funding bodies are now requiring more and more often that the research follows the FAIR principles ([Horizon Europe](https://horizoneuropencpportal.eu/sites/default/files/2022-09/ore-fair-data-guide.pdf) and [NIH](https://sharing.nih.gov/data-management-and-sharing-policy/data-management#:~:text=NIH%20encourages%20data%20management%20and,repurposing%20datasets%20for%20secondary%20research) requirements). 
+Adopting and embracing the FAIR principles is a vital step towards advancing research and addressing complex challenges in all domains. The journals, institutions, and funding bodies are often requiring that research follows the FAIR principles ([Horizon Europe](https://horizoneuropencpportal.eu/sites/default/files/2022-09/ore-fair-data-guide.pdf) and [NIH](https://sharing.nih.gov/data-management-and-sharing-policy/data-management#:~:text=NIH%20encourages%20data%20management%20and,repurposing%20datasets%20for%20secondary%20research) requirements). 
 
 ORIGINAL TEXT: 
 Making research data FAIR (Findable, Accessible, Interoperable, and Reusable) is of great importance in a data-driven world. By knowing of and adopting the FAIR principles, organisations and researchers can reach new levels of data and resource impacts, leading to numerous benefits for both the researcher community and society at large.
