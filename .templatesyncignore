@@ -11,3 +11,4 @@ overrides/*.html
 ./README.md
 README.md
 requirements.txt
+_data/metadata.yaml
