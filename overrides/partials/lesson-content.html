@@ -13,7 +13,6 @@
         <tbody>
             {% for content_item in page.meta.content.before %}
                 <tr>
-                    <td>{{ content_item.subject }}</td>
                     <td>
                         {% if content_item.learning_outcome %}
                         <span class="learning-outcome" title="{{ page.meta.learning_outcomes[content_item.learning_outcome].outcome }}">
@@ -59,7 +58,6 @@
         <tbody>
             {% for content_item in page.meta.content.during %}
                 <tr>
-                    <td>{{ content_item.subject }}</td>
                     <td>
                         {% if content_item.learning_outcome %}
                         <span class="learning-outcome" title="{{ page.meta.learning_outcomes[content_item.learning_outcome].outcome }}">
@@ -105,7 +103,6 @@
         <tbody>
             {% for content_item in page.meta.content.after %}
                 <tr>
-                    <td>{{ content_item.subject }}</td>
                     <td>
                         {% if content_item.learning_outcome %}
                         <span class="learning-outcome" title="{{ page.meta.learning_outcomes[content_item.learning_outcome].outcome }}">
