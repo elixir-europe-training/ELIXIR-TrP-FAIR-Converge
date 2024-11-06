@@ -5,6 +5,7 @@
     <thead>
         <th>Learning outcome</th>
         <th>Activity</th>
+	<th>Time</th>
         <th>Level</th>
         <th>Audience</th>
     </thead>
@@ -27,6 +28,7 @@
                             {% endfor %}
                         </ul>
                     </td>
+		    <td> {{content_item.time}} </td>
                     <td>
                         {% if content_item.level %}
                         {% if content_item.level == 'any' %}
@@ -72,6 +74,7 @@
                             {% endfor %}
                         </ul>
                     </td>
+		    <td> {{content_item.time}} </td>
                     <td>
                         {% if content_item.level %}
                         {% if content_item.level == 'any' %}
@@ -117,6 +120,7 @@
                             {% endfor %}
                         </ul>
                     </td>
+		    <td> {{content_item.time}} </td>
                     <td>
                         {% if content_item.level %}
                         {% if content_item.level == 'any' %}
