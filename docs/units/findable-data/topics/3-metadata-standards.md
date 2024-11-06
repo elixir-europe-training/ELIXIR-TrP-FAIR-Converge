@@ -1,12 +1,13 @@
 ---
 number: 2.3
-title: Metadata standards
+title: Metadata standards for findability
 status: ready_for_review
 template: 'lesson-plan.html'
 authors:
   - "0000-0003-1378-5495"
   - "0000-0002-9016-4820"
   - "0000-0001-6989-2252"
+  - "0000-0003-0771-3516"
 
 reviewers:
   - "0000-0002-3412-9086"
@@ -105,15 +106,24 @@ terms4FAIRskills:
 
 --- 
 
+## Overview
 
-## Topic, definition, and scope
+### Objective
+Participants will understand the significance of rich metadata in the context of life sciences datasets, learn how to describe and search for datasets using metadata standards, and recognize the role metadata standards plays in dataset discovery. The focus is on FAIR principle F2 which is primarily about discovery both from a generic as a domain-specific perspective.
 
-Now that you have heard about FAIR and the FAIR principles, you might have noticed that metadata permeates every principle and is, thus, a very important aspect of FAIR. In this lesson, we will delve deeper into metadata by understanding what it is, its importance, and illustrating some real life examples where you may encounter metadata and its use. 
+### Added value
+The more generous and comprehensive datasets are described, both for humans and computers, the more specifically findable (in a meaningful way) it becomes in refined searches.
 
-Topics to be covered in the lesson plan: 
+### Impact for research
+To do.
+
+---
+
+## Lesson outline
 
 
-
+<!-- 
+The text below is 'old' but contains stuff that should somehow incorporated into the table
 * Metadata
     * Definition of metadata 
     * Types of metadata
@@ -128,11 +138,8 @@ Topics to be covered in the lesson plan:
     * Create
     * Use Case
 
----
 
 ## Summary of Tasks / Actions
-
-
 
 * Describing Metadata and expanding on different types
         * Find out more with FAIRsharing’s factsheet on standards
@@ -150,23 +157,17 @@ Topics to be covered in the lesson plan:
 * Expanding on practical ways to create and use Metadata and standards
     * **Exercise: **Identify** **available tools (if any) for creating and manipulation of metadata relevant to your field
 
-
 ---
+## Take home tasks/preparation
 
-## Materials / Equipment
-
-
-
-* Computer / laptop
-* Internet / Browser
-
-
+* Find a repository relevant to your field (e.g. use FAIRsharing)
+* Identify which metadata standard relevant to your data type is used in this repository
+* Create metadata for your dataset using metadata standard from repository
+* Identify a dataset of interest from your field via metadata search 
 ---
+-->
 
 ## References
-
-
-
 * FAIRsharing stores information on [1600 standards](https://fairsharing.org/search?fairsharingRegistry=Standard&page=1), and recognises the following types: model/format, terminology artefacts, reporting guidelines, identifier schema.
 * FAIRsharing’s [educational factsheet on standards](https://fairsharing.org/educational#standards)
 * [Dataedo Data Cartoon](https://dataedo.com/cartoon) cartoons on e.g. metadata
@@ -181,18 +182,7 @@ Topics to be covered in the lesson plan:
 * [GOFAIR M4M](https://www.gofairfoundation.org/m4m/)
 
 
----
-## Take home tasks/preparation
 
-
-
-* Find a repository relevant to your field (e.g. use FAIRsharing)
-* Identify which metadata standard relevant to your data type is used in this repository
-* Create metadata for your dataset using metadata standard from repository
-* Identify a dataset of interest from your field via metadata search 
-
-
----
 
 
 
