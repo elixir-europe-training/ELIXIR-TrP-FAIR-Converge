@@ -37,10 +37,17 @@ nav:
         - 'units/reusable-data/topics/1-FAIR-data-visiting.md'
       - "6. FAIR software":
         - "Overview": 'units/FAIR-software/index.md'
-        - 'units/FAIR-software/topics/1-FAIR-software.md'
+        - 'units/FAIR-software/topics/1-Defining-research-software.md'
+        - 'units/FAIR-software/topics/2-FAIR-software.md'
+        - 'units/FAIR-software/topics/3-Findable-software.md'
+        - 'units/FAIR-software/topics/4-Accessible-software.md'
+        - 'units/FAIR-software/topics/5-Interoperable-software.md'
+        - 'units/FAIR-software/topics/6-Reusable-software.md'
+        - 'units/FAIR-software/topics/7-Software-Management-Plans.md'
       - "7. Data Repositories and FAIR":
         - "Overview": 'units/data-repositories/index.md'
         - 'units/data-repositories/topics/1-repositories-and-FAIR.md'
+
 theme:
   name: material
   logo: assets/images/white-orange-logo.png
