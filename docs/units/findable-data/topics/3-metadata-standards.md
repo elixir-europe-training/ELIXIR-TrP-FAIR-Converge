@@ -108,11 +108,7 @@ terms4FAIRskills:
 
 ## Topic, definition, and scope
 
-Now that you have heard about FAIR and the FAIR principles, you might have noticed that metadata permeates every principle and is, thus, a very important aspect of FAIR. In this lesson, we will delve deeper into metadata by understanding what it is, its importance, and illustrating some real life examples where you may encounter metadata and its use. 
-
-Topics to be covered in the lesson plan: 
-
-
+Topics to be covered in the lesson plan:
 
 * Metadata
     * Definition of metadata 
