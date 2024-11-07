@@ -25,7 +25,7 @@ learning_outcomes:
   1:
     outcome: Understand what ontologies and vocabularies are, explain the difference between the two and describe their purpose
   2:
-    outcome: Understand how ontologies help to organise metadata and what part they play in making metadata schemas more 
+    outcome: Understand how ontologies help to organise metadata and what part they play in making metadata schemas more meaningful
   3:
     outcome: Understand/analyse the use of ontologies in a repository
   4:
@@ -94,7 +94,7 @@ terms4FAIRskills:
 
 ### Topic
 
-This lesson plan will help you better understand what ontologies and vocabularies are, how they relate to the FAIR principles, and why they are important for research. At the end of this lesson, participants will be able to define and distinguish ontologies and vocabularies, understand how they are used in repositories, explain their role in metadata organisation, use ontology lookup services, and evaluate the process of creating an ontology or vocabulary.
+This lesson plan will help to better understand what ontologies and vocabularies are, how they relate to the FAIR principles, and why they are important for research. At the end of this lesson, participants will be able to define and distinguish ontologies and vocabularies, understand how they are used in repositories, explain their role in metadata organisation, use ontology lookup services, and evaluate the process of creating an ontology or vocabulary.
 
 
 ---
