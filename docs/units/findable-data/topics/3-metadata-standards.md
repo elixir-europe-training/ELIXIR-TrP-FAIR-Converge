@@ -121,7 +121,6 @@ To do.
 
 ## Lesson outline
 
-
 <!-- 
 The text below is 'old' but contains stuff that should somehow incorporated into the table
 * Metadata
@@ -168,8 +167,9 @@ The text below is 'old' but contains stuff that should somehow incorporated into
 -->
 
 ## References
-* FAIRsharing stores information on [1600 standards](https://fairsharing.org/search?fairsharingRegistry=Standard&page=1), and recognises the following types: model/format, terminology artefacts, reporting guidelines, identifier schema.
-* FAIRsharing’s [educational factsheet on standards](https://fairsharing.org/educational#standards)
+
+* [Metadata standards in FAIRsharing](https://fairsharing.org/search?fairsharingRegistry=Standards&isMaintained=true&page=1&status=ready&subjects=life%2520science&recordType=reporting_guideline).
+* FAIRsharing’s [educational factsheet on standards](https://doi.org/10.5281/zenodo.8186982)
 * [Dataedo Data Cartoon](https://dataedo.com/cartoon) cartoons on e.g. metadata
 * FAIR4Software: [https://zenodo.org/record/6574092#.YrwgQuxBz0o](https://zenodo.org/record/6574092#.YrwgQuxBz0o) 
 * RDM 1-day workshop, life science early career: [https://zenodo.org/record/4562630#.Yrwb4uxBz0o](https://zenodo.org/record/4562630#.Yrwb4uxBz0o)

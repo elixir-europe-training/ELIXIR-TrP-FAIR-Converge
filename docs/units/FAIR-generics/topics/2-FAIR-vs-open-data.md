@@ -47,30 +47,26 @@ prerequisites:
 
 content:
   during:
-    - subject: "Contrast FAIR and OPEN"
-      learning_outcome: 1
+    - learning_outcome: 1
       activities: 
         - "Discuss the differences between the two terms and how they can be used to complement each other (being open with slightly FAIR aspects)"
       level: beginner 
       audience: any
       timing: 
-    - subject: "Discuss the breadth of the term open"
-      learning_outcome: 
+    - learning_outcome: 
       activities: 
         - "Is open science just about data? Discuss other ways it is possible to be open"
       level: beginner 
       audience: any
       timing: 
-    - subject: "Identify the benefits of open science"
-      learning_outcome: 
+    - learning_outcome: 
       activities: 
         - "Identify the benefits for different groups, including researchers, institutes, funders, the public"
         - "Divide into smaller groups, use a whiteboard, sticky notes or an app to note down the benefits, then organise them and discuss in a bigger group"
       level: intermediate 
       audience: any
       timing: 
-    - subject: "Identify the challenges of making data open"
-      learning_outcome: 
+    - learning_outcome: 
       activities: 
         - "Identify reasons why researchers may find it difficult to make data open or may not be able to make it open"
         - "Divide into smaller groups, use a whiteboard, sticky notes or an app to note down the challenges, then organise them and discuss them in a bigger group"
@@ -78,8 +74,7 @@ content:
       level: intermediate 
       audience: any
       timing: 
-    - subject: "How can you make your data open?"
-      learning_outcome: 
+    - learning_outcome: 
       activities: 
         - "Search for open data repositories related to the type of data you have"
         - "Each student (or a pair of students) will find repositories suitable for their data and will make a presentation about the database (referencing FAIR principles and open science)"
@@ -87,33 +82,32 @@ content:
       level: expert 
       audience: any
       timing: 
-    - subject: "How can you make your data open?"
-      learning_outcome: 
+    - learning_outcome: 
       activities: 
         - "Discuss national/institutional open science policies"
       level: any 
       audience: Data stewards
       timing: 
   after:
-    - subject: "Requirements"
+    - learning_outcome:
       activities: 
         - "Find out if your organisation/funder has requirements around making data open"
       level: intermediate 
       audience: any
       timing: 
-    - subject: "Identify repositories"
+    - learning_outcome:
       activities: 
         - "Identify data repositories related to the type of data you have"
       level: expert 
       audience: any
       timing: 
-    - subject: "Data submission"
+    - learning_outcome:
       activities: 
         - "Submit your data to an open repository"
       level: intermediate 
       audience: any
       timing: 
-    - subject: "Policies"
+    - learning_outcome:
       activities: 
         - > 
           Look more in detail about your national/institutional Open Science policies:
