@@ -109,7 +109,7 @@ terms4FAIRskills:
 ## Overview
 
 ### Objective
-Participants will understand the significance of rich metadata in the context of life sciences datasets, learn how to describe and search for datasets using metadata standards, and recognize the role metadata standards plays in dataset discovery. The focus is on FAIR principle F2 which is primarily about discovery both from a generic as a domain-specific perspective.
+Participants will understand the significance of rich metadata in the context of life sciences datasets, learn how to describe and search for datasets using metadata standards, and recognise the role metadata standards play in dataset discovery. The focus is on FAIR principle F2, which is primarily about discovery from both a generic and a domain-specific perspective.
 
 ### Added value
 The more generous and comprehensive datasets are described, both for humans and computers, the more specifically findable (in a meaningful way) it becomes in refined searches.
