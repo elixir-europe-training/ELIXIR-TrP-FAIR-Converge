@@ -23,7 +23,7 @@ audience:
 
 learning_outcomes:
   1:
-    outcome: Understanding what ontologies and vocabularies are, explain the difference between the two and describe their purpose
+    outcome: Understand what ontologies and vocabularies are, explain the difference between the two and describe their purpose
   2:
     outcome: Understanding how ontologies help to organizing metadata, and what part they play in making metadata schemas more 
   3:
