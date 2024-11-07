@@ -8,10 +8,13 @@ authors:
   - "0000-0002-8611-162X"
   - "0000-0001-7236-7379"
   - "0000-0002-2613-5953"
+  - "0000-0001-9114-2896"
+  - "0000-0003-2043-0772"
   - "Reinier Dickhout"
 
 reviewers:
   - "0000-0002-7702-4495"
+  - "0009-0002-3089-9558"
 
 fair_elements:
   - F
@@ -19,24 +22,16 @@ fair_elements:
   - I
   - R
 
-audience:
-  - Any researcher, research-performing academic staff, or student of any level generating and working with data for research purposes in any discipline, policy-oriented staff and managers.
-  - Not domain-specific and for all types of data that are used to perform research, analysis, archiving and publishing of data
-  - Not too technical, not too focused on data stewards
-
 learning_outcomes:
+  After completing this lesson plan, the participants are capable of:
   1:
-    outcome: Can explain the FAIR principles on a generic level
+    outcome: Understanding the importance of the FAIR principles for various stakeholders
   2:
-    outcome: Understand why you should apply the FAIR principles to your data
+    outcome: Understanding the requirements for FAIR data set by journals, institutions, and funding bodies
   3:
-    outcome: Know of some common issues that prevent data reuse and how FAIR can help;
+    outcome: Understanding/Analysing the potential consequences of not applying the FAIR principles
   4:
-    outcome: Have an impression of what could go wrong if you don’t apply FAIR (horror stories topic overlap).
-  5:
-    outcome: Identify what changes are required in your work/group/organisation to facilitate FAIRer data practices.
-  6:
-    outcome: Identify the significance of FAIR for the quality of research performance and the required changes in an organisation to facilitate FAIR data management 
+    outcome: Understanding/analysing/evaluating the required changes for FAIR research practices in a project, group or organisation
 
 content:
   during:
@@ -57,6 +52,11 @@ content:
       time: 10 min
       type: discussion
       level: beginner
+
+prerequisites:
+  For this lesson plan, participants should have a foundational understanding of:
+  - FAIR principles
+  - Reproducible research
 
 terms4FAIRskills:
   - subject:
