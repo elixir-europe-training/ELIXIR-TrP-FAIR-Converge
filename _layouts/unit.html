@@ -1,0 +1,46 @@
+---
+layout: plan-unit
+---
+
+{% include unit-sidebar.html type="unit" %}
+
+{% assign path_segments = page.path | split: "/" %}
+{% assign parent_folder = path_segments | slice: -2, 1 | join: "/" %}
+{% assign topics_path = parent_folder | append: "/topics/" %}
+{% assign topic_pages = site.lesson-plans | where_exp: "page", "page.path contains topics_path" %}
+
+<main id="unit">
+    <div class="unit-header">
+        {% unless page.content contains "<h1" %}
+        <h1>
+            <span class="unit-number">{{ page.number }}</span>
+            {{ page.title | default: site.title }}
+        </h1>
+        {% endunless %}
+    </div>
+
+    <div class="unit-content">
+    {{ content }}
+    </div>
+
+    <div class="unit-lesson-plans">
+        <h2>Lesson plans</h2>
+
+        {% if page.content_intro %}
+        <p>{{ page.content_intro }}</p>
+        {% endif %}
+
+        <div class="unit-lesson-plans-index">
+            {% for lesson_plan in topic_pages %}
+
+            <div class="unit-lesson-plan">
+                <a href="{{ lesson_plan.url | relative_url  }}" class="unit-lesson-plan-link">
+                    <span class="unit-lesson-plan-number">{{ lesson_plan.number }}</span>
+                    <span class="unit-lesson-plan-title">{{ lesson_plan.title }}</span>
+                </a>
+                <span class="unit-lesson-plan-description">{{ lesson_plan.description }}</span>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</main>

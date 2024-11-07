@@ -1,0 +1,12 @@
+<div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-xl-3 g-4 contributor-cards mb-4">
+{% assign affiliation_type = include.affiliation_type %}
+    {% for affiliation in site.data.affiliations[affiliation_type] %}
+    {% if affiliation.image_url %}
+    <div class="three columns">
+        {% if affiliation.url %}<a href="{{ affiliation.url }}" target="_blank">{% endif %}
+        <img class="rounded p-3" src="{{ site.baseurl }}{{ affiliation.image_url }}" alt="{{ affiliation.name }}">
+        {% if affiliation.url %}</a>{% endif %}
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>
