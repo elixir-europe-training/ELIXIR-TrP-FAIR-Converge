@@ -6,6 +6,7 @@
         <th>Learning outcome</th>
         <th>Activity</th>
 	<th>Time</th>
+	<th>Type</th>	
         <th>Level</th>
         <th>Audience</th>
     </thead>
@@ -23,6 +24,7 @@
                     </td>
                     <td> {{ content_item.activities }} </td>
 		    <td> {{content_item.time}} </td>
+		    <td> {{content_item.type}} </td>
                     <td>
                         {% if content_item.level %}
                         {% if content_item.level == 'any' %}
@@ -63,6 +65,7 @@
                     </td>
                     <td> {{content_item.activities}} </td>
 		    <td> {{content_item.time}} </td>
+		    <td> {{content_item.type}} </td>
                     <td>
                         {% if content_item.level %}
                         {% if content_item.level == 'any' %}
@@ -103,6 +106,7 @@
                     </td>
                     <td> {{content_item.activities}} </td>
 		    <td> {{content_item.time}} </td>
+		    <td> {{content_item.type}} </td>
                     <td>
                         {% if content_item.level %}
                         {% if content_item.level == 'any' %}

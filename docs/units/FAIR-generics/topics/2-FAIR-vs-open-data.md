@@ -50,52 +50,62 @@ content:
     - learning_outcome: 1
       activities: Discuss the differences between the two terms and how they can be used to complement each other (being open with slightly FAIR aspects)
       time: XX min
+      type: frontal lecture
       level: beginner 
       audience: any
     - learning_outcome: 
       activities: Is open science just about data? Discuss other ways it is possible to be open
-      time: XX min      
+      time: XX min
+      type: discussion
       level: beginner 
       audience: any
     - learning_outcome: 
       activities: Identify the benefits for different groups, including researchers, institutes, funders, the public. Divide into smaller groups, use a whiteboard, sticky notes or an app to note down the benefits, then organise them and discuss in a bigger group
-      time: XX min      
+      time: XX min
+      type: group excercise
       level: intermediate 
       audience: any
     - learning_outcome: 
       activities: Identify reasons why researchers may find it difficult to make data open or may not be able to make it open. Divide into smaller groups, use a whiteboard, sticky notes or an app to note down the challenges, then organise them and discuss them in a bigger group. Talk about sensitive/patient data, anonymisation.
-      time: XX min      
+      time: XX min
+      type: group excercise
       level: intermediate 
       audience: any
     - learning_outcome: 
       activities: Search for open data repositories related to the type of data you have. Each student (or a pair of students) will find repositories suitable for their data and will make a presentation about the database (referencing FAIR principles and open science). Look through open data examples in repositories, how would FAIR Principles benefit these materials
-      time: XX min      
+      time: XX min
+      type: group exercise
       level: expert 
       audience: any
     - learning_outcome: 
       activities: Discuss national/institutional open science policies
-      time: XX min      
+      time: XX min
+      type: frontal lecture
       level: any 
       audience: Data stewards
   after:
     - learning_outcome:
       activities: Find out if your organisation/funder has requirements around making data open
       time: XX min
+      type: group excercise
       level: intermediate
       audience: any
     - learning_outcome:
       activities: Identify data repositories related to the type of data you have
-      time: XX min      
+      time: XX min
+      type: group exercise
       level: expert 
       audience: any
     - learning_outcome:
       activities: Submit your data to an open repository
-      time: XX min      
+      time: XX min
+      type: hands-on
       level: intermediate 
       audience: any
     - learning_outcome:
       activities: Look more in detail about your national/institutional Open Science policies [An Analysis of Open Science policies in Europe](https://zenodo.org/record/4725817#.YrwrtBNBw-Q), [Open Science in Europe’s Universities](https://zenodo.org/record/5062982#.YrwrrRNBw-Q), [National resources pages on RDMkit](https://rdmkit.elixir-europe.org/national_resources). Look through [EC Open Science Policy](https://ec.europa.eu/info/research-and-innovation/strategy/strategy-2020-2024/our-digital-future/open-science_en). Local University Libraries are (usually) the experts in Open Science. Take contact with them and learn what they are doing
-      time: XX min      
+      time: XX min
+      type: preparation?
       level: intermediate 
       audience: Data stewards
 
