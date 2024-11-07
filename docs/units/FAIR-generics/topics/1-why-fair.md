@@ -8,10 +8,14 @@ authors:
   - "0000-0002-8611-162X"
   - "0000-0001-7236-7379"
   - "0000-0002-2613-5953"
+  - "0000-0001-9114-2896"
+  - "0000-0003-2043-0772"
   - "Reinier Dickhout"
 
 reviewers:
   - "0000-0002-7702-4495"
+  - "0000-0003-0771-3516"
+  - "Ana Konrad"
 
 fair_elements:
   - F
@@ -19,35 +23,57 @@ fair_elements:
   - I
   - R
 
-audience:
-  - Any researcher, research-performing academic staff, or student of any level generating and working with data for research purposes in any discipline, policy-oriented staff and managers.
-  - Not domain-specific and for all types of data that are used to perform research, analysis, archiving and publishing of data
-  - Not too technical, not too focused on data stewards
+prerequisites:
+  For this lesson plan, participants should have a foundational understanding of:
+  - _What the FAIR principles are._ To prepare for this as a trainer, familiarise yourself with FAIRsFAIR's [FAIR in a nutshell](https://fairsfair.gitbook.io/fair-teaching-handbook/0lessonplans/1lessonplan) lesson plan.
+  - _What reproducible research is._ The [Turing Way](https://book.the-turing-way.org/reproducible-research/reproducible-research) offers a guideline for this.
 
 learning_outcomes:
-  1:
-    outcome: Can explain the FAIR principles on a generic level
-  2:
-    outcome: Understand why you should apply the FAIR principles to your data
-  3:
-    outcome: Know of some common issues that prevent data reuse and how FAIR can help;
-  4:
-    outcome: Have an impression of what could go wrong if you don’t apply FAIR (horror stories topic overlap).
-  5:
-    outcome: Identify what changes are required in your work/group/organisation to facilitate FAIRer data practices.
-  6:
-    outcome: Identify the significance of FAIR for the quality of research performance and the required changes in an organisation to facilitate FAIR data management 
+  After completing this lesson plan, the participants are capable of:
+  1o: Describing the importance of the FAIR principles for various stakeholders (Beginner)
+  1a:
+    outcome: Understanding the importance of the FAIR principles for various stakeholders (Beginner)
+  1b:
+    outcome: Analysing the importance of the FAIR principles for various stakeholders (Intermediate)
+  1c:
+    outcome: Evaluating the importance of the FAIR principles for various stakeholders (Expert)
+  2o: Identifying the requirements for FAIR data set by journals, institutions, and funding bodies (Beginner)
+  2a:
+    outcome: Understanding the requirements for FAIR data set by journals, institutions, and funding bodies (Beginner)
+  2b:
+    outcome: Analysing the requirements for FAIR data set by journals, institutions, and funding bodies (Intermediate)
+  2c:
+    outcome: Evaluating the requirements for FAIR data set by journals, institutions, and funding bodies (Expert)  
+  3o: Devising the required changes for FAIR research practices in a project, group or organisation (Intermediate)
+  3a:
+    outcome: Understanding potential consequences of not applying the FAIR principles (Beginner)
+  3b:
+    outcome: Analysing potential consequences of not applying the FAIR principles (Intermediate)
+  3c:
+    outcome: Evaluating potential consequences of not applying the FAIR principles (Expert)
+  4o: Devising the required changes for FAIR research practices in a project, group or organisation (Expert)
+  4a:
+    outcome: Understanding the required changes for FAIR research practices in a project, group or organisation (Beginner) 
+  4b:
+    outcome: Analysing the required changes for FAIR research practices in a project, group or organisation (Intermediate) 
+  4c:
+    outcome: Evaluating the required changes for FAIR research practices in a project, group or organisation (Expert) 
 
 content:
+  before:
+   - learning_outcome: 1o
+      activities: 
+          - "As trainer, familiarise yourself with the FAIRsFAIR [FAIR in a nutshell](https://fairsfair.gitbook.io/fair-teaching-handbook/0lessonplans/1lessonplan) lesson plan."
+  
+  
+  
   during:
-    - subject: "Explain what FAIR means"
-      learning_outcome: 1
+    - learning_outcome: 1o
       activities: 
         - "Present to participants what each letter in the FAIR acronym means and how they relate to each other (10-15 min)"
         - "Divide people into pairs and let them explain to each other how they are already making their data FAIR and what is one thing they can easily do to make their data FAIRer (15 min)"
-        - "To prepare for this, familiarise yourself with FAIRsFAIR's [FAIR in a nutshell](https://fairsfair.gitbook.io/fair-teaching-handbook/0lessonplans/1lessonplan) lesson plan"
+
       level: beginner 
-      audience: any
       timing: 10 mins
 
     - subject: "Identify stakeholders of FAIR usage"
