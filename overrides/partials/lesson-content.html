@@ -8,7 +8,6 @@
 	<th>Time</th>
 	<th>Type</th>	
         <th>Level</th>
-        <th>Audience</th>
     </thead>
     {% if "before" in page.meta.content and page.meta.content.before %}
         <th colspan="5">Before the lesson</th>
@@ -36,15 +35,6 @@
                             <span class="icon material-symbols-outlined">star</span>
                         </span>
                         {% endif %}
-                        {% endif %}
-                    </td>
-                    <td>
-                        {% if content_item.audience %}
-                            {% if content_item.audience == 'any' %}
-                                <span class="lesson-plan-content-audience-any">Any</span>
-                            {% else %}
-                                {{ content_item.audience }}
-                            {% endif %}
                         {% endif %}
                     </td>
                 </tr>
@@ -79,15 +69,6 @@
                         {% endif %}
                         {% endif %}
                     </td>
-                    <td>
-                        {% if content_item.audience %}
-                            {% if content_item.audience == 'any' %}
-                                <span class="lesson-plan-content-audience-any">Any</span>
-                            {% else %}
-                                {{ content_item.audience }}
-                            {% endif %}
-                        {% endif %}
-                    </td>
                 </tr>
             {% endfor %}
         </tbody>
@@ -118,15 +99,6 @@
                             <span class="icon material-symbols-outlined">star</span>
                         </span>
                         {% endif %}
-                        {% endif %}
-                    </td>
-                    <td>
-                        {% if content_item.audience %}
-                            {% if content_item.audience == 'any' %}
-                                <span class="lesson-plan-content-audience-any">Any</span>
-                            {% else %}
-                                {{ content_item.audience }}
-                            {% endif %}
                         {% endif %}
                     </td>
                 </tr>

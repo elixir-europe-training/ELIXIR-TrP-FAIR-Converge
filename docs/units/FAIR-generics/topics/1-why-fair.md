@@ -45,21 +45,18 @@ content:
       time: 10 min
       type: frontal lecture
       level: beginner 
-      audience: any
 
     - learning_outcome: 2
       activities: Identify common stakeholders related to FAIR usage in the following links, and group them in the following three categories; perform (p), facilitate (f) and benefit (b). [Link 1](https://genestack.com/resources/library/the-fair-principles-of-data-management/), [Link 2](https://www.rd-alliance.org/sites/default/files/RDA-SHARC%20Poster%20template%20Melbourne%20-%202020%20V10032020%20.jpg)
       time: 15 min
       type: discussion
       level: beginner
-      audience: any
 
     - learning_outcome: 6
       activities: For each stakeholder identified in the previous exercise, go through each letter of FAIR and explore why they should be motivated to implement each principle.
       time: 10 min
       type: discussion
-      level: beginner 
-      audience: any
+      level: beginner
 
 terms4FAIRskills:
   - subject:
