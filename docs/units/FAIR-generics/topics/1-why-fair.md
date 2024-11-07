@@ -25,33 +25,33 @@ fair_elements:
 
 prerequisites:
   For this lesson plan, participants should have a foundational understanding of:
-  - _What the FAIR principles are._ To prepare for this as a trainer, familiarise yourself with FAIRsFAIR's [FAIR in a nutshell](https://fairsfair.gitbook.io/fair-teaching-handbook/0lessonplans/1lessonplan) lesson plan.
-  - _What reproducible research is._ The [Turing Way](https://book.the-turing-way.org/reproducible-research/reproducible-research) offers a guideline for this.
+  - _What the FAIR principles are._ To prepare as a trainer, familiarise yourself with FAIRsFAIR's [FAIR in a nutshell](https://fairsfair.gitbook.io/fair-teaching-handbook/0lessonplans/1lessonplan) lesson plan. For participants, FAIR Cookbook's [Introducing the FAIR Principles](https://faircookbook.elixir-europe.org/content/recipes/introduction/brief-FAIR-principles.html) is a good resource.
+  - _What reproducible research is._ The [Turing Way](https://book.the-turing-way.org/reproducible-research/reproducible-research) offers a guideline.
 
 learning_outcomes:
   After completing this lesson plan, the participants are capable of:
-  1o: Describing the importance of the FAIR principles for various stakeholders (Beginner)
+  1: Describing the importance of the FAIR principles for various stakeholders (Beginner)
   1a:
     outcome: Understanding the importance of the FAIR principles for various stakeholders (Beginner)
   1b:
     outcome: Analysing the importance of the FAIR principles for various stakeholders (Intermediate)
   1c:
     outcome: Evaluating the importance of the FAIR principles for various stakeholders (Expert)
-  2o: Identifying the requirements for FAIR data set by journals, institutions, and funding bodies (Beginner)
+  2: Identifying the requirements for FAIR data set by journals, institutions, and funding bodies (Beginner)
   2a:
     outcome: Understanding the requirements for FAIR data set by journals, institutions, and funding bodies (Beginner)
   2b:
     outcome: Analysing the requirements for FAIR data set by journals, institutions, and funding bodies (Intermediate)
   2c:
     outcome: Evaluating the requirements for FAIR data set by journals, institutions, and funding bodies (Expert)  
-  3o: Devising the required changes for FAIR research practices in a project, group or organisation (Intermediate)
+  3: Devising the required changes for FAIR research practices in a project, group or organisation (Intermediate)
   3a:
     outcome: Understanding potential consequences of not applying the FAIR principles (Beginner)
   3b:
     outcome: Analysing potential consequences of not applying the FAIR principles (Intermediate)
   3c:
     outcome: Evaluating potential consequences of not applying the FAIR principles (Expert)
-  4o: Devising the required changes for FAIR research practices in a project, group or organisation (Expert)
+  4: Devising the required changes for FAIR research practices in a project, group or organisation (Expert)
   4a:
     outcome: Understanding the required changes for FAIR research practices in a project, group or organisation (Beginner) 
   4b:
@@ -61,9 +61,16 @@ learning_outcomes:
 
 content:
   before:
-   - learning_outcome: 1o
-      activities: 
-          - "As trainer, familiarise yourself with the FAIRsFAIR [FAIR in a nutshell](https://fairsfair.gitbook.io/fair-teaching-handbook/0lessonplans/1lessonplan) lesson plan."
+   - learning_outcome: 1
+      activities:
+       - "As a trainer, browse the FAIRsFAIR [FAIR in a nutshell](https://fairsfair.gitbook.io/fair-teaching-handbook/0lessonplans/1lessonplan) lesson plan and use it to include more basic FAIR principles activities to your lesson."
+      level: beginner 
+      timing: 60 mins
+- learning_outcome: 1
+      activities:
+       - "To prepare, have participants read the FAIR Cookbook's [Introducing the FAIR Principles](https://faircookbook.elixir-europe.org/content/recipes/introduction/brief-FAIR-principles.html) to get an idea of what the FAIR principles entail."
+      level: beginner 
+      timing: 30 mins
   
   
   
@@ -286,14 +293,7 @@ Societal    Societal value
 
 * Summarise the cost of not having FAIR data - estimated as €10.2bn per year! ([link](https://op.europa.eu/en/publication-detail/-/publication/d375368c-1a0a-11e9-8d04-01aa75ed71a1/language-en))
 
----
 
-## Materials / Equipment
-
-* Fact sheets with summary (broad audience) - zenodo pub?
-* eBook (background information for a broader audience, maybe not citizens, but including management) - published where? zenodo?
-* Best practices examples of FAIR data (researchers) interactive sessions
-* [FAIRification framework recipe](https://faircookbook.elixir-europe.org/content/recipes/introduction/fairification-process.html) from the FAIR Cookbook
 
 ---
 
