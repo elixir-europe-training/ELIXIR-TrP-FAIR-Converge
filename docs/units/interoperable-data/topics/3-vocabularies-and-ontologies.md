@@ -31,7 +31,7 @@ learning_outcomes:
   4:
     outcome: Understand the use of/apply ontology lookup services to find relevant ontologies and vocabularies
   5:
-    outcome: Understand/analyze/evaluate the steps, challenges and solutions involved in creating an ontology or vocabulary
+    outcome: Understand/analyse/evaluate the steps, challenges and solutions involved in creating an ontology or vocabulary
 
 
 terms4FAIRskills:
