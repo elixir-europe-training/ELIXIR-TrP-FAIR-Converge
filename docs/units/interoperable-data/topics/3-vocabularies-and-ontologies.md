@@ -5,6 +5,8 @@ status: in_progress
 template: 'lesson-plan.html'
 authors:
   - "0000-0003-4942-2725"
+  - "0000-0003-0771-3516"
+  - "0009-0002-3089-9558"
 
 reviewers:
 
@@ -21,27 +23,16 @@ audience:
 
 learning_outcomes:
   1:
-    outcome: Explain what ontologies and vocabularies are and why we use them;
+    outcome: Understand what ontologies and vocabularies are, explain the difference between the two and describe their purpose
   2:
-    outcome: Describe the use of ontologies in filling out metadata schemas 
+    outcome: Understand how ontologies help to organise metadata and what part they play in making metadata schemas more meaningful
   3:
-    outcome: Describe how ontologies are used on a domain repository of choice
+    outcome: Understand/analyse the use of ontologies in a repository
   4:
-    outcome: FAIRsharing will list standards that are implemented by databases, and vice versa, therefore if you are required to use a particular set of databases, then you can see those terminologies that are implemented by those databases
+    outcome: Understand the use of/apply ontology lookup services to find relevant ontologies and vocabularies
   5:
-    outcome: Explain how vocabularies lead to the Findability, Interoperability and Reusability;
-  6:
-    outcome: Describe how to select ontologies (selection criteria for ontologies when creating semantic data models)
-  7:
-    outcome: Filtering search results for the  ( >800 terminologies listed within FAIRsharing)
-  8:
-    outcome: Examples of good ontologies
-  9:
-    outcome: Ways of creating vocabularies 
-  10:
-    outcome: Vocabularies in BioPortal (how to select them, how to create them from scratch)
-  11:
-    outcome: How to use vocabularies - practical part
+    outcome: Understand/analyse/evaluate the steps, challenges and solutions involved in creating an ontology or vocabulary
+
 
 terms4FAIRskills:
   - subject:
@@ -99,56 +90,20 @@ terms4FAIRskills:
 
 --- 
 
-The purpose of using predefined data vocabularies and ontologies in science is to establish standardized and consistent terminology and conceptual frameworks. By defining and organizing terms and concepts in a structured manner, predefined vocabularies and ontologies enable effective communication and knowledge sharing among scientists within and across different disciplines. These tools help researchers to accurately describe and represent scientific data, experiments, and theories, facilitating data integration, interoperability, and collaboration. Furthermore, predefined vocabularies and ontologies promote the discovery of relevant scientific information, enhance data mining and analysis, and enable the development of intelligent systems and applications in various scientific domains. This lesson plan will help you better understand why ontologies are important, as well as their core principles and requirements for building effective semantic models.
- 
+## Overview
 
-## Topic, definition and scope
+### Topic
 
-
-
-* What are ontologies and when/why do we need them
-* What selection criteria do we use to chose ontologies and vocabularies
-* What types of vocabularies there are
-* Create data vocabularies from scratch / apply existing ones
-* How do use ontologies in real life (practical demonstration)
+This lesson plan will help to better understand what ontologies and vocabularies are, how they relate to the FAIR principles, and why they are important for research. At the end of this lesson, participants will be able to define and distinguish ontologies and vocabularies, understand how they are used in repositories, explain their role in metadata organisation, use ontology lookup services, and evaluate the process of creating an ontology or vocabulary.
 
 
 ---
+### Added value
 
-## FAIR element(s)
-
-* Findability: An ontology can improve findability by providing a standardized vocabulary for describing data. By using established terms and relationships, researchers can ensure that their data is discoverable by others who are searching for specific concepts or entities.
-
-* Accessibility: An ontology can enhance accessibility by providing a clear and well-defined structure for organizing and representing data. By adhering to ontology standards, researchers can make their data more accessible to both humans and machines, enabling easier understanding and interpretation.
-
-* Interoperability: An ontology plays a crucial role in achieving interoperability by providing a shared understanding of concepts and their relationships. By using standardized terms and relationships from an ontology, researchers can enable data integration and exchange across different systems and domains.
-
-* Reusability: An ontology supports reusability by providing a common vocabulary that can be used across multiple datasets and applications. By using established ontologies, researchers can ensure that their data is reusable and can be easily integrated with other datasets for further analysis or comparison.
-
----
-
-## Summary of Tasks / Actions
-
-* Browse the [BioPortal](https://bioportal.bioontology.org/) and [Linked Open Vocabularies (LOV)](https://lov.linkeddata.es/dataset/lov) for general overview and understanding of ontologies. 
-
-* e.g. Search and filter the [>800 terminologies](https://fairsharing.org/search?fairsharingRegistry=Standard&recordType=terminology_artefact&page=1) listed within FAIRsharing accordning to a selected criteria.
-* …
-
-
----
-
-## Materials / Equipment
-
-
-
-* …
-* …
-
-
+Ontologies and vocabularies enhance standardisation and foster a shared understanding between people and machines, thereby increasing the semantic interoperability of digital resources. By providing a common framework for organising knowledge, they promote the discovery of relevant scientific information, improve data mining and analysis, and support the development of intelligent systems.
 ---
 
 ## References
-
 
 
 * [>800 terminologies](https://fairsharing.org/search?fairsharingRegistry=Standard&recordType=terminology_artefact&page=1) listed within FAIRsharing.
