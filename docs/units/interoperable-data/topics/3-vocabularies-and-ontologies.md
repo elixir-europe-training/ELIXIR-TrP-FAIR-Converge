@@ -25,7 +25,7 @@ learning_outcomes:
   1:
     outcome: Understand what ontologies and vocabularies are, explain the difference between the two and describe their purpose
   2:
-    outcome: Understanding how ontologies help to organizing metadata, and what part they play in making metadata schemas more 
+    outcome: Understand how ontologies help to organise metadata and what part they play in making metadata schemas more 
   3:
     outcome: Understand/analyze the use of ontologies in a repository
   4:
