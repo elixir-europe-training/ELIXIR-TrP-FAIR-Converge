@@ -25,35 +25,35 @@ fair_elements:
 
 prerequisites:
   For this lesson plan, participants should have a foundational understanding of:
-  - _What the FAIR principles are._ To prepare as a trainer, familiarise yourself with FAIRsFAIR's [FAIR in a nutshell](https://fairsfair.gitbook.io/fair-teaching-handbook/0lessonplans/1lessonplan) lesson plan. For participants, FAIR Cookbook's [Introducing the FAIR Principles](https://faircookbook.elixir-europe.org/content/recipes/introduction/brief-FAIR-principles.html) is a good resource.
-  - _What reproducible research is._ The [Turing Way](https://book.the-turing-way.org/reproducible-research/reproducible-research) offers a guideline.
+  - FAIR principles
+  - Reproducible research
 
 learning_outcomes:
   After completing this lesson plan, the participants are capable of:
-  1: Describing the importance of the FAIR principles for various stakeholders (Beginner)
+  1: Understanding the importance of the FAIR principles for various stakeholders (Beginner)
   1a:
-    outcome: Understanding the importance of the FAIR principles for various stakeholders (Beginner)
+    outcome: **Understanding the importance of the FAIR principles for various stakeholders**
   1b:
     outcome: Analysing the importance of the FAIR principles for various stakeholders (Intermediate)
   1c:
     outcome: Evaluating the importance of the FAIR principles for various stakeholders (Expert)
   2: Identifying the requirements for FAIR data set by journals, institutions, and funding bodies (Beginner)
   2a:
-    outcome: Understanding the requirements for FAIR data set by journals, institutions, and funding bodies (Beginner)
+    outcome: **Understanding the requirements for FAIR data set by journals, institutions, and funding bodies**
   2b:
     outcome: Analysing the requirements for FAIR data set by journals, institutions, and funding bodies (Intermediate)
   2c:
     outcome: Evaluating the requirements for FAIR data set by journals, institutions, and funding bodies (Expert)  
   3: Devising the required changes for FAIR research practices in a project, group or organisation (Intermediate)
   3a:
-    outcome: Understanding potential consequences of not applying the FAIR principles (Beginner)
+    outcome: Understanding/analysing potential consequences of not applying the FAIR principles (Beginner)
   3b:
-    outcome: Analysing potential consequences of not applying the FAIR principles (Intermediate)
+    outcome: **Understanding/Analysing potential consequences of not applying the FAIR principles**
   3c:
     outcome: Evaluating potential consequences of not applying the FAIR principles (Expert)
   4: Devising the required changes for FAIR research practices in a project, group or organisation (Expert)
   4a:
-    outcome: Understanding the required changes for FAIR research practices in a project, group or organisation (Beginner) 
+    outcome: **Understanding/analysing/evaluating the required changes for FAIR research practices in a project, group or organisation** 
   4b:
     outcome: Analysing the required changes for FAIR research practices in a project, group or organisation (Intermediate) 
   4c:
@@ -61,11 +61,6 @@ learning_outcomes:
 
 content:
   before:
-   - learning_outcome: 1
-      activities:
-       - "As a trainer, browse the FAIRsFAIR [FAIR in a nutshell](https://fairsfair.gitbook.io/fair-teaching-handbook/0lessonplans/1lessonplan) lesson plan and use it to include more basic FAIR principles activities to your lesson."
-      level: beginner 
-      timing: 60 mins
 - learning_outcome: 1
       activities:
        - "To prepare, have participants read the FAIR Cookbook's [Introducing the FAIR Principles](https://faircookbook.elixir-europe.org/content/recipes/introduction/brief-FAIR-principles.html) to get an idea of what the FAIR principles entail."
@@ -306,3 +301,13 @@ Societal    Societal value
     * Template document for each FAIR principle - researcher has to go through each point and write down what they will do in their dataset for F, A, I, R.? Maybe even each of the F1, F2, F3, F4?
     * An understanding of how this framework guides FAIRification might help. https://doi.org/10.1038/s41597-023-02167-2  \
 -->
+
+
+
+For participants, FAIR Cookbook's [Introducing the FAIR Principles](https://faircookbook.elixir-europe.org/content/recipes/introduction/brief-FAIR-principles.html) is a good resource.
+
+_ The [Turing Way](https://book.the-turing-way.org/reproducible-research/reproducible-research) offers a guideline.
+
+       - "As a trainer, browse the FAIRsFAIR [FAIR in a nutshell](https://fairsfair.gitbook.io/fair-teaching-handbook/0lessonplans/1lessonplan) lesson plan and use it to include more basic FAIR principles activities to your lesson."
+      level: beginner 
+      timing: 60 mins
