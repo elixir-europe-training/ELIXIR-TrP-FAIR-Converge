@@ -27,7 +27,7 @@ learning_outcomes:
   2:
     outcome: Understand how ontologies help to organise metadata and what part they play in making metadata schemas more 
   3:
-    outcome: Understand/analyze the use of ontologies in a repository
+    outcome: Understand/analyse the use of ontologies in a repository
   4:
     outcome: Understand the use of/apply ontology lookup services to find relevant ontologies and vocabularies
   5:
