@@ -1,0 +1,3370 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "LearningResource",
+    "@id": "https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-Converge/",
+    "http://purl.org/dc/terms/conformsTo": {
+        "@type": "CreativeWork",
+        "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE"
+    },
+    "description": "Template for ELIXIR lessons",
+    "keywords": "FAIR, OPEN, Bioinformatics, Teaching",
+    "name": "ELIXIR FAIR Lesson Plans",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "educationLevel": "beginner",
+    "competencyRequired": "none",
+    "teaches": "nothing yet to teach"
+}
+</script>
+
+    
+      
+        <title>Contributors - ELIXIR FAIR Lesson Plans</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Lato";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/skeleton.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/lesson-plans.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/neoteroi-mkdocs.css">
+    
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            
+These lesson plans are still under active development and considered pre-alpha.
+
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="ELIXIR FAIR Lesson Plans" class="md-header__button md-logo" aria-label="ELIXIR FAIR Lesson Plans" data-md-component="logo">
+      
+  <img src="../../assets/images/white-orange-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ELIXIR FAIR Lesson Plans
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Contributors
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-Converge" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    elixir-europe-training/ELIXIR-TrP-FAIR-Converge
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="ELIXIR FAIR Lesson Plans" class="md-nav__button md-logo" aria-label="ELIXIR FAIR Lesson Plans" data-md-component="logo">
+      
+  <img src="../../assets/images/white-orange-logo.png" alt="logo">
+
+    </a>
+    ELIXIR FAIR Lesson Plans
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-Converge" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    elixir-europe-training/ELIXIR-TrP-FAIR-Converge
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      Home
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+
+  <!-- Determine classes -->
+  
+  
+    
+  
+
+  <!-- Navigation item with nested items -->
+  
+
+    <!-- Determine all nested items that are index pages -->
+    
+    
+
+    <!-- Determine whether to render item as a section -->
+    
+    
+    
+
+    <!-- Nested navigation item -->
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+
+        <!-- Determine checked and indeterminate state -->
+        
+        
+
+        <!-- Active checkbox expands items contained within nested section -->
+        <input
+          class="md-nav__toggle md-toggle "
+          type="checkbox"
+          id="__nav_2"
+          checked
+        />
+
+        <!-- Toggle to expand nested items -->
+        
+          
+          <label
+            class="md-nav__link"
+            for="__nav_2"
+            id="__nav_2_label"
+            tabindex="0"
+          >
+            
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      
+
+      
+        About
+      
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+
+        <!-- Toggle to expand nested items with link to index page -->
+        
+
+        <!-- Nested navigation -->
+        <nav
+          class="md-nav"
+          data-md-level="1"
+          aria-labelledby="__nav_2_label"
+          aria-expanded="true"
+        >
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            About
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+
+            <!-- Nested navigation item -->
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+    
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+
+      <!-- State toggle -->
+      <input
+        class="md-nav__toggle md-toggle"
+        type="checkbox"
+        id="__toc"
+      />
+
+      <!-- Hack: see partials/toc.html for more information -->
+      
+      
+
+      <!-- Navigation link to table of contents -->
+      
+      <a
+        href="./"
+        class="md-nav__link md-nav__link--active"
+      >
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      Contributors
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+
+      </a>
+
+      <!-- Table of contents -->
+      
+    </li>
+
+  <!-- Navigation item -->
+  
+
+              
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../support/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      Support
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+
+      <!-- Pruned navigation item -->
+      
+    </li>
+
+  <!-- Currently active page -->
+  
+
+    
+      
+      
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+
+    <!-- Determine all nested items that are index pages -->
+    
+    
+
+    <!-- Determine whether to render item as a section -->
+    
+    
+    
+
+    <!-- Nested navigation item -->
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+
+        <!-- Determine checked and indeterminate state -->
+        
+        
+
+        <!-- Active checkbox expands items contained within nested section -->
+        <input
+          class="md-nav__toggle md-toggle "
+          type="checkbox"
+          id="__nav_3"
+          
+        />
+
+        <!-- Toggle to expand nested items -->
+        
+          
+          <label
+            class="md-nav__link"
+            for="__nav_3"
+            id="__nav_3_label"
+            tabindex="0"
+          >
+            
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      
+
+      
+        Contribute
+      
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+
+        <!-- Toggle to expand nested items with link to index page -->
+        
+
+        <!-- Nested navigation -->
+        <nav
+          class="md-nav"
+          data-md-level="1"
+          aria-labelledby="__nav_3_label"
+          aria-expanded="false"
+        >
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contribute
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+
+            <!-- Nested navigation item -->
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../../contribute/how_to_contribute/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      How to contribute
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../../contribute/style_guide/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      Style guide
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+
+      <!-- Pruned navigation item -->
+      
+    </li>
+
+  <!-- Currently active page -->
+  
+
+    
+      
+      
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+
+    <!-- Determine all nested items that are index pages -->
+    
+    
+
+    <!-- Determine whether to render item as a section -->
+    
+    
+    
+
+    <!-- Nested navigation item -->
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+
+        <!-- Determine checked and indeterminate state -->
+        
+        
+
+        <!-- Active checkbox expands items contained within nested section -->
+        <input
+          class="md-nav__toggle md-toggle "
+          type="checkbox"
+          id="__nav_4"
+          
+        />
+
+        <!-- Toggle to expand nested items -->
+        
+          
+          <label
+            class="md-nav__link"
+            for="__nav_4"
+            id="__nav_4_label"
+            tabindex="0"
+          >
+            
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      
+
+      
+        Lesson plans
+      
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+
+        <!-- Toggle to expand nested items with link to index page -->
+        
+
+        <!-- Nested navigation -->
+        <nav
+          class="md-nav"
+          data-md-level="1"
+          aria-labelledby="__nav_4_label"
+          aria-expanded="false"
+        >
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Lesson plans
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+
+            <!-- Nested navigation item -->
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+
+    <!-- Determine all nested items that are index pages -->
+    
+    
+
+    <!-- Determine whether to render item as a section -->
+    
+    
+    
+
+    <!-- Nested navigation item -->
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+
+        <!-- Determine checked and indeterminate state -->
+        
+        
+
+        <!-- Active checkbox expands items contained within nested section -->
+        <input
+          class="md-nav__toggle md-toggle "
+          type="checkbox"
+          id="__nav_4_1"
+          
+        />
+
+        <!-- Toggle to expand nested items -->
+        
+          
+          <label
+            class="md-nav__link"
+            for="__nav_4_1"
+            id="__nav_4_1_label"
+            tabindex="0"
+          >
+            
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      
+
+      
+      <span class="nav-unit-number">1</span>
+       FAIR generics
+      
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+
+        <!-- Toggle to expand nested items with link to index page -->
+        
+
+        <!-- Nested navigation -->
+        <nav
+          class="md-nav"
+          data-md-level="2"
+          aria-labelledby="__nav_4_1_label"
+          aria-expanded="false"
+        >
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            1. FAIR generics
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+
+            <!-- Nested navigation item -->
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../../units/FAIR-generics/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      Overview
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../../units/FAIR-generics/topics/1-why-fair/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      <span class="nav-lesson-plan-number">1.1</span>
+      Why FAIR?
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+    
+  
+
+  <!-- Render icon with title (or tooltip), if given -->
+  
+    <span
+      class="md-status md-status--ready_for_review"
+      title="Ready for review"
+    >
+    </span>
+
+  <!-- Render icon only -->
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../../units/FAIR-generics/topics/2-FAIR-vs-open-data/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      <span class="nav-lesson-plan-number">1.2</span>
+      FAIR vs open data/science
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+    
+  
+
+  <!-- Render icon with title (or tooltip), if given -->
+  
+    <span
+      class="md-status md-status--ready_for_review"
+      title="Ready for review"
+    >
+    </span>
+
+  <!-- Render icon only -->
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../../units/FAIR-generics/topics/3-data-life-cycle-and-FAIR-from-start/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      <span class="nav-lesson-plan-number">1.3</span>
+      Data Life Cycle approach to FAIR: FAIR by design
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+    
+  
+
+  <!-- Render icon with title (or tooltip), if given -->
+  
+    <span
+      class="md-status md-status--ready_for_review"
+      title="Ready for review"
+    >
+    </span>
+
+  <!-- Render icon only -->
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../../units/FAIR-generics/topics/4-FAIR-in-data-policies/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      <span class="nav-lesson-plan-number">1.4</span>
+      FAIR and/in institutional data policies
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+    
+  
+
+  <!-- Render icon with title (or tooltip), if given -->
+  
+    <span
+      class="md-status md-status--ready_for_review"
+      title="Ready for review"
+    >
+    </span>
+
+  <!-- Render icon only -->
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../../units/FAIR-generics/topics/5-defining-FAIR-objectives-for-projects/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      <span class="nav-lesson-plan-number">1.5</span>
+      Defining FAIR Objectives for a project
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+    
+  
+
+  <!-- Render icon with title (or tooltip), if given -->
+  
+    <span
+      class="md-status md-status--in_progress"
+      title="In progress"
+    >
+    </span>
+
+  <!-- Render icon only -->
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../../units/FAIR-generics/topics/6-FAIR-objectives-for-organisations/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      <span class="nav-lesson-plan-number">1.6</span>
+      Defining FAIR Objectives for Organisations
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+    
+  
+
+  <!-- Render icon with title (or tooltip), if given -->
+  
+    <span
+      class="md-status md-status--in_progress"
+      title="In progress"
+    >
+    </span>
+
+  <!-- Render icon only -->
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../../units/FAIR-generics/topics/7-policies-and-consent/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      <span class="nav-lesson-plan-number">1.7</span>
+      Policies and consent
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+    
+  
+
+  <!-- Render icon with title (or tooltip), if given -->
+  
+    <span
+      class="md-status md-status--in_progress"
+      title="In progress"
+    >
+    </span>
+
+  <!-- Render icon only -->
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+
+      <!-- Pruned navigation item -->
+      
+    </li>
+
+  <!-- Currently active page -->
+  
+
+              
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+
+    <!-- Determine all nested items that are index pages -->
+    
+    
+
+    <!-- Determine whether to render item as a section -->
+    
+    
+    
+
+    <!-- Nested navigation item -->
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+
+        <!-- Determine checked and indeterminate state -->
+        
+        
+
+        <!-- Active checkbox expands items contained within nested section -->
+        <input
+          class="md-nav__toggle md-toggle "
+          type="checkbox"
+          id="__nav_4_2"
+          
+        />
+
+        <!-- Toggle to expand nested items -->
+        
+          
+          <label
+            class="md-nav__link"
+            for="__nav_4_2"
+            id="__nav_4_2_label"
+            tabindex="0"
+          >
+            
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      
+
+      
+      <span class="nav-unit-number">2</span>
+       Findable data
+      
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+
+        <!-- Toggle to expand nested items with link to index page -->
+        
+
+        <!-- Nested navigation -->
+        <nav
+          class="md-nav"
+          data-md-level="2"
+          aria-labelledby="__nav_4_2_label"
+          aria-expanded="false"
+        >
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            2. Findable data
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+
+            <!-- Nested navigation item -->
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../../units/findable-data/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      Overview
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../../units/findable-data/topics/1-data-and-repository-discovery/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      <span class="nav-lesson-plan-number">2.1</span>
+      Data/Repository discovery
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+    
+  
+
+  <!-- Render icon with title (or tooltip), if given -->
+  
+    <span
+      class="md-status md-status--ready_for_review"
+      title="Ready for review"
+    >
+    </span>
+
+  <!-- Render icon only -->
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../../units/findable-data/topics/2-persistent-identifiers/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      <span class="nav-lesson-plan-number">2.2</span>
+      Persistent identifiers (PIDs)
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+    
+  
+
+  <!-- Render icon with title (or tooltip), if given -->
+  
+    <span
+      class="md-status md-status--ready_for_review"
+      title="Ready for review"
+    >
+    </span>
+
+  <!-- Render icon only -->
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../../units/findable-data/topics/3-metadata-standards/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      <span class="nav-lesson-plan-number">2.3</span>
+      Metadata standards for findability
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+    
+  
+
+  <!-- Render icon with title (or tooltip), if given -->
+  
+    <span
+      class="md-status md-status--ready_for_review"
+      title="Ready for review"
+    >
+    </span>
+
+  <!-- Render icon only -->
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+
+      <!-- Pruned navigation item -->
+      
+    </li>
+
+  <!-- Currently active page -->
+  
+
+              
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+
+    <!-- Determine all nested items that are index pages -->
+    
+    
+
+    <!-- Determine whether to render item as a section -->
+    
+    
+    
+
+    <!-- Nested navigation item -->
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+
+        <!-- Determine checked and indeterminate state -->
+        
+        
+
+        <!-- Active checkbox expands items contained within nested section -->
+        <input
+          class="md-nav__toggle md-toggle "
+          type="checkbox"
+          id="__nav_4_3"
+          
+        />
+
+        <!-- Toggle to expand nested items -->
+        
+          
+          <label
+            class="md-nav__link"
+            for="__nav_4_3"
+            id="__nav_4_3_label"
+            tabindex="0"
+          >
+            
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      
+
+      
+      <span class="nav-unit-number">3</span>
+       Accessible data
+      
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+
+        <!-- Toggle to expand nested items with link to index page -->
+        
+
+        <!-- Nested navigation -->
+        <nav
+          class="md-nav"
+          data-md-level="2"
+          aria-labelledby="__nav_4_3_label"
+          aria-expanded="false"
+        >
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            3. Accessible data
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+
+            <!-- Nested navigation item -->
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../../units/accessible-data/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      Overview
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../../units/accessible-data/topics/1-data-access/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      <span class="nav-lesson-plan-number">3.1</span>
+      Access modes, sensitive data, registered access, controlled access
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+    
+  
+
+  <!-- Render icon with title (or tooltip), if given -->
+  
+    <span
+      class="md-status md-status--ready_for_review"
+      title="Ready for review"
+    >
+    </span>
+
+  <!-- Render icon only -->
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+
+      <!-- Pruned navigation item -->
+      
+    </li>
+
+  <!-- Currently active page -->
+  
+
+              
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+
+    <!-- Determine all nested items that are index pages -->
+    
+    
+
+    <!-- Determine whether to render item as a section -->
+    
+    
+    
+
+    <!-- Nested navigation item -->
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+
+        <!-- Determine checked and indeterminate state -->
+        
+        
+
+        <!-- Active checkbox expands items contained within nested section -->
+        <input
+          class="md-nav__toggle md-toggle "
+          type="checkbox"
+          id="__nav_4_4"
+          
+        />
+
+        <!-- Toggle to expand nested items -->
+        
+          
+          <label
+            class="md-nav__link"
+            for="__nav_4_4"
+            id="__nav_4_4_label"
+            tabindex="0"
+          >
+            
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      
+
+      
+      <span class="nav-unit-number">4</span>
+       Interoperable data
+      
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+
+        <!-- Toggle to expand nested items with link to index page -->
+        
+
+        <!-- Nested navigation -->
+        <nav
+          class="md-nav"
+          data-md-level="2"
+          aria-labelledby="__nav_4_4_label"
+          aria-expanded="false"
+        >
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            4. Interoperable data
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+
+            <!-- Nested navigation item -->
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../../units/interoperable-data/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      Overview
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../../units/interoperable-data/topics/1-linked-data-and-semantic-web/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      <span class="nav-lesson-plan-number">4.1</span>
+      Linked data and semantic web technologies
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+    
+  
+
+  <!-- Render icon with title (or tooltip), if given -->
+  
+    <span
+      class="md-status md-status--in_progress"
+      title="In progress"
+    >
+    </span>
+
+  <!-- Render icon only -->
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../../units/interoperable-data/topics/2-M4M-workshop/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      <span class="nav-lesson-plan-number">4.2</span>
+      M4M workshop
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+    
+  
+
+  <!-- Render icon with title (or tooltip), if given -->
+  
+    <span
+      class="md-status md-status--in_progress"
+      title="In progress"
+    >
+    </span>
+
+  <!-- Render icon only -->
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../../units/interoperable-data/topics/3-vocabularies-and-ontologies/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      <span class="nav-lesson-plan-number">4.3</span>
+      Data vocabularies and ontologies
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+    
+  
+
+  <!-- Render icon with title (or tooltip), if given -->
+  
+    <span
+      class="md-status md-status--in_progress"
+      title="In progress"
+    >
+    </span>
+
+  <!-- Render icon only -->
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+
+      <!-- Pruned navigation item -->
+      
+    </li>
+
+  <!-- Currently active page -->
+  
+
+              
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+
+    <!-- Determine all nested items that are index pages -->
+    
+    
+
+    <!-- Determine whether to render item as a section -->
+    
+    
+    
+
+    <!-- Nested navigation item -->
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+
+        <!-- Determine checked and indeterminate state -->
+        
+        
+
+        <!-- Active checkbox expands items contained within nested section -->
+        <input
+          class="md-nav__toggle md-toggle "
+          type="checkbox"
+          id="__nav_4_5"
+          
+        />
+
+        <!-- Toggle to expand nested items -->
+        
+          
+          <label
+            class="md-nav__link"
+            for="__nav_4_5"
+            id="__nav_4_5_label"
+            tabindex="0"
+          >
+            
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      
+
+      
+      <span class="nav-unit-number">5</span>
+       Reusable data
+      
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+
+        <!-- Toggle to expand nested items with link to index page -->
+        
+
+        <!-- Nested navigation -->
+        <nav
+          class="md-nav"
+          data-md-level="2"
+          aria-labelledby="__nav_4_5_label"
+          aria-expanded="false"
+        >
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            5. Reusable data
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+
+            <!-- Nested navigation item -->
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../../units/reusable-data/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      Overview
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../../units/reusable-data/topics/1-FAIR-data-visiting/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      <span class="nav-lesson-plan-number">5.1</span>
+      FAIR Data visiting
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+    
+  
+
+  <!-- Render icon with title (or tooltip), if given -->
+  
+    <span
+      class="md-status md-status--in_progress"
+      title="In progress"
+    >
+    </span>
+
+  <!-- Render icon only -->
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+
+      <!-- Pruned navigation item -->
+      
+    </li>
+
+  <!-- Currently active page -->
+  
+
+              
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+
+    <!-- Determine all nested items that are index pages -->
+    
+    
+
+    <!-- Determine whether to render item as a section -->
+    
+    
+    
+
+    <!-- Nested navigation item -->
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+
+        <!-- Determine checked and indeterminate state -->
+        
+        
+
+        <!-- Active checkbox expands items contained within nested section -->
+        <input
+          class="md-nav__toggle md-toggle "
+          type="checkbox"
+          id="__nav_4_6"
+          
+        />
+
+        <!-- Toggle to expand nested items -->
+        
+          
+          <label
+            class="md-nav__link"
+            for="__nav_4_6"
+            id="__nav_4_6_label"
+            tabindex="0"
+          >
+            
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      
+
+      
+      <span class="nav-unit-number">6</span>
+       FAIR software
+      
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+
+        <!-- Toggle to expand nested items with link to index page -->
+        
+
+        <!-- Nested navigation -->
+        <nav
+          class="md-nav"
+          data-md-level="2"
+          aria-labelledby="__nav_4_6_label"
+          aria-expanded="false"
+        >
+          <label class="md-nav__title" for="__nav_4_6">
+            <span class="md-nav__icon md-icon"></span>
+            6. FAIR software
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+
+            <!-- Nested navigation item -->
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../../units/FAIR-software/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      Overview
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../../units/FAIR-software/topics/1-FAIR-software/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      <span class="nav-lesson-plan-number">6.1</span>
+      FAIR Software
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+    
+  
+
+  <!-- Render icon with title (or tooltip), if given -->
+  
+    <span
+      class="md-status md-status--in_progress"
+      title="In progress"
+    >
+    </span>
+
+  <!-- Render icon only -->
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+
+      <!-- Pruned navigation item -->
+      
+    </li>
+
+  <!-- Currently active page -->
+  
+
+              
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+
+    <!-- Determine all nested items that are index pages -->
+    
+    
+
+    <!-- Determine whether to render item as a section -->
+    
+    
+    
+
+    <!-- Nested navigation item -->
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+
+        <!-- Determine checked and indeterminate state -->
+        
+        
+
+        <!-- Active checkbox expands items contained within nested section -->
+        <input
+          class="md-nav__toggle md-toggle "
+          type="checkbox"
+          id="__nav_4_7"
+          
+        />
+
+        <!-- Toggle to expand nested items -->
+        
+          
+          <label
+            class="md-nav__link"
+            for="__nav_4_7"
+            id="__nav_4_7_label"
+            tabindex="0"
+          >
+            
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      
+
+      
+      <span class="nav-unit-number">7</span>
+       Data Repositories and FAIR
+      
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+
+        <!-- Toggle to expand nested items with link to index page -->
+        
+
+        <!-- Nested navigation -->
+        <nav
+          class="md-nav"
+          data-md-level="2"
+          aria-labelledby="__nav_4_7_label"
+          aria-expanded="false"
+        >
+          <label class="md-nav__title" for="__nav_4_7">
+            <span class="md-nav__icon md-icon"></span>
+            7. Data Repositories and FAIR
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+
+            <!-- Nested navigation item -->
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../../units/data-repositories/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      Overview
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+
+  <!-- Determine classes -->
+  
+  
+
+  <!-- Navigation item with nested items -->
+  
+    <li class="md-nav__item">
+      <a href="../../units/data-repositories/topics/1-repositories-and-FAIR/" class="md-nav__link">
+        
+
+  <!-- Navigation link icon -->
+  
+
+  <!-- Navigation link title -->
+  <span class="md-ellipsis">
+    
+      <span class="nav-lesson-plan-number">7.1</span>
+      Data Repositories and FAIR
+    
+  </span>
+
+  <!-- Navigation link status -->
+  
+    
+  
+
+  <!-- Render icon with title (or tooltip), if given -->
+  
+    <span
+      class="md-status md-status--ready_for_review"
+      title="Ready for review"
+    >
+    </span>
+
+  <!-- Render icon only -->
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+
+      <!-- Pruned navigation item -->
+      
+    </li>
+
+  <!-- Currently active page -->
+  
+
+              
+            
+          </ul>
+        </nav>
+
+      <!-- Pruned navigation item -->
+      
+    </li>
+
+  <!-- Currently active page -->
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-Converge/edit/main/docs/about/contributors.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+  <h1>Contributors</h1>
+
+<div><p>Get to know the contributors of the FAIR Lesson Plan Handbook. The FAIR Lesson Plan Handbook is an initiative of <a href="https://elixir-europe.org/">ELIXIR</a>, and is based on the <a href="https://fairsfair.gitbook.io/fair-teaching-handbook/">FAIRsFAIR Teaching Handbook</a> and its <a href="https://fairsfair.gitbook.io/fair-teaching-handbook/0lessonplans">FAIR lesson plans</a>. Feel free to <a href="/contribute/how_to_contribute">contribute</a> to the Handbook, either as an author or as a reviewer.</p>
+<div class="nt-cards nt-grid cols-4 contributors">
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://ui-avatars.com/api/?name=Ablikim%20Abudukerim" alt="Ablikim Abudukerim">
+
+    </div>
+    <p class="author-name">
+        Ablikim Abudukerim
+    </p>
+    <div class="author-socials">
+
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://ui-avatars.com/api/?name=Anne-Fran%C3%A7oise%20Adam-Blondon" alt="Anne-Françoise Adam-Blondon">
+
+    </div>
+    <p class="author-name">
+        Anne-Françoise Adam-Blondon
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0002-3412-9086" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://avatars.githubusercontent.com/minnami" alt="Minna Ahokas">
+
+    </div>
+    <p class="author-name">
+        Minna Ahokas
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0003-2313-0011" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+        <a href="https://github.com/minnami" target="_blank">
+            <img alt="GitHub logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/github.svg" width="16" height="16">
+        </a>
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://ui-avatars.com/api/?name=Aliya%20Aktau" alt="Aliya Aktau">
+
+    </div>
+    <p class="author-name">
+        Aliya Aktau
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0003-4942-2725" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://ui-avatars.com/api/?name=Dayane%20Araujo" alt="Dayane Araujo">
+
+    </div>
+    <p class="author-name">
+        Dayane Araujo
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0003-2211-0107" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://ui-avatars.com/api/?name=Cesar%20Bernabe" alt="Cesar Bernabe">
+
+    </div>
+    <p class="author-name">
+        Cesar Bernabe
+    </p>
+    <div class="author-socials">
+
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://avatars.githubusercontent.com/bianchini88" alt="Federico Bianchini">
+
+    </div>
+    <p class="author-name">
+        Federico Bianchini
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0002-9016-4820" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+        <a href="https://github.com/bianchini88" target="_blank">
+            <img alt="GitHub logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/github.svg" width="16" height="16">
+        </a>
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://ui-avatars.com/api/?name=Anna%20Lien%20Bouhuis" alt="Anna Lien Bouhuis">
+
+    </div>
+    <p class="author-name">
+        Anna Lien Bouhuis
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0002-4437-5504" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://ui-avatars.com/api/?name=Alexia%20Cardona" alt="Alexia Cardona">
+
+    </div>
+    <p class="author-name">
+        Alexia Cardona
+    </p>
+    <div class="author-socials">
+
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://ui-avatars.com/api/?name=Pascal%20de%20Boer" alt="Pascal de Boer">
+
+    </div>
+    <p class="author-name">
+        Pascal de Boer
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0001-6989-2252" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://avatars.githubusercontent.com/aderidder" alt="Sander de Ridder">
+
+    </div>
+    <p class="author-name">
+        Sander de Ridder
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0001-7250-7239" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+        <a href="https://github.com/aderidder" target="_blank">
+            <img alt="GitHub logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/github.svg" width="16" height="16">
+        </a>
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://ui-avatars.com/api/?name=Vilem%20Ded" alt="Vilem Ded">
+
+    </div>
+    <p class="author-name">
+        Vilem Ded
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0001-9235-8496" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://ui-avatars.com/api/?name=Reinier%20Dickhout" alt="Reinier Dickhout">
+
+    </div>
+    <p class="author-name">
+        Reinier Dickhout
+    </p>
+    <div class="author-socials">
+
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://ui-avatars.com/api/?name=Sara%20El-Gebali" alt="Sara El-Gebali">
+
+    </div>
+    <p class="author-name">
+        Sara El-Gebali
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0003-1378-5495" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://avatars.githubusercontent.com/peranti" alt="Pradeep Eranti">
+
+    </div>
+    <p class="author-name">
+        Pradeep Eranti
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0002-3060-3967" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+        <a href="https://github.com/peranti" target="_blank">
+            <img alt="GitHub logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/github.svg" width="16" height="16">
+        </a>
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://ui-avatars.com/api/?name=Nazeefa%20Fatima" alt="Nazeefa Fatima">
+
+    </div>
+    <p class="author-name">
+        Nazeefa Fatima
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0001-7791-4984" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://ui-avatars.com/api/?name=Branka%20Franicevic" alt="Branka Franicevic">
+
+    </div>
+    <p class="author-name">
+        Branka Franicevic
+    </p>
+    <div class="author-socials">
+
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://avatars.githubusercontent.com/siirif" alt="Siiri Fuchs">
+
+    </div>
+    <p class="author-name">
+        Siiri Fuchs
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0003-1391-9959" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+        <a href="https://github.com/siirif" target="_blank">
+            <img alt="GitHub logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/github.svg" width="16" height="16">
+        </a>
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://ui-avatars.com/api/?name=Alexandra%20Holinski" alt="Alexandra Holinski">
+
+    </div>
+    <p class="author-name">
+        Alexandra Holinski
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0003-2321-5568" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://ui-avatars.com/api/?name=Heleri%20Inno" alt="Heleri Inno">
+
+    </div>
+    <p class="author-name">
+        Heleri Inno
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0003-2043-0772" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://ui-avatars.com/api/?name=Samah%20Jaber" alt="Samah Jaber">
+
+    </div>
+    <p class="author-name">
+        Samah Jaber
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0002-7159-1448" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://avatars.githubusercontent.com/MijkeJetten" alt="Mijke Jetten">
+
+    </div>
+    <p class="author-name">
+        Mijke Jetten
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0001-9114-2896" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+        <a href="https://github.com/MijkeJetten" target="_blank">
+            <img alt="GitHub logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/github.svg" width="16" height="16">
+        </a>
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://ui-avatars.com/api/?name=Marta%20Karg%C3%B3" alt="Marta Kargó">
+
+    </div>
+    <p class="author-name">
+        Marta Kargó
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0002-2613-5953" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://avatars.githubusercontent.com/MartijnKersloot" alt="Martijn Kersloot">
+
+    </div>
+    <p class="author-name">
+        Martijn Kersloot
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0003-3357-3027" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+        <a href="https://github.com/MartijnKersloot" target="_blank">
+            <img alt="GitHub logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/github.svg" width="16" height="16">
+        </a>
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://avatars.githubusercontent.com/konradana" alt="Ana Konrad">
+
+    </div>
+    <p class="author-name">
+        Ana Konrad
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0009-0002-3089-9558" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+        <a href="https://github.com/konradana" target="_blank">
+            <img alt="GitHub logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/github.svg" width="16" height="16">
+        </a>
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://ui-avatars.com/api/?name=Pauline%20l'H%C3%A9naff" alt="Pauline l'Hénaff">
+
+    </div>
+    <p class="author-name">
+        Pauline l'Hénaff
+    </p>
+    <div class="author-socials">
+
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://ui-avatars.com/api/?name=Saskia%20Lawson-Tovey" alt="Saskia Lawson-Tovey">
+
+    </div>
+    <p class="author-name">
+        Saskia Lawson-Tovey
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0002-8611-162X" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://ui-avatars.com/api/?name=Jessica%20Lindvall" alt="Jessica Lindvall">
+
+    </div>
+    <p class="author-name">
+        Jessica Lindvall
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0002-5042-8481" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://avatars.githubusercontent.com/allysonlister" alt="Allyson Lister">
+
+    </div>
+    <p class="author-name">
+        Allyson Lister
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0002-7702-4495" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+        <a href="https://github.com/allysonlister" target="_blank">
+            <img alt="GitHub logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/github.svg" width="16" height="16">
+        </a>
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://ui-avatars.com/api/?name=Naeem%20Muhammad" alt="Naeem Muhammad">
+
+    </div>
+    <p class="author-name">
+        Naeem Muhammad
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0003-4475-0164" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://avatars.githubusercontent.com/stephan-nylinder" alt="Stephan Nylinder">
+
+    </div>
+    <p class="author-name">
+        Stephan Nylinder
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0001-5199-7128" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+        <a href="https://github.com/stephan-nylinder" target="_blank">
+            <img alt="GitHub logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/github.svg" width="16" height="16">
+        </a>
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://ui-avatars.com/api/?name=Lisanna%20Paladin" alt="Lisanna Paladin">
+
+    </div>
+    <p class="author-name">
+        Lisanna Paladin
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0003-0011-9397" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://ui-avatars.com/api/?name=Julia%20Philipp" alt="Julia Philipp">
+
+    </div>
+    <p class="author-name">
+        Julia Philipp
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0001-7236-7379" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://ui-avatars.com/api/?name=Diana%20Pilvar" alt="Diana Pilvar">
+
+    </div>
+    <p class="author-name">
+        Diana Pilvar
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0002-5788-2687" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://avatars.githubusercontent.com/Fieke-Schoots" alt="Fieke Schoots">
+
+    </div>
+    <p class="author-name">
+        Fieke Schoots
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0002-4385-9312" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+        <a href="https://github.com/Fieke-Schoots" target="_blank">
+            <img alt="GitHub logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/github.svg" width="16" height="16">
+        </a>
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://ui-avatars.com/api/?name=Jolanda%20Strubel" alt="Jolanda Strubel">
+
+    </div>
+    <p class="author-name">
+        Jolanda Strubel
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0001-6675-4639" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://ui-avatars.com/api/?name=Anna%20Swan" alt="Anna Swan">
+
+    </div>
+    <p class="author-name">
+        Anna Swan
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0003-1810-3756" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://avatars.githubusercontent.com/nrvanulzen" alt="Niek van Ulzen">
+
+    </div>
+    <p class="author-name">
+        Niek van Ulzen
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0003-0771-3516" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+        <a href="https://github.com/nrvanulzen" target="_blank">
+            <img alt="GitHub logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/github.svg" width="16" height="16">
+        </a>
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://avatars.githubusercontent.com/jvddorpe" alt="Justine Vandendorpe">
+
+    </div>
+    <p class="author-name">
+        Justine Vandendorpe
+    </p>
+    <div class="author-socials">
+
+        <a href="https://orcid.org/0000-0002-9421-8582" target="_blank">
+            <img alt="ORCID logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/orcid.svg" width="16" height="16">
+        </a>
+
+
+        <a href="https://github.com/jvddorpe" target="_blank">
+            <img alt="GitHub logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/github.svg" width="16" height="16">
+        </a>
+
+    </div>
+</div>
+
+<div class="author-card">
+    <div class="author-image">
+
+            <img src="https://avatars.githubusercontent.com/brunasv" alt="Bruna Vieira">
+
+    </div>
+    <p class="author-name">
+        Bruna Vieira
+    </p>
+    <div class="author-socials">
+
+
+        <a href="https://github.com/brunasv" target="_blank">
+            <img alt="GitHub logo" src="/ELIXIR-TrP-FAIR-Converge/assets/images/icons/github.svg" width="16" height="16">
+        </a>
+
+    </div>
+</div>
+
+</div></div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+
+    <!-- Link to previous and/or next page -->
+    
+      
+        
+        <nav
+          class="md-footer__inner md-grid"
+          aria-label="Footer"
+          
+        >
+  
+          <!-- Link to previous page -->
+          
+            
+            <a
+              href="../.."
+              class="md-footer__link md-footer__link--prev"
+              aria-label="Previous: Home"
+            >
+              <div class="md-footer__button md-icon">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+              </div>
+              <div class="md-footer__title">
+                <span class="md-footer__direction">
+                  Previous
+                </span>
+                <div class="md-ellipsis">
+                  Home
+                </div>
+              </div>
+            </a>
+          
+  
+          <!-- Link to next page -->
+          
+            
+            <a
+              href="../support/"
+              class="md-footer__link md-footer__link--next"
+              aria-label="Next: Support"
+            >
+              <div class="md-footer__title">
+                <span class="md-footer__direction">
+                  Next
+                </span>
+                <div class="md-ellipsis">
+                  Support
+                </div>
+              </div>
+              <div class="md-footer__button md-icon">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+              </div>
+            </a>
+          
+        </nav>
+      
+    
+  
+    <!-- Further information -->
+    <div class="md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        <div class="md-copyright">
+    <div class="cc-license">
+      <a href="http://creativecommons.org/licenses/by/4.0/"><img src="https://i.creativecommons.org/l/by/4.0/88x31.png" alt="Creative Commons License" /></a> 
+      <span>
+        The FAIR lesson plans handbook is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>, except where otherwise noted.
+      </span>
+    </div>
+</div>
+  
+        <!-- Social links -->
+        
+      </div>
+    </div>
+  </footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.footer", "toc.integrate", "content.action.edit"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>
