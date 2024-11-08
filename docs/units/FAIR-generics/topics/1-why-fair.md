@@ -35,11 +35,97 @@ learning_outcomes:
 
 content:
   during:
-    - learning_outcome: 1
-      activities: Explain what each letter in the FAIR acronym mean, and how they relate to each other
-      time: 10 min
-      type: frontal lecture
+    
+    
+    learning_outcome: 1
+      activities: Have participants list what each letter in the FAIR acronym mean, and why these are important for their daily research practices
+      time: 20 min
+      type: individual exercise
       level: beginner 
+    
+    - learning_outcome: 1
+      activities: Have participants present examples of different stakeholders (e.g., researchers, funders, the public) and discuss how each benefits from FAIR principles
+      time: 10 min
+      type: group discussion
+      level: beginner 
+
+    - learning_outcome: 2
+      activities: Have participants provide a list of FAIR data requirements from journals and funding bodies and review them together
+      time: 10 min
+      type: group discussion
+      level: beginner
+
+    - learning_outcome: 2
+      activities: In pairs, participants look up sample guidelines from a journal or funder and list how they impact data management practices
+      time: 30 min
+      type: group exercise
+      level: beginner
+
+    - learning_outcome: 3
+      activities: Have participants list common issues in research that arise from non-FAIR data practices, such as data loss or inaccessibility
+      time: 10 min
+      type: group discussion
+      level: beginner
+
+    - learning_outcome: 3
+      activities: Ask participants to analyze case studies of projects that failed due to non-FAIR practices and discuss the repercussions
+      time: 20 min
+      type: group discussion
+      level: intermediate
+
+    - learning_outcome: 4
+      activities: Introduce participants to key changes needed to adopt FAIR principles within a research team, using simple examples
+      time: 10 min
+      type: group discussion
+      level: beginner
+
+    - learning_outcome: 4
+      activities: In groups, participants analyze a project scenario and identify specific changes needed to meet FAIR principles, sharing their findings
+      time: 20 min
+      type: group discussion
+      level: intermediate
+
+    - learning_outcome: 4
+      activities: Divide participants into groups to identify and share how each stakeholder’s needs align with FAIR principles in a research project
+      time: 20 min
+      type: group discussion
+      level: intermediate
+      
+    - learning_outcome: 4
+      activities: Organize a workshop where participants evaluate a real or hypothetical project’s current practices, then develop a detailed action plan to implement FAIR principles
+      time: 60 min
+      type: workshop
+      level: expert
+
+    - learning_outcome: 4
+      activities: Have participants debate the broader societal impact of adopting FAIR principles, considering different stakeholder perspectives
+      time: 30 min
+      type: workshop
+      level: expert
+
+
+    - learning_outcome: 4
+      activities: Create a case study analysis where participants evaluate a project’s adherence to a specific institution's FAIR requirements, suggesting improvements
+      time: 60 min
+      type: Case study
+      level: expert
+
+- learning_outcome: 4
+      activities: Facilitate a role-playing scenario where participants present a 'worst-case scenario' impact analysis of ignoring FAIR principles for a research project
+      time: 60 min
+      type: Role-playing
+      level: expert
+
+
+
+
+
+
+
+888
+
+
+      
 
     - learning_outcome: 2
       activities: Identify common stakeholders related to FAIR usage in the following links, and group them in the following three categories; perform (p), facilitate (f) and benefit (b). [Link 1](https://genestack.com/resources/library/the-fair-principles-of-data-management/), [Link 2](https://www.rd-alliance.org/sites/default/files/RDA-SHARC%20Poster%20template%20Melbourne%20-%202020%20V10032020%20.jpg)
@@ -147,36 +233,17 @@ references:
 
 
 --- 
-## Topic
+## Overview
 
-Making research data FAIR (Findable, Accessible, Interoperable, and Reusable) is of great importance in a data-driven world. By knowing of and adopting the FAIR principles, organisations and researchers can reach new levels of data and resource impacts, leading to numerous benefits for both the researcher community and society at large.
+Making research data FAIR (Findable, Accessible, Interoperable, and Reusable) is of great importance in a data-driven world. Knowledge of the FAIR data principles and their practical application is crucial for maximising the value of data and resources, leading to more efficient research and increased knowledge sharing. By knowing of and adopting the FAIR principles, organisations and researchers can reach new levels of data and resource impacts, leading to numerous benefits for both the researcher community and society at large. Adopting and embracing the FAIR principles is a vital step towards advancing research and addressing complex challenges in all domains. Journals, institutions, and funding bodies are often requiring that research follows the FAIR principles (e.g., [Horizon Europe](https://horizoneuropencpportal.eu/sites/default/files/2022-09/ore-fair-data-guide.pdf) and [NIH](https://sharing.nih.gov/data-management-and-sharing-policy/data-management#:~:text=NIH%20encourages%20data%20management%20and,repurposing%20datasets%20for%20secondary%20research)).
 
-In short, knowledge of the FAIR data principles and their practical application is crucial for maximising the value of data and resources, leading to more efficient research and increased knowledge sharing. Adopting and embracing the FAIR principles is a vital step towards advancing research and addressing complex challenges in all domains.
+This lesson plan includes understanding of the importance of the FAIR principles for various stakeholders and the requirements of FAIR data set by journals, institutions, and funding bodies. Additionaly, it explores potential consequences of not applying the FAIR principles and the required changes for FAIR research practices in a project, group or organisation
 
-[Glossary references]
-
-## Alignment with FAIR principles
-The topic of "Why FAIR" aligns with all aspects of FAIR in a more general way than other topics. It includes general knowledge of what FAIR is, what different  stakeholders of the FAIR principles expect from researchers going FAIR and why/how they benefit from its implementation. There are also incentives such as requirements from journals, institutions, and funding bodies. Exemplary recommendations from major entities include the ones from [Horizon 2020](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf), [UKRI](https://www.ukri.org/manage-your-award/publishing-your-research-findings/making-your-research-data-open/), [EOSC](https://eosc.eu/events/monitoring-eosc-readiness-fair-data-policies/), and [NIH](https://sharing.nih.gov/data-management-and-sharing-policy/data-management#:~:text=NIH%20encourages%20data%20management%20and,repurposing%20datasets%20for%20secondary%20research).
-
-<!--
-## Topic, definition and scope
-
-* What is FAIR? (FAIRsFAIR lesson plan available [“FAIR in a nutshell”](https://fairsfair.gitbook.io/fair-teaching-handbook/0lessonplans/1lessonplan))
-* Who are the stakeholders? Answers to FAIR questions are different for the different stakeholders (researchers, organisations,  management, society)
-* Generic answers to **why** different stakeholders benefit from implementing the FAIR principles 
-* Motivation to implement FAIR: (depends on stakeholder)
-    * Why make data Findable?
-    * Why make data Accessible?
-    * Why make data Interoperable?
-    * Why make data Reusable?
-* Benefits for different roles/levels (individual researcher vs scientific/discipline knowledge vs societal)
-* Incentives such as requirements from journals, institutions, and funding bodies. Exemplary recommendations from major entities include the ones from [Horizon 2020](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf), [UKRI](https://www.ukri.org/manage-your-award/publishing-your-research-findings/making-your-research-data-open/), [EOSC](https://eosc.eu/events/monitoring-eosc-readiness-fair-data-policies/), [NIH](https://sharing.nih.gov/data-management-and-sharing-policy/data-management#:~:text=NIH%20encourages%20data%20management%20and,repurposing%20datasets%20for%20secondary%20research).
--->
 <!--
 ---
 ## Lesson content
 
-The "Why FAIR?" lesson plan introduces the FAIR principles in a general way by explaining the meaning and intention of each letter of the FAIR acronym one by one, and how they relate to each other.
+
 References: [FAIRsFAIR lesson plan, slide 1-19](https://zenodo.org/record/5078286), [The FAIR principles explained - Maastricht University](https://www.youtube.com/watch?v=5OeCrQE3HhE), [Make your research data F.A.I.R](https://www.youtube.com/watch?v=kIwHJ6DkFdc), Cessda training, NL, [DCC PO FAIR datamanagement](https://www.youtube.com/watch?v=AL8L0fHgdI0))
 
 
@@ -255,20 +322,11 @@ Societal    Societal value
 
 * Summarise the cost of not having FAIR data - estimated as €10.2bn per year! ([link](https://op.europa.eu/en/publication-detail/-/publication/d375368c-1a0a-11e9-8d04-01aa75ed71a1/language-en))
 
----
 
-## Materials / Equipment
-
-* Fact sheets with summary (broad audience) - zenodo pub?
-* eBook (background information for a broader audience, maybe not citizens, but including management) - published where? zenodo?
-* Best practices examples of FAIR data (researchers) interactive sessions
 * [FAIRification framework recipe](https://faircookbook.elixir-europe.org/content/recipes/introduction/fairification-process.html) from the FAIR Cookbook
 
 ---
 
-## Take home tasks/preparation
-
-* Preparation: read the fact sheet with the summary.
 * Take home: 
     * Identify opportunities to apply FAIR principles in your own organisation
     * Identify benefits from applying FAIR principles in your own organisation
