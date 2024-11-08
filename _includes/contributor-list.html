@@ -1,5 +1,5 @@
 <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-xl-5 g-4 contributor-cards mb-4">
-{% assign sorted_contributors = site.data.contributors.contributors | sort_natural: 'lastName' %}
+{% assign sorted_contributors = site.data.contributors | sort_natural: 'lastName' %}
     {% for contributor in sorted_contributors %}
     <div class="col">
         <div class="author-card">

@@ -105,7 +105,7 @@ layout: plan-unit
             {% if page.authors %}
             <ul>
                 {% for authorId in page.authors %}
-                {% assign author = site.data.contributors.contributors | find: "id", authorId %}
+                {% assign author = site.data.contributors | find: "id", authorId %}
 
                 <li>
                     {{ author.firstName }} {{ author.lastName }}
@@ -123,7 +123,7 @@ layout: plan-unit
             {% if page.reviewers %}
             <ul>
                 {% for reviewerId in page.reviewers %}
-                {% assign reviewer = site.data.contributors.contributors | find: "id", reviewerId %}
+                {% assign reviewer = site.data.contributors | find: "id", reviewerId %}
 
                 <li>
                     {{ reviewer.firstName }} {{ reviewer.lastName }}
