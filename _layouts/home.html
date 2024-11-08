@@ -20,7 +20,7 @@ layout: default
 
                     {% assign topic_pages = plans | where_exp: "page", "page.path contains topics_path" %}
                     <div class="col">
-                        <a href="{{ unit.permalink }}" class="unit-card">
+                        <a href="{{ unit.url | relative_url }}" class="unit-card">
                             <span class="unit-title">
                                 {{ unit.title }}
                             </span>
