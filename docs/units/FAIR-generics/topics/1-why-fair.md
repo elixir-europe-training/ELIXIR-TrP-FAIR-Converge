@@ -34,8 +34,28 @@ learning_outcomes:
     outcome: Understanding/analysing/evaluating the required changes for FAIR research practices in a project, group or organisation
 
 content:
+  before:
+    - learning_outcome: 1
+      activities:
+       - Have participants read the FAIR Cookbook's [Introducing the FAIR Principles](https://faircookbook.elixir-europe.org/content/recipes/introduction/brief-FAIR-principles.html) to get an idea of what the FAIR principles entail."
+      time: 20 min
+      type: individual exercise
+      level: beginner
+  
   during:
-   - learning_outcome: 1
+    - learning_outcome: 1
+      activities: Present to participants what each letter in the FAIR acronym means and how they relate to each other
+      time: 15 min
+      type: lecture
+      level: beginner 
+
+    - learning_outcome: 1
+      activities: Divide people into pairs and let them explain to each other how they are already making their data FAIR and what is one thing they can easily do to make their data FAIR
+      time: 15 min
+      type: group activity
+      level: beginner 
+  
+    - learning_outcome: 1
       activities: Have participants list what each letter in the FAIR acronym mean, and why these are important for their daily research practices
       time: 20 min
       type: individual exercise
@@ -107,14 +127,14 @@ content:
       type: case study
       level: expert
 
-  - learning_outcome: 4
+    - learning_outcome: 4
       activities: Facilitate a role-playing scenario where participants present a 'worst-case scenario' impact analysis of ignoring FAIR principles for a research project
       time: 60 min
       type: Role-playing
       level: expert
 
   after:
-  - learning_outcome: 4
+    - learning_outcome: 4
       activities: Have participants identify benefits and opportunities to apply FAIR principles in their own project, group and organisation
       time: 45 min
       type: individual exercise
