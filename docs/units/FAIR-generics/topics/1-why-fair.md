@@ -230,5 +230,7 @@ Summarise the cost of not having FAIR data - estimated as €10.2bn per year! ([
 
 [FAIRification framework recipe](https://faircookbook.elixir-europe.org/content/recipes/introduction/fairification-process.html) from the FAIR Cookbook
 
+familiarise yourself with FAIRsFAIR's FAIR in a nutshell lesson plan. 
+
 ---
 -->
