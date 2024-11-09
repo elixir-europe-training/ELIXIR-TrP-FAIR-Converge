@@ -110,7 +110,7 @@ content:
       level: intermediate
       
     - learning_outcome: 4
-      activities: Organize a workshop where participants evaluate a real or hypothetical project’s current practices, then develop a detailed action plan to implement FAIR principles
+      activities: Organise a workshop where participants evaluate a real or hypothetical project’s current practices, then develop a detailed action plan to implement the FAIR principles
       time: 60 min
       type: workshop
       level: expert
