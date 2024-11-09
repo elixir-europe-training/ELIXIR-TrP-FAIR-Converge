@@ -98,7 +98,7 @@ content:
       level: beginner
 
     - learning_outcome: 4
-      activities: In groups, participants analyze a project scenario and identify specific changes needed to meet FAIR principles, sharing their findings
+      activities: In groups, participants analyse a project scenario and identify specific changes needed to meet FAIR principles, sharing their findings
       time: 20 min
       type: group discussion
       level: intermediate
