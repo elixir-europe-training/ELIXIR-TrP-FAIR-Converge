@@ -86,7 +86,7 @@ content:
       level: beginner
 
     - learning_outcome: 3
-      activities: Ask participants to analyze case studies of projects that failed due to non-FAIR practices and discuss the repercussions
+      activities: Ask participants to analyse case studies of projects that failed due to non-FAIR practices and discuss the repercussions
       time: 20 min
       type: group discussion
       level: intermediate
