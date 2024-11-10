@@ -214,14 +214,14 @@ references:
     doi: https://doi.org/10.1038/s41597-023-02167-2 
   - title: The FAIR principles of data management
     url: https://genestack.com/resources/library/the-fair-principles-of-data-management/
-    additionalInformation: section about stakeholders
+#    additionalInformation: section about stakeholders
   - title: Implementing FAIR in data sharing: who are the stakeholders and what are their responsibilities?
     author: Research Data Alliance
     url: https://www.rd-alliance.org/implementing-fair-data-sharing-who-are-stakeholders-and-what-are-their-responsibilities
   - title: Turning FAIR into reality
     author: European Commission
     url: https://ec.europa.eu/info/sites/default/files/turning_fair_into_reality_0.pdf
-    additionalInformation: chapter on Why FAIR?
+#    additionalInformation: chapter on Why FAIR?
   - title: FAIR data - ARDC
     url: https://ardc.edu.au/resources/aboutdata/fair-data/
   - title: Hurdles to implement FAIR principles
