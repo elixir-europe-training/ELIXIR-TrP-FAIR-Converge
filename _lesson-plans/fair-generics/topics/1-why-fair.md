@@ -205,7 +205,7 @@ references:
   - title: Ten reasons to share your data
     author: Amanda S. Barnard
     url: https://www.natureindex.com/news-blog/ten-reasons-to-share-your-data
-  - title: FAIR Cookbook: What are the FAIR Principles?
+  - title: FAIR Cookbook What are the FAIR Principles?
     url: https://faircookbook.elixir-europe.org/content/recipes/introduction/brief-FAIR-principles.html
   - title: Introduction to FAIR principles
     author: ELIXIR Luxembourg, LCSB
