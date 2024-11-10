@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+<body class="d-flex flex-column min-vh-100"{% unless page.toc == false %} data-bs-spy="scroll" data-bs-target="#toc-contents" data-bs-smooth-scroll="true" tabindex="0"{% endunless %}>
+{% if site.topnav_banner %}{% include banner.html %}{% endif %}
+{% if jekyll.environment == "development" and site.theme_variables.dev-info-banner == true %}{% include dev-info.html %}{% endif %}
+{% include topnav.html %}
+<!-- Page Content -->
+<div class="container flex-grow-1">
+    <!-- Content Row -->
+    <div id="layout" class="gap-5">
+        {{content}}
+    </div>
+</div>
+{% include scroll-top.html %}
+{% include footer.html %}
+{% include cookie-popup.html %}
+</body>
+</html>

@@ -1,0 +1,157 @@
+---
+layout: plan-unit
+---
+
+{% include unit-sidebar.html type="lesson-plan" %}
+
+<main id="lesson-plan">
+<div class="lesson-plan-header">
+    {% unless page.content contains "<h1" %}
+    <h1>
+        <span class="lesson-plan-number">{{ page.number }}</span>
+        {{ page.title | default: site.title }}
+    </h1>
+    {% endunless %}
+</div>
+
+<div class="lesson-plan-metadata">
+    <nav>
+        <div class="nav nav-tabs" id="nav-metadata" role="tablist">
+            <button class="nav-link active" id="metadata-general-tab" data-bs-toggle="tab" data-bs-target="#metadata-general" type="button" role="tab" aria-controls="metadata-general" aria-selected="true">
+                General
+            </button>
+            <button class="nav-link" id="metadata-prerequisites-tab" data-bs-toggle="tab" data-bs-target="#metadata-prerequisites" type="button" role="tab" aria-controls="metadata-prerequisites" aria-selected="false">
+                Prerequisites
+            </button>
+            <button class="nav-link" id="metadata-outcomes-tab" data-bs-toggle="tab" data-bs-target="#metadata-outcomes" type="button" role="tab" aria-controls="metadata-outcomes" aria-selected="false">
+                Learning outcomes
+            </button>
+        </div>
+    </nav>
+    <div class="tab-content" id="nav-metadataContent">
+        <div class="tab-pane show active" id="metadata-general" role="tabpanel" aria-labelledby="metadata-general-tab">
+            <div class="lesson-plan-metadata-blocks">
+                <div class="lesson-plan-metadata-block">
+                    <div class="lesson-plan-metadata-block-title">Status</div>
+                    {% if page.status and page.authors %}
+                    <div class="lesson-plan-tag lesson-plan-status lesson-plan-status-{{ page.status }}">
+                        <span class="md-status md-status--{{ page.status }}" title="{{ site.data.status[page.status] }}"></span>
+                        {{ site.data.statuses[page.status] }}
+                    </div>
+                    {% endif %}
+                </div>
+
+                <div class="lesson-plan-metadata-block">
+                    <div class="lesson-plan-metadata-block-title">FAIR elements</div>
+                    {% if page.fair_elements %}
+                    <ul class="lesson-plan-tags lesson-plan-tags-elements">
+                        {% for fair_element in page.fair_elements %}
+                        <li class="lesson-plan-tag">{{ site.data.fair_principles[fair_element].title }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="metadata-prerequisites" role="tabpanel" aria-labelledby="metadata-prerequisites-tab">
+
+            {% if page.prerequisites %}
+            <ul>
+                {% for prerequisite in page.prerequisites %}
+                <li>{{ prerequisite }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </div>
+        <div class="tab-pane" id="metadata-outcomes" role="tabpanel" aria-labelledby="metadata-outcomes-tab">
+            {% if page.learning_outcomes %}
+            <ol>
+                {% for outcome in page.learning_outcomes %}
+                <li>{{ outcome[1].outcome }}</li>
+                {% endfor %}
+            </ol>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<div class="lesson-plan-content">
+{{ content }}
+
+{% include lesson-content.html %}
+
+{% include references.html %}
+</div>
+
+<div class="lesson-plan-metadata lesson-plan-credits">
+    <nav>
+        <div class="nav nav-tabs" id="nav-credits" role="tablist">
+            <button class="nav-link active" id="credits-authors-tab" data-bs-toggle="tab" data-bs-target="#credits-authors" type="button" role="tab" aria-controls="credits-authors" aria-selected="true">
+                Authors
+            </button>
+            <button class="nav-link" id="credits-reviewers-tab" data-bs-toggle="tab" data-bs-target="#credits-reviewers" type="button" role="tab" aria-controls="credits-reviewers" aria-selected="false">
+                Reviewers
+            </button>
+
+            {% if page.terms4FAIRskills %}
+            <button class="nav-link" id="credits-annotations-tab" data-bs-toggle="tab" data-bs-target="#credits-annotations" type="button" role="tab" aria-controls="credits-annotations" aria-selected="false">
+                Annotations
+            </button>
+            {% endif %}
+        </div>
+    </nav>
+    <div class="tab-content" id="nav-creditsContent">
+        <div class="tab-pane show active" id="credits-authors" role="tabpanel" aria-labelledby="credits-authors-tab">
+            {% if page.authors %}
+            <ul>
+                {% for authorId in page.authors %}
+                {% assign author = site.data.contributors | find: "id", authorId %}
+
+                <li>
+                    {{ author.firstName }} {{ author.lastName }}
+                    {% if author.orcid %}
+                    <a href="https://orcid.org/{{ author.orcid }}" target="_blank">
+                        <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
+                    </a>
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </div>
+        <div class="tab-pane" id="credits-reviewers" role="tabpanel" aria-labelledby="credits-reviewers-tab">
+            {% if page.reviewers %}
+            <ul>
+                {% for reviewerId in page.reviewers %}
+                {% assign reviewer = site.data.contributors | find: "id", reviewerId %}
+
+                <li>
+                    {{ reviewer.firstName }} {{ reviewer.lastName }}
+                    {% if reviewer.orcid %}
+                    <a href="https://orcid.org/{{ reviewer.orcid }}" target="_blank">
+                        <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
+                    </a>
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </div>
+
+        {% if page.terms4FAIRskills %}
+        <div class="tab-pane" id="credits-annotations" role="tabpanel" aria-labelledby="credits-annotations-tab">
+            <p>The <a href="https://terms4fairskills.github.io/" target="_blank">terms4FAIRskills</a> project has created a formalised terminology that describes the competencies, skills and knowledge associated with making and keeping data FAIR.</p>
+            <table id="terms4FAIRskills">
+                {% for triple in page.terms4FAIRskills %}
+                <tr>
+                    <td><ul>{% for subject in triple.subject %}<li><a href="{{ subject.uri }}" target="_blank">{{ subject.label }}</a></li>{% endfor %}</ul></td>
+                    <td><ul>{% for predicate in triple.predicate %}<li><a href="{{ predicate.uri }}" target="_blank">{{ predicate.label }}</a></li>{% endfor %}</ul></td>
+                    <td><ul>{% for object in triple.object %}<li><a href="{{ object.uri }}" target="_blank">{{ object.label }}</a></li>{% endfor %}</ul></td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+        {% endif %}
+    </div>
+</div>
+</main>

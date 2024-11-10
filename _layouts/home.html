@@ -1,0 +1,36 @@
+---
+layout: default
+---
+{% assign sorted_units = site.lesson-plans | sort: "number" | where_exp: "page", "page.layout == 'unit'" %}
+{% assign plans = site.lesson-plans | where_exp: "page", "page.path contains '/topics/'" %}
+
+<div class="container">
+    {{content}}
+
+    <div class="unit-navigation">
+        <h2>{{plans.size}} lesson plans</h2>
+
+        <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-xl-4 g-4 contributor-cards mb-4">
+            {% for unit in sorted_units %}
+                {% if unit.layout == "unit" %}
+                    {% assign path_segments = unit.path | split: "/" %}
+                    {% assign parent_folder = path_segments | slice: -2, 1 | join: "/" %}
+
+                    {% assign topics_path = parent_folder | append: "/topics/" %}
+
+                    {% assign topic_pages = plans | where_exp: "page", "page.path contains topics_path" %}
+                    <div class="col">
+                        <a href="{{ unit.url | relative_url }}" class="unit-card">
+                            <span class="unit-title">
+                                {{ unit.title }}
+                            </span>
+                            <span class="unit-plan-count">
+                                {{ topic_pages.size }} lesson plan{% if topic_pages.size != 1 %}s{% endif %}
+                            </span>
+                        </a>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>

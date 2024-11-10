@@ -1,0 +1,57 @@
+{% if include.activities %}
+<tr><th colspan="5">{{ include.title }}</th></tr>
+<tbody>
+{% for activity in include.activities %}
+<tr>
+    <td>
+        {% if activity.learning_outcome %}
+        <span class="learning-outcome" title="{{ page.learning_outcomes[activity.learning_outcome].outcome }}">
+          #{{ activity.learning_outcome }}
+        </span>
+        {% endif %}
+    </td>
+    <td>
+        <ul>
+            {% for activity in activity.activities %}
+            <li>{{ activity | markdownify }}</li>
+            {% endfor %}
+        </ul>
+    </td>
+    <td>
+        {{ activity.time}}
+    </td>
+    <td>
+        {{ activity.type}}
+    </td>
+    <td>
+        {% if activity.level %}
+        {% if activity.level == 'any' %}
+        <span class="lesson-plan-content-level-any">Any</span>
+        {% else %}
+        <span class="lesson-plan-content-level lesson-plan-content-level-{{ activity.level }}" title="{{ site.data.levels[activity.level].title }}">
+          <span class="icon material-symbols-outlined">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>
+          </span>
+          <span class="icon material-symbols-outlined">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>
+          </span>
+          <span class="icon material-symbols-outlined">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>
+          </span>
+        </span>
+        {% endif %}
+        {% endif %}
+    </td>
+    <td>
+        {% if activity.audience %}
+        {% if activity.audience == 'any' %}
+        <span class="lesson-plan-content-audience-any">Any</span>
+        {% else %}
+        {{ activity.audience }}
+        {% endif %}
+        {% endif %}
+    </td>
+</tr>
+{% endfor %}
+</tbody>
+{% endif %}
