@@ -215,7 +215,7 @@ references:
   - title: The FAIR principles of data management
     url: https://genestack.com/resources/library/the-fair-principles-of-data-management/
 #    additionalInformation: section about stakeholders
-  - title: Implementing FAIR in data sharing\: who are the stakeholders and what are their responsibilities?
+  - title: Implementing FAIR in data sharing who are the stakeholders and what are their responsibilities?
     author: Research Data Alliance
     url: https://www.rd-alliance.org/implementing-fair-data-sharing-who-are-stakeholders-and-what-are-their-responsibilities
   - title: Turning FAIR into reality
