@@ -17,6 +17,10 @@ layout: plan-unit
             {{ page.title | default: site.title }}
         </h1>
         {% endunless %}
+
+        {%- if site.theme_variables.github_buttons.position == "top" or site.theme_variables.github_buttons.position == nil %}
+        {% include github-buttons.html %}
+        {%- endif %}
     </div>
 
     <div class="unit-content">
