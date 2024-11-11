@@ -60,12 +60,25 @@ main#unit {
   nav {
     .nav-link {
       border: none;
+      display: flex;
+      align-items: center;
 
       border-bottom: 2px solid transparent;
 
       &.active {
         background: none;
         border-bottom-color: $primary;
+      }
+    }
+
+    .nav-icon {
+      display: flex;
+      margin-right: 2px;
+
+      svg {
+        height: 16px;
+        width: 16px;
+        fill: currentColor;
       }
     }
   }
@@ -95,6 +108,10 @@ main#unit {
         margin: 0!important;
         padding: 0;
         list-style: none;
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
       }
 
       ul.lesson-plan-tags li.lesson-plan-tag {
@@ -104,10 +121,7 @@ main#unit {
         background: #eaeaea;
         font-size: 14px;
         display: inline-block;
-        margin-right: 2px;
       }
-
-
 
       .lesson-plan-status {
         padding: 5px 10px;
@@ -138,13 +152,95 @@ main#unit {
       }
     }
   }
+
+  .learning-outcomes {
+    .learning-outcome {
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid $light-x;
+      display: flex;
+      gap: 10px;
+      flex-direction: row;
+      align-items: flex-start;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      .learning-outcome-number {
+        background: $primary;
+        padding: 3px 5px;
+        border-radius: 2px;
+        color: white;
+        font-size: 12px;
+        width: 20px;
+        text-align: center;
+        display: inline-block;
+      }
+
+      .learning-outcome-content {
+        .learning-outcome-verbs, .learning-outcome-subject {
+          display: inline;
+
+          .learning-outcome-verb {
+            cursor: help;
+            display: inline-flex;
+            align-items: center;
+
+            .learning-outcome-verb-word {
+              border-bottom: 1px dotted $primary;
+              margin-right: 3px;
+            }
+
+            .learning-outcome-verb-stars {
+              height: 10px;
+              display: inline-flex;
+
+              svg {
+                height: 10px;
+                width: 10px;
+                fill: $primary;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .contributors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+
+    .contributor {
+      display: flex;
+      gap: 4px;
+      background: white;
+      padding: 5px 10px;
+      border-radius: 2px;
+      align-items: center;
+
+      .contributor-image img {
+        height: 22px;
+        width: 22px;
+        border-radius: 100%;
+      }
+
+      .contributor-orcid {
+        display: flex;
+      }
+    }
+  }
 }
 
-.lesson-plan-content {
+.lesson-plan-block {
   margin: 30px 0;
   border-bottom: 1px solid $light;
   padding-bottom: 30px;
+}
 
+.lesson-plan-content {
   .learning-outcome {
     background: $primary;
     padding: 3px 5px;
@@ -152,6 +248,9 @@ main#unit {
     color: white;
     cursor: help;
     font-size: 12px;
+    width: 20px;
+    text-align: center;
+    display: inline-block;
   }
 
   .lesson-plan-content-level {
@@ -259,26 +358,27 @@ main#unit {
   }
 
   .unit-lesson-plan {
-    display: flex;
-    align-items: flex-start;
     font-size: 14px;
-    margin-bottom: 10px;
-    border-bottom: 0.05rem solid $light;
-    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid $light;
+    padding-bottom: 20px;
 
-    .unit-lesson-plan-link {
+    .unit-lesson-plan-header {
       display: flex;
-      align-items: flex-start;
-      width: 300px;
+      align-items: center;
       margin-right: 10px;
       text-decoration: none;
+      padding: 10px;
+      background: #e9ecef;
+      border-radius: 4px;
+      color: $primary;
+      gap: 5px;
     }
 
     .unit-lesson-plan-number {
       font-size: 11px;
       padding: 1px 3px;
       border-radius: 2px;
-      margin: 4px 8px 0 0;
       border: 1px solid $gray-600;
       color: $gray-600;
     }
@@ -287,8 +387,14 @@ main#unit {
       flex: 1;
     }
 
+    .unit-lesson-plan-icon {
+      svg {
+        fill: $primary;
+      }
+    }
+
     .unit-lesson-plan-description {
-      flex: 1;
+      padding: 10px 10px 0 10px;
     }
   }
 }
@@ -296,10 +402,6 @@ main#unit {
 @media screen and (max-width: 768px) {
   .unit-lesson-plan {
     display: block;
-  }
-  .unit-lesson-plan-link {
-    width: auto;
-    margin-bottom: 6px;
   }
 }
 
@@ -319,4 +421,104 @@ footer {
       color: white!important;
     }
   }
+}
+
+.reference-list {
+  ul li {
+    margin-bottom: 6px;
+  }
+
+  .reference-author,
+  .reference-title,
+  .reference-source {
+    display: block;
+  }
+
+  .reference-author {
+    font-size: 14px;
+  }
+
+  .reference-source {
+    font-size: 14px;
+  }
+
+  .reference-details {
+    color: var(--md-default-fg-color--light);
+  }
+
+  .reference-title .icon {
+    font-size: 14px;
+  }
+}
+
+.activities {
+  .activity-group {
+    //border: 1px solid $gray-600;
+    margin-bottom: 10px;
+    overflow: hidden;
+
+    .activity-group-header {
+      padding: 10px;
+      background: #e9ecef;
+      border-radius: 4px;
+      color: $primary;
+      display: flex;
+      align-items: center;
+
+      .activity-group-header-icon {
+        margin-right: 5px;
+        height: 24px;
+        width: 24px;
+
+        svg {
+          fill: $primary;
+        }
+      }
+    }
+  }
+
+  .activity-header {
+    font-weight: bold;
+  }
+
+  .activity-item, .activity-header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 10px;
+    margin: 5px 0;
+  }
+
+  .activity-item {
+    border-bottom: 1px solid $light;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .activity-learning-outcome {
+    width: 20px;
+  }
+  .activity-activity {
+    flex: 1;
+
+    p {
+      margin: 0;
+    }
+  }
+  .activity-time {
+    width: 60px;
+  }
+  .activity-type {
+    width: 90px;
+  }
+  .activity-level {
+    width: 72px;
+  }
+}
+
+.help-text {
+  cursor: help;
 }

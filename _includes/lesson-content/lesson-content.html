@@ -1,0 +1,31 @@
+{% if page.activities %}
+<div class="lesson-plan-block">
+    <h2 id="lesson-content">Lesson content</h2>
+    <div class="activities">
+        <div class="activity-header">
+            <div class="activity-header-item activity-learning-outcome">
+                <span class="help-text" data-bs-toggle="tooltip" data-bs-title="Learning outcome">
+                    LO
+                </span>
+            </div>
+            <div class="activity-header-item activity-activity">
+                Activity
+            </div>
+            <div class="activity-header-item activity-time">
+                Time
+            </div>
+            <div class="activity-header-item activity-type">
+                Type
+            </div>
+            <div class="activity-header-item activity-level">
+                Level
+            </div>
+        </div>
+        <div class="activity-content">
+            {% include lesson-content/activities.html icon="history" title="Before the lesson" activities=page.activities.before %}
+            {% include lesson-content/activities.html icon="schedule" title="During the lesson" activities=page.activities.during %}
+            {% include lesson-content/activities.html icon="update" title="After the lesson" activities=page.activities.after %}
+        </div>
+    </div>
+</div>
+{% endif %}

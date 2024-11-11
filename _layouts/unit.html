@@ -34,11 +34,17 @@ layout: plan-unit
             {% for lesson_plan in topic_pages %}
 
             <div class="unit-lesson-plan">
-                <a href="{{ lesson_plan.url | relative_url  }}" class="unit-lesson-plan-link">
+                <a href="{{ lesson_plan.url | relative_url  }}" class="unit-lesson-plan-header">
                     <span class="unit-lesson-plan-number">{{ lesson_plan.number }}</span>
                     <span class="unit-lesson-plan-title">{{ lesson_plan.title }}</span>
+                    <span class="unit-lesson-plan-icon">
+                        {% include icons/arrow-forward.svg %}
+                    </span>
                 </a>
-                <span class="unit-lesson-plan-description">{{ lesson_plan.description }}</span>
+                <div class="unit-lesson-plan-description">{{ lesson_plan.description }}</div>
+                <div class="unit-lesson-plan-read">
+
+                </div>
             </div>
             {% endfor %}
         </div>
