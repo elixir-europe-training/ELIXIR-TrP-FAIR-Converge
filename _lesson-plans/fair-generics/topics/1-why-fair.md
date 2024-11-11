@@ -27,17 +27,34 @@ fair_elements:
   - R
 
 learning_outcomes:
-  After completing this lesson plan, the participants are capable of:
   1:
-    outcome: Understanding the importance of the FAIR principles for various stakeholders
+    outcome: the importance of the FAIR principles for various stakeholders
+    verbs:
+      - verb: understanding
+        level: beginner
   2:
-    outcome: Understanding the requirements for FAIR data set by journals, institutions, and funding bodies
+    outcome: the requirements for FAIR data set by journals, institutions, and funding bodies
+    verbs:
+      - verb: understanding
+        level: beginner
   3:
-    outcome: Understanding/Analysing the potential consequences of not applying the FAIR principles
+    outcome: the potential consequences of not applying the FAIR principles
+    verbs:
+      - verb: understanding
+        level: beginner
+      - verb: analysing
+        level: intermediate
   4:
-    outcome: Understanding/analysing/evaluating the required changes for FAIR research practices in a project, group or organisation
+    outcome: the required changes for FAIR research practices in a project, group or organisation
+    verbs:
+      - verb: understanding
+        level: beginner
+      - verb: analysing
+        level: intermediate
+      - verb: evaluating
+        level: expert
 
-content:
+activities:
   before:
     - learning_outcome: 1
       activities:
@@ -144,7 +161,6 @@ content:
       level: intermediate 
 
 prerequisites:
-  For this lesson plan, participants should have a foundational understanding of:
   - FAIR principles
   - Reproducible research
 
@@ -190,7 +206,7 @@ terms4FAIRskills:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000447'
         label: the FAIR Principles
 
-references:
+additionalResources:
   - title: FAIR Cookbook - Introduction
     author: ELIXIR Europe
     url: https://faircookbook.elixir-europe.org/content/recipes/introduction/FAIR-cookbook-audience.html
@@ -237,7 +253,6 @@ references:
 
 
 --- 
-## Overview
 
 Making research data FAIR (Findable, Accessible, Interoperable, and Reusable) is of great importance in a data-driven world. Knowledge of the FAIR data principles and their practical application is crucial for maximising the value of data and resources, leading to more efficient research and increased knowledge sharing. By knowing of and adopting the FAIR principles, organisations and researchers can reach new levels of data and resource impacts, leading to numerous benefits for both the researcher community and society at large. 
 
@@ -249,7 +264,9 @@ This lesson plan includes understanding of the importance of the FAIR principles
 ---
 
 **Add to reference list**
-References: [FAIRsFAIR lesson plan, slide 1-19](https://zenodo.org/record/5078286), [The FAIR principles explained - Maastricht University](https://www.youtube.com/watch?v=5OeCrQE3HhE), [Make your research data F.A.I.R](https://www.youtube.com/watch?v=kIwHJ6DkFdc), Cessda training, NL, [DCC PO FAIR datamanagement](https://www.youtube.com/watch?v=AL8L0fHgdI0))
+References: [FAIRsFAIR lesson plan, slide 1-19](https://zenodo.org/record/5078286), 
+[The FAIR principles explained - Maastricht University](https://www.youtube.com/watch?v=5OeCrQE3HhE), 
+[Make your research data F.A.I.R](https://www.youtube.com/watch?v=kIwHJ6DkFdc), Cessda training, NL, [DCC PO FAIR datamanagement](https://www.youtube.com/watch?v=AL8L0fHgdI0))
 
 Summarise the cost of not having FAIR data - estimated as €10.2bn per year! ([link](https://op.europa.eu/en/publication-detail/-/publication/d375368c-1a0a-11e9-8d04-01aa75ed71a1/language-en))
 
