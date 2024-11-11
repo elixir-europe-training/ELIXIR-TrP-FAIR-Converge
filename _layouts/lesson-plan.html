@@ -9,9 +9,13 @@ layout: plan-unit
     {% unless page.content contains "<h1" %}
     <h1>
         <span class="lesson-plan-number">{{ page.number }}</span>
-        {{ page.title | default: site.title }}
+        <span class="lesson-plan-title">{{ page.title | default: site.title }}</span>
     </h1>
     {% endunless %}
+
+    {%- if site.theme_variables.github_buttons.position == "top" or site.theme_variables.github_buttons.position == nil %}
+    {% include github-buttons.html %}
+    {%- endif %}
 </div>
 
 <div class="lesson-plan-metadata">

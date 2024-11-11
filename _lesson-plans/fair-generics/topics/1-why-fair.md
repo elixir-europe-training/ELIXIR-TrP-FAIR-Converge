@@ -150,7 +150,7 @@ activities:
     - learning_outcome: 4
       activities: Facilitate a role-playing scenario where participants present a 'worst-case scenario' impact analysis of ignoring FAIR principles for a research project
       time: 60 min
-      type: Role-playing
+      type: role-playing
       level: expert
 
   after:
