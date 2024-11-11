@@ -1,0 +1,19 @@
+{% assign contributor = site.data.contributors | find: "id", include.id %}
+
+<div class="contributor">
+    <div class="contributor-image">
+        {% if contributor.image %}
+        <img src="{{ site.baseurl }}/{{ contributor.image }}" alt="{{ contributor.firstName }} {{ contributor.lastName }}" />
+        {% elsif contributor.git %}
+        <img src="https://avatars.githubusercontent.com/{{ contributor.git }}" alt="{{ contributor.firstName }} {{ contributor.lastName }}" />
+        {% else %}
+        <img src="https://ui-avatars.com/api/?name={{ contributor.firstName }} {{ contributor.lastName }}" alt="{{ contributor.firstName }} {{ contributor.lastName }}" />
+        {% endif %}
+    </div>
+    {{ contributor.firstName }} {{ contributor.lastName }}
+    {% if contributor.orcid %}
+    <a href="https://orcid.org/{{ contributor.orcid }}" target="_blank" class="contributor-orcid">
+        <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
+    </a>
+    {% endif %}
+</div>
