@@ -1,6 +1,9 @@
 ---
 title: FAIR Lesson Plan Handbook
 layout: home
+tagline: A framework for designing training programs on FAIR data
+description: >
+  Are you a trainer aiming to teach FAIR data practices to researchers, data stewards, or policy makers? The FAIR Lesson Plan Handbook provides a flexible framework to help you integrate FAIR principles into your curriculum, with resources and pathways for designing effective training programs.
 ---
 
-Are you a trainer and looking for material on teaching researchers or your peers (trainers, data stewards, policy makers etc.) on FAIR data? Do you want community help in creating inspiring FAIR data lessons? Then this FAIR Lesson Plan handbook might be of use, providing you guidance on teaching about FAIR data to integrate in your organisation's curriculum. 
+{% include unit-navigation.html %}

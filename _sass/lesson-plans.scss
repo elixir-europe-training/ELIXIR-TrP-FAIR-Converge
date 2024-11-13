@@ -325,7 +325,7 @@ main#unit {
 
   .unit-card {
     padding: 15px;
-    background: #edf6fc;
+    background: #e9ecef;
     border-radius: 4px;
     text-decoration: none;
     display: flex;
@@ -522,4 +522,27 @@ footer {
 
 .help-text {
   cursor: help;
+#home {
+  header .navbar {
+    margin-bottom: 0!important;
+  }
+}
+
+.visual {
+  background: #edf6fc;
+  padding: 50px 0;
+  margin-bottom: 50px;
+
+  h1 {
+    font-size: 32px;
+    line-height: 1.5;
+    color: $primary;
+    font-weight: 400;
+  }
+
+  p {
+     font-size: 15px;
+     color: $gray-600;
+   }
+}
 }
