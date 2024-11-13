@@ -315,10 +315,6 @@ main#unit {
 }
 
 .unit-navigation {
-  margin: 30px 0;
-  border-top: 1px solid $light;
-  padding-top: 30px;
-
   h2 {
     margin-bottom: 15px;
   }
@@ -522,6 +518,45 @@ footer {
 
 .help-text {
   cursor: help;
+#sidebar.unit-sidebar {
+  nav > ul > li.active {
+    & > a {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+  }
+  .nav-subitems {
+    //background: #f3f1f2;
+    border: 1px solid #f3f1f2;
+    border-bottom-left-radius: 0.375rem;
+    border-bottom-right-radius: 0.375rem;
+    padding: 10px;
+
+    li {
+      border-bottom: 1px solid #f3f1f2;
+      padding: 3px 0;
+
+      &:first-child {
+        padding-top: 0;
+      }
+      &:last-child {
+        border-bottom: none;
+      }
+
+      a {
+        margin-left: 0;
+      }
+
+      &.active {
+        a {
+          background-color: #e9ecef!important;
+          color: $primary!important;
+        }
+      }
+    }
+  }
+}
+
 #home {
   header .navbar {
     margin-bottom: 0!important;

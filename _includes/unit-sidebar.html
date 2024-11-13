@@ -12,7 +12,7 @@
     {% assign currentUnit = page %}
 {% endif %}
 
-<aside id="sidebar">
+<aside id="sidebar" class="unit-sidebar">
     <button class="btn text-start d-lg-none hover-primary collapsed sidebar-collapse w-100 mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#side-nav" aria-controls="side-nav" aria-expanded="true" aria-label="Toggle navigation">
         {{ page.sidebar | capitalize | replace: "_", " " }} Lesson plans <i title="navbar-toggler" class="fa-solid fa-bars ms-2"></i>
     </button>
@@ -32,18 +32,18 @@
                 {%- else %}
             <li>
                 {%- endif %}
-                <a class="btn hover-primary text-start d-block mb-1" href="{{unit.url | relative_url }}">{{ unit.title }}</a>
-            <ul class="list-unstyled">
-                {% for lesson_plan in topic_pages %}
-                {%- if page.url == lesson_plan.url %}
-                <li class="active">
-                    {%- else %}
-                <li>
-                    {%- endif %}
-                <a class="btn hover-primary text-start d-block mb-1" href="{{lesson_plan.url | relative_url }}">{{ lesson_plan.title }}</a>
-                </li>
-                {% endfor %}
-            </ul>
+                <a class="btn hover-primary text-start d-block" href="{{unit.url | relative_url }}">{{ unit.title }}</a>
+                <ul class="list-unstyled nav-subitems">
+                    {% for lesson_plan in topic_pages %}
+                    {%- if page.url == lesson_plan.url %}
+                    <li class="active">
+                        {%- else %}
+                    <li>
+                        {%- endif %}
+                    <a class="btn hover-primary text-start d-block" href="{{lesson_plan.url | relative_url }}">{{ lesson_plan.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
         </li>
         </ul>
         {% endfor %}
