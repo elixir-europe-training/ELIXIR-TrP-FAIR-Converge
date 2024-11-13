@@ -396,12 +396,6 @@ main#unit {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .unit-lesson-plan {
-    display: block;
-  }
-}
-
 footer {
   background: #000000de;
 
@@ -518,6 +512,8 @@ footer {
 
 .help-text {
   cursor: help;
+}
+
 #sidebar.unit-sidebar {
   nav > ul > li.active {
     & > a {
@@ -580,4 +576,39 @@ footer {
      color: $gray-600;
    }
 }
+
+.search-nav-item {
+  display: flex;
+  align-items: center;
+
+  &:before {
+    content: "";
+    padding-left: 14px;
+    border-left: 1px solid rgba(255, 255, 255, 0.25);
+    height: 21px;
+  }
+
+  .search-input, .input-group-text {
+    background: #0f4062;
+    color: white;
+    border-color: #0f4062;
+  }
+
+  .search-input::placeholder {
+    color: rgba(255, 255, 255, 0.55);
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .unit-lesson-plan {
+    display: block;
+  }
+  .search-nav-item {
+    display: block;
+
+    &:before {
+      display: none;
+    }
+  }
 }
