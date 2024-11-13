@@ -1,36 +1,34 @@
----
-layout: default
----
-{% assign sorted_units = site.lesson-plans | sort: "number" | where_exp: "page", "page.layout == 'unit'" %}
-{% assign plans = site.lesson-plans | where_exp: "page", "page.path contains '/topics/'" %}
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+<body id="home" class="d-flex flex-column min-vh-100"{% unless page.toc == false %} data-bs-spy="scroll" data-bs-target="#toc-contents" data-bs-smooth-scroll="true" tabindex="0"{% endunless %}>
+{% if site.topnav_banner %}{% include banner.html %}{% endif %}
+{% if jekyll.environment == "development" and site.theme_variables.dev-info-banner == true %}{% include dev-info.html %}{% endif %}
+{% include topnav.html %}
 
-<div class="container">
-    {{content}}
-
-    <div class="unit-navigation">
-        <h2>{{plans.size}} lesson plans</h2>
-
-        <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-xl-4 g-4 contributor-cards mb-4">
-            {% for unit in sorted_units %}
-                {% if unit.layout == "unit" %}
-                    {% assign path_segments = unit.path | split: "/" %}
-                    {% assign parent_folder = path_segments | slice: -2, 1 | join: "/" %}
-
-                    {% assign topics_path = parent_folder | append: "/topics/" %}
-
-                    {% assign topic_pages = plans | where_exp: "page", "page.path contains topics_path" %}
-                    <div class="col">
-                        <a href="{{ unit.url | relative_url }}" class="unit-card">
-                            <span class="unit-title">
-                                {{ unit.title }}
-                            </span>
-                            <span class="unit-plan-count">
-                                {{ topic_pages.size }} lesson plan{% if topic_pages.size != 1 %}s{% endif %}
-                            </span>
-                        </a>
-                    </div>
-                {% endif %}
-            {% endfor %}
+<div class="visual">
+    <div class="container">
+        <div class="row gx-5 justify-content-between">
+            <div class="col col-12 col-md-6 mb-4">
+                <h1>
+                    {{ page.tagline }}
+                </h1>
+                <p>
+                    {{ page.description }}
+                </p>
+            </div>
+            <div class="col col-12 col-md-5">
+                <img src="{{ site.baseurl }}/assets/images/home-visual.svg" />
+            </div>
         </div>
     </div>
 </div>
+<!-- Page Content -->
+<div class="container flex-grow-1">
+    {{content}}
+</div>
+{% include scroll-top.html %}
+{% include footer.html %}
+{% include cookie-popup.html %}
+</body>
+</html>

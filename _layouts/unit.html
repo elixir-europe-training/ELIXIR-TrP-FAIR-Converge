@@ -13,7 +13,6 @@ layout: plan-unit
     <div class="unit-header">
         {% unless page.content contains "<h1" %}
         <h1>
-            <span class="unit-number">{{ page.number }}</span>
             {{ page.title | default: site.title }}
         </h1>
         {% endunless %}
@@ -39,7 +38,6 @@ layout: plan-unit
 
             <div class="unit-lesson-plan">
                 <a href="{{ lesson_plan.url | relative_url  }}" class="unit-lesson-plan-header">
-                    <span class="unit-lesson-plan-number">{{ lesson_plan.number }}</span>
                     <span class="unit-lesson-plan-title">{{ lesson_plan.title }}</span>
                     <span class="unit-lesson-plan-icon">
                         {% include icons/arrow-forward.svg %}
