@@ -49,6 +49,7 @@
   orcid: "0000-0003-2043-0772"
   firstName: "Heleri"
   lastName: "Inno"
+  git: "heleriinno"
 
 - id: "0000-0003-1810-3756"
   orcid: "0000-0003-1810-3756"
@@ -65,6 +66,7 @@
   orcid: "0000-0002-5788-2687"
   firstName: "Diana"
   lastName: "Pilvar"
+  git: "diana-pilvar"
 
 - id: "0000-0002-4437-5504"
   orcid: "0000-0002-4437-5504"
