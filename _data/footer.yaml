@@ -1,13 +1,5 @@
 copyright: '[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) &nbsp; The FAIR Lesson Plan Handbook is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/), except where otherwise noted.'
 columns:
-  - type: image
-    image_width: 120px
-    width: 2
-    src: 'assets/images/white-orange-logo.png'
-    alt: Converge logo
-  - type: links
-    width: 3
-    children:
   - type: links
     width: 3
     children:

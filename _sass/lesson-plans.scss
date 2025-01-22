@@ -5,8 +5,10 @@ $fg-light: #f6f6f6;
 
 html {font-size: 14px}
 
-.navbar {
-  box-shadow: $shadow;
+header {
+  .navbar {
+    box-shadow: $shadow;
+  }
 }
 
 header .navbar .navbar-brand {
@@ -412,6 +414,27 @@ footer {
       color: white!important;
     }
   }
+
+  .logos {
+    gap: 20px;
+
+    img {
+      max-width: inherit;
+      height: 60px;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+      transition: all 0.5s ease;
+
+      &.small-logo {
+        height: 50px;
+      }
+
+      &:hover {
+        -webkit-filter: inherit;
+        filter: inherit;
+      }
+    }
+  }
 }
 
 .reference-list {
@@ -556,6 +579,12 @@ footer {
 #home {
   header .navbar {
     margin-bottom: 0!important;
+    box-shadow: none;
+    background: #edf6fc !important;
+
+    .navbar-brand, .nav-link {
+      color: $primary!important;
+    }
   }
 }
 
