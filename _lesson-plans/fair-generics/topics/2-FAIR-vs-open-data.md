@@ -18,6 +18,7 @@ description: >
 fair_elements:
   - F
   - A
+  - I
   - R
 
 audience:
