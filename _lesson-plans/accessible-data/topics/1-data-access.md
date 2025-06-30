@@ -16,6 +16,7 @@ fair_elements:
 audience:
   - Researchers and Project leaders
   - Data stewards
+  - Data Professionals 
   - Data controllers and processors
   - Data protection officers
   - Anyone who creates DMPs
