@@ -32,19 +32,40 @@ learning_outcomes:
     - verbs: understanding 
       level: beginner      
   2:
-    outcome: Participants will define what is e.g. a controlled access, registered access, etc
+    outcome: "controlled access, registered access, etc"
+    verbs:
+    -verbs: define
+     level: beginner
   3:
-    outcome: Participants will explain the fundamental processes of licensing and archival works in a context of controlled/registered access  
+    outcome: "the fundamental processes of licensing and archival works in a context of controlled/registered access"
+    verbs: 
+    -verbs:explain
+     level: beginner
   4:
-    outcome: Participants will explain the various (FAIR) data sharing services
+    outcome: "the various (FAIR) data sharing services"
+    verbs:
+    -verbs: explain
+     level: beginner
   5:
-    outcome: Participants will explain underlying concepts for sensitive data sharing e.g. anonymisation, pseudonymisation
+    outcome: "underlying concepts for sensitive data sharing e.g. anonymisation, pseudonymisation" 
+    verbs:
+    - verbs: explain
+      level beginner
   6:
-    outcome: Participants will describe various roles relevant to (and involved in) processes for which approvals are required e.g. data controller, data protection officer
+    outcome: various roles relevant to (and involved in) processes for which approvals are required e.g. data controller, data protection officer
+    verbs:
+    -verbs: describe
+     level: beginner 
   7:
-    outcome: Participants will explain the purpose and key components of agreements (e.g. data transfer and or processing agreements, DPIA)
+    outcome: the purpose and key components of agreements (e.g. data transfer and or processing agreements, DPIA)
+    verbs:
+    -verbs: explain
+    level: beginner 
   8:
-    outcome: Participants will explain the different types of life sciences data in terms of accessibility levels
+    outcome: different types of life sciences data in terms of accessibility levels
+    verbs: 
+    -verbs: explain
+    level: beginners 
 
 terms4FAIRskills:
   - subject:
