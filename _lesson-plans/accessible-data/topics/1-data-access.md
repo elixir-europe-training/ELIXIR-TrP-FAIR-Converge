@@ -31,7 +31,7 @@ learning_outcomes:
     verbs:
     - verbs: understanding 
       level: beginner      
-  2:
+  2: 
     outcome: "controlled access, registered access, etc"
     verbs:
     - verbs: define
