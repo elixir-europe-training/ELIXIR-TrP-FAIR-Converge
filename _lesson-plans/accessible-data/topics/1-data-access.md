@@ -25,8 +25,11 @@ audience:
   - Students and researchers (including PIs) in life sciences working on personal and sensitive data 
 
 learning_outcomes:
+
   1:
-    outcome: Participants could describe data sharing principles (also: understand what Accessible means in FAIR principles)
+    outcome: "data sharing principles (also: understand what Accessible means in FAIR principles)"
+    verbs: understanding 
+    level: beginner      
   2:
     outcome: Participants will define what is e.g. a controlled access, registered access, etc
   3:
