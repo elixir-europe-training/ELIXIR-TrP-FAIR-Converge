@@ -28,8 +28,9 @@ learning_outcomes:
 
   1:
     outcome: "data sharing principles (also: understand what Accessible means in FAIR principles)"
-    verbs: understanding 
-    level: beginner      
+    verbs:
+    - verbs: understanding 
+      level: beginner      
   2:
     outcome: Participants will define what is e.g. a controlled access, registered access, etc
   3:
