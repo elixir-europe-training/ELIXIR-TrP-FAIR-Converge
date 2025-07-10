@@ -55,7 +55,7 @@ learning_outcomes:
     outcome: various roles relevant to (and involved in) processes for which approvals are required e.g. data controller, data protection officer
     verbs:
     - verbs: describe
-     level: beginner 
+      level: beginner 
   7:
     outcome: the purpose and key components of agreements (e.g. data transfer and or processing agreements, DPIA)
     verbs:
