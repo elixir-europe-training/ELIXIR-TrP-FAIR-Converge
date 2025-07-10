@@ -34,12 +34,20 @@ learning_outcomes:
     level: beginner
   4:
     outcome: FAIRsharing stores information about which persistent identifiers are used by which repository 
+    verb: know
+    level: beginner 
   5:
-    outcome: Navigate some trustworthy repositories to understand how they implement FAIR 
+    outcome: some trustworthy repositories to understand how they implement FAIR 
+    verb:  evaluate 
+    level: intermediate 
   6:
-    outcome: Understand what FAIR principles and sub-principle are fulfilled by the repository and what are researchers' responsibility.
+    outcome: FAIR principles and sub-principle are fulfilled by the repository and what are researchers' responsibility.
+    verb: understand
+    level: beginner
   7:
-    outcome: Assess data FAIRness using F-UJI
+    outcome: data FAIRness using F-UJI
+    verb: understand
+    level: beginner
 
 terms4FAIRskills:
   - subject:
