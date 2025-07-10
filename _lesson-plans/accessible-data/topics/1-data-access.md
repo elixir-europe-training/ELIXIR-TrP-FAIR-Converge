@@ -39,7 +39,7 @@ learning_outcomes:
   3:
     outcome: "the fundamental processes of licensing and archival works in a context of controlled/registered access"
     verbs: 
-    - verbs:explain
+    - verbs: explain
       level: beginner
   4:
     outcome: "the various (FAIR) data sharing services"
