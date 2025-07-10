@@ -35,17 +35,17 @@ learning_outcomes:
     outcome: "controlled access, registered access, etc"
     verbs:
     - verbs: define
-     level: beginner
+      level: beginner
   3:
     outcome: "the fundamental processes of licensing and archival works in a context of controlled/registered access"
     verbs: 
     - verbs:explain
-     level: beginner
+      level: beginner
   4:
     outcome: "the various (FAIR) data sharing services"
     verbs:
     - verbs: explain
-     level: beginner
+      level: beginner
   5:
     outcome: "underlying concepts for sensitive data sharing e.g. anonymisation, pseudonymisation" 
     verbs:
@@ -60,12 +60,12 @@ learning_outcomes:
     outcome: the purpose and key components of agreements (e.g. data transfer and or processing agreements, DPIA)
     verbs:
     - verbs: explain
-    level: beginner 
+      level: beginner 
   8:
     outcome: different types of life sciences data in terms of accessibility levels
     verbs: 
     - verbs: explain
-    level: beginners 
+      level: beginners 
 
 terms4FAIRskills:
   - subject:
