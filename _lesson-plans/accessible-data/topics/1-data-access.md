@@ -50,7 +50,7 @@ learning_outcomes:
     outcome: "underlying concepts for sensitive data sharing e.g. anonymisation, pseudonymisation" 
     verbs:
     - verbs: explain
-      level beginner
+      level: beginner
   6:
     outcome: various roles relevant to (and involved in) processes for which approvals are required e.g. data controller, data protection officer
     verbs:
