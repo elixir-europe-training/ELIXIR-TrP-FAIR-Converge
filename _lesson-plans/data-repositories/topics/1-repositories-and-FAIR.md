@@ -21,11 +21,17 @@ audience:
 
 learning_outcomes:
   1:
-    outcome: Understand how digital repositories can offer support for metadata
+    outcome: digital repositories as support for metadata
+    verb: understand
+    level: beginner 
   2:
-    outcome: Learn about repositories and interoperable file formats
+    outcome: repositories and interoperable file formats
+    verb: learn
+    level: beginner
   3:
-    outcome: Know how repositories aid persistent identifiers for future citations 
+    outcome: repositories aid persistent identifiers for future citations 
+    verb: know
+    level: beginner
   4:
     outcome: FAIRsharing stores information about which persistent identifiers are used by which repository 
   5:
