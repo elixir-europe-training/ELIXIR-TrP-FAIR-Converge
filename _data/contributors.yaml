@@ -204,3 +204,15 @@
   firstName: "Ana"
   lastName: "Konrad"
   git: "konradana"
+
+- id: "0000-0002-1322-1553"
+  orcid: "0000-0002-1322-1553"
+  firstName: "Samuel"
+  lastName: "Langton"
+  git: "langtonhugh"
+
+- id: "0000-0001-9334-7190"
+  orcid: "0000-0001-9334-7190"
+  firstName: "Thomas"
+  lastName: "Pronk"
+  git: "tpronk"
