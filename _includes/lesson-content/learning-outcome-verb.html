@@ -1,0 +1,18 @@
+{% assign verb = include.verbs[include.verb] %}
+{% assign star_count = site.data.levels[verb.level].stars | plus: 0 %}
+
+<span
+    class="learning-outcome-verb"
+    data-bs-toggle="tooltip"
+    data-bs-placement="top"
+    data-bs-title="{{ site.data.levels[verb.level].title }}"
+>
+    <span class="learning-outcome-verb-word">
+        {{ verb.verb }}
+    </span>
+    <span class="learning-outcome-verb-stars">
+        {% for i in (1..star_count) %}
+            {% include icons/star.svg %}
+        {% endfor %}
+    </span>
+</span>

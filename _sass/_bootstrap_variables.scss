@@ -1,0 +1,18 @@
+@import "colors";
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+/*-----Theme colors-----*/
+
+
+$body-color: $text-color;
+$headings-color: #73757d;
+$headings-font-weight: 350;
+
+$navbar-dark-brand-color: white;
+
+$navbar-padding-y: 16px;
+
+$font-family-sans-serif: "Mona Sans", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+
+$grid-gutter-width: 3.5rem;

@@ -1,0 +1,204 @@
+---
+layout: plan-unit
+---
+
+{% include unit-sidebar.html type="lesson-plan" %}
+
+<main id="lesson-plan">
+<div class="lesson-plan-header">
+    {% unless page.content contains "<h1" %}
+    <h1>
+        <span class="lesson-plan-title">{{ page.title | default: site.title }}</span>
+    </h1>
+    {% endunless %}
+
+    {%- if site.theme_variables.github_buttons.position == "top" or site.theme_variables.github_buttons.position == nil %}
+    {% include github-buttons.html %}
+    {%- endif %}
+</div>
+
+<div class="lesson-plan-metadata">
+    <nav>
+        <div class="nav nav-tabs" id="nav-metadata" role="tablist">
+            <button class="nav-link active" id="metadata-general-tab" data-bs-toggle="tab" data-bs-target="#metadata-general" type="button" role="tab" aria-controls="metadata-general" aria-selected="true">
+                <span class="nav-icon icon">
+                    {% include icons/info.svg %}
+                </span>
+                General
+            </button>
+            <button class="nav-link" id="metadata-prerequisites-tab" data-bs-toggle="tab" data-bs-target="#metadata-prerequisites" type="button" role="tab" aria-controls="metadata-prerequisites" aria-selected="false">
+                <span class="nav-icon icon">
+                    {% include icons/fact_check.svg %}
+                </span>
+                Prerequisites
+            </button>
+            <button class="nav-link" id="metadata-outcomes-tab" data-bs-toggle="tab" data-bs-target="#metadata-outcomes" type="button" role="tab" aria-controls="metadata-outcomes" aria-selected="false">
+                <span class="nav-icon icon">
+                    {% include icons/target.svg %}
+                </span>
+                Learning outcomes
+            </button>
+        </div>
+    </nav>
+    <div class="tab-content" id="nav-metadataContent">
+        <div class="tab-pane show active" id="metadata-general" role="tabpanel" aria-labelledby="metadata-general-tab">
+            <div class="lesson-plan-metadata-blocks">
+                <div class="lesson-plan-metadata-block">
+                    <div class="lesson-plan-metadata-block-title">Status</div>
+                    {% if page.status and page.authors %}
+                    <div class="lesson-plan-tag lesson-plan-status lesson-plan-status-{{ page.status }}">
+                        <span class="md-status md-status--{{ page.status }}" title="{{ site.data.status[page.status] }}"></span>
+                        {{ site.data.statuses[page.status] }}
+                    </div>
+                    {% endif %}
+                </div>
+
+                <div class="lesson-plan-metadata-block">
+                    <div class="lesson-plan-metadata-block-title">FAIR elements</div>
+                    {% if page.fair_elements %}
+                    <ul class="lesson-plan-tags lesson-plan-tags-elements">
+                        {% for fair_element in page.fair_elements %}
+                        <li class="lesson-plan-tag">{{ site.data.fair_principles[fair_element].title }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="metadata-prerequisites" role="tabpanel" aria-labelledby="metadata-prerequisites-tab">
+            {% if page.prerequisites %}
+            <p>
+                For this lesson plan, participants should have a foundational understanding of:
+            </p>
+            <ul>
+                {% for prerequisite in page.prerequisites %}
+                <li>{{ prerequisite }}</li>
+                {% endfor %}
+            </ul>
+            {% else %}
+            There are no prerequisites defined for this lesson plan.
+            {% endif %}
+        </div>
+        <div class="tab-pane" id="metadata-outcomes" role="tabpanel" aria-labelledby="metadata-outcomes-tab">
+            {% if page.learning_outcomes %}
+            <p>
+            After completing this lesson plan, the participants are capable of:
+            </p>
+            <div class="learning-outcomes">
+                {% for outcome in page.learning_outcomes %}
+                <div class="learning-outcome">
+                    <div class="learning-outcome-number">
+                        {{ outcome[0] }}
+                    </div>
+                    <div class="learning-outcome-content">
+                        <div class="learning-outcome-verbs">
+                            {% assign verbs = outcome[1].verbs %}
+                            {% assign verb_count = verbs.size %}
+
+                            {% if verb_count == 1 %}
+                                {% include lesson-content/learning-outcome-verb.html verb=0 verbs=verbs %}
+                            {% elsif verb_count == 2 %}
+                                {% include lesson-content/learning-outcome-verb.html verb=0 verbs=verbs %}
+                                and
+                                {% include lesson-content/learning-outcome-verb.html verb=1 verbs=verbs %}
+                            {% else %}
+                                {% for verb in verbs %}
+                                    {% if forloop.first %}
+                                        {% include lesson-content/learning-outcome-verb.html verb=forloop.index0 verbs=verbs %}
+                                    {% elsif forloop.last %}
+                                        , and
+                                        {% include lesson-content/learning-outcome-verb.html verb=forloop.index0 verbs=verbs %}
+                                    {% else %}
+                                        ,
+                                        {% include lesson-content/learning-outcome-verb.html verb=forloop.index0 verbs=verbs %}
+                                    {% endif %}
+                                {% endfor %}
+                            {% endif %}
+                        </div>
+                        <div class="learning-outcome-subject">
+                            {{ outcome[1].outcome }}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% else %}
+                There are no learning outcomes defined for this lesson plan.
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<div class="lesson-plan-content">
+    <div class="lesson-plan-block">
+        {{ content }}
+    </div>
+
+{% include lesson-content/lesson-content.html %}
+
+{% include lesson-content/additional-resources.html %}
+</div>
+
+<div class="lesson-plan-metadata lesson-plan-credits">
+    <nav>
+        <div class="nav nav-tabs" id="nav-credits" role="tablist">
+            <button class="nav-link active" id="credits-authors-tab" data-bs-toggle="tab" data-bs-target="#credits-authors" type="button" role="tab" aria-controls="credits-authors" aria-selected="true">
+                <span class="nav-icon icon">
+                    {% include icons/attribution.svg %}
+                </span>
+                Authors
+            </button>
+            <button class="nav-link" id="credits-reviewers-tab" data-bs-toggle="tab" data-bs-target="#credits-reviewers" type="button" role="tab" aria-controls="credits-reviewers" aria-selected="false">
+                <span class="nav-icon icon">
+                    {% include icons/rate_review.svg %}
+                </span>
+                Reviewers
+            </button>
+
+            {% if page.terms4FAIRskills %}
+            <button class="nav-link" id="credits-annotations-tab" data-bs-toggle="tab" data-bs-target="#credits-annotations" type="button" role="tab" aria-controls="credits-annotations" aria-selected="false">
+                <span class="nav-icon icon">
+                    {% include icons/hub.svg %}
+                </span>
+                Annotations
+            </button>
+            {% endif %}
+        </div>
+    </nav>
+    <div class="tab-content" id="nav-creditsContent">
+        <div class="tab-pane show active" id="credits-authors" role="tabpanel" aria-labelledby="credits-authors-tab">
+            {% if page.authors %}
+            <div class="contributors">
+                {% for authorId in page.authors %}
+                {% include lesson-content/contributor.html id=authorId %}
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+        <div class="tab-pane" id="credits-reviewers" role="tabpanel" aria-labelledby="credits-reviewers-tab">
+            {% if page.reviewers %}
+            <div class="contributors">
+                {% for reviewerId in page.reviewers %}
+                {% include lesson-content/contributor.html id=reviewerId %}
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+
+        {% if page.terms4FAIRskills %}
+        <div class="tab-pane" id="credits-annotations" role="tabpanel" aria-labelledby="credits-annotations-tab">
+            <p>The <a href="https://terms4fairskills.github.io/" target="_blank">terms4FAIRskills</a> project has created a formalised terminology that describes the competencies, skills and knowledge associated with making and keeping data FAIR.</p>
+            <table id="terms4FAIRskills">
+                {% for triple in page.terms4FAIRskills %}
+                <tr>
+                    <td><ul>{% for subject in triple.subject %}<li><a href="{{ subject.uri }}" target="_blank">{{ subject.label }}</a></li>{% endfor %}</ul></td>
+                    <td><ul>{% for predicate in triple.predicate %}<li><a href="{{ predicate.uri }}" target="_blank">{{ predicate.label }}</a></li>{% endfor %}</ul></td>
+                    <td><ul>{% for object in triple.object %}<li><a href="{{ object.uri }}" target="_blank">{{ object.label }}</a></li>{% endfor %}</ul></td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+        {% endif %}
+    </div>
+</div>
+</main>

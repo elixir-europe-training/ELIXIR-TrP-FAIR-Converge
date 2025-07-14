@@ -1,0 +1,71 @@
+{% if include.activities %}
+{% assign icon_file = include.icon | prepend: 'icons/' | append: '.svg' %}
+
+<div class="activity-group">
+    <div class="activity-group-header">
+        <div class="activity-group-header-icon icon">
+            {% include {{ icon_file }} %}
+        </div>
+        <div class="activity-group-header-title">
+            {{ include.title }}
+        </div>
+    </div>
+    <div class="activity-group-activities">
+        {% for activity in include.activities %}
+            <div class="activity-item">
+                <div class="activity-info activity-learning-outcome">
+                    {% if activity.learning_outcome %}
+                    {% assign learning_outcome = page.learning_outcomes[activity.learning_outcome] %}
+                    {% assign associated_verb = learning_outcome.verbs | where: "level", activity.level | first %}
+                    {% assign tooltip = associated_verb.verb | append: " " | append: learning_outcome.outcome %}
+
+                    <span
+                        class="learning-outcome"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="top"
+                        data-bs-title="{{ tooltip }}"
+                    >
+                      {{ activity.learning_outcome }}
+                    </span>
+                    {% endif %}
+                </div>
+                <div class="activity-info activity-activity">
+                    {% for activity in activity.activities %}
+                    {{ activity | markdownify }}
+                    {% endfor %}
+                </div>
+                <div class="activity-info activity-time">
+                    {{ activity.time}}
+                </div>
+                <div class="activity-info activity-type">
+                    {{ activity.type}}
+                </div>
+                <div class="activity-info activity-level">
+                    {% if activity.level %}
+                    {% if activity.level == 'any' %}
+                    <div class="lesson-plan-content-level-any">Any</div>
+                    {% else %}
+                    <div
+                        class="lesson-plan-content-level lesson-plan-content-level-{{ activity.level }}"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="top"
+                        data-bs-title="{{ site.data.levels[activity.level].title }}"
+                    >
+                      <span class="icon material-symbols-outlined">
+                        {% include icons/star.svg %}
+                      </span>
+                      <span class="icon material-symbols-outlined">
+                        {% include icons/star.svg %}
+                      </span>
+                      <span class="icon material-symbols-outlined">
+                        {% include icons/star.svg %}
+                      </span>
+                    </div>
+                    {% endif %}
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}

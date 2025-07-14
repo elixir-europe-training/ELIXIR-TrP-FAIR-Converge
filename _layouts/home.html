@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+<body id="home" class="d-flex flex-column min-vh-100"{% unless page.toc == false %} data-bs-spy="scroll" data-bs-target="#toc-contents" data-bs-smooth-scroll="true" tabindex="0"{% endunless %}>
+{% if site.topnav_banner %}{% include banner.html %}{% endif %}
+{% if jekyll.environment == "development" and site.theme_variables.dev-info-banner == true %}{% include dev-info.html %}{% endif %}
+{% include topnav.html %}
+
+<div class="visual">
+    <div class="container">
+        <div class="row gx-5 justify-content-between">
+            <div class="col col-12 col-md-6 mb-4">
+                <h1>
+                    {{ page.tagline }}
+                </h1>
+                <p>
+                    {{ page.description }}
+                </p>
+            </div>
+            <div class="col col-12 col-md-5">
+                <img src="{{ site.baseurl }}/assets/images/home-visual.svg" />
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Page Content -->
+<div class="container flex-grow-1">
+    {{content}}
+</div>
+{% include scroll-top.html %}
+{% include footer.html %}
+{% include cookie-popup.html %}
+</body>
+</html>

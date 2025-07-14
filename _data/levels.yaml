@@ -1,6 +1,9 @@
 beginner:
   title: Beginner
+  stars: 1
 intermediate:
   title: Intermediate
+  stars: 2
 expert:
   title: Expert
+  stars: 3
