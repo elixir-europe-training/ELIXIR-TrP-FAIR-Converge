@@ -2,7 +2,7 @@
 number: 6.3
 title: Findable Software
 status: in_progress
-template: 'lesson-plan.html'
+layout: lesson-plan
 authors:
   - "0000-0001-9334-7190"
   - "0000-0002-1322-1553"
