@@ -7,6 +7,7 @@ authors:
   - "0000-0002-7702-4495"
   - "Branka Franicevic"
   - "0000-0001-7791-4984"
+  - "0000-0002-7398-0594"
 
 reviewers:
 
@@ -16,28 +17,55 @@ fair_elements:
 audience:
   - Researchers and Project leaders
   - Data stewards
+  - Data Managers
+  - Embedded Data Stewards
   - Data controllers and processors
   - Data protection officers
   - Anyone who creates DMPs
   - Students and researchers (including PIs) in life sciences working on personal and sensitive data 
 
 learning_outcomes:
+
   1:
-    outcome: "Become familiar with data sharing principles (also: understand what Accessible means in FAIR principles)"
-  2:
-    outcome: Able to define what is e.g. a controlled access, registered access, etc
+    outcome: "data sharing principles (also: understand what Accessible means in FAIR principles)"
+    verbs:
+    - verbs: understanding 
+      level: beginner      
+  2: 
+    outcome: "controlled access, registered access, etc"
+    verbs:
+    - verbs: define
+      level: beginner
   3:
-    outcome: Understand basics of how licensing and archival works in a context of controlled/registered access  
+    outcome: "the fundamental processes of licensing and archival works in a context of controlled/registered access"
+    verbs: 
+    - verbs: explain
+      level: beginner
   4:
-    outcome: Know about various (FAIR) data sharing services
+    outcome: "the various (FAIR) data sharing services"
+    verbs:
+    - verbs: explain
+      level: beginner
   5:
-    outcome: Understand underlying concepts for sensitive data sharing e.g. anonymisation, pseudonymisation
+    outcome: "underlying concepts for sensitive data sharing e.g. anonymisation, pseudonymisation" 
+    verbs:
+    - verbs: explain
+      level: beginner
   6:
-    outcome: Learn about various roles relevant to (and involved in) processes for which approvals are required e.g. data controller, data protection officer
+    outcome: various roles relevant to (and involved in) processes for which approvals are required e.g. data controller, data protection officer
+    verbs:
+    - verbs: describe
+      level: beginner 
   7:
-    outcome: Relevant agreements e.g. data access agreement, DPIA
+    outcome: the purpose and key components of agreements (e.g. data transfer and or processing agreements, DPIA)
+    verbs:
+    - verbs: explain
+      level: beginner 
   8:
-    outcome: Understand different types of life sciences data in terms of accessibility levels
+    outcome: different types of life sciences data in terms of accessibility levels
+    verbs: 
+    - verbs: explain
+      level: beginners 
 
 terms4FAIRskills:
   - subject:
@@ -100,8 +128,18 @@ terms4FAIRskills:
 --- 
 
 ## Topic, definition and scope
+**Data Accesibility:**  In the Life Sciences, data professionals often define it as the processes and ease with which data can be accessed, retrieved, and have a secondary use when authorized by its original participants and owners. This topic encompasses not only the technical access, but also the format, and documentation that allows for distinct levels of access. In the context of the FAIR principles: "Accessible" means that data should be retrievable by their identifier using a standard communications protocol. This protocol should be open, free, and universally implementable. While data access can be regulated (e.g., controlled or registered access), the protocol itself remains open and free.
+
+**Important or key definitions** 
+
+**Controlled Access:** 
+Refers to the mechanisms for sharing sentitive or personal data, when it has been properly pseudonymized only after a formal application or approval process. This often involves legal agreements (e.g. Data Sharing Agreements, Data Processing Agreements) 
+
+**Registered Access:** 
+A less resctritive form of controlled access, where users register and agree to specific terms of use, often without individual project-by-project approval but still with a clear record of who is accesing data. An example of this, is request access in a Public Repository like DataverseNL.  
 
 
+In this section aims to provide trainers with the foundational understandings of data accesibility, inspired by the FAIR principles and focusing on Life Sciences Data. 
 
 * Difference between sensitive and personal data 
 * Federated data access (local sources)

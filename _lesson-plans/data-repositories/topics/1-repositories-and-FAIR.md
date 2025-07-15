@@ -21,19 +21,33 @@ audience:
 
 learning_outcomes:
   1:
-    outcome: Understand how digital repositories can offer support for metadata
+    outcome: digital repositories as support for metadata
+    verb: understand
+    level: beginner 
   2:
-    outcome: Learn about repositories and interoperable file formats
+    outcome: repositories and interoperable file formats
+    verb: learn
+    level: beginner
   3:
-    outcome: Know how repositories aid persistent identifiers for future citations 
+    outcome: repositories aid persistent identifiers for future citations 
+    verb: know
+    level: beginner
   4:
     outcome: FAIRsharing stores information about which persistent identifiers are used by which repository 
+    verb: know
+    level: beginner 
   5:
-    outcome: Navigate some trustworthy repositories to understand how they implement FAIR 
+    outcome: some trustworthy repositories to understand how they implement FAIR 
+    verb:  evaluate 
+    level: intermediate 
   6:
-    outcome: Understand what FAIR principles and sub-principle are fulfilled by the repository and what are researchers' responsibility.
+    outcome: FAIR principles and sub-principle are fulfilled by the repository and what are researchers' responsibility.
+    verb: understand
+    level: beginner
   7:
-    outcome: Assess data FAIRness using F-UJI
+    outcome: data FAIRness using F-UJI
+    verb: understand
+    level: beginner
 
 terms4FAIRskills:
   - subject:
