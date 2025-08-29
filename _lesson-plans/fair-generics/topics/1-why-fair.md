@@ -1,6 +1,6 @@
 ---
 number: 1.1
-title: Why FAIR?T
+title: Why FAIR?696uyhiij
 status: ready_for_review
 layout: lesson-plan
 authors:
@@ -14,8 +14,8 @@ authors:
 reviewers:
   - 0000-0002-7702-4495
   - 0009-0002-3089-9558
-description: >-
-  This topicA introduces the general concept of FAIR, describing why potential
+description: >
+  This topic introduces the general concept of FAIR, describing why potential
   and real stakeholders as well as other members of the community benefit from
   the implementation of the FAIR principles, as well as the increasing
   incentives from journals, funding bodies and institutions for emphasising FAIR
@@ -189,8 +189,8 @@ activities:
       type: individual exercise
       level: intermediate
 prerequisites:
-  - FAIR principles
   - Reproducible research
+  - FAIR principles
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000220'
