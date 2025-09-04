@@ -1,6 +1,6 @@
 ---
 number: 1.1
-title: Why FAIR?696uyhiij
+title: Why FAIR?696uyiij
 status: ready_for_review
 layout: lesson-plan
 authors:
