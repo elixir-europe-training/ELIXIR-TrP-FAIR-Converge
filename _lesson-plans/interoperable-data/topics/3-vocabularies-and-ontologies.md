@@ -1,16 +1,19 @@
 ---
 number: 4.3
 title: Data vocabularies and ontologies
-status: draft
+status: in_progress
 layout: lesson-plan
 authors:
   - 0000-0003-4942-2725
   - 0000-0003-0771-3516
   - 0009-0002-3089-9558
-  - 0000-0002-3370-9484
+  - 0000-0003-0947-941X
 reviewers: null
 fair_elements:
+  - F
+  - A
   - I
+  - R
 audience:
   - Data stewards
   - >-
@@ -89,10 +92,6 @@ terms4FAIRskills:
         label: interoperability of digital assets
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000170'
         label: reuse of digital assets
-description: >-
-  This topic explains the differences between ontologies and vocabularies, and
-  links then to the definitions of the FAIR principles. It provides material to
-  train in and apply the concepts in research data.
 ---
 ## Overview
 
