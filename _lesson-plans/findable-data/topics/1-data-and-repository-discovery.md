@@ -269,7 +269,7 @@ activities:
 ---
 ## Topic, definition and scope
 
-* “Everyone has the right to share in scientific advancement and its benefits”&#x20;
+* “Everyone has the right to share in scientific advancement and its benefits” .
   Article 27, Universal Declaration of Human Rights
 * Data discovery is a process of understanding data and extracting valuable insight from multiple data streams according to data uses and purposes.
 
