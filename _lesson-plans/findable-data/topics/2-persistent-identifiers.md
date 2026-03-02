@@ -4,48 +4,46 @@ title: Persistent identifiers (PIDs)
 status: ready_for_review
 layout: lesson-plan
 authors:
-  - "0000-0002-7702-4495"
-  - "0000-0002-3412-9086"
-  - "0000-0002-9421-8582"
-  - "0000-0001-9114-2896"
-
-reviewers:
-
+  - 0000-0002-7702-4495
+  - 0000-0002-3412-9086
+  - 0000-0002-9421-8582
+  - 0000-0001-9114-2896
+  - custom-davide-nardi-1772446638069
+reviewers: null
 fair_elements:
   - F:
-    - F1
-    - F3
+      - F1
+      - F3
   - A:
-    - A1
-
+      - A1
 audience:
   - Developers & curators of resources and tools
   - Journal publishers and organisations with data policies
-  - Research data facilitators (e.g. data stewards, librarians, trainers)
-  - Societies, unions and community alliances
+  - 'Research data facilitators (e.g. data stewards, librarians, trainers)'
+  - 'Societies, unions and community alliances'
   - Funders and data policy makers
-  - Researchers in academia, industry and government (e.g. PhD candidate, postdoctoral researcher)
-
+  - >-
+    Researchers in academia, industry and government (e.g. PhD candidate,
+    postdoctoral researcher)
 learning_outcomes:
-  1:
+  '1':
     outcome: Define and recognise PIDs (basic level)
-  2:
+  '2':
     outcome: Explain the syntax of widely-used PIDs  (basic level)
-  3:
+  '3':
     outcome: Explain the different use cases for PIDs (basic level)
-  4:
+  '4':
     outcome: Explain the importance of PIDs for FAIR data (basic level)
-  5:
+  '5':
     outcome: Use PIDs to access research data or other resources (basic level)
-  6:
+  '6':
     outcome: Apply PIDs to their own research outputs (intermediate level)
-  7:
+  '7':
     outcome: Use PIDs to collaborate with others (intermediate level)
-  8:
+  '8':
     outcome: Knows about data provenance and versioning of data (advanced level)
-  9:
+  '9':
     outcome: Knows PID graphs (advanced level)
-
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
@@ -111,9 +109,7 @@ terms4FAIRskills:
         label: >-
           A1. (meta)data are retrievable by their identifier using a
           standardised communications protocol
-
---- 
-
+---
 ## Topic, definition and scope
 
 * Persistent identifiers (PIDs) are globally unique, actionable and machine-resolvable strings that act as a long-lasting reference to a digital object (e.g. a dataset).
