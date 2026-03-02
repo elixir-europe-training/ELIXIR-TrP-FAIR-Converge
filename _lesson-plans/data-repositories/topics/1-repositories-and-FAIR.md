@@ -8,6 +8,7 @@ authors:
   - "0000-0003-2211-0107"
   - "Branka Franicevic"
   - "0000-0002-7702-4495"
+  - "0000-0002-7398-0594"
     
 reviewers:
   - "0000-0002-5788-2687"
@@ -20,20 +21,34 @@ audience:
   - Data Stewards
 
 learning_outcomes:
-  1:
-    outcome: Understand how digital repositories can offer support for metadata
+  1: Be able to explain the function of metadata in enabling search, retrieval, and preservation of digital sets.
+    outcome: digital repositories as support for metadata
+    verb: understand
+    level: beginner 
   2:
-    outcome: Learn about repositories and interoperable file formats
+    outcome: repositories and interoperable file formats
+    verb: learn
+    level: beginner
   3:
-    outcome: Know how repositories aid persistent identifiers for future citations 
+    outcome: repositories aid persistent identifiers for future citations 
+    verb: know
+    level: beginner
   4:
     outcome: FAIRsharing stores information about which persistent identifiers are used by which repository 
+    verb: know
+    level: beginner 
   5:
-    outcome: Navigate some trustworthy repositories to understand how they implement FAIR 
+    outcome: some trustworthy repositories to understand how they implement FAIR 
+    verb:  evaluate 
+    level: intermediate 
   6:
-    outcome: Understand what FAIR principles and sub-principle are fulfilled by the repository and what are researchers' responsibility.
+    outcome: FAIR principles and sub-principle are fulfilled by the repository and what are researchers' responsibility.
+    verb: understand
+    level: beginner
   7:
-    outcome: Assess data FAIRness using F-UJI
+    outcome: data FAIRness using F-UJI
+    verb: understand
+    level: beginner
 
 terms4FAIRskills:
   - subject:
@@ -105,19 +120,13 @@ terms4FAIRskills:
 ## Topic, definition and scope
 
 
+A repository (often shortened to "repo") is essentially a dedicated folder or directory where all the files, folders, and history related to a specific project are stored.
 
-* How do repositories support FAIR?
-* The topic concerns the capacity of digital repositories to ensure the research data findability, accessibility, interoperability and reusability. This content is a summarised version suitable as a recap for those with pre-existing knowledge of data science. 
-* **Data repositories** are key in putting the FAIR principles into practice. They not only enable findability and accessibility but also provide persistent identifiers, documentation, and metadata, thus fostering reusability for humans and machines.
-* A “form” needs to be filled –metadata by default.
-* The form complies with a specific metadata standard.
-* Metadata will then become machine-actionable and searchable in an online resource.
-* A persistent identifier for the data is automatically generated.
-* References to other data or metadata can be included.
-* Authentication and authorization procedures are in place.
-* Access can be regulated from closed to open.
-* The provision of machine-readable licences enhances the reusability of the data.
-* The use of standards and controlled vocabularies is enforced.
+It is the heart of a version control system like Git, serving two main functions:
+
+Storage: It holds the latest, working copy of the project code.
+
+History: It records every single change made to those files over time, acting like a time machine for your project. This allows teams to rewind to any previous state, see who changed what, and collaborate safely.
 * Interfaces for external services like [OAI-PMH](https://www.openarchives.org/pmh/) allow harvesting of metadata for stored records** **
 * **Background:**
     * A number of previous projects and working groups have been discussing what a common set of attributes should be to enable FAIR data, and to allow repository stakeholders to make their own decisions about which repository is best for them. Details of these previous efforts are summarised in the [case statement](https://www.rd-alliance.org/group/data-repository-attributes-wg/case-statement/data-repository-attributes-wg-case-statement) of one existing cross-domain, worldwide effort under the auspices of the RDA: the [RDA Data repository attributes Working Group](https://www.rd-alliance.org/groups/data-repository-attributes-wg). Therefore, how FAIR is implemented in a repository, and how each FAIR principle aligns with a particular data attribute, can be discovered from these efforts.
@@ -130,7 +139,8 @@ terms4FAIRskills:
 
 
 * Check lists
-* Is your repository suitable for data FAIRification?
+* Analyze and Discover one Public repository. This could be a repository like Zenodo or DataverseNL.
+* Is any of these above mentioned repositories a good option for data FAIRification?
 * Do you know of any challenges and how to remedy them?
 * Assess data FAIRness using [F-UJI](https://www.f-uji.net/) in different repositories and data resources and explain the differences among them:
     * FTP server (e.g: [The-normalised-Sentinel-1-Global-Backscatter-Model-mapping-Earths-land-surface-with-C-band-microwaves.pdf](https://www.researchgate.net/journal/Scientific-Data-2052-4463/publication/355710073_The_normalised_Sentinel-1_Global_Backscatter_Model_mapping_Earth's_land_surface_with_C-band_microwaves/links/617b877b3c987366c3fb7278/The-normalised-Sentinel-1-Global-Backscatter-Model-mapping-Earths-land-surface-with-C-band-microwaves.pdf?_sg%5B0%5D=ZJJ3lDaoj0MHl1PSG9k4aqPEH-uv5UyVwDiBhniYvgQplbFtkursBCwlWLWd6fVvnxNF_YIKCu-uGIoBRodJYg.IN6zY73oeN3c4D9gblkBUWUCL9le0Mmq8yXBUpJEjJoRxTg-Cvp3MUHpxsB6u73GJ4cFfrnFOh55b9hfmERsSg&_sg%5B1%5D=X0j0imbHfSpO_807-MF-yVndQpkqcwQFeZ-cU2JTfz0qbYk2AbsRZZLvtRpCSlJzoGIXLtWjIRY6yHrF8LsXwEreqzdNcU0gdLCBWchoa2Yv.IN6zY73oeN3c4D9gblkBUWUCL9le0Mmq8yXBUpJEjJoRxTg-Cvp3MUHpxsB6u73GJ4cFfrnFOh55b9hfmERsSg&_sg%5B2%5D=sybya-lkC6fbwHJr8khjVBhLaxhi7bSUcJVjRmunuKRhMZLAjpn-7SPJIXq9JIkGLaREFKSDUu08_6Y.vPwwUPApnio_UIrgqgv9ih-m1UAQHKuh0znBEq-t-uKdQQV8p8wXS0vjxBkxK3QUNxsbpAR9o4J7jytzKZcNYQ&_iepl=))
@@ -301,7 +311,7 @@ terms4FAIRskills:
 
 
 
-* Test your repository with FAIRification of one data using the above Handout
+* Test a repository with FAIRification of one data using the above Handout
 * Think about an example similar to what we explained in the above use case; of how to find what a particular role (e.g. Data Steward) needs in FAIRsharing.
 
      For example, start with a requirement they have, e.g. a funder data policy, and move them step-by-step from that data policy to a shortlist of standards and/or databases that they will need to align with and/or submit to. This example has now been written here: [https://fairsharing.gitbook.io/fairsharing/how-to/unsure-where-to-start](https://fairsharing.gitbook.io/fairsharing/how-to/unsure-where-to-start) 
