@@ -16,6 +16,7 @@ fair_elements:
       - F3
   - A:
       - A1
+  - F
 audience:
   - Developers & curators of resources and tools
   - Journal publishers and organisations with data policies
@@ -109,6 +110,78 @@ terms4FAIRskills:
         label: >-
           A1. (meta)data are retrievable by their identifier using a
           standardised communications protocol
+description: >-
+  Persistent identifiers (PIDs) are long-lasting, globally unique references
+  assigned to digital objects such as datasets, publications, software,
+  researchers, or organizations.&#x20;
+
+
+  PIDs importance can be taught by starting with the issues that researchers can
+  face in case PIDs are not present.
+
+
+
+
+  **Problem scenario**&#x20;
+
+
+  * A dataset cited in a paper cannot be found, or
+
+  * A dataset cited in a paper has several name variations and locations, or
+
+  * The dataset link leads to a "404 - Page Not Found"
+
+
+  Researchers would then discuss, for instance, what went wrong, who is
+  affected, how trust, reproducibility and reuse are affected.
+
+
+
+
+  **Introduction of PIDs within the FAIR framework**
+
+
+  * Emphasize that PIDs are required for data and metadata to be Findable
+
+
+
+
+  **Concrete PIDs examples**
+
+
+  * DOI
+
+  * ORCID
+
+  * ...
+
+
+
+
+  **Active learning activity**
+
+
+  Propose a group exercise in which each group receives a fictional case:
+
+
+  * Group 1 gets a dataset without a DOI;
+
+  * Group 2 gets an author without ORCID;
+
+  * ...
+
+
+  Researchers are asked to identify what is missing, which PID should have been
+  assigned
+
+
+
+
+  **Reflection**
+
+
+  Highlight how PIDs are connected to OS policies, funder requirements,
+  long-term preservation, etc..
 ---
 ## Topic, definition and scope
 
