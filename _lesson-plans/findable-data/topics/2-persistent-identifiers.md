@@ -10,6 +10,7 @@ authors:
   - 0000-0001-9114-2896
   - custom-davide-nardi-1772446638069
   - 0000-0002-7398-0594
+  - 0000-0001-5816-679X
 reviewers: null
 fair_elements:
   - F:
@@ -111,68 +112,7 @@ terms4FAIRskills:
         label: >-
           A1. (meta)data are retrievable by their identifier using a
           standardised communications protocol
-description: >-
-  Persistent identifiers (PIDs) are long-lasting, globally unique references
-  assigned to digital objects such as datasets, publications, software,
-  researchers, or organizations.&#x20;
-
-
-  PIDs importance can be taught by starting with the issues that researchers can
-  face in case PIDs are not present.
-
-
-  **Problem scenario**&#x20;
-
-
-  * A dataset cited in a paper cannot be found, or
-
-  * A dataset cited in a paper has several name variations and locations, or
-
-  * The dataset link leads to a "404 - Page Not Found"
-
-
-  Researchers would then discuss, for instance, what went wrong, who is
-  affected, how trust, reproducibility and reuse are affected.
-
-
-  **Introduction of PIDs within the FAIR framework**
-
-
-  * Emphasize that PIDs are required for data and metadata to be Findable
-
-
-  **Concrete PIDs examples**
-
-
-  * DOI
-
-  * ORCID
-
-  * ...
-
-
-  **Active learning activity**
-
-
-  Propose a group exercise in which each group receives a fictional case:
-
-
-  * Group 1 gets a dataset without a DOI;
-
-  * Group 2 gets an author without ORCID;
-
-  * ...
-
-
-  Researchers are asked to identify what is missing, which PID should have been
-  assigned
-
-
-  **Reflection**
-
-
-  Highlight how PIDs are connected to OS policies, funder requirements,
-  long-term preservation, etc..
+description: "This lesson introduces **Persistent Identifiers (PIDs)** and their role in making research outputs more **findable, accessible, and reliably linked** within the research ecosystem. The session situates PIDs within the **FAIR principles**, focusing especially on their importance for the *Findable* principle.\n\nParticipants are introduced to widely used PID systems and explore how these identifiers support discovery, citation, attribution, and interoperability in research workflows.\n\nPersistent identifiers (PIDs) are globally unique and long-lasting references assigned to digital research objects and entities, such as datasets, publications, software, researchers, and organizations.\n\nThis lesson introduces the concept and practical use of PIDs within the context of **FAIR data and Open Science practices**. Using a problem-based scenario, participants examine typical issues that arise when persistent identifiers are missing, for example when datasets cannot be found, links no longer work, or authors cannot be uniquely identified. Participants reflect on how such situations affect research transparency, reproducibility, and reuse.\n\nThe session then introduces commonly used PID systems and demonstrates how they enable reliable identification and linking of research outputs and contributors.\n\nThe lesson follows an **interactive, problem-based learning approach**. It starts with a short scenario illustrating common issues researchers encounter when persistent identifiers are missing, for example:\n\n* When a dataset cited in a publication cannot be found\n* When the same dataset appears under multiple names or locations\_\n* When a dataset link leads to a “404\_ Page Not Found” error.\_\n\nParticipants discuss what may have gone wrong, who is affected by these issues, and how they impact trust, reproducibility, and reuse of research outputs. Building on this discussion, the instructor introduces the concept of PIDs and their role in the FAIR framework. Participants then work in small groups on fictional research cases to identify missing identifiers and determine which PIDs should have been assigned. The session concludes with a short reflection linking PIDs to participants’ own research practices, institutional Open Science policies, and funder requirements."
 ---
 ## Topic, definition and scope
 
