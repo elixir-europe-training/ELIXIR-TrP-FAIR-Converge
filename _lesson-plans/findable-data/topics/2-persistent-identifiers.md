@@ -9,6 +9,7 @@ authors:
   - 0000-0002-9421-8582
   - 0000-0001-9114-2896
   - custom-davide-nardi-1772446638069
+  - 0000-0002-7398-0594
 reviewers: null
 fair_elements:
   - F:
@@ -120,8 +121,6 @@ description: >-
   face in case PIDs are not present.
 
 
-
-
   **Problem scenario**&#x20;
 
 
@@ -136,14 +135,10 @@ description: >-
   affected, how trust, reproducibility and reuse are affected.
 
 
-
-
   **Introduction of PIDs within the FAIR framework**
 
 
   * Emphasize that PIDs are required for data and metadata to be Findable
-
-
 
 
   **Concrete PIDs examples**
@@ -154,8 +149,6 @@ description: >-
   * ORCID
 
   * ...
-
-
 
 
   **Active learning activity**
@@ -173,8 +166,6 @@ description: >-
 
   Researchers are asked to identify what is missing, which PID should have been
   assigned
-
-
 
 
   **Reflection**
