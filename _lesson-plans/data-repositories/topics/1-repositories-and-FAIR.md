@@ -21,34 +21,34 @@ audience:
   - Data Stewards
 
 learning_outcomes:
-  1: Be able to explain the function of metadata in enabling search, retrieval, and preservation of digital sets.
-    outcome: digital repositories as support for metadata
-    verb: understand
-    level: beginner 
-  2:
-    outcome: repositories and interoperable file formats
-    verb: learn
-    level: beginner
-  3:
-    outcome: repositories aid persistent identifiers for future citations 
-    verb: know
-    level: beginner
-  4:
-    outcome: FAIRsharing stores information about which persistent identifiers are used by which repository 
-    verb: know
-    level: beginner 
-  5:
-    outcome: some trustworthy repositories to understand how they implement FAIR 
-    verb:  evaluate 
-    level: intermediate 
-  6:
-    outcome: FAIR principles and sub-principle are fulfilled by the repository and what are researchers' responsibility.
-    verb: understand
-    level: beginner
-  7:
-    outcome: data FAIRness using F-UJI
-    verb: understand
-    level: beginner
+  1:Explain the function of metadata within a digital repository by accurately stating its role in enabling search, retrieval, and preservation of digital assets
+    outcome:digital repositories as support for metadata
+    verb:understand
+    level:beginner 
+  2:Identify the importance of using interoperable file formats in a digital repository by listing at least two such formats (e.g., PDF/A, TIFF) that promote long-term access and platform independence.
+    outcome:repositories and interoperable file formats
+    verb:learn
+    level:beginner
+  3:Relate how a digital repository uses persistent identifiers (PIs) (such as DOIs or Handles) to guarantee future discoverability and reliable citation, even if the underlying file location changes.
+    outcome:repositories aid persistent identifiers for future citations 
+    verb:know
+    level:beginner
+  4:Identify the function of the FAIRsharing resource by stating that it catalogs which persistent identifiers are utilized by different digital repositories.
+    outcome:FAIRsharing stores information about which persistent identifiers are used by which repository 
+    verb:know
+    level:beginner 
+  5:Critique the implementation of FAIR principles in three chosen examples of trustworthy repositories (e.g., Dryad, Zenodo, or an institutional repository) by judging and reporting on their adherence to the Findable and Reusable criteria.
+    outcome:some trustworthy repositories to understand how they implement FAIR 
+    verb:evaluate 
+    level:intermediate 
+  6:Explain the interconnected responsibility of repositories and researchers in fulfilling the FAIR principles and sub-principles by detailing how metadata creation (the researcher's role) supports the Findability and Reusability (the repository's role) criteria.
+    outcome:FAIR principles and sub-principle are fulfilled by the repository and what are researchers' responsibility.
+    verb:understand
+    level:beginner
+  7:Describe the purpose and basic function of the F-UJI tool by explaining how it automatically assesses the FAIRness of data objects based on the official FAIR metrics.
+    outcome:data FAIRness using F-UJI
+    verb:understand
+    level:beginner
 
 terms4FAIRskills:
   - subject:

@@ -268,6 +268,7 @@ activities:
       level: beginner
 ---
 ## Topic, definition and scope
+Data Repository can be defined as a centralized location where data is stored, organized, and managed. This a system that doesn't just serve to store files, but also makes them discoverable and usable for specific purposes.
 
 * “Everyone has the right to share in scientific advancement and its benefits” .
   Article 27, Universal Declaration of Human Rights
