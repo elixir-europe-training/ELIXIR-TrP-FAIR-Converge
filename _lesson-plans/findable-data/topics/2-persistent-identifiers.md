@@ -1,7 +1,7 @@
 ---
 number: 2.2
 title: 'Persistent Identifiers (PIDs): Making Research Findable and Connected'
-status: ready_for_review
+status: draft
 layout: lesson-plan
 authors:
   - 0000-0002-7702-4495
