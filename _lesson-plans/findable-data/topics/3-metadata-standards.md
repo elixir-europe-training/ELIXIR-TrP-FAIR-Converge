@@ -8,8 +8,6 @@ authors:
   - 0000-0002-9016-4820
   - 0000-0001-6989-2252
   - 0000-0003-0771-3516
-  - 0000-0002-5788-2687
-  - 0000-0002-2079-6857
 reviewers:
   - 0000-0002-3412-9086
 audience:
@@ -23,75 +21,27 @@ audience:
 learning_outcomes:
   '1':
     outcome: Describe the concept of metadata
-    verbs:
-      - verb: Describe
-        level: beginner
   '2':
     outcome: Understand the pivotal role of metadata in the FAIR principles
-    verbs:
-      - verb: Explain
-        level: beginner
   '3':
     outcome: >-
       Identify relevant metadata standards and their use in repositories and
       datasets
-    verbs:
-      - verb: Identify
-        level: intermediate
   '4':
     outcome: Retrieve data from a repository/registries using metadata
-    verbs:
-      - verb: Implement
-        level: intermediate
   '5':
     outcome: Assess the richness of a metadata standard and its semantic annotation
-    verbs:
-      - verb: Compare
-        level: intermediate
-      - verb: Examine
-        level: expert
   '6':
     outcome: Explore available tools for working with a specific metadata standard
-    verbs:
-      - verb: Locate
-        level: beginner
-      - verb: Select
-        level: intermediate
   '7':
     outcome: >-
       Describe the concept of machine-actionability and validation with a focus
       on data brokering to a repository of choice
-    verbs:
-      - verb: Describe
-        level: beginner
-  '8':
-    outcome: Understand what metadata is and how it relates to FAIR
-    verbs:
-      - verb: Beginner
-        level: beginner
-  '9':
-    outcome: >
-      Understand that good and discipline specific metadata enhances findability
-      and FAIRness of data 
-    verbs:
-      - verb: Beginner
-        level: beginner
-  '10':
-    outcome: >-
-      Evaluate how different standards of metadata influence findability and
-      FAIRness of data
-    verbs:
-      - verb: Beginner
-        level: beginner
 prerequisites:
   - Basic understanding of FAIR principles
   - Knowledge of different types of data (e.g. raw vs processed)
   - Familiarity with repositories
   - Familiarity with PIDs
-  - >-
-    Aimed at researchers and data stewards. Participants do not need a prior
-    knowledge of metadata, but should be familiar with the research process and
-    what FAIR is
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
@@ -154,33 +104,58 @@ terms4FAIRskills:
     object:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000447'
         label: the FAIR Principles
-additionalResources:
-  - title: Metadata standards in FAIRsharing.
-    url: >-
-      https://fairsharing.org/search?fairsharingRegistry=Standards&isMaintained=true&page=1&status=ready&recordType=reporting_guideline
-  - title: FAIRsharing’s educational factsheet on standards
-    doi: 'https://doi.org/10.5281/zenodo.8186982'
-    additionalInformation: This factsheet provides an overview of the FAIRsharing standards registry.
-  - title: Dataedo Data Cartoon cartoons on e.g. metadata
-    url: 'https://dataedo.com/cartoon/tag/data-vs-metadata'
-  - title: FAIR4Software-Workshop material
-    doi: 'https://doi.org/10.5281/zenodo.6574092'
-    additionalInformation: >-
-      Material for 1.5 hour workshop on FAIR principles with regards to
-      software, and what is currently known, best practices for FAIRness.
-  - title: 'RDM 1-day workshop, life science early career'
-    doi: 'https://doi.org/10.5281/zenodo.4562630'
-  - title: DMP course ELIXIR Norway
-    url: 'https://github.com/ELIXIR-Norway-Training/DMP-writing-workshop'
-    additionalInformation: >-
-      Research Data Management: Planning workshop
+description: >-
+  ## **Topic, definition and scope**
 
-      All Norwegian universities require a DMP for all projects. All projects
-      that receive funding from the Norwegian RCN must submit a data management
-      plan as soon as possible after the contract with the RCN has been signed.
-      This workshop focuses on generating a data management plan for a Life
-      Science research project.
 
+  This lesson addresses the critical need for rich metadata in the sciences,
+  where complex datasets require detailed context to be truly useful. It centers
+  on the "Findable" aspect of the FAIR principles—specifically principle
+  F2—which mandates that data be described with rich metadata. By exploring the
+  significance of these standards, the lesson plan bridges the gap between broad
+  accessibility and the highly specific needs of domain researchers. The core
+  theme is that effective dataset discovery is not accidental; it is the result
+  of intentional, standardized description that allows both humans and machines
+  to locate relevant biological and biomedical data within vast repositories.
+
+
+  In this context, metadata is defined as structured information that describes,
+  explains, locates, or facilitates the retrieval and use of an information
+  resource. The scope of the lesson covers the practical application of metadata
+  from two distinct perspectives: generic standards for broad interoperability
+  and domain-specific standards for granular precision. Participants will learn
+  to assess metadata richness, utilize semantic annotations, and navigate the
+  tools required to create "generous" descriptions. This scope emphasizes that
+  the more comprehensively datasets are described, the more specifically
+  findable they become, allowing for refined searches that go beyond simple
+  keywords to facilitate sophisticated data brokering and machine-actionable
+  validation.
+
+
+  ### **Impact for research**
+
+
+  The adoption of high-quality metadata standards significantly enhances the
+  visibility and longevity of research outputs. By mastering these concepts,
+  researchers ensure that their datasets are not only archived but are actively
+  discoverable by search engines and aggregators, preventing data isolation.
+  Rich, semantically annotated metadata enables sophisticated query retrieval
+  and facilitates machine-to-machine communication, allowing software agents to
+  validate and process data without human intervention. Ultimately, this
+  streamlining of data brokering and validation accelerates scientific discovery
+  by making it easier for the global community to find, cite, and build upon
+  existing research.
+
+
+  ## **FAIR element(s)**
+
+
+  * Findable: Data should be available in a discoverable resource (i.e.
+  repository), have appropriate description (i.e. metadata) and have a
+  persistent identifier (PID)
+    * Data are described with rich metadata
+---
+## Overview
 
       The workshop is designed for researchers (PhD candidates, Postdoctoral
       Fellows, Associate Professors and Professors) in existing and upcoming
@@ -277,19 +252,15 @@ The adoption of high-quality metadata standards significantly enhances the visib
 
 **Audience**
 
-This lesson plan has been created with the aim to educate PhD students and researchers on metadata standards using tangible examples and practical activities. It assumes a low level of prior knowledge regarding metadata but assumes experience in research and familiarity with the FAIR principles. Resources can be provided asynchronous to bring everyone up to the same level. 
-
-We recommend starting by building up a theoretical baseline of all participants before giving the opportunity for participants to practice and start working directly with metadata, metadata standards and general concepts. 
-
-Note that many activities can be done as an individual or a group. This can be changed based on what type of session you are giving. Working in pairs or small groups can increase peer-learning and reduce the threshold for asking questions when confused (as these participants can discuss with their peers rather than having to ask the instructor). Working individually can also be advantageous when doing asynchronous work, hybrid or online sessions or with self-paced study. 
-
-## FAIR element(s)
-
-* Findable: Data should be available in a discoverable resource (i.e. repository), have appropriate description (i.e. metadata) and have a persistent identifier (PID)
-  * Data are described with rich metadata
-
-## Summary of Tasks / Actions
-
-## Materials / Equipment
-
-## Take home tasks/preparation
+* [Metadata standards in FAIRsharing](https://fairsharing.org/search?fairsharingRegistry=Standards&isMaintained=true&page=1&status=ready&subjects=life%2520science&recordType=reporting_guideline).
+* FAIRsharing’s [educational factsheet on standards](https://doi.org/10.5281/zenodo.8186982)
+* [Dataedo Data Cartoon](https://dataedo.com/cartoon) cartoons on e.g. metadata
+* FAIR4Software: [https://zenodo.org/record/6574092#.YrwgQuxBz0o](https://zenodo.org/record/6574092#.YrwgQuxBz0o) 
+* RDM 1-day workshop, life science early career: [https://zenodo.org/record/4562630#.Yrwb4uxBz0o](https://zenodo.org/record/4562630#.Yrwb4uxBz0o)
+* [DMP course ELIXIR Norway](https://github.com/korbinib/DMP-writing-workshop) 
+* [FAIR course ELIXIR Norway](https://github.com/elixir-oslo/fair-dm-2022-course)
+* [https://doi.org/10.1016/j.patter.2021.100322](https://doi.org/10.1016/j.patter.2021.100322) 
+* [FAIRsharing](https://fairsharing.org/search?fairsharingRegistry=Standard) 
+* [FAIR Cookbook](https://faircookbook.elixir-europe.org/content/home.html)
+* [RDMkit](https://rdmkit.elixir-europe.org/)
+* [GOFAIR M4M](https://www.gofairfoundation.org/m4m/)
