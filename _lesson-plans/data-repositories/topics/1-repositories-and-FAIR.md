@@ -139,7 +139,8 @@ History: It records every single change made to those files over time, acting li
 
 
 * Check lists
-* Is your repository suitable for data FAIRification?
+* Analyze and Discover one Public repository. This could be a repository like Zenodo or DataverseNL.
+* Is any of these above mentioned repositories a good option for data FAIRification?
 * Do you know of any challenges and how to remedy them?
 * Assess data FAIRness using [F-UJI](https://www.f-uji.net/) in different repositories and data resources and explain the differences among them:
     * FTP server (e.g: [The-normalised-Sentinel-1-Global-Backscatter-Model-mapping-Earths-land-surface-with-C-band-microwaves.pdf](https://www.researchgate.net/journal/Scientific-Data-2052-4463/publication/355710073_The_normalised_Sentinel-1_Global_Backscatter_Model_mapping_Earth's_land_surface_with_C-band_microwaves/links/617b877b3c987366c3fb7278/The-normalised-Sentinel-1-Global-Backscatter-Model-mapping-Earths-land-surface-with-C-band-microwaves.pdf?_sg%5B0%5D=ZJJ3lDaoj0MHl1PSG9k4aqPEH-uv5UyVwDiBhniYvgQplbFtkursBCwlWLWd6fVvnxNF_YIKCu-uGIoBRodJYg.IN6zY73oeN3c4D9gblkBUWUCL9le0Mmq8yXBUpJEjJoRxTg-Cvp3MUHpxsB6u73GJ4cFfrnFOh55b9hfmERsSg&_sg%5B1%5D=X0j0imbHfSpO_807-MF-yVndQpkqcwQFeZ-cU2JTfz0qbYk2AbsRZZLvtRpCSlJzoGIXLtWjIRY6yHrF8LsXwEreqzdNcU0gdLCBWchoa2Yv.IN6zY73oeN3c4D9gblkBUWUCL9le0Mmq8yXBUpJEjJoRxTg-Cvp3MUHpxsB6u73GJ4cFfrnFOh55b9hfmERsSg&_sg%5B2%5D=sybya-lkC6fbwHJr8khjVBhLaxhi7bSUcJVjRmunuKRhMZLAjpn-7SPJIXq9JIkGLaREFKSDUu08_6Y.vPwwUPApnio_UIrgqgv9ih-m1UAQHKuh0znBEq-t-uKdQQV8p8wXS0vjxBkxK3QUNxsbpAR9o4J7jytzKZcNYQ&_iepl=))
@@ -310,7 +311,7 @@ History: It records every single change made to those files over time, acting li
 
 
 
-* Test your repository with FAIRification of one data using the above Handout
+* Test a repository with FAIRification of one data using the above Handout
 * Think about an example similar to what we explained in the above use case; of how to find what a particular role (e.g. Data Steward) needs in FAIRsharing.
 
      For example, start with a requirement they have, e.g. a funder data policy, and move them step-by-step from that data policy to a shortlist of standards and/or databases that they will need to align with and/or submit to. This example has now been written here: [https://fairsharing.gitbook.io/fairsharing/how-to/unsure-where-to-start](https://fairsharing.gitbook.io/fairsharing/how-to/unsure-where-to-start) 

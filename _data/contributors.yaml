@@ -49,6 +49,7 @@
   orcid: "0000-0003-2043-0772"
   firstName: "Heleri"
   lastName: "Inno"
+  git: "heleriinno"
 
 - id: "0000-0003-1810-3756"
   orcid: "0000-0003-1810-3756"
@@ -65,6 +66,7 @@
   orcid: "0000-0002-5788-2687"
   firstName: "Diana"
   lastName: "Pilvar"
+  git: "diana-pilvar"
 
 - id: "0000-0002-4437-5504"
   orcid: "0000-0002-4437-5504"
@@ -204,3 +206,15 @@
   firstName: "Ana"
   lastName: "Konrad"
   git: "konradana"
+
+- id: "0000-0002-1322-1553"
+  orcid: "0000-0002-1322-1553"
+  firstName: "Samuel"
+  lastName: "Langton"
+  git: "langtonhugh"
+
+- id: "0000-0001-9334-7190"
+  orcid: "0000-0001-9334-7190"
+  firstName: "Thomas"
+  lastName: "Pronk"
+  git: "tpronk"
