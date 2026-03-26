@@ -9,6 +9,7 @@ authors:
   - 0000-0001-6989-2252
   - 0000-0003-0771-3516
   - 0000-0002-5788-2687
+  - 0000-0002-2079-6857
 reviewers:
   - 0000-0002-3412-9086
 audience:
@@ -63,11 +64,34 @@ learning_outcomes:
     verbs:
       - verb: Describe
         level: beginner
+  '8':
+    outcome: Understand what metadata is and how it relates to FAIR
+    verbs:
+      - verb: Beginner
+        level: beginner
+  '9':
+    outcome: >
+      Understand that good and discipline specific metadata enhances findability
+      and FAIRness of data 
+    verbs:
+      - verb: Beginner
+        level: beginner
+  '10':
+    outcome: >-
+      Evaluate how different standards of metadata influence findability and
+      FAIRness of data
+    verbs:
+      - verb: Beginner
+        level: beginner
 prerequisites:
   - Basic understanding of FAIR principles
   - Knowledge of different types of data (e.g. raw vs processed)
   - Familiarity with repositories
   - Familiarity with PIDs
+  - >-
+    Aimed at researchers and data stewards. Participants do not need a prior
+    knowledge of metadata, but should be familiar with the research process and
+    what FAIR is
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
@@ -202,6 +226,20 @@ activities:
       time: 7 min
       type: Task
       level: beginner
+    - learning_outcome: 8
+      activities: >-
+        **Watch or read summary of what metadata is:**
+
+
+        <u>-</u>[<u>Documentation and metadata from RDM
+        kit</u>](https://rdmkit.elixir-europe.org/metadata_management#how-do-you-find-appropriate-standard-metadata-for-datasets-or-samples)
+
+
+        <u>-</u>[<u>What are metastandards
+        video</u>](https://www.youtube.com/watch?v=wQ6XNKb2jh8)
+      time: '15'
+      type: Individual
+      level: beginner
   during:
     - learning_outcome: 1
       activities: "### The \"Mystery Data\" Challenge (Motivation & Concept)\n\nGoal: To viscerally demonstrate why metadata is necessary\n\n* **Activity:**\_Send participants a small, messy dataset (e.g., an Excel sheet) with ambiguous column headers (e.g., \"Temp,\" \"T,\" \"Val1\") and no units or context.\n* **Task:**\_Ask them to spend 5 minutes trying to guess what the data represents.\n* **Outcome:**\_They will likely fail or guess incorrectly. This sets the stage for defining metadata as the \"missing context\" required for understanding."
@@ -223,6 +261,7 @@ activities:
       time: 15 min
       type: Task
       level: intermediate
+description: "**Lesson Overall View**\n\nThis lesson addresses the critical need for rich metadata in the sciences, where complex datasets require detailed context to be truly useful. It centers on the \"Findable\" aspect of the FAIR principles—specifically principle F2—which mandates that data be described with rich metadata. By exploring the significance of these standards, the lesson plan bridges the gap between broad accessibility and the highly specific needs of domain researchers. The core theme is that effective dataset discovery is not accidental; it is the result of intentional, standardized description that allows both humans and machines to locate relevant biological and biomedical data within vast repositories.\n\nIn this context, metadata is defined as structured information that describes, explains, locates, or facilitates the retrieval and use of an information resource. The scope of the lesson covers the practical application of metadata from two distinct perspectives: generic standards for broad interoperability and domain-specific standards for granular precision. Participants will learn to assess metadata richness, utilize semantic annotations, and navigate the tools required to create \"generous\" descriptions. This scope emphasizes that the more comprehensively datasets are described, the more specifically findable they become, allowing for refined searches that go beyond simple keywords to facilitate sophisticated data brokering and machine-actionable validation.\n\n### **Impact for research**\n\nThe adoption of high-quality metadata standards significantly enhances the visibility and longevity of research outputs. By mastering these concepts, researchers ensure that their datasets are not only archived but are actively discoverable by search engines and aggregators, preventing data isolation. Rich, semantically annotated metadata enables sophisticated query retrieval and facilitates machine-to-machine communication, allowing software agents to validate and process data without human intervention. Ultimately, this streamlining of data brokering and validation accelerates scientific discovery by making it easier for the global community to find, cite, and build upon existing research.\n\n**Audience**\n\nThis lesson plan has been created with the aim to educate PhD students and researchers on metadata standards using tangible examples and practical activities. It assumes a low level of prior knowledge regarding metadata but assumes experience in research and familiarity with the FAIR principles. Resources can be provided asynchronous to bring everyone up to the same level.\_\n\nWe recommend starting by building up a theoretical baseline of all participants before giving the opportunity for participants to practice and start working directly with metadata, metadata standards and general concepts.\_\n\nNote that many activities can be done as an individual or a group. This can be changed based on what type of session you are giving. Working in pairs or small groups can increase peer-learning and reduce the threshold for asking questions when confused (as these participants can discuss with their peers rather than having to ask the instructor). Working individually can also be advantageous when doing asynchronous work, hybrid or online sessions or with self-paced study.\_\n\n## **FAIR element(s)**\n\n* Findable: Data should be available in a discoverable resource (i.e. repository), have appropriate description (i.e. metadata) and have a persistent identifier (PID)\n  * Data are described with rich metadata"
 ---
 ## Topic, definition and scope
 
