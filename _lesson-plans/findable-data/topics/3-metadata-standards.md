@@ -273,6 +273,16 @@ In this context, metadata is defined as structured information that describes, e
 
 The adoption of high-quality metadata standards significantly enhances the visibility and longevity of research outputs. By mastering these concepts, researchers ensure that their datasets are not only archived but are actively discoverable by search engines and aggregators, preventing data isolation. Rich, semantically annotated metadata enables sophisticated query retrieval and facilitates machine-to-machine communication, allowing software agents to validate and process data without human intervention. Ultimately, this streamlining of data brokering and validation accelerates scientific discovery by making it easier for the global community to find, cite, and build upon existing research.
 
+
+
+**Audience**
+
+This lesson plan has been created with the aim to educate PhD students and researchers on metadata standards using tangible examples and practical activities. It assumes a low level of prior knowledge regarding metadata but assumes experience in research and familiarity with the FAIR principles. Resources can be provided asynchronous to bring everyone up to the same level. 
+
+We recommend starting by building up a theoretical baseline of all participants before giving the opportunity for participants to practice and start working directly with metadata, metadata standards and general concepts. 
+
+Note that many activities can be done as an individual or a group. This can be changed based on what type of session you are giving. Working in pairs or small groups can increase peer-learning and reduce the threshold for asking questions when confused (as these participants can discuss with their peers rather than having to ask the instructor). Working individually can also be advantageous when doing asynchronous work, hybrid or online sessions or with self-paced study. 
+
 ## FAIR element(s)
 
 * Findable: Data should be available in a discoverable resource (i.e. repository), have appropriate description (i.e. metadata) and have a persistent identifier (PID)
