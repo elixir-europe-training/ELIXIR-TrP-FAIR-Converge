@@ -4,36 +4,41 @@ title: Data vocabularies and ontologies
 status: in_progress
 layout: lesson-plan
 authors:
-  - "0000-0003-4942-2725"
-  - "0000-0003-0771-3516"
-  - "0009-0002-3089-9558"
-
-reviewers:
-
+  - 0000-0003-4942-2725
+  - 0000-0003-0771-3516
+  - 0009-0002-3089-9558
+  - 0000-0003-0947-941X
+reviewers: null
 fair_elements:
   - F
   - A
   - I
   - R
-
 audience:
   - Data stewards
-  - General researchers or/and researchers are involved in designing semantic data models
+  - >-
+    General researchers or/and researchers are involved in designing semantic
+    data models
   - Software engineers working on e.g. data portals or workflows
-
 learning_outcomes:
-  1:
-    outcome: Understand what ontologies and vocabularies are, explain the difference between the two and describe their purpose
-  2:
-    outcome: Understand how ontologies help to organise metadata and what part they play in making metadata schemas more meaningful
-  3:
+  '1':
+    outcome: >-
+      Understand what ontologies and vocabularies are, explain the difference
+      between the two and describe their purpose
+  '2':
+    outcome: >-
+      Understand how ontologies help to organise metadata and what part they
+      play in making metadata schemas more meaningful
+  '3':
     outcome: Understand/analyse the use of ontologies in a repository
-  4:
-    outcome: Understand the use of/apply ontology lookup services to find relevant ontologies and vocabularies
-  5:
-    outcome: Understand/analyse/evaluate the steps, challenges and solutions involved in creating an ontology or vocabulary
-
-
+  '4':
+    outcome: >-
+      Understand the use of/apply ontology lookup services to find relevant
+      ontologies and vocabularies
+  '5':
+    outcome: >-
+      Understand/analyse/evaluate the steps, challenges and solutions involved
+      in creating an ontology or vocabulary
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
@@ -87,9 +92,7 @@ terms4FAIRskills:
         label: interoperability of digital assets
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000170'
         label: reuse of digital assets
-
---- 
-
+---
 ## Overview
 
 ### Topic
