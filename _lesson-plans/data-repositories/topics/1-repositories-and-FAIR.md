@@ -21,34 +21,34 @@ audience:
   - Data Stewards
 
 learning_outcomes:
-  1:Explain the function of metadata within a digital repository by accurately stating its role in enabling search, retrieval, and preservation of digital assets.
-    outcome: digital repositories as support for metadata
-    verb: understand
-    level: beginner 
+  1:Explain the function of metadata within a digital repository by accurately stating its role in enabling search, retrieval, and preservation of digital assets
+    outcome:digital repositories as support for metadata
+    verb:understand
+    level:beginner 
   2:Identify the importance of using interoperable file formats in a digital repository by listing at least two such formats (e.g., PDF/A, TIFF) that promote long-term access and platform independence.
-    outcome: repositories and interoperable file formats
-    verb: learn
-    level: beginner
+    outcome:repositories and interoperable file formats
+    verb:learn
+    level:beginner
   3:Relate how a digital repository uses persistent identifiers (PIs) (such as DOIs or Handles) to guarantee future discoverability and reliable citation, even if the underlying file location changes.
-    outcome: repositories aid persistent identifiers for future citations 
-    verb: know
-    level: beginner
+    outcome:repositories aid persistent identifiers for future citations 
+    verb:know
+    level:beginner
   4:Identify the function of the FAIRsharing resource by stating that it catalogs which persistent identifiers are utilized by different digital repositories.
-    outcome: FAIRsharing stores information about which persistent identifiers are used by which repository 
-    verb: know
-    level: beginner 
+    outcome:FAIRsharing stores information about which persistent identifiers are used by which repository 
+    verb:know
+    level:beginner 
   5:Critique the implementation of FAIR principles in three chosen examples of trustworthy repositories (e.g., Dryad, Zenodo, or an institutional repository) by judging and reporting on their adherence to the Findable and Reusable criteria.
-    outcome: some trustworthy repositories to understand how they implement FAIR 
-    verb:  evaluate 
-    level: intermediate 
+    outcome:some trustworthy repositories to understand how they implement FAIR 
+    verb:evaluate 
+    level:intermediate 
   6:Explain the interconnected responsibility of repositories and researchers in fulfilling the FAIR principles and sub-principles by detailing how metadata creation (the researcher's role) supports the Findability and Reusability (the repository's role) criteria.
-    outcome: FAIR principles and sub-principle are fulfilled by the repository and what are researchers' responsibility.
-    verb: understand
-    level: beginner
+    outcome:FAIR principles and sub-principle are fulfilled by the repository and what are researchers' responsibility.
+    verb:understand
+    level:beginner
   7:Describe the purpose and basic function of the F-UJI tool by explaining how it automatically assesses the FAIRness of data objects based on the official FAIR metrics.
-    outcome: data FAIRness using F-UJI
-    verb: understand
-    level: beginner
+    outcome:data FAIRness using F-UJI
+    verb:understand
+    level:beginner
 
 terms4FAIRskills:
   - subject:
@@ -139,7 +139,8 @@ History: It records every single change made to those files over time, acting li
 
 
 * Check lists
-* Is your repository suitable for data FAIRification?
+* Analyze and Discover one Public repository. This could be a repository like Zenodo or DataverseNL.
+* Is any of these above mentioned repositories a good option for data FAIRification?
 * Do you know of any challenges and how to remedy them?
 * Assess data FAIRness using [F-UJI](https://www.f-uji.net/) in different repositories and data resources and explain the differences among them:
     * FTP server (e.g: [The-normalised-Sentinel-1-Global-Backscatter-Model-mapping-Earths-land-surface-with-C-band-microwaves.pdf](https://www.researchgate.net/journal/Scientific-Data-2052-4463/publication/355710073_The_normalised_Sentinel-1_Global_Backscatter_Model_mapping_Earth's_land_surface_with_C-band_microwaves/links/617b877b3c987366c3fb7278/The-normalised-Sentinel-1-Global-Backscatter-Model-mapping-Earths-land-surface-with-C-band-microwaves.pdf?_sg%5B0%5D=ZJJ3lDaoj0MHl1PSG9k4aqPEH-uv5UyVwDiBhniYvgQplbFtkursBCwlWLWd6fVvnxNF_YIKCu-uGIoBRodJYg.IN6zY73oeN3c4D9gblkBUWUCL9le0Mmq8yXBUpJEjJoRxTg-Cvp3MUHpxsB6u73GJ4cFfrnFOh55b9hfmERsSg&_sg%5B1%5D=X0j0imbHfSpO_807-MF-yVndQpkqcwQFeZ-cU2JTfz0qbYk2AbsRZZLvtRpCSlJzoGIXLtWjIRY6yHrF8LsXwEreqzdNcU0gdLCBWchoa2Yv.IN6zY73oeN3c4D9gblkBUWUCL9le0Mmq8yXBUpJEjJoRxTg-Cvp3MUHpxsB6u73GJ4cFfrnFOh55b9hfmERsSg&_sg%5B2%5D=sybya-lkC6fbwHJr8khjVBhLaxhi7bSUcJVjRmunuKRhMZLAjpn-7SPJIXq9JIkGLaREFKSDUu08_6Y.vPwwUPApnio_UIrgqgv9ih-m1UAQHKuh0znBEq-t-uKdQQV8p8wXS0vjxBkxK3QUNxsbpAR9o4J7jytzKZcNYQ&_iepl=))
@@ -310,7 +311,7 @@ History: It records every single change made to those files over time, acting li
 
 
 
-* Test your repository with FAIRification of one data using the above Handout
+* Test a repository with FAIRification of one data using the above Handout
 * Think about an example similar to what we explained in the above use case; of how to find what a particular role (e.g. Data Steward) needs in FAIRsharing.
 
      For example, start with a requirement they have, e.g. a funder data policy, and move them step-by-step from that data policy to a shortlist of standards and/or databases that they will need to align with and/or submit to. This example has now been written here: [https://fairsharing.gitbook.io/fairsharing/how-to/unsure-where-to-start](https://fairsharing.gitbook.io/fairsharing/how-to/unsure-where-to-start) 
