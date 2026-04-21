@@ -7,6 +7,7 @@ authors:
   - 0000-0001-6675-4639
   - 0000-0002-8611-162X
   - custom-maria-vivas-romero-1772446375795
+  - custom-olav-palmen-1771943858422
 reviewers:
   - 0000-0002-3412-9086
 fair_elements:
