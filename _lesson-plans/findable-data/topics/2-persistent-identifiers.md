@@ -165,6 +165,9 @@ activities:
   during:
     - learning_outcome: 1
       activities: >-
+        **Experiencing the issue of missing PID**
+
+
         The participating groups will each get various data sets to perform the
         exercise:
 
@@ -178,10 +181,221 @@ activities:
 
         Participants experience what can go wrong without PIDs (without
         necessarily knowing which PIDs was needed).
-      time: '15'
+      time: 15 min
       type: Group Activity
       level: beginner
-  after: []
+    - learning_outcome: 2
+      activities: >-
+        **Introduction of PIDs within the FAIR framework 1/7**
+
+
+        The trainer would provide a lecture aiming at
+
+
+        * Define what PIDs are&#x20;
+
+        * Demonstrate the importance of PIDs
+
+        * Emphasize that PIDs are required for data and metadata to be Findable
+        (tie in with FAIR principles)
+
+        * Show examples of PIDs within different settings (datasets,
+        publications, people, organizations)
+
+        * Demonstrate how a PID can be created (use an example commonly used
+        within your institute, e.g., Zenodo, DataverseNL, 4TU.ResearchData)
+      time: 20 min
+      type: lecture
+      level: beginner
+    - learning_outcome: 3
+      activities: >-
+        **Introduction of PIDs within the FAIR framework 2/7**
+
+
+        The trainer would provide a lecture aiming at
+
+
+        * Define what PIDs are
+
+        * Demonstrate the importance of PIDs
+
+        * Emphasize that PIDs are required for data and metadata to be Findable
+        (tie in with FAIR principles)
+
+        * Show examples of PIDs within different settings (datasets,
+        publications, people, organizations)
+
+        * Demonstrate how a PID can be created (use an example commonly used
+        within your institute, e.g., Zenodo, DataverseNL, 4TU.ResearchData)
+      time: 20 min
+      type: lecture
+      level: beginner
+    - learning_outcome: 4
+      activities: >-
+        **Introduction of PIDs within the FAIR framework 3/7**
+
+
+        The trainer would provide a lecture aiming at
+
+
+        * Define what PIDs are
+
+        * Demonstrate the importance of PIDs
+
+        * Emphasize that PIDs are required for data and metadata to be Findable
+        (tie in with FAIR principles)
+
+        * Show examples of PIDs within different settings (datasets,
+        publications, people, organizations)
+
+        * Demonstrate how a PID can be created (use an example commonly used
+        within your institute, e.g., Zenodo, DataverseNL, 4TU.ResearchData)
+      time: 20 min
+      type: lecture
+      level: beginner
+    - learning_outcome: 5
+      activities: >-
+        **Introduction of PIDs within the FAIR framework 4/7**
+
+
+        The trainer would provide a lecture aiming at
+
+
+        * Define what PIDs are
+
+        * Demonstrate the importance of PIDs
+
+        * Emphasize that PIDs are required for data and metadata to be Findable
+        (tie in with FAIR principles)
+
+        * Show examples of PIDs within different settings (datasets,
+        publications, people, organizations)
+
+        * Demonstrate how a PID can be created (use an example commonly used
+        within your institute, e.g., Zenodo, DataverseNL, 4TU.ResearchData)
+      time: 20 min
+      type: lecture
+      level: beginner
+    - learning_outcome: 6
+      activities: >-
+        **Introduction of PIDs within the FAIR framework 5/7**
+
+
+        The trainer would provide a lecture aiming at
+
+
+        * Define what PIDs are
+
+        * Demonstrate the importance of PIDs
+
+        * Emphasize that PIDs are required for data and metadata to be Findable
+        (tie in with FAIR principles)
+
+        * Show examples of PIDs within different settings (datasets,
+        publications, people, organizations)
+
+        * Demonstrate how a PID can be created (use an example commonly used
+        within your institute, e.g., Zenodo, DataverseNL, 4TU.ResearchData)
+      time: 20 min
+      type: lecture
+      level: beginner
+    - learning_outcome: 7
+      activities: >-
+        **Introduction of PIDs within the FAIR framework 6/7**
+
+
+        The trainer would provide a lecture aiming at
+
+
+        * Define what PIDs are
+
+        * Demonstrate the importance of PIDs
+
+        * Emphasize that PIDs are required for data and metadata to be Findable
+        (tie in with FAIR principles)
+
+        * Show examples of PIDs within different settings (datasets,
+        publications, people, organizations)
+
+        * Demonstrate how a PID can be created (use an example commonly used
+        within your institute, e.g., Zenodo, DataverseNL, 4TU.ResearchData)
+      time: 20 min
+      type: lecture
+      level: beginner
+    - learning_outcome: 8
+      activities: >-
+        **Introduction of PIDs within the FAIR framework 7/7**
+
+
+        The trainer would provide a lecture aiming at
+
+
+        * Define what PIDs are
+
+        * Demonstrate the importance of PIDs
+
+        * Emphasize that PIDs are required for data and metadata to be Findable
+        (tie in with FAIR principles)
+
+        * Show examples of PIDs within different settings (datasets,
+        publications, people, organizations)
+
+        * Demonstrate how a PID can be created (use an example commonly used
+        within your institute, e.g., Zenodo, DataverseNL, 4TU.ResearchData)
+      time: 20 min
+      type: lecture
+      level: intermediate
+  after:
+    - learning_outcome: 9
+      activities: >-
+        **Highlighting how PIDs are connected to their research, OS policies,
+        funder requirements, long-term preservation, collaborations with
+        partners, etc. 1/2**
+
+
+        * Ask participants to think about the types of outputs or entities
+        involved in their research, for example:
+          * datasets
+          * publications
+          * software or code
+          * protocols or workflows
+          * researchers (themselves or collaborators)
+          * institutions or projects
+        * Discuss:
+          * Which of these outputs already have persistent identifiers?
+          * Which ones could or should have one but currently do not?
+        * Reflect
+          * How could PIDs help when sharing data with collaborators?
+          * How could they help others find, cite, or reuse their work?
+          * Are there any funder or institutional requirements/guidelines related to PIDs?
+      time: 1 hour
+      type: Group exercise
+      level: intermediate
+    - learning_outcome: 10
+      activities: >-
+        **Highlighting how PIDs are connected to their research, OS policies,
+        funder requirements, long-term preservation, collaborations with
+        partners, etc. 2/2**
+
+
+        * Ask participants to think about the types of outputs or entities
+        involved in their research, for example:
+          * datasets
+          * publications
+          * software or code
+          * protocols or workflows
+          * researchers (themselves or collaborators)
+          * institutions or projects
+        * Discuss:
+          * Which of these outputs already have persistent identifiers?
+          * Which ones could or should have one but currently do not?
+        * Reflect
+          * How could PIDs help when sharing data with collaborators?
+          * How could they help others find, cite, or reuse their work?
+          * Are there any funder or institutional requirements/guidelines related to PIDs?
+      time: 1 hour
+      type: Group exercise
+      level: expert
 prerequisites:
   - >-
     Basic knowledge of FAIR principles and what can be done to improve data
