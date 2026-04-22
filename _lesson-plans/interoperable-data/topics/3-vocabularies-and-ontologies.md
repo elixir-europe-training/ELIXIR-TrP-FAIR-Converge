@@ -236,8 +236,6 @@ Ontologies and vocabularies enhance standardisation and foster a shared understa
 * [https://faircookbook.elixir-europe.org/content/recipes/interoperability/creating-data-dictionary.html](https://faircookbook.elixir-europe.org/content/recipes/interoperability/creating-data-dictionary.html)
 * [https://rdmkit.elixir-europe.org/metadata\_management#how-do-you-find-appropriate-vocabularies-or-ontologies](https://rdmkit.elixir-europe.org/metadata_management#how-do-you-find-appropriate-vocabularies-or-ontologies)
 
-
-
 ## <sup>Content - Details & information for the activities of the lesson plan</sup>
 
 ### <sup>Introductory presentation</sup>
@@ -292,11 +290,7 @@ Ontologies and vocabularies enhance standardisation and foster a shared understa
 
 <sup>**Additional resources:** </sup>[<sup>W3C Best practices for publishing vocabularies</sup>](https://www.w3.org/TR/dwbp/)<sup>, </sup>[<sup>OBO Best practices</sup>](https://obofoundry.org/principles/fp-000-summary.html)
 
-
-
 ***
-
-
 
 ## <sup>Workshop: Searching for Ontology Terms Using the BioPortal API</sup>
 
@@ -344,8 +338,6 @@ Ontologies and vocabularies enhance standardisation and foster a shared understa
 `	`<sup>`}`</sup>
 <sup>`  ]`</sup>
 <sup>`}`</sup>
-
-
 
 * <sup>Interpreting the Response</sup>
   * <sup>**Key elements in the JSON response include:**</sup>
@@ -437,15 +429,11 @@ Ontologies and vocabularies enhance standardisation and foster a shared understa
 |    |           |               |
 |    |           |               |
 
-
-
 <sup>Discussion questions:</sup>
 
 * <sup>Why is storing URIs better than free-text labels?</sup>
 * <sup>How does this improve FAIR interoperability?</sup>
 * <sup>What risks arise when automatically selecting the first search result?</sup>
-
-
 
 <sup>Reflection discussion (10 min)</sup>
 
@@ -454,8 +442,6 @@ Ontologies and vocabularies enhance standardisation and foster a shared understa
 * <sup>challenges encountered when selecting ontology terms</sup>
 * <sup>how incorrect annotations may affect data integration</sup>
 * <sup>when new ontology terms may need to be requested</sup>
-
-
 
 <sup>The discussion should emphasise validation, documentation, and governance of ontology mappings.</sup>
 
@@ -491,14 +477,10 @@ Ontologies and vocabularies enhance standardisation and foster a shared understa
 
 <sup>curl -X GET "http://data.bioontology.org/search?q\=diabetes" -H "Authorization: apikey YOUR\_API\_KEY"</sup>
 
-
-
 <sup>Participants explore:</sup>
 
 * <sup>different search terms</sup>
 * <sup>restricting results to specific ontologies</sup>
-
-
 
 <sup>Example: </sup>[<sup>http://data.bioontology.org/search?q\=diabetes\&ontologies\=SNOMEDCT</sup>](http://data.bioontology.org/search?q=diabetes\&ontologies=SNOMEDCT)
 
@@ -533,8 +515,6 @@ Ontologies and vocabularies enhance standardisation and foster a shared understa
 <sup>   print("Label:", result\["prefLabel"])</sup>
 <sup>   print("URI:", result\["@id"])</sup>
 
-
-
 <sup>Participants modify the script to query different concepts. </sup>
 
 <sup>Dataset annotation exercise (40 min)</sup>
@@ -564,8 +544,6 @@ Ontologies and vocabularies enhance standardisation and foster a shared understa
 
 <sup>Suggested duration: Half-day workshop</sup>
 
-
-
 <sup>Structure</sup>
 
 <sup>Rapid framing (10 min)</sup>
@@ -591,8 +569,6 @@ Ontologies and vocabularies enhance standardisation and foster a shared understa
 <sup>Pipeline design exercise (60 min)</sup>
 
 <sup>Participants design a conceptual workflow integrating ontology lookup into a data pipeline.</sup>
-
-
 
 <sup>Example workflow:</sup>
 
