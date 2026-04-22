@@ -6,6 +6,7 @@ layout: lesson-plan
 authors:
   - 0000-0001-6675-4639
   - 0000-0002-8611-162X
+  - 0000-0003-4768-7180
 reviewers:
   - 0000-0002-3412-9086
 fair_elements:
