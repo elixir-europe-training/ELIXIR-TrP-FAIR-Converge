@@ -103,9 +103,9 @@ additionalResources:
   - title: The FAIR Guiding Principles for scientific data management and stewardship
     url: 'https://www.nature.com/articles/sdata201618'
   - title: FAIR data
-    author: Swedish University of Agricultural Sciences
     url: >-
       https://www.slu.se/en/subweb/library/publish-and-analyse/archiving-and-publishing-research-data/fair-data/
+    author: Swedish University of Agricultural Sciences
   - title: Lost or Found? Discovering Data Needed for Research
     author: 'Kathleen Gregory, Paul Groth, Andrea Scharnhorst, Sally Wyatt'
     url: 'https://doi.org/10.1162/99608f92.e38165eb'
@@ -124,6 +124,14 @@ additionalResources:
   - title: Data reuse and the open data citation advantage
     author: 'Heather A. Piwowar​, Todd J. Vision'
     url: 'https://doi.org/10.7717/peerj.175'
+  - title: FAIR Principles
+    url: 'https://www.go-fair.org/fair-principles/'
+    author: GOFAIR
+  - title: >-
+      Identifiers for the 21st century: How to design, provision, and reuse
+      persistent identifiers to maximize utility and impact of life science data
+    url: 'https://www.biorxiv.org/content/biorxiv/early/2017/03/20/117812.full.pdf'
+    doi: 'https://doi.org/10.1101/117812'
 description: "A repository (often shortened to \"repo\") is essentially a dedicated folder or directory where all the files, folders, and history related to a specific project are stored.\n\nIt is the heart of a version control system like Git, serving two main functions:\n\nStorage: It holds the latest, working copy of the project code.\n\nHistory: It records every single change made to those files over time, acting like a time machine for your project. This allows teams to rewind to any previous state, see who changed what, and collaborate safely.\n\n* Interfaces for external services like\_[OAI-PMH](https://www.openarchives.org/pmh/)\_allow harvesting of metadata for stored records\\*\\* \\*\\*\n* **Background:**\n  * A number of previous projects and working groups have been discussing what a common set of attributes should be to enable FAIR data, and to allow repository stakeholders to make their own decisions about which repository is best for them. Details of these previous efforts are summarised in the\_[case statement](https://www.rd-alliance.org/group/data-repository-attributes-wg/case-statement/data-repository-attributes-wg-case-statement)\_of one existing cross-domain, worldwide effort under the auspices of the RDA: the\_[RDA Data repository attributes Working Group](https://www.rd-alliance.org/groups/data-repository-attributes-wg). Therefore, how FAIR is implemented in a repository, and how each FAIR principle aligns with a particular data attribute, can be discovered from these efforts."
 activities:
   before:
