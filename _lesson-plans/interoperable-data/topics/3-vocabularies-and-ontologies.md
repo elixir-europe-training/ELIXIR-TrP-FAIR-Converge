@@ -11,6 +11,9 @@ authors:
 reviewers: null
 fair_elements:
   - I
+  - F
+  - A
+  - R
 audience:
   - Data stewards
   - >-
@@ -195,6 +198,21 @@ activities:
       time: 15-20
       type: Group discussion
       level: expert
+additionalResources:
+  - title: BioPortal
+    url: 'https://bioportal.bioontology.org/'
+  - title: Ontology Lookup Service (OLS)
+    url: 'https://www.ebi.ac.uk/ols4/'
+prerequisites:
+  - >-
+    A basic understanding of the FAIR principles (Findable, Accessible,
+    Interoperable, Reusable).
+  - >-
+    Familiarity with the concept of metadata and how data are described in
+    structured formats (e.g., spreadsheets or database tables).
+  - >-
+    Awareness that different datasets may use different terminologies to
+    describe similar concepts (semantic heterogeneity).
 ---
 ## Overview
 
@@ -202,20 +220,18 @@ activities:
 
 This lesson plan will help to better understand what ontologies and vocabularies are, how they relate to the FAIR principles, and why they are important for research. At the end of this lesson, participants will be able to define and distinguish ontologies and vocabularies, understand how they are used in repositories, explain their role in metadata organisation, use ontology lookup services, and evaluate the process of creating an ontology or vocabulary.
 
+***
 
----
 ### Added value
 
-Ontologies and vocabularies enhance standardisation and foster a shared understanding between people and machines, thereby increasing the semantic interoperability of digital resources. By providing a common framework for organising knowledge, they promote the discovery of relevant scientific information, improve data mining and analysis, and support the development of intelligent systems.
----
+## Ontologies and vocabularies enhance standardisation and foster a shared understanding between people and machines, thereby increasing the semantic interoperability of digital resources. By providing a common framework for organising knowledge, they promote the discovery of relevant scientific information, improve data mining and analysis, and support the development of intelligent systems.
 
 ## References
 
-
-* [>800 terminologies](https://fairsharing.org/search?fairsharingRegistry=Standard&recordType=terminology_artefact&page=1) listed within FAIRsharing.
+* [>800 terminologies](https://fairsharing.org/search?fairsharingRegistry=Standard\&recordType=terminology_artefact\&page=1) listed within FAIRsharing.
 * FAIRsharing’s educational factsheet on standards, including terminologies
-* https://faircookbook.elixir-europe.org/content/recipes/interoperability/introduction-terminologies-ontologies.html
-* https://faircookbook.elixir-europe.org/content/recipes/interoperability/selecting-ontologies.html
-* https://faircookbook.elixir-europe.org/content/recipes/interoperability/ontology-new-term-request-recipe.html
-* https://faircookbook.elixir-europe.org/content/recipes/interoperability/creating-data-dictionary.html
-* https://rdmkit.elixir-europe.org/metadata_management#how-do-you-find-appropriate-vocabularies-or-ontologies
+* [https://faircookbook.elixir-europe.org/content/recipes/interoperability/introduction-terminologies-ontologies.html](https://faircookbook.elixir-europe.org/content/recipes/interoperability/introduction-terminologies-ontologies.html)
+* [https://faircookbook.elixir-europe.org/content/recipes/interoperability/selecting-ontologies.html](https://faircookbook.elixir-europe.org/content/recipes/interoperability/selecting-ontologies.html)
+* [https://faircookbook.elixir-europe.org/content/recipes/interoperability/ontology-new-term-request-recipe.html](https://faircookbook.elixir-europe.org/content/recipes/interoperability/ontology-new-term-request-recipe.html)
+* [https://faircookbook.elixir-europe.org/content/recipes/interoperability/creating-data-dictionary.html](https://faircookbook.elixir-europe.org/content/recipes/interoperability/creating-data-dictionary.html)
+* [https://rdmkit.elixir-europe.org/metadata\_management#how-do-you-find-appropriate-vocabularies-or-ontologies](https://rdmkit.elixir-europe.org/metadata_management#how-do-you-find-appropriate-vocabularies-or-ontologies)
