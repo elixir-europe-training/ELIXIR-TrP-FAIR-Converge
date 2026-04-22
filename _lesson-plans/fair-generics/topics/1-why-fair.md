@@ -14,14 +14,14 @@ authors:
 reviewers:
   - 0000-0002-7702-4495
   - 0009-0002-3089-9558
-description: >
+description: >-
   This topic introduces the general concept of FAIR, describing why potential
   and real stakeholders as well as other members of the community benefit from
   the implementation of the FAIR principles, as well as the increasing
   incentives from journals, funding bodies and institutions for emphasising FAIR
   as a factor for scientific impact. A fundamental understanding of FAIR and its
   role at all stages of research is vital for understanding the FAIR
-  implementation process.
+  implementation processes.
 fair_elements:
   - F
   - A
