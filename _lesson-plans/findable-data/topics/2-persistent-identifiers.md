@@ -161,7 +161,7 @@ activities:
         As an instructor you would have participants read the FAIR Principles
         [<u>FAIR Principles - GO
         FAIR</u>](https://www.go-fair.org/fair-principles/)<u>. </u>This should
-        ideally take place before the lesson takes place.&#x20;
+        ideally take place before the lesson takes place.
       time: '15'
       type: Individual Activity
       level: beginner
