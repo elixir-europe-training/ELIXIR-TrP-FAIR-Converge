@@ -4,52 +4,49 @@ title: Data Repositories and FAIR
 status: ready_for_review
 layout: lesson-plan
 authors:
-  - "0000-0002-7159-1448"
-  - "0000-0003-2211-0107"
-  - "Branka Franicevic"
-  - "0000-0002-7702-4495"
-  - "0000-0002-7398-0594"
-    
+  - 0000-0002-7159-1448
+  - 0000-0003-2211-0107
+  - Branka Franicevic
+  - 0000-0002-7702-4495
+  - 0000-0002-7398-0594
+  - custom-olav-palmen-1776843435812
 reviewers:
-  - "0000-0002-5788-2687"
-  - "0000-0002-3412-9086"
-
+  - 0000-0002-5788-2687
+  - 0000-0002-3412-9086
 audience:
   - Researchers
   - Data scientists
   - Data Managers
   - Data Stewards
-
-learning_outcomes:
-  1:Explain the function of metadata within a digital repository by accurately stating its role in enabling search, retrieval, and preservation of digital assets
-    outcome:digital repositories as support for metadata
-    verb:understand
-    level:beginner 
-  2:Identify the importance of using interoperable file formats in a digital repository by listing at least two such formats (e.g., PDF/A, TIFF) that promote long-term access and platform independence.
-    outcome:repositories and interoperable file formats
-    verb:learn
-    level:beginner
-  3:Relate how a digital repository uses persistent identifiers (PIs) (such as DOIs or Handles) to guarantee future discoverability and reliable citation, even if the underlying file location changes.
-    outcome:repositories aid persistent identifiers for future citations 
-    verb:know
-    level:beginner
-  4:Identify the function of the FAIRsharing resource by stating that it catalogs which persistent identifiers are utilized by different digital repositories.
-    outcome:FAIRsharing stores information about which persistent identifiers are used by which repository 
-    verb:know
-    level:beginner 
-  5:Critique the implementation of FAIR principles in three chosen examples of trustworthy repositories (e.g., Dryad, Zenodo, or an institutional repository) by judging and reporting on their adherence to the Findable and Reusable criteria.
-    outcome:some trustworthy repositories to understand how they implement FAIR 
-    verb:evaluate 
-    level:intermediate 
-  6:Explain the interconnected responsibility of repositories and researchers in fulfilling the FAIR principles and sub-principles by detailing how metadata creation (the researcher's role) supports the Findability and Reusability (the repository's role) criteria.
-    outcome:FAIR principles and sub-principle are fulfilled by the repository and what are researchers' responsibility.
-    verb:understand
-    level:beginner
-  7:Describe the purpose and basic function of the F-UJI tool by explaining how it automatically assesses the FAIRness of data objects based on the official FAIR metrics.
-    outcome:data FAIRness using F-UJI
-    verb:understand
-    level:beginner
-
+learning_outcomes: >-
+  1:Explain the function of metadata within a digital repository by accurately
+  stating its role in enabling search, retrieval, and preservation of digital
+  assets outcome:digital repositories as support for metadata verb:understand
+  level:beginner 2:Identify the importance of using interoperable file formats
+  in a digital repository by listing at least two such formats (e.g., PDF/A,
+  TIFF) that promote long-term access and platform independence.
+  outcome:repositories and interoperable file formats verb:learn level:beginner
+  3:Relate how a digital repository uses persistent identifiers (PIs) (such as
+  DOIs or Handles) to guarantee future discoverability and reliable citation,
+  even if the underlying file location changes. outcome:repositories aid
+  persistent identifiers for future citations verb:know level:beginner
+  4:Identify the function of the FAIRsharing resource by stating that it
+  catalogs which persistent identifiers are utilized by different digital
+  repositories. outcome:FAIRsharing stores information about which persistent
+  identifiers are used by which repository verb:know level:beginner 5:Critique
+  the implementation of FAIR principles in three chosen examples of trustworthy
+  repositories (e.g., Dryad, Zenodo, or an institutional repository) by judging
+  and reporting on their adherence to the Findable and Reusable criteria.
+  outcome:some trustworthy repositories to understand how they implement FAIR
+  verb:evaluate level:intermediate 6:Explain the interconnected responsibility
+  of repositories and researchers in fulfilling the FAIR principles and
+  sub-principles by detailing how metadata creation (the researcher's role)
+  supports the Findability and Reusability (the repository's role) criteria.
+  outcome:FAIR principles and sub-principle are fulfilled by the repository and
+  what are researchers' responsibility. verb:understand level:beginner
+  7:Describe the purpose and basic function of the F-UJI tool by explaining how
+  it automatically assesses the FAIRness of data objects based on the official
+  FAIR metrics. outcome:data FAIRness using F-UJI verb:understand level:beginner
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
@@ -114,9 +111,7 @@ terms4FAIRskills:
         label: citable data
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000283'
         label: access
-
---- 
-
+---
 ## Topic, definition and scope
 
 
@@ -319,6 +314,3 @@ History: It records every single change made to those files over time, acting li
 
 
 ---
-
-
-
