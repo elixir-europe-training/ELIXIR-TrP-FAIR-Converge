@@ -24,6 +24,9 @@ learning_outcomes:
     outcome: >-
       Explain why data discovery is important and how researchers **Find** and
       **Reuse** data that they do not create themselves
+    verbs:
+      - verb: Explain
+        level: beginner
   '2':
     outcome: >-
       Recognize new ways to discover data (i.e: visualisation, semantic,
@@ -294,6 +297,7 @@ activities:
       level: beginner
 ---
 ## Topic, definition and scope
+Data Repository can be defined as a centralized location where data is stored, organized, and managed. This a system that doesn't just serve to store files, but also makes them discoverable and usable for specific purposes.
 
 * “Everyone has the right to share in scientific advancement and its benefits”&#x20;
   Article 27, Universal Declaration of Human Rights

@@ -1,19 +1,17 @@
 ---
 number: 3.1
-title: Access modes, sensitive data, registered access, controlled access
+title: 'Access modes, sensitive data, registered access, controlled access'
 status: ready_for_review
 layout: lesson-plan
 authors:
-  - "0000-0002-7702-4495"
-  - "Branka Franicevic"
-  - "0000-0001-7791-4984"
-  - "0000-0002-7398-0594"
-
-reviewers:
-
+  - 0000-0002-7702-4495
+  - Branka Franicevic
+  - 0000-0001-7791-4984
+  - 0000-0002-7398-0594
+  - custom-maria-vivas-romero-1772446375795
+reviewers: null
 fair_elements:
   - A
-
 audience:
   - Researchers and Project leaders
   - Data stewards
@@ -22,51 +20,60 @@ audience:
   - Data controllers and processors
   - Data protection officers
   - Anyone who creates DMPs
-  - Students and researchers (including PIs) in life sciences working on personal and sensitive data   
-
+  - >-
+    Students and researchers (including PIs) in life sciences working on
+    personal and sensitive data
 learning_outcomes:
-
-  1:
-    outcome: "data sharing principles (also: understand what Accessible means in FAIR principles)"
+  '1':
+    outcome: >-
+      data sharing principles (also: understand what Accessible means in FAIR
+      principles)
     verbs:
-    - verbs: understanding
-      level: beginner      
-  2: 
-    outcome: "controlled access, registered access, etc"
+      - verbs: understanding
+        level: beginner
+  '2':
+    outcome: 'controlled access, registered access, etc'
     verbs:
-    - verbs: define
-      level: beginner
-  3:
-    outcome: "the fundamental processes of licensing and archival works in a context of controlled/registered access"
-    verbs: 
-    - verbs: explain
-      level: beginner
-  4:
-    outcome: "the various (FAIR) data sharing services"
+      - verbs: define
+        level: beginner
+  '3':
+    outcome: >-
+      the fundamental processes of licensing and archival works in a context of
+      controlled/registered access
     verbs:
-    - verbs: explain
-      level: beginner
-  5:
-    outcome: "underlying concepts for sensitive data sharing e.g. anonymisation, pseudonymisation" 
+      - verbs: explain
+        level: beginner
+  '4':
+    outcome: the various (FAIR) data sharing services
     verbs:
-    - verbs: explain
-      level: beginner
-  6:
-    outcome: various roles relevant to (and involved in) processes for which approvals are required e.g. data controller, data protection officer
+      - verbs: explain
+        level: beginner
+  '5':
+    outcome: >-
+      underlying concepts for sensitive data sharing e.g. anonymisation,
+      pseudonymisation
     verbs:
-    - verbs: describe
-      level: beginner 
-  7:
-    outcome: the purpose and key components of agreements (e.g. data transfer and or processing agreements, DPIA)
+      - verbs: explain
+        level: beginner
+  '6':
+    outcome: >-
+      various roles relevant to (and involved in) processes for which approvals
+      are required e.g. data controller, data protection officer
     verbs:
-    - verbs: explain
-      level: beginner 
-  8:
+      - verbs: describe
+        level: beginner
+  '7':
+    outcome: >-
+      the purpose and key components of agreements (e.g. data transfer and or
+      processing agreements, DPIA)
+    verbs:
+      - verbs: explain
+        level: beginner
+  '8':
     outcome: different types of life sciences data in terms of accessibility levels
-    verbs: 
-    - verbs: explain
-      level: beginners 
-
+    verbs:
+      - verbs: explain
+        level: beginners
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
@@ -124,9 +131,7 @@ terms4FAIRskills:
     object:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000478'
         label: accessibility of digital assets
-
---- 
-
+---
 ## Topic, definition and scope
 **Data Accesibility:**  In the Life Sciences, data professionals often define it as the processes and ease with which data can be accessed, retrieved, and have a secondary use when authorized by its original participants and owners. This topic encompasses not only the technical access, but also the format, and documentation that allows for distinct levels of access. In the context of the FAIR principles: "Accessible" means that data should be retrievable by their identifier using a standard communications protocol. This protocol should be open, free, and universally implementable. While data access can be regulated (e.g., controlled or registered access), the protocol itself remains open and free.
 
@@ -207,6 +212,3 @@ In this section aims to provide trainers with the foundational understandings of
 
 
 ---
-
-
-
