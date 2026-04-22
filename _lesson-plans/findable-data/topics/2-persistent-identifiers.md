@@ -237,7 +237,7 @@ activities:
 prerequisites:
   - >-
     Basic knowledge of FAIR principles and what can be done to improve data
-    FAIRness.
+    FAIRness: https://www.go-fair.org/fair-principles/
 additionalResources:
   - title: 'NWO PID strategy '
     url: 'https://doi.org/10.5281/zenodo.4674513'
