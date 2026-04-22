@@ -27,9 +27,10 @@ learning_outcomes:
   '2':
     outcome: >-
       Recognize new ways to discover data (i.e: visualisation, semantic,
-      annotation, ….etc): Importance of metadata and semantic annotations for
-      data findability, importance of reusability for data annotation,
-      importance of data crosslink
+      annotation, etc): Importance of metadata and semantic annotations for data
+      findability, importance of reusability for data annotation, importance of
+      data crosslink
+    verbs: []
   '3':
     outcome: >-
       Develop a strategy to search for data and link it with the research data
@@ -136,64 +137,7 @@ description: "A repository (often shortened to \"repo\") is essentially a dedica
 activities:
   before:
     - learning_outcome: 5
-      activities: >-
-        **The Data Hunting Exercise**&#x20;
-
-
-        1. **Set up the challenge:** Choose a topic the participants could
-        explore while looking for data on a particular repository examples can
-        include:
-
-
-        * **Environmental Science:** Ocean acidification rates in the North Sea
-
-        * **Health:** Genomic Sequencing and antibiotic-resistant bacteria
-
-        * **Education:** Statistics on numbers of International Students in
-        Medical Schools in Europe&#x20;
-
-
-        1. **Looking for Places to Search :** Provide the participants with
-        different locations to look for this data:&#x20;
-
-
-        * &#x20;**Generic Repositories:** Zenodo, Figshare, DataverseNL, Dryad,
-        Dataverse, DANS Data Station&#x20;
-
-        * **Domain Specific:** Pangea (Earth Science) NCBI (BIO)&#x20;
-
-        * **Search Engines:** Google Dataset Search, DataCite Commons
-
-
-        1. **The Scavenger Hunt Checklist:** Participants must find a data set
-        in at least two of the categories provided and fill out this evidence
-        check list: \*\*\*\*&#x20;
-
-
-        * **Persistent identifier:**  (PID) Can you find a DOI?&#x20;
-
-        * **Meta-data Richness:** On a scale of 1-5, how well is the data
-        described? (Are there column definitions, read-me files, methods?
-
-        * **Interoperability:** What file formats are used? (Proprietary like
-        .xlsx. or open like .cvs)
-
-
-        1. **The Debriefing: "Comparison Gallery"**&#x20;
-
-
-        * Which repository felt most trustworthy and why?&#x20;
-
-        * Did you find the same dataset in two different places (this introduces
-        the concept of data harvesting and mirroring&#x20;
-
-        * Which metadata record made you feel like you actually re-use the data
-        right away?&#x20;
-
-
-        **Annotations:** Have participants made annotations on a common document
-        they would take home. This could also work as feedback and improvement
-        mechanisms for this particular activity.&#x20;
+      activities: "**The Data Hunting Exercise**&#x20;\n\n1. **Set up the challenge:** Choose a topic the participants could explore while looking for data on a particular repository examples can include:\n\n* **Environmental Science:** Ocean acidification rates in the North Sea\n* **Health:** Genomic Sequencing and antibiotic-resistant bacteria\n* **Education:** Statistics on numbers of International Students in Medical Schools in Europe&#x20;\n\n1. **Looking for Places to Search :** Provide the participants with different locations to look for this data:&#x20;\n\n* **Generic Repositories:** Zenodo, Figshare, DataverseNL, Dryad, Dataverse, DANS Data Station&#x20;\n* **Domain Specific:** Pangea (Earth Science), NCBI (BIO), GBIF\_(Biodiversity)\n* **Search Engines:** Google Dataset Search, DataCite Commons, OpenAIRE Explore\n\n1. **The Scavenger Hunt Checklist:** Participants must find a data set in at least two of the categories provided and fill out this evidence check list: \\*\\*\\*\\*&#x20;\n\n* **Persistent identifier:**  (PID) Can you find a DOI?&#x20;\n* **Meta-data Richness:** On a scale of 1-5, how well is the data described? (Are there column definitions, read-me files, methods?\n* **Interoperability:** What file formats are used? (Proprietary like .xlsx. or open like .cvs)\n\n1. **The Debriefing: \"Comparison Gallery\"**&#x20;\n\n* Which repository felt most trustworthy and why?&#x20;\n* Did you find the same dataset in two different places (this introduces the concept of data harvesting and mirroring&#x20;\n* Which metadata record made you feel like you actually re-use the data right away?&#x20;\n\n**Annotations:** Have participants made annotations on a common document they would take home. This could also work as feedback and improvement mechanisms for this particular activity.&#x20;"
       time: '30'
       type: Group Exercise
       level: beginner
@@ -270,6 +214,62 @@ activities:
         These points might be valuable insight to reproduce the exercise.&#x20;
       time: 30 minutes
       type: Working session
+      level: beginner
+  after:
+    - learning_outcome: 3
+      activities: >-
+        **Repository Speed-Dating**
+
+
+        **Objective:** Match a "Data Profile" to the correct "Repository Type"
+        based on the discovery and reuse principles learned earlier.
+
+
+        **1.The Setup (5 minutes)**
+
+
+        Give each participant (or small group) three "Data Profile Cards." You
+        can display these on a screen or print them:
+
+
+        * Profile A: A small spreadsheet of water temperatures from a local
+        lake, collected over 2 weeks. Needs to be cited in a paper.
+
+        * Profile B: 500GB of high-resolution 3D protein structures of a new
+        virus variant.
+
+        * Profile C: Sensitive patient records from a rare disease study across
+        three hospitals (requires restricted access).
+
+
+        **2. The "Speed Match" (5 Minutes)**
+
+
+        Participants must "match" their profiles to the most appropriate
+        repository from the lesson (e.g., Zenodo, PDB, DANS, or NCBI) and defend
+        their choice based on the FAIR principles.
+
+
+        The Twist: For each match, they must identify one "Dealbreaker." (e.g.,
+        "I can't put Profile C on Zenodo because it’s open-access and the data
+        is sensitive/un-anonymized.")
+
+
+        **3. The "Legacy" Handshake (5 Minutes)**
+
+
+        To finish, each participant writes one "Note to the Future" on a post-it
+        or a shared digital doc (like a Jamboard or Padlet).
+
+
+        Example: "I am depositing \[Type of Data]. To make sure someone can find
+        and reuse this in 10 years, the most important metadata tag I will
+        include is \_\_\_\_\_\_\_\_\_\_\_\_ because \_\_\_\_\_\_\_\_\_\_\_\_."
+
+
+        >
+      time: '15'
+      type: Group Exercice
       level: beginner
 ---
 ## Topic, definition and scope
