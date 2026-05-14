@@ -4,42 +4,52 @@ title: Data/Repository discovery
 status: ready_for_review
 layout: lesson-plan
 authors:
-  - "0000-0001-6675-4639"
-  - "0000-0002-8611-162X"
-  
+  - 0000-0001-6675-4639
+  - 0000-0002-8611-162X
+  - 0000-0003-4768-7180
 reviewers:
-  - "0000-0002-3412-9086"
-
+  - 0000-0002-3412-9086
 fair_elements:
   - F
   - A
   - I
   - R
-
 audience:
   - Data Manager
   - Repository Manager
   - Researcher
   - Data Stewards
-
 learning_outcomes:
-  1:
-    outcome: Explain why data discovery is important and how researchers **Find** and **Reuse** data that they do not create themselves
-  2:
-    outcome: "Recognize new ways to discover data (i.e: visualisation, semantic, annotation, ….etc): Importance of metadata and semantic annotations for data findability, importance of reusability for data annotation, importance of data crosslink"
-  3:
-    outcome: Develop a strategy to search for data and link it with the research data lifecycle.
-  4:
+  '1':
+    outcome: >-
+      Explain why data discovery is important and how researchers **Find** and
+      **Reuse** data that they do not create themselves
+    verbs:
+      - verb: Explain
+        level: beginner
+  '2':
+    outcome: >-
+      Recognize new ways to discover data (i.e: visualisation, semantic,
+      annotation, etc): Importance of metadata and semantic annotations for data
+      findability, importance of reusability for data annotation, importance of
+      data crosslink
+    verbs: []
+  '3':
+    outcome: >-
+      Develop a strategy to search for data and link it with the research data
+      lifecycle.
+  '4':
     outcome: Extract datasets and build their own work on them.
-  5:
-    outcome: Search for data in different resources and identify the differences among them
-  6:
+  '5':
+    outcome: >-
+      Search for data in different resources and identify the differences among
+      them
+  '6':
     outcome: Recognize the purpose for data citation and the relation with the FAIR
-  7:
+  '7':
     outcome: Recognize the purpose for data licence and the relation with FAIR
-  8:
+  '8':
     outcome: How to cite and licence your data
-
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
@@ -93,111 +103,288 @@ terms4FAIRskills:
     object:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000447'
         label: the FAIR Principles
-
 additionalResources:
-  - title: "The FAIR Guiding Principles for scientific data management and stewardship"
-    url: https://www.nature.com/articles/sdata201618
-  - title: "FAIR data"
-    author: Swedish University of Agricultural Sciences
-    url: https://www.slu.se/en/subweb/library/publish-and-analyse/archiving-and-publishing-research-data/fair-data/
-  - title: "Lost or Found? Discovering Data Needed for Research"
-    author: "Kathleen Gregory, Paul Groth, Andrea Scharnhorst, Sally Wyatt"
-    url: https://doi.org/10.1162/99608f92.e38165eb
-  - title: "GOFAIR Discovery Implementation Network"
-    url: https://phaidra.univie.ac.at/download/o:1201054
-  - title: "What is Data Mining"
+  - title: The FAIR Guiding Principles for scientific data management and stewardship
+    url: 'https://www.nature.com/articles/sdata201618'
+  - title: Lost or Found? Discovering Data Needed for Research
+    author: 'Kathleen Gregory, Paul Groth, Andrea Scharnhorst, Sally Wyatt'
+    url: 'https://doi.org/10.1162/99608f92.e38165eb'
+  - title: GOFAIR Discovery Implementation Network
+    url: 'https://phaidra.univie.ac.at/download/o:1201054'
+  - title: What is Data Mining
     author: techtarget.com
-    url: https://www.techtarget.com/searchbusinessanalytics/definition/data-mining
-  - title: "Discover - Data Management Expert Guide"
+    url: 'https://www.techtarget.com/searchbusinessanalytics/definition/data-mining'
+  - title: Discover - Data Management Expert Guide
     author: CESSDA ERIC
-    url: https://dmeg.cessda.eu/Data-Management-Expert-Guide/7.-Discover
-  - title: "Citing your data - Data Management Expert Guide"
+    url: 'https://dmeg.cessda.eu/Data-Management-Expert-Guide/7.-Discover'
+  - title: Citing your data - Data Management Expert Guide
     author: CESSDA ERIC
-    url: https://dmeg.cessda.eu/Data-Management-Expert-Guide/6.-Archive-Publish/Publishing-with-CESSDA-archives/Citing-your-data
-  - title: "Data reuse and the open data citation advantage"
-    author: "Heather A. Piwowar​, Todd J. Vision"
-    url: https://doi.org/10.7717/peerj.175
+    url: >-
+      https://dmeg.cessda.eu/Data-Management-Expert-Guide/6.-Archive-Publish/Publishing-with-CESSDA-archives/Citing-your-data
+  - title: Data reuse and the open data citation advantage
+    author: 'Heather A. Piwowar​, Todd J. Vision'
+    url: 'https://doi.org/10.7717/peerj.175'
+  - title: FAIR Principles
+    url: 'https://www.go-fair.org/fair-principles/'
+    author: GOFAIR
+  - title: >-
+      Identifiers for the 21st century: How to design, provision, and reuse
+      persistent identifiers to maximize utility and impact of life science data
+    url: 'https://www.biorxiv.org/content/biorxiv/early/2017/03/20/117812.full.pdf'
+    doi: 'https://doi.org/10.1101/117812'
+  - title: Find a FAIR Repository
+    url: 'https://www.incf.org/find-fair-repository'
+    author: INCF Guide
+    additionalInformation: >-
+      Provides a comprehensive checklist for what makes a repository
+      "trustworthy," including the necessity of DOI versioning and API support
+      for search aggregation.
+  - title: >-
+      Bridging the Data Discovery Gap: User-Centric Recommendations for Research
+      Data Repositories
+    url: 'https://datascience.codata.org/articles/10.5334/dsj-2026-006'
+    doi: 'https://doi.org/10.5334/dsj-2026-006'
+    additionalInformation: >-
+      Focuses on user-centric recommendations. It argues that discoverability
+      fails when repositories don't use domain-specific metadata that matches
+      how researchers actually search.
+  - title: >-
+      CORE at Open Repositories 2025: Unlocking Insights and Empowering Open
+      Access
+    url: >-
+      https://blog.core.ac.uk/2025/04/04/core-at-open-repositories-2025-unlocking-insights-and-empowering-open-access/
+    author: CORE
+    additionalInformation: >-
+      Explains the "behind the scenes" of how a dataset in a small repository
+      ends up on Google Dataset Search.
+description: "Traditionally, research begins in the wet lab or through primary data collection. In this lesson, we define **Repository Discovery** as the modern starting point for scientific inquiry.\n\nA repository (often shortened to \"repo\") is essentially a dedicated folder or directory where all the files, folders, and history related to a specific project are stored.\n\nIt is the heart of a version control system like Git, serving two main functions:\n\nStorage: It holds the latest, working copy of the project code.\n\nHistory: It records every single change made to those files over time, acting like a time machine for your project. This allows teams to rewind to any previous state, see who changed what, and collaborate safely.\n\n* Interfaces for external services like\_[OAI-PMH](https://www.openarchives.org/pmh/)\_allow harvesting of metadata for stored records\\*\\* \\*\\*\n* **Background:**\n  * A number of previous projects and working groups have been discussing what a common set of attributes should be to enable FAIR data, and to allow repository stakeholders to make their own decisions about which repository is best for them. Details of these previous efforts are summarised in the\_[case statement](https://www.rd-alliance.org/group/data-repository-attributes-wg/case-statement/data-repository-attributes-wg-case-statement)\_of one existing cross-domain, worldwide effort under the auspices of the RDA: the\_[RDA Data repository attributes Working Group](https://www.rd-alliance.org/groups/data-repository-attributes-wg). Therefore, how FAIR is implemented in a repository, and how each FAIR principle aligns with a particular data attribute, can be discovered from these efforts."
+activities:
+  before:
+    - learning_outcome: 5
+      activities: "**The Data Hunting Exercise**&#x20;\n\n1. **Set up the challenge:** Choose a topic the participants could explore while looking for data on a particular repository examples can include:\n\n* **Environmental Science:** Ocean acidification rates in the North Sea\n* **Health:** Genomic Sequencing and antibiotic-resistant bacteria\n* **Education:** Statistics on numbers of International Students in Medical Schools in Europe&#x20;\n\n1. **Looking for Places to Search :** Provide the participants with different locations to look for this data:&#x20;\n\n* **Generic Repositories:** Zenodo, Figshare, DataverseNL, Dryad, Dataverse, DANS Data Station&#x20;\n* **Domain Specific:** Pangea (Earth Science), NCBI (BIO), GBIF\_(Biodiversity)\n* **Search Engines:** Google Dataset Search, DataCite Commons, OpenAIRE Explore\n\n1. **The Scavenger Hunt Checklist:** Participants must find a data set in at least two of the categories provided and fill out this evidence check list: \\*\\*\\*\\*&#x20;\n\n* **Persistent identifier:**  (PID) Can you find a DOI?&#x20;\n* **Meta-data Richness:** On a scale of 1-5, how well is the data described? (Are there column definitions, read-me files, methods?\n* **Interoperability:** What file formats are used? (Proprietary like .xlsx. or open like .cvs)\n\n1. **The Debriefing: \"Comparison Gallery\"**&#x20;\n\n* Which repository felt most trustworthy and why?&#x20;\n* Did you find the same dataset in two different places (this introduces the concept of data harvesting and mirroring&#x20;\n* Which metadata record made you feel like you actually re-use the data right away?&#x20;\n\n**Annotations:** Have participants made annotations on a common document they would take home. This could also work as feedback and improvement mechanisms for this particular activity.&#x20;"
+      time: '30'
+      type: Group Exercise
+      level: beginner
+  during:
+    - learning_outcome: 1
+      activities: >-
+        &#x20;**The "In Silico" Shortcut Exercise**
 
---- 
 
+        **Scenario:** A new variant of a rare respiratory virus has emerged.
+        Your team needs to find an existing drug that can be "repurposed" to
+        treat it.
+
+
+        ### 1. The Challenge: Wet Lab vs. Data Mining
+
+
+        Divide participants into two groups (or have them compare the two
+        strategies): The strategies were led by two different groups of
+        researchers.&#x20;
+
+
+        * **Strategy A: The Traditional Bench Scientist (Primary Data)**
+          * **Task:** Synthesize 1,000 new chemical compounds and test them against live virus cultures.
+          * **Cost:** $2 Million + 3 years of clinical trials.
+          * **Risk:** High. Most compounds will be toxic or ineffective in humans.
+          * **Data Produced:** Very specific, high-resolution data for a small set of molecules.
+        * **Strategy B: The Bioinformatician (Data Discovery & Reuse)**
+          * **Task:** Use **data discovery** to mine the **Protein Data Bank (PDB)** for the virus's structure and **ChEMBL** for existing FDA-approved drugs.
+          * **Cost:** $100k (mostly computing power and researcher time).
+          * **Timeline:** 3 months.
+          * **Action:** Run a "virtual screening" (docking) to see which already-approved drugs might "stick" to the virus protein.
+          * **Data Reused:** Structural biology data from a lab in Japan, chemical properties from a database in the UK, and clinical safety data from the 1990s.
+
+        ### 2. The "Discovery" Checklist (Life Science Specific)
+
+
+        Have students identify which specific life-science repositories they
+        would need to "discover" data from to succeed in Strategy B:
+
+
+        1. **Genomics:** Where is the virus's RNA sequence? (e.g., **NCBI
+        GenBank**).
+
+        2. **Proteomics:** Where is the 3D shape of the virus's "spike" protein?
+        (e.g., **UniProt** or **PDB**).
+
+        3. **Pharmacology:** Where are the records of drugs already safe for
+        humans? (e.g., **DrugBank** or **PubChem**).
+
+
+        ### 3. Discussion: Why Reuse is Vital in Life Sciences
+
+
+        After the comparison, lead a discussion on these "Bio-Specific"
+        benefits:
+
+
+        * **The 3Rs (Ethics):** How does reusing data reduce the need for animal
+        testing? (If the data already exists, it is ethically questionable to
+        repeat a painful animal experiment).
+
+        * **The "N of 1" Problem:** In rare disease research, there might only
+        be 10 patients in the whole world. No single hospital can do a study.
+        **Discovery and Aggregation** of data from 10 different countries is the
+        only way to get a statistically significant result.
+
+        * **Long-tail Data:** A lot of life science data is hidden in
+        "Supplemental Materials" of old papers. How does **semantic annotation**
+        (Goal 2) help us find a gene mention hidden in a PDF from 2005?
+
+
+        **Take away:**  Have participants note down their discussion points.
+        These points might be valuable insight to reproduce the exercise.&#x20;
+      time: 30 minutes
+      type: Working session
+      level: beginner
+  after:
+    - learning_outcome: 3
+      activities: >-
+        **Repository Speed-Dating**
+
+
+        **Objective:** Match a "Data Profile" to the correct "Repository Type"
+        based on the discovery and reuse principles learned earlier.
+
+
+        **1.The Setup (5 minutes)**
+
+
+        Give each participant (or small group) three "Data Profile Cards." You
+        can display these on a screen or print them:
+
+
+        * Profile A: A small spreadsheet of water temperatures from a local
+        lake, collected over 2 weeks. Needs to be cited in a paper.
+
+        * Profile B: 500GB of high-resolution 3D protein structures of a new
+        virus variant.
+
+        * Profile C: Sensitive patient records from a rare disease study across
+        three hospitals (requires restricted access).
+
+
+        **2. The "Speed Match" (5 Minutes)**
+
+
+        Participants must "match" their profiles to the most appropriate
+        repository from the lesson (e.g., Zenodo, PDB, DANS, or NCBI) and defend
+        their choice based on the FAIR principles.
+
+
+        The Twist: For each match, they must identify one "Dealbreaker." (e.g.,
+        "I can't put Profile C on Zenodo because it’s open-access and the data
+        is sensitive/un-anonymized.")
+
+
+        **3. The "Legacy" Handshake (5 Minutes)**
+
+
+        To finish, each participant writes one "Note to the Future" on a post-it
+        or a shared digital doc (like a Jamboard or Padlet).
+
+
+        Example: "I am depositing \[Type of Data]. To make sure someone can find
+        and reuse this in 10 years, the most important metadata tag I will
+        include is \_\_\_\_\_\_\_\_\_\_\_\_ because \_\_\_\_\_\_\_\_\_\_\_\_."
+
+
+        >
+      time: '15'
+      type: Group Exercice
+      level: beginner
+---
 ## Topic, definition and scope
+Data Repository can be defined as a centralized location where data is stored, organized, and managed. This a system that doesn't just serve to store files, but also makes them discoverable and usable for specific purposes.
 
-* “Everyone has the right to share in scientific advancement and its benefits” \
-Article 27, Universal Declaration of Human Rights
+* “Everyone has the right to share in scientific advancement and its benefits”&#x20;
+  Article 27, Universal Declaration of Human Rights
 * Data discovery is a process of understanding data and extracting valuable insight from multiple data streams according to data uses and purposes.
+* The European Commission’s guiding principle, "As open as possible, as closed as necessary", has transformed how we approach the discovery and publication of scientific information.
 
 Image: [https://phaidra.univie.ac.at/download/o:1201054](https://phaidra.univie.ac.at/download/o:1201054)
 
----
+To provide a clear roadmap for the students, the scope of this module is delimited to three core competencies:
+
+1. **Where to look:** Identifying the appropriate repository type based on the discipline.
+2. **How to search:** Leveraging rich metadata and advanced filtering.
+3. **How to evaluate:** Determining if a repository is trustworthy using quality markers like the *CoreTrustSeal*.
+
+To ensure that European research is competitive and transparent, the EU (through initiatives like **Horizon Europe** and the **European Open Science Cloud - EOSC**) provides specific recommendations for the research data lifecycle:
+
+* The FAIR principles. The EU's primary recommendation is the implementation of **FAIR Principles**. For data to be discoverable within the European ecosystem, it must follow these standards:
+  * **Findable:** Data must be described with rich metadata and assigned a **Persistent Identifier (PID)**, such as a **DOI** or **Handle**. This ensures that European "Data Harvesters" (like **OpenAIRE**) can index the work.
+  * **Accessible:** Even if data is sensitive (GDPR-protected), the **metadata** must remain publicly discoverable to notify the community of the data's existence.
+* Trusted Repositories & the EOSC. EU guidelines strongly recommend publishing in **Certified Trusted Repositories**. These are infrastructures that have earned quality marks like the **CoreTrustSeal**. By publishing in a trusted repository, your data is automatically "fed" into the **European Open Science Cloud (EOSC)**. This creates a "web of FAIR data" where a researcher in Spain can seamlessly discover a dataset produced in The Netherlands.
+* Data Management Plans (DMP) as Discovery Blueprints: This document is not just a hurdle; it is a discovery strategy. It forces researchers to decide *how* they will describe their data (metadata standards) and *where* they will host it so that it remains discoverable for at least 10 years after the project ends.
+
+***
 
 ## FAIR element(s)
 
 * Findable: Data should be available in a discoverable resource (i.e. repository), have appropriate description (i.e. metadata) and have a persistent identifier (PID)
 * Accessible: Data should be retrievable and understandable for both humans and machines
 * Interoperable: Machines and humans can interpret and use the data in different settings and will be able to distinguish the metadata from the data file
-* Reusable: The ultimate goal of FAIR is to advance the reuse of data in the future research and allow integration with other compatible data sources. 
+* Reusable: The ultimate goal of FAIR is to advance the reuse of data in the future research and allow integration with other compatible data sources.
 
----
+***
 
 ## Summary of Tasks / Actions
 
 * Discussing reproducibility: why FAIR principles are important for data discovery?
 * How do you search for data? See also the FAIRsharing educational factsheet for databases
-    * Speaking about the process of data discovery, from developing a clear picture of the data to evaluating data quality.
-    * Use lesson plan in (_Unit 1:_ _[Topic 3: Data Life Cycle approach to FAIR/FAIR right from the start](#heading=h.q1mn6pvbgcbv)_) to go through the data life cycle in the following scenario.
+  * Speaking about the process of data discovery, from developing a clear picture of the data to evaluating data quality.
+  * Use lesson plan in (*Unit 1:* [Topic 3: Data Life Cycle approach to FAIR/FAIR right from the start](#heading=h.q1mn6pvbgcbv)) to go through the data life cycle in the following scenario.
 
 [Research data cycle](https://rdmkit.elixir-europe.org/)
 
-  * Present a researcher's story in any life science field and set up a search strategy. The story can be something like:
+* Present a researcher's story in any life science field and set up a search strategy. The story can be something like:
 
-_“A Bio-Chemistry researcher needs some enzymology data for a research question: how enzymes are key factors to increase the rate of metabolism in the human body?”_
+*“A Bio-Chemistry researcher needs some enzymology data for a research question: how enzymes are key factors to increase the rate of metabolism in the human body?”*
 
-  * How did the researcher discover and access such data?
-  * Did the researcher list the characteristics of the data  you want to discover
-  * Evaluate the quality of data
-  * Check the terms and conditions of access and use
-    
+* How did the researcher discover and access such data?
+* Did the researcher list the characteristics of the data  you want to discover
+* Evaluate the quality of data
+* Check the terms and conditions of access and use
 * Let’s take the scenario above and look for any type of data you are interested about (e.g.‘mitochondrial beta-oxidation”) in different data sources:
-    * [OpenAIRE - Research Graph](https://graph.openaire.eu/)
-    * [OpenAIRE | Open Access](https://explore.openaire.eu/search/find?resultbestaccessright=%22Open%2520Access%22&fv0=miksa&f0=q&active=result)
-    * [DataCite](https://datacite.org/)
-    * [Re3data.org](https://www.re3data.org/)
-    * [Dataset Search (google.com)](https://datasetsearch.research.google.com/)
-    * [FAIRsharing](https://fairsharing.org/)
-      
+  * [OpenAIRE - Research Graph](https://graph.openaire.eu/)
+  * [OpenAIRE | Open Access](https://explore.openaire.eu/search/find?resultbestaccessright=%22Open%2520Access%22\&fv0=miksa\&f0=q\&active=result)
+  * [DataCite](https://datacite.org/)
+  * [Re3data.org](https://www.re3data.org/)
+  * [Dataset Search (google.com)](https://datasetsearch.research.google.com/)
+  * [FAIRsharing](https://fairsharing.org/)
 * Of these resources,
-        * Which one provided the most relevant data for your search terms? Which one provides facilities to refine your search ( i.e. filters)?
-        * Try to search for more detailed search terms. How did the search results improve?
-        * Is there a citation clarification for your selected data?Are there any differences in citation clarification between these data sources?
-        * Can you find a licence for selected data? Is there any clarification how the data can be reused?
-
+  * Which one provided the most relevant data for your search terms? Which one provides facilities to refine your search ( i.e. filters)?
+  * Try to search for more detailed search terms. How did the search results improve?
+  * Is there a citation clarification for your selected data?Are there any differences in citation clarification between these data sources?
+  * Can you find a licence for selected data? Is there any clarification how the data can be reused?
 * How can data resources make data more discoverable by linking data to publications?
-    * [Cross-linking between journal publications and data repositories: a selection of examples](https://drive.google.com/file/d/1pcgqoUUlYZ1pNQBMNAteV2amCufRI89W/view?usp=sharing)
-    * Service for data resources: [Europe PMC external links service](http://europepmc.org/LabsLink)
-
+  * [Cross-linking between journal publications and data repositories: a selection of examples](https://drive.google.com/file/d/1pcgqoUUlYZ1pNQBMNAteV2amCufRI89W/view?usp=sharing)
+  * Service for data resources: [Europe PMC external links service](http://europepmc.org/LabsLink)
 * Identifying innovative search tools for data discovery: demo on how to find the data behind a publication using[ Europe PMC](https://europepmc.org/), a literature database.
-    * [Finding the data behind the publication with Europe PMC ](https://embl-ebi.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=13c9057b-f24f-44bf-9f3b-abc000f4852e)
-    * [Discovering data using Europe PMC SciLite annotations](https://embl-ebi.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1d696162-ea62-4917-8d41-ac7e016eeba8)
+  * [Finding the data behind the publication with Europe PMC ](https://embl-ebi.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=13c9057b-f24f-44bf-9f3b-abc000f4852e)
+  * [Discovering data using Europe PMC SciLite annotations](https://embl-ebi.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1d696162-ea62-4917-8d41-ac7e016eeba8)
+* Citation, licences and copyrights help to clarify the “R” in the FAIR principles.
+  * How to understand database conditions and attributes when choosing a repository (FAIRsharing documentation)
+  * [How to licence data (openaire.eu)](https://www.openaire.eu/how-do-i-license-my-research-data)
+  * [How to Cite Datasets and Link to Publications | DCC](https://www.dcc.ac.uk/guidance/how-guides/cite-datasets)
 
-* Citation, licences and copyrights help to clarify the “R” in the FAIR principles. 
-    * How to understand database conditions and attributes when choosing a repository (FAIRsharing documentation)
-    * [How to licence data (openaire.eu)](https://www.openaire.eu/how-do-i-license-my-research-data)
-    * [How to Cite Datasets and Link to Publications | DCC](https://www.dcc.ac.uk/guidance/how-guides/cite-datasets)
-
----
+***
 
 ## Materials / Equipment
 
 * Internet and browser
-* [https://europepmc.org/](https://europepmc.org/) 
+* [https://europepmc.org/](https://europepmc.org/)
 
----
+***
 
 ## Take home tasks/preparation
 
 * Hands-on exercise:  Find the data behind a publication of your interest using [Europe PMC](https://europepmc.org/) and answer the questions:
-    * Could you find the data citation on the publication?
-    * Is the data linked to the data repository?
-    * Could you access the data? Is the data format machine-readable?
-    * Could you easily find the licensing for the data of interest?
-    * How do you believe the use of FAIR principles contributed for your data discovery?
+  * Could you find the data citation on the publication?
+  * Is the data linked to the data repository?
+  * Could you access the data? Is the data format machine-readable?
+  * Could you easily find the licensing for the data of interest?
+  * How do you believe the use of FAIR principles contributed for your data discovery?

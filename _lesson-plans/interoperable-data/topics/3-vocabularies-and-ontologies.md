@@ -8,6 +8,7 @@ authors:
   - 0000-0003-0771-3516
   - 0009-0002-3089-9558
   - 0000-0002-3414-4972
+  - 0000-0003-0947-941X
 reviewers: null
 fair_elements:
   - I
@@ -221,6 +222,7 @@ prerequisites:
   - >-
     Awareness that different datasets may use different terminologies to
     describe similar concepts (semantic heterogeneity).
+description: "<sup>Description\_</sup>\n\n<sup>Ontologies and vocabularies enhance standardisation and foster a shared understanding between people and machines, thereby increasing the semantic interoperability of digital resources. By providing a common framework for organising knowledge, they promote the discovery of relevant scientific information, improve data mining and analysis, and support the development of intelligent systems.</sup>\n<sup>This lesson plan will help to better understand what ontologies and vocabularies are, how they relate to the FAIR principles, and why they are important for research.</sup>\n\n<sup>At the end of this lesson, participants will be able to define and distinguish ontologies and vocabularies, understand how they are used in repositories, explain their role in metadata organisation, use ontology lookup services, and evaluate the process of creating an ontology or vocabulary.</sup>\n\n<sup>\_\_Activities to teach the lesson\_</sup>\n\n<sup>Making research data FAIR (Findable, Accessible, Interoperable, and Reusable) is of great importance in a data-driven world. Knowledge of the FAIR data principles and their practical application is crucial for maximising the value of data and resources, leading to more efficient research and increased knowledge sharing. By knowing and adopting the FAIR principles, organisations and researchers can achieve new levels of data and resource impact, leading to numerous benefits for both the research community and society at large.\_</sup>\n\n<sup>Interoperability plays a central role in FAIR research, ensuring that data can be combined, exchanged, and understood across systems and disciplines. Ontologies and vocabularies support this by providing shared, well‑defined concepts and relationships, making metadata more consistent, meaningful, and machine‑actionable. Understanding and applying these semantic tools enables researchers and organisations to build robust, interoperable data environments that enhance discovery, integration, and reuse.</sup>\n\n<sup>The lesson activities are designed and structured to align closely with the learning objectives, offering variation in duration, difficulty, and exercise types to accommodate different learning needs and support effective skill development. .</sup>"
 ---
 ## Overview
 
