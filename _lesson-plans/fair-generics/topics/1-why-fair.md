@@ -21,7 +21,7 @@ description: >-
   incentives from journals, funding bodies and institutions for emphasising FAIR
   as a factor for scientific impact. A fundamental understanding of FAIR and its
   role at all stages of research is vital for understanding the FAIR
-  implementation processes.
+  implementation processes.&#x20;
 fair_elements:
   - F
   - A
