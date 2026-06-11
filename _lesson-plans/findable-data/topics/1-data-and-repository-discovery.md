@@ -29,28 +29,47 @@ learning_outcomes:
       - verb: Explain
         level: beginner
   '2':
-    outcome: >-
-      Recognize new ways to discover data (i.e: visualisation, semantic,
-      annotation, ….etc): Importance of metadata and semantic annotations for
-      data findability, importance of reusability for data annotation,
-      importance of data crosslink
-  '3':
-    outcome: Develop a strategy to search for data for reuse.
+    outcome: Recognize the purpose for data citation and the relation with FAIR
     verbs:
-      - verb: Create
-        level: expert
+      - verb: Explain
+        level: beginner
+  '3':
+    outcome: Recognize new ways to discover data
+    verbs:
+      - verb: Identify
+        level: beginner
   '4':
-    outcome: Extract datasets and build their own work on them.
+    outcome: Recognize the importance of data documentation for reusability
+    verbs:
+      - verb: Describe
+        level: beginner
   '5':
+    outcome: How to cite and licence your data
+    verbs:
+      - verb: Apply
+        level: intermediate
+  '6':
     outcome: >-
       Search for data in different resources and identify the differences among
       them
-  '6':
-    outcome: Recognize the purpose for data citation and the relation with the FAIR
+    verbs:
+      - verb: Compare
+        level: intermediate
   '7':
     outcome: Recognize the purpose for data licence and the relation with FAIR
+    verbs:
+      - verb: Analyze
+        level: intermediate
   '8':
-    outcome: How to cite and licence your data
+    outcome: Extract datasets and build their own work on them
+    verbs:
+      - verb: Create
+        level: expert
+  '9':
+    outcome: Develop a strategy to search for finding data for reuse
+    verbs:
+      - verb: Develop
+        level: expert
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
