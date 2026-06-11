@@ -1,6 +1,6 @@
 ---
 number: 2.1
-title: Data/Repository discovery
+title: Repositories
 status: ready_for_review
 layout: lesson-plan
 authors:
@@ -127,7 +127,25 @@ additionalResources:
   - title: Data reuse and the open data citation advantage
     author: 'Heather A. Piwowar​, Todd J. Vision'
     url: 'https://doi.org/10.7717/peerj.175'
-description: "A repository (often shortened to \"repo\") is essentially a dedicated folder or directory where all the files, folders, and history related to a specific project are stored.\n\nIt is the heart of a version control system like Git, serving two main functions:\n\nStorage: It holds the latest, working copy of the project code.\n\nHistory: It records every single change made to those files over time, acting like a time machine for your project. This allows teams to rewind to any previous state, see who changed what, and collaborate safely.\n\n* Interfaces for external services like\_[OAI-PMH](https://www.openarchives.org/pmh/)\_allow harvesting of metadata for stored records\\*\\* \\*\\*\n* **Background:**\n  * A number of previous projects and working groups have been discussing what a common set of attributes should be to enable FAIR data, and to allow repository stakeholders to make their own decisions about which repository is best for them. Details of these previous efforts are summarised in the\_[case statement](https://www.rd-alliance.org/group/data-repository-attributes-wg/case-statement/data-repository-attributes-wg-case-statement)\_of one existing cross-domain, worldwide effort under the auspices of the RDA: the\_[RDA Data repository attributes Working Group](https://www.rd-alliance.org/groups/data-repository-attributes-wg). Therefore, how FAIR is implemented in a repository, and how each FAIR principle aligns with a particular data attribute, can be discovered from these efforts."
+description: >-
+  Scientific repositories are databases established to collect, disseminate, and
+  preserve research outputs such as scientific articles, datasets, software, and
+  documentation. By depositing research outputs in repositories, these materials
+  become more easily findable and accessible to others. Depending on policies
+  and regulations, authors can make their work available through Open Access or
+  restricted access.
+
+
+  Repositories are quite diverse in scope. They can be general, meaning
+  domain‑agnostic, or focused on specific types of data and research domains,
+  known as subject repositories. They may also be associated with international
+  organisations, institutions, or specific departments.
+
+
+  Repositories offer different levels of FAIRness and trustworthiness. It is
+  therefore important to promote awareness of best practices and to guide the
+  scientific community in selecting the most appropriate repository for each
+  type of research output.
 activities:
   before:
     - learning_outcome: 5
