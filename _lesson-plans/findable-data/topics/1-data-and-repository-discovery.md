@@ -1,7 +1,7 @@
 ---
 number: 2.1
 title: Repositories
-status: ready_for_review
+status: published
 layout: lesson-plan
 authors:
   - 0000-0001-6675-4639
