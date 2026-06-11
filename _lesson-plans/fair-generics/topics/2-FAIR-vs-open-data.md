@@ -163,8 +163,14 @@ activities:
   before:
     - learning_outcome: 1
       activities: >-
-        **Exercise:** Students will compare two different scenarios in groups of
-        3. They will at the end discuss whether it is FAIR or Open Data in the
+        **Exercise:**
+
+
+        **Comparison**&#x20;
+
+
+        &#x20;Students will compare two different scenarios in groups of 3. They
+        will at the end discuss whether it is FAIR or Open Data in the
         examples.&#x20;
 
 
@@ -221,6 +227,9 @@ activities:
         **Exercise:**&#x20;
 
 
+        **Identify the right Help-Line**
+
+
         **Time 15 minutes:**&#x20;
 
 
@@ -250,7 +259,10 @@ activities:
       level: beginner
     - learning_outcome: 3
       activities: >-
-        **Exercise**&#x20;
+        **Exercise**
+
+
+        **Identifying Benefits and Challenges of Open Science and FAIR** &#x20;
 
 
         **Time 10 minutes**
@@ -281,6 +293,9 @@ activities:
     - learning_outcome: 4
       activities: >-
         **Exercise:**&#x20;
+
+
+        **Explaining the Challenges of Making data Open**
 
 
         Project a fake, high-risk research snippet on your Mentimeter screen.
