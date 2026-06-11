@@ -4,52 +4,78 @@ title: 'Data Life Cycle approach to FAIR: FAIR by design'
 status: ready_for_review
 layout: lesson-plan
 authors:
-  - "0000-0002-4437-5504"
-  - "0000-0003-2321-5568"
-  - "0000-0003-4475-0164"
-  - "0000-0003-2313-0011"
-  - "0000-0002-5042-8481"
-
-reviewers:
-
+  - 0000-0002-4437-5504
+  - 0000-0003-2321-5568
+  - 0000-0003-4475-0164
+  - 0000-0003-2313-0011
+  - 0000-0002-5042-8481
+reviewers: null
 description: >
-    The topic aims at increasing the understanding of how the different stages of the data lifecycle relate to the FAIR principles, with the ultimate goal of making data FAIR by design. 
-
+  The topic aims at increasing the understanding of how the different stages of
+  the data lifecycle relate to the FAIR principles, with the ultimate goal of
+  making data FAIR by design. 
 fair_elements:
   - F
   - A
   - I
   - R
-
 audience:
   - Data stewards
   - Researchers
   - Data producing/analysis staff-scientists at a Research Infrastructure
   - Anyone working with research data
-
 learning_outcomes:
-  1:
+  '1':
     outcome: Define the FAIR principles (Understand/Remember)
-  2:
+    verbs:
+      - verb: Beginner Level
+        level: beginner
+  '2':
     outcome: Define the different phases of the data life cycle (Understand/Remember)
-  3:
-    outcome: List the reasons why you should start implementing FAIR at the start of the research life cycle/your project
-  4:
+    verbs:
+      - verb: Beginner Level
+        level: beginner
+  '3':
+    outcome: >-
+      List the reasons why you should start implementing FAIR at the start of
+      the research life cycle/your project
+    verbs:
+      - verb: Beginner Level
+        level: beginner
+  '4':
     outcome: Recognise several versions/models of research data life cycle
-  5:
-    outcome: Describe ways of making your data FAIR at every phase of the research data life cycle 
-  6:
-    outcome: Awareness of the different tools, technologies and methods that are available to help with FAIR data at different phases of the research data life cycle (Understand/Remember)
-  7:
-    outcome: Apply tools that are available to assess the FAIRness of your data (Apply)
-  8:
-    outcome: Make sure your data is following the requirements mentioned above (Apply)
-  9:
-    outcome: Describe the relationship between open data and the different phases of the research data life cycle (_also see lesson plan on Open data vs FAIR - discussion point_)
-
+    verbs:
+      - verb: Beginner Level
+        level: beginner
+  '5':
+    outcome: >-
+      Describe ways of making your data FAIR at every phase of the research data
+      life cycle
+    verbs:
+      - verb: Beginner Level
+        level: beginner
+  '6':
+    outcome: >-
+      Identify the different tools, technologies and methods that are available
+      to help with FAIR data at different phases of the research data life cycle
+      (Understand/Remember)
+    verbs:
+      - verb: Beginner Level
+        level: beginner
+  '7':
+    outcome: 'Apply tools that are available to assess the FAIRness of your data '
+    verbs:
+      - verb: Intermediate Level
+        level: intermediate
+  '8':
+    outcome: >-
+      Participants will be able to apply the FAIR principles to their data in
+      alignment with institutional and funder requirements.
+    verbs:
+      - verb: Intermediate Level
+        level: intermediate
 prerequisites:
   - Basic understanding of Research Data Management
-
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
@@ -99,9 +125,14 @@ terms4FAIRskills:
     object:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000447'
         label: the FAIR Principles
-
---- 
-
+activities:
+  before:
+    - learning_outcome: 1
+      activities: "**Read and Think about the FAIR article**\n\nPrior to the session, participants will read the foundational 2016 paper by Wilkinson, Dumontier, et al. and **identify** the core distinctions between 'human-readable' data and 'machine-actionable' data as defined by the authors.&#x20;\n\n**The cited article is the following:**\n\nWilkinson, M. D., Dumontier, M., Aalbersberg, I. J., Appleton, G., Axton, M., Baak, A., ... & Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship.\_*Scientific data*,\_*3*(1), 1-9.\n\nThe Lesson will start with the teacher asking questions in the PBL (Problem Based Learning) style.&#x20;"
+      time: '45'
+      type: Reading
+      level: beginner
+---
 ## Topic, definition and scope
 
 In this lesson plan, we describe the data life cycle and its steps, describing for each of them the best practices to make your data FAIR. Awareness of these processes would allow you to plan in advance and get in touch with the right infrastructures, with the final scope to make your research data FAIR by design.
@@ -144,5 +175,4 @@ In this lesson plan, we describe the data life cycle and its steps, describing f
 
 You can relate different elements in a research project in general to different phases of the data life cycle.
 At each step, different methods, tools, or infrastructures are required to make your data FAIR. 
-Planning for this in advance is extremely beneficial for your projects, not only to produce FAIR data by design but also in terms of organisation and budgeting. This information should be recorded in a data management plan (DMP) at an early stage. 
-
+Planning for this in advance is extremely beneficial for your projects, not only to produce FAIR data by design but also in terms of organisation and budgeting. This information should be recorded in a data management plan (DMP) at an early stage.
