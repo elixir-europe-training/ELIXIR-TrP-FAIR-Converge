@@ -22,53 +22,53 @@ audience:
   - Data Stewards
 learning_outcomes:
   '1':
+    outcome: Recognize ways to discover data
+    verbs:
+      - verb: Identify
+        level: beginner
+  '2':
     outcome: >-
       Explain why data discovery is important and how researchers **Find** and
       **Reuse** data that they do not create themselves
     verbs:
       - verb: Explain
         level: beginner
-  '2':
-    outcome: Recognize the purpose for data citation and the relation with FAIR
-    verbs:
-      - verb: Explain
-        level: beginner
   '3':
-    outcome: Recognize new ways to discover data
-    verbs:
-      - verb: Identify
-        level: beginner
-  '4':
     outcome: Recognize the importance of data documentation for reusability
     verbs:
       - verb: Describe
         level: beginner
-  '5':
-    outcome: How to cite and licence your data
+  '4':
+    outcome: Recognize the purpose for data citation and the relation with FAIR
     verbs:
-      - verb: Apply
-        level: intermediate
-  '6':
+      - verb: Explain
+        level: beginner
+  '5':
     outcome: >-
       Search for data in different resources and identify the differences among
       them
     verbs:
       - verb: Compare
         level: intermediate
-  '7':
+  '6':
     outcome: Recognize the purpose for data licence and the relation with FAIR
     verbs:
       - verb: Analyze
         level: intermediate
-  '8':
-    outcome: Extract datasets and build their own work on them
+  '7':
+    outcome: How to cite and licence your data
     verbs:
-      - verb: Create
-        level: expert
-  '9':
+      - verb: Apply
+        level: intermediate
+  '8':
     outcome: Develop a strategy to search for finding data for reuse
     verbs:
       - verb: Develop
+        level: expert
+  '9':
+    outcome: Extract datasets and build their own work on them
+    verbs:
+      - verb: Create
         level: expert
 terms4FAIRskills:
   - subject:
