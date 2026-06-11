@@ -350,5 +350,5 @@ Repositories can be defined as centralized services where data is stored, organi
   * Could you access the data?
   * Could you understand what the data is about? Is there documentation, for e.g., metadata or/and a README file describing the data?
   * Could you easily find the license for the data of interest?
-  * &#x20;Is the data format machine-readable?
+  * &#x20;Is the data format interoperable?
   * How do you believe the use of FAIR principles contributed for your data discovery?
