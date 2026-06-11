@@ -73,6 +73,12 @@ activities:
   during:
     - learning_outcome: 1
       activities: >-
+        **Exercise:**&#x20;
+
+
+        **Recognizing the FAIR principles**
+
+
         Present to participants what each letter in the FAIR acronym means and
         how they relate to each other
       time: 15 min
@@ -80,6 +86,12 @@ activities:
       level: beginner
     - learning_outcome: 1
       activities: >-
+        **Exercise:**
+
+
+        **Ways of Making Data FAIR**
+
+
         Divide people into pairs and let them explain to each other how they are
         already making their data FAIR and what is one thing they can easily do
         to make their data FAIR
@@ -88,6 +100,12 @@ activities:
       level: beginner
     - learning_outcome: 1
       activities: >-
+        **Exercise:**&#x20;
+
+
+        **Seeing the Differences in the FAIR acronym**
+
+
         Have participants list what each letter in the FAIR acronym mean, and
         why these are important for their daily research practices
       time: 20 min
