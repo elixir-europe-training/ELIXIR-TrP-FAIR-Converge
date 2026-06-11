@@ -9,6 +9,7 @@ authors:
   - custom-maria-vivas-romero-1772446375795
 reviewers:
   - 0000-0002-3412-9086
+  - 0000-0002-0798-1724
 fair_elements:
   - F
   - A
@@ -34,9 +35,10 @@ learning_outcomes:
       data findability, importance of reusability for data annotation,
       importance of data crosslink
   '3':
-    outcome: >-
-      Develop a strategy to search for data and link it with the research data
-      lifecycle.
+    outcome: Develop a strategy to search for data for reuse.
+    verbs:
+      - verb: Create
+        level: expert
   '4':
     outcome: Extract datasets and build their own work on them.
   '5':
@@ -286,13 +288,14 @@ activities:
       level: beginner
 ---
 ## Topic, definition and scope
+
 Data Repository can be defined as a centralized location where data is stored, organized, and managed. This a system that doesn't just serve to store files, but also makes them discoverable and usable for specific purposes.
 
 * “Everyone has the right to share in scientific advancement and its benefits” .
   Article 27, Universal Declaration of Human Rights
 * Data discovery is a process of understanding data and extracting valuable insight from multiple data streams according to data uses and purposes.
 
-Image: [https://phaidra.univie.ac.at/download/o:1201054](https://phaidra.univie.ac.at/download/o:1201054)
+
 
 ***
 
@@ -357,8 +360,10 @@ Image: [https://phaidra.univie.ac.at/download/o:1201054](https://phaidra.univie.
 ## Take home tasks/preparation
 
 * Hands-on exercise:  Find the data behind a publication of your interest using [Europe PMC](https://europepmc.org/) and answer the questions:
-  * Could you find the data citation on the publication?
-  * Is the data linked to the data repository?
-  * Could you access the data? Is the data format machine-readable?
-  * Could you easily find the licensing for the data of interest?
+  * Could you find the data citation in the publication?
+  * Is the data linked to a data repository?
+  * Could you access the data?
+  * Could you understand what the data is about? Is there documentation, for e.g., metadata or/and a README file describing the data?
+  * Could you easily find the license for the data of interest?
+  * &#x20;Is the data format machine-readable?
   * How do you believe the use of FAIR principles contributed for your data discovery?
