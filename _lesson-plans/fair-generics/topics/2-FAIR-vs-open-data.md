@@ -166,7 +166,7 @@ activities:
         **Exercise:**
 
 
-        **Comparison**&#x20;
+        **Comparison** between FAIR and Open Data
 
 
         &#x20;Students will compare two different scenarios in groups of 3. They
