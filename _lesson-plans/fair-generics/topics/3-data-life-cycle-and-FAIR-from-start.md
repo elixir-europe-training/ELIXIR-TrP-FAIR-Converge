@@ -9,6 +9,7 @@ authors:
   - 0000-0003-4475-0164
   - 0000-0003-2313-0011
   - 0000-0002-5042-8481
+  - 0000-0002-7398-0594
 reviewers: null
 description: >
   The topic aims at increasing the understanding of how the different stages of
@@ -131,6 +132,55 @@ activities:
       activities: "**Read and Think about the FAIR article**\n\nPrior to the session, participants will read the foundational 2016 paper by Wilkinson, Dumontier, et al. and **identify** the core distinctions between 'human-readable' data and 'machine-actionable' data as defined by the authors.&#x20;\n\n**The cited article is the following:**\n\nWilkinson, M. D., Dumontier, M., Aalbersberg, I. J., Appleton, G., Axton, M., Baak, A., ... & Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship.\_*Scientific data*,\_*3*(1), 1-9.\n\nThe Lesson will start with the teacher asking questions in the PBL (Problem Based Learning) style.&#x20;"
       time: '45'
       type: Reading
+      level: beginner
+  during:
+    - learning_outcome: 2
+      activities: >-
+        **Exercise:**
+
+
+        **Describing the Data Life Cycle**
+
+
+        * **The Launch & Grouping:**
+
+        * **3 minutes.**
+
+
+        Break the room into trios. Instruct them to choose one person in their
+        group to act as the "Synthesizer" who will speak to the room later.
+        Share the link to your electronic whiteboard board.
+
+
+        * **Individual Sticky Note Brainstorm:**
+
+        * **5 minutes.**
+
+
+        Ask each participant to think about *their own current research data*.
+        On their own individual digital sticky notes, they write down 2–3
+        specific tasks, tools, or data types they use.
+
+
+        * **The Collaborative Sort (Column Dragging):**
+
+        * **7 minutes.**
+
+
+        As a group, participants drag their sticky notes into the 5 columns on
+        the board. They must discuss *why* a certain step belongs under
+        "Analysis" versus "Archival."
+
+
+        * **The Group Synthesis:**
+
+        * **5 minutes.**
+
+
+        The designated Synthesizer from each group looks at their column or
+        board zone and identifies **one common thread**
+      time: 20 minutes
+      type: Open Discussion
       level: beginner
 ---
 ## Topic, definition and scope
