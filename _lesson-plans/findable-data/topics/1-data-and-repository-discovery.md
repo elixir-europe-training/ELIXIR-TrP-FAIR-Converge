@@ -302,6 +302,10 @@ activities:
       time: 20 minutes
       type: Group Exercice
       level: beginner
+prerequisites:
+  - >-
+    For this lesson plan, participants should have a foundational understanding
+    of the FAIR principles: https://www.go-fair.org/fair-principles/
 ---
 ## Topic, definition and scope
 
@@ -347,7 +351,7 @@ Repositories can be defined as centralized services where data is stored, organi
   * [Discovering data using Europe PMC SciLite annotations](https://embl-ebi.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1d696162-ea62-4917-8d41-ac7e016eeba8)
 * Citation, licenses and copyrights help to clarify the “R” in the FAIR principles.
   * How to understand database conditions and attributes when choosing a repository
-  * [How to licence data (openaire.eu)](https://www.openaire.eu/how-do-i-license-my-research-data)
+  * [How to license data (openaire.eu)](https://www.openaire.eu/how-do-i-license-my-research-data)
   * [How to Cite Datasets and Link to Publications | DCC](https://www.dcc.ac.uk/guidance/how-guides/cite-datasets)
 
 ***
