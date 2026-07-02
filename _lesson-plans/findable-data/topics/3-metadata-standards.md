@@ -15,6 +15,7 @@ authors:
 reviewers:
   - 0000-0002-3412-9086
   - 0000-0003-4475-0164
+  - 0000-0002-0798-1724
 audience:
   - Students
   - Early career researchers
@@ -48,7 +49,7 @@ prerequisites:
   - >-
     Aimed at researchers and data stewards. Participants do not need a prior
     knowledge of metadata, but should be familiar with the research process and
-    what FAIR is
+    the FAIR principles
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
