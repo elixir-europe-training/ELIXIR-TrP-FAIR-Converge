@@ -1,6 +1,6 @@
 ---
 number: 2.3
-title: Metadata standards for findability
+title: Metadata
 status: ready_for_review
 layout: lesson-plan
 authors:
@@ -112,13 +112,13 @@ terms4FAIRskills:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000447'
         label: the FAIR Principles
 description: >-
-  ## **Topic, definition and scope**
+  # Topic, definition and scope
 
 
-  This lesson addresses the critical need for rich metadata in the sciences,
+  This lesson addresses the critical need for rich metadata for research data,
   where complex datasets require detailed context to be truly useful. It centers
-  on the "Findable" aspect of the FAIR principles—specifically principle
-  F2—which mandates that data be described with rich metadata. By exploring the
+  on the "Findable" aspect of the FAIR principles, specifically principle F2,
+  which states that data be described with rich metadata. By exploring the
   significance of these standards, the lesson plan bridges the gap between broad
   accessibility and the highly specific needs of domain researchers. The core
   theme is that effective dataset discovery is not accidental; it is the result
