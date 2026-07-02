@@ -25,55 +25,40 @@ audience:
     personal and sensitive data
 learning_outcomes:
   '1':
-    outcome: >-
-      data sharing principles (also: understand what Accessible means in FAIR
-      principles)
+    outcome: 'Identify types of data access: restricted versus open.'
     verbs:
-      - verbs: understanding
+      - verb: Identify
         level: beginner
   '2':
-    outcome: 'controlled access, registered access, etc'
+    outcome: Identify copyright licenses.
     verbs:
-      - verbs: define
+      - verb: Identify
         level: beginner
   '3':
-    outcome: >-
-      the fundamental processes of licensing and archival works in a context of
-      controlled/registered access
+    outcome: Understand accessibility of one or more datasets.
     verbs:
-      - verbs: explain
+      - verb: Understand
         level: beginner
   '4':
-    outcome: the various (FAIR) data sharing services
+    outcome: Understand the legal requirements of restricted access data.
     verbs:
-      - verbs: explain
+      - verb: Understand
         level: beginner
   '5':
     outcome: >-
-      underlying concepts for sensitive data sharing e.g. anonymisation,
-      pseudonymisation
+      Apply appropriate legal procedures to restricted access data. For e.g.,
+      Data Access Committees,  Data Sharing Agreements. 
     verbs:
-      - verbs: explain
-        level: beginner
+      - verb: Apply
+        level: intermediate
   '6':
     outcome: >-
-      various roles relevant to (and involved in) processes for which approvals
-      are required e.g. data controller, data protection officer
+      Evaluate and apply several types of data licenses, including their
+      implications for data sharing, reuse, and protection, with attention to
+      legal and ethical considerations.
     verbs:
-      - verbs: describe
-        level: beginner
-  '7':
-    outcome: >-
-      the purpose and key components of agreements (e.g. data transfer and or
-      processing agreements, DPIA)
-    verbs:
-      - verbs: explain
-        level: beginner
-  '8':
-    outcome: different types of life sciences data in terms of accessibility levels
-    verbs:
-      - verbs: explain
-        level: beginners
+      - verb: Evaluate
+        level: expert
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
