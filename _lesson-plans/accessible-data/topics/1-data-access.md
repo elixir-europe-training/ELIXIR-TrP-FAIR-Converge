@@ -1,7 +1,7 @@
 ---
 number: 3.1
-title: 'Access modes, sensitive data, registered access, controlled access'
-status: ready_for_review
+title: Data Accessibility
+status: draft
 layout: lesson-plan
 authors:
   - 0000-0002-7702-4495
@@ -131,6 +131,14 @@ terms4FAIRskills:
     object:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000478'
         label: accessibility of digital assets
+description: >-
+  This lesson provides participants with a comprehensive overview of data
+  accessibility, focusing on the distinctions between open and restricted
+  access, the role of data licenses, and the ethical and legal considerations
+  involved. Participants will engage with examples, participate in discussions,
+  and apply their knowledge through interactive activities. The goal is to
+  develop a clear understanding of how data accessibility impacts research and
+  collaborations.&#x20;
 ---
 ## Topic, definition and scope
 
