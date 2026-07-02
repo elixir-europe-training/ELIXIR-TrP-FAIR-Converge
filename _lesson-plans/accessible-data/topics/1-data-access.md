@@ -5,11 +5,11 @@ status: ready_for_review
 layout: lesson-plan
 authors:
   - 0000-0002-7702-4495
-  - Branka Franicevic
   - 0000-0001-7791-4984
+  - orcid 0000-0002-3440-6581
   - 0000-0002-7398-0594
-  - custom-maria-vivas-romero-1772446375795
-reviewers: null
+reviewers:
+  - 0000-0002-0798-1724
 fair_elements:
   - A
 audience:
@@ -133,82 +133,65 @@ terms4FAIRskills:
         label: accessibility of digital assets
 ---
 ## Topic, definition and scope
+
 **Data Accesibility:**  In the Life Sciences, data professionals often define it as the processes and ease with which data can be accessed, retrieved, and have a secondary use when authorized by its original participants and owners. This topic encompasses not only the technical access, but also the format, and documentation that allows for distinct levels of access. In the context of the FAIR principles: "Accessible" means that data should be retrievable by their identifier using a standard communications protocol. This protocol should be open, free, and universally implementable. While data access can be regulated (e.g., controlled or registered access), the protocol itself remains open and free.
 
-**Important or key definitions** 
+**Important or key definitions**
 
-**Controlled Access:** 
-Refers to the mechanisms for sharing sentitive or personal data, when it has been properly pseudonymized only after a formal application or approval process. This often involves legal agreements (e.g. Data Sharing Agreements, Data Processing Agreements) 
+**Controlled Access:**
+Refers to the mechanisms for sharing sentitive or personal data, when it has been properly pseudonymized only after a formal application or approval process. This often involves legal agreements (e.g. Data Sharing Agreements, Data Processing Agreements)
 
-**Registered Access:** 
-A less resctritive form of controlled access, where users register and agree to specific terms of use, often without individual project-by-project approval but still with a clear record of who is accesing data. An example of this, is request access in a Public Repository like DataverseNL 
+**Registered Access:**
+A less resctritive form of controlled access, where users register and agree to specific terms of use, often without individual project-by-project approval but still with a clear record of who is accesing data. An example of this, is request access in a Public Repository like DataverseNL
 
-
-In this section aims to provide trainers with the foundational understandings of data accesibility, inspired by the FAIR principles and focusing on Life Sciences Data. 
+In this section aims to provide trainers with the foundational understandings of data accesibility, inspired by the FAIR principles and focusing on Life Sciences Data.
 
 * Data discoverability as the ability for users to find and locate the data they need
 * Data discoverability and its main components: rich and descriptive metadata, search, indexed and searchable repositories and centralized portals
 * Data Usability the degree to which (machines and humans) can read and understand the data
-* Data Quality: the quality of the data which should be clean consistent and free of errors, to be ready for immediate use. 
+* Data Quality: the quality of the data which should be clean consistent and free of errors, to be ready for immediate use.
 * Federated data access (local sources)
 * Relevant legislations, policies, and recommendations  ( e.g. sensitive, personal data, contracts such as Data Transfer and Processing Agreements)
 
-
----
+***
 
 ## FAIR element(s)
 
-
-
 * A - Accessible: working with the community of researchers who have sensitive data and wish to know how to enable FAIR for data that needs to have controlled access.
 
-
----
+***
 
 ## Summary of Tasks / Actions
 
-
-
-* Use case: Explore the COVID-19 data registries such as the WHO Global Clinical Platform or other in FAIRsharing.org. If you want to add a level of complexity look for data registry that contains personal and or sensitive data. These examples can be found at: https://fairsharing.org/FAIRsharing.42193d 
+* Use case: Explore the COVID-19 data registries such as the WHO Global Clinical Platform or other in FAIRsharing.org. If you want to add a level of complexity look for data registry that contains personal and or sensitive data. These examples can be found at: [https://fairsharing.org/FAIRsharing.42193d](https://fairsharing.org/FAIRsharing.42193d)
 * FAIRsharing’s educational factsheet on databases
 * Exercise: Define types of access modes (tip: use examples from own research field)
 * Exercise evaluate the following elements: A- The discoverability and how easy it was to find the data registry and the meta-data provided; B- The usability, the formats, and  conditions of access; C- The quality of the data-set and opportunities for re-usability and inter-operability.
-* Exercise: The second part of the exercise is to write a reflexition on the case study (FAIRness of it) and how it can be improved. 
+* Exercise: The second part of the exercise is to write a reflexition on the case study (FAIRness of it) and how it can be improved.
 * Exercise: Finally Prepare (contribute with) a use case from your institution and share its solution with the community via a github page
 
-
----
+***
 
 ## Materials / Equipment
 
-
-
 * Reading material:
-    * Registered access: authorizing data access [https://www.nature.com/articles/s41431-018-0219-y](https://www.nature.com/articles/s41431-018-0219-y)
-    * Publisher's requirement of data access: https://www.jlr.org/article/S0022-2275(20)43495-9/fulltext
-    * Data Accesibility and GDPR requirements: Data Privacy Handbook Utrech University https://utrechtuniversity.github.io/dataprivacyhandbook/ 
+  * Registered access: authorizing data access [https://www.nature.com/articles/s41431-018-0219-y](https://www.nature.com/articles/s41431-018-0219-y)
+  * Publisher's requirement of data access: [https://www.jlr.org/article/S0022-2275(20)43495-9/fulltext](https://www.jlr.org/article/S0022-2275\(20\)43495-9/fulltext)
+  * Data Accesibility and GDPR requirements: Data Privacy Handbook Utrech University [https://utrechtuniversity.github.io/dataprivacyhandbook/](https://utrechtuniversity.github.io/dataprivacyhandbook/)
 
-
----
+***
 
 ## References
 
+* cooperate with data protection officer (EE)
+*
+*
 
-
-*  cooperate with data protection officer (EE)
-* 
-* 
-
-
----
+***
 
 ## Take home tasks/preparation
 
-
-
 * Understanding what principles to consider in a context of sharing sensitive data
-* 
-  
+*
 
-
----
+***
