@@ -155,8 +155,8 @@ description: >-
 
   Repositories are quite diverse in scope. They can be general, meaning
   domain‑agnostic, or focused on specific types of data and research domains,
-  known as subject repositories. They may also be associated with international
-  organisations, institutions, or specific departments.
+  known as field-specific repositories. They may also be associated with
+  international organisations, institutions, or specific departments.
 
 
   Repositories offer different levels of FAIRness and trustworthiness. It is
@@ -166,8 +166,8 @@ description: >-
 activities:
   before:
     - learning_outcome: 5
-      activities: "**The Data Hunting Exercise**&#x20;\n\n1. **Set up the challenge:** Choose a topic the participants could explore while looking for data on a particular repository examples can include:\n\n* **Environmental Science:** Ocean acidification rates in the North Sea\n* **Health:** Genomic Sequencing and antibiotic-resistant bacteria\n* **Education:** Statistics on numbers of International Students in Medical Schools in Europe&#x20;\n\n1. **Looking for Places to Search :** Provide the participants with different locations to look for this data:&#x20;\n\n* **Generic Repositories:** Zenodo, Figshare, DataverseNL, Dryad, Dataverse, DANS Data Station&#x20;\n* **Domain Specific:** Pangea (Earth Science), NCBI (BIO), GBIF\_(Biodiversity)\n* **Search Engines:** Google Dataset Search, DataCite Commons, OpenAIRE Explore\n\n1. **The Scavenger Hunt Checklist:** Participants must find a data set in at least two of the categories provided and fill out this evidence check list: \\*\\*\\*\\*&#x20;\n\n* **Persistent identifier:**  (PID) Can you find a DOI?&#x20;\n* **Meta-data Richness:** On a scale of 1-5, how well is the data described? (Are there column definitions, read-me files, methods?\n* **Interoperability:** What file formats are used? (Proprietary like .xlsx. or open like .cvs)\n\n1. **The Debriefing: \"Comparison Gallery\"**&#x20;\n\n* Which repository felt most trustworthy and why?&#x20;\n* Did you find the same dataset in two different places (this introduces the concept of data harvesting and mirroring&#x20;\n* Which metadata record made you feel like you actually re-use the data right away?&#x20;\n\n**Annotations:** Have participants made annotations on a common document they would take home. This could also work as feedback and improvement mechanisms for this particular activity.&#x20;"
-      time: '30'
+      activities: "**The Data Hunting Exercise**&#x20;\n\n**1.** **Set up the challenge:** Choose a topic the participants could explore while looking for data on a particular repository examples can include:\n\n* **Environmental Science:** Ocean acidification rates in the North Sea\n* **Health:** Genomic Sequencing and antibiotic-resistant bacteria\n* **Education:** Statistics on numbers of International Students in Medical Schools in Europe\n\n**2. Looking for Places to Search:** Provide the participants with different locations to look for this data:&#x20;\n\n* **Generic Repositories:** Zenodo, Figshare, DataverseNL, Dryad, Dataverse, DANS Data Station&#x20;\n* **Domain Specific:** Pangea (Earth Science), NCBI (BIO), GBIF\_(Biodiversity)\n* **Search Engines:** Google Dataset Search, DataCite Commons, OpenAIRE Explorer\n\n**3. The Scavenger Hunt Checklist:** Participants must find a data set in at least two of the categories provided and fill out this evidence check list: \\*\\*\\*\\*&#x20;\n\n* **Persistent identifier:**  (PID) Can you find a DOI?&#x20;\n* **Meta-data Richness:** On a scale of 1-5, how well is the data described? (Are there column definitions, read-me files, methods?\n* **Interoperability:** What file formats are used? (Proprietary like .xlsx. or open like .cvs)\n\n**4. The Debriefing: \"Comparison Gallery\"**&#x20;\n\n* Which repository felt most trustworthy and why?&#x20;\n* Did you find the same dataset in two different places (this introduces the concept of data harvesting and mirroring&#x20;\n* Which metadata record made you feel like you actually re-use the data right away?&#x20;\n\n**Annotations:** Have participants made annotations on a common document they would take home. This could also work as feedback and improvement mechanisms for this particular activity.&#x20;"
+      time: 1 hour
       type: Group Exercise
       level: beginner
   during:
@@ -241,7 +241,7 @@ activities:
 
         **Take away:**  Have participants note down their discussion points.
         These points might be valuable insight to reproduce the exercise.&#x20;
-      time: 30 minutes
+      time: 1 hour
       type: Working session
       level: beginner
   after:
@@ -252,6 +252,8 @@ activities:
 
         **Objective:** Match a "Data Profile" to the correct "Repository Type"
         based on the discovery and reuse principles learned earlier.
+
+
 
 
         **1.The Setup (5 minutes)**
@@ -271,7 +273,7 @@ activities:
         three hospitals (requires restricted access).
 
 
-        **2. The "Speed Match" (5 Minutes)**
+        **2. The "Speed Match" (10 Minutes)**
 
 
         Participants must "match" their profiles to the most appropriate
@@ -297,7 +299,7 @@ activities:
 
 
         >
-      time: '15'
+      time: 20 minutes
       type: Group Exercice
       level: beginner
 ---
