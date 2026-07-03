@@ -1,6 +1,8 @@
 ---
 number: 1.4
-title: FAIR and/in institutional data policies
+title: >-
+  FAIR and/in institutional data policies: How to efficiently create and Open
+  Science Action Plan
 status: ready_for_review
 layout: lesson-plan
 authors:
