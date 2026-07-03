@@ -14,7 +14,7 @@ reviewers:
   - 0000-0002-4385-9312
   - 0000-0002-3060-3967
 description: >-
-  **Topic Definition and Scope**
+  **Topic Definition and Scope:**&#x20;
 
 
   **Train-the-Trainer: Foundations of Data Management Plan (DMP) Instruction**
