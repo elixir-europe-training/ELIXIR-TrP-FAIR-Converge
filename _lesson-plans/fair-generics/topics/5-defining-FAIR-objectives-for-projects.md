@@ -295,6 +295,8 @@ activities:
       time: '40'
       type: Independent Work
       level: beginner
+prerequisites:
+  - Basic knowledge of Data Management
 ---
 **Topic Definition and Scope**
 
