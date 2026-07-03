@@ -14,7 +14,7 @@ reviewers:
   - 0000-0002-4385-9312
   - 0000-0002-3060-3967
 description: >-
-  **Topic Definition and Scope:**&#x20;
+  **Topic Definition and Scope**
 
 
   **Train-the-Trainer: Foundations of Data Management Plan (DMP) Instruction**
@@ -42,7 +42,7 @@ learning_outcomes:
   '1':
     outcome: >-
       The participants will understand the purpose of a Data Management Plan and
-      what it entails 
+      what it entails.
     verbs:
       - verb: Beginner Level
         level: beginner
@@ -332,7 +332,7 @@ This lesson is divided itself in the 3 phases: ​
 
 ​
 
-C- Practical Part: Work with the DMP and send to a Data Steward​: The trainer then divides the group into pairs, depending on the number of participants. The participants will now work on their own DMPs and debrief about them in the later section.
+**4- Practical Part: Work with the DMP and send to a Data Steward​:** The trainer then divides the group into pairs, depending on the number of participants. The participants will now work on their own DMPs and debrief about them in the later section.
 
 **Materials/Equipment :** Instruct participants to bring their project proposals and other documents that will be helpful to fill out their DMPs. They also have to ideally bring a computer to fill out the form.&#x20;
 
