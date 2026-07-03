@@ -6,6 +6,7 @@ layout: lesson-plan
 authors:
   - "Pauline l'Henaff"
   - "Bruna Vieira"
+  - "Maria Vivas-Romero"
     
 reviewers:
 
