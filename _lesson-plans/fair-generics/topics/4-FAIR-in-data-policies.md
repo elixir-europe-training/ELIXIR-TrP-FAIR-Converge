@@ -88,7 +88,7 @@ activities:
 
         **1.0 Give participants a simple scenario of a data sharing story from
         your particular institution.** **As an example you can use the following
-        one:**&#x20;
+        one**:
 
 
         *A research group at the Faculty of Health, Medicine, and Life Sciences
