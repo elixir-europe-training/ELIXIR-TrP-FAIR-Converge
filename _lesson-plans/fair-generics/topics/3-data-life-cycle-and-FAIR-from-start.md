@@ -187,42 +187,42 @@ activities:
 
 In this lesson plan, we describe the data life cycle and its steps, describing for each of them the best practices to make your data FAIR. Awareness of these processes would allow you to plan in advance and get in touch with the right infrastructures, with the final scope to make your research data FAIR by design.
 
----
+***
 
 ## Summary of Tasks / Actions
 
 * Exercise for the participants: List the research life cycle phases and the applicable FAIR elements with explanations
-* Prepare an exercise for the audience: using a particular tool to assess FAIRness in your research data/research data of researchers that you are supporting _(maybe this exercise is more suitable in other units? Instructors can also provide datasets)_
+* Prepare an exercise for the audience: using a particular tool to assess FAIRness in your research data/research data of researchers that you are supporting *(maybe this exercise is more suitable in other units? Instructors can also provide datasets)*
 * Exercise for the participants: Try to find datasets (through a repository) that are FAIR
 * Exercise: play games (see references)
 
----
+***
 
 ## References
 
-* Research data management (University of Virginia): [https://guides.lib.virginia.edu/c.php?g=515290&p=3522215](https://guides.lib.virginia.edu/c.php?g=515290&p=3522215) 
-* FOSTER data life cycle +Open Science principles:[https://docs.google.com/presentation/d/1SZ6ADqTNp_GBT3UT-JAsH-6zKfAWab_1xMOSxZhdZvw/edit?usp=sharing](https://docs.google.com/presentation/d/1SZ6ADqTNp_GBT3UT-JAsH-6zKfAWab_1xMOSxZhdZvw/edit?usp=sharing)  
-* Research data management (UK Data service): [https://ukdataservice.ac.uk/learning-hub/research-data-management/](https://ukdataservice.ac.uk/learning-hub/research-data-management/) 
-* The FAIRplus Dataset Maturity (DSM) Model: https://fairplus.github.io/Data-Maturity/ 
+* Research data management (University of Virginia): [https://guides.lib.virginia.edu/c.php?g\=515290\&p\=3522215](https://guides.lib.virginia.edu/c.php?g=515290\&p=3522215)
+* FOSTER data life cycle +Open Science principles:[https://docs.google.com/presentation/d/1SZ6ADqTNp\_GBT3UT-JAsH-6zKfAWab\_1xMOSxZhdZvw/edit?usp\=sharing](https://docs.google.com/presentation/d/1SZ6ADqTNp_GBT3UT-JAsH-6zKfAWab_1xMOSxZhdZvw/edit?usp=sharing)
+* Research data management (UK Data service): [https://ukdataservice.ac.uk/learning-hub/research-data-management/](https://ukdataservice.ac.uk/learning-hub/research-data-management/)
+* The FAIRplus Dataset Maturity (DSM) Model: [https://fairplus.github.io/Data-Maturity/](https://fairplus.github.io/Data-Maturity/)
 * The FAIR Data Maturity Model:
-    [https://datascience.codata.org/articles/10.5334/dsj-2020-041/](https://datascience.codata.org/articles/10.5334/dsj-2020-041/)
-* Games: 
-    * [Welcome to League of Data | League of Data (sshopencloud.eu)](https://lod.sshopencloud.eu/)
-    * [UZH - Open Science - Open Science Game: Open Up Your Research](https://www.openscience.uzh.ch/en/moreopenscience/game.html)
-    * [Data Horror Escape Room](https://sites.google.com/vu.nl/datahorror/home)
+  [https://datascience.codata.org/articles/10.5334/dsj-2020-041/](https://datascience.codata.org/articles/10.5334/dsj-2020-041/)
+* Games:
+  * [Welcome to League of Data | League of Data (sshopencloud.eu)](https://lod.sshopencloud.eu/)
+  * [UZH - Open Science - Open Science Game: Open Up Your Research](https://www.openscience.uzh.ch/en/moreopenscience/game.html)
+  * [Data Horror Escape Room](https://sites.google.com/vu.nl/datahorror/home)
 * RDM toolkit:
-    [https://rdmkit.elixir-europe.org/](https://rdmkit.elixir-europe.org/)
-* FAIR Cookbook: https://doi.org/10.1038/s41597-023-02166-3 and [https://faircookbook.elixir-europe.org/content/home.html](https://faircookbook.elixir-europe.org/content/home.html) 
-* FAIR in Action: a flexible framework to guide FAIRification - https://doi.org/10.1038/s41597-023-02167-2 
+  [https://rdmkit.elixir-europe.org/](https://rdmkit.elixir-europe.org/)
+* FAIR Cookbook: [https://doi.org/10.1038/s41597-023-02166-3](https://doi.org/10.1038/s41597-023-02166-3) and [https://faircookbook.elixir-europe.org/content/home.html](https://faircookbook.elixir-europe.org/content/home.html)
+* FAIR in Action: a flexible framework to guide FAIRification - [https://doi.org/10.1038/s41597-023-02167-2](https://doi.org/10.1038/s41597-023-02167-2)
 * Implementation of FAIR:
-    [https://www.fairsfair.eu/implementation-adoption-stories](https://www.fairsfair.eu/implementation-adoption-stories)
+  [https://www.fairsfair.eu/implementation-adoption-stories](https://www.fairsfair.eu/implementation-adoption-stories)
 * FAIR principles explained
-    [https://www.go-fair.org/fair-principles/](https://www.go-fair.org/fair-principles/)
+  [https://www.go-fair.org/fair-principles/](https://www.go-fair.org/fair-principles/)
 
----
+***
 
 ## Take home message
 
 You can relate different elements in a research project in general to different phases of the data life cycle.
-At each step, different methods, tools, or infrastructures are required to make your data FAIR. 
+At each step, different methods, tools, or infrastructures are required to make your data FAIR.
 Planning for this in advance is extremely beneficial for your projects, not only to produce FAIR data by design but also in terms of organisation and budgeting. This information should be recorded in a data management plan (DMP) at an early stage.
