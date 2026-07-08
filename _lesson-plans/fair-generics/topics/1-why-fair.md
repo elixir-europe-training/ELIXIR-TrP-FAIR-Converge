@@ -16,7 +16,7 @@ reviewers:
   - 0000-0002-7702-4495
   - 0009-0002-3089-9558
 description: >-
-  ### Train-the-Trainer: Why FAIR?
+  ## Train-the-Trainer: Why FAIR?
 
 
   This topic introduces the foundational concepts of the FAIR principles
@@ -28,7 +28,7 @@ description: >-
   research lifecycle is vital for driving successful implementation.
 
 
-  ## Summary of Tasks and Actions
+  ### Summary of Tasks and Actions
 
 
   * **1.0 Pre-Workshop Assignment:** Participants read a foundational academic
