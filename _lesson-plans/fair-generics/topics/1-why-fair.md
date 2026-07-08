@@ -360,7 +360,7 @@ This topic introduces the foundational concepts of the FAIR principles (Findable
 ## Materials and Equipment
 
 * **For Participants:** A computer and a stable internet connection (if the training is delivered online or uses cloud-based tools).
-* **For the Trainer:** A digital collaboration tool (such as Miro or an equivalent virtual whiteboard). For in-person delivery, this can easily be substituted with physical chart paper, sticky notes, and markers.
+* **For the Trainer:** A digital collaboration tool (such as Miro or an equivalent virtual whiteboard). For in-person delivery, this can easily be replaced with physical chart paper, sticky notes, and markers.
 
 ## References
 
