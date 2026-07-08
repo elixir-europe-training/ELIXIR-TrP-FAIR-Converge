@@ -345,8 +345,23 @@ additionalResources:
     author: FAIRsharing
     url: 'https://fairsharing.org/stakeholders'
 ---
-Making research data FAIR (Findable, Accessible, Interoperable, and Reusable) is of great importance in a data-driven world. Knowledge of the FAIR data principles and their practical application is crucial for maximising the value of data and resources, leading to more efficient research and increased knowledge sharing. By knowing of and adopting the FAIR principles, organisations and researchers can reach new levels of data and resource impacts, leading to numerous benefits for both the researcher community and society at large.
+## Topic Definition and Scope
 
-Adopting and embracing the FAIR principles is a vital step towards advancing research and addressing complex challenges in all domains. Journals, institutions, and funding bodies are often requiring that research follows the FAIR principles (e.g., [Horizon Europe](https://horizoneuropencpportal.eu/sites/default/files/2022-09/ore-fair-data-guide.pdf) and [NIH](https://sharing.nih.gov/data-management-and-sharing-policy/data-management#:~:text=NIH%20encourages%20data%20management%20and,repurposing%20datasets%20for%20secondary%20research)).
+### Train-the-Trainer: Why FAIR?
 
-This lesson plan includes understanding of the importance of the FAIR principles for various stakeholders and the requirements of FAIR data set by journals, institutions, and funding bodies. Additionaly, it explores potential consequences of not applying the FAIR principles and the required changes for FAIR research practices in a project, group or organisation
+This topic introduces the foundational concepts of the FAIR principles (Findable, Accessible, Interoperable, Reusable). It highlights how stakeholders, researchers, and the broader community benefit from FAIR implementation, while exploring the growing incentives from journals, funding bodies, and institutions that tie FAIR compliance to scientific impact. A fundamental understanding of FAIR and its role across all stages of the research lifecycle is vital for driving successful implementation.
+
+## Summary of Tasks and Actions
+
+* **1.0 Pre-Workshop Assignment:** Participants read a foundational academic article to familiarize themselves with the FAIR principles before the session begins.
+* **2.0 Hands-on Activities:** This core segment combines short lectures with individual and group assignments designed to deepen participants' conceptual understanding. The lesson plan offers a menu of modular activities, allowing trainers to select and adapt exercises based on their specific audience, timeframe, and context.
+* **3.0 Post-Session Plenary Discussion:** The session concludes with a collaborative discussion centered on the real-world benefits, opportunities, and challenges of applying FAIR principles to active research projects.
+
+## Materials and Equipment
+
+* **For Participants:** A computer and a stable internet connection (if the training is delivered online or uses cloud-based tools).
+* **For the Trainer:** A digital collaboration tool (such as Miro or an equivalent virtual whiteboard). For in-person delivery, this can easily be substituted with physical chart paper, sticky notes, and markers.
+
+## References
+
+* Wilkinson, M. D., Dumontier, M., Aalbersberg, I. J., Appleton, G., Axton, M., Baak, A., ... & Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. *Scientific Data*, 3(1), 1-9.
