@@ -14,10 +14,11 @@ reviewers:
   - 0000-0002-4385-9312
   - 0000-0002-3060-3967
 description: >-
-  **Topic Definition and Scope**
+  ## **Topic Definition and Scope**
 
 
-  **Train-the-Trainer: Foundations of Data Management Plan (DMP) Instruction**
+  ### **Train-the-Trainer: Foundations of Data Management Plan (DMP)
+  Instruction**
 
 
   This module provides trainers with the pedagogical framework needed to teach
@@ -298,13 +299,13 @@ activities:
 prerequisites:
   - Basic knowledge of Data Management
 ---
-**Topic Definition and Scope**
+## **Topic Definition and Scope**
 
-**Train-the-Trainer: Foundations of Data Management Plan (DMP) Instruction**
+### **Train-the-Trainer: Foundations of Data Management Plan (DMP) Instruction**
 
 This module provides trainers with the pedagogical framework needed to teach effective DMP creation. The lesson plan covers the core requirements and overarching purpose of a DMP, preparing trainers to confidently explain these concepts to peers and researchers. Special emphasis is placed on identifying common drafting pitfalls and resolving complex legal, ethical, and privacy dilemmas. Additionally, the session prepares trainers to introduce diverse DMP templates, facilitate hands-on drafting exercises, and connect researchers with vital institutional support systems.
 
-**Summary of Tasks and Actions**&#x20;
+### **Summary of Tasks and Actions**&#x20;
 
 This lesson is divided itself in the 3 phases: ​
 
@@ -334,9 +335,11 @@ This lesson is divided itself in the 3 phases: ​
 
 **4- Practical Part: Work with the DMP and send to a Data Steward​:** The trainer then divides the group into pairs, depending on the number of participants. The participants will now work on their own DMPs and debrief about them in the later section.
 
-**Materials/Equipment :** Instruct participants to bring their project proposals and other documents that will be helpful to fill out their DMPs. They also have to ideally bring a computer to fill out the form.&#x20;
+### **Materials/Equipment :**&#x20;
 
-**References**&#x20;
+Instruct participants to bring their project proposals and other documents that will be helpful to fill out their DMPs. They also have to ideally bring a computer to fill out the form.&#x20;
+
+### **References**&#x20;
 
 [DMP Training Session MUMC+ FHML | Zenodo](https://zenodo.org/records/20344397)
 
