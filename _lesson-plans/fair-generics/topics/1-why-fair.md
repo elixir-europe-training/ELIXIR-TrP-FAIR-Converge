@@ -16,7 +16,7 @@ reviewers:
   - 0000-0002-7702-4495
   - 0009-0002-3089-9558
 description: >-
-  ### Train-the-Trainer: Why FAIR?
+  ## Train-the-Trainer: Why FAIR?
 
 
   This topic introduces the foundational concepts of the FAIR principles
@@ -28,7 +28,7 @@ description: >-
   research lifecycle is vital for driving successful implementation.
 
 
-  ## Summary of Tasks and Actions
+  ### Summary of Tasks and Actions
 
 
   * **1.0 Pre-Workshop Assignment:** Participants read a foundational academic
@@ -360,7 +360,7 @@ This topic introduces the foundational concepts of the FAIR principles (Findable
 ## Materials and Equipment
 
 * **For Participants:** A computer and a stable internet connection (if the training is delivered online or uses cloud-based tools).
-* **For the Trainer:** A digital collaboration tool (such as Miro or an equivalent virtual whiteboard). For in-person delivery, this can easily be substituted with physical chart paper, sticky notes, and markers.
+* **For the Trainer:** A digital collaboration tool (such as Miro or an equivalent virtual whiteboard). For in-person delivery, this can easily be replaced with physical chart paper, sticky notes, and markers.
 
 ## References
 
