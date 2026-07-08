@@ -160,7 +160,101 @@ additionalResources:
     url: >-
       https://help.figshare.com/article/using-sherpa-romeo-to-check-publisher-open-access-policies
 activities:
-  before:
+  before: []
+  during:
+    - learning_outcome: 5
+      activities: >-
+        **Exercise:** **Choosing the right Repository**
+
+
+        **Time 15 minutes**&#x20;
+
+
+        * **Explain the Case Study:**&#x20;
+
+
+        Have the participants read the following case study and decide which
+        repository they would choose to publish at least the study's meta-data
+
+
+        Dr. Alcaraz is leading a qualitative research project exploring
+        long-term health outcomes and access to medical care for children living
+        in temporary immigration communities in the Philippines.
+
+
+        * **The Data:** 45 hours of raw audio recordings and transcriptions from
+        deep, semi-structured interviews with children (ages 6–12) and their
+        legal caretakers. The transcripts mention specific medical conditions,
+        illegal housing arrangements, and exact geographical locations.
+
+        * **The Dilemma:** Dr. Alcaraz knows the raw data is far too sensitive
+        to be completely public under data protection regulations (like GDPR or
+        local privacy laws). However, her funding body requires her to make the
+        project **FAIR**. She decides she will keep the raw transcripts securely
+        locked away, but she wants to publish the **metadata record** openly so
+        other global health researchers know the project exists and can request
+        collaboration.
+
+        * **Give the participants the following list of Repositories to choose
+        from:**&#x20;
+
+
+        | Repository Option                           | Key
+        Features                                                                                                                                                                                                                                                                                            
+        |
+
+        | ------------------------------------------- |
+        --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        |
+
+        | Option A: Zenodo                            | A massive, free global
+        generalist repository hosted by CERN. It assigns an automatic DOI and
+        allows anyone to upload anything instantly. It has a "Restricted Access"
+        feature where you can post the metadata openly but keep the files hidden
+        unless you manually approve a user's request.             |
+
+        | Option B: DataverseNL                       | A secure,
+        institutional/national repository network used by Dutch universities. It
+        offers dedicated, long-term curation support, lets you publish metadata
+        seamlessly, and provides built-in, highly structured "restricted data"
+        workflows that comply strictly with European institutional guidelines. |
+
+        | Option C: Qualitative Data Repository (QDR) | A domain-specific
+        repository explicitly designed for archiving qualitative and
+        multi-method social science data. It specializes in digital security
+        protocols for sensitive interview transcripts and human participant
+        data, offering expert review of metadata before it goes
+        live.                    |
+
+
+        * **Debriefing choices:**&#x20;
+
+
+        When the groups make their choice and present their arguments, there
+        isn't one single "perfect" answer, but there are distinct advantages
+        they should **explain**:
+
+
+        * **If they choose DataverseNL:** This is an excellent choice if Dr.
+        Alcaraz is based at a Dutch institution. It ensures local institutional
+        compliance, provides institutional backing, and has reliable
+        infrastructure for restricted-access metadata.
+
+        * **If they choose QDR (Domain-Specific):** This is technically the
+        **Gold Standard** according to the repository selection hierarchy
+        (*domain-specific first*). Because QDR specializes in qualitative data,
+        their curators will actually look at the metadata to ensure no
+        identifying information about the children accidentally slipped into the
+        abstract or project description.
+
+        * **If they choose Zenodo:** While highly accessible and great for rapid
+        DOI generation, it is a generalist repository. It lacks the
+        human-curated oversight that a highly sensitive project involving minors
+        might require to prevent accidental data leaks in the public text
+        fields.
+      time: '20'
+      type: Case Study
+      level: intermediate
     - learning_outcome: 1
       activities: >-
         **Exercise:**
@@ -218,10 +312,9 @@ activities:
         but no longer FAIR?** *(This tests if they can reverse-engineer the
         concepts—e.g., stripping the metadata and DOI, and dumping the data as a
         raw, unlabeled text file).*
-      time: '25'
-      type: Open Discussion
+      time: 20 minutes
+      type: Group discussion
       level: beginner
-  during:
     - learning_outcome: 2
       activities: >-
         **Exercise:**&#x20;
@@ -327,137 +420,36 @@ activities:
       time: '10'
       type: Open Discussion
       level: beginner
-  after:
-    - learning_outcome: 5
-      activities: >-
-        **Exercise:**&#x20;
-
-
-        **Time 15 minutes**&#x20;
-
-
-        * **Explain the Case Study:**&#x20;
-
-
-        Have the participants read the following case study and decide which
-        repository they would choose to publish at least the study's meta-data
-
-
-        Dr. Alcaraz is leading a qualitative research project exploring
-        long-term health outcomes and access to medical care for children living
-        in temporary immigration communities in the Philippines.
-
-
-        * **The Data:** 45 hours of raw audio recordings and transcriptions from
-        deep, semi-structured interviews with children (ages 6–12) and their
-        legal caretakers. The transcripts mention specific medical conditions,
-        illegal housing arrangements, and exact geographical locations.
-
-        * **The Dilemma:** Dr. Alcaraz knows the raw data is far too sensitive
-        to be completely public under data protection regulations (like GDPR or
-        local privacy laws). However, her funding body requires her to make the
-        project **FAIR**. She decides she will keep the raw transcripts securely
-        locked away, but she wants to publish the **metadata record** openly so
-        other global health researchers know the project exists and can request
-        collaboration.
-
-        * **Give the participants the following list of Repositories to choose
-        from:**&#x20;
-
-
-        | Repository Option                           | Key
-        Features                                                                                                                                                                                                                                                                                            
-        |
-
-        | ------------------------------------------- |
-        --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-        |
-
-        | Option A: Zenodo                            | A massive, free global
-        generalist repository hosted by CERN. It assigns an automatic DOI and
-        allows anyone to upload anything instantly. It has a "Restricted Access"
-        feature where you can post the metadata openly but keep the files hidden
-        unless you manually approve a user's request.             |
-
-        | Option B: DataverseNL                       | A secure,
-        institutional/national repository network used by Dutch universities. It
-        offers dedicated, long-term curation support, lets you publish metadata
-        seamlessly, and provides built-in, highly structured "restricted data"
-        workflows that comply strictly with European institutional guidelines. |
-
-        | Option C: Qualitative Data Repository (QDR) | A domain-specific
-        repository explicitly designed for archiving qualitative and
-        multi-method social science data. It specializes in digital security
-        protocols for sensitive interview transcripts and human participant
-        data, offering expert review of metadata before it goes
-        live.                    |
-
-
-        * **Debriefing choices:**&#x20;
-
-
-        When the groups make their choice and present their arguments, there
-        isn't one single "perfect" answer, but there are distinct advantages
-        they should **explain**:
-
-
-        * **If they choose DataverseNL:** This is an excellent choice if Dr.
-        Alcaraz is based at a Dutch institution. It ensures local institutional
-        compliance, provides institutional backing, and has reliable
-        infrastructure for restricted-access metadata.
-
-        * **If they choose QDR (Domain-Specific):** This is technically the
-        **Gold Standard** according to the repository selection hierarchy
-        (*domain-specific first*). Because QDR specializes in qualitative data,
-        their curators will actually look at the metadata to ensure no
-        identifying information about the children accidentally slipped into the
-        abstract or project description.
-
-        * **If they choose Zenodo:** While highly accessible and great for rapid
-        DOI generation, it is a generalist repository. It lacks the
-        human-curated oversight that a highly sensitive project involving minors
-        might require to prevent accidental data leaks in the public text
-        fields.
-      time: '15'
-      type: Open Discussion
-      level: beginner
+  after: []
 ---
-## Topic, definition and scope
+## Topic Definition and Scope
 
-This lesson plan explores the topics of Open Science and FAIR.&#x20;
+### Train-the-Trainer: FAIR vs. Open Data/Science
 
-[Open Science (OS)](https://www.orion-openscience.eu/resources/open-science) is the movement to make scientific research, data and their dissemination available to any member of an inquiring society, from professionals to citizens. It impinges on principles of scientific growth and public access including practices such as publishing open research and campaigning for open access, with the ultimate aim of making it easier to publish and communicate scientific knowledge. From development to the dissemination of knowledge, several concepts belong under the umbrella term of *Open Science*.
+This lesson plan explores the distinct boundaries, intersections, and synergies between Open Science and the FAIR principles. While Open Science focuses on making research, data, and methods freely available to everyone—from professionals to citizens—FAIR focuses on making data optimized for discovery and reuse (by both humans and machines), regardless of whether it is openly accessible or restricted. Understanding this distinction allows trainers to help researchers navigate data sharing responsibly, balancing public access with necessary data protections.
 
-[Open Science](\(https://www.fosteropenscience.eu/foster-taxonomy/open-science-definition\)) is the practice of science in such a way that others can collaborate and contribute, where research data, lab notes and other research processes are freely available, under terms that enable the reuse, redistribution and reproduction of the research and its underlying data and methods.
+## Core Topics Covered
 
-Topics to be covered in the lesson plan:
+| Topic / Module                                                   | Target Competency Level          |
+| ---------------------------------------------------------------- | -------------------------------- |
+| FAIR & Open Science Definitions                                  | Beginner / Intermediate / Expert |
+| Access Spectrum: Open, Restricted, Embargoed, & Closed           | Beginner                         |
+| The Reproducibility Crisis                                       | Beginner                         |
+| Open Infrastructure: Methods, software, tools, and code          | Beginner / Intermediate          |
+| Benefits of Open Data vs. FAIR Data Compliance                   | Intermediate                     |
+| Responsible Restrictions: Sensitive/patient data & anonymization | Intermediate                     |
+| Data Availability Statements                                     | Expert                           |
+| Adopting Open Science Principles & Tooling                       | Expert                           |
+| The Berlin Declaration (Context for Data Stewards)               | Specialist                       |
 
-* FAIR and open science definitions (beginner, intermediate, expert)
-  * Open, restricted, embargo and closed access (beginner)
-  * Open data and open research (methods, software, tools, codes) (beginner/intermediate)
-  * Reproducibility problem (beginner)
-  * Data availability statement (expert)
-  * Berlin declaration (data stewards)
-* Benefits open data (intermediate)
-  * Comparison with FAIR data
-* Reasons for not making the data open (intermediate)
-  * Sensitive/patient data, anonymization
-* How can I adopt the principles and tooling of open science? (expert)
-  * Practical examples - *link to unit on choosing a repository*
+## Summary of Tasks and Actions
 
-***
+* **1.0 Practical Framework Discussion:** Participants analyze the core concepts to identify the critical differences, overlaps, and misconceptions between FAIR and Open Science.
+* **2.0 Mapping the Local Ecosystem:** A practical exercise where participants learn to identify institutional workflows and locate specific local contacts or support networks for guidance on FAIR and Open Science.
+* **3.0 Navigating Compliance Challenges:** A critical-thinking exercise inviting participants to brainstorm and dissect the real-world barriers researchers face when trying to adopt open practices and FAIR principles.
+* **4.0 Case Study - Selecting the Right Repository:** A hands-on, scenario-based activity. Participants evaluate a realistic research case study—considering data sensitivity and access requirements—and select the most appropriate data repository for publication.
 
-## FAIR element(s)
+## Materials and Equipment
 
-**Findable** - for you to participate in open science, you need to put your research somewhere.  \\
-
-* F4. (Meta)data are registered or indexed in a searchable resource
-
-**Accessible** - in open science, the data should be fully available to everybody. However, that is not always possible. For this reason, authentication and authorisation procedures need to be in place, as specified in the FAIR Principles.
-
-* A1.1 The protocol is open, free, and universally implementable
-* A1.2 The protocol allows for an authentication and authorisation procedure, where necessary
-
-**Reusable** - in Europe, to have full legal rights to use any source, a license has to be added to it.
-
-* R1.1: (Meta)data are released with a clear and accessible data usage license
+* **For the Trainer:** A computer connected to a projector/display to present instructions and visual aids.
+* **For Participants:** A computer or tablet for active research, repository exploration, and group activities.
