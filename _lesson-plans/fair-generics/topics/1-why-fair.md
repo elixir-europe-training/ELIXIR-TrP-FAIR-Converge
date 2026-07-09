@@ -121,7 +121,7 @@ activities:
 
         Present to participants what each letter in the FAIR acronym means and
         how they relate to each other
-      time: 15 min
+      time: 30 min
       type: lecture
       level: beginner
     - learning_outcome: 1
@@ -153,6 +153,12 @@ activities:
       level: beginner
     - learning_outcome: 1
       activities: >-
+        **Exercise**:
+
+
+        **Presenting FAIR benefits for different roles**
+
+
         Have participants present examples of different stakeholders (e.g.,
         researchers, funders, the public) and discuss how each benefits from
         FAIR principles
@@ -161,6 +167,12 @@ activities:
       level: beginner
     - learning_outcome: 2
       activities: >-
+        **Exercise:**
+
+
+        **Collecting requirements from external stakeholders**
+
+
         Have participants provide a list of FAIR data requirements from journals
         and funding bodies and review them together
       time: 10 min
@@ -168,6 +180,12 @@ activities:
       level: beginner
     - learning_outcome: 2
       activities: >-
+        **Exercise:**&#x20;
+
+
+        **Exploring FAIR requirements**&#x20;
+
+
         In pairs, participants look up sample guidelines from a journal or
         funder and list how they impact data management practices
       time: 30 min
@@ -175,6 +193,12 @@ activities:
       level: beginner
     - learning_outcome: 3
       activities: >-
+        **Exercise:**&#x20;
+
+
+        **Exploring issues in implementing FAIR**&#x20;
+
+
         Have participants list common issues in research that arise from
         non-FAIR data practices, such as data loss or inaccessibility
       time: 10 min
@@ -182,6 +206,12 @@ activities:
       level: beginner
     - learning_outcome: 3
       activities: >-
+        **Exercise:**&#x20;
+
+
+        **Exploring FAIR implementation**&#x20;
+
+
         Ask participants to analyse case studies of projects that failed due to
         non-FAIR practices and discuss the repercussions
       time: 20 min
@@ -189,6 +219,9 @@ activities:
       level: intermediate
     - learning_outcome: 4
       activities: >-
+        **Exercise:**
+
+
         Introduce participants to key changes needed to adopt FAIR principles
         within a research team, using simple examples
       time: 10 min
@@ -196,20 +229,12 @@ activities:
       level: beginner
     - learning_outcome: 4
       activities: >-
-        In groups, participants analyse a project scenario and identify specific
-        changes needed to meet FAIR principles, sharing their findings
-      time: 20 min
-      type: group discussion
-      level: intermediate
-    - learning_outcome: 4
-      activities: >-
-        Divide participants into groups to identify and share how each
-        stakeholder’s needs align with FAIR principles in a research project
-      time: 20 min
-      type: group discussion
-      level: intermediate
-    - learning_outcome: 4
-      activities: >-
+        **Exercise:**&#x20;
+
+
+        **Pre-design a FAIR implementation plan**
+
+
         Organise a workshop where participants evaluate a real or hypothetical
         project’s current practices, then develop a detailed action plan to
         implement the FAIR principles
@@ -218,30 +243,26 @@ activities:
       level: expert
     - learning_outcome: 4
       activities: >-
+        **Exercise:**&#x20;
+
+
+        **Discuss the FAIR effect on society**&#x20;
+
+
         Have participants debate the broader societal impact of adopting FAIR
         principles, considering different stakeholder perspectives
       time: 30 min
       type: workshop
       level: expert
-    - learning_outcome: 4
-      activities: >-
-        Create a case study analysis where participants evaluate a project’s
-        adherence to a specific institution's FAIR requirements, suggesting
-        improvements
-      time: 60 min
-      type: case study
-      level: expert
-    - learning_outcome: 4
-      activities: >-
-        Facilitate a role-playing scenario where participants present a
-        'worst-case scenario' impact analysis of ignoring FAIR principles for a
-        research project
-      time: 60 min
-      type: role-playing
-      level: expert
   after:
     - learning_outcome: 4
       activities: >-
+        **Exercise:**&#x20;
+
+
+        **The post lesson plan reflection**
+
+
         Have participants identify benefits and opportunities to apply FAIR
         principles in their own project, group and organisation
       time: 45 min
