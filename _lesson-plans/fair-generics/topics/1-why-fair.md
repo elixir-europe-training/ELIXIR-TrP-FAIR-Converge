@@ -102,18 +102,20 @@ learning_outcomes:
 activities:
   before:
     - learning_outcome: 1
-      activities:
-        - >-
-          Have participants read the FAIR Cookbook's [Introducing the FAIR
-          Principles](https://faircookbook.elixir-europe.org/content/recipes/introduction/brief-FAIR-principles.html)
-          to get an idea of what the FAIR principles entail."
+      activities: >-
+        **Reading**
+
+
+        Have participants read the FAIR Cookbook's [Introducing the FAIR
+        Principles](https://faircookbook.elixir-europe.org/content/recipes/introduction/brief-FAIR-principles.html)
+        to get an idea of what the FAIR principles entail."
       time: 20 min
       type: individual exercise
       level: beginner
   during:
     - learning_outcome: 1
       activities: >-
-        **Exercise:**&#x20;
+        **Lecture:**
 
 
         **Recognizing the FAIR principles**
@@ -153,7 +155,7 @@ activities:
       level: beginner
     - learning_outcome: 1
       activities: >-
-        **Exercise**:
+        **Lecture**:
 
 
         **Presenting FAIR benefits for different roles**
@@ -219,7 +221,7 @@ activities:
       level: intermediate
     - learning_outcome: 4
       activities: >-
-        **Exercise:**
+        **Lecture:**
 
 
         Introduce participants to key changes needed to adopt FAIR principles
