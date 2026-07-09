@@ -129,7 +129,7 @@ terms4FAIRskills:
 activities:
   before:
     - learning_outcome: 1
-      activities: "**Read and Think about the FAIR article**\n\nPrior to the session, participants will read the foundational 2016 paper by Wilkinson, Dumontier, et al. and **identify** the core distinctions between 'human-readable' data and 'machine-actionable' data as defined by the authors.&#x20;\n\n**The cited article is the following:**\n\nWilkinson, M. D., Dumontier, M., Aalbersberg, I. J., Appleton, G., Axton, M., Baak, A., ... & Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship.\_*Scientific data*,\_*3*(1), 1-9.\n\nThe Lesson will start with the teacher asking questions in the PBL (Problem Based Learning) style.&#x20;"
+      activities: "**Reading**\n\n**Read and Think about the FAIR article**\n\nPrior to the session, participants will read the foundational 2016 paper by Wilkinson, Dumontier, et al. and **identify** the core distinctions between 'human-readable' data and 'machine-actionable' data as defined by the authors.&#x20;\n\n**The cited article is the following:**\n\nWilkinson, M. D., Dumontier, M., Aalbersberg, I. J., Appleton, G., Axton, M., Baak, A., ... & Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship.\_*Scientific data*,\_*3*(1), 1-9.\n\nThe Lesson will start with the teacher asking questions in the PBL (Problem Based Learning) style.&#x20;"
       time: '45'
       type: Reading
       level: beginner
