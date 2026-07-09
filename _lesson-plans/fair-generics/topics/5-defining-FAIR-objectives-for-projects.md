@@ -311,36 +311,18 @@ This lesson is divided itself in the 3 phases: ​
 
 **1.0 Context and Assets of the Data Management Plan:**  In this phase the trainer explains the core of a Data Management Plan, and why it is relevant at an institutional, national and international level. The trainer also explains the foundational core of a DMP and its shifting role from a bureaucratic hurdle to an essential asset.
 
-**Key Delivery Points:**
-
-* Explain why a DMP matters across the research ecosystem: at the **institutional level** (MUMC+ data governance), the **national level** (ZonMw and NWO core requirements), and the **international level** (Horizon Europe).
-* Defining "Data Assets" (raw, processed, and analyzed data) and translating abstract FAIR concepts into tangible requirements.
-
 **2.0** **The when and how of a DMP in the research process at MUMC+**: The trainer then delves into the phases of the Research Life Cycle and where a DMP is located at within this cycle. The trainer connects the document directly to the timeline of everyday scientific work.
 
-**Key Delivery Points:**
-
-* Delve into the distinct phases of the **Research Life Cycle** (Planning, Active Research, Archiving, and Sharing).
-* Demonstrate exactly where the DMP sits: initiated at the start of a project, updated dynamically as a living document during active research, and finalized prior to dataset archiving.
-
 **3.0 Practical Part: Working with the DMP & Data Steward Feedback:** Facilitate Participants filling out their own DMP form
-
-**Key Delivery Points:**
-
-* Divide the participants into pairs (or institutional cohorts).
-* Task participants with working directly inside the institutional template via the **MUMC+ Data Portal** to tackle initial questions using their actual project parameters.
-* Guide them through the final operational step: utilizing the portal functions to share the draft or request feedback from a designated departmental **Data Steward**.
-
-​
 
 **4- Practical Part: Work with the DMP and send to a Data Steward​:** The trainer then divides the group into pairs, depending on the number of participants. The participants will now work on their own DMPs and debrief about them in the later section.
 
 ### **Materials/Equipment :**&#x20;
 
-Instruct participants to bring their project proposals and other documents that will be helpful to fill out their DMPs. They also have to ideally bring a computer to fill out the form.&#x20;
+**For the participants:** Instruct participants to bring their project proposals and other documents that will be helpful to fill out their DMPs. They also have to ideally bring a computer to fill out the form.&#x20;
 
 ### **References**&#x20;
 
 [DMP Training Session MUMC+ FHML | Zenodo](https://zenodo.org/records/20344397)
 
-**Additional Resources**&#x20;
+### **Additional Resources**&#x20;
