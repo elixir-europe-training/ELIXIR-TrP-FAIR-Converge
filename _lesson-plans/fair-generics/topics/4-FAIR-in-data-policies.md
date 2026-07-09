@@ -82,98 +82,116 @@ additionalResources:
       O'Connor, Ryan, et al.
     url: 'https://doi.org/10.5281/zenodo.6225775'
 activities:
-  before:
-    - learning_outcome: 3
-      activities: >-
-        **The Task: "Who Owns the Data?**
-
-
-        **1.0 Give participants a simple scenario of a data sharing story from
-        your particular institution.** **As an example you can use the following
-        one**:
-
-
-        *A research group at the Faculty of Health, Medicine, and Life Sciences
-        wants to launch a nationwide consortium project involving all University
-        Hospitals (UMCs) in the Netherlands. The study utilizes qualitative
-        research methods, specifically conducting focus groups and individual
-        interviews. The team’s goal is twofold: active data sharing among
-        consortium partners throughout the project lifecyle, followed by
-        long-term archiving in an open-access repository.*
-
-
-        Note: You can adapt this to mirror a specific project at your own
-        institution, or use this multi-center Dutch hospital example:
-
-
-        **2.0 Ask participants (individually or in pairs) to list or select
-        every department, administrative role, or operational entity within the
-        university and hospital system that must review, approve, or support
-        this project before data sharing can safely begin.**
-
-
-        **3.0 Instructions for the Trainer: Debrief the activity by showing how
-        vast the ecosystem truly is. Use this moment to demonstrate how a
-        standardized institutional policy turns this chaotic process into a
-        streamlined workflow.**
-
-
-        | The Stakeholder                   | Their Role in This
-        Project                                        | The Nightmare Without a
-        Policy                                                              |
-        The Benefit With a Standardized
-        Policy                                          |
-
-        | --------------------------------- |
-        ----------------------------------------------------------------- |
-        -------------------------------------------------------------------------------------------
-        |
-        -------------------------------------------------------------------------------
-        |
-
-        | Ethics Committee / METC           | Approves the consent forms for
-        qualitative interviews.            | Months of back-and-forth debating
-        consent language for open repositories.                   | Standardized
-        template clauses for FAIR data sharing are pre-approved.           |
-
-        | Data Protection / Privacy Officer | Ensures GDPR compliance for
-        sensitive audio/transcript data.      | Bespoke risk assessments delay
-        the start of the consortium by half a year.                  | Clear,
-        institutional guidelines dictate safe workflows for qualitative data.   
-        |
-
-        | ICT / Infrastructure              | Provides secure collaborative
-        spaces for multi-hospital access.   | Researchers default to unsafe
-        tools (like shadow IT or personal clouds) out of frustration. |
-        Pre-configured, secure institutional sharing platforms are readily
-        available.   |
-
-        | Legal Affairs                     | Drafts the Consortium Agreement
-        between all Dutch UMCs.           | Custom data-sharing agreements are
-        negotiated from scratch for every partner.               | Standardized
-        institutional data-sharing templates drastically speed up signing. |
-
-        | Data Stewards / Library           | Assists with the final repository
-        archiving and metadata mapping. | The research team struggles to make
-        qualitative text searchable or reusable at the end.     | Direct
-        guidance on how to anonymize, tag, and publish the data efficiently.    
-        |
-
-
-        **4.0 Provide the participants feedback on the role picking and how this
-        would be easier if a institutional policy was adopted.**&#x20;
-      time: '15'
-      type: Collective Discussion
-      level: beginner
+  before: []
   during:
+    - learning_outcome: 1
+      activities: >-
+        **Lecture:**&#x20;
+
+
+        **Give a short introduction to Data Policies: why it is important to
+        have research data policies?**
+
+
+        * Responsibility for good data governance and management practices
+
+        * "Institutional policies underpin staffing and resource allocation,
+        approaches and workflows, and can enable and support (or hinder) new
+        practices. Therefore, implementing the FAIR principles for research data
+        at the institutional level needs a review of existing policies to remove
+        potential stumbling blocks and adoption of research data policies
+        embracing FAIR." D7.4 How to be FAIR with your data. A teaching and
+        training handbook for higher education institutions. Page: 51,
+        [https://doi.org/10.5281/zenodo.6674301](https://doi.org/10.5281/zenodo.6674301)
+      time: '30'
+      type: Lecture
+      level: beginner
     - learning_outcome: 2
-      activities: "**The Maastricht University FAIR Data Blueprint**&#x20;\n\n* **Goal Tackled:** Analyzing a case study from the Faculty of Health, Medicine, and Life Sciences at Maastricht University.\n* **The Task:** Provide participants with an excerpt or a structured summary of the Maastricht University framework. Have them act as \"peer reviewers\" to identify exactly how the faculty incentivized researchers to adopt the policy. Ask them: *“What elements of this case study could be copied directly into your own institution, and what would fail due to culture differences?”*\n* <u>***The text to Analyze is the FAIR data use executive summary from the policy adopted at the Faculty of Life and Health Sciences:*** </u>\n\n**FAIR data use**\_\n\nSince the implementation of the FAIR Action Plans in 2019, which\_subsequently\_informed the Open Science Action Plan, significant efforts have been made by frontline practitioners to promote FAIR data use and support researchers. To enhance these efforts, we have significantly increased our support for researchers.\_\n\nOur Generic Data Stewards have\_provided assistance to\_435 researchers in developing their Data Management Plans (DMPs) and ensuring\_follow-up support.\_Furthermore, we have fostered a network of Embedded Data Stewards within individual departments and schools to ensure widespread support across the faculty and standardize best practices.\_\n\nThe efforts of data stewards and the research community have\_resulted in\_the publication\_of\_212 publicly available data sets in\_DataverseNL.\_Internally, 370 TB of data stored in the Maastricht Data Repository.\_For both repositories, data stewards assure the curation of data sets.\_\n\n\_\n\n* **Trainer Tip:** *This helps trainers facilitate a realistic discussion about institutional culture and policy adoption.*"
+      activities: "**Exercise:**\n\n**The Maastricht University FAIR Data Blueprint**&#x20;\n\n* **Goal Tackled:** Analyzing a case study from the Faculty of Health, Medicine, and Life Sciences at Maastricht University.\n* **The Task:** Provide participants with an excerpt or a structured summary of the Maastricht University framework. Have them act as \"peer reviewers\" to identify exactly how the faculty incentivized researchers to adopt the policy. Ask them: *“What elements of this case study could be copied directly into your own institution, and what would fail due to culture differences?”*\n* <u>***The text to Analyze is the FAIR data use executive summary from the policy adopted at the Faculty of Life and Health Sciences:*** </u>\n\n**FAIR data use**\_\n\nSince the implementation of the FAIR Action Plans in 2019, which\_subsequently\_informed the Open Science Action Plan, significant efforts have been made by frontline practitioners to promote FAIR data use and support researchers. To enhance these efforts, we have significantly increased our support for researchers.\_\n\nOur Generic Data Stewards have\_provided assistance to\_435 researchers in developing their Data Management Plans (DMPs) and ensuring\_follow-up support.\_Furthermore, we have fostered a network of Embedded Data Stewards within individual departments and schools to ensure widespread support across the faculty and standardize best practices.\_\n\nThe efforts of data stewards and the research community have\_resulted in\_the publication\_of\_212 publicly available data sets in\_DataverseNL.\_Internally, 370 TB of data stored in the Maastricht Data Repository.\_For both repositories, data stewards assure the curation of data sets.\_\n\n\_\n\n* **Trainer Tip:** *This helps trainers facilitate a realistic discussion about institutional culture and policy adoption.*"
       time: '20'
       type: Interactive Case Study
       level: intermediate
+    - learning_outcome: 2
+      activities: >-
+        **Lecture:**&#x20;
+
+
+        **Going through typical steps to implement new or updated policies will
+        involve**&#x20;
+
+
+        * 1\.  Identifying the relevant policy documents, their owners and
+        relevant stakeholders. FAIRsharing has a [policy
+        registry](https://fairsharing.org/policies) of 160 policies, with a
+        sub-section specifically for [institutional
+        policies](https://fairsharing.org/search?fairsharingRegistry=Policy\&recordType=institution\&page=1),
+        from which exemplar policies could be reviewed.
+
+        * 2\.  Help students understand the interdependencies between policies
+        and the procedures in place to implement or update them.
+
+        * 3\. Explain informal discussions with relevant stakeholders about the
+        needs and benefits of new or updated policies. Understanding
+        requirements and potential roadblocks.
+
+        * 4\.  Give examples on how to propose new policy statements (in new or
+        updated policy documents) (see the item below regarding the
+        collaboration between the Digital Curation Centre (DCC) and FAIRsharing
+        for the creation of new institutional data policies that align with the
+        FAIR principles).
+
+        * 5\.  Help students understand consultations and discussions to reach a
+        consensus with all stakeholders.
+
+        * 6\.  Explain ways to influence policy owners forward the proposed
+        changes (or new policies) for approval by senior management, such as the
+        school council or senate.
+
+
+        **Some helpful examples can be the following:**&#x20;
+
+
+        * The DCC (on behalf of the FAIRsFAIR project) and FAIRsharing have
+        collaborated on a data policy description workflow designed to help with
+        the creation of FAIR data policies. Remember, in order to be FAIR your
+        policy should be described in a way appropriate for both humans and
+        machines, and this workflow will achieve that. DCC and FAIRsharing have
+        aligned three community-developed data policy description efforts,
+        making it easier than ever to create FAIR-aligned data policies and make
+        policy descriptions more accessible to both humans and machines. The
+        FAIRsharing data policy registry, the FAIRsFAIR FAIR data Policy
+        Checklist, and the RDA's Journal Policy Features have all been aligned
+        and integrated within the FAIRsharing data model. Details of this
+        collaboration, and how to implement it, are provided within joint news
+        items ([DCC news
+        item](https://dcc.ac.uk/blog/fairsharing-and-dcc-collaborate-align-policy-metadata),
+        [FAIRsharing news item](https://blog.fairsharing.org/?p=451)). (We also
+        have slides to help you, and can provide further info if required.)
+
+        * Going through stakeholders who should be involved in making a FAIR DM
+        policy. Recognise stakeholders (at institutions) who should be involved
+        in the making/updating and implementation of a data policy.
+          * Research offices, IT department, libraries, ethics boards, data protection offices, research departments or units / individual researchers, senior management
+        * Creation and/or modification of a data policy that supports FAIR data
+        management.
+          * Use of the DCC FAIR data policy checklist to create a data policy
+          * Typical steps to implement new or updated policies will involve from D7.4 How to be FAIR with your data. A teaching and training handbook for higher education institutions. Page: 52, [https://doi.org/10.5281/zenodo.6674301](https://doi.org/10.5281/zenodo.6674301).
+        * Briefly introduce actions contributing to the actual FAIRness of the
+        policy
+
+        * Discuss how is the policy disseminated and used
+          * Documents which should refer to the policies including Data Management Plan (DMP), Data Protection Impact Assessment (DPIA), procedures, ethical approval
+          * Dissemination to different stakeholders via e.g. training events or a newsletter.
+          * Registration within FAIRsharing
+      time: 20 min
+      type: lecture
+      level: beginner
     - learning_outcome: 7
       activities: >-
-        ## &#x20;The Policy Anatomy Sketch
+        **Exercise**&#x20;
+
+
+        **The policy anatomy Sketch**&#x20;
 
 
         * **Learning Objective:** Identify and sketch the essential structural
@@ -259,6 +277,91 @@ activities:
       time: '30'
       type: Small Group Discussion
       level: beginner
+    - learning_outcome: 8
+      activities: >-
+        **Exercise:**
+
+
+        **The Task: "Who Owns the Data?**
+
+
+        **1.0 Give participants a simple scenario of a data sharing story from
+        your particular institution.** **As an example you can use the following
+        one**:
+
+
+        *A research group at the Faculty of Health, Medicine, and Life Sciences
+        wants to launch a nationwide consortium project involving all University
+        Hospitals (UMCs) in the Netherlands. The study utilizes qualitative
+        research methods, specifically conducting focus groups and individual
+        interviews. The team’s goal is twofold: active data sharing among
+        consortium partners throughout the project lifecyle, followed by
+        long-term archiving in an open-access repository.*
+
+
+        Note: You can adapt this to mirror a specific project at your own
+        institution, or use this multi-center Dutch hospital example:
+
+
+        **2.0 Ask participants (individually or in pairs) to list or select
+        every department, administrative role, or operational entity within the
+        university and hospital system that must review, approve, or support
+        this project before data sharing can safely begin.**
+
+
+        **3.0 Instructions for the Trainer: Debrief the activity by showing how
+        vast the ecosystem truly is. Use this moment to demonstrate how a
+        standardized institutional policy turns this chaotic process into a
+        streamlined workflow.**
+
+
+        | The Stakeholder                   | Their Role in This
+        Project                                        | The Nightmare Without a
+        Policy                                                              |
+        The Benefit With a Standardized
+        Policy                                          |
+
+        | --------------------------------- |
+        ----------------------------------------------------------------- |
+        -------------------------------------------------------------------------------------------
+        |
+        -------------------------------------------------------------------------------
+        |
+
+        | Ethics Committee / METC           | Approves the consent forms for
+        qualitative interviews.            | Months of back-and-forth debating
+        consent language for open repositories.                   | Standardized
+        template clauses for FAIR data sharing are pre-approved.           |
+
+        | Data Protection / Privacy Officer | Ensures GDPR compliance for
+        sensitive audio/transcript data.      | Bespoke risk assessments delay
+        the start of the consortium by half a year.                  | Clear,
+        institutional guidelines dictate safe workflows for qualitative data.   
+        |
+
+        | ICT / Infrastructure              | Provides secure collaborative
+        spaces for multi-hospital access.   | Researchers default to unsafe
+        tools (like shadow IT or personal clouds) out of frustration. |
+        Pre-configured, secure institutional sharing platforms are readily
+        available.   |
+
+        | Legal Affairs                     | Drafts the Consortium Agreement
+        between all Dutch UMCs.           | Custom data-sharing agreements are
+        negotiated from scratch for every partner.               | Standardized
+        institutional data-sharing templates drastically speed up signing. |
+
+        | Data Stewards / Library           | Assists with the final repository
+        archiving and metadata mapping. | The research team struggles to make
+        qualitative text searchable or reusable at the end.     | Direct
+        guidance on how to anonymize, tag, and publish the data efficiently.    
+        |
+
+
+        **4.0 Provide the participants feedback on the role picking and how this
+        would be easier if a institutional policy was adopted.**&#x20;
+      time: '15'
+      type: Group discussion
+      level: intermediate
 prerequisites:
   - >-
     Before attending this session, participants must be familiar with the core
@@ -274,31 +377,9 @@ prerequisites:
 * Implementing and adopting the FAIR principles at the institutional level.
   * See Chapter 6 Implementing FAIR on D7.4 [How to be FAIR with your data. A teaching and training handbook for higher education institutions](https://doi.org/10.5281/zenodo.6674301).
 
-## Summary of Tasks / Actions
+### Summary of Tasks / Action
 
-* Give a short introduction to Data Policies: why it is important to have research data policies?
-  * Responsibility for good data governance and management practices
-  * "Institutional policies underpin staffing and resource allocation, approaches and workflows, and can enable and support (or hinder) new practices. Therefore, implementing the FAIR principles for research data at the institutional level needs a review of existing policies to remove potential stumbling blocks and adoption of research data policies embracing FAIR." D7.4 How to be FAIR with your data. A teaching and training handbook for higher education institutions. Page: 51, [https://doi.org/10.5281/zenodo.6674301](https://doi.org/10.5281/zenodo.6674301)
-* Explain that a good Data Policy touches all the FAIR data principles (i.e. Findable, Accessible, Interoperable, Reusable):
-  * Go through some examples of how FAIR has been incorporated into data policies.
-* Going through typical steps to implement new or updated policies will involve (\=D7.4 How to be FAIR with your data. A teaching and training handbook for higher education institutions, page 52)
-  * 1\.  Identifying the relevant policy documents, their owners and relevant stakeholders. FAIRsharing has a [policy registry](https://fairsharing.org/policies) of 160 policies, with a sub-section specifically for [institutional policies](https://fairsharing.org/search?fairsharingRegistry=Policy\&recordType=institution\&page=1), from which exemplar policies could be reviewed.
-  * 2\.  Understanding the interdependencies between policies and the procedures in place to implement or update them.
-  * 3\.  Informal discussions with relevant stakeholders about the needs and benefits of new or updated policies. Understanding requirements and potential roadblocks.
-  * 4\.  Proposing new policy statements (in new or updated policy documents) (see the item below regarding the collaboration between the Digital Curation Centre (DCC) and FAIRsharing for the creation of new institutional data policies that align with the FAIR principles).
-  * 5\.  Consultations and discussions to reach a consensus with all stakeholders.
-  * 6\.  Policy owners forward the proposed changes (or new policies) for approval by senior management, such as the school council or senate.
-* The DCC (on behalf of the FAIRsFAIR project) and FAIRsharing have collaborated on a data policy description workflow designed to help with the creation of FAIR data policies. Remember, in order to be FAIR your policy should be described in a way appropriate for both humans and machines, and this workflow will achieve that. DCC and FAIRsharing have aligned three community-developed data policy description efforts, making it easier than ever to create FAIR-aligned data policies and make policy descriptions more accessible to both humans and machines. The FAIRsharing data policy registry, the FAIRsFAIR FAIR data Policy Checklist, and the RDA's Journal Policy Features have all been aligned and integrated within the FAIRsharing data model. Details of this collaboration, and how to implement it, are provided within joint news items ([DCC news item](https://dcc.ac.uk/blog/fairsharing-and-dcc-collaborate-align-policy-metadata), [FAIRsharing news item](https://blog.fairsharing.org/?p=451)). (We also have slides to help you, and can provide further info if required.)
-* Going through stakeholders who should be involved in making a FAIR DM policy. Recognise stakeholders (at institutions) who should be involved in the making/updating and implementation of a data policy.
-  * Research offices, IT department, libraries, ethics boards, data protection offices, research departments or units / individual researchers, senior management
-* Creation and/or modification of a data policy that supports FAIR data management.
-  * Use of the DCC FAIR data policy checklist to create a data policy
-  * Typical steps to implement new or updated policies will involve from D7.4 How to be FAIR with your data. A teaching and training handbook for higher education institutions. Page: 52, [https://doi.org/10.5281/zenodo.6674301](https://doi.org/10.5281/zenodo.6674301).
-* Briefly introduce actions contributing to the actual FAIRness of the policy
-* Discuss how is the policy disseminated and used
-  * Documents which should refer to the policies including Data Management Plan (DMP), Data Protection Impact Assessment (DPIA), procedures, ethical approval
-  * Dissemination to different stakeholders via e.g. training events or a newsletter.
-  * Registration within FAIRsharing
+1. **Give a short introduction to Data Policies: why it is important to have research data policies?**
 
 ## Take home tasks/preparation
 
