@@ -185,16 +185,24 @@ activities:
 ---
 ## Topic, definition and scope
 
-In this lesson plan, we describe the data life cycle and its steps, describing for each of them the best practices to make your data FAIR. Awareness of these processes would allow you to plan in advance and get in touch with the right infrastructures, with the final scope to make your research data FAIR by design.
+### Train-the-Trainer: Data Life-Cycle and FAIR from start&#x20;
+
+This topic introduces the research data life cycle, breaking down each phase alongside the practical best practices required to embed FAIR principles from day one. By fostering deep awareness of these cyclical processes, this lesson equips trainers to help researchers plan proactively, engage with the appropriate institutional infrastructures early, and ultimately ensure their research data is "FAIR by design" rather than as an afterthought.
 
 ***
 
-## Summary of Tasks / Actions
+## Summary of Tasks / Actions:
 
-* Exercise for the participants: List the research life cycle phases and the applicable FAIR elements with explanations
-* Prepare an exercise for the audience: using a particular tool to assess FAIRness in your research data/research data of researchers that you are supporting *(maybe this exercise is more suitable in other units? Instructors can also provide datasets)*
-* Exercise for the participants: Try to find datasets (through a repository) that are FAIR
-* Exercise: play games (see references)
+* **1.0 Pre-Workshop Reflection:** Participants read and critique a foundational article on the FAIR principles prior to the session, bringing their notes and reflections to kickstart the workshop.
+* **2.0 Contextualizing FAIR in the Data Life Cycle:** The trainer presents the data life cycle stages, mapping the specific FAIR requirements onto each phase according to the institution's localized workflows and the specific scientific disciplines of the participants.
+* **3.0 Collaborative Life Cycle Mapping:** Participants work in triads (groups of three) using an interactive whiteboard. They are tasked with mapping specific research activities and corresponding FAIR principles onto the correct stages of a blank data life cycle diagram.
+
+## Materials and Equipment:&#x20;
+
+**For Participants:** A computer or tablet with a stable internet connection (essential for online delivery or for accessing cloud-based collaborative tools).
+
+**For the Trainer:**- *Virtual Delivery:* Access to a digital collaboration platform (e.g., Miro or an equivalent online whiteboard).
+- *In-Person Delivery:* A physical whiteboard or chart paper, sticky notes, and markers.
 
 ***
 
@@ -223,6 +231,4 @@ In this lesson plan, we describe the data life cycle and its steps, describing f
 
 ## Take home message
 
-You can relate different elements in a research project in general to different phases of the data life cycle.
-At each step, different methods, tools, or infrastructures are required to make your data FAIR.
-Planning for this in advance is extremely beneficial for your projects, not only to produce FAIR data by design but also in terms of organisation and budgeting. This information should be recorded in a data management plan (DMP) at an early stage.
+You can relate different elements in a research project in general to different phases of the data life cycle. At each step, different methods, tools, or infrastructures are required to make your data FAIR. Planning for this in advance is extremely beneficial for your projects, not only to produce FAIR data by design but also in terms of organisation and budgeting. This information should be recorded in a data management plan (DMP) at an early stage.
