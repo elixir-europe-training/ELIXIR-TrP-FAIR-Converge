@@ -370,19 +370,38 @@ prerequisites:
     regarding health and life science data is highly recommended, as the session
     focuses on policy implementation rather than introductory data theory.
 ---
-## Topic, definition and scopes
+## Topic Definition and Scope
 
-* Research data in the institutional policy framework.
-* Benefits of FAIR data management at an institutional level.
-* Implementing and adopting the FAIR principles at the institutional level.
-  * See Chapter 6 Implementing FAIR on D7.4 [How to be FAIR with your data. A teaching and training handbook for higher education institutions](https://doi.org/10.5281/zenodo.6674301).
+### Train-the-Trainer: Institutional Policy Frameworks and FAIR Data Management
 
-### Summary of Tasks / Action
+This module shifts the perspective from individual researchers to the institutional level, exploring how research data policies drive systemic change. It addresses the strategic benefits of institutional FAIR data management and provides concrete steps for implementing and adopting these principles across higher education networks.
 
-1. **Give a short introduction to Data Policies: why it is important to have research data policies?**
+> **Core Reference:** This lesson is grounded in *Chapter 6: Implementing FAIR* of the handbook: *How to be FAIR with your data: A teaching and training handbook for higher education institutions (FAIRsFAIR).*
 
-## Take home tasks/preparation
+## Summary of Tasks and Actions
 
-* Review an existing institutional data policy and assess the adoption of the FAIR principles.
-* Recognise relevant stakeholders at your institution who should be involved with making and implementing the data policy.
-* Draft a FAIR data policy for a specific use case. You can use the FAIR data policy description checklist to help ([DCC news item](https://dcc.ac.uk/blog/fairsharing-and-dcc-collaborate-align-policy-metadata), [FAIRsharing news item](https://blog.fairsharing.org/?p=451)).
+**1.0 Lecture - Introduction to Research Data Policies:** A brief presentation introducing institutional data policies, detailing why they are critical for securing compliance, funding eligibility, and institutional prestige.
+
+**2.0 Case Study Analysis - The Maastricht University FAIR Data Blueprint:** Participants review a real-world institutional example, exploring how Maastricht University structured and launched its integrated FAIR Open Science Action Plan.
+
+**3.0 Lecture - Strategic Steps for Policy Implementation:** A concise lecture mapping out the institutional milestones required to move from policy drafting to full campus-wide implementation and adoption.
+
+**4.0 Practical Policy Simulation:** The trainer selects an interactive exercise based on audience needs:
+
+* *Option A (Exercise 7):* Simulating stakeholder buy-in and mapping policy requirements.
+* *Option B (Exercise 8):* Evaluating existing drafts against international framework criteria.
+
+## Take-Home Tasks & Preparation
+
+To cement the training or prepare for an advanced session, participants are asked to complete the following:
+
+* **Policy Audit:** Review their current institutional data policy and objectively assess its baseline adoption of FAIR principles.
+* **Stakeholder Mapping:** Identify the key decision-makers and support services (e.g., IT, library, legal, research office) at their local institution who must be engaged to effectively launch a data policy.
+* **Drafting Exercise:** Begin drafting a specialized FAIR data policy for a specific use case, leveraging standard institutional checklists (such as resources from the Digital Curation Centre \[DCC] or FAIRsharing).
+
+## Materials and Equipment
+
+* **For Participants:** A computer or tablet with a stable internet connection for policy review, online research, and collaborative case analysis.
+* **For the Trainer:**
+  * *Virtual Delivery:* An online interactive whiteboard (e.g., Miro) to map stakeholders and track policy exercises.
+  * *In-Person Delivery:* A projector/display for lectures, accompanied by physical chart paper, sticky notes, and markers for group work.
