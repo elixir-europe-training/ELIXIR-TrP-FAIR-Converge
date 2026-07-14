@@ -164,15 +164,63 @@ description: >-
   scientific community in selecting the most appropriate repository for each
   type of research output.
 activities:
-  before:
-    - learning_outcome: 5
-      activities: "**The Data Hunting Exercise**&#x20;\n\n**1.** **Set up the challenge:** Choose a topic the participants could explore while looking for data on a particular repository examples can include:\n\n* **Environmental Science:** Ocean acidification rates in the North Sea\n* **Health:** Genomic Sequencing and antibiotic-resistant bacteria\n* **Education:** Statistics on numbers of International Students in Medical Schools in Europe\n\n**2. Looking for Places to Search:** Provide the participants with different locations to look for this data:&#x20;\n\n* **Generic Repositories:** Zenodo, Figshare, DataverseNL, Dryad, Dataverse, DANS Data Station&#x20;\n* **Domain Specific:** Pangea (Earth Science), NCBI (BIO), GBIF\_(Biodiversity)\n* **Search Engines:** Google Dataset Search, DataCite Commons, OpenAIRE Explorer\n\n**3. The Scavenger Hunt Checklist:** Participants must find a data set in at least two of the categories provided and fill out this evidence check list: \\*\\*\\*\\*&#x20;\n\n* **Persistent identifier:**  (PID) Can you find a DOI?&#x20;\n* **Meta-data Richness:** On a scale of 1-5, how well is the data described? (Are there column definitions, read-me files, methods?\n* **Interoperability:** What file formats are used? (Proprietary like .xlsx. or open like .cvs)\n\n**4. The Debriefing: \"Comparison Gallery\"**&#x20;\n\n* Which repository felt most trustworthy and why?&#x20;\n* Did you find the same dataset in two different places (this introduces the concept of data harvesting and mirroring&#x20;\n* Which metadata record made you feel like you actually re-use the data right away?&#x20;\n\n**Annotations:** Have participants made annotations on a common document they would take home. This could also work as feedback and improvement mechanisms for this particular activity.&#x20;"
-      time: 1 hour
-      type: Group Exercise
-      level: beginner
+  before: []
   during:
     - learning_outcome: 1
       activities: >-
+        **Lecture:**&#x20;
+
+
+        &#x20;**Repositories as FAIR Enablers:** A brief opening presentation
+        defining what a repository is (and what it isn't).
+
+
+        * **Key Concept:** The trainer contrasts simple cloud storage (like
+        Google Drive or Dropbox) with a true FAIR-enabling repository. Key
+        differentiators highlighted include:
+          * **PIDs:** Automatic assignment of persistent, citable DOIs.
+          * **Structured Metadata:** Indexing schemas (e.g., Dublin Core) that make data searchable by external search engines.
+          * **Long-Term Preservation:** Commitment to bit preservation and open, migrate-ready file formats.
+      time: 20 min
+      type: Group exercise
+      level: beginner
+    - learning_outcome: 1
+      activities: "**Exercise:**\n\n**The Data Hunting Exercise**&#x20;\n\n**1.** **Set up the challenge:** Choose a topic the participants could explore while looking for data on a particular repository examples can include:\n\n* **Environmental Science:** Ocean acidification rates in the North Sea\n* **Health:** Genomic Sequencing and antibiotic-resistant bacteria\n* **Education:** Statistics on numbers of International Students in Medical Schools in Europe\n\n**2. Looking for Places to Search:** Provide the participants with different locations to look for this data:&#x20;\n\n* **Generic Repositories:** Zenodo, Figshare, DataverseNL, Dryad, Dataverse, DANS Data Station&#x20;\n* **Domain Specific:** Pangea (Earth Science), NCBI (BIO), GBIF\_(Biodiversity)\n* **Search Engines:** Google Dataset Search, DataCite Commons, OpenAIRE Explorer\n\n**3. The Scavenger Hunt Checklist:** Participants must find a data set in at least two of the categories provided and fill out this evidence check list: \\*\\*\\*\\*&#x20;\n\n* **Persistent identifier:**  (PID) Can you find a DOI?&#x20;\n* **Meta-data Richness:** On a scale of 1-5, how well is the data described? (Are there column definitions, read-me files, methods?\n* **Interoperability:** What file formats are used? (Proprietary like .xlsx. or open like .cvs)\n\n**4. The Debriefing: \"Comparison Gallery\"**&#x20;\n\n* Which repository felt most trustworthy and why?&#x20;\n* Did you find the same dataset in two different places (this introduces the concept of data harvesting and mirroring&#x20;\n* Which metadata record made you feel like you actually re-use the data right away?&#x20;\n\n**Annotations:** Have participants made annotations on a common document they would take home. This could also work as feedback and improvement mechanisms for this particular activity.&#x20;"
+      time: 20 min
+      type: Group exercise
+      level: beginner
+    - learning_outcome: 2
+      activities: >-
+        **Lecture:**
+
+
+        **Presenting Local Repositories & Workflows :** A practical
+        demonstration of institutional data tools, featuring local systems like
+        **DataverseNL**.
+
+
+        **Key Concept:** The trainer walks through the local data deposition
+        pipeline:
+
+
+        1. ***Deposit**:* Creating a dataset draft within the department's
+        dedicated collection.
+
+        2. ***Curation:*** The local data steward/curator reviewing the
+        metadata, checking for direct or indirect personal data, and verifying
+        stable file formats.
+
+        3. ***Publication**:* Activating the DOI, setting appropriate Creative
+        Commons usage licenses, and configuring file access (Open Access vs.
+        Restricted/Embargoed).
+      time: 20 min
+      type: Group exercise
+      level: beginner
+    - learning_outcome: 1
+      activities: >-
+        **Exercise:**
+
+
         &#x20;**The "In Silico" Shortcut Exercise**
 
 
@@ -244,16 +292,16 @@ activities:
       time: 1 hour
       type: Working session
       level: beginner
-  after:
     - learning_outcome: 3
       activities: >-
+        **Exercise:**
+
+
         **Repository Speed-Dating**
 
 
         **Objective:** Match a "Data Profile" to the correct "Repository Type"
         based on the discovery and reuse principles learned earlier.
-
-
 
 
         **1.The Setup (5 minutes)**
@@ -299,9 +347,10 @@ activities:
 
 
         >
-      time: 20 minutes
-      type: Group Exercice
+      time: '15'
+      type: Group Exercise
       level: beginner
+  after: []
 prerequisites:
   - >-
     For this lesson plan, participants should have a foundational understanding
@@ -309,12 +358,14 @@ prerequisites:
 ---
 ## Topic, definition and scope
 
-Repositories can be defined as centralized services where data is stored, organized, and managed. These resources doesn't just serve to store data and other research outputs, but also make them findable, accessible and reusable, for specific purposes.
+### Train-the-Trainer: Repositories and Data Discovery
 
-*  “Everyone has the right to (…) share in scientific advancement and its benefits”.
-  Article 27, Universal Declaration of Human Rights
-* Data discovery is a process of understanding data and extracting valuable insight from multiple data streams according to data uses and purposes.
-* The European Commission’s guiding principle, "As open as possible, as closed as necessary", has transformed how we approach the discovery and publication of scientific information.
+This lesson plan guides participants to explore data repositories as critical infrastructure for the FAIR principles. Rather than serving as mere storage folders, repositories are active, centralized services designed to organize, preserve, and make research outputs findable, accessible, and reusable.
+
+The lesson plan is framed around two core philosophies:
+
+1. **The Right to Science:** As stated in Article 27 of the Universal Declaration of Human Rights, "Everyone has the right to... share in scientific advancement and its benefits."
+2. **The Access Spectrum:** The European Commission’s guiding principle, *"as open as possible, as closed as necessary,"* which governs how we balance data discovery and public benefit with ethical, legal, and commercial boundaries.
 
 ***
 
@@ -329,43 +380,35 @@ Repositories can be defined as centralized services where data is stored, organi
 
 ## Summary of Tasks / Actions
 
-* Discuss: why FAIR principles are important for data discovery?
-* How do you search for data?&#x20;
-  * Present a researcher's hypothesis or question and set up a search strategy
-* How did the researcher discover and access such data?
-* Evaluate the quality of data
-* Check the terms and conditions of access and reuse
-* Let’s take the scenario above and look for any type of data you are interested about (e.g.‘mouse gut microbiome') in different resources:
-  * You can start by searching in repository catalogues - [Re3data.org](https://www.re3data.org/), [FAIRsharing](https://fairsharing.org/) - for trustworthy subject specific repositories.
-  * You can also try to directly find datasets through a search engine, for e.g., [Dataset Search (google.com)](https://datasetsearch.research.google.com/)
-* In different subject or general repositories consider asking:
-  * Which one provided the most relevant results for your search terms? Which one provides ways to refine your search ( i.e. filters)?
-  * Try to search for more detailed search terms. How did the search results improve?
-  * Is there a citation for your selected data? Are there any differences in citation between these data sources?
-  * Can you find a license for the data?&#x20;
-* What other resources make data more discoverable by linking data repositories to publications?
-  * [Cross-linking between journal publications and data repositories: a selection of examples](https://drive.google.com/file/d/1pcgqoUUlYZ1pNQBMNAteV2amCufRI89W/view?usp=sharing)
-  * Service for data resources: [Europe PMC external links service](http://europepmc.org/LabsLink)
-* Identifying innovative search tools for data discovery: demo on how to find the data behind a publication using[ Europe PMC](https://europepmc.org/), a literature database.
-  * [Finding the data behind the publication with Europe PMC ](https://embl-ebi.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=13c9057b-f24f-44bf-9f3b-abc000f4852e)
-  * [Discovering data using Europe PMC SciLite annotations](https://embl-ebi.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1d696162-ea62-4917-8d41-ac7e016eeba8)
-* Citation, licenses and copyrights help to clarify the “R” in the FAIR principles.
-  * How to understand database conditions and attributes when choosing a repository
-  * [How to license data (openaire.eu)](https://www.openaire.eu/how-do-i-license-my-research-data)
-  * [How to Cite Datasets and Link to Publications | DCC](https://www.dcc.ac.uk/guidance/how-guides/cite-datasets)
+**1.0 Lecture - Repositories as FAIR Enablers:** A brief introduction defining what a repository is (and isn't). The trainer highlights how repositories go beyond simple cloud storage to actively enable metadata indexing, persistent identifiers (PIDs), and long-term preservation.&#x20;
+
+**2.0 The Data Hunting Exercise:** A hands-on scavenger hunt where participants evaluate the findability, metadata quality, and interoperability of real-world datasets across different repository ecosystems.
+
+**3.0 Lecture- Presenting Local Repositories:** The trainer presents examples from local repositories used in the institution (e.g. DataverseNL) and the workflow around them.&#x20;
+
+**4.0 The Silico Short-Cut Exercise:** A case-study simulation comparing traditional laboratory data creation against computer-based (*in silico*) data discovery and reuse to find treatments for a newly emerged pathogen.
+
+**5.0 The Repository Speed Dating:** Match a “Data Profile” to the correct “Repository Type” based on the discovery and reuse principles learned earlier.
+
+
+
+
 
 ***
 
 ## Materials / Equipment
 
-* Internet and browser
-* [https://europepmc.org/](https://europepmc.org/)
+**For the participant**:  A computer or tablet for active research, repository exploration, and group activities.
+
+**For the trainer:** A computer connected to a projector/display to present instructions and visual aids.
 
 ***
 
 ## Take home tasks/preparation
 
-* Hands-on exercise:  Find the data behind a publication of your interest using [Europe PMC](https://europepmc.org/) and answer the questions:
+To cement the training or prepare for an advanced session, participants are asked to complete the following:
+
+* **Hands-on exercise:**  Find the data behind a publication of your interest using [Europe PMC](https://europepmc.org/) and answer the questions:
   * Could you find the data citation in the publication?
   * Is the data linked to a data repository?
   * Could you access the data?
