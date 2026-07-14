@@ -11,25 +11,26 @@ authors:
 reviewers:
   - 0000-0002-5788-2687
 description: >-
-  This topic compares the definitions of the FAIR principles with those of open
-  science, how data benefits from openness and when data per definition cannot
-  be open, and how open data relates to being made publicly available in
-  certified and trusted repositories, supported by local as well as national and
-  international data policies. This interactive, 60-minute workshop bridges the
-  theory of Open Science with its practical, real-world application through a
-  series of hands-on, scenario-based activities. Students begin by analyzing
-  complex datasets to dismantle the common misconception that FAIR and Open data
-  are identical, discovering firsthand how data can be highly structured yet
-  safely restricted. They then tackle the ethical and technical friction points
-  of data sharing—such as the legalities of anonymization and protecting
-  vulnerable populations—before engaging with an active matchmaking exercise
-  where they learn to evaluate and choose appropriate repositories (like
-  DataverseNL or domain-specific archives) for sensitive types of data. Finally,
-  the lesson culminates in a gamified Mentimeter showcase that connects
-  researchers directly with their local institutional support networks,
-  including Data Stewards and Privacy Teams, ensuring they leave the session
-  with the concrete tools and resources needed to manage their own research
-  lifecycles responsibly.
+  This topic introduces participants to the definitions of the FAIR principles
+  with those of open science. The trainer brings forward how data benefits from
+  openness and also highlights that when data per definition cannot be open.
+  Lastly the trainer should also mentioned how open data relates to being made
+  publicly available in certified and trusted repositories, supported by local
+  as well as national and international data policies. This interactive,
+  60-minute workshop bridges the theory of Open Science with its practical,
+  real-world application through a series of hands-on, scenario-based
+  activities. Students begin by analyzing complex datasets to dismantle the
+  common misconception that FAIR and Open data are identical, discovering
+  firsthand how data can be highly structured yet safely restricted. They then
+  tackle the ethical and technical friction points of data sharing—such as the
+  legalities of anonymization and protecting vulnerable populations—before
+  engaging with an active matchmaking exercise where they learn to evaluate and
+  choose appropriate repositories (like DataverseNL or domain-specific archives)
+  for sensitive types of data. Finally, the lesson culminates in a gamified
+  Mentimeter showcase that connects researchers directly with their local
+  institutional support networks, including Data Stewards and Privacy Teams,
+  ensuring they leave the session with the concrete tools and resources needed
+  to manage their own research lifecycles responsibly.
 fair_elements:
   - F
   - A
@@ -162,6 +163,165 @@ additionalResources:
 activities:
   before: []
   during:
+    - learning_outcome: 1
+      activities: |-
+        **Lecture:**&#x20;
+
+        **Introduction to FAIR and Open Science**&#x20;
+
+        Introduce participants to the concepts of FAIR and Open Science&#x20;
+      time: 20 minutes
+      type: Lecture
+      level: beginner
+    - learning_outcome: 1
+      activities: >-
+        **Exercise:**
+
+
+        **Comparison** **between FAIR and Open Data**
+
+
+        &#x20;Students will compare two different scenarios in groups of 3. They
+        will at the end discuss whether it is FAIR or Open Data in the
+        examples.&#x20;
+
+
+        **Time 15 minutes**
+
+
+        **Scenario 1: Patient Trial**&#x20;
+
+
+        A highly structured, machine-readable dataset of clinical trial results.
+        It uses standardized medical vocabulary, possesses a unique DOI (digital
+        footprint identifier), and features detailed metadata. However, because
+        it contains private medical data, researchers must sign a strict privacy
+        agreement to get an encrypted access token.
+
+
+        **Correct Answer:** FAIR but closed
+
+
+        **Scenario 2:**  the Github Treasure&#x20;
+
+
+        A genomics lab uploads a gene-sequencing dataset to a public repository.
+        It has a unique DOI, uses standard FASTA file formatting, includes rich
+        metadata explaining the methodology, and carries an open-use license.
+
+
+        **Correct Answer:** Open and FAIR&#x20;
+
+
+        **Plenary discussion:**&#x20;
+
+
+        **Time 10 minutes**&#x20;
+
+
+        The following questions can be used in the Plenary discussion:&#x20;
+
+
+        * **If Scenario 1 isn't 'Open,' why is it still incredibly valuable for
+        science?** *(This helps them realize that protecting privacy doesn't
+        mean data should be messy or unfindable).*
+
+        * **What would we need to change in Scenario 2 to make it *only* Open,
+        but no longer FAIR?** *(This tests if they can reverse-engineer the
+        concepts—e.g., stripping the metadata and DOI, and dumping the data as a
+        raw, unlabeled text file).*
+      time: 20 minutes
+      type: Group discussion
+      level: beginner
+    - learning_outcome: 3
+      activities: >-
+        **Exercise**
+
+
+        **Identifying Benefits and Challenges of Open Science and FAIR** &#x20;
+
+
+        **Time 10 minutes**
+
+
+        * Put students in pairs. Assign every pair one specific stakeholder from
+        the research world (e.g., Pair A looks at the Individual Researcher,
+        Pair B looks at The Public/Society, Pair C looks at The Scientific
+        Community.
+
+        * Instruct the pairs to write down two things on their sheet or digital
+        board:&#x20;
+
+
+        1. Describe The Benefit: Describe one major reason why Open/FAIR science
+        helps their stakeholder.
+
+        2. Describe The Cost The Challenge: Describe one major roadblock or
+        headache this stakeholder faces when trying to do it.
+
+
+        * Call out each stakeholder group and have one pair rapidly read aloud
+        their descriptions. The instructor notes them on the board to build a
+        collective map.
+      time: 10 minutes
+      type: Open Discussion
+      level: beginner
+    - learning_outcome: 2
+      activities: >-
+        **Lecture:**&#x20;
+
+
+        **Mapping the Open Science and FAIR Institutional Landscape**
+
+
+        Introduce the participants to the Open Science and FAIR support
+        infrastructure in your Institution.&#x20;
+      time: 20 minutes
+      type: Lecture
+      level: beginner
+    - learning_outcome: 2
+      activities: >-
+        **Exercise:**&#x20;
+
+
+        **Identify the right Help-Line**
+
+
+        **Time 15 minutes:**&#x20;
+
+
+        Present in a Mentimeter different catastrophic scenarios for a
+        researcher. Then have the participants choose who they right contact
+        person might be.&#x20;
+
+
+        * **Scenario 1:** *"I am writing a grant proposal and the funder
+        requires a 2-page Data Management Plan (DMP) by next Friday. I don't
+        know where to start."*
+          * **Correct Channel:** ➡️ **Your Central Data Steward at the Faculty or University Hospital** *(They provide DMP templates and review drafts).*
+        * **Scenario 2:** *"I have 600 gigabytes of human neuroimaging data. I
+        know it needs to be FAIR, but I don't know what metadata standard or
+        file repository my specific faculty prefers."*
+          * **Correct Channel:** ➡️ **Your Central Data Steward at the Faculty or University Hospital** *(They are embedded experts who know domain-specific standards).*
+        * **Scenario 3:** *"I want to publish my article Open Access, but the
+        journal is charging an 1800 euro fee. I need to know if our university
+        has an agreement to cover this cost."*
+          * **Correct Channel:** ➡️ **The Library Open Access Team** *(They manage journal publisher deals and funding pots).*
+        * **Scenario 4:** *"My dataset contains highly encrypted personal
+        identification keys. I need a secure server to store it while we analyze
+        it."*
+          * **Correct Channel:** ➡️ **The University or University Hospital Privacy Team** *(They handle secure infrastructure and GDPR storage compliance).*
+      time: '15'
+      type: Open Discussion
+      level: beginner
+    - learning_outcome: 5
+      activities: |-
+        **Lecture:**&#x20;
+
+        **Introduction to Repositories**&#x20;
+      time: 10 minutes
+      type: Lecture
+      level: beginner
     - learning_outcome: 5
       activities: >-
         **Exercise:** **Choosing the right Repository**
@@ -255,134 +415,6 @@ activities:
       time: '20'
       type: Case Study
       level: intermediate
-    - learning_outcome: 1
-      activities: >-
-        **Exercise:**
-
-
-        **Comparison** **between FAIR and Open Data**
-
-
-        &#x20;Students will compare two different scenarios in groups of 3. They
-        will at the end discuss whether it is FAIR or Open Data in the
-        examples.&#x20;
-
-
-        **Time 15 minutes**
-
-
-        **Scenario 1: Patient Trial**&#x20;
-
-
-        A highly structured, machine-readable dataset of clinical trial results.
-        It uses standardized medical vocabulary, possesses a unique DOI (digital
-        footprint identifier), and features detailed metadata. However, because
-        it contains private medical data, researchers must sign a strict privacy
-        agreement to get an encrypted access token.
-
-
-        **Correct Answer:** FAIR but closed
-
-
-        **Scenario 2:**  the Github Treasure&#x20;
-
-
-        A genomics lab uploads a gene-sequencing dataset to a public repository.
-        It has a unique DOI, uses standard FASTA file formatting, includes rich
-        metadata explaining the methodology, and carries an open-use license.
-
-
-        **Correct Answer:** Open and FAIR&#x20;
-
-
-        **Plenary discussion:**&#x20;
-
-
-        **Time 10 minutes**&#x20;
-
-
-        The following questions can be used in the Plenary discussion:&#x20;
-
-
-        * **If Scenario 1 isn't 'Open,' why is it still incredibly valuable for
-        science?** *(This helps them realize that protecting privacy doesn't
-        mean data should be messy or unfindable).*
-
-        * **What would we need to change in Scenario 2 to make it *only* Open,
-        but no longer FAIR?** *(This tests if they can reverse-engineer the
-        concepts—e.g., stripping the metadata and DOI, and dumping the data as a
-        raw, unlabeled text file).*
-      time: 20 minutes
-      type: Group discussion
-      level: beginner
-    - learning_outcome: 2
-      activities: >-
-        **Exercise:**&#x20;
-
-
-        **Identify the right Help-Line**
-
-
-        **Time 15 minutes:**&#x20;
-
-
-        Present in a Mentimeter different catastrophic scenarios for a
-        researcher. Then have the participants choose who they right contact
-        person might be.&#x20;
-
-
-        * **Scenario 1:** *"I am writing a grant proposal and the funder
-        requires a 2-page Data Management Plan (DMP) by next Friday. I don't
-        know where to start."*
-          * **Correct Channel:** ➡️ **Your Central Data Steward at the Faculty or University Hospital** *(They provide DMP templates and review drafts).*
-        * **Scenario 2:** *"I have 600 gigabytes of human neuroimaging data. I
-        know it needs to be FAIR, but I don't know what metadata standard or
-        file repository my specific faculty prefers."*
-          * **Correct Channel:** ➡️ **Your Central Data Steward at the Faculty or University Hospital** *(They are embedded experts who know domain-specific standards).*
-        * **Scenario 3:** *"I want to publish my article Open Access, but the
-        journal is charging an 1800 euro fee. I need to know if our university
-        has an agreement to cover this cost."*
-          * **Correct Channel:** ➡️ **The Library Open Access Team** *(They manage journal publisher deals and funding pots).*
-        * **Scenario 4:** *"My dataset contains highly encrypted personal
-        identification keys. I need a secure server to store it while we analyze
-        it."*
-          * **Correct Channel:** ➡️ **The University or University Hospital Privacy Team** *(They handle secure infrastructure and GDPR storage compliance).*
-      time: '15'
-      type: Open Discussion
-      level: beginner
-    - learning_outcome: 3
-      activities: >-
-        **Exercise**
-
-
-        **Identifying Benefits and Challenges of Open Science and FAIR** &#x20;
-
-
-        **Time 10 minutes**
-
-
-        * Put students in pairs. Assign every pair one specific stakeholder from
-        the research world (e.g., Pair A looks at the Individual Researcher,
-        Pair B looks at The Public/Society, Pair C looks at The Scientific
-        Community.
-
-        * Instruct the pairs to write down two things on their sheet or digital
-        board:&#x20;
-
-
-        1. Describe The Benefit: Describe one major reason why Open/FAIR science
-        helps their stakeholder.
-
-        2. Describe The Cost The Challenge: Describe one major roadblock or
-        headache this stakeholder faces when trying to do it.
-
-
-        * Call out each stakeholder group and have one pair rapidly read aloud
-        their descriptions. The instructor notes them on the board to build a
-        collective map.
-      time: 10 minutes
-      type: Open Discussion
-      level: beginner
     - learning_outcome: 4
       activities: >-
         **Exercise:**&#x20;
