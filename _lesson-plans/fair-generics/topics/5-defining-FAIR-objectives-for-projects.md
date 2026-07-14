@@ -235,6 +235,9 @@ activities:
   during:
     - learning_outcome: 6
       activities: >-
+        **Exercise:**
+
+
         **Filling out a DMP**
 
 
