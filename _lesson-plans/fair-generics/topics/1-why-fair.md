@@ -19,8 +19,8 @@ description: >-
   ## Train-the-Trainer: Why FAIR?
 
 
-  This topic introduces the foundational concepts of the FAIR principles
-  (Findable, Accessible, Interoperable, Reusable). It highlights how
+  This topic introduces participants to the foundational concepts of the FAIR
+  principles (Findable, Accessible, Interoperable, Reusable). It highlights how
   stakeholders, researchers, and the broader community benefit from FAIR
   implementation, while exploring the growing incentives from journals, funding
   bodies, and institutions that tie FAIR compliance to scientific impact. A
@@ -372,7 +372,7 @@ additionalResources:
 
 ### Train-the-Trainer: Why FAIR?
 
-This topic introduces the foundational concepts of the FAIR principles (Findable, Accessible, Interoperable, Reusable). It highlights how stakeholders, researchers, and the broader community benefit from FAIR implementation, while exploring the growing incentives from journals, funding bodies, and institutions that tie FAIR compliance to scientific impact. A fundamental understanding of FAIR and its role across all stages of the research lifecycle is vital for driving successful implementation.
+This topic introduces participants to the foundational concepts of the FAIR principles (Findable, Accessible, Interoperable, Reusable). It highlights how stakeholders, researchers, and the broader community benefit from FAIR implementation, while exploring the growing incentives from journals, funding bodies, and institutions that tie FAIR compliance to scientific impact. A fundamental understanding of FAIR and its role across all stages of the research lifecycle is vital for driving successful implementation.
 
 ## Summary of Tasks and Actions
 
