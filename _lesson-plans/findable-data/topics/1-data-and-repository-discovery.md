@@ -7,6 +7,7 @@ authors:
   - 0000-0001-6675-4639
   - 0000-0002-8611-162X
   - 0000-0003-4768-7180
+  - 0000-0002-7398-0594
 reviewers:
   - 0000-0002-3412-9086
   - 0000-0002-0798-1724
@@ -364,8 +365,9 @@ This lesson plan guides participants to explore data repositories as critical in
 
 The lesson plan is framed around two core philosophies:
 
-1. **The Right to Science:** As stated in Article 27 of the Universal Declaration of Human Rights, "Everyone has the right to... share in scientific advancement and its benefits."
-2. **The Access Spectrum:** The European Commission’s guiding principle, *"as open as possible, as closed as necessary,"* which governs how we balance data discovery and public benefit with ethical, legal, and commercial boundaries.
+**1.0  The Right to Science:** As stated in Article 27 of the Universal Declaration of Human Rights, "Everyone has the right to... share in scientific advancement and its benefits."
+
+**2.0 The Access Spectrum:** The European Commission’s guiding principle, *"as open as possible, as closed as necessary,"* which governs how we balance data discovery and public benefit with ethical, legal, and commercial boundaries.
 
 ***
 
@@ -389,10 +391,6 @@ The lesson plan is framed around two core philosophies:
 **4.0 The Silico Short-Cut Exercise:** A case-study simulation comparing traditional laboratory data creation against computer-based (*in silico*) data discovery and reuse to find treatments for a newly emerged pathogen.
 
 **5.0 The Repository Speed Dating:** Match a “Data Profile” to the correct “Repository Type” based on the discovery and reuse principles learned earlier.
-
-
-
-
 
 ***
 
