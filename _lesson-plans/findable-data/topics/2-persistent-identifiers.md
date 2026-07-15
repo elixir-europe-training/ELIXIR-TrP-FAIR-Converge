@@ -160,12 +160,15 @@ terms4FAIRskills:
         label: >-
           A1. (meta)data are retrievable by their identifier using a
           standardised communications protocol
-description: "This lesson introduces **Persistent Identifiers (PIDs)** and their role in making research outputs more **findable, accessible, and reliably linked** within the research ecosystem. The session situates PIDs within the **FAIR principles**, focusing especially on their importance for the *Findable* principle.\n\nParticipants are introduced to widely used PID systems and explore how these identifiers support discovery, citation, attribution, and interoperability in research workflows.\n\nPersistent identifiers (PIDs) are globally unique and long-lasting references assigned to digital research objects and entities, such as datasets, publications, software, researchers, and organizations.\n\nThis lesson introduces the concept and practical use of PIDs within the context of **FAIR data and Open Science practices**. Using a problem-based scenario, participants examine typical issues that arise when persistent identifiers are missing, for example when datasets cannot be found, links no longer work, or authors cannot be uniquely identified. Participants reflect on how such situations affect research transparency, reproducibility, and reuse.\n\nThe session then introduces commonly used PID systems and demonstrates how they enable reliable identification and linking of research outputs and contributors.\n\nThe lesson follows an **interactive, problem-based learning approach**. It starts with a short scenario illustrating common issues researchers encounter when persistent identifiers are missing, for example:\n\n* When a dataset cited in a publication cannot be found\n* When the same dataset appears under multiple names or locations\_\n* When a dataset link leads to a “404\_ Page Not Found” error.\_\n\nParticipants discuss what may have gone wrong, who is affected by these issues, and how they impact trust, reproducibility, and reuse of research outputs. Building on this discussion, the instructor introduces the concept of PIDs and their role in the FAIR framework. Participants then work in small groups on fictional research cases to identify missing identifiers and determine which PIDs should have been assigned. The session concludes with a short reflection linking PIDs to participants’ own research practices, institutional Open Science policies, and funder requirements."
+description: "## Topic definition and scope:\n\nThis lesson introduces **Persistent Identifiers (PIDs)** and their role in making research outputs more **findable, accessible, and reliably linked** within the research ecosystem. The session situates PIDs within the **FAIR principles**, focusing especially on their importance for the *Findable* principle.\n\nParticipants are introduced to widely used PID systems and explore how these identifiers support discovery, citation, attribution, and interoperability in research workflows.\n\nPersistent identifiers (PIDs) are globally unique and long-lasting references assigned to digital research objects and entities, such as datasets, publications, software, researchers, and organizations.\n\nThis lesson introduces the concept and practical use of PIDs within the context of **FAIR data and Open Science practices**. Using a problem-based scenario, participants examine typical issues that arise when persistent identifiers are missing, for example when datasets cannot be found, links no longer work, or authors cannot be uniquely identified. Participants reflect on how such situations affect research transparency, reproducibility, and reuse.\n\nThe session then introduces commonly used PID systems and demonstrates how they enable reliable identification and linking of research outputs and contributors.\n\nThe lesson follows an **interactive, problem-based learning approach**. It starts with a short scenario illustrating common issues researchers encounter when persistent identifiers are missing, for example:\n\n* When a dataset cited in a publication cannot be found\n* When the same dataset appears under multiple names or locations\_\n* When a dataset link leads to a “404\_ Page Not Found” error.\_\n\nParticipants discuss what may have gone wrong, who is affected by these issues, and how they impact trust, reproducibility, and reuse of research outputs. Building on this discussion, the instructor introduces the concept of PIDs and their role in the FAIR framework. Participants then work in small groups on fictional research cases to identify missing identifiers and determine which PIDs should have been assigned. The session concludes with a short reflection linking PIDs to participants’ own research practices, institutional Open Science policies, and funder requirements."
 activities:
   before: []
   during:
     - learning_outcome: 1
       activities: >-
+        **Exercise:**
+
+
         **Experiencing the issue of missing PID**
 
 
@@ -187,6 +190,9 @@ activities:
       level: beginner
     - learning_outcome: 2
       activities: >-
+        **Lecture:**
+
+
         **Introduction of PIDs within the FAIR framework 1/7**
 
 
@@ -210,6 +216,9 @@ activities:
       level: beginner
     - learning_outcome: 3
       activities: >-
+        **Lecture:**
+
+
         **Introduction of PIDs within the FAIR framework 2/7**
 
 
@@ -233,6 +242,9 @@ activities:
       level: beginner
     - learning_outcome: 4
       activities: >-
+        **Lecture:**
+
+
         **Introduction of PIDs within the FAIR framework 3/7**
 
 
@@ -256,6 +268,9 @@ activities:
       level: beginner
     - learning_outcome: 5
       activities: >-
+        **Lecture:**
+
+
         **Introduction of PIDs within the FAIR framework 4/7**
 
 
@@ -279,6 +294,9 @@ activities:
       level: beginner
     - learning_outcome: 6
       activities: >-
+        **Lecture:**
+
+
         **Introduction of PIDs within the FAIR framework 5/7**
 
 
@@ -302,6 +320,9 @@ activities:
       level: beginner
     - learning_outcome: 7
       activities: >-
+        **Lecture:**&#x20;
+
+
         **Introduction of PIDs within the FAIR framework 6/7**
 
 
@@ -325,6 +346,9 @@ activities:
       level: beginner
     - learning_outcome: 8
       activities: >-
+        **Lecture:**
+
+
         **Introduction of PIDs within the FAIR framework 7/7**
 
 
@@ -349,6 +373,9 @@ activities:
   after:
     - learning_outcome: 9
       activities: >-
+        **Exercise:**
+
+
         **Highlighting how PIDs are connected to their research, OS policies,
         funder requirements, long-term preservation, collaborations with
         partners, etc. 1/2**
@@ -374,6 +401,9 @@ activities:
       level: intermediate
     - learning_outcome: 10
       activities: >-
+        **Exercise:**
+
+
         **Highlighting how PIDs are connected to their research, OS policies,
         funder requirements, long-term preservation, collaborations with
         partners, etc. 2/2**
