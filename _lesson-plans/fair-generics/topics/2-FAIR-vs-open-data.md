@@ -476,10 +476,13 @@ This lesson plan explores the distinct boundaries, intersections, and synergies 
 
 ## Summary of Tasks and Actions
 
-* **1.0 Practical Framework Discussion:** Participants analyze the core concepts to identify the critical differences, overlaps, and misconceptions between FAIR and Open Science.
-* **2.0 Mapping the Local Ecosystem:** A practical exercise where participants learn to identify institutional workflows and locate specific local contacts or support networks for guidance on FAIR and Open Science.
-* **3.0 Navigating Compliance Challenges:** A critical-thinking exercise inviting participants to brainstorm and dissect the real-world barriers researchers face when trying to adopt open practices and FAIR principles.
-* **4.0 Case Study - Selecting the Right Repository:** A hands-on, scenario-based activity. Participants evaluate a realistic research case study—considering data sensitivity and access requirements—and select the most appropriate data repository for publication.
+**1.0 Practical Framework Discussion:** Participants analyze the core concepts to identify the critical differences, overlaps, and misconceptions between FAIR and Open Science.
+
+**2.0 Mapping the Local Ecosystem:** A practical exercise where participants learn to identify institutional workflows and locate specific local contacts or support networks for guidance on FAIR and Open Science.
+
+**3.0 Navigating Compliance Challenges:** A critical-thinking exercise inviting participants to brainstorm and dissect the real-world barriers researchers face when trying to adopt open practices and FAIR principles.
+
+**4.0 Case Study - Selecting the Right Repository:** A hands-on, scenario-based activity. Participants evaluate a realistic research case study—considering data sensitivity and access requirements—and select the most appropriate data repository for publication.
 
 ## Materials and Equipment
 
