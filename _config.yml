@@ -1,6 +1,6 @@
 title: FAIR Lesson Plan Handbook
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-Converge"
+baseurl: "" # served at the root of the custom domain (see CNAME)
+url: "https://plans.fairdata.education"
 
 # Build settings
 remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@3.2.0

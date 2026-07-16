@@ -14,8 +14,16 @@
         {% for activity in include.activities %}
             <div class="activity-item">
                 <div class="activity-info activity-learning-outcome">
-                    {% if activity.learning_outcome %}
-                    {% assign learning_outcome = page.learning_outcomes[activity.learning_outcome] %}
+                    {% comment %} Support the current multi-value `learning_outcomes` list and fall back to the deprecated single `learning_outcome`. {% endcomment %}
+                    {% if activity.learning_outcomes %}
+                        {% assign activity_outcomes = activity.learning_outcomes %}
+                    {% elsif activity.learning_outcome %}
+                        {% assign activity_outcomes = activity.learning_outcome | split: "," %}
+                    {% else %}
+                        {% assign activity_outcomes = "" | split: "," %}
+                    {% endif %}
+                    {% for outcome_id in activity_outcomes %}
+                    {% assign learning_outcome = page.learning_outcomes[outcome_id] %}
                     {% assign associated_verb = learning_outcome.verbs | where: "level", activity.level | first %}
                     {% assign tooltip = associated_verb.verb | append: " " | append: learning_outcome.outcome %}
 
@@ -25,9 +33,9 @@
                         data-bs-placement="top"
                         data-bs-title="{{ tooltip }}"
                     >
-                      {{ activity.learning_outcome }}
+                      {{ outcome_id }}
                     </span>
-                    {% endif %}
+                    {% endfor %}
                 </div>
                 <div class="activity-info activity-activity">
                     {% for activity in activity.activities %}
