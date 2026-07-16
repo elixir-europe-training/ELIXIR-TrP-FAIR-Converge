@@ -344,9 +344,11 @@ activities:
 ---
 ## Topic, definition and scope
 
-This lesson addresses the critical need for rich metadata for research data, where complex datasets require detailed context to be truly useful. It centers on the "Findable" aspect of the FAIR principles, specifically principle F2, which states that data be described with rich metadata. By exploring the significance of these standards, the lesson plan bridges the gap between broad accessibility and the highly specific needs of domain researchers. The core theme is that effective dataset discovery is not accidental; it is the result of intentional, standardized description that allows both humans and machines to locate relevant biological and biomedical data within vast repositories.
+This lesson plan has been created with the aim to educate PhD students and researchers on metadata standards using tangible examples and practical activities. It assumes a low level of prior knowledge regarding metadata but assumes experience in research and familiarity with the FAIR principles. Resources can be provided asynchronous to bring everyone up to the same level. 
 
-In this context, metadata is defined as structured information that describes, explains, locates, or facilitates the retrieval and use of an information resource. The scope of the lesson covers the practical application of metadata from two distinct perspectives: generic standards for broad interoperability and domain-specific standards for granular precision. Participants will learn to assess metadata richness, utilize semantic annotations, and navigate the tools required to create "generous" descriptions. This scope emphasizes that the more comprehensively datasets are described, the more specifically findable they become, allowing for refined searches that go beyond simple keywords to facilitate sophisticated data brokering and machine-actionable validation.
+We recommend starting by building up a theoretical baseline of all participants before giving the opportunity for participants to practice and start working directly with metadata, metadata standards and general concepts. 
+
+Note that many activities can be done as an individual or a group. This can be changed based on what type of session you are giving. Working in pairs or small groups can increase peer-learning and reduce the threshold for asking questions when confused (as these participants can discuss with their peers rather than having to ask the instructor). Working individually can also be advantageous when doing asynchronous work, hybrid or online sessions or with self-paced study.&#x20;
 
 ### **Impact for research**
 
