@@ -5,7 +5,7 @@ status: in_progress
 layout: lesson-plan
 authors:
   - "Pauline l'Henaff"
-  - "Bruna Vieira"
+  - 0000-0001-7893-0505
     
 reviewers:
 
