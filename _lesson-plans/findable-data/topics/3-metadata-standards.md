@@ -151,10 +151,13 @@ activities:
   before:
     - learning_outcome: 1
       activities: >-
-        Activity: Watch or read summary of what metadata is.
+        **Exercise:**&#x20;
 
 
-        Resources
+        **Activity:** Watch or read summary of what metadata is.
+
+
+        **Resources**
 
 
         * [<u>Documentation and metadata from RDM
@@ -164,26 +167,32 @@ activities:
         video</u>](https://www.youtube.com/watch?v=wQ6XNKb2jh8)
 
 
-        Purpose: General background information on what metadata is
+        **Purpose:** General background information on what metadata is
       time: '60'
-      type: individual
+      type: Individual learning
       level: beginner
   during:
     - learning_outcome: 1
       activities: >-
-        Activity: Ask participants what they already know about metadata and if
-        they can form a definition. Can be group discussion or
+        **Exercise:**&#x20;
+
+
+        **Activity:** Ask participants what they already know about metadata and
+        if they can form a definition. Can be group discussion or
         [<u>think-share-pair</u>](https://en.wikipedia.org/wiki/Think-pair-share)
 
 
         Purpose: Get participants to talk to each other (ice-breaker) and gain
         insight on prior knowledge
       time: '10'
-      type: group
+      type: Group Discussion
       level: beginner
     - learning_outcome: 1
       activities: >-
-        Activity: Short lecture covering basics of metadata, including
+        **Lecture:**
+
+
+        **Activity:** Short lecture covering basics of metadata, including
         definition and how it influences findability and relates to FAIR data.
         Show how metadata may be different when it needs to be interpreted by
         computers or humans. (slides to be created).
@@ -193,36 +202,42 @@ activities:
         documentation and description of data
 
 
-        Resources: Slides Interactive [<u>poll for formative
+        **Resources:** Slides Interactive [<u>poll for formative
         assessment</u>](https://quizlet.com/test-questions/metadata-fundamentals-practice-test-14f09c3c-8df2-4e48-91d8-4207140ee08e)
 
 
-        Purpose: Get everyone to same level of knowledge on metadata
+        **Purpose:** Get everyone to same level of knowledge on metadata
       time: '25'
-      type: Individual
+      type: Lecture
       level: beginner
     - learning_outcome: 2
       activities: >-
-        Activity: Short lecture: Provide examples of metadata (standards) used
-        by researchers in different fields (three: biomedical, social sciences
-        and humanities, and science and technology domains) examples of domain
-        specific metadata standards. If domain specific metadata standards don't
-        exist, provide some examples about the development/use of custom
-        metadata.
+        **Lecture:**
 
 
-        Resources: Examples of published data with good (and bad) metadata,
+        **Activity:** Short lecture that Provide examples of metadata
+        (standards) used by researchers in different fields (three: biomedical,
+        social sciences and humanities, and science and technology domains)
+        examples of domain specific metadata standards. If domain specific
+        metadata standards don't exist, provide some examples about the
+        development/use of custom metadata.
+
+
+        **Resources**: Examples of published data with good (and bad) metadata,
         custom metadata fields examples&#x20;
 
 
-        Purpose: Give tangible examples of metadata and how it is used in
+        **Purpose**: Give tangible examples of metadata and how it is used in
         research in different fields
       time: '15'
       type: Individual
       level: beginner
     - learning_outcome: 2
       activities: >-
-        Activity: Personal Data "audit" (Richness & Standards)
+        **Exercise:**
+
+
+        **Activity:** Personal Data "audit" (Richness & Standards)
 
 
         Participants have 10 minutes to write a description of some of their
@@ -242,26 +257,32 @@ activities:
       level: intermediate
     - learning_outcome: 3
       activities: >-
-        Activity: Free Text vs. Controlled Vocabulary. Ask participants how they
-        would describe the sex of a female mouse in a data spreadsheet. Have
-        them write in a shared document (e.g., google doc) or share with the
-        group. Introduce the concept of ontology terms and semantic annotation
-        maps
+        **Exercise:**&#x20;
 
 
-        Resources: Shared doc<u>. </u>[<u>Ontology
+        **Activity:** Free Text vs. Controlled Vocabulary. Ask participants how
+        they would describe the sex of a female mouse in a data spreadsheet.
+        Have them write in a shared document (e.g., google doc) or share with
+        the group. Introduce the concept of ontology terms and semantic
+        annotation maps
+
+
+        **Resources:** Shared doc<u>. </u>[<u>Ontology
         terms</u>](https://www.pgscatalog.org/trait/PATO_0000383/). Participants
         should have their own laptop
 
 
-        Purpose: You will likely get variations like: "female," "F," "Female,"
-        "fem," "doe."
+        **Purpose:** You will likely get variations like: "female," "F,"
+        "Female," "fem," "doe."
       time: '20'
       type: group
       level: intermediate
     - learning_outcome: 2
       activities: >-
-        Activity: The "Mystery Data" Challenge (Motivation & Concept). Send
+        **Exercise:**
+
+
+        **Activity:** The "Mystery Data" Challenge (Motivation & Concept). Send
         participants a messy dataset and ask them to spend 5 minutes guessing
         what it represents.&#x20;
 
@@ -278,15 +299,18 @@ activities:
       type: individual or group
       level: beginner
     - learning_outcome: 3
-      activities: "Activity: Findability scavenger hunt.\_Assign a specific, niche life-sciences query (e.g., \"RNA-seq data for Arabidopsis thaliana under drought stress\"). Get participants to either search for this using google or domain specific repository.\n\nResources: Specialised repository e.g. EBI ArrayExpress or NCBI GEO. Participants should have their own laptop\n\nPurpose: Participants should reflect which method was faster and why (i.e., the repository offered filters/facets based on metadata fields like \"organism\" or \"study type\")"
+      activities: "**Exercise:**&#x20;\n\n**Activity:** Findability scavenger hunt.\_Assign a specific, niche life-sciences query (e.g., \"RNA-seq data for Arabidopsis thaliana under drought stress\"). Get participants to either search for this using google or domain specific repository.\n\n**Resources:** Specialised repository e.g. EBI ArrayExpress or NCBI GEO. Participants should have their own laptop\n\n**Purpose:** Participants should reflect which method was faster and why (i.e., the repository offered filters/facets based on metadata fields like \"organism\" or \"study type\")"
       time: '30'
       type: individual or group
       level: intermediate
     - learning_outcome: 2
       activities: >-
-        Activity: Registry Exploration (Standards Identification). Do a short
-        demo on how to use FAIRsharing and what kind of keywords might be best
-        (starting from specific, moving towards generic). Remind them that
+        **Exercise:**
+
+
+        **Activity:** Registry Exploration (Standards Identification). Do a
+        short demo on how to use FAIRsharing and what kind of keywords might be
+        best (starting from specific, moving towards generic). Remind them that
         keywords are not only scientific fields but also methods and species.
         Get participants to find a relevant metadata standard to their field.
 
@@ -301,15 +325,18 @@ activities:
       level: beginner
     - learning_outcome: 2
       activities: >-
-        Activity: "Facet Filtering Challenge" (Retrieval). Go to a Life Sciences
-        portal (e.g., EBI Search or NCBI Datasets). Challenge: "Find a dataset
-        about Breast Cancer." (Too many results). Refinement: "Now, use metadata
-        filters to narrow it down to: RNA-Seq data, published within the last 2
-        years, involving Homo sapiens." Discuss how structured metadata
-        contributed to easy filtering and searching.&#x20;
+        **Exercise:**
 
 
-        Resources: Participants should have their own laptop. Life sciences
+        **Activity:** "Facet Filtering Challenge" (Retrieval). Go to a Life
+        Sciences portal (e.g., EBI Search or NCBI Datasets). Challenge: "Find a
+        dataset about Breast Cancer." (Too many results). Refinement: "Now, use
+        metadata filters to narrow it down to: RNA-Seq data, published within
+        the last 2 years, involving Homo sapiens." Discuss how structured
+        metadata contributed to easy filtering and searching.&#x20;
+
+
+        **Resources:** Participants should have their own laptop. Life sciences
         portal
       time: '20'
       type: group group
@@ -333,8 +360,6 @@ Findable: Data should be available in a discoverable resource (i.e. repository),
 
 ## **Materials / Equipment**
 
-* Personal computer
-* Internet connection
-* Browser
+**For Participants:** A computer and a stable internet connection (if the training is delivered online or uses cloud-based tools).
 
-##
+**For the Trainer:** A digital collaboration tool (such as Miro or an equivalent virtual whiteboard). For in-person delivery, this can easily be substituted with physical chart paper, sticky notes, and markers.
