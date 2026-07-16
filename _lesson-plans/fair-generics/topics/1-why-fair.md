@@ -103,12 +103,7 @@ learning_outcomes:
         level: expert
 activities:
   before:
-<<<<<<< HEAD
     - learning_outcomes: [1]
-      activities:
-       - Have participants read the FAIR Cookbook's [Introducing the FAIR Principles](https://faircookbook.elixir-europe.org/content/recipes/introduction/brief-FAIR-principles.html) to get an idea of what the FAIR principles entail."
-=======
-    - learning_outcome: 1
       activities: >-
         **Reading**
 
@@ -116,63 +111,11 @@ activities:
         Have participants read the FAIR Cookbook's [Introducing the FAIR
         Principles](https://faircookbook.elixir-europe.org/content/recipes/introduction/brief-FAIR-principles.html)
         to get an idea of what the FAIR principles entail."
->>>>>>> origin/main
       time: 20 min
       type: individual exercise
       level: beginner
   during:
-<<<<<<< HEAD
     - learning_outcomes: [1]
-      activities: Present to participants what each letter in the FAIR acronym means and how they relate to each other
-      time: 15 min
-      type: lecture
-      level: beginner 
-
-    - learning_outcomes: [1]
-      activities: Divide people into pairs and let them explain to each other how they are already making their data FAIR and what is one thing they can easily do to make their data FAIR
-      time: 15 min
-      type: group activity
-      level: beginner 
-  
-    - learning_outcomes: [1]
-      activities: Have participants list what each letter in the FAIR acronym mean, and why these are important for their daily research practices
-      time: 20 min
-      type: individual exercise
-      level: beginner 
-    
-    - learning_outcomes: [1]
-      activities: Have participants present examples of different stakeholders (e.g., researchers, funders, the public) and discuss how each benefits from FAIR principles
-      time: 10 min
-      type: group discussion
-      level: beginner 
-    - learning_outcomes: [2]
-      activities: Have participants provide a list of FAIR data requirements from journals and funding bodies and review them together
-      time: 10 min
-      type: group discussion
-      level: beginner
-
-    - learning_outcomes: [2]
-      activities: In pairs, participants look up sample guidelines from a journal or funder and list how they impact data management practices
-      time: 30 min
-      type: group exercise
-      level: beginner
-
-    - learning_outcomes: [3]
-      activities: Have participants list common issues in research that arise from non-FAIR data practices, such as data loss or inaccessibility
-      time: 10 min
-      type: group discussion
-      level: beginner
-
-    - learning_outcomes: [3]
-      activities: Ask participants to analyse case studies of projects that failed due to non-FAIR practices and discuss the repercussions
-      time: 20 min
-      type: group discussion
-      level: intermediate
-
-    - learning_outcomes: [4]
-      activities: Introduce participants to key changes needed to adopt FAIR principles within a research team, using simple examples
-=======
-    - learning_outcome: 1
       activities: >-
         **Lecture:**
 
@@ -185,7 +128,7 @@ activities:
       time: 30 min
       type: lecture
       level: beginner
-    - learning_outcome: 1
+    - learning_outcomes: [1]
       activities: >-
         **Exercise:**
 
@@ -199,7 +142,7 @@ activities:
       time: 15 min
       type: group activity
       level: beginner
-    - learning_outcome: 1
+    - learning_outcomes: [1]
       activities: >-
         **Exercise:**&#x20;
 
@@ -212,7 +155,7 @@ activities:
       time: 20 min
       type: individual exercise
       level: beginner
-    - learning_outcome: 1
+    - learning_outcomes: [1]
       activities: >-
         **Lecture**:
 
@@ -226,7 +169,7 @@ activities:
       time: 10 min
       type: group discussion
       level: beginner
-    - learning_outcome: 2
+    - learning_outcomes: [2]
       activities: >-
         **Exercise:**
 
@@ -239,7 +182,7 @@ activities:
       time: 10 min
       type: group discussion
       level: beginner
-    - learning_outcome: 2
+    - learning_outcomes: [2]
       activities: >-
         **Exercise:**&#x20;
 
@@ -252,7 +195,7 @@ activities:
       time: 30 min
       type: group exercise
       level: beginner
-    - learning_outcome: 3
+    - learning_outcomes: [3]
       activities: >-
         **Exercise:**&#x20;
 
@@ -265,7 +208,7 @@ activities:
       time: 10 min
       type: group discussion
       level: beginner
-    - learning_outcome: 3
+    - learning_outcomes: [3]
       activities: >-
         **Exercise:**&#x20;
 
@@ -278,62 +221,20 @@ activities:
       time: 20 min
       type: group discussion
       level: intermediate
-    - learning_outcome: 4
+    - learning_outcomes: [4]
       activities: >-
         **Lecture:**
 
 
         Introduce participants to key changes needed to adopt FAIR principles
         within a research team, using simple examples
->>>>>>> origin/main
       time: 10 min
       type: group discussion
       level: beginner
-    - learning_outcome: 4
+    - learning_outcomes: [4]
       activities: >-
         **Exercise:**&#x20;
 
-<<<<<<< HEAD
-    - learning_outcomes: [4]
-      activities: In groups, participants analyse a project scenario and identify specific changes needed to meet FAIR principles, sharing their findings
-      time: 20 min
-      type: group discussion
-      level: intermediate
-
-    - learning_outcomes: [4]
-      activities: Divide participants into groups to identify and share how each stakeholder’s needs align with FAIR principles in a research project
-      time: 20 min
-      type: group discussion
-      level: intermediate
-      
-    - learning_outcomes: [4]
-      activities: Organise a workshop where participants evaluate a real or hypothetical project’s current practices, then develop a detailed action plan to implement the FAIR principles
-      time: 60 min
-      type: workshop
-      level: expert
-
-    - learning_outcomes: [4]
-      activities: Have participants debate the broader societal impact of adopting FAIR principles, considering different stakeholder perspectives
-      time: 30 min
-      type: workshop
-      level: expert
-
-    - learning_outcomes: [4]
-      activities: Create a case study analysis where participants evaluate a project’s adherence to a specific institution's FAIR requirements, suggesting improvements
-      time: 60 min
-      type: case study
-      level: expert
-
-    - learning_outcomes: [4]
-      activities: Facilitate a role-playing scenario where participants present a 'worst-case scenario' impact analysis of ignoring FAIR principles for a research project
-      time: 60 min
-      type: role-playing
-      level: expert
-
-  after:
-    - learning_outcomes: [4]
-      activities: Have participants identify benefits and opportunities to apply FAIR principles in their own project, group and organisation
-=======
 
         **Pre-design a FAIR implementation plan**
 
@@ -344,7 +245,7 @@ activities:
       time: 60 min
       type: workshop
       level: expert
-    - learning_outcome: 4
+    - learning_outcomes: [4]
       activities: >-
         **Exercise:**&#x20;
 
@@ -358,7 +259,7 @@ activities:
       type: workshop
       level: expert
   after:
-    - learning_outcome: 4
+    - learning_outcomes: [4]
       activities: >-
         **Exercise:**&#x20;
 
@@ -368,7 +269,6 @@ activities:
 
         Have participants identify benefits and opportunities to apply FAIR
         principles in their own project, group and organisation
->>>>>>> origin/main
       time: 45 min
       type: individual exercise
       level: intermediate
