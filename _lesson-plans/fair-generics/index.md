@@ -25,9 +25,6 @@ lesson_plans:
     - number: 1.6
       title: Defining FAIR Objectives for Organisations
       link: 'topics/6-FAIR-objectives-for-organisations'
-    - number: 1.7
-      title: Policies and consent
-      link: 'topics/7-policies-and-consent'
 
 ---
 
