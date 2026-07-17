@@ -199,6 +199,8 @@ activities:
       time: '20'
       type: Reading
       level: beginner
+prerequisites:
+  - Have a minimum understanding of the FAIR principles
 ---
 ## Topic, definition and scope
 
