@@ -202,6 +202,8 @@ activities:
 ---
 ## Topic, definition and scope
 
+This lesson plan provides participants with a comprehensive overview of data accessibility, focusing on the distinctions between open and restricted access, the role of data licenses, and the ethical and legal considerations involved. Participants will engage with examples, participate in discussions, and apply their knowledge through interactive activities. The goal is to develop a clear understanding of how data accessibility impacts research and collaborations.&#x20;
+
 **Data accessibility:** is the degree to which data can be easily accessed, understood, and used by authorized users when they need it. It ensures that people can obtain relevant data in a usable format to support reuse.&#x20;
 
 **Data Accessibility:**  In the Life Sciences, data professionals often define it as the processes and ease with which data can be accessed, retrieved, and have a secondary use when authorized by its original participants and owners. This topic encompasses not only the technical access, but also the format, and documentation that allows for distinct levels of access. In the context of the FAIR principles: "Accessible" means that data should be retrievable by their identifier using a standard communications protocol. This protocol should be open, free, and universally implementable. While data access can be regulated (e.g., controlled or registered access), the protocol itself remains open and free.
