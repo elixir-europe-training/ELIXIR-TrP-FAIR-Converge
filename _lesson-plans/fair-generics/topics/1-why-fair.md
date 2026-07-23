@@ -288,25 +288,8 @@ additionalResources:
     author: FAIRsharing
     url: 'https://fairsharing.org/stakeholders'
 ---
-Making research data FAIR (Findable, Accessible, Interoperable, and Reusable) is of great importance in a data-driven world. Knowledge of the FAIR data principles and their practical application is crucial for maximising the value of data and resources, leading to more efficient research and increased knowledge sharing. By knowing of and adopting the FAIR principles, organisations and researchers can reach new levels of data and resource impacts, leading to numerous benefits for both the researcher community and society at large. 
+Making research data FAIR (Findable, Accessible, Interoperable, and Reusable) is of great importance in a data-driven world. Knowledge of the FAIR data principles and their practical application is crucial for maximising the value of data and resources, leading to more efficient research and increased knowledge sharing. By knowing of and adopting the FAIR principles, organisations and researchers can reach new levels of data and resource impacts, leading to numerous benefits for both the researcher community and society at large.
 
 Adopting and embracing the FAIR principles is a vital step towards advancing research and addressing complex challenges in all domains. Journals, institutions, and funding bodies are often requiring that research follows the FAIR principles (e.g., [Horizon Europe](https://horizoneuropencpportal.eu/sites/default/files/2022-09/ore-fair-data-guide.pdf) and [NIH](https://sharing.nih.gov/data-management-and-sharing-policy/data-management#:~:text=NIH%20encourages%20data%20management%20and,repurposing%20datasets%20for%20secondary%20research)).
 
 This lesson plan includes understanding of the importance of the FAIR principles for various stakeholders and the requirements of FAIR data set by journals, institutions, and funding bodies. Additionaly, it explores potential consequences of not applying the FAIR principles and the required changes for FAIR research practices in a project, group or organisation
-
-<!--
----
-
-**Add to reference list**
-References: [FAIRsFAIR lesson plan, slide 1-19](https://zenodo.org/record/5078286), 
-[The FAIR principles explained - Maastricht University](https://www.youtube.com/watch?v=5OeCrQE3HhE), 
-[Make your research data F.A.I.R](https://www.youtube.com/watch?v=kIwHJ6DkFdc), Cessda training, NL, [DCC PO FAIR datamanagement](https://www.youtube.com/watch?v=AL8L0fHgdI0))
-
-Summarise the cost of not having FAIR data - estimated as €10.2bn per year! ([link](https://op.europa.eu/en/publication-detail/-/publication/d375368c-1a0a-11e9-8d04-01aa75ed71a1/language-en))
-
-[FAIRification framework recipe](https://faircookbook.elixir-europe.org/content/recipes/introduction/fairification-process.html) from the FAIR Cookbook
-
-familiarise yourself with FAIRsFAIR's FAIR in a nutshell lesson plan. 
-
----
--->
