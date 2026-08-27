@@ -412,5 +412,5 @@ To cement the training or prepare for an advanced session, participants are aske
   * Could you access the data?
   * Could you understand what the data is about? Is there documentation, for e.g., metadata or/and a README file describing the data?
   * Could you easily find the license for the data of interest?
-  * &#x20;Is the data format interoperable?
+  * Is the data format interoperable?
   * How do you believe the use of FAIR principles contributed for your data discovery?
