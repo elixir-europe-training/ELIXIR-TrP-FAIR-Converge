@@ -9,3 +9,12 @@ institutions:
   - name: Amsterdam UMC
     url: https://www.amsterdamumc.org/en.htm
     image_url: /assets/images/institutions/amsterdamumc.svg
+  - name: LUMC
+    url: https://www.lumc.nl/
+    image_url: /assets/images/institutions/LUMC.svg
+  - name: Maastricht UMC+
+    url: https://www.mumc.nl/
+    image_url: /assets/images/institutions/MUMC.jpg
+  - name: Maastricht University
+    url: https://www.maastrichtuniversity.nl/
+    image_url: /assets/images/institutions/MU.svg

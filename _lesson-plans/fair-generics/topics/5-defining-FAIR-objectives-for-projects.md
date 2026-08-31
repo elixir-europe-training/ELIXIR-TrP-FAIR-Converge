@@ -5,8 +5,8 @@ status: ready_for_review
 layout: lesson-plan
 authors:
   - Pauline l'Henaff
-  - Bruna Vieira
-  - Cesar Bernabe
+  - 0000-0001-7893-0505
+  - 0000-0003-1795-5930
   - 0000-0002-3412-9086
   - 0000-0002-7398-0594
 reviewers:

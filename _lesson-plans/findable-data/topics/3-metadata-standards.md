@@ -1,7 +1,7 @@
 ---
 number: 2.3
 title: Metadata
-status: ready_for_review
+status: published
 layout: lesson-plan
 authors:
   - 0000-0003-1378-5495
@@ -11,18 +11,19 @@ authors:
   - 0000-0002-7398-0594
   - 0000-0003-4475-0164
   - 0000-0002-4385-9312
-  - 'https://orcid.org/0000-0002-2079-6857'
+  - 0000-0002-2079-6857
 reviewers:
   - 0000-0002-3412-9086
   - 0000-0003-4475-0164
   - 0000-0002-0798-1724
+fair_elements:
+  - F
+  - R
 audience:
   - Students
   - Early career researchers
   - Senior researchers
-  - >-
-    Research support staff (e.g. Data Stewards, Librarians, Research Software
-    Engineers)
+  - Research support staff (e.g. Data Stewards, Librarians, Research Software Engineers)
   - Research infrastructure personnel
 learning_outcomes:
   '1':
@@ -118,7 +119,7 @@ additionalResources:
     url: >-
       https://fairsharing.org/search?fairsharingRegistry=Standards&isMaintained=true&page=1&status=ready&subjects=life%2520science&recordType=reporting_guideline
   - title: FAIRsharing’s educational factsheet on standards
-    doi: 'https://doi.org/10.5281/zenodo.8186982'
+    url: 'https://doi.org/10.5281/zenodo.8186982'
   - title: Dataedo Data Cartoon cartoons on e.g. metadata
     url: 'https://dataedo.com/cartoon'
   - title: FAIR4Software
@@ -130,7 +131,7 @@ additionalResources:
   - title: FAIR course ELIXIR Norway
     url: 'https://github.com/elixir-oslo/fair-dm-2022-course'
   - title: The role of metadata in reproducible computational research
-    doi: 'https://doi.org/10.1016/j.patter.2021.100322'
+    url: 'https://doi.org/10.1016/j.patter.2021.100322'
   - title: FAIRsharing
     url: 'https://fairsharing.org/search?fairsharingRegistry=Standard'
   - title: FAIR Cookbook
@@ -348,19 +349,19 @@ This lesson plan has been created with the aim to educate PhD students and resea
 
 We recommend starting by building up a theoretical baseline of all participants before giving the opportunity for participants to practice and start working directly with metadata, metadata standards and general concepts. 
 
-Note that many activities can be done as an individual or a group. This can be changed based on what type of session you are giving. Working in pairs or small groups can increase peer-learning and reduce the threshold for asking questions when confused (as these participants can discuss with their peers rather than having to ask the instructor). Working individually can also be advantageous when doing asynchronous work, hybrid or online sessions or with self-paced study.&#x20;
+Note that many activities can be done as an individual or a group. This can be changed based on what type of session you are giving. Working in pairs or small groups can increase peer-learning and reduce the threshold for asking questions when confused (as these participants can discuss with their peers rather than having to ask the instructor). Working individually can also be advantageous when doing asynchronous work, hybrid or online sessions or with self-paced study.
 
-### **Impact for research**
+### Impact for research
 
 The adoption of high-quality metadata standards significantly enhances the visibility and longevity of research outputs. By mastering these concepts, researchers ensure that their datasets are not only archived but are actively discoverable by search engines and aggregators, preventing data isolation. Rich, semantically annotated metadata enables sophisticated query retrieval and facilitates machine-to-machine communication, allowing software agents to validate and process data without human intervention. Ultimately, this streamlining of data brokering and validation accelerates scientific discovery by making it easier for the global community to find, cite, and build upon existing research.
 
-## **FAIR element(s)**
+## FAIR element(s)
 
 Findable: Data should be available in a discoverable resource (i.e. repository), have appropriate description (i.e. metadata) and have a persistent identifier (PID)
 
 * Data are described with rich metadata
 
-## **Materials / Equipment**
+## Materials / Equipment
 
 **For Participants:** A computer and a stable internet connection (if the training is delivered online or uses cloud-based tools).
 

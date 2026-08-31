@@ -37,9 +37,15 @@ jobs:
           bundle install
 
       - name: Build with Jekyll
-        # Outputs to the './_site' directory by default
+        # Outputs to the './_site' directory by default.
+        # baseurl is intentionally taken from _config.yml ("") — the site is
+        # served at the root of the custom domain (plans.fairdata.education, see
+        # CNAME). Do NOT pass --baseurl "${{ steps.pages.outputs.base_path }}"
+        # here: on the project github.io URL that resolves to
+        # /ELIXIR-TrP-FAIR-Converge and bakes a wrong asset prefix into the HTML,
+        # which 404s when served at the custom-domain root.
         run: |
-          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+          bundle exec jekyll build
         env:
           PAGES_REPO_NWO: ${{ github.repository }}
           JEKYLL_ENV: production

@@ -67,7 +67,7 @@ learning_outcomes:
         level: expert
 activities:
   before:
-    - learning_outcome: 1
+    - learning_outcomes: [1]
       activities: >-
         **Reading**
 
@@ -79,7 +79,7 @@ activities:
       type: individual exercise
       level: beginner
   during:
-    - learning_outcome: 1
+    - learning_outcomes: [1]
       activities: >-
         **Lecture:**
 
@@ -92,7 +92,7 @@ activities:
       time: 30 min
       type: lecture
       level: beginner
-    - learning_outcome: 1
+    - learning_outcomes: [1]
       activities: >-
         **Exercise:**
 
@@ -106,7 +106,7 @@ activities:
       time: 15 min
       type: group activity
       level: beginner
-    - learning_outcome: 1
+    - learning_outcomes: [1]
       activities: >-
         **Exercise:**&#x20;
 
@@ -119,7 +119,7 @@ activities:
       time: 20 min
       type: individual exercise
       level: beginner
-    - learning_outcome: 1
+    - learning_outcomes: [1]
       activities: >-
         **Lecture**:
 
@@ -133,7 +133,7 @@ activities:
       time: 10 min
       type: group discussion
       level: beginner
-    - learning_outcome: 2
+    - learning_outcomes: [2]
       activities: >-
         **Exercise:**
 
@@ -146,7 +146,7 @@ activities:
       time: 10 min
       type: group discussion
       level: beginner
-    - learning_outcome: 2
+    - learning_outcomes: [2]
       activities: >-
         **Exercise:**&#x20;
 
@@ -159,7 +159,7 @@ activities:
       time: 30 min
       type: group exercise
       level: beginner
-    - learning_outcome: 3
+    - learning_outcomes: [3]
       activities: >-
         **Exercise:**&#x20;
 
@@ -172,7 +172,7 @@ activities:
       time: 10 min
       type: group discussion
       level: beginner
-    - learning_outcome: 3
+    - learning_outcomes: [3]
       activities: >-
         **Exercise:**&#x20;
 
@@ -185,7 +185,7 @@ activities:
       time: 20 min
       type: group discussion
       level: intermediate
-    - learning_outcome: 4
+    - learning_outcomes: [4]
       activities: >-
         **Lecture:**
 
@@ -195,7 +195,7 @@ activities:
       time: 10 min
       type: group discussion
       level: beginner
-    - learning_outcome: 4
+    - learning_outcomes: [4]
       activities: >-
         **Exercise:**&#x20;
 
@@ -209,7 +209,7 @@ activities:
       time: 60 min
       type: workshop
       level: expert
-    - learning_outcome: 4
+    - learning_outcomes: [4]
       activities: >-
         **Exercise:**&#x20;
 
@@ -223,7 +223,7 @@ activities:
       type: workshop
       level: expert
   after:
-    - learning_outcome: 4
+    - learning_outcomes: [4]
       activities: >-
         **Exercise:**&#x20;
 

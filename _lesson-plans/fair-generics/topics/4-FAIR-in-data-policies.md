@@ -11,7 +11,7 @@ authors:
   - 0000-0001-9235-8496
 reviewers:
   - 0000-0002-7702-4495
-  - custom-vivas-romero-maria-1783063817373
+  - 0000-0002-7398-0594
 description: >-
   This lesson plan equips trainers to teach the value of standardized
   institutional data policies and the systemic benefits of adopting FAIR
