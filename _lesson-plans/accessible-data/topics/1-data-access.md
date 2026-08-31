@@ -1,7 +1,7 @@
 ---
 number: 3.1
-title: Data Accessibility
-status: draft
+title: Data Access
+status: published
 layout: lesson-plan
 authors:
   - 0000-0002-7702-4495
@@ -20,8 +20,7 @@ audience:
   - Data controllers and processors
   - Data protection officers
   - Anyone who creates DMPs
-  - >-
-    Students and researchers (including PIs) in life sciences working on
+  - Students and researchers (including PIs) in life sciences working on
     personal and sensitive data
 learning_outcomes:
   '1':
@@ -204,19 +203,25 @@ prerequisites:
 ---
 ## Topic, definition and scope
 
-This lesson plan provides participants with a comprehensive overview of data accessibility, focusing on the distinctions between open and restricted access, the role of data licenses, and the ethical and legal considerations involved. Participants will engage with examples, participate in discussions, and apply their knowledge through interactive activities. The goal is to develop a clear understanding of how data accessibility impacts research and collaborations.&#x20;
+This lesson plan provides participants with a comprehensive overview of data accessibility, focusing on the distinctions between open and restricted access, the role of data licenses, and the ethical and legal considerations involved. Participants will engage with examples, participate in discussions, and apply their knowledge through interactive activities. The goal is to develop a clear understanding of how data accessibility impacts research and collaborations.
 
-**Data accessibility:** is the degree to which data can be easily accessed, understood, and used by authorized users when they need it. It ensures that people can obtain relevant data in a usable format to support reuse.&#x20;
+**Data accessibility** is the degree to which data can be easily accessed, understood, and used by authorized users when they need it. It ensures that people can obtain relevant data in a usable format to support reuse.
 
-**Data Accessibility:**  In the Life Sciences, data professionals often define it as the processes and ease with which data can be accessed, retrieved, and have a secondary use when authorized by its original participants and owners. This topic encompasses not only the technical access, but also the format, and documentation that allows for distinct levels of access. In the context of the FAIR principles: "Accessible" means that data should be retrievable by their identifier using a standard communications protocol. This protocol should be open, free, and universally implementable. While data access can be regulated (e.g., controlled or registered access), the protocol itself remains open and free.
+In the Life Sciences, data professionals often define it as the processes and ease with which data can be accessed, retrieved, and have a secondary use when authorized by its original participants and owners. This topic encompasses not only the technical access, but also the format, and documentation that allows for distinct levels of access. In the context of the FAIR principles: "Accessible" means that data should be retrievable by their identifier using a standard communications protocol. This protocol should be open, free, and universally implementable. While data access can be regulated (e.g., controlled or registered access), the protocol itself remains open and free.
 
 ### **Important or key definitions**
 
+**Open Access:**
+Means data is publicly available without requiring registration, approval, or special permissions. Anyone can discover, access, download, and reuse the data, subject only to licence conditions such as attribution. Open access is appropriate when there are no privacy, confidentiality, ethical, or contractual concerns.
+
 **Controlled Access:**
-Refers to the mechanisms for sharing sensitive or personal data, when it has been properly pseudonymized only after a formal application or approval process. This often involves legal agreements (e.g. Data Sharing Agreements, Data Processing Agreements)
+Refers to the mechanisms for sharing sensitive or personal data, when it has been properly pseudonymized or only after a formal application or approval process. This often involves legal agreements (e.g. Data Sharing Agreements, Data Processing Agreements)
 
 **Registered Access:**
-A less restrictive form of controlled access, where users register and agree to specific terms of use, often without individual project-by-project approval but still with a clear record of who is accesing data. An example of this, is request access in a Public Repository like DataverseNL
+A less restrictive form of controlled access, where users register and agree to specific terms of use, often without individual project-by-project approval but still with a clear record of who is accessing example of this, is request access in a Public Repository like DataverseNL
+
+**Restricted access:**
+Often an umbrella term meaning "not open access". Some organizations use it as a synonym for controlled access, while others use it more broadly for any access restrictions.
 
 In this section aims to provide trainers with the foundational understandings of data accessibility, inspired by the FAIR principles and focusing on Life Sciences Data.
 
@@ -253,17 +258,19 @@ In this section aims to provide trainers with the foundational understandings of
 
 ## Materials / Equipment
 
-**Reading materials the participants:**&#x20;
-
-* Registered access: authorizing data access [https://www.nature.com/articles/s41431-018-0219-y](https://www.nature.com/articles/s41431-018-0219-y)
-* Publisher's requirement of data access: [https://www.jlr.org/article/S0022-2275(20)43495-9/fulltext](https://www.jlr.org/article/S0022-2275\(20\)43495-9/fulltext)
-* Data Accesibility and GDPR requirements: Data Privacy Handbook Utrech University [https://utrechtuniversity.github.io/dataprivacyhandbook/](https://utrechtuniversity.github.io/dataprivacyhandbook/)
+  * Personal computer
+  * Internet connection
+  * Browser
 
 ***
 
 ## References
 
-*
+* Dyke, S.O.M., Linden, M., Lappalainen, I., Rambla De Argila, J., Carey, K., Lloyd, D., Spalding, J.D., Cabili, M.N., Kerry, G., Foreman, J., et al. (2018). Registered access: authorizing data access. European Journal of Human Genetics, 26, 1721-1731. Available at: https://www.nature.com/articles/s41431-018-0219-y
+
+* Gierasch, L.M., Davidson, N.O., Rye, K.A., & Burlingame, A.L. (2020). The data must be accessible to all. Journal of Lipid Research, 61(4), 465. Available at: https://www.jlr.org/article/S0022-2275(20)43495-9/fulltext
+
+* Research Data Management Support, Huijser, D., Moopen, N., Flores-Dourojeanni, J., Beltrán, M., de Bruijn, K., de Bruin, J., Capel, D., Dijkstra, F., Einarson, S., Folkers, J., et al. (2025). Data Privacy Handbook. Utrecht University. Available at: https://utrechtuniversity.github.io/dataprivacyhandbook/
 
 ***
 

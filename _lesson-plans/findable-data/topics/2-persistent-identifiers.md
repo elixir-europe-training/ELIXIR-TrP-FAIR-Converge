@@ -1,7 +1,7 @@
 ---
 number: 2.2
 title: 'Persistent Identifiers: Making Research Findable and Connected'
-status: ready_for_review
+status: published
 layout: lesson-plan
 authors:
   - 0000-0002-7702-4495
@@ -15,20 +15,15 @@ authors:
 reviewers:
   - 0000-0002-0798-1724
 fair_elements:
-  - F:
-      - F1
-      - F3
-  - A:
-      - A1
   - F
+  - A
 audience:
   - Developers & curators of resources and tools
   - Journal publishers and organisations with data policies
   - 'Research data facilitators (e.g. data stewards, librarians, trainers)'
   - 'Societies, unions and community alliances'
   - Funders and data policy makers
-  - >-
-    Researchers in academia, industry and government (e.g. PhD candidate,
+  - Researchers in academia, industry and government (e.g. PhD candidate,
     postdoctoral researcher)
 learning_outcomes:
   '1':
@@ -648,23 +643,33 @@ additionalResources:
 
 ## References
 
+* Bobrov, E., et al. (2021). Workshop on Research Data. Berlin University Alliance and ZB MED Information Centre for Life Sciences. Google Slides.
 
+* Cozatl, R., et al. (2021). Workshop on Research Data Management. Martin Luther University of Halle-Wittenberg and ZB MED Information Centre for Life Sciences. Google Slides.
 
-  * Bobrov E. _et al._ 2021-10-07. _Workshop on Research Data_. Berlin University Alliance and ZB MED - Information Centre for Life Sciences. Google Slides.
-  * Cozatl R. _et al. _2021-11. _Workshop on Research Data Management_. Martin Luther University of Halle-Wittenberg and ZB MED - Information Centre for Life Sciences. Google Slides.
-  * [https://support.orcid.org/hc/en-us/articles/360006971013-What-are-persistent-identifiers-PIDs-](https://support.orcid.org/hc/en-us/articles/360006971013-What-are-persistent-identifiers-PIDs-)
-  * [https://pidforum.org/t/persistent-identifier-pid-definition/1502](https://pidforum.org/t/persistent-identifier-pid-definition/1502)
-  * [https://doi.org/10.5438/7z70-1155](https://doi.org/10.5438/7z70-1155)
-  * [https://doi.org/10.5438/j22a-5d79](https://doi.org/10.5438/j22a-5d79)
-  * [https://www.tib.eu/en/publishing-archiving/pid-service](https://www.tib.eu/en/publishing-archiving/pid-service)
-  * [https://doi.org/10.5334/dsj-2020-041](https://doi.org/10.5334/dsj-2020-041)
-  * [https://doi.org/10.5281/zenodo.6674301](https://doi.org/10.5281/zenodo.6674301)
-  * Staiger C. 2019-11-04. _Introduction to persistent identifiers_. DTL. PowerPoint Slides ([https://doi.org/10.5281/zenodo.3539188](https://doi.org/10.5281/zenodo.3539188))
-  * [https://pidforum.org/t/why-use-persistent-identifiers/714](https://pidforum.org/t/why-use-persistent-identifiers/714)
-  * [https://www.raid.org.au/](https://www.raid.org.au/)
-  * [23 identifier schemas](https://fairsharing.org/search?fairsharingRegistry=Standard&recordType=identifier_schema&page=1) registered within FAIRsharing - let us know if any are missing!
-  * FAIRsharing’s educational factsheet about standards
+* ORCID. What are persistent identifiers (PIDs)? Available at: https://support.orcid.org/hc/en-us/articles/360006971013-What-are-persistent-identifiers-PIDs-
 
+* Persistent Identifier Communities Forum. Persistent Identifier (PID) Definition. Available at: https://pidforum.org/t/persistent-identifier-pid-definition/1502
+
+* DataCite Metadata Working Group. DataCite Metadata Schema Documentation. Available at: https://doi.org/10.5438/7z70-1155
+
+* Fenner, M., & Aryani, A. Connecting Research: ORCID, DOI and other Persistent Identifiers. Available at: https://doi.org/10.5438/j22a-5d79
+
+* Technische Informationsbibliothek (TIB). PID services. Available at: https://www.tib.eu/en/publishing-archiving/pid-service
+
+* Fenner, M., et al. (2020). A data citation roadmap for scholarly data repositories. Data Science Journal. Available at: https://doi.org/10.5334/dsj-2020-041
+
+* GO FAIR Foundation. Persistent Identifiers for FAIR Digital Objects. Available at: https://doi.org/10.5281/zenodo.6674301
+
+* Staiger, C. (2019). Introduction to Persistent Identifiers. DTL. PowerPoint Slides. Available at: https://doi.org/10.5281/zenodo.3539188
+
+* Persistent Identifier Communities Forum. Why use persistent identifiers? Available at: https://pidforum.org/t/why-use-persistent-identifiers/714
+
+* RAiD. Research Activity Identifier (RAiD). Available at: https://www.raid.org.au/
+
+* FAIRsharing. Identifier Schemas Registry. Available at: https://fairsharing.org/search?fairsharingRegistry=Standard&recordType=identifier_schema&page=1
+
+* FAIRsharing. Educational Factsheet on Standards. Available at: https://fairsharing.org/
 
 ---
 
