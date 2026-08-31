@@ -112,28 +112,109 @@ activities:
       type: Follow up reading Exercise
       level: beginner
     - learning_outcome: 2
-      activities: |-
+      activities: >-
         **Lecture:**&#x20;
+
 
         **(Work in Progress)**
 
-        1.0 Define Data Licensing&#x20;
 
-        2.0 Creative Commons Licenses&#x20;
+        **1.0 Define Data Licensing**&#x20;
 
-        2.1 Permission Levels&#x20;
 
-        2.3 Dedicating your Work to the Public with CCO
+        The teacher would explain Data Licensing to his/her participants:
 
-        3.0 Open Data Commons
 
-        3.1 The Attribution or ODC-BY License&#x20;
+        When research data is uploaded to a public repository (e.g., Zenodo,
+        Figshare, Dryad, or an institutional data repository), making it
+        **publicly accessible** does not automatically make it **legally
+        reusable**.
 
-        3.3 The Open Database License or ODbL&#x20;
 
-        4.0 A note on the differences between CC and ODC Licenses
+        Without an explicit license, the default legal status of publicly
+        accessible data in most legal jurisdictions is **"All Rights
+        Reserved."** Under this default state, third parties are technically
+        prohibited from copying, distributing, modifying, aggregating, or
+        building upon the dataset, regardless of the creator's intention to
+        share it openly.
 
-        5.0 Other Licensing options&#x20;
+
+        A **Data License** is a legal instrument—a standardized contract or
+        waiver—that explicitly defines the rights, terms, conditions, and
+        restrictions governing **what others can and cannot do** with a dataset
+        once it is made accessible.
+
+
+        **2.0 Creative Commons Licenses**&#x20;
+
+
+        The teacher will do a Deep dive on Creative Common Licences. This should
+        include an explanation on the following &#x20;
+
+
+        * CC0 (Public Domain Dedication): The Gold Standard for raw data and
+        metadata (minimizes attribution stacking)
+
+        * C BY 4.0: Open with attribution; standard for papers and curated
+        datasets.
+
+        * The Pitfalls of CC-NC (Non-Commercial) & CC-ND (No-Derivatives):
+        Explain why NC hinders AI/ML research and commercial translation, and
+        how ND breaks data integration pipelines.
+
+        * Open Data Commons: PDDL, ODC-By, ODbL (specifically tailored for
+        databases).
+
+
+        **2.1 Permission Levels**&#x20;
+
+
+        Explain to participants level of permissions that could be allowed by a
+        Creative Commons data license which can be understood by its name. This
+        name is often a combination of two-letter "permission marks". The only
+        exception to this naming is the scheme giving to CC0, which are
+        explained in the Public with CC0 license.
+
+
+        | Permission Mark | What can I do with the
+        data?                               |
+
+        | --------------- |
+        ---------------------------------------------------------- |
+
+        | BY              | Creator must be
+        credited                                   |
+
+        | SA              | Derivatives or redistributions must have identical
+        license |
+
+        | NC              | Only non-commerical uses are
+        allowed                       |
+
+        | ND              | No derivatives are
+        allowed                                 |
+
+
+        As an example when combining CC BY-ND license specifies that users must
+        credit the creator of the data and cannot create are derivatives.&#x20;
+
+
+        **2.3 Dedicating your Work to the Public with CC0**
+
+
+        **3.0 Open Data Commons**
+
+
+        **3.1 The Attribution or ODC-BY License**&#x20;
+
+
+        **3.3 The Open Database License or ODbL**&#x20;
+
+
+        **4.0 A note on the differences between CC and ODC Licenses**
+
+
+        **5.0 Other Licensing options**&#x20;
       time: '30 minutes '
       type: Lecture
       level: beginner
