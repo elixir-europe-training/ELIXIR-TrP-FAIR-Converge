@@ -464,13 +464,11 @@ This lesson plan explores the distinct boundaries, intersections, and synergies 
 
 2.0 Navigate Ethical & Technical Sharing Boundaries: Analyze data-sharing friction points—such as participant privacy, anonymization, and vulnerable populations—to determine when and how sensitive data can be shared safely.
 
-3.0\*\*\*\* Select Suitable Repositories & Institutional Support:\*\*\*\* Evaluate and select appropriate domain-specific or institutional repositories (e.g., DataverseNL) for distinct data types while leveraging local data steward and privacy networks.
+3.0Select Suitable Repositories & Institutional Support:\*\*\*\* Evaluate and select appropriate domain-specific or institutional repositories (e.g., DataverseNL) for distinct data types while leveraging local data steward and privacy networks.
 
 **Citation and Attribution**&#x20;
 
 FOSTER. (2018). *Open Science Training Handbook: Readme*. GitBook.[https://open-science-training-handbook.gitbook.io/book](https://open-science-training-handbook.gitbook.io/book)
-
-
 
 ## Core Topics Covered
 
