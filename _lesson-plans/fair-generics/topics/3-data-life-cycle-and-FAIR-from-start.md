@@ -136,6 +136,30 @@ activities:
   during:
     - learning_outcome: 2
       activities: >-
+        **Lecture**
+
+
+        For the teaching of the following sections the teacher can make use of
+        the FAIR Metroline Resources:
+
+
+        [Define FAIRification objectives | FAIR
+        Metroline](https://fairmetroline.org/metroline_steps/define_fairification_objectives)&#x20;
+
+
+        1.0 Define the FAIR principles
+
+
+        2.0 Explain the stages of the data life cycle&#x20;
+
+
+        3.0 Define the stages of the data life cycle inside the institution
+        where the training is provided&#x20;
+      time: 30 minutes
+      type: Lecture
+      level: beginner
+    - learning_outcome: 2
+      activities: >-
         **Exercise:**
 
 
@@ -152,7 +176,8 @@ activities:
         Share the link to your electronic whiteboard board.
 
 
-        * **Individual Sticky Note Brainstorm:**
+        **Individual Sticky Note Brainstorm:**
+
 
         * **5 minutes.**
 
@@ -162,7 +187,8 @@ activities:
         specific tasks, tools, or data types they use.
 
 
-        * **The Collaborative Sort (Column Dragging):**
+        **The Collaborative Sort (Column Dragging):**
+
 
         * **7 minutes.**
 
@@ -172,7 +198,8 @@ activities:
         "Analysis" versus "Archival."
 
 
-        * **The Group Synthesis:**
+        **The Group Synthesis:**
+
 
         * **5 minutes.**
 
@@ -182,6 +209,10 @@ activities:
       time: 20 minutes
       type: Open Discussion
       level: beginner
+additionalResources:
+  - title: 'Define FAIRfication objectives '
+    url: 'https://fairmetroline.org/metroline_steps/define_fairification_objectives'
+    author: FAIR Metroline Health-RI
 ---
 ## Topic, definition and scope
 
@@ -202,7 +233,8 @@ This topic introduces the research data life cycle, breaking down each phase alo
 **For Participants:** A computer or tablet with a stable internet connection (essential for online delivery or for accessing cloud-based collaborative tools).
 
 **For the Trainer:**- *Virtual Delivery:* Access to a digital collaboration platform (e.g., Miro or an equivalent online whiteboard).
-- *In-Person Delivery:* A physical whiteboard or chart paper, sticky notes, and markers.
+
+* *In-Person Delivery:* A physical whiteboard or chart paper, sticky notes, and markers.
 
 ***
 
