@@ -13,6 +13,9 @@ reviewers:
   - 0000-0002-7702-4495
   - 0000-0002-7398-0594
 description: >-
+  **Overview:**
+
+
   This lesson plan equips trainers to teach the value of standardized
   institutional data policies and the systemic benefits of adopting FAIR
   principles. Designed for the Health and Life Sciences domain, the module
@@ -21,6 +24,30 @@ description: >-
   features a real-world case study from the Faculty of Health, Medicine, and
   Life Sciences at Maastricht University, providing trainers with concrete
   examples to facilitate discussion and active learning.
+
+
+  **Key Learning Outcomes:**&#x20;
+
+
+  1. **Explain the Systemic Impact of FAIR Policies:** Articulate the
+  scientific, legal, and institutional benefits of standardized data policies
+  and FAIR principles within the Health and Life Sciences domain.
+
+  2. **Guide the Creation of FAIR & Open Science Plans:** Instruct researchers
+  step-by-step on how to draft and configure practical, domain-tailored FAIR &
+  Open Science Plans for their projects.
+
+  3. **Facilitate Case-Based Active Learning:** Utilize real-world institutional
+  benchmarks—such as the Maastricht University FHML case study—to lead
+  interactive discussions and practical exercises on policy adoption.
+
+
+  **Citation & Attribution**&#x20;
+
+
+  FAIR Metroline. (n.d.). *Define FAIRification objectives*. Retrieved September
+  1, 2026,
+  from[https://fairmetroline.org/metroline\_steps/define\_fairification\_objectives](https://fairmetroline.org/metroline_steps/define_fairification_objectives)
 fair_elements:
   - F
   - A
@@ -285,11 +312,9 @@ prerequisites:
     regarding health and life science data is highly recommended, as the session
     focuses on policy implementation rather than introductory data theory.
 ---
-## Topic Definition and Scope
+## Overview:&#x20;
 
-### Train-the-Trainer: Institutional Policy Frameworks and FAIR Data Management
-
-This module shifts the perspective from individual researchers to the institutional level, exploring how research data policies drive systemic change. It addresses the strategic benefits of institutional FAIR data management and provides concrete steps for implementing and adopting these principles across higher education networks.
+This lesson plan equips trainers to teach the value of standardized institutional data policies and the systemic benefits of adopting FAIR principles. Designed for the Health and Life Sciences domain, the module guides trainers through instructing others on how to write and configure a practical FAIR & Open Science Plan. To ground these concepts, the lesson features a real-world case study from the Faculty of Health, Medicine, and Life Sciences at Maastricht University, providing trainers with concrete examples to facilitate discussion and active learning.
 
 ## Summary of Tasks and Actions
 
