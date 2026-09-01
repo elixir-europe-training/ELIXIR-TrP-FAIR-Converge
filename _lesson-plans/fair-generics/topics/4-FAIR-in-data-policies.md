@@ -13,10 +13,7 @@ reviewers:
   - 0000-0002-7702-4495
   - 0000-0002-7398-0594
 description: >-
-  **Overview:**
-
-
-  This lesson plan equips trainers to teach the value of standardized
+  Overview: This lesson plan equips trainers to teach the value of standardized
   institutional data policies and the systemic benefits of adopting FAIR
   principles. Designed for the Health and Life Sciences domain, the module
   guides trainers through instructing others on how to write and configure a
@@ -24,30 +21,6 @@ description: >-
   features a real-world case study from the Faculty of Health, Medicine, and
   Life Sciences at Maastricht University, providing trainers with concrete
   examples to facilitate discussion and active learning.
-
-
-  **Key Learning Outcomes:**&#x20;
-
-
-  1. **Explain the Systemic Impact of FAIR Policies:** Articulate the
-  scientific, legal, and institutional benefits of standardized data policies
-  and FAIR principles within the Health and Life Sciences domain.
-
-  2. **Guide the Creation of FAIR & Open Science Plans:** Instruct researchers
-  step-by-step on how to draft and configure practical, domain-tailored FAIR &
-  Open Science Plans for their projects.
-
-  3. **Facilitate Case-Based Active Learning:** Utilize real-world institutional
-  benchmarks—such as the Maastricht University FHML case study—to lead
-  interactive discussions and practical exercises on policy adoption.
-
-
-  **Citation & Attribution**&#x20;
-
-
-  FAIR Metroline. (n.d.). *Define FAIRification objectives*. Retrieved September
-  1, 2026,
-  from[https://fairmetroline.org/metroline\_steps/define\_fairification\_objectives](https://fairmetroline.org/metroline_steps/define_fairification_objectives)
 fair_elements:
   - F
   - A
@@ -316,6 +289,16 @@ prerequisites:
 
 This lesson plan equips trainers to teach the value of standardized institutional data policies and the systemic benefits of adopting FAIR principles. Designed for the Health and Life Sciences domain, the module guides trainers through instructing others on how to write and configure a practical FAIR & Open Science Plan. To ground these concepts, the lesson features a real-world case study from the Faculty of Health, Medicine, and Life Sciences at Maastricht University, providing trainers with concrete examples to facilitate discussion and active learning.
 
+## **Key Learning Outcomes:**&#x20;
+
+1. Explain the Systemic Impact of FAIR Policies: Articulate the scientific, legal, and institutional benefits of standardized data policies and FAIR principles within the Health and Life Sciences domain.
+2. Guide the Creation of FAIR & Open Science Plans: Instruct researchers step-by-step on how to draft and configure practical, domain-tailored FAIR & Open Science Plans for their projects.
+3. Facilitate Case-Based Active Learning: Utilize real-world institutional benchmarks—such as the Maastricht University FHML case study—to lead interactive discussions and practical exercises on policy adoption.
+
+## **Citation & Attribution**&#x20;
+
+FAIR Metroline. (n.d.). *Define FAIRification objectives*. Retrieved September 1, 2026, from[https://fairmetroline.org/metroline\_steps/define\_fairification\_objectives](https://fairmetroline.org/metroline_steps/define_fairification_objectives)
+
 ## Summary of Tasks and Actions
 
 **1.0 Lecture - Introduction to Research Data Policies:** A brief presentation introducing institutional data policies, detailing why they are critical for securing compliance, funding eligibility, and institutional prestige.
@@ -343,3 +326,7 @@ To cement the training or prepare for an advanced session, participants are aske
 * **For the Trainer:**
   * *Virtual Delivery:* An online interactive whiteboard (e.g., Miro) to map stakeholders and track policy exercises.
   * *In-Person Delivery:* A projector/display for lectures, accompanied by physical chart paper, sticky notes, and markers for group work.
+
+## Take Home Message:&#x20;
+
+Standardized FAIR policies transform data management from an administrative burden into a strategic asset—enabling researchers to build practical, compliant Open Science Plans grounded in real-world institutional practice.
