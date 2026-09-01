@@ -156,12 +156,17 @@ activities:
         **Lecture**&#x20;
 
 
-        **Target Audience:** Researchers, Data Stewards, Postgraduate Students
+        **Target Audience:**&#x20;
 
 
-        **Instructor Goal:** Walk participants through data licensing choices
-        without drowning them in legal jargon. Focus on practical research
-        impacts.
+        Researchers, Data Stewards, Postgraduate Students
+
+
+        **Instructor Goal:**&#x20;
+
+
+        Walk participants through data licensing choices without drowning them
+        in legal jargon. Focus on practical research impacts.
 
 
         ### Section 1: Setting the Hook — Public Accessibility vs. Legal
@@ -174,8 +179,8 @@ activities:
         > "Before we dive into the licenses themselves, we need to clear up a
         massive myth in open research. Many researchers think that if they
         upload a dataset to Zenodo, Figshare, or an institutional repository,
-        it’s automatically 'open' for anyone to use. **That is legally
-        incorrect.**In most legal jurisdictions, if you post a dataset online
+        it’s automatically 'open' for anyone to use. \*\*That is legally
+        incorrect.\*\*In most legal jurisdictions, if you post a dataset online
         without an explicit license attached, the default legal status is **'All
         Rights Reserved.'** That means even if your *intention* was to share it
         openly, another scientist cannot legally copy, modify, combine, or build
@@ -188,9 +193,11 @@ activities:
         ### Section 2: Creative Commons (CC) Framework
 
 
-        **Instructor Note:** Start with the permission building blocks before
-        showing full licenses. It keeps students from feeling overwhelmed by
-        acronyms.
+        **Instructor Note:**
+
+
+        &#x20;Start with the permission building blocks before showing full
+        licenses. It keeps students from feeling overwhelmed by acronyms.
 
 
         #### 2.1 Breaking Down the Permission Marks
@@ -231,9 +238,11 @@ activities:
         #### 2.3 Warning Your Students About NC and ND
 
 
-        **Instructor Note:** Spend extra time here! Researchers often
-        instinctively choose NC or ND without realizing how destructive they are
-        to open science.
+        **Instructor Note:**
+
+
+        &#x20;Spend extra time here! Researchers often instinctively choose NC
+        or ND without realizing how destructive they are to open science.
 
 
         > **Why warn against CC-NC (Non-Commercial)?**"Researchers choose NC
@@ -252,8 +261,11 @@ activities:
         ### Section 3: Open Data Commons (ODC)
 
 
-        **Instructor Transition:** "Now, why do we need Open Data Commons if we
-        already have Creative Commons?"
+        **Instructor Transition:**&#x20;
+
+
+        "Now, why do we need Open Data Commons if we already have Creative
+        Commons?"
 
 
         **What to explain to your class:**
