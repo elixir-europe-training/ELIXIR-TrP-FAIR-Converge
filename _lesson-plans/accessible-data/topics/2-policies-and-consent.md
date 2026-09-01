@@ -9,10 +9,7 @@ authors:
   - 0000-0002-7398-0594
 reviewers: null
 description: >-
-  **Overview**
-
-
-  &#x20;Just like any other form of intellectual property, research data
+  Overview: Just like any other form of intellectual property, research data
   requires a license to define how individuals and automated tools can legally
   access, modify, and reuse it. This lesson equips participants with a practical
   understanding of data licensing frameworks, enabling them to confidently
@@ -33,32 +30,7 @@ description: >-
   licensing terms.
 
 
-  ### Key Learning Outcomes
-
-
-  By the end of this session, participants will be able to:
-
-
-  1. Explain why publicly accessible data still requires explicit legal
-  licensing.
-
-  2. Differentiate between core Creative Commons (CC) and Open Data Commons
-  (ODC) licenses.
-
-  3. Identify the potential pitfalls of restrictive license clauses (e.g.,
-  Non-Commercial, No-Derivatives) on open science and automated workflows.
-
-  4. Collaborate effectively with institutional Data Stewards to apply the
-  appropriate license to their research outputs.
-
-
-  ### Citation & Attribution
-
-
-  > The Turing Way Community, Becky Arnold, Louise Bowler, Sarah Gibson,
-  Patricia Herterich, Rosie Higman, … Kirstie Whitaker. (2019, March 25). *The
-  Turing Way: A Handbook for Reproducible Data Science* (Version v0.0.4).
-  Zenodo.[https://doi.org/10.5281/zenodo.3233986](https://www.google.com/search?q=https://doi.org/10.5281/zenodo.3233986)
+  ###
 fair_elements:
   - A
   - R
@@ -368,7 +340,7 @@ prerequisites:
     Complete the assigned reading on Data Licensing prior to class to prepare
     for the opening discussion.
 ---
-**Overview**
+## **Overview**
 
 &#x20;Just like any other form of intellectual property, research data requires a license to define how individuals and automated tools can legally access, modify, and reuse it. This lesson equips participants with a practical understanding of data licensing frameworks, enabling them to confidently select an appropriate license for their own datasets or communicate effectively with Data Stewards and information professionals.
 
@@ -378,7 +350,7 @@ Grounded in the open research principles established by ***The Turing Way*** com
 * **Redistribution & Modification:** Granting permissions to adapt, reformat, or share work.
 * **Share-Alike Conditions:** Requiring derivative works to maintain the same licensing terms.
 
-### Key Learning Outcomes
+## Key Learning Outcomes
 
 By the end of this session, participants will be able to:
 
@@ -387,6 +359,18 @@ By the end of this session, participants will be able to:
 3. Identify the potential pitfalls of restrictive license clauses (e.g., Non-Commercial, No-Derivatives) on open science and automated workflows.
 4. Collaborate effectively with institutional Data Stewards to apply the appropriate license to their research outputs.
 
-### Citation & Attribution
+## Citation & Attribution
 
 > The Turing Way Community, Becky Arnold, Louise Bowler, Sarah Gibson, Patricia Herterich, Rosie Higman, … Kirstie Whitaker. (2019, March 25). *The Turing Way: A Handbook for Reproducible Data Science* (Version v0.0.4). Zenodo.[https://doi.org/10.5281/zenodo.3233986](https://www.google.com/search?q=https://doi.org/10.5281/zenodo.3233986)
+
+
+
+## Summary of Tasks and Actions
+
+
+
+## Materials and Equipments&#x20;
+
+## Take Home Message &#x20;
+
+##
