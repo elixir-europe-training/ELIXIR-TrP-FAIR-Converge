@@ -11,10 +11,10 @@ authors:
   - 0000-0002-5042-8481
   - 0000-0002-7398-0594
 reviewers: null
-description: >
-  The topic aims at increasing the understanding of how the different stages of
-  the data lifecycle relate to the FAIR principles, with the ultimate goal of
-  making data FAIR by design. 
+description: >-
+  Overview: The topic aims at increasing the understanding of how the different
+  stages of the data lifecycle relate to the FAIR principles, with the ultimate
+  goal of making data FAIR by design.
 fair_elements:
   - F
   - A
@@ -214,11 +214,26 @@ additionalResources:
     url: 'https://fairmetroline.org/metroline_steps/define_fairification_objectives'
     author: FAIR Metroline Health-RI
 ---
-## Topic, definition and scope
-
-### Train-the-Trainer: Data Life-Cycle and FAIR from start&#x20;
+**Overview:**&#x20;
 
 This topic introduces the research data life cycle, breaking down each phase alongside the practical best practices required to embed FAIR principles from day one. By fostering deep awareness of these cyclical processes, this lesson equips trainers to help researchers plan proactively, engage with the appropriate institutional infrastructures early, and ultimately ensure their research data is "FAIR by design" rather than as an afterthought.
+
+
+
+**Key Learning Outcomes:**&#x20;
+
+1. Map FAIR Practices to the Research Lifecycle: Identify key data-management activities across every stage of the research lifecycle to embed FAIR principles from project inception rather than retrofitting them at publication.
+2. Integrate Institutional Infrastructures Early: Utilize appropriate local data management, storage, privacy, and repository infrastructures at the necessary phases of the research workflow.
+3. Guide "FAIR by Design" Data Planning: Instruct researchers on how to build proactive, domain-appropriate Data Management Plans (DMPs) that ensure long-term data Findability, Accessibility, Interoperability, and Reusability.
+
+
+
+**Citations and Attributions:**&#x20;
+
+* University of Virginia Library. (n.d.). *Research data management*. Library Guides. Retrieved September 1, 2026, from[https://guides.lib.virginia.edu/c.php?g\=515290\&p\=3522215](https://guides.lib.virginia.edu/c.php?g=515290\&p=3522215)
+* FOSTER Open Science. (n.d.). *Data life cycle + Open Science principles* \[Google Slides presentation]. Retrieved September 1, 2026, from[https://docs.google.com/presentation/d/1SZ6ADqTNp\_GBT3UT-JAsH-6zKfAWab\_1xMOSxZhdZvw/edit?usp\=sharing](https://docs.google.com/presentation/d/1SZ6ADqTNp_GBT3UT-JAsH-6zKfAWab_1xMOSxZhdZvw/edit?usp=sharing)
+* UK Data Service. (n.d.). *Research data management*. Learning Hub. Retrieved September 1, 2026, from[https://ukdataservice.ac.uk/learning-hub/research-data-management/](https://ukdataservice.ac.uk/learning-hub/research-data-management/)
+* ELIXIR Europe. (n.d.). *RDMkit: Research Data Management toolkit*. Retrieved September 1, 2026, from[https://rdmkit.elixir-europe.org/](https://rdmkit.elixir-europe.org/)
 
 ***
 
@@ -238,26 +253,7 @@ This topic introduces the research data life cycle, breaking down each phase alo
 
 ***
 
-## References
-
-* Research data management (University of Virginia): [https://guides.lib.virginia.edu/c.php?g\=515290\&p\=3522215](https://guides.lib.virginia.edu/c.php?g=515290\&p=3522215)
-* FOSTER data life cycle +Open Science principles:[https://docs.google.com/presentation/d/1SZ6ADqTNp\_GBT3UT-JAsH-6zKfAWab\_1xMOSxZhdZvw/edit?usp\=sharing](https://docs.google.com/presentation/d/1SZ6ADqTNp_GBT3UT-JAsH-6zKfAWab_1xMOSxZhdZvw/edit?usp=sharing)
-* Research data management (UK Data service): [https://ukdataservice.ac.uk/learning-hub/research-data-management/](https://ukdataservice.ac.uk/learning-hub/research-data-management/)
-* The FAIRplus Dataset Maturity (DSM) Model: [https://fairplus.github.io/Data-Maturity/](https://fairplus.github.io/Data-Maturity/)
-* The FAIR Data Maturity Model:
-  [https://datascience.codata.org/articles/10.5334/dsj-2020-041/](https://datascience.codata.org/articles/10.5334/dsj-2020-041/)
-* Games:
-  * [Welcome to League of Data | League of Data (sshopencloud.eu)](https://lod.sshopencloud.eu/)
-  * [UZH - Open Science - Open Science Game: Open Up Your Research](https://www.openscience.uzh.ch/en/moreopenscience/game.html)
-  * [Data Horror Escape Room](https://sites.google.com/vu.nl/datahorror/home)
-* RDM toolkit:
-  [https://rdmkit.elixir-europe.org/](https://rdmkit.elixir-europe.org/)
-* FAIR Cookbook: [https://doi.org/10.1038/s41597-023-02166-3](https://doi.org/10.1038/s41597-023-02166-3) and [https://faircookbook.elixir-europe.org/content/home.html](https://faircookbook.elixir-europe.org/content/home.html)
-* FAIR in Action: a flexible framework to guide FAIRification - [https://doi.org/10.1038/s41597-023-02167-2](https://doi.org/10.1038/s41597-023-02167-2)
-* Implementation of FAIR:
-  [https://www.fairsfair.eu/implementation-adoption-stories](https://www.fairsfair.eu/implementation-adoption-stories)
-* FAIR principles explained
-  [https://www.go-fair.org/fair-principles/](https://www.go-fair.org/fair-principles/)
+##
 
 ***
 
