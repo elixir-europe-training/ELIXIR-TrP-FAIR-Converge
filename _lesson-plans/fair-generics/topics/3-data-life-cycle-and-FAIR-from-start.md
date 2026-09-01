@@ -214,21 +214,17 @@ additionalResources:
     url: 'https://fairmetroline.org/metroline_steps/define_fairification_objectives'
     author: FAIR Metroline Health-RI
 ---
-**Overview:**&#x20;
+## **Overview:**&#x20;
 
 This topic introduces the research data life cycle, breaking down each phase alongside the practical best practices required to embed FAIR principles from day one. By fostering deep awareness of these cyclical processes, this lesson equips trainers to help researchers plan proactively, engage with the appropriate institutional infrastructures early, and ultimately ensure their research data is "FAIR by design" rather than as an afterthought.
 
-
-
-**Key Learning Outcomes:**&#x20;
+## **Key Learning Outcomes:**&#x20;
 
 1. Map FAIR Practices to the Research Lifecycle: Identify key data-management activities across every stage of the research lifecycle to embed FAIR principles from project inception rather than retrofitting them at publication.
 2. Integrate Institutional Infrastructures Early: Utilize appropriate local data management, storage, privacy, and repository infrastructures at the necessary phases of the research workflow.
 3. Guide "FAIR by Design" Data Planning: Instruct researchers on how to build proactive, domain-appropriate Data Management Plans (DMPs) that ensure long-term data Findability, Accessibility, Interoperability, and Reusability.
 
-
-
-**Citations and Attributions:**&#x20;
+## **Citations and Attributions:**&#x20;
 
 * University of Virginia Library. (n.d.). *Research data management*. Library Guides. Retrieved September 1, 2026, from[https://guides.lib.virginia.edu/c.php?g\=515290\&p\=3522215](https://guides.lib.virginia.edu/c.php?g=515290\&p=3522215)
 * FOSTER Open Science. (n.d.). *Data life cycle + Open Science principles* \[Google Slides presentation]. Retrieved September 1, 2026, from[https://docs.google.com/presentation/d/1SZ6ADqTNp\_GBT3UT-JAsH-6zKfAWab\_1xMOSxZhdZvw/edit?usp\=sharing](https://docs.google.com/presentation/d/1SZ6ADqTNp_GBT3UT-JAsH-6zKfAWab_1xMOSxZhdZvw/edit?usp=sharing)
@@ -257,6 +253,6 @@ This topic introduces the research data life cycle, breaking down each phase alo
 
 ***
 
-## Take home message
+## Take home message:
 
 You can relate different elements in a research project in general to different phases of the data life cycle. At each step, different methods, tools, or infrastructures are required to make your data FAIR. Planning for this in advance is extremely beneficial for your projects, not only to produce FAIR data by design but also in terms of organisation and budgeting. This information should be recorded in a data management plan (DMP) at an early stage.
