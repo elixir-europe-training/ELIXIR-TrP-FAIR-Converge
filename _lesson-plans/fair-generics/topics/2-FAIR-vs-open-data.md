@@ -11,14 +11,14 @@ authors:
 reviewers:
   - 0000-0002-5788-2687
 description: >-
-  This topic introduces participants to the definitions of the FAIR principles
-  with those of open science. The trainer brings forward how data benefits from
-  openness and also highlights that when data per definition cannot be open.
-  Lastly the trainer should also mentioned how open data relates to being made
-  publicly available in certified and trusted repositories, supported by local
-  as well as national and international data policies. This interactive,
-  60-minute workshop bridges the theory of Open Science with its practical,
-  real-world application through a series of hands-on, scenario-based
+  **Overview:** This topic introduces participants to the definitions of the
+  FAIR principles with those of open science. The trainer brings forward how
+  data benefits from openness and also highlights that when data per definition
+  cannot be open. Lastly the trainer should also mentioned how open data relates
+  to being made publicly available in certified and trusted repositories,
+  supported by local as well as national and international data policies. This
+  interactive, 60-minute workshop bridges the theory of Open Science with its
+  practical, real-world application through a series of hands-on, scenario-based
   activities. Students begin by analyzing complex datasets to dismantle the
   common misconception that FAIR and Open data are identical, discovering
   firsthand how data can be highly structured yet safely restricted. They then
@@ -454,11 +454,23 @@ activities:
       level: beginner
   after: []
 ---
-## Topic Definition and Scope
-
-### Train-the-Trainer: FAIR vs. Open Data/Science
+**Overview:**&#x20;
 
 This lesson plan explores the distinct boundaries, intersections, and synergies between Open Science and the FAIR principles. While Open Science focuses on making research, data, and methods freely available to everyone—from professionals to citizens—FAIR focuses on making data optimized for discovery and reuse (by both humans and machines), regardless of whether it is openly accessible or restricted. Understanding this distinction allows trainers to help researchers navigate data sharing responsibly, balancing public access with necessary data protections.
+
+**Key Learning Outcomes:**&#x20;
+
+1.0 Distinguish FAIR from Open Data: Differentiate between FAIR principles and Open Science standards, evaluating scenarios where datasets can be highly FAIR yet legally or ethically restricted.
+
+2.0 Navigate Ethical & Technical Sharing Boundaries: Analyze data-sharing friction points—such as participant privacy, anonymization, and vulnerable populations—to determine when and how sensitive data can be shared safely.
+
+3.0\*\*\*\* Select Suitable Repositories & Institutional Support:\*\*\*\* Evaluate and select appropriate domain-specific or institutional repositories (e.g., DataverseNL) for distinct data types while leveraging local data steward and privacy networks.
+
+**Citation and Attribution**&#x20;
+
+FOSTER. (2018). *Open Science Training Handbook: Readme*. GitBook.[https://open-science-training-handbook.gitbook.io/book](https://open-science-training-handbook.gitbook.io/book)
+
+
 
 ## Core Topics Covered
 
@@ -473,6 +485,9 @@ This lesson plan explores the distinct boundaries, intersections, and synergies 
 | Data Availability Statements                                     | Expert                           |
 | Adopting Open Science Principles & Tooling                       | Expert                           |
 | The Berlin Declaration (Context for Data Stewards)               | Specialist                       |
+|                                                                  |                                  |
+|                                                                  |                                  |
+|                                                                  |                                  |
 
 ## Summary of Tasks and Actions
 
