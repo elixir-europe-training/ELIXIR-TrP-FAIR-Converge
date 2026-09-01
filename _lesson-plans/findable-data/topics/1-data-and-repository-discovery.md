@@ -146,12 +146,12 @@ additionalResources:
     author: 'Heather A. Piwowar​, Todd J. Vision'
     url: 'https://doi.org/10.7717/peerj.175'
 description: >-
-  Scientific repositories are databases established to collect, disseminate, and
-  preserve research outputs such as scientific articles, datasets, software, and
-  documentation. By depositing research outputs in repositories, these materials
-  become more easily findable and accessible to others. Depending on policies
-  and regulations, authors can make their work available through Open Access or
-  restricted access.
+  Overview: Scientific repositories are databases established to collect,
+  disseminate, and preserve research outputs such as scientific articles,
+  datasets, software, and documentation. By depositing research outputs in
+  repositories, these materials become more easily findable and accessible to
+  others. Depending on policies and regulations, authors can make their work
+  available through Open Access or restricted access.
 
 
   Repositories are quite diverse in scope. They can be general, meaning
@@ -357,28 +357,34 @@ prerequisites:
     For this lesson plan, participants should have a foundational understanding
     of the FAIR principles: https://www.go-fair.org/fair-principles/
 ---
-## Topic, definition and scope
-
-### Train-the-Trainer: Repositories and Data Discovery
+## Overview:&#x20;
 
 This lesson plan guides participants to explore data repositories as critical infrastructure for the FAIR principles. Rather than serving as mere storage folders, repositories are active, centralized services designed to organize, preserve, and make research outputs findable, accessible, and reusable.
 
-The lesson plan is framed around two core philosophies:
+## Key Learning outcomes:&#x20;
 
-**1.0  The Right to Science:** As stated in Article 27 of the Universal Declaration of Human Rights, "Everyone has the right to... share in scientific advancement and its benefits."
+1.0 Understand the Right to Science: As stated in Article 27 of the Universal Declaration of Human Rights, "Everyone has the right to... share in scientific advancement and its benefits."
 
-**2.0 The Access Spectrum:** The European Commission’s guiding principle, *"as open as possible, as closed as necessary,"* which governs how we balance data discovery and public benefit with ethical, legal, and commercial boundaries.
+2.0 Understand the Access Spectrum: The European Commission’s guiding principle, *"as open as possible, as closed as necessary,"* which governs how we balance data discovery and public benefit with ethical, legal, and commercial boundaries.
+
+3.0 Understand the FAIR principles as followed:&#x20;
 
 ***
-
-## FAIR element(s)
 
 * Findable: Data should be available in a discoverable resource (i.e. repository), have appropriate description (i.e. metadata) and have a persistent identifier (PID).
 * Accessible: Data should be retrievable and understandable for both humans and machines.
 * Interoperable: Machines and humans can interpret and use the data in different settings and will be able to distinguish the metadata from the data file.
 * Reusable: The ultimate goal of FAIR is to advance the reuse of data in the future research and allow integration with other compatible data sources.
 
+4.0 Understand the use of Repository in making data FAIR and in the Open Science culture as whole.
+
 ***
+
+
+
+## Citations and Attributions:&#x20;
+
+Pinfield, S., Salter, J., Bath, P. A., Hubbard, B., Millington, P., Anders, J. H., & Hussain, A. (2014). Open‐access repositories worldwide, 2005–2012: Past growth, current characteristics, and future possibilities. *Journal of the association for information science and technology*, *65*(12), 2404-2421.
 
 ## Summary of Tasks / Actions
 
@@ -414,3 +420,7 @@ To cement the training or prepare for an advanced session, participants are aske
   * Could you easily find the license for the data of interest?
   * Is the data format interoperable?
   * How do you believe the use of FAIR principles contributed for your data discovery?
+
+## Take Home Message:&#x20;
+
+Long-term data reusability relies on centralized services, not local drives. Trusted repositories provide the persistent identifiers, metadata standards, and access controls that make data truly FAIR and preserved for the future.
