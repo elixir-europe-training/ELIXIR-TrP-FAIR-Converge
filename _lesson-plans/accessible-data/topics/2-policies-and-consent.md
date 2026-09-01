@@ -93,7 +93,7 @@ activities:
   before:
     - learning_outcome: 1
       activities: >-
-        **Read:**
+        **1.0 Reading :**
 
 
         Read the [FAIR Cookbook Data Licenses
@@ -115,45 +115,87 @@ activities:
   during:
     - learning_outcome: 1
       activities: >-
-        **Follow up Discussion Questions:**&#x20;
+        **2.0 Scenario Discussion:**
 
 
-        Ask the Participant the following follow-up Questions:
+        **Have the participants Evaluate the following 3 Scenarios:**&#x20;
 
 
-        **Question 1**
+        The scenarios will come back at the end of the course in a more in-depth
+        follow-up discussion:&#x20;
 
 
-        -A research team uses a dataset licensed under the Open Data Commons
-        Attribution License (ODC-BY) to train a machine learning model. Which
-        obligation must they fulfill regarding attribution when publishing their
-        results?
+        #### **Instructions for Participants:**
 
 
-        Hint: Guide the discussion for participants to explain that data users
-        must retain the copyright notice and acknowledge the original data
-        provider.
+        > *Below are three real-world research scenarios. For each scenario,
+        analyze the researcher's goals, evaluate the legal constraints, and
+        recommend the best specific license (e.g., CC0, CC BY 4.0, CC BY-NC,
+        ODbL, PDDL). Be prepared to justify your choice to the class in the
+        follow-up discussion at the end.*
 
 
-        **Question 2**
+        #### **Scenario 1: The Machine Learning Corpus**
 
 
-        A data analyst modifies a public dataset governed by a license
-        containing a 'No Derivatives' (ND) restriction. What action is
-        explicitly prohibited under this restriction?
+        * **Context:** Dr. Chen compiled a raw dataset of 100,000 anonymized
+        climate sensor readings gathered from global weather stations.
+
+        * **Goal:** She wants researchers and AI models around the world to
+        freely aggregate, clean, format, and train models on her dataset without
+        getting bogged down by legal citation requirements across millions of
+        data points.
+
+        * **Question:** What license (or legal tool) should she apply, and why?
+
+        * *Answer Key for Instructor:* **CC0 (Public Domain Dedication)** or
+        **ODC PDDL**. *Reasoning:* Eliminates legal friction and avoids
+        "attribution stacking" in automated AI pipelines.
 
 
-        Hint: Guide the discussion for participants to explain that
-        redistribution with a modified version is prohibited for external users.
-        The No Derivatives (ND) clause permits users to download and share
-        original copies, but forbids the redistribution of transformed, remixed
-        and or altered versions.
+        #### **Scenario 2: The Curated Ecological Map**
+
+
+        * **Context:** A postgraduate researcher created a manually verified,
+        highly curated database mapping endangered plant species across European
+        forests.
+
+        * **Goal:** He wants anyone to reuse, modify, and build upon his
+        database structure, but he requires two conditions:
+          1. Anyone who uses or adapts the database must cite his original published paper.
+          2. Any modified version of his database created by others *must* also be released openly under the exact same open terms.
+        * **Question:** What license should he select?
+
+        * *Answer Key for Instructor:* **ODbL (Open Database License)** or **CC
+        BY-SA 4.0**. *Reasoning:* Meets both attribution and "Share-Alike"
+        requirements while specifically targeting database structure.
+
+
+        #### **Scenario 3: The Cross-Border Public Health Survey**
+
+
+        * **Context:** A research team collected survey responses on public
+        health habits. A commercial pharmaceutical company wants to integrate
+        this data into a digital health app, while an academic team wants to
+        merge it with demographic data.
+
+        * **Goal:** The principal investigator wants to maximize public benefit
+        and commercial translation, but is considering adding a **CC BY-NC-ND**
+        tag to "protect" the data.
+
+        * **Question:** Why is CC BY-NC-ND a bad choice here? What should you
+        recommend as a Data Steward?
+
+        * *Answer Key for Instructor:* **Recommend CC BY 4.0 or CC0**.
+        *Reasoning:* CC-ND prevents merging/reformatting the survey data with
+        demographic data. CC-NC prevents the pharma company from building a
+        digital health tool around it.
       time: 20 minutes
       type: Follow up reading Exercise
       level: beginner
     - learning_outcome: 2
       activities: >-
-        **Lecture**&#x20;
+        **3.0 Lecture**&#x20;
 
 
         **Target Audience:**&#x20;
@@ -308,6 +350,18 @@ activities:
         **CC0 for all research metadata**."
       time: '30 minutes '
       type: Lecture
+      level: beginner
+    - learning_outcome: 3
+      activities: >-
+        ### 4. Wrap-Up & Debrief (5 Minutes)
+
+
+        Reconvene the class and have groups share their answers for Scenario 3.
+        Emphasize that as future researchers and Data Stewards, their role is to
+        remove legal barriers to data reuse while protecting academic integrity
+        through proper citation.
+      time: '15 minutes '
+      type: Group Discussion
       level: beginner
 prerequisites:
   - >-
