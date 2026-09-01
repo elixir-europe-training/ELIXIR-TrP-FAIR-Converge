@@ -15,7 +15,15 @@ authors:
 reviewers:
   - 0000-0002-7702-4495
   - 0009-0002-3089-9558
-description: "## Overview:&#x20;\n\nThis topic introduces participants to the foundational concepts of the FAIR principles (Findable, Accessible, Interoperable, Reusable). It highlights how stakeholders, researchers, and the broader community benefit from FAIR implementation, while exploring the growing incentives from journals, funding bodies, and institutions that tie FAIR compliance to scientific impact. A fundamental understanding of FAIR and its role across all stages of the research lifecycle is vital for driving successful implementation.\n\n**Key Learning Outcomes:**&#x20;\n\n1. **Deconstruct the FAIR Principles:** Define the core components of Findable, Accessible, Interoperable, and Reusable data across each stage of the research data lifecycle.\n2. **Analyze Stakeholder Incentives & Impact:** Articulate the scientific, societal, and career benefits of FAIR data, including alignment with funder mandates, journal requirements, and institutional policies.\n3. **Identify FAIR Opportunities in Research Workflows:** Evaluate a research workflow to pinpoint key intervention points for applying FAIR practices to maximize data reusability and citation impact.\n\n###\n\n**Citation and Attribution:**&#x20;\n\nGO FAIR. (n.d.). *FAIR principles*. Retrieved September 1, 2026, from[https://www.go-fair.org/fair-principles/](https://www.go-fair.org/fair-principles/)\n\nWilkinson, M., Dumontier, M., Aalbersberg, I.\_*et al.*\_The FAIR Guiding Principles for scientific data management and stewardship.\_*Sci Data*\_**3**, 160018 (2016). [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)"
+description: >-
+  Overview: This topic introduces participants to the foundational concepts of
+  the FAIR principles (Findable, Accessible, Interoperable, Reusable). It
+  highlights how stakeholders, researchers, and the broader community benefit
+  from FAIR implementation, while exploring the growing incentives from
+  journals, funding bodies, and institutions that tie FAIR compliance to
+  scientific impact. A fundamental understanding of FAIR and its role across all
+  stages of the research lifecycle is vital for driving successful
+  implementation.
 fair_elements:
   - F
   - A
@@ -338,6 +346,20 @@ additionalResources:
 
 This topic introduces participants to the foundational concepts of the FAIR principles (Findable, Accessible, Interoperable, Reusable). It highlights how stakeholders, researchers, and the broader community benefit from FAIR implementation, while exploring the growing incentives from journals, funding bodies, and institutions that tie FAIR compliance to scientific impact. A fundamental understanding of FAIR and its role across all stages of the research lifecycle is vital for driving successful implementation.
 
+## Key learning outcomes:
+
+1.0 Deconstruct the FAIR Principles: Define the core components of Findable, Accessible, Interoperable, and Reusable data across each stage of the research data lifecycle.
+
+2.0 Analyze Stakeholder Incentives & Impact: Articulate the scientific, societal, and career benefits of FAIR data, including alignment with funder mandates, journal requirements, and institutional policies.
+
+3.0 Identify FAIR Opportunities in Research Workflows: Evaluate a research workflow to pinpoint key intervention points for applying FAIR practices to maximize data reusability and citation impact.
+
+## **Citation and Attribution:**&#x20;
+
+GO FAIR. (n.d.). *FAIR principles*. Retrieved September 1, 2026, from[https://www.go-fair.org/fair-principles/](https://www.go-fair.org/fair-principles/)
+
+Wilkinson, M., Dumontier, M., Aalbersberg, I. *et al.* The FAIR Guiding Principles for scientific data management and stewardship. *Sci Data* **3**, 160018 (2016). [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)
+
 ## Summary of Tasks and Actions
 
 * **1.0 Pre-Workshop Assignment:** Participants read a foundational academic article to familiarize themselves with the FAIR principles before the session begins.
@@ -349,4 +371,6 @@ This topic introduces participants to the foundational concepts of the FAIR prin
 * **For Participants:** A computer and a stable internet connection (if the training is delivered online or uses cloud-based tools).
 * **For the Trainer:** A digital collaboration tool (such as Miro or an equivalent virtual whiteboard). For in-person delivery, this can easily be replaced with physical chart paper, sticky notes, and markers.
 
-##
+## Take home Message:&#x20;
+
+FAIR is not an end-of-project checklist item—it is a lifecycle strategy that aligns research workflows with funder requirements, accelerates scientific discovery, and maximizes long-term research impact.
