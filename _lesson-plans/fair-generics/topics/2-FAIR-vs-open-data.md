@@ -11,9 +11,9 @@ authors:
 reviewers:
   - 0000-0002-5788-2687
 description: >-
-  **Overview:** This topic introduces participants to the definitions of the
-  FAIR principles with those of open science. The trainer brings forward how
-  data benefits from openness and also highlights that when data per definition
+  Overview: This topic introduces participants to the definitions of the FAIR
+  principles with those of open science. The trainer brings forward how data
+  benefits from openness and also highlights that when data per definition
   cannot be open. Lastly the trainer should also mentioned how open data relates
   to being made publicly available in certified and trusted repositories,
   supported by local as well as national and international data policies. This
