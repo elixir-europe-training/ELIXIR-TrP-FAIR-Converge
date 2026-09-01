@@ -360,13 +360,13 @@ GO FAIR. (n.d.). *FAIR principles*. Retrieved September 1, 2026, from[https://ww
 
 Wilkinson, M., Dumontier, M., Aalbersberg, I. *et al.* The FAIR Guiding Principles for scientific data management and stewardship. *Sci Data* **3**, 160018 (2016). [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)
 
-## Summary of Tasks and Actions
+## Summary of Tasks and Actions:
 
 * **1.0 Pre-Workshop Assignment:** Participants read a foundational academic article to familiarize themselves with the FAIR principles before the session begins.
 * **2.0 Hands-on Activities:** This core segment combines short lectures with individual and group assignments designed to deepen participants' conceptual understanding. The lesson plan offers a menu of modular activities, allowing trainers to select and adapt exercises based on their specific audience, timeframe, and context.
 * **3.0 Post-Session Plenary Discussion:** The session concludes with a collaborative discussion centered on the real-world benefits, opportunities, and challenges of applying FAIR principles to active research projects.
 
-## Materials and Equipment
+## Materials and Equipment:
 
 * **For Participants:** A computer and a stable internet connection (if the training is delivered online or uses cloud-based tools).
 * **For the Trainer:** A digital collaboration tool (such as Miro or an equivalent virtual whiteboard). For in-person delivery, this can easily be replaced with physical chart paper, sticky notes, and markers.
