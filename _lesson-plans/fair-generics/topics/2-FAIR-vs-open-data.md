@@ -466,11 +466,11 @@ This lesson plan explores the distinct boundaries, intersections, and synergies 
 
 3.0Select Suitable Repositories & Institutional Support:\*\*\*\* Evaluate and select appropriate domain-specific or institutional repositories (e.g., DataverseNL) for distinct data types while leveraging local data steward and privacy networks.
 
-## **Citation and Attribution**&#x20;
+## **Citation and Attribution:**&#x20;
 
 FOSTER. (2018). *Open Science Training Handbook: Readme*. GitBook.[https://open-science-training-handbook.gitbook.io/book](https://open-science-training-handbook.gitbook.io/book)
 
-## Core Topics Covered
+## Core Topics Covered:
 
 | Topic / Module                                                   | Target Competency Level          |
 | ---------------------------------------------------------------- | -------------------------------- |
@@ -487,7 +487,7 @@ FOSTER. (2018). *Open Science Training Handbook: Readme*. GitBook.[https://open-
 |                                                                  |                                  |
 |                                                                  |                                  |
 
-## Summary of Tasks and Actions
+## Summary of Tasks and Actions:
 
 **1.0 Practical Framework Discussion:** Participants analyze the core concepts to identify the critical differences, overlaps, and misconceptions between FAIR and Open Science.
 
@@ -497,11 +497,11 @@ FOSTER. (2018). *Open Science Training Handbook: Readme*. GitBook.[https://open-
 
 **4.0 Case Study - Selecting the Right Repository:** A hands-on, scenario-based activity. Participants evaluate a realistic research case study—considering data sensitivity and access requirements—and select the most appropriate data repository for publication.
 
-## Materials and Equipment
+## Materials and Equipment:
 
 * **For the Trainer:** A computer connected to a projector/display to present instructions and visual aids.
 * **For Participants:** A computer or tablet for active research, repository exploration, and group activities.
 
-## Take Home Message&#x20;
+## Take Home Message:&#x20;
 
 **FAIR does not automatically mean Open, and Open is not automatically FAIR.** Open Science dictates *who* can access research, while FAIR dictates *how effectively* data can be discovered and reused by both humans and machines. As close as possible and close as neccesary.
