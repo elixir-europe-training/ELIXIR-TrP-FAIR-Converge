@@ -277,91 +277,6 @@ activities:
       time: '30'
       type: Small Group Discussion
       level: beginner
-    - learning_outcome: 8
-      activities: >-
-        **Exercise:**
-
-
-        **The Task: "Who Owns the Data?**
-
-
-        **1.0 Give participants a simple scenario of a data sharing story from
-        your particular institution.** **As an example you can use the following
-        one**:
-
-
-        *A research group at the Faculty of Health, Medicine, and Life Sciences
-        wants to launch a nationwide consortium project involving all University
-        Hospitals (UMCs) in the Netherlands. The study utilizes qualitative
-        research methods, specifically conducting focus groups and individual
-        interviews. The team’s goal is twofold: active data sharing among
-        consortium partners throughout the project lifecyle, followed by
-        long-term archiving in an open-access repository.*
-
-
-        Note: You can adapt this to mirror a specific project at your own
-        institution, or use this multi-center Dutch hospital example:
-
-
-        **2.0 Ask participants (individually or in pairs) to list or select
-        every department, administrative role, or operational entity within the
-        university and hospital system that must review, approve, or support
-        this project before data sharing can safely begin.**
-
-
-        **3.0 Instructions for the Trainer: Debrief the activity by showing how
-        vast the ecosystem truly is. Use this moment to demonstrate how a
-        standardized institutional policy turns this chaotic process into a
-        streamlined workflow.**
-
-
-        | The Stakeholder                   | Their Role in This
-        Project                                        | The Nightmare Without a
-        Policy                                                              |
-        The Benefit With a Standardized
-        Policy                                          |
-
-        | --------------------------------- |
-        ----------------------------------------------------------------- |
-        -------------------------------------------------------------------------------------------
-        |
-        -------------------------------------------------------------------------------
-        |
-
-        | Ethics Committee / METC           | Approves the consent forms for
-        qualitative interviews.            | Months of back-and-forth debating
-        consent language for open repositories.                   | Standardized
-        template clauses for FAIR data sharing are pre-approved.           |
-
-        | Data Protection / Privacy Officer | Ensures GDPR compliance for
-        sensitive audio/transcript data.      | Bespoke risk assessments delay
-        the start of the consortium by half a year.                  | Clear,
-        institutional guidelines dictate safe workflows for qualitative data.   
-        |
-
-        | ICT / Infrastructure              | Provides secure collaborative
-        spaces for multi-hospital access.   | Researchers default to unsafe
-        tools (like shadow IT or personal clouds) out of frustration. |
-        Pre-configured, secure institutional sharing platforms are readily
-        available.   |
-
-        | Legal Affairs                     | Drafts the Consortium Agreement
-        between all Dutch UMCs.           | Custom data-sharing agreements are
-        negotiated from scratch for every partner.               | Standardized
-        institutional data-sharing templates drastically speed up signing. |
-
-        | Data Stewards / Library           | Assists with the final repository
-        archiving and metadata mapping. | The research team struggles to make
-        qualitative text searchable or reusable at the end.     | Direct
-        guidance on how to anonymize, tag, and publish the data efficiently.    
-        |
-
-
-        **4.0 Provide the participants feedback on the role picking and how this
-        would be easier if a institutional policy was adopted.**&#x20;
-      time: '15'
-      type: Group discussion
-      level: intermediate
 prerequisites:
   - >-
     Before attending this session, participants must be familiar with the core
@@ -375,8 +290,6 @@ prerequisites:
 ### Train-the-Trainer: Institutional Policy Frameworks and FAIR Data Management
 
 This module shifts the perspective from individual researchers to the institutional level, exploring how research data policies drive systemic change. It addresses the strategic benefits of institutional FAIR data management and provides concrete steps for implementing and adopting these principles across higher education networks.
-
-> **Core Reference:** This lesson is grounded in *Chapter 6: Implementing FAIR* of the handbook: *How to be FAIR with your data: A teaching and training handbook for higher education institutions (FAIRsFAIR).*
 
 ## Summary of Tasks and Actions
 
