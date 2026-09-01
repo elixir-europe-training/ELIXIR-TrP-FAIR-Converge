@@ -20,7 +20,8 @@ audience:
   - Data controllers and processors
   - Data protection officers
   - Anyone who creates DMPs
-  - Students and researchers (including PIs) in life sciences working on
+  - >-
+    Students and researchers (including PIs) in life sciences working on
     personal and sensitive data
 learning_outcomes:
   '1':
@@ -116,13 +117,13 @@ terms4FAIRskills:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000478'
         label: accessibility of digital assets
 description: >-
-  This lesson plan provides participants with a comprehensive overview of data
-  accessibility, focusing on the distinctions between open and restricted
-  access, the role of data licenses, and the ethical and legal considerations
-  involved. Participants will engage with examples, participate in discussions,
-  and apply their knowledge through interactive activities. The goal is to
-  develop a clear understanding of how data accessibility impacts research and
-  collaborations.&#x20;
+  Overview: This lesson plan provides participants with a comprehensive overview
+  of data accessibility, focusing on the distinctions between open and
+  restricted access, the role of data licenses, and the ethical and legal
+  considerations involved. Participants will engage with examples, participate
+  in discussions, and apply their knowledge through interactive activities. The
+  goal is to develop a clear understanding of how data accessibility impacts
+  research and collaborations.&#x20;
 activities:
   during:
     - learning_outcome: 1
@@ -201,7 +202,7 @@ activities:
 prerequisites:
   - Have a minimum understanding of the FAIR principles
 ---
-## Topic, definition and scope
+## Overview:&#x20;
 
 This lesson plan provides participants with a comprehensive overview of data accessibility, focusing on the distinctions between open and restricted access, the role of data licenses, and the ethical and legal considerations involved. Participants will engage with examples, participate in discussions, and apply their knowledge through interactive activities. The goal is to develop a clear understanding of how data accessibility impacts research and collaborations.
 
@@ -240,6 +241,18 @@ In this section aims to provide trainers with the foundational understandings of
 
 ***
 
+## &#x20;Key Learning Outcomes:&#x20;
+
+1.0 Distinguish Access Protocols & Licensing: Evaluate the practical differences between open, restricted, and embargoed data access mechanisms while applying appropriate data licenses (e.g., Creative Commons, Open Data Commons) to govern reuse.
+
+2.0 Navigate Legal and Ethical Boundaries: Resolve data-sharing friction points—including GDPR compliance, participant consent, and sensitive human subjects data—to determine responsible access conditions.
+
+3.0 Formulate Transparent Data Access Strategies: Design clear data access statements and governance workflows that facilitate collaborative research while maintaining necessary ethical and legal safeguards.
+
+## Citations and Attributions:&#x20;
+
+Ritchie, F. (2016). Five safes: designing data access for research.
+
 ## Summary of Tasks / Actions
 
 **1.0 Reading:** FAIRsharing’s educational factsheet on databases
@@ -258,25 +271,26 @@ In this section aims to provide trainers with the foundational understandings of
 
 ## Materials / Equipment
 
-  * Personal computer
-  * Internet connection
-  * Browser
+* Personal computer
+* Internet connection
+* Browser
 
 ***
 
 ## References
 
-* Dyke, S.O.M., Linden, M., Lappalainen, I., Rambla De Argila, J., Carey, K., Lloyd, D., Spalding, J.D., Cabili, M.N., Kerry, G., Foreman, J., et al. (2018). Registered access: authorizing data access. European Journal of Human Genetics, 26, 1721-1731. Available at: https://www.nature.com/articles/s41431-018-0219-y
-
-* Gierasch, L.M., Davidson, N.O., Rye, K.A., & Burlingame, A.L. (2020). The data must be accessible to all. Journal of Lipid Research, 61(4), 465. Available at: https://www.jlr.org/article/S0022-2275(20)43495-9/fulltext
-
-* Research Data Management Support, Huijser, D., Moopen, N., Flores-Dourojeanni, J., Beltrán, M., de Bruijn, K., de Bruin, J., Capel, D., Dijkstra, F., Einarson, S., Folkers, J., et al. (2025). Data Privacy Handbook. Utrecht University. Available at: https://utrechtuniversity.github.io/dataprivacyhandbook/
+* Dyke, S.O.M., Linden, M., Lappalainen, I., Rambla De Argila, J., Carey, K., Lloyd, D., Spalding, J.D., Cabili, M.N., Kerry, G., Foreman, J., et al. (2018). Registered access: authorizing data access. European Journal of Human Genetics, 26, 1721-1731. Available at: [https://www.nature.com/articles/s41431-018-0219-y](https://www.nature.com/articles/s41431-018-0219-y)
+* Gierasch, L.M., Davidson, N.O., Rye, K.A., & Burlingame, A.L. (2020). The data must be accessible to all. Journal of Lipid Research, 61(4), 465. Available at: [https://www.jlr.org/article/S0022-2275(20)43495-9/fulltext](https://www.jlr.org/article/S0022-2275\(20\)43495-9/fulltext)
+* Research Data Management Support, Huijser, D., Moopen, N., Flores-Dourojeanni, J., Beltrán, M., de Bruijn, K., de Bruin, J., Capel, D., Dijkstra, F., Einarson, S., Folkers, J., et al. (2025). Data Privacy Handbook. Utrecht University. Available at: [https://utrechtuniversity.github.io/dataprivacyhandbook/](https://utrechtuniversity.github.io/dataprivacyhandbook/)
 
 ***
 
 ## Take home tasks/preparation
 
 * Understanding what principles to consider in a context of sharing sensitive data
-*
 
 ***
+
+## Take Home Message:&#x20;
+
+Mastering data accessibility turns compliance into collaboration. By pairing proper data licenses with transparent access controls early, researchers protect sensitive outputs while building strong foundations for interdisciplinary sharing.
