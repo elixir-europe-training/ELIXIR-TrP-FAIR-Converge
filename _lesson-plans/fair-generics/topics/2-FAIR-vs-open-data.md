@@ -11,9 +11,9 @@ authors:
 reviewers:
   - 0000-0002-5788-2687
 description: >-
-  **Overview:** This topic introduces participants to the definitions of the
-  FAIR principles with those of open science. The trainer brings forward how
-  data benefits from openness and also highlights that when data per definition
+  Overview: This topic introduces participants to the definitions of the FAIR
+  principles with those of open science. The trainer brings forward how data
+  benefits from openness and also highlights that when data per definition
   cannot be open. Lastly the trainer should also mentioned how open data relates
   to being made publicly available in certified and trusted repositories,
   supported by local as well as national and international data policies. This
@@ -454,11 +454,11 @@ activities:
       level: beginner
   after: []
 ---
-**Overview:**&#x20;
+## **Overview:**&#x20;
 
 This lesson plan explores the distinct boundaries, intersections, and synergies between Open Science and the FAIR principles. While Open Science focuses on making research, data, and methods freely available to everyone—from professionals to citizens—FAIR focuses on making data optimized for discovery and reuse (by both humans and machines), regardless of whether it is openly accessible or restricted. Understanding this distinction allows trainers to help researchers navigate data sharing responsibly, balancing public access with necessary data protections.
 
-**Key Learning Outcomes:**&#x20;
+## **Key Learning Outcomes:**&#x20;
 
 1.0 Distinguish FAIR from Open Data: Differentiate between FAIR principles and Open Science standards, evaluating scenarios where datasets can be highly FAIR yet legally or ethically restricted.
 
@@ -466,7 +466,7 @@ This lesson plan explores the distinct boundaries, intersections, and synergies 
 
 3.0Select Suitable Repositories & Institutional Support:\*\*\*\* Evaluate and select appropriate domain-specific or institutional repositories (e.g., DataverseNL) for distinct data types while leveraging local data steward and privacy networks.
 
-**Citation and Attribution**&#x20;
+## **Citation and Attribution**&#x20;
 
 FOSTER. (2018). *Open Science Training Handbook: Readme*. GitBook.[https://open-science-training-handbook.gitbook.io/book](https://open-science-training-handbook.gitbook.io/book)
 
@@ -501,3 +501,7 @@ FOSTER. (2018). *Open Science Training Handbook: Readme*. GitBook.[https://open-
 
 * **For the Trainer:** A computer connected to a projector/display to present instructions and visual aids.
 * **For Participants:** A computer or tablet for active research, repository exploration, and group activities.
+
+## Take Home Message&#x20;
+
+**FAIR does not automatically mean Open, and Open is not automatically FAIR.** Open Science dictates *who* can access research, while FAIR dictates *how effectively* data can be discovered and reused by both humans and machines. As close as possible and close as neccesary.
