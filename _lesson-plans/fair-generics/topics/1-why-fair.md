@@ -70,7 +70,7 @@ activities:
 
         Have participants read the FAIR Cookbook's [Introducing the FAIR
         Principles](https://faircookbook.elixir-europe.org/content/recipes/introduction/brief-FAIR-principles.html)
-        to get an idea of what the FAIR principles entail."
+        to get an idea of what the FAIR principles entail.
       time: 20 min
       type: individual exercise
       level: beginner
