@@ -466,7 +466,7 @@ This lesson plan explores the distinct boundaries, intersections, and synergies 
 
 3.0Select Suitable Repositories & Institutional Support:\*\*\*\* Evaluate and select appropriate domain-specific or institutional repositories (e.g., DataverseNL) for distinct data types while leveraging local data steward and privacy networks.
 
-## **Citation and Attribution:**&#x20;
+## **Citation and Attribution**:
 
 FOSTER. (2018). *Open Science Training Handbook: Readme*. GitBook.[https://open-science-training-handbook.gitbook.io/book](https://open-science-training-handbook.gitbook.io/book)
 
