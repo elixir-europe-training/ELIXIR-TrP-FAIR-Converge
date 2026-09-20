@@ -127,7 +127,7 @@ activities:
         **Presenting FAIR benefits for different roles**
 
 
-        Have participants present examples of different stakeholders (e.g.,
+        Present to participants examples of different stakeholders (e.g.,
         researchers, funders, the public) and discuss how each benefits from
         FAIR principles
       time: 10 min
