@@ -218,3 +218,16 @@
   firstName: "Thomas"
   lastName: "Pronk"
   git: "tpronk"
+
+- id: "0000-0002-0798-1724"
+  orcid: "0000-0002-0798-1724"
+  firstName: "Paula"
+  lastName: "Ramos-Silva"
+  git: "paulaRS"
+
+- id: "0000-0003-2196-6923"
+  orcid: "0000-0003-2196-6923"
+  firstName: "Maria"
+  lastName: "Vivas-romero"
+  git: "MNV1988"
+
