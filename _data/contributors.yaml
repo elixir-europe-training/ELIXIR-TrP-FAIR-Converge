@@ -92,12 +92,14 @@
   firstName: "Pauline"
   lastName: "l'Hénaff"
 
-- id: "Bruna Vieira"
+- id: "0000-0001-7893-0505"
+  orcid: "0000-0001-7893-0505"
   firstName: "Bruna"
   lastName: "Vieira"
   git: "brunasv"
 
-- id: "Cesar Bernabe"
+- id: "0000-0003-1795-5930"
+  orcid: "0000-0003-1795-5930"
   firstName: "Cesar"
   lastName: "Bernabe"
 
@@ -112,7 +114,8 @@
   lastName: "Schoots"
   git: "Fieke-Schoots"
 
-- id: "Branka Franicevic"
+- id: "0000-0002-3440-6581"
+  orcid: "0000-0002-3440-6581"
   firstName: "Branka"
   lastName: "Franicevic"
 
