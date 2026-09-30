@@ -153,6 +153,16 @@
   lastName: "Vandendorpe"
   git: "jvddorpe"
 
+- id: "0000-0001-5816-679X"
+  orcid: "0000-0001-5816-679X"
+  firstName: "Dennie"
+  lastName: "Hebels"
+
+- id: "0000-0002-3414-4972"
+  orcid: "0000-0002-3414-4972"
+  firstName: "Stella"
+  lastName: "Tamana"
+
 - id: "0000-0001-9114-2896"
   orcid: "0000-0001-9114-2896"
   firstName: "Mijke"
@@ -163,6 +173,11 @@
   orcid: "0000-0003-1378-5495"
   firstName: "Sara"
   lastName: "El-Gebali"
+
+- id: "0000-0002-2079-6857"
+  orcid: "0000-0002-2079-6857"
+  firstName: "Lauren"
+  lastName: "Seex"
 
 - id: "0000-0002-9016-4820"
   orcid: "0000-0002-9016-4820"
@@ -204,6 +219,11 @@
   lastName: "van Ulzen"
   git: "nrvanulzen"
 
+- id: "0009-0008-8263-8038"
+  orcid: "0009-0008-8263-8038"
+  firstName: "Davide"
+  lastName: "Nardi"
+
 - id: "0009-0002-3089-9558"
   orcid: "0009-0002-3089-9558"
   firstName: "Ana"
@@ -228,9 +248,19 @@
   lastName: "Ramos-Silva"
   git: "paulaRS"
 
-- id: "0000-0003-2196-6923"
-  orcid: "0000-0003-2196-6923"
+- id: "0000-0002-7398-0594"
+  orcid: "0000-0002-7398-0594"
   firstName: "Maria"
-  lastName: "Vivas-romero"
+  lastName: "Vivas-Romero"
   git: "MNV1988"
+
+- id: "0000-0003-0947-941X"
+  orcid: "0000-0003-0947-941X"
+  firstName: "Lingtong"
+  lastName: "Gai"
+
+- id: "0000-0003-4768-7180"
+  orcid: "0000-0003-4768-7180"
+  firstName: "Carmen"
+  lastName: "Reverté"
 

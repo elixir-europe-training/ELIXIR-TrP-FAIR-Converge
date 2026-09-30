@@ -1,7 +1,7 @@
 ---
 number: 4.3
 title: Data vocabularies and ontologies
-status: draft
+status: in_progress
 layout: lesson-plan
 authors:
   - 0000-0003-4942-2725
