@@ -11,7 +11,7 @@ lesson_plans:
       title: Why FAIR?
       link: 'topics/1-why-fair'
     - number: 1.2
-      title: FAIR vs. Open data (science)
+      title: FAIR vs. Open data
       link: 'topics/2-FAIR-vs-open-data'
     - number: 1.3
       title: Data Life Cycle approach to FAIR/FAIR right from the start

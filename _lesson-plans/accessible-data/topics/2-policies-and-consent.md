@@ -5,9 +5,10 @@ status: in_progress
 layout: lesson-plan
 authors:
   - Pauline l'Henaff
-  - Bruna Vieira
+  - 0000-0001-7893-0505
   - 0000-0002-7398-0594
-reviewers: null
+reviewers:
+  - 0000-0002-0798-1724
 description: >-
   Overview: Just like any other form of intellectual property, research data
   requires a license to define how individuals and automated tools can legally
