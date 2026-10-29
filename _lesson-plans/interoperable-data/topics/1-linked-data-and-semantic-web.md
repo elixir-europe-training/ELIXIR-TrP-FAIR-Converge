@@ -1,7 +1,7 @@
 ---
 number: 4.1
 title: Linked data and semantic web technologies
-status: draft
+status: in_progress
 layout: lesson-plan
 permalink: /plan/linked-data-and-semantic-web/
 redirect_from:

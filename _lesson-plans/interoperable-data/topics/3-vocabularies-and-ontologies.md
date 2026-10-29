@@ -1,7 +1,7 @@
 ---
 number: 4.3
 title: Data vocabularies and ontologies
-status: draft
+status: in_progress
 layout: lesson-plan
 permalink: /plan/vocabularies-and-ontologies/
 redirect_from:
