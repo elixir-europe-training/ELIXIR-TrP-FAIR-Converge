@@ -1,82 +1,47 @@
-<footer id="footer">
-    <div class="container py-4 g-lg-5">
-        <div class="row g-4 d-flex justify-content-between">
-            <div class="col-6 col-lg-4 d-flex logos">
-                <a href="https://elixir-europe.org/" class="my-auto" target="_blank">
-                    <img height="50px" src="{{ site.url }}/assets/images/logos/elixir.png" alt="ELIXIR"/>
-                </a>
-                <a href="https://learn-fair.nl" class="my-auto" target="_blank">
-                    <img class="small-logo" height="50px" src="{{ site.url }}/assets/images/logos/learn-fair.svg" alt="LEARN-FAIR"/>
-                </a>
+<footer id="footer" class="lp-footer">
+    <div class="lp-footer-main">
+        <div class="lp-footer-brand">
+            <div class="lp-footer-title">
+                {% include lp-icon.html name="book-open" size=19 %}
+                {{ site.title }}
             </div>
-            {%- for column in site.data.footer.columns %}
-            {%- if column.type == "image" %}
-            <div class="col-6 col-lg-{{column.width}} d-flex justify-content-lg-{% if forloop.first == true %}start{% elsif forloop.last == true %}end{% else %}center{% endif %}">
-                <img class="my-auto" width="{{column.image_width}}" src="{{ column.src | relative_url }}" alt="{{column.alt}}"/>
-            </div>
-            {%- elsif column.type == "links" %}
-            <div class="col-6 col-lg-{{column.width}} d-flex justify-content-lg-{% if forloop.first == true %}start{% elsif forloop.last == true %}end{% else %}center{% endif %}">
-                <div>
-                    {%- if column.title != nil %}
-                    <span class="footer-title">{{column.title}}</span>
-                    {%- endif %}
-                    <ul class="mb-0 list-unstyled">
-                        {%- for link in column.children %}
-                        {%- if link.url != nil and link.external_url == nil%}
-                        <li><a href="{{ link.url | relative_url }}">{{link.url_text}}</a></li>
-                        {%- elsif link.external_url != nil and link.url == nil %}
-                        <li><a href="{{link.external_url}}">{{link.url_text}}</a></li>
-                        {%- else %}
-                        <li>{{link.url_text}}</li>
-                        {%- endif %}
-                        {%- endfor %}
-                    </ul>
-                </div>
-            </div>
-            {%- elsif column.type == "text" %}
-            <div class="col-6 col-lg-{{column.width}} d-flex justify-content-lg-{% if forloop.first == true %}start{% elsif forloop.last == true %}end{% else %}center{% endif %}">
-                {{column.content | markdownify }}
-            </div>
-            {%- endif %}
-            {%- endfor %}
+            <p>Open lesson plans for trainers teaching FAIR data practices to researchers, data stewards, and policy makers.</p>
+            <a class="lp-footer-cta" href="{{ '/contribute' | relative_url }}">
+                <svg class="lp-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 5v14"/><path d="M5 12h14"/></svg>
+                Contribute a lesson plan
+            </a>
         </div>
-        {%- unless site.data.footer.extra_line == nil %}
-        <div class="row">
-            <div class="text-center pt-4 mb-0">
-                {{site.data.footer.extra_line | markdownify }}
+        <nav aria-label="Handbook">
+            <div class="lp-footer-heading">Handbook</div>
+            <a href="{{ '/' | relative_url }}">Lesson plans</a>
+            <a href="{{ '/about' | relative_url }}">About</a>
+            <a href="{{ '/contribute' | relative_url }}">Contribute</a>
+        </nav>
+        <nav aria-label="Project">
+            <div class="lp-footer-heading">Project</div>
+            <a href="{{ '/about/contributors' | relative_url }}">Contributors</a>
+            <a href="https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-Converge" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://elixir-europe.org" target="_blank" rel="noopener">ELIXIR</a>
+        </nav>
+        <div class="lp-footer-logos">
+            <div class="lp-footer-heading">A collaboration of</div>
+            <div>
+                <a href="https://elixir-europe.org/" target="_blank" rel="noopener"><img src="{{ '/assets/images/logos/elixir.png' | relative_url }}" alt="ELIXIR"></a>
+                <a href="https://learn-fair.nl" target="_blank" rel="noopener"><img src="{{ '/assets/images/logos/learn-fair.svg' | relative_url }}" alt="LEARN-FAIR"></a>
             </div>
         </div>
-        {%- endunless %}
     </div>
-    <div class="copyright py-4">
-        <div class="container g-lg-5 d-flex justify-content-between flex-column flex-lg-row">
-            {%- unless site.data.footer.copyright == nil %}
-            <div class="d-flex align-items-center mb-3 mb-lg-0 mx-auto mx-lg-0 text-center">{{ site.data.footer.copyright | markdownify }}</div>
-            {%- endunless %}
-            <div class="d-flex align-items-center mx-auto ms-lg-4 me-lg-0">
-                <a id="ett-logo" class="text-nowrap me-lg-5 me-xxlg-0" href="https://elixir-belgium.github.io/elixir-toolkit-theme">Built with
-                    <svg data-name="ETT logo" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 77.2 77.12">
-                        <defs>
-                            <style>
-                                .cls-2,
-                                .cls-3 {
-                                    fill: #fff;
-                                    pointer-events: none;
-                                }
-
-                                .cls-2 {
-                                    opacity: 0.18;
-                                }
-                            </style>
-                        </defs>
-                        <g>
-                            <circle class="cls-1" cx="38.56" cy="38.56" r="38.56" />
-                            <path class="cls-2" d="M9,48.08a44.19,44.19,0,0,0,4.68,19.84A38.56,38.56,0,1,0,55.16,3.72c-.59,0-1.19-.05-1.79-.05A44.4,44.4,0,0,0,9,48.08Z" />
-                            <path class="cls-3" d="M54,20.52H13.64a.85.85,0,0,0-.84.85v34a.84.84,0,0,0,.84.84H30a.84.84,0,0,0,.85-.84V51.16a.85.85,0,0,0-.85-.85H20.07a.85.85,0,0,1-.85-.85V42a.85.85,0,0,1,.85-.84h8.66a.85.85,0,0,0,.85-.85V36.06a.85.85,0,0,0-.85-.85H20.07a.85.85,0,0,1-.85-.84V27.29a.85.85,0,0,1,.85-.85H38.26a.85.85,0,0,1,.85.85V55.38a.84.84,0,0,0,.85.84h4.73a.84.84,0,0,0,.85-.84V27.29a.85.85,0,0,1,.84-.85H61.27a.85.85,0,0,1,.84.85V55.38a.84.84,0,0,0,.85.84h4.73a.84.84,0,0,0,.85-.84V27.29a.85.85,0,0,1,.85-.85h6.77a.84.84,0,0,0,.84-.85V21.37a.84.84,0,0,0-.84-.85Z" />
-                        </g>
-                    </svg>
-                </a>
-            </div>
-        </div>
+    <div class="lp-footer-bar">
+        <a class="lp-footer-cc" href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener"><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="Creative Commons" width="24" height="24"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="Attribution 4.0 International" width="24" height="24"></a>
+        <p>Licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">Creative Commons Attribution 4.0 International License</a>, except where otherwise noted.</p>
+        <span>Built with
+            <a class="lp-footer-ett" href="https://elixir-belgium.github.io/elixir-toolkit-theme" target="_blank" rel="noopener" aria-label="ELIXIR Toolkit Theme">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 77.2 77.12" aria-hidden="true" focusable="false">
+                    <circle cx="38.56" cy="38.56" r="38.56" fill="#fff"/>
+                    <path fill="#0c3450" opacity=".18" d="M9,48.08a44.19,44.19,0,0,0,4.68,19.84A38.56,38.56,0,1,0,55.16,3.72c-.59,0-1.19-.05-1.79-.05A44.4,44.4,0,0,0,9,48.08Z"/>
+                    <path fill="#0c3450" d="M54,20.52H13.64a.85.85,0,0,0-.84.85v34a.84.84,0,0,0,.84.84H30a.84.84,0,0,0,.85-.84V51.16a.85.85,0,0,0-.85-.85H20.07a.85.85,0,0,1-.85-.85V42a.85.85,0,0,1,.85-.84h8.66a.85.85,0,0,0,.85-.85V36.06a.85.85,0,0,0-.85-.85H20.07a.85.85,0,0,1-.85-.84V27.29a.85.85,0,0,1,.85-.85H38.26a.85.85,0,0,1,.85.85V55.38a.84.84,0,0,0,.85.84h4.73a.84.84,0,0,0,.85-.84V27.29a.85.85,0,0,1,.84-.85H61.27a.85.85,0,0,1,.84.85V55.38a.84.84,0,0,0,.85.84h4.73a.84.84,0,0,0,.85-.84V27.29a.85.85,0,0,1,.85-.85h6.77a.84.84,0,0,0,.84-.85V21.37a.84.84,0,0,0-.84-.85Z"/>
+                </svg>
+            </a>
+        </span>
     </div>
 </footer>

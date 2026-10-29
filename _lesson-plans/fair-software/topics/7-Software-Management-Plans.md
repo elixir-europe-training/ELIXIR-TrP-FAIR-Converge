@@ -3,20 +3,27 @@ number: 6.7
 title: Software Management Plans
 status: in_progress
 layout: lesson-plan
+permalink: /plan/software-management-plans/
+redirect_from:
+  - /units/fair-software/topics/7-Software-Management-Plans/
 authors:
   - 0000-0001-9334-7190
   - 0000-0002-1322-1553
 
 reviewers:
 
+fair_elements: []
+learning_outcomes: {}
+activities:
+  before: []
+  during: []
+  after: []
+
 audience:
   - Data stewards
   - Software stewards
   - Research software consultants
-
-
---- 
-
+---
 ## Topic, definition and scope
 
 * How Software Management Plans (SMPs) are related to, but distinct from Data Management Plans (DMPs)
@@ -30,7 +37,7 @@ audience:
 
 * Some exercises here.
 
---- 
+---
 
 ## Recommended reading
 

@@ -3,6 +3,9 @@ number: 2.1
 title: Repositories
 status: published
 layout: lesson-plan
+permalink: /plan/data-and-repository-discovery/
+redirect_from:
+  - /units/findable-data/topics/1-data-and-repository-discovery/
 authors:
   - 0000-0001-6675-4639
   - 0000-0002-8611-162X
@@ -145,25 +148,6 @@ additionalResources:
   - title: Data reuse and the open data citation advantage
     author: 'Heather A. Piwowar​, Todd J. Vision'
     url: 'https://doi.org/10.7717/peerj.175'
-description: >-
-  Overview: Scientific repositories are databases established to collect,
-  disseminate, and preserve research outputs such as scientific articles,
-  datasets, software, and documentation. By depositing research outputs in
-  repositories, these materials become more easily findable and accessible to
-  others. Depending on policies and regulations, authors can make their work
-  available through Open Access or restricted access.
-
-
-  Repositories are quite diverse in scope. They can be general, meaning
-  domain‑agnostic, or focused on specific types of data and research domains,
-  known as field-specific repositories. They may also be associated with
-  international organisations, institutions, or specific departments.
-
-
-  Repositories offer different levels of FAIRness and trustworthiness. It is
-  therefore important to promote awareness of best practices and to guide the
-  scientific community in selecting the most appropriate repository for each
-  type of research output.
 activities:
   before: []
   during:
@@ -356,58 +340,35 @@ prerequisites:
   - >-
     For this lesson plan, participants should have a foundational understanding
     of the FAIR principles: https://www.go-fair.org/fair-principles/
+description: This lesson plan guides participants to explore data repositories as critical infrastructure for the FAIR principles. Rather than serving as mere storage folders, repositories are active, centralized services designed to organize, preserve, and make research outputs findable, accessible, and reusable.
+summary: This lesson plan guides participants to explore data repositories as critical infrastructure for the FAIR principles. Rather than serving as mere storage folders, repositories are active, centralized services designed to organize, preserve, and make research outputs findable, accessible, and reusable.
+sources: 'Pinfield, S., Salter, J., Bath, P. A., Hubbard, B., Millington, P., Anders, J. H., & Hussain, A. (2014). Open‐access repositories worldwide, 2005–2012: Past growth, current characteristics, and future possibilities. *Journal of the association for information science and technology*, *65*(12), 2404-2421.'
+tasks_text: '**1.0 Lecture - Repositories as FAIR Enablers:** A brief introduction defining what a repository is (and isn''t). The trainer highlights how repositories go beyond simple cloud storage to actively enable metadata indexing, persistent identifiers (PIDs), and long-term preservation.&#x20;
+
+
+  **2.0 The Data Hunting Exercise:** A hands-on scavenger hunt where participants evaluate the findability, metadata quality, and interoperability of real-world datasets across different repository ecosystems.
+
+
+  **3.0 Lecture- Presenting Local Repositories:** The trainer presents examples from local repositories used in the institution (e.g. DataverseNL) and the workflow around them.&#x20;
+
+
+  **4.0 The Silico Short-Cut Exercise:** A case-study simulation comparing traditional laboratory data creation against computer-based (*in silico*) data discovery and reuse to find treatments for a newly emerged pathogen.
+
+
+  **5.0 The Repository Speed Dating:** Match a “Data Profile” to the correct “Repository Type” based on the discovery and reuse principles learned earlier.
+
+
+  ***'
+materials:
+  text: '**For the participant**:  A computer or tablet for active research, repository exploration, and group activities.
+
+
+    **For the trainer:** A computer connected to a projector/display to present instructions and visual aids.
+
+
+    ***'
+take_home: Long-term data reusability relies on centralized services, not local drives. Trusted repositories provide the persistent identifiers, metadata standards, and access controls that make data truly FAIR and preserved for the future.
 ---
-## Overview:&#x20;
-
-This lesson plan guides participants to explore data repositories as critical infrastructure for the FAIR principles. Rather than serving as mere storage folders, repositories are active, centralized services designed to organize, preserve, and make research outputs findable, accessible, and reusable.
-
-## Key Learning outcomes:&#x20;
-
-1.0 Understand the Right to Science: As stated in Article 27 of the Universal Declaration of Human Rights, "Everyone has the right to... share in scientific advancement and its benefits."
-
-2.0 Understand the Access Spectrum: The European Commission’s guiding principle, *"as open as possible, as closed as necessary,"* which governs how we balance data discovery and public benefit with ethical, legal, and commercial boundaries.
-
-3.0 Understand the FAIR principles as followed:&#x20;
-
-***
-
-* Findable: Data should be available in a discoverable resource (i.e. repository), have appropriate description (i.e. metadata) and have a persistent identifier (PID).
-* Accessible: Data should be retrievable and understandable for both humans and machines.
-* Interoperable: Machines and humans can interpret and use the data in different settings and will be able to distinguish the metadata from the data file.
-* Reusable: The ultimate goal of FAIR is to advance the reuse of data in the future research and allow integration with other compatible data sources.
-
-4.0 Understand the use of Repository in making data FAIR and in the Open Science culture as whole.
-
-***
-
-
-
-## Citations and Attributions:&#x20;
-
-Pinfield, S., Salter, J., Bath, P. A., Hubbard, B., Millington, P., Anders, J. H., & Hussain, A. (2014). Open‐access repositories worldwide, 2005–2012: Past growth, current characteristics, and future possibilities. *Journal of the association for information science and technology*, *65*(12), 2404-2421.
-
-## Summary of Tasks / Actions
-
-**1.0 Lecture - Repositories as FAIR Enablers:** A brief introduction defining what a repository is (and isn't). The trainer highlights how repositories go beyond simple cloud storage to actively enable metadata indexing, persistent identifiers (PIDs), and long-term preservation.&#x20;
-
-**2.0 The Data Hunting Exercise:** A hands-on scavenger hunt where participants evaluate the findability, metadata quality, and interoperability of real-world datasets across different repository ecosystems.
-
-**3.0 Lecture- Presenting Local Repositories:** The trainer presents examples from local repositories used in the institution (e.g. DataverseNL) and the workflow around them.&#x20;
-
-**4.0 The Silico Short-Cut Exercise:** A case-study simulation comparing traditional laboratory data creation against computer-based (*in silico*) data discovery and reuse to find treatments for a newly emerged pathogen.
-
-**5.0 The Repository Speed Dating:** Match a “Data Profile” to the correct “Repository Type” based on the discovery and reuse principles learned earlier.
-
-***
-
-## Materials / Equipment
-
-**For the participant**:  A computer or tablet for active research, repository exploration, and group activities.
-
-**For the trainer:** A computer connected to a projector/display to present instructions and visual aids.
-
-***
-
 ## Take home tasks/preparation
 
 To cement the training or prepare for an advanced session, participants are asked to complete the following:
@@ -420,7 +381,3 @@ To cement the training or prepare for an advanced session, participants are aske
   * Could you easily find the license for the data of interest?
   * Is the data format interoperable?
   * How do you believe the use of FAIR principles contributed for your data discovery?
-
-## Take Home Message:&#x20;
-
-Long-term data reusability relies on centralized services, not local drives. Trusted repositories provide the persistent identifiers, metadata standards, and access controls that make data truly FAIR and preserved for the future.

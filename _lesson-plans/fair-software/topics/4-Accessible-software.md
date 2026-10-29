@@ -3,6 +3,9 @@ number: 6.4
 title: Accessible Software
 status: in_progress
 layout: lesson-plan
+permalink: /plan/accessible-software/
+redirect_from:
+  - /units/fair-software/topics/4-Accessible-software/
 authors:
   - 0000-0001-9334-7190
   - 0000-0002-1322-1553
@@ -11,6 +14,11 @@ reviewers:
 
 fair_elements:
   - A
+
+activities:
+  before: []
+  during: []
+  after: []
 
 audience:
   - Data stewards
@@ -24,9 +32,7 @@ learning_outcomes:
     outcome: Know how to create a CFF file.
   3:
     outcome: List some the pros and cons of popular software repositories, such as GitHub and GitLab.
-
---- 
-
+---
 ## Topic, definition and scope
 
 * Licencing 
@@ -41,7 +47,7 @@ learning_outcomes:
 * Does it have a licence? If so, which one?
 * List some advantages of using GitHub and GitLab, respectively
 
---- 
+---
 
 ## Recommended reading
 

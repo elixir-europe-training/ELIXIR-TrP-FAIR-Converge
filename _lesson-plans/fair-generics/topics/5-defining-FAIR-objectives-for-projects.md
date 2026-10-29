@@ -3,6 +3,9 @@ number: 1.5
 title: Drafting a Data Management Plan
 status: ready_for_review
 layout: lesson-plan
+permalink: /plan/defining-fair-objectives-for-projects/
+redirect_from:
+  - /units/fair-generics/topics/5-defining-FAIR-objectives-for-projects/
 authors:
   - Pauline l'Henaff
   - 0000-0001-7893-0505
@@ -13,15 +16,6 @@ reviewers:
   - 0000-0002-7702-4495
   - 0000-0002-4385-9312
   - 0000-0002-3060-3967
-description: >-
-  Overview: This module provides trainers with the pedagogical framework needed
-  to teach effective DMP creation. The lesson plan covers the core requirements
-  and overarching purpose of a DMP, preparing trainers to confidently explain
-  these concepts to peers and researchers. Special emphasis is placed on
-  identifying common drafting pitfalls and resolving complex legal, ethical, and
-  privacy dilemmas. Additionally, the session prepares trainers to introduce
-  diverse DMP templates, facilitate hands-on drafting exercises, and connect
-  researchers with vital institutional support systems.
 fair_elements:
   - pre
   - F
@@ -301,41 +295,26 @@ activities:
       level: beginner
 prerequisites:
   - Basic knowledge of Data Management
+description: This module provides trainers with the pedagogical framework needed to teach effective DMP creation. The lesson plan covers the core requirements and overarching purpose of a DMP, preparing trainers to confidently explain these concepts to peers and researchers. Special emphasis is placed on identifying common drafting pitfalls and resolving complex legal, ethical, and privacy dilemmas. Additionally, the session prepares trainers to introduce diverse DMP templates, facilitate hands-on drafting exercises, and connect researchers with vital institutional support systems.
+summary: This module provides trainers with the pedagogical framework needed to teach effective DMP creation. The lesson plan covers the core requirements and overarching purpose of a DMP, preparing trainers to confidently explain these concepts to peers and researchers. Special emphasis is placed on identifying common drafting pitfalls and resolving complex legal, ethical, and privacy dilemmas. Additionally, the session prepares trainers to introduce diverse DMP templates, facilitate hands-on drafting exercises, and connect researchers with vital institutional support systems.
+sources: 'Michener, W. K. (2015). Ten simple rules for creating a good data management plan. *PLoS computational biology*, *11*(10), e1004525.
+
+
+  Vivas-Romero, M. (2025) [DMP Training Session MUMC+ FHML | Zenodo](https://zenodo.org/records/20344397)'
+tasks_text: 'This lesson is divided itself in the 3 phases: ​
+
+
+  **1.0 Context and Assets of the Data Management Plan:**  In this phase the trainer explains the core of a Data Management Plan, and why it is relevant at an institutional, national and international level. The trainer also explains the foundational core of a DMP and its shifting role from a bureaucratic hurdle to an essential asset.
+
+
+  **2.0** **The when and how of a DMP in the research process at MUMC+**: The trainer then delves into the phases of the Research Life Cycle and where a DMP is located at within this cycle. The trainer connects the document directly to the timeline of everyday scientific work.
+
+
+  **3.0 Practical Part: Working with the DMP & Data Steward Feedback:** Facilitate Participants filling out their own DMP form
+
+
+  **4.0  Practical Part: Work with the DMP and send to a Data Steward​:** The trainer then divides the group into pairs, depending on the number of participants. The participants will now work on their own DMPs and debrief about them in the later section.'
+materials:
+  text: '**For the participants:** Instruct participants to bring their project proposals and other documents that will be helpful to fill out their DMPs. They also have to ideally bring a computer to fill out the form.&#x20;'
+take_home: A Data Management Plan is not an administrative burden—it is a living roadmap. Anticipating legal, ethical, and technical challenges early turns compliance into a smooth, proactive research strategy.
 ---
-## **Overview:**&#x20;
-
-This module provides trainers with the pedagogical framework needed to teach effective DMP creation. The lesson plan covers the core requirements and overarching purpose of a DMP, preparing trainers to confidently explain these concepts to peers and researchers. Special emphasis is placed on identifying common drafting pitfalls and resolving complex legal, ethical, and privacy dilemmas. Additionally, the session prepares trainers to introduce diverse DMP templates, facilitate hands-on drafting exercises, and connect researchers with vital institutional support systems.
-
-## Key Learning Outcomes:&#x20;
-
-1.0 Evaluate the Purpose and Requirements of a DMP: Articulate the core function of a Data Management Plan and align its essential components with institutional and funder requirements.
-
-2.0 Identify and Mitigate Common DMP Pitfall**s:** Recognize frequent drafting mistakes and proactively address tricky compliance questions—particularly surrounding legal, ethical, and sensitive data considerations.
-
-3.0 Develop Actionable Data Management Strategies: Formulate clear, realistic solutions.&#x20;
-
-## Citations & Attributions:&#x20;
-
-Michener, W. K. (2015). Ten simple rules for creating a good data management plan. *PLoS computational biology*, *11*(10), e1004525.
-
-Vivas-Romero, M. (2025) [DMP Training Session MUMC+ FHML | Zenodo](https://zenodo.org/records/20344397)
-
-## **Summary of Tasks and Actions**&#x20;
-
-This lesson is divided itself in the 3 phases: ​
-
-**1.0 Context and Assets of the Data Management Plan:**  In this phase the trainer explains the core of a Data Management Plan, and why it is relevant at an institutional, national and international level. The trainer also explains the foundational core of a DMP and its shifting role from a bureaucratic hurdle to an essential asset.
-
-**2.0** **The when and how of a DMP in the research process at MUMC+**: The trainer then delves into the phases of the Research Life Cycle and where a DMP is located at within this cycle. The trainer connects the document directly to the timeline of everyday scientific work.
-
-**3.0 Practical Part: Working with the DMP & Data Steward Feedback:** Facilitate Participants filling out their own DMP form
-
-**4.0  Practical Part: Work with the DMP and send to a Data Steward​:** The trainer then divides the group into pairs, depending on the number of participants. The participants will now work on their own DMPs and debrief about them in the later section.
-
-## **Materials/Equipment :**&#x20;
-
-**For the participants:** Instruct participants to bring their project proposals and other documents that will be helpful to fill out their DMPs. They also have to ideally bring a computer to fill out the form.&#x20;
-
-## **Take home message:**&#x20;
-
-A Data Management Plan is not an administrative burden—it is a living roadmap. Anticipating legal, ethical, and technical challenges early turns compliance into a smooth, proactive research strategy.

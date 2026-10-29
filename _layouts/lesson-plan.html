@@ -2,203 +2,623 @@
 layout: plan-unit
 ---
 
-{% include unit-sidebar.html type="lesson-plan" %}
-
-<main id="lesson-plan">
-<div class="lesson-plan-header">
-    {% unless page.content contains "<h1" %}
-    <h1>
-        <span class="lesson-plan-title">{{ page.title | default: site.title }}</span>
-    </h1>
-    {% endunless %}
-
-    {%- if site.theme_variables.github_buttons.position == "top" or site.theme_variables.github_buttons.position == nil %}
-    {% include github-buttons.html %}
-    {%- endif %}
-</div>
-
-<div class="lesson-plan-metadata">
-    <nav>
-        <div class="nav nav-tabs" id="nav-metadata" role="tablist">
-            <button class="nav-link active" id="metadata-general-tab" data-bs-toggle="tab" data-bs-target="#metadata-general" type="button" role="tab" aria-controls="metadata-general" aria-selected="true">
-                <span class="nav-icon icon">
-                    {% include icons/info.svg %}
-                </span>
-                General
-            </button>
-            <button class="nav-link" id="metadata-prerequisites-tab" data-bs-toggle="tab" data-bs-target="#metadata-prerequisites" type="button" role="tab" aria-controls="metadata-prerequisites" aria-selected="false">
-                <span class="nav-icon icon">
-                    {% include icons/fact_check.svg %}
-                </span>
-                Prerequisites
-            </button>
-            <button class="nav-link" id="metadata-outcomes-tab" data-bs-toggle="tab" data-bs-target="#metadata-outcomes" type="button" role="tab" aria-controls="metadata-outcomes" aria-selected="false">
-                <span class="nav-icon icon">
-                    {% include icons/target.svg %}
-                </span>
-                Learning outcomes
-            </button>
-        </div>
-    </nav>
-    <div class="tab-content" id="nav-metadataContent">
-        <div class="tab-pane show active" id="metadata-general" role="tabpanel" aria-labelledby="metadata-general-tab">
-            <div class="lesson-plan-metadata-blocks">
-                <div class="lesson-plan-metadata-block">
-                    <div class="lesson-plan-metadata-block-title">Status</div>
-                    {% if page.status and page.authors %}
-                    <div class="lesson-plan-tag lesson-plan-status lesson-plan-status-{{ page.status }}">
-                        <span class="md-status md-status--{{ page.status }}" title="{{ site.data.status[page.status] }}"></span>
-                        {{ site.data.statuses[page.status] }}
-                    </div>
+{% assign phases = "before,during,after" | split: "," %}
+{% assign phase_labels = "Before the lesson,During the lesson,After the lesson" | split: "," %}
+{% assign updated = page.last_updated | default: page.last_modified_at %}
+{% assign page_summary = page.summary | default: page.description | default: "A FAIR lesson plan for trainers and educators." %}
+{% assign total_minutes = 0 %}
+{% assign total_activities = 0 %}
+{% for phase in phases %}
+    {% assign phase_activities = page.activities[phase] | default: empty %}
+    {% assign total_activities = total_activities | plus: phase_activities.size %}
+    {% for activity in phase_activities %}
+        {% assign duration = activity.duration_min | default: activity.time | replace: "minutes", "" | replace: "minute", "" | replace: "min", "" | strip | plus: 0 %}
+        {% assign total_minutes = total_minutes | plus: duration %}
+    {% endfor %}
+{% endfor %}
+<div class="lp-page" data-total-minutes="{{ total_minutes }}">
+    <div class="lp-container">
+        <nav class="lp-breadcrumb" aria-label="Breadcrumb">
+            <a href="{{ '/' | relative_url }}">
+                Lesson plans
+            </a>
+            <span aria-hidden="true">
+                ›
+            </span>
+            <span aria-current="page">
+                {{ page.title }}
+            </span>
+        </nav>
+        <section class="lp-hero">
+            <div class="lp-hero-copy">
+                <div class="lp-meta-line">
+                    <span class="lp-status lp-status-{{ page.status | default: 'in_progress' }}">
+                        <span class="lp-status-dot" aria-hidden="true">
+                        </span>
+                        {{ site.data.statuses[page.status] | default: page.status | default: "In progress" }}
+                    </span>
+                    {% if updated %}
+                        <span>
+                            Updated {{ updated | date: "%-d %B %Y" }}
+                        </span>
                     {% endif %}
                 </div>
-
-                <div class="lesson-plan-metadata-block">
-                    <div class="lesson-plan-metadata-block-title">FAIR elements</div>
-                    {% if page.fair_elements %}
-                    <ul class="lesson-plan-tags lesson-plan-tags-elements">
-                        {% for fair_element in page.fair_elements %}
-                        <li class="lesson-plan-tag">{{ site.data.fair_principles[fair_element].title }}</li>
+                <h1>
+                    {{ page.title }}
+                </h1>
+                {% assign lead = page_summary | strip_html | strip_newlines | split: ". " | first %}
+                <p class="lp-lead">
+                    {{ lead }}{% assign lead_end = lead | slice: -1 %}{% unless lead_end == "." or lead_end == "?" or lead_end == "!" %}.{% endunless %}
+                </p>
+                <div class="lp-tag-row">
+                    <div class="lp-tag-group">
+                        <span class="lp-tag-label">
+                            FAIR principles covered
+                        </span>
+                        <div class="lp-fair-tags">
+                            {% for element in page.fair_elements %}
+                                <a class="lp-fair-tag lp-fair-{{ element | downcase }}" href="{{ '/' | relative_url }}?fair={{ element }}#library" title="Filter the library by {{ element }}">
+                                    <span>
+                                        {{ element }}
+                                    </span>
+                                    {{ site.data.fair_principles[element].title | default: element }}
+                                </a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="lp-tag-divider" aria-hidden="true">
+                    </div>
+                    <div class="lp-tag-group lp-profile-group">
+                        <span class="lp-tag-label">
+                            Session profile
+                        </span>
+                        <div class="lp-profile-tags">
+                            <span class="lp-neutral-tag">
+                                {% include lp-icon.html name="clock" size=14 %} {{ total_minutes }} min
+                            </span>
+                            <span class="lp-neutral-tag">
+                                {% include lp-icon.html name="list" size=14 %} {{ total_activities }} activities
+                            </span>
+                            <span class="lp-neutral-tag">
+                                {% include lp-icon.html name="gauge" size=14 %} {{ page.levels | default: "Beginner–Expert" }}
+                            </span>
+                            <span class="lp-neutral-tag">
+                                {% include lp-icon.html name="monitor" size=14 %} {{ page.delivery_format | default: "Flexible delivery" }}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="lp-condensed-bar" id="lp-condensed-bar" aria-hidden="true">
+            <strong>
+                {{ page.title }}
+            </strong>
+            <span>
+                {% include lp-icon.html name="clock" size=13 %} {{ total_minutes }} min
+            </span>
+            <a href="#agenda" class="lp-jump">
+                Jump to agenda
+            </a>
+        </div>
+        <div class="lp-body-grid">
+            <main class="lp-main" id="lesson-main">
+                <section class="lp-card" id="overview">
+                    <h2>
+                        Overview
+                    </h2>
+                    <div class="lp-prose">
+                        <p class="lp-overview-text">
+                            {{ page_summary | strip_html | strip_newlines }}
+                        </p>
+                        {{ content }}
+                    </div>
+                    {% if page.take_home %}
+                        <div class="lp-take-home">
+                            <div class="lp-take-home-label">
+                                {% include lp-icon.html name="lightbulb" size=16 %} TAKE-HOME MESSAGE
+                            </div>
+                            <p>
+                                {{ page.take_home }}
+                            </p>
+                        </div>
+                    {% endif %}
+                </section>
+                <section class="lp-card" id="learning-outcomes">
+                    <h2>
+                        Key learning outcomes
+                    </h2>
+                    {% if page.learning_outcomes %}
+                        <ol class="lp-outcomes">
+                            {% for outcome_pair in page.learning_outcomes %}
+                                {% if outcome_pair.title %}
+                                    {% assign outcome_id = forloop.index %}
+                                    {% assign outcome = outcome_pair %}
+                                {% else %}
+                                    {% assign outcome_id = outcome_pair[0] %}
+                                    {% assign outcome = outcome_pair[1] %}
+                                {% endif %}
+                                <li>
+                                    <span class="lp-number-tile">
+                                        {{ outcome_id }}
+                                    </span>
+                                    <div>
+                                        <h3>
+                                            {{ outcome.title | default: outcome.outcome | default: "Learning outcome" }}
+                                        </h3>
+                                        {% if outcome.body %}
+                                            <p>
+                                                {{ outcome.body }}
+                                            </p>
+                                        {% endif %}
+                                        <div class="lp-chip-row">
+                                            {% if outcome.levels %}
+                                                {% for level in outcome.levels %}
+                                                    <span class="lp-chip">
+                                                        {{ site.data.levels[level].title | default: level }}
+                                                    </span>
+                                                {% endfor %}
+                                            {% else %}
+                                                {% for verb in outcome.verbs %}
+                                                    <span class="lp-chip">
+                                                        {{ site.data.levels[verb.level].title | default: verb.level | default: verb }}
+                                                    </span>
+                                                {% endfor %}
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                </li>
+                            {% endfor %}
+                        </ol>
+                    {% else %}
+                        <p class="lp-empty-note">
+                            Learning outcomes have not been added yet.
+                        </p>
+                    {% endif %}
+                </section>
+                <section class="lp-card lp-agenda-card" id="agenda">
+                    <div class="lp-section-heading">
+                        <div>
+                            <h2>
+                                Lesson agenda
+                            </h2>
+                            <p>
+                                {{ total_activities }} activities · {{ total_minutes }} min total · grouped by phase
+                            </p>
+                        </div>
+                        <button class="lp-button lp-button-secondary lp-expand-all" type="button" data-expand-all>
+                            Expand all
+                        </button>
+                    </div>
+                    <div class="lp-phases">
+                        {% for phase in phases %}
+                            {% assign phase_index = forloop.index0 %}
+                            {% assign phase_activities = page.activities[phase] | default: empty %}
+                            {% assign phase_total = 0 %}
+                            {% for activity in phase_activities %}
+                                {% assign duration = activity.duration_min | default: activity.time | replace: "minutes", "" | replace: "minute", "" | replace: "min", "" | strip | plus: 0 %}
+                                {% assign phase_total = phase_total | plus: duration %}
+                            {% endfor %}
+                            <section class="lp-phase" data-phase>
+                                <h3>
+                                    <button class="lp-phase-toggle" type="button" aria-expanded="false" aria-controls="phase-{{ phase }}-body">
+                                        <span class="lp-phase-icon">
+                                            {% case phase %}
+                                            {% when 'before' %}
+                                                {% include lp-icon.html name="book-open" size=18 %}
+                                            {% when 'during' %}
+                                                {% include lp-icon.html name="play-circle" size=18 %}
+                                            {% else %}
+                                                {% include lp-icon.html name="check-circle" size=18 %}
+                                            {% endcase %}
+                                        </span>
+                                        <span class="lp-phase-heading">
+                                            <strong>
+                                                {{ phase_labels[phase_index] }}
+                                            </strong>
+                                            <small>
+                                                {{ phase_activities.size }} {% if phase_activities.size == 1 %}activity{% else %}activities{% endif %} · trainer-guided sequence
+                                            </small>
+                                        </span>
+                                        <span class="lp-shape-strip">
+                                            {% for activity in phase_activities %}
+                                                {% include lp-type.html type=activity.type %}
+                                                <span class="lp-shape lp-type-{{ lp_type_class }}" title="{{ lp_type_label }}">
+                                                    {% include lp-icon.html name=lp_type_icon size=13 %}
+                                                </span>
+                                            {% endfor %}
+                                        </span>
+                                        <span class="lp-time-pill">
+                                            {{ phase_total }} min
+                                        </span>
+                                        <span class="lp-chevron" aria-hidden="true">
+                                            {% include lp-icon.html name="chevron-down" size=18 %}
+                                        </span>
+                                    </button>
+                                </h3>
+                                <div class="lp-phase-body" id="phase-{{ phase }}-body" hidden>
+                                    <ol class="lp-timeline">
+                                        {% assign running = 0 %}
+                                        {% for activity in phase_activities %}
+                                            {% assign duration = activity.duration_min | default: activity.time | replace: "minutes", "" | replace: "minute", "" | replace: "min", "" | strip | plus: 0 %}
+                                            {% assign activity_level = activity.level | default: 'beginner' | downcase %}
+                                            {% include lp-type.html type=activity.type %}
+                                            {% assign activity_type = lp_type %}
+                                            {% assign act_raw = activity.description | default: activity.activities | default: "" %}
+                                            {% assign act_parts = act_raw | split: "**" %}
+                                            {% assign act_title = activity.title %}
+                                            {% assign act_desc = act_raw %}
+                                            {% unless act_title %}
+                                                {% assign act_first = act_parts[1] | default: "" | strip | remove: ":" | strip | downcase %}
+                                                {% if act_parts.size >= 4 and "lecture exercise reading workshop activity discussion demo" contains act_first %}
+                                                    {% assign act_title = act_parts[3] %}
+                                                    {% assign act_desc = act_parts | slice: 4, 200 | join: "**" %}
+                                                {% elsif act_parts.size >= 3 %}
+                                                    {% assign act_title = act_parts[1] %}
+                                                    {% assign act_desc = act_parts | slice: 2, 200 | join: "**" %}
+                                                {% endif %}
+                                            {% endunless %}
+                                            {% assign act_title = act_title | default: lp_type_label | strip | remove: ":" %}
+                                            <li class="lp-timeline-row">
+                                                <time class="lp-clock">
+                                                    0:{{ running | prepend: '00' | slice: -2, 2 }}
+                                                </time>
+                                                <div class="lp-spine">
+                                                    <span class="lp-activity-icon lp-type-{{ lp_type_class }}">
+                                                        {% include lp-icon.html name=lp_type_icon size=18 %}
+                                                    </span>
+                                                </div>
+                                                <article class="lp-activity-card">
+                                                    <div class="lp-activity-main">
+                                                        <div class="lp-activity-kicker">
+                                                            {{ lp_type_label }}
+                                                            {% if activity.learning_outcomes %}
+                                                                {% for lo in activity.learning_outcomes %}
+                                                                    <span class="lp-lo-tag" title="Learning outcome {{ lo }}">
+                                                                        LO {{ lo }}
+                                                                    </span>
+                                                                {% endfor %}
+                                                                {% elsif activity.learning_outcome %}
+                                                                <span class="lp-lo-tag" title="Learning outcome {{ activity.learning_outcome }}">
+                                                                    LO {{ activity.learning_outcome }}
+                                                                </span>
+                                                            {% endif %}
+                                                        </div>
+                                                        <h4>
+                                                            {{ act_title }}
+                                                        </h4>
+                                                        <div class="lp-activity-description">
+                                                            {{ act_desc | markdownify }}
+                                                        </div>
+                                                    </div>
+                                                    <div class="lp-activity-meta">
+                                                        <strong>
+                                                            {% include lp-icon.html name="clock" size=13 %} {{ duration }} min
+                                                        </strong>
+                                                        <span class="lp-level-dots lp-level-{{ activity_level }}" aria-label="{{ site.data.levels[activity_level].title | default: activity_level }} level">
+                                                            <i>
+                                                            </i>
+                                                            <i>
+                                                            </i>
+                                                            <i>
+                                                            </i>
+                                                        </span>
+                                                        <small>
+                                                            {{ site.data.levels[activity_level].title | default: activity_level | capitalize }}
+                                                        </small>
+                                                    </div>
+                                                </article>
+                                            </li>
+                                            {% assign running = running | plus: duration %}
+                                        {% endfor %}
+                                    </ol>
+                                    <div class="lp-phase-end">
+                                        <strong>
+                                            0:{{ phase_total | prepend: '00' | slice: -2, 2 }}
+                                        </strong>
+                                        <span>
+                                        </span>
+                                        End of phase · {{ phase_total }} min
+                                    </div>
+                                </div>
+                            </section>
                         {% endfor %}
-                    </ul>
+                    </div>
+                </section>
+                <section class="lp-card" id="tasks">
+                    <h2>
+                        Summary of tasks and actions
+                    </h2>
+                    {% if page.tasks %}
+                        <ol class="lp-task-list">
+                            {% for task in page.tasks %}
+                                <li>
+                                    <span>
+                                        {{ forloop.index }}
+                                    </span>
+                                    <div>
+                                        <strong>
+                                            {{ task.title | default: task }}
+                                        </strong>
+                                        {% if task.description %}
+                                            <p>
+                                                {{ task.description }}
+                                            </p>
+                                        {% endif %}
+                                    </div>
+                                </li>
+                            {% endfor %}
+                        </ol>
+                    {% elsif page.tasks_text %}
+                        <div class="lp-prose">
+                            {{ page.tasks_text | markdownify }}
+                        </div>
+                    {% else %}
+                        <p class="lp-empty-note">
+                            No separate task summary is stored yet. The activity agenda above is the current source for trainer actions.
+                        </p>
                     {% endif %}
-                </div>
-            </div>
-        </div>
-        <div class="tab-pane" id="metadata-prerequisites" role="tabpanel" aria-labelledby="metadata-prerequisites-tab">
-            {% if page.prerequisites %}
-            <p>
-                For this lesson plan, participants should have a foundational understanding of:
-            </p>
-            <ul>
-                {% for prerequisite in page.prerequisites %}
-                <li>{{ prerequisite }}</li>
-                {% endfor %}
-            </ul>
-            {% else %}
-            There are no prerequisites defined for this lesson plan.
-            {% endif %}
-        </div>
-        <div class="tab-pane" id="metadata-outcomes" role="tabpanel" aria-labelledby="metadata-outcomes-tab">
-            {% if page.learning_outcomes %}
-            <p>
-            After completing this lesson plan, the participants are capable of:
-            </p>
-            <div class="learning-outcomes">
-                {% for outcome in page.learning_outcomes %}
-                <div class="learning-outcome">
-                    <div class="learning-outcome-number">
-                        {{ outcome[0] }}
-                    </div>
-                    <div class="learning-outcome-content">
-                        <div class="learning-outcome-verbs">
-                            {% assign verbs = outcome[1].verbs %}
-                            {% assign verb_count = verbs.size %}
-
-                            {% if verb_count == 1 %}
-                                {% include lesson-content/learning-outcome-verb.html verb=0 verbs=verbs %}
-                            {% elsif verb_count == 2 %}
-                                {% include lesson-content/learning-outcome-verb.html verb=0 verbs=verbs %}
-                                and
-                                {% include lesson-content/learning-outcome-verb.html verb=1 verbs=verbs %}
-                            {% else %}
-                                {% for verb in verbs %}
-                                    {% if forloop.first %}
-                                        {% include lesson-content/learning-outcome-verb.html verb=forloop.index0 verbs=verbs %}
-                                    {% elsif forloop.last %}
-                                        , and
-                                        {% include lesson-content/learning-outcome-verb.html verb=forloop.index0 verbs=verbs %}
-                                    {% else %}
-                                        ,
-                                        {% include lesson-content/learning-outcome-verb.html verb=forloop.index0 verbs=verbs %}
-                                    {% endif %}
+                </section>
+                <section class="lp-card" id="materials">
+                    <h2>
+                        Materials and equipment
+                    </h2>
+                    {% if page.materials.text %}
+                        <div class="lp-prose">
+                            {{ page.materials.text | markdownify }}
+                        </div>
+                    {% else %}
+                        <dl class="lp-materials">
+                            <dt>
+                                For participants
+                            </dt>
+                            <dd>
+                                {{ page.materials.participants | default: "Not specified yet." }}
+                            </dd>
+                            <dt>
+                                For the trainer
+                            </dt>
+                            <dd>
+                                {{ page.materials.trainer | default: "Not specified yet." }}
+                            </dd>
+                        </dl>
+                    {% endif %}
+                </section>
+                {% if page.sources %}
+                    <section class="lp-card" id="sources">
+                        <h2>
+                            Sources and attribution
+                        </h2>
+                        <div class="lp-prose">
+                            {{ page.sources | markdownify }}
+                        </div>
+                    </section>
+                {% endif %}
+                <section class="lp-card lp-resources-card" id="additional-resources">
+                    <button class="lp-resource-toggle" type="button" aria-expanded="false" aria-controls="resources-list">
+                        <span>
+                            <strong>
+                                Additional resources
+                            </strong>
+                            <small>
+                                {{ page.additionalResources.size | default: 0 }} references
+                            </small>
+                        </span>
+                        <span class="lp-chevron" aria-hidden="true">
+                            {% include lp-icon.html name="chevron-down" size=18 %}
+                        </span>
+                    </button>
+                    <div id="resources-list" hidden>
+                        {% if page.additionalResources %}
+                            <ol class="lp-reference-list">
+                                {% for resource in page.additionalResources %}
+                                    <li>
+                                        {% if resource.url %}
+                                            <a href="{{ resource.url }}" target="_blank" rel="noopener">
+                                                {{ resource.title }}
+                                            </a>
+                                        {% else %}
+                                            {{ resource.title }}
+                                        {% endif %}
+                                        {% if resource.author %}
+                                            <small>
+                                                {{ resource.author }}
+                                            </small>
+                                        {% endif %}
+                                    </li>
                                 {% endfor %}
-                            {% endif %}
+                            </ol>
+                        {% else %}
+                            <p class="lp-empty-note">
+                                No additional resources have been added yet.
+                            </p>
+                        {% endif %}
+                    </div>
+                </section>
+                {% capture citation_authors %}
+                    {% for author_id in page.authors %}
+                        {% assign author = site.data.contributors | find: "id", author_id %}
+                        {% if author %}
+                            {{ author.lastName }}, {{ author.firstName | slice: 0, 1 }}.
+                        {% else %}
+                            {{ author_id }}
+                        {% endif %}
+                        {% unless forloop.last %}
+                            ,
+                        {% endunless %}
+                    {% endfor %}
+                {% endcapture %}
+                {% assign sandbox_record = site.data.zenodo[page.path] %}
+                {% assign citation_doi = page.doi | default: sandbox_record.doi %}
+                {% assign citation_year = updated | default: site.time | date: "%Y" %}
+                {% capture citation_text %}
+                    {{ citation_authors | strip }} ({{ citation_year }}). {{ page.title }} (Version {{ page.version | default: "1.0" }}). FAIR Lesson Plan Handbook, ELIXIR Training Platform. {% if citation_doi %}https://doi.org/{{ citation_doi }}{% else %}{{ site.url }}{{ page.url }}{% endif %}
+                {% endcapture %}
+                <section class="lp-citation" id="cite">
+                    <div class="lp-citation-heading">
+                        <div>
+                            <span>
+                                CITE THIS LESSON PLAN
+                            </span>
+                            <p>
+                                {{ citation_text | strip }}
+                            </p>
                         </div>
-                        <div class="learning-outcome-subject">
-                            {{ outcome[1].outcome }}
+                        <div class="lp-button-row">
+                            <button class="lp-button lp-button-secondary lp-copy-button" type="button" data-copy="apa" data-copy-text="{{ citation_text | strip | escape }}">
+                                Copy APA
+                            </button>
+                            <button class="lp-button lp-button-secondary lp-copy-button" type="button" data-copy="bib" data-copy-text="@misc{lesson-plan-{{ page.number }}, title={ {{ page.title }} }, version={ {{ page.version | default: '1.0' }} }, {% if citation_doi %}doi={ {{ citation_doi }} }, {% endif %}url={ {{ site.url }}{{ page.url }} }}">
+                                Copy BibTeX
+                            </button>
                         </div>
                     </div>
-                </div>
-                {% endfor %}
-            </div>
-            {% else %}
-                There are no learning outcomes defined for this lesson plan.
-            {% endif %}
+                    <div class="lp-citation-meta">
+                        <span>
+                            Licence
+                            <strong>
+                                CC BY 4.0
+                            </strong>
+                        </span>
+                        {% if citation_doi %}
+                            <span>
+                                DOI
+                                <strong>
+                                    <a href="https://doi.org/{{ citation_doi }}" target="_blank" rel="noopener">{{ citation_doi }}</a>
+                                    {% if citation_doi contains "10.5072/" %}(sandbox DOI, not citable){% endif %}
+                                </strong>
+                            </span>
+                        {% endif %}
+                        {% if updated %}
+                            <span>
+                                Last updated
+                                <strong>
+                                    {{ updated | date: "%-d %B %Y" }}
+                                </strong>
+                            </span>
+                        {% endif %}
+                    </div>
+                </section>
+            </main>
+            <aside class="lp-sidebar">
+                <section class="lp-side-card">
+                    <span class="lp-side-label">
+                        Prerequisites
+                    </span>
+                    {% if page.prerequisites %}
+                        <ul class="lp-check-list">
+                            {% for item in page.prerequisites %}
+                                <li>
+                                    <span>
+                                        {% include lp-icon.html name="check" size=14 %}
+                                    </span>
+                                    {{ item }}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    {% else %}
+                        <p class="lp-side-empty">
+                            None specified.
+                        </p>
+                    {% endif %}
+                </section>
+                <section class="lp-side-card">
+                    <span class="lp-side-label">
+                        On this page
+                    </span>
+                    <nav class="lp-on-page" aria-label="On this page">
+                        <a href="#overview">
+                            Overview
+                            <small>
+                                1
+                            </small>
+                        </a>
+                        <a href="#learning-outcomes">
+                            Learning outcomes
+                            <small>
+                                {{ page.learning_outcomes.size | default: 0 }}
+                            </small>
+                        </a>
+                        <a href="#agenda">
+                            Lesson agenda
+                            <small>
+                                {{ total_minutes }} min
+                            </small>
+                        </a>
+                        <a href="#tasks">
+                            Tasks and actions
+                        </a>
+                        <a href="#materials">
+                            Materials
+                        </a>
+                        <a href="#additional-resources">
+                            Resources
+                            <small>
+                                {{ page.additionalResources.size | default: 0 }}
+                            </small>
+                        </a>
+                        <a href="#cite">
+                            Cite this plan
+                        </a>
+                    </nav>
+                </section>
+                <section class="lp-side-card">
+                    <div class="lp-people-tabs">
+                        <button type="button" class="active" data-people-tab="authors">
+                            Authors
+                        </button>
+                        <button type="button" data-people-tab="reviewers">
+                            Reviewers
+                        </button>
+                    </div>
+                    <div class="lp-people-list" data-people-list="authors">
+                        {% for author_id in page.authors %}
+                            {% assign author = site.data.contributors | find: "id", author_id %}
+                            {% if author %}
+                                <div class="lp-person">
+                                    <span class="lp-avatar">
+                                        {{ author.firstName | slice: 0, 1 }}{{ author.lastName | slice: 0, 1 }}
+                                    </span>
+                                    <span>
+                                        {{ author.firstName }} {{ author.lastName }}
+                                    </span>
+                                    {% if author.orcid %}
+                                        <a href="https://orcid.org/{{ author.orcid }}" aria-label="ORCID" target="_blank" rel="noopener">
+                                            iD
+                                        </a>
+                                    {% endif %}
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                    <div class="lp-people-list" data-people-list="reviewers" hidden>
+                        {% for author_id in page.reviewers %}
+                            {% assign author = site.data.contributors | find: "id", author_id %}
+                            {% if author %}
+                                <div class="lp-person">
+                                    <span class="lp-avatar">
+                                        {{ author.firstName | slice: 0, 1 }}{{ author.lastName | slice: 0, 1 }}
+                                    </span>
+                                    <span>
+                                        {{ author.firstName }} {{ author.lastName }}
+                                    </span>
+                                    {% if author.orcid %}
+                                        <a href="https://orcid.org/{{ author.orcid }}" aria-label="ORCID" target="_blank" rel="noopener">
+                                            iD
+                                        </a>
+                                    {% endif %}
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                        {% unless page.reviewers %}
+                            <p class="lp-side-empty">
+                                No reviewers listed.
+                            </p>
+                        {% endunless %}
+                    </div>
+                </section>
+            </aside>
         </div>
     </div>
 </div>
-
-<div class="lesson-plan-content">
-    <div class="lesson-plan-block">
-        {{ content }}
-    </div>
-
-{% include lesson-content/lesson-content.html %}
-
-{% include lesson-content/additional-resources.html %}
-</div>
-
-<div class="lesson-plan-metadata lesson-plan-credits">
-    <nav>
-        <div class="nav nav-tabs" id="nav-credits" role="tablist">
-            <button class="nav-link active" id="credits-authors-tab" data-bs-toggle="tab" data-bs-target="#credits-authors" type="button" role="tab" aria-controls="credits-authors" aria-selected="true">
-                <span class="nav-icon icon">
-                    {% include icons/attribution.svg %}
-                </span>
-                Authors
-            </button>
-            <button class="nav-link" id="credits-reviewers-tab" data-bs-toggle="tab" data-bs-target="#credits-reviewers" type="button" role="tab" aria-controls="credits-reviewers" aria-selected="false">
-                <span class="nav-icon icon">
-                    {% include icons/rate_review.svg %}
-                </span>
-                Reviewers
-            </button>
-
-            {% if page.terms4FAIRskills %}
-            <button class="nav-link" id="credits-annotations-tab" data-bs-toggle="tab" data-bs-target="#credits-annotations" type="button" role="tab" aria-controls="credits-annotations" aria-selected="false">
-                <span class="nav-icon icon">
-                    {% include icons/hub.svg %}
-                </span>
-                Annotations
-            </button>
-            {% endif %}
-        </div>
-    </nav>
-    <div class="tab-content" id="nav-creditsContent">
-        <div class="tab-pane show active" id="credits-authors" role="tabpanel" aria-labelledby="credits-authors-tab">
-            {% if page.authors %}
-            <div class="contributors">
-                {% for authorId in page.authors %}
-                {% include lesson-content/contributor.html id=authorId %}
-                {% endfor %}
-            </div>
-            {% endif %}
-        </div>
-        <div class="tab-pane" id="credits-reviewers" role="tabpanel" aria-labelledby="credits-reviewers-tab">
-            {% if page.reviewers %}
-            <div class="contributors">
-                {% for reviewerId in page.reviewers %}
-                {% include lesson-content/contributor.html id=reviewerId %}
-                {% endfor %}
-            </div>
-            {% endif %}
-        </div>
-
-        {% if page.terms4FAIRskills %}
-        <div class="tab-pane" id="credits-annotations" role="tabpanel" aria-labelledby="credits-annotations-tab">
-            <p>The <a href="https://terms4fairskills.github.io/" target="_blank">terms4FAIRskills</a> project has created a formalised terminology that describes the competencies, skills and knowledge associated with making and keeping data FAIR.</p>
-            <table id="terms4FAIRskills">
-                {% for triple in page.terms4FAIRskills %}
-                <tr>
-                    <td><ul>{% for subject in triple.subject %}<li><a href="{{ subject.uri }}" target="_blank">{{ subject.label }}</a></li>{% endfor %}</ul></td>
-                    <td><ul>{% for predicate in triple.predicate %}<li><a href="{{ predicate.uri }}" target="_blank">{{ predicate.label }}</a></li>{% endfor %}</ul></td>
-                    <td><ul>{% for object in triple.object %}<li><a href="{{ object.uri }}" target="_blank">{{ object.label }}</a></li>{% endfor %}</ul></td>
-                </tr>
-                {% endfor %}
-            </table>
-        </div>
-        {% endif %}
-    </div>
-</div>
-</main>
+<script src="{{ '/assets/js/lesson-plans.js' | relative_url }}"></script>

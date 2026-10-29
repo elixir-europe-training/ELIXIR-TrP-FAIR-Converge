@@ -3,6 +3,9 @@ number: 6.6
 title: Reusable Software
 status: in_progress
 layout: lesson-plan
+permalink: /plan/reusable-software/
+redirect_from:
+  - /units/fair-software/topics/6-Reusable-software/
 authors:
   - 0000-0001-9334-7190
   - 0000-0002-1322-1553
@@ -11,6 +14,11 @@ reviewers:
 
 fair_elements:
   - R
+
+activities:
+  before: []
+  during: []
+  after: []
 
 audience:
   - Data stewards
@@ -26,9 +34,7 @@ learning_outcomes:
     outcome: Define version control and have a basic understanding of how git operates.
   4:
     outcome: Be able to critically assess whether automated testing might be worth implementing for a research software project.
-
---- 
-
+---
 ## Topic, definition and scope
 
 * Licences
@@ -47,7 +53,7 @@ learning_outcomes:
 * How might a virtual environment (e.g., venv, renv) enhance re-usability?
 * What factors might determine whether you create automated tests for research software?
 
---- 
+---
 
 ## Recommended reading
 

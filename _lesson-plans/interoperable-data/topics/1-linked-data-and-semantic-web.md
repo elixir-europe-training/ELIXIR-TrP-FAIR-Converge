@@ -3,6 +3,9 @@ number: 4.1
 title: Linked data and semantic web technologies
 status: draft
 layout: lesson-plan
+permalink: /plan/linked-data-and-semantic-web/
+redirect_from:
+  - /units/interoperable-data/topics/1-linked-data-and-semantic-web/
 authors:
   - 0000-0003-3357-3027
   - 0000-0003-0947-941X
@@ -20,6 +23,10 @@ learning_outcomes:
     outcome: Understand why PIDs/URIs are important for Linked Data
   '4':
     outcome: Understand how to ‘assemble’ triples
+activities:
+  before: []
+  during: []
+  after: []
 additionalResources:
   - title: Linked Data 101
     url: 'https://www.dtls.nl/wp-content/uploads/2016/12/Linked-Data-101.pptx'

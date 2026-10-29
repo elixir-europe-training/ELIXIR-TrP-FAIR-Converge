@@ -3,6 +3,9 @@ number: 6.3
 title: Findable Software
 status: in_progress
 layout: lesson-plan
+permalink: /plan/findable-software/
+redirect_from:
+  - /units/fair-software/topics/3-Findable-software/
 authors:
   - 0000-0001-9334-7190
   - 0000-0002-1322-1553
@@ -11,6 +14,11 @@ reviewers:
 
 fair_elements:
   - F
+
+activities:
+  before: []
+  during: []
+  after: []
 
 audience:
   - Data stewards
@@ -24,9 +32,7 @@ learning_outcomes:
     outcome: Understand why metadata can help make research software more findable.
   3:
     outcome: List the important components of a README file.
-
 ---
-
 ## Topic, definition and scope
 
 * Software directories
@@ -41,7 +47,7 @@ learning_outcomes:
 * Discuss what a good README must, should, and could contain
 * Which identifiers, registries, catalogs are most authorative in your field?
 
---- 
+---
 
 ## Recommended reading
 

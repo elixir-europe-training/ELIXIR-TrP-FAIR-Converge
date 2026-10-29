@@ -1,0 +1,161 @@
+---
+layout: plan-unit
+---
+
+{% assign topic_pages = site.lesson-plans | where_exp: "item", "item.path contains '/topics/'" %}
+<div class="library-page" id="library" data-search-index="{{ '/search-index.json' | relative_url }}">
+    <div class="library-container">
+        <section class="library-hero" aria-labelledby="library-title">
+            <div class="library-hero-text">
+                <h1 id="library-title">
+                    {{ page.tagline | default: "Lesson plan library" }}
+                </h1>
+                <p>
+                    {{ page.description | strip }}
+                </p>
+                <form class="library-hero-search" id="library-hero-form" role="search">
+                    <span aria-hidden="true">{% include lp-icon.html name="search" size=18 %}</span>
+                    <input id="hero-search" type="search" placeholder="Search {{ topic_pages.size }} lesson plans" aria-label="Search lesson plans">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+            <div class="library-hero-visual">
+                <img src="{{ '/assets/images/home-visual.svg' | relative_url }}" alt="Trainers and researchers working with data">
+            </div>
+        </section>
+        <section class="library-filter-bar" id="results" aria-label="Filter lesson plans">
+            <div class="library-filter-head">
+                <h2>
+                    Lesson plans
+                    <span id="library-count">{{ topic_pages.size }} plans</span>
+                </h2>
+                <label class="library-search" for="library-search" hidden>
+                    <span aria-hidden="true">{% include lp-icon.html name="search" size=15 %}</span>
+                    <input id="library-search" type="search" placeholder="Search lesson plans" aria-label="Search lesson plans">
+                </label>
+            </div>
+            <div class="library-facets">
+                <div class="library-facet" data-facet="fair">
+                    <span class="library-facet-label">FAIR</span>
+                    <button type="button" class="library-facet-toggle" aria-haspopup="true" aria-expanded="false">FAIR<b hidden></b>{% include lp-icon.html name="chevron-down" size=13 %}</button>
+                    <div class="library-facet-options">
+                        <button class="library-filter" data-filter-group="fair" data-value="F" aria-pressed="false"><i>F</i> Findable</button>
+                        <button class="library-filter" data-filter-group="fair" data-value="A" aria-pressed="false"><i>A</i> Accessible</button>
+                        <button class="library-filter" data-filter-group="fair" data-value="I" aria-pressed="false"><i>I</i> Interoperable</button>
+                        <button class="library-filter" data-filter-group="fair" data-value="R" aria-pressed="false"><i>R</i> Reusable</button>
+                    </div>
+                </div>
+                <div class="library-facet" data-facet="level">
+                    <span class="library-facet-label">Level</span>
+                    <button type="button" class="library-facet-toggle" aria-haspopup="true" aria-expanded="false">Level<b hidden></b>{% include lp-icon.html name="chevron-down" size=13 %}</button>
+                    <div class="library-facet-options">
+                        <button class="library-filter" data-filter-group="level" data-value="beginner" aria-pressed="false">Beginner</button>
+                        <button class="library-filter" data-filter-group="level" data-value="intermediate" aria-pressed="false">Intermediate</button>
+                        <button class="library-filter" data-filter-group="level" data-value="expert" aria-pressed="false">Expert</button>
+                    </div>
+                </div>
+                <div class="library-facet" data-facet="status">
+                    <span class="library-facet-label">Status</span>
+                    <button type="button" class="library-facet-toggle" aria-haspopup="true" aria-expanded="false">Status<b hidden></b>{% include lp-icon.html name="chevron-down" size=13 %}</button>
+                    <div class="library-facet-options">
+                        {% for status in site.data.statuses %}
+                            <button class="library-filter" data-filter-group="status" data-value="{{ status[0] }}" aria-pressed="false">
+                                <i class="status-dot status-{{ status[0] }}"></i>
+                                {{ status[1] }}
+                            </button>
+                        {% endfor %}
+                    </div>
+                </div>
+                <button class="library-clear" id="library-clear" type="button" hidden>
+                    Clear all
+                </button>
+            </div>
+        </section>
+        <div id="library-results">
+            {% assign all_plans = topic_pages | sort: "number" %}
+            <div class="library-grid">
+                            {% for plan in all_plans %}
+                                {% assign plan_levels = plan.levels | default: "" %}
+                                {% assign plan_minutes = 0 %}
+                                {% assign plan_activity_count = 0 %}
+                                {% assign phases = "before,during,after" | split: "," %}
+                                {% for phase in phases %}
+                                    {% assign phase_items = plan.activities[phase] | default: empty %}
+                                    {% assign plan_activity_count = plan_activity_count | plus: phase_items.size %}
+                                    {% for activity in phase_items %}
+                                        {% assign duration = activity.duration_min | default: activity.time | replace: "minutes", "" | replace: "minute", "" | replace: "min", "" | strip | plus: 0 %}
+                                        {% assign plan_minutes = plan_minutes | plus: duration %}
+                                        {% if plan_levels == "" %}
+                                            {% assign plan_levels = activity.level %}
+                                        {% else %}
+                                            {% assign plan_levels = plan_levels | append: "," | append: activity.level %}
+                                        {% endif %}
+                                    {% endfor %}
+                                {% endfor %}
+                                {% assign plan_levels_lc = plan_levels | downcase %}
+                                {% assign plan_level_n = 1 %}
+                                {% if plan_levels_lc contains "expert" %}{% assign plan_level_n = 3 %}{% elsif plan_levels_lc contains "intermediate" %}{% assign plan_level_n = 2 %}{% endif %}
+                                {% assign plan_level_label = "Beginner" %}
+                                {% if plan_level_n == 3 %}{% assign plan_level_label = "Expert" %}{% elsif plan_level_n == 2 %}{% assign plan_level_label = "Intermediate" %}{% endif %}
+                                {% assign plan_hours = plan_minutes | divided_by: 60 %}
+                                {% assign plan_rest = plan_minutes | modulo: 60 %}
+                                <article
+                                    class="library-card"
+                                    data-plan
+                                    data-url="{{ plan.url | relative_url }}"
+                                    data-fair="{{ plan.fair_elements | join: ',' }}"
+                                    data-levels="{{ plan_levels | downcase }}"
+                                    data-status="{{ plan.status | default: 'in_progress' }}"
+                                    data-search="{{ plan.title }} {{ plan.summary | default: plan.description | strip_html | strip_newlines }}"
+                                    >
+                                    <a href="{{ plan.url | relative_url }}">
+                                        <div class="library-card-top">
+                                            <span class="lp-status lp-status-{{ plan.status | default: 'in_progress' }}">
+                                                <span class="lp-status-dot" aria-hidden="true">
+                                                </span>
+                                                {{ site.data.statuses[plan.status] | default: plan.status | default: "In progress" }}
+                                            </span>
+                                        </div>
+                                        <h3>
+                                            {{ plan.title }}
+                                        </h3>
+                                        <p>
+                                            {{ plan.summary | default: plan.description | strip_html | strip_newlines | truncate: 180 }}
+                                        </p>
+                                        <div class="library-fair-row">
+                                            {% for element in plan.fair_elements %}{% if element == "" or element == nil %}{% continue %}{% endif %}
+                                                <span class="lp-fair-letter lp-fair-{{ element | downcase }}">
+                                                    {{ element }}
+                                                </span>
+                                            {% endfor %}
+                                        </div>
+                                        <footer>
+                                            <span>
+                                                {% include lp-icon.html name="clock" size=13 %}
+                                                <b>{% if plan_hours > 0 %}{{ plan_hours }} h{% if plan_rest > 0 %} {{ plan_rest }} min{% endif %}{% else %}{{ plan_rest }} min{% endif %}</b>
+                                            </span>
+                                            <span>
+                                                {% include lp-icon.html name="list" size=13 %}
+                                                <b>
+                                                    {{ plan_activity_count }}
+                                                </b>
+                                                activities
+                                            </span>
+                                            <span class="library-level-dots lp-level-{{ plan_level_label | downcase }}" title="{{ plan_level_label }}" role="img" aria-label="Level: {{ plan_level_label }}"><i></i><i></i><i></i></span>
+                                        </footer>
+                                    </a>
+                                </article>
+                            {% endfor %}
+            </div>
+        </div>
+        <div class="library-empty" id="library-empty" hidden>
+            <p>
+                No lesson plans match these filters.
+            </p>
+            <button class="lp-button lp-button-primary" type="button" id="library-empty-clear">
+                Clear all filters
+            </button>
+        </div>
+    </div>
+</div>
+<script src="{{ '/assets/js/lesson-plans.js' | relative_url }}"></script>
