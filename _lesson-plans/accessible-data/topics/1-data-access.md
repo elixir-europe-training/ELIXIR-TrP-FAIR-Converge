@@ -200,7 +200,7 @@ description: This lesson plan provides participants with a comprehensive overvie
 summary: This lesson plan provides participants with a comprehensive overview of data accessibility, focusing on the distinctions between open and restricted access, the role of data licenses, and the ethical and legal considerations involved. Participants will engage with examples, participate in discussions, and apply their knowledge through interactive activities. The goal is to develop a clear understanding of how data accessibility impacts research and collaborations.
 sources:
   - authors: Ritchie F
-    title: Five safes: designing data access for research
+    title: "Five safes: designing data access for research"
     year: 2016
 tasks_text: '**1.0 Reading:** FAIRsharing’s educational factsheet on databases
 
