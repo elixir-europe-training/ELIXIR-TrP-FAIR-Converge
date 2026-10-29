@@ -3,35 +3,27 @@ number: 6.3
 title: Findable Software
 status: in_progress
 layout: lesson-plan
-permalink: /plan/findable-software/
+permalink: "/plan/findable-software/"
 redirect_from:
-  - /units/fair-software/topics/3-Findable-software/
+- "/units/fair-software/topics/3-Findable-software/"
 authors:
-  - 0000-0001-9334-7190
-  - 0000-0002-1322-1553
-
-reviewers:
-
+- 0000-0001-9334-7190
+- 0000-0002-1322-1553
+reviewers: 
 fair_elements:
-  - F
-
+- F
 activities:
   before: []
   during: []
   after: []
-
 audience:
-  - Data stewards
-  - Software stewards
-  - Research software consultants
-
+- Data stewards
+- Software stewards
+- Research software consultants
 learning_outcomes:
-  1:
-    outcome: Name and navigate through a software directory, such as [RSD](https://research-software-directory.org/).
-  2:
-    outcome: Understand why metadata can help make research software more findable.
-  3:
-    outcome: List the important components of a README file.
+- title: Name and navigate through a software directory, such as [RSD](https://research-software-directory.org/).
+- title: Understand why metadata can help make research software more findable.
+- title: List the important components of a README file.
 doi: 10.5072/zenodo.627827
 zenodo_concept_doi: 10.5072/zenodo.627826
 zenodo_hash: 828af4aa5ae35c3a

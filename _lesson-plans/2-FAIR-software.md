@@ -3,36 +3,29 @@ number: 6.2
 title: FAIR Software
 status: in_progress
 layout: lesson-plan
-permalink: /plan/fair-software/
+permalink: "/plan/fair-software/"
 redirect_from:
-  - /units/fair-software/topics/2-FAIR-software/
+- "/units/fair-software/topics/2-FAIR-software/"
 authors:
-  - 0000-0001-9334-7190
-  - 0000-0002-1322-1553
-
-reviewers:
-
+- 0000-0001-9334-7190
+- 0000-0002-1322-1553
+reviewers: 
 fair_elements:
-  - F
-  - A
-  - I
-  - R
-
+- F
+- A
+- I
+- R
 activities:
   before: []
   during: []
   after: []
-
 audience:
-  - Data stewards
-  - Software stewards
-  - Research software consultants
-
+- Data stewards
+- Software stewards
+- Research software consultants
 learning_outcomes:
-  1:
-    outcome: Map FAIR principles to research software.
-  2:
-    outcome: Understand the benefits of ensuring research software is FAIR.
+- title: Map FAIR principles to research software.
+- title: Understand the benefits of ensuring research software is FAIR.
 doi: 10.5072/zenodo.627825
 zenodo_concept_doi: 10.5072/zenodo.627824
 zenodo_hash: 8278a660b13606cb

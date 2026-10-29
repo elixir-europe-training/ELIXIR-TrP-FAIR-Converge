@@ -98,7 +98,7 @@ end
 def outcomes(front)
   Array(front["learning_outcomes"]).map do |item|
     value = item.is_a?(Array) ? item.last : item
-    value.is_a?(Hash) ? value["outcome"] : value
+    value.is_a?(Hash) ? (value["title"] || value["outcome"]) : value
   end.compact
 end
 

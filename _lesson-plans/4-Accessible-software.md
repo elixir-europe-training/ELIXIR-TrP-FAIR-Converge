@@ -3,35 +3,27 @@ number: 6.4
 title: Accessible Software
 status: in_progress
 layout: lesson-plan
-permalink: /plan/accessible-software/
+permalink: "/plan/accessible-software/"
 redirect_from:
-  - /units/fair-software/topics/4-Accessible-software/
+- "/units/fair-software/topics/4-Accessible-software/"
 authors:
-  - 0000-0001-9334-7190
-  - 0000-0002-1322-1553
-
-reviewers:
-
+- 0000-0001-9334-7190
+- 0000-0002-1322-1553
+reviewers: 
 fair_elements:
-  - A
-
+- A
 activities:
   before: []
   during: []
   after: []
-
 audience:
-  - Data stewards
-  - Software stewards
-  - Research software consultants
-
+- Data stewards
+- Software stewards
+- Research software consultants
 learning_outcomes:
-  1:
-    outcome: Understand the importance of licences and the implications of not having one.
-  2:
-    outcome: Know how to create a CFF file.
-  3:
-    outcome: List some the pros and cons of popular software repositories, such as GitHub and GitLab.
+- title: Understand the importance of licences and the implications of not having one.
+- title: Know how to create a CFF file.
+- title: List some the pros and cons of popular software repositories, such as GitHub and GitLab.
 doi: 10.5072/zenodo.627829
 zenodo_concept_doi: 10.5072/zenodo.627828
 zenodo_hash: 13e089c8b6d28670

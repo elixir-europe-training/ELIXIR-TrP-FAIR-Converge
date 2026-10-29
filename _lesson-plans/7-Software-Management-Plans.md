@@ -3,26 +3,23 @@ number: 6.7
 title: Software Management Plans
 status: in_progress
 layout: lesson-plan
-permalink: /plan/software-management-plans/
+permalink: "/plan/software-management-plans/"
 redirect_from:
-  - /units/fair-software/topics/7-Software-Management-Plans/
+- "/units/fair-software/topics/7-Software-Management-Plans/"
 authors:
-  - 0000-0001-9334-7190
-  - 0000-0002-1322-1553
-
-reviewers:
-
+- 0000-0001-9334-7190
+- 0000-0002-1322-1553
+reviewers: 
 fair_elements: []
-learning_outcomes: {}
+learning_outcomes: []
 activities:
   before: []
   during: []
   after: []
-
 audience:
-  - Data stewards
-  - Software stewards
-  - Research software consultants
+- Data stewards
+- Software stewards
+- Research software consultants
 doi: 10.5072/zenodo.627835
 zenodo_concept_doi: 10.5072/zenodo.627834
 zenodo_hash: 465f33541fb37143

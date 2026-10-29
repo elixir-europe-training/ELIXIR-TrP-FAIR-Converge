@@ -3,233 +3,193 @@ number: 3.1
 title: Data Access
 status: published
 layout: lesson-plan
-permalink: /plan/data-access/
+permalink: "/plan/data-access/"
 redirect_from:
-  - /units/accessible-data/topics/1-data-access/
+- "/units/accessible-data/topics/1-data-access/"
 authors:
-  - 0000-0002-7702-4495
-  - 0000-0001-7791-4984
-  - 0000-0002-3440-6581
-  - 0000-0002-7398-0594
+- 0000-0002-7702-4495
+- 0000-0001-7791-4984
+- 0000-0002-3440-6581
+- 0000-0002-7398-0594
 reviewers:
-  - 0000-0002-0798-1724
+- 0000-0002-0798-1724
 fair_elements:
-  - A
+- A
 audience:
-  - Researchers and Project leaders
-  - Data stewards
-  - Data Managers
-  - Embedded Data Stewards
-  - Data controllers and processors
-  - Data protection officers
-  - Anyone who creates DMPs
-  - >-
-    Students and researchers (including PIs) in life sciences working on
-    personal and sensitive data
+- Researchers and Project leaders
+- Data stewards
+- Data Managers
+- Embedded Data Stewards
+- Data controllers and processors
+- Data protection officers
+- Anyone who creates DMPs
+- Students and researchers (including PIs) in life sciences working on personal and sensitive data
 learning_outcomes:
-  '1':
-    outcome: 'Identify types of data access: restricted versus open.'
-    verbs:
-      - verb: Identify
-        level: beginner
-  '2':
-    outcome: Identify copyright licenses.
-    verbs:
-      - verb: Identify
-        level: beginner
-  '3':
-    outcome: Understand accessibility of one or more datasets.
-    verbs:
-      - verb: Understand
-        level: beginner
-  '4':
-    outcome: Understand the legal requirements of restricted access data.
-    verbs:
-      - verb: Understand
-        level: beginner
-  '5':
-    outcome: >-
-      Apply appropriate legal procedures to restricted access data. For e.g.,
-      Data Access Committees,  Data Sharing Agreements. 
-    verbs:
-      - verb: Apply
-        level: intermediate
-  '6':
-    outcome: >-
-      Evaluate and apply several types of data licenses, including their
-      implications for data sharing, reuse, and protection, with attention to
-      legal and ethical considerations.
-    verbs:
-      - verb: Evaluate
-        level: expert
+- title: 'Identify types of data access: restricted versus open.'
+  levels:
+  - beginner
+- title: Identify copyright licenses.
+  levels:
+  - beginner
+- title: Understand accessibility of one or more datasets.
+  levels:
+  - beginner
+- title: Understand the legal requirements of restricted access data.
+  levels:
+  - beginner
+- title: Apply appropriate legal procedures to restricted access data. For e.g., Data Access Committees,  Data Sharing Agreements.
+  levels:
+  - intermediate
+- title: Evaluate and apply several types of data licenses, including their implications for data sharing, reuse, and protection, with attention to legal and ethical considerations.
+  levels:
+  - expert
 terms4FAIRskills:
-  - subject:
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
-        label: Data steward
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000202'
-        label: data librarian
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000520'
-        label: data manager
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000441'
-        label: principal investigator
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000220'
-        label: researcher
-    predicate:
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000558'
-        label: wants competency in
-    object:
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000107'
-        label: information security
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000124'
-        label: understand information security challenges
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000041'
-        label: understanding fair and open research challenges in your organization
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000142'
-        label: authorisation management
-  - subject:
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
-        label: Online documentation
-    predicate:
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000554'
-        label: confers competency about
-    object:
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000107'
-        label: information security
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000124'
-        label: understand information security challenges
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000041'
-        label: understanding fair and open research challenges in your organization
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000142'
-        label: authorisation management
-  - subject:
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
-        label: Online documentation
-    predicate:
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000555'
-        label: confers knowledge about
-    object:
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000283'
-        label: access
-  - subject:
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
-        label: Online documentation
-    predicate:
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000560'
-        label: supports implementation of
-    object:
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000478'
-        label: accessibility of digital assets
+- subject:
+  - uri: http://purl.obolibrary.org/obo/T4FS_0000178
+    label: Data steward
+  - uri: http://purl.obolibrary.org/obo/T4FS_0000202
+    label: data librarian
+  - uri: http://purl.obolibrary.org/obo/T4FS_0000520
+    label: data manager
+  - uri: http://purl.obolibrary.org/obo/T4FS_0000441
+    label: principal investigator
+  - uri: http://purl.obolibrary.org/obo/T4FS_0000220
+    label: researcher
+  predicate:
+  - uri: http://purl.obolibrary.org/obo/T4FS_0000558
+    label: wants competency in
+  object:
+  - uri: http://purl.obolibrary.org/obo/T4FS_0000107
+    label: information security
+  - uri: http://purl.obolibrary.org/obo/T4FS_0000124
+    label: understand information security challenges
+  - uri: http://purl.obolibrary.org/obo/T4FS_0000041
+    label: understanding fair and open research challenges in your organization
+  - uri: http://purl.obolibrary.org/obo/T4FS_0000142
+    label: authorisation management
+- subject:
+  - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+    label: Online documentation
+  predicate:
+  - uri: http://purl.obolibrary.org/obo/T4FS_0000554
+    label: confers competency about
+  object:
+  - uri: http://purl.obolibrary.org/obo/T4FS_0000107
+    label: information security
+  - uri: http://purl.obolibrary.org/obo/T4FS_0000124
+    label: understand information security challenges
+  - uri: http://purl.obolibrary.org/obo/T4FS_0000041
+    label: understanding fair and open research challenges in your organization
+  - uri: http://purl.obolibrary.org/obo/T4FS_0000142
+    label: authorisation management
+- subject:
+  - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+    label: Online documentation
+  predicate:
+  - uri: http://purl.obolibrary.org/obo/T4FS_0000555
+    label: confers knowledge about
+  object:
+  - uri: http://purl.obolibrary.org/obo/T4FS_0000283
+    label: access
+- subject:
+  - uri: http://purl.obolibrary.org/obo/T4FS_0000095
+    label: Online documentation
+  predicate:
+  - uri: http://purl.obolibrary.org/obo/T4FS_0000560
+    label: supports implementation of
+  object:
+  - uri: http://purl.obolibrary.org/obo/T4FS_0000478
+    label: accessibility of digital assets
 activities:
   during:
-    - learning_outcome: 1
-      activities: >-
-        **Exercise:**
+  - title: Group discussion on a use case
+    description: 'Explore the COVID-19 data registries such as the WHO Global Clinical Platform or other in FAIRsharing.org. If you want to add a level of complexity look for data registry that contains personal and or sensitive data. These examples can be found at: [https://fairsharing.org/FAIRsharing.42193d](https://fairsharing.org/FAIRsharing.42193d)'
+    duration_min: 20
+    type: Group exercise
+    level: beginner
+    learning_outcomes:
+    - 1
+  - title: Lecture
+    description: 'Explain and define types of access modes (tip: use examples from own research field)'
+    duration_min: 15
+    type: Lecture
+    level: beginner
+    learning_outcomes:
+    - 3
+  - title: Exercise
+    description: |-
+      Based on the case study previously provide have participants evaluate the following elements:&#x20;
 
+      A- The discoverability and how easy it was to find the data registry and the meta-data provided;
 
-        **Group discussion on a use case:** Explore the COVID-19 data registries
-        such as the WHO Global Clinical Platform or other in FAIRsharing.org. If
-        you want to add a level of complexity look for data registry that
-        contains personal and or sensitive data. These examples can be found at:
-        [https://fairsharing.org/FAIRsharing.42193d](https://fairsharing.org/FAIRsharing.42193d)
-      time: '20'
-      type: Group exercise
-      level: beginner
-    - learning_outcome: 3
-      activities: >-
-        **Lecture:**
+      &#x20;B- The usability, the formats, and  conditions of access;&#x20;
 
+      C- The quality of the data-set and opportunities for re-usability and inter-operability.
+    duration_min: 20
+    type: Group discussion
+    level: beginner
+    learning_outcomes:
+    - 3
+  - title: Exercise
+    description: |-
+      &#x20;
 
-        Explain and define types of access modes (tip: use examples from own
-        research field)
-      time: 15 minutes
-      type: Lecture
-      level: beginner
-    - learning_outcome: 3
-      activities: >-
-        **Exercise**
+      The second part of the exercise is to write a reflection on the case study (FAIRness of it) and how it can be improved.
+    duration_min: 20
+    type: Group exercise
+    level: beginner
+    learning_outcomes:
+    - 3
+  - title: Exercise
+    description: |-
+      &#x20;
 
-
-        Based on the case study previously provide have participants evaluate
-        the following elements:&#x20;
-
-
-        A- The discoverability and how easy it was to find the data registry and
-        the meta-data provided;
-
-
-        &#x20;B- The usability, the formats, and  conditions of access;&#x20;
-
-
-        C- The quality of the data-set and opportunities for re-usability and
-        inter-operability.
-      time: 20 minutes
-      type: Group discussion
-      level: beginner
-    - learning_outcome: 3
-      activities: >-
-        &#x20;**Exercise:**&#x20;
-
-
-        The second part of the exercise is to write a reflection on the case
-        study (FAIRness of it) and how it can be improved.
-      time: 20 minutes
-      type: Group exercise
-      level: beginner
-    - learning_outcome: 6
-      activities: >-
-        **Exercise:**&#x20;
-
-
-        Finally Prepare (contribute with) a use case from your institution and
-        share its solution with the community via a github page
-      time: '20 minutes '
-      type: 'Individual exercise '
-      level: beginner
+      Finally Prepare (contribute with) a use case from your institution and share its solution with the community via a github page
+    duration_min: 20
+    type: 'Individual exercise '
+    level: beginner
+    learning_outcomes:
+    - 6
   before:
-    - learning_outcome: 1
-      activities: |-
-        **Reading:**&#x20;
+  - title: Reading
+    description: |-
+      &#x20;
 
-        FAIRsharing’s educational factsheet on databases
-      time: '20'
-      type: Reading
-      level: beginner
+      FAIRsharing’s educational factsheet on databases
+    duration_min: 20
+    type: Reading
+    level: beginner
+    learning_outcomes:
+    - 1
 prerequisites:
-  - Have a minimum understanding of the FAIR principles
+- Have a minimum understanding of the FAIR principles
 description: This lesson plan provides participants with a comprehensive overview of data accessibility, focusing on the distinctions between open and restricted access, the role of data licenses, and the ethical and legal considerations involved. Participants will engage with examples, participate in discussions, and apply their knowledge through interactive activities. The goal is to develop a clear understanding of how data accessibility impacts research and collaborations.
 summary: This lesson plan provides participants with a comprehensive overview of data accessibility, focusing on the distinctions between open and restricted access, the role of data licenses, and the ethical and legal considerations involved. Participants will engage with examples, participate in discussions, and apply their knowledge through interactive activities. The goal is to develop a clear understanding of how data accessibility impacts research and collaborations.
 sources:
-  - authors: Ritchie F
-    title: "Five safes: designing data access for research"
-    year: 2016
-tasks_text: '**1.0 Reading:** FAIRsharing’s educational factsheet on databases
-
+- authors: Ritchie F
+  title: 'Five safes: designing data access for research'
+  year: 2016
+tasks_text: |-
+  **1.0 Reading:** FAIRsharing’s educational factsheet on databases
 
   **2.0 Exercise use case:** Explore the COVID-19 data registries such as the WHO Global Clinical Platform or other in FAIRsharing.org. If you want to add a level of complexity look for data registry that contains personal and or sensitive data. These examples can be found at: [https://fairsharing.org/FAIRsharing.42193d](https://fairsharing.org/FAIRsharing.42193d)
 
-
   **3.0 Exercise:** Define types of access modes (tip: use examples from own research field)
-
 
   **4.0 Exercise evaluate the following elements:** A- The discoverability and how easy it was to find the data registry and the meta-data provided; B- The usability, the formats, and  conditions of access; C- The quality of the data-set and opportunities for re-usability and inter-operability.
 
-
   **5.0 Exercise:** The second part of the exercise is to write a reflection on the case study (FAIRness of it) and how it can be improved.
-
 
   **6.0 Exercise:** Finally Prepare (contribute with) a use case from your institution and share its solution with the community via a github page
 
-
-  ***'
+  ***
 materials:
-  text: '* Personal computer
-
+  text: |-
+    * Personal computer
     * Internet connection
-
     * Browser
 
-
-    ***'
+    ***
 take_home: Mastering data accessibility turns compliance into collaboration. By pairing proper data licenses with transparent access controls early, researchers protect sensitive outputs while building strong foundations for interdisciplinary sharing.
 doi: 10.5072/zenodo.627809
 zenodo_concept_doi: 10.5072/zenodo.627808

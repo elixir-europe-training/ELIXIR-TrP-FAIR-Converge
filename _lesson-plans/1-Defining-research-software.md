@@ -3,43 +3,33 @@ number: 6.1
 title: Defining research software
 status: in_progress
 layout: lesson-plan
-permalink: /plan/defining-research-software/
+permalink: "/plan/defining-research-software/"
 redirect_from:
-  - /units/fair-software/topics/1-Defining-research-software/
+- "/units/fair-software/topics/1-Defining-research-software/"
 authors:
-  - 0000-0001-9334-7190
-  - 0000-0002-1322-1553
-
-reviewers:
-
+- 0000-0001-9334-7190
+- 0000-0002-1322-1553
+reviewers: 
 fair_elements:
-  - F
-  - A
-  - I
-  - R
-
+- F
+- A
+- I
+- R
 activities:
   before: []
   during: []
   after: []
-
 audience:
-  - Data stewards
-  - Software stewards
-  - Research software consultants
-
+- Data stewards
+- Software stewards
+- Research software consultants
 learning_outcomes:
-  1:
-    outcome: Provide a concise definition of research software.
-  2:
-    outcome: Differentiate between research software and 'software in research'.
-  3:
-    outcome: Provide examples of research software (e.g., a GitHub repository, a file on your local machine).
-  4:
-    outcome: Understand the challenges facing the development of research software in the current academic landscape.
-
+- title: Provide a concise definition of research software.
+- title: Differentiate between research software and 'software in research'.
+- title: Provide examples of research software (e.g., a GitHub repository, a file on your local machine).
+- title: Understand the challenges facing the development of research software in the current academic landscape.
 prerequisites:
-  - Have basic knowledge of the FAIR Principles.
+- Have basic knowledge of the FAIR Principles.
 doi: 10.5072/zenodo.627823
 zenodo_concept_doi: 10.5072/zenodo.627822
 zenodo_hash: 2fab730b72049e13

@@ -3,37 +3,28 @@ number: 6.6
 title: Reusable Software
 status: in_progress
 layout: lesson-plan
-permalink: /plan/reusable-software/
+permalink: "/plan/reusable-software/"
 redirect_from:
-  - /units/fair-software/topics/6-Reusable-software/
+- "/units/fair-software/topics/6-Reusable-software/"
 authors:
-  - 0000-0001-9334-7190
-  - 0000-0002-1322-1553
-
-reviewers:
-
+- 0000-0001-9334-7190
+- 0000-0002-1322-1553
+reviewers: 
 fair_elements:
-  - R
-
+- R
 activities:
   before: []
   during: []
   after: []
-
 audience:
-  - Data stewards
-  - Software stewards
-  - Research software consultants
-
+- Data stewards
+- Software stewards
+- Research software consultants
 learning_outcomes:
-  1:
-    outcome: Understand the benefits of virtual environments for reusability.
-  2:
-    outcome: Have sufficient understanding of modular scripting to identify it within a repository and translate a single (large) script into multiple (smaller) modules.
-  3:
-    outcome: Define version control and have a basic understanding of how git operates.
-  4:
-    outcome: Be able to critically assess whether automated testing might be worth implementing for a research software project.
+- title: Understand the benefits of virtual environments for reusability.
+- title: Have sufficient understanding of modular scripting to identify it within a repository and translate a single (large) script into multiple (smaller) modules.
+- title: Define version control and have a basic understanding of how git operates.
+- title: Be able to critically assess whether automated testing might be worth implementing for a research software project.
 doi: 10.5072/zenodo.627833
 zenodo_concept_doi: 10.5072/zenodo.627832
 zenodo_hash: ba6f1bb9838217af

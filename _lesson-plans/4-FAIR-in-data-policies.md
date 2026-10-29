@@ -1,258 +1,161 @@
 ---
 number: 1.4
-title: >-
-  FAIR and/in institutional data policies: How to efficiently create and Open
-  Science Action Plan
+title: 'FAIR and/in institutional data policies: How to efficiently create and Open Science Action Plan'
 status: ready_for_review
 layout: lesson-plan
-permalink: /plan/fair-in-data-policies/
+permalink: "/plan/fair-in-data-policies/"
 redirect_from:
-  - /units/fair-generics/topics/4-FAIR-in-data-policies/
+- "/units/fair-generics/topics/4-FAIR-in-data-policies/"
 authors:
-  - 0000-0003-2313-0011
-  - 0000-0003-1391-9959
-  - 0000-0001-9235-8496
+- 0000-0003-2313-0011
+- 0000-0003-1391-9959
+- 0000-0001-9235-8496
 reviewers:
-  - 0000-0002-7702-4495
-  - 0000-0002-7398-0594
+- 0000-0002-7702-4495
+- 0000-0002-7398-0594
 fair_elements:
-  - F
-  - A
-  - I
-  - R
+- F
+- A
+- I
+- R
 audience:
-  - 'Data Stewards, Data Managers - Especially policy-oriented'
-  - >-
-    Policymakers and research administrators at institutions' research support
-    units
-  - >-
-    Other research support staff, e.g. Data Protection Officers, University
-    Librarians, who understand the importance of data policies
-  - Principal Investigators
+- Data Stewards, Data Managers - Especially policy-oriented
+- Policymakers and research administrators at institutions' research support units
+- Other research support staff, e.g. Data Protection Officers, University Librarians, who understand the importance of data policies
+- Principal Investigators
 learning_outcomes:
-  '1':
-    outcome: >-
-      Identify how FAIR principles can be adopted in institutional-level
-      policies.
-  '2':
-    outcome: >-
-      Describe how institutional policy commitment to the FAIR principles can
-      strengthen policies and efforts in safeguarding research integrity.
-  '3':
-    outcome: >-
-      Understand that writing and implementing institutional policies is a
-      collaborative effort.
-  '4':
-    outcome: >-
-      Recognise the importance of engaging with different policy owners from
-      different units (e.g., IT, ethics) to develop a cohesive FAIR research
-      data framework.
-  '5':
-    outcome: >-
-      Know where to search for existing data (management) policies or their
-      templates
-  '6':
-    outcome: Know how to make your policies more FAIR
-  '7':
-    outcome: Sketch the basic elements of a FAIR data policy.
-  '8':
-    outcome: 'Describe how are the policies properly disseminated, used and built upon'
+- title: Identify how FAIR principles can be adopted in institutional-level policies.
+- title: Describe how institutional policy commitment to the FAIR principles can strengthen policies and efforts in safeguarding research integrity.
+- title: Understand that writing and implementing institutional policies is a collaborative effort.
+- title: Recognise the importance of engaging with different policy owners from different units (e.g., IT, ethics) to develop a cohesive FAIR research data framework.
+- title: Know where to search for existing data (management) policies or their templates
+- title: Know how to make your policies more FAIR
+- title: Sketch the basic elements of a FAIR data policy.
+- title: Describe how are the policies properly disseminated, used and built upon
 additionalResources:
-  - title: >-
-      How to be FAIR with your data: A teaching and training handbook for higher
-      education institutions
-    url: 'https://doi.org/10.5281/zenodo.6674301'
-  - title: Institutional Research Data Management Policies and Procedures
-    author: Australian Research Data Commons
-    url: 'https://doi.org/10.5281/zenodo.5784765'
-  - title: >-
-      Practical Guide to the International Alignment of Research Data Management
-      - Extended Edition
-    author: Science Europe
-    url: 'https://doi.org/10.5281/zenodo.4915862'
-  - title: FAIR-enabling Data Policy Checklist (1.0)
-    author: >-
-      Davidson, Joy, Grootveld, Marjan, Verburg, Maaike, van Horik, René,
-      O'Connor, Ryan, et al.
-    url: 'https://doi.org/10.5281/zenodo.6225775'
+- title: 'How to be FAIR with your data: A teaching and training handbook for higher education institutions'
+  url: https://doi.org/10.5281/zenodo.6674301
+- title: Institutional Research Data Management Policies and Procedures
+  url: https://doi.org/10.5281/zenodo.5784765
+  authors: Australian Research Data Commons
+- title: Practical Guide to the International Alignment of Research Data Management - Extended Edition
+  url: https://doi.org/10.5281/zenodo.4915862
+  authors: Science Europe
+- title: FAIR-enabling Data Policy Checklist (1.0)
+  url: https://doi.org/10.5281/zenodo.6225775
+  authors: Davidson, Joy, Grootveld, Marjan, Verburg, Maaike, van Horik, René, O'Connor, Ryan, et al.
 activities:
   before: []
   during:
-    - learning_outcome: 1
-      activities: >-
-        **Lecture:**&#x20;
+  - title: 'Give a short introduction to Data Policies: why it is important to have research data policies?'
+    description: |-
+      * Responsibility for good data governance and management practices
+      * "Institutional policies underpin staffing and resource allocation, approaches and workflows, and can enable and support (or hinder) new practices. Therefore, implementing the FAIR principles for research data at the institutional level needs a review of existing policies to remove potential stumbling blocks and adoption of research data policies embracing FAIR." D7.4 How to be FAIR with your data. A teaching and training handbook for higher education institutions. Page: 51, [https://doi.org/10.5281/zenodo.6674301](https://doi.org/10.5281/zenodo.6674301)
+    duration_min: 30
+    type: Lecture
+    level: beginner
+    learning_outcomes:
+    - 1
+  - title: The Maastricht University FAIR Data Blueprint
+    description: |-
+      &#x20;
 
+      * **Goal Tackled:** Analyzing a case study from the Faculty of Health, Medicine, and Life Sciences at Maastricht University.
+      * **The Task:** Provide participants with an excerpt or a structured summary of the Maastricht University framework. Have them act as "peer reviewers" to identify exactly how the faculty incentivized researchers to adopt the policy. Ask them: *“What elements of this case study could be copied directly into your own institution, and what would fail due to culture differences?”*
+      * <u>***The text to Analyze is the FAIR data use executive summary from the policy adopted at the Faculty of Life and Health Sciences:*** </u>
 
-        **Give a short introduction to Data Policies: why it is important to
-        have research data policies?**
+      **FAIR data use** 
 
+      Since the implementation of the FAIR Action Plans in 2019, which subsequently informed the Open Science Action Plan, significant efforts have been made by frontline practitioners to promote FAIR data use and support researchers. To enhance these efforts, we have significantly increased our support for researchers. 
 
-        * Responsibility for good data governance and management practices
+      Our Generic Data Stewards have provided assistance to 435 researchers in developing their Data Management Plans (DMPs) and ensuring follow-up support. Furthermore, we have fostered a network of Embedded Data Stewards within individual departments and schools to ensure widespread support across the faculty and standardize best practices. 
 
-        * "Institutional policies underpin staffing and resource allocation,
-        approaches and workflows, and can enable and support (or hinder) new
-        practices. Therefore, implementing the FAIR principles for research data
-        at the institutional level needs a review of existing policies to remove
-        potential stumbling blocks and adoption of research data policies
-        embracing FAIR." D7.4 How to be FAIR with your data. A teaching and
-        training handbook for higher education institutions. Page: 51,
-        [https://doi.org/10.5281/zenodo.6674301](https://doi.org/10.5281/zenodo.6674301)
-      time: '30'
-      type: Lecture
-      level: beginner
-    - learning_outcome: 2
-      activities: "**Exercise:**\n\n**The Maastricht University FAIR Data Blueprint**&#x20;\n\n* **Goal Tackled:** Analyzing a case study from the Faculty of Health, Medicine, and Life Sciences at Maastricht University.\n* **The Task:** Provide participants with an excerpt or a structured summary of the Maastricht University framework. Have them act as \"peer reviewers\" to identify exactly how the faculty incentivized researchers to adopt the policy. Ask them: *“What elements of this case study could be copied directly into your own institution, and what would fail due to culture differences?”*\n* <u>***The text to Analyze is the FAIR data use executive summary from the policy adopted at the Faculty of Life and Health Sciences:*** </u>\n\n**FAIR data use**\_\n\nSince the implementation of the FAIR Action Plans in 2019, which\_subsequently\_informed the Open Science Action Plan, significant efforts have been made by frontline practitioners to promote FAIR data use and support researchers. To enhance these efforts, we have significantly increased our support for researchers.\_\n\nOur Generic Data Stewards have\_provided assistance to\_435 researchers in developing their Data Management Plans (DMPs) and ensuring\_follow-up support.\_Furthermore, we have fostered a network of Embedded Data Stewards within individual departments and schools to ensure widespread support across the faculty and standardize best practices.\_\n\nThe efforts of data stewards and the research community have\_resulted in\_the publication\_of\_212 publicly available data sets in\_DataverseNL.\_Internally, 370 TB of data stored in the Maastricht Data Repository.\_For both repositories, data stewards assure the curation of data sets.\_\n\n\_\n\n* **Trainer Tip:** *This helps trainers facilitate a realistic discussion about institutional culture and policy adoption.*"
-      time: '20'
-      type: Interactive Case Study
-      level: intermediate
-    - learning_outcome: 2
-      activities: >-
-        **Lecture:**&#x20;
+      The efforts of data stewards and the research community have resulted in the publication of 212 publicly available data sets in DataverseNL. Internally, 370 TB of data stored in the Maastricht Data Repository. For both repositories, data stewards assure the curation of data sets. 
 
+       
 
-        **Going through typical steps to implement new or updated policies will
-        involve**&#x20;
+      * **Trainer Tip:** *This helps trainers facilitate a realistic discussion about institutional culture and policy adoption.*
+    duration_min: 20
+    type: Interactive Case Study
+    level: intermediate
+    learning_outcomes:
+    - 2
+  - title: Going through typical steps to implement new or updated policies will involve
+    description: |-
+      &#x20;
 
+      * 1\.  Identifying the relevant policy documents, their owners and relevant stakeholders. FAIRsharing has a [policy registry](https://fairsharing.org/policies) of 160 policies, with a sub-section specifically for [institutional policies](https://fairsharing.org/search?fairsharingRegistry=Policy\&recordType=institution\&page=1), from which exemplar policies could be reviewed.
+      * 2\.  Help students understand the interdependencies between policies and the procedures in place to implement or update them.
+      * 3\. Explain informal discussions with relevant stakeholders about the needs and benefits of new or updated policies. Understanding requirements and potential roadblocks.
+      * 4\.  Give examples on how to propose new policy statements (in new or updated policy documents) (see the item below regarding the collaboration between the Digital Curation Centre (DCC) and FAIRsharing for the creation of new institutional data policies that align with the FAIR principles).
+      * 5\.  Help students understand consultations and discussions to reach a consensus with all stakeholders.
+      * 6\.  Explain ways to influence policy owners forward the proposed changes (or new policies) for approval by senior management, such as the school council or senate.
 
-        * 1\.  Identifying the relevant policy documents, their owners and
-        relevant stakeholders. FAIRsharing has a [policy
-        registry](https://fairsharing.org/policies) of 160 policies, with a
-        sub-section specifically for [institutional
-        policies](https://fairsharing.org/search?fairsharingRegistry=Policy\&recordType=institution\&page=1),
-        from which exemplar policies could be reviewed.
+      **Some helpful examples can be the following:**&#x20;
 
-        * 2\.  Help students understand the interdependencies between policies
-        and the procedures in place to implement or update them.
+      * The DCC (on behalf of the FAIRsFAIR project) and FAIRsharing have collaborated on a data policy description workflow designed to help with the creation of FAIR data policies. Remember, in order to be FAIR your policy should be described in a way appropriate for both humans and machines, and this workflow will achieve that. DCC and FAIRsharing have aligned three community-developed data policy description efforts, making it easier than ever to create FAIR-aligned data policies and make policy descriptions more accessible to both humans and machines. The FAIRsharing data policy registry, the FAIRsFAIR FAIR data Policy Checklist, and the RDA's Journal Policy Features have all been aligned and integrated within the FAIRsharing data model. Details of this collaboration, and how to implement it, are provided within joint news items ([DCC news item](https://dcc.ac.uk/blog/fairsharing-and-dcc-collaborate-align-policy-metadata), [FAIRsharing news item](https://blog.fairsharing.org/?p=451)). (We also have slides to help you, and can provide further info if required.)
+      * Going through stakeholders who should be involved in making a FAIR DM policy. Recognise stakeholders (at institutions) who should be involved in the making/updating and implementation of a data policy.
+        * Research offices, IT department, libraries, ethics boards, data protection offices, research departments or units / individual researchers, senior management
+      * Creation and/or modification of a data policy that supports FAIR data management.
+        * Use of the DCC FAIR data policy checklist to create a data policy
+        * Typical steps to implement new or updated policies will involve from D7.4 How to be FAIR with your data. A teaching and training handbook for higher education institutions. Page: 52, [https://doi.org/10.5281/zenodo.6674301](https://doi.org/10.5281/zenodo.6674301).
+      * Briefly introduce actions contributing to the actual FAIRness of the policy
+      * Discuss how is the policy disseminated and used
+        * Documents which should refer to the policies including Data Management Plan (DMP), Data Protection Impact Assessment (DPIA), procedures, ethical approval
+        * Dissemination to different stakeholders via e.g. training events or a newsletter.
+        * Registration within FAIRsharing
+    duration_min: 20
+    type: lecture
+    level: beginner
+    learning_outcomes:
+    - 2
+  - title: The policy anatomy Sketch
+    description: |-
+      &#x20;
 
-        * 3\. Explain informal discussions with relevant stakeholders about the
-        needs and benefits of new or updated policies. Understanding
-        requirements and potential roadblocks.
+      * **Learning Objective:** Identify and sketch the essential structural components required to build a functional institutional FAIR data policy.
+      * **Format:** Small group workshop activity (20–30 minutes) using a whiteboard, digital canvas (Miro/Padlet), or a paper worksheet.
+      * **Materials Provided by Trainer:** The "Policy Anatomy" Worksheet (printed or digital).
 
-        * 4\.  Give examples on how to propose new policy statements (in new or
-        updated policy documents) (see the item below regarding the
-        collaboration between the Digital Curation Centre (DCC) and FAIRsharing
-        for the creation of new institutional data policies that align with the
-        FAIR principles).
+      ### 1. The Setup & Prompt (5 mins)
 
-        * 5\.  Help students understand consultations and discussions to reach a
-        consensus with all stakeholders.
+      **Instructions for the Trainer:** Divide participants into small groups based on their home institutions (or mix them if you want to contrast different institutional cultures). Hand out the Policy Anatomy worksheet below.
 
-        * 6\.  Explain ways to influence policy owners forward the proposed
-        changes (or new policies) for approval by senior management, such as the
-        school council or senate.
+      * **Trainer Prompt to Participants:** *"A functional FAIR data policy isn't just a list of rules; it's a structural anatomy that assigns clear roles and boundaries. Look at the five essential pillars on your worksheet. Your task is to look at your own institution and answer the core questions for each structural block. If your institution doesn't have an answer yet, sketch out what the ideal answer should look like."*
 
+      ### 2. The Exercise: Mapping the Anatomy (15 mins)
 
-        **Some helpful examples can be the following:**&#x20;
+      Participants work together to fill out the following table on their worksheet or digital canvas:
 
-
-        * The DCC (on behalf of the FAIRsFAIR project) and FAIRsharing have
-        collaborated on a data policy description workflow designed to help with
-        the creation of FAIR data policies. Remember, in order to be FAIR your
-        policy should be described in a way appropriate for both humans and
-        machines, and this workflow will achieve that. DCC and FAIRsharing have
-        aligned three community-developed data policy description efforts,
-        making it easier than ever to create FAIR-aligned data policies and make
-        policy descriptions more accessible to both humans and machines. The
-        FAIRsharing data policy registry, the FAIRsFAIR FAIR data Policy
-        Checklist, and the RDA's Journal Policy Features have all been aligned
-        and integrated within the FAIRsharing data model. Details of this
-        collaboration, and how to implement it, are provided within joint news
-        items ([DCC news
-        item](https://dcc.ac.uk/blog/fairsharing-and-dcc-collaborate-align-policy-metadata),
-        [FAIRsharing news item](https://blog.fairsharing.org/?p=451)). (We also
-        have slides to help you, and can provide further info if required.)
-
-        * Going through stakeholders who should be involved in making a FAIR DM
-        policy. Recognise stakeholders (at institutions) who should be involved
-        in the making/updating and implementation of a data policy.
-          * Research offices, IT department, libraries, ethics boards, data protection offices, research departments or units / individual researchers, senior management
-        * Creation and/or modification of a data policy that supports FAIR data
-        management.
-          * Use of the DCC FAIR data policy checklist to create a data policy
-          * Typical steps to implement new or updated policies will involve from D7.4 How to be FAIR with your data. A teaching and training handbook for higher education institutions. Page: 52, [https://doi.org/10.5281/zenodo.6674301](https://doi.org/10.5281/zenodo.6674301).
-        * Briefly introduce actions contributing to the actual FAIRness of the
-        policy
-
-        * Discuss how is the policy disseminated and used
-          * Documents which should refer to the policies including Data Management Plan (DMP), Data Protection Impact Assessment (DPIA), procedures, ethical approval
-          * Dissemination to different stakeholders via e.g. training events or a newsletter.
-          * Registration within FAIRsharing
-      time: 20 min
-      type: lecture
-      level: beginner
-    - learning_outcome: 7
-      activities: >-
-        **Exercise**&#x20;
-
-
-        **The policy anatomy Sketch**&#x20;
-
-
-        * **Learning Objective:** Identify and sketch the essential structural
-        components required to build a functional institutional FAIR data
-        policy.
-
-        * **Format:** Small group workshop activity (20–30 minutes) using a
-        whiteboard, digital canvas (Miro/Padlet), or a paper worksheet.
-
-        * **Materials Provided by Trainer:** The "Policy Anatomy" Worksheet
-        (printed or digital).
-
-
-        ### 1. The Setup & Prompt (5 mins)
-
-
-        **Instructions for the Trainer:** Divide participants into small groups
-        based on their home institutions (or mix them if you want to contrast
-        different institutional cultures). Hand out the Policy Anatomy worksheet
-        below.
-
-
-        * **Trainer Prompt to Participants:** *"A functional FAIR data policy
-        isn't just a list of rules; it's a structural anatomy that assigns clear
-        roles and boundaries. Look at the five essential pillars on your
-        worksheet. Your task is to look at your own institution and answer the
-        core questions for each structural block. If your institution doesn't
-        have an answer yet, sketch out what the ideal answer should look like."*
-
-
-        ### 2. The Exercise: Mapping the Anatomy (15 mins)
-
-
-        Participants work together to fill out the following table on their
-        worksheet or digital canvas:
-
-
-        | Policy Pillar / Role        | Key Prompt
-        Questions                                                                                                               
-        | Participant Answers / Institutional Sketch |
-
-        | 
+      | Policy Pillar / Role        | Key Prompt Questions                                                                                                                | Participant Answers / Institutional Sketch |
+      |
+    learning_outcomes:
+    - 7
 description: This lesson plan equips trainers to teach the value of standardized institutional data policies and the systemic benefits of adopting FAIR principles. Designed for the Health and Life Sciences domain, the module guides trainers through instructing others on how to write and configure a practical FAIR & Open Science Plan. To ground these concepts, the lesson features a real-world case study from the Faculty of Health, Medicine, and Life Sciences at Maastricht University, providing trainers with concrete examples to facilitate discussion and active learning.
 summary: This lesson plan equips trainers to teach the value of standardized institutional data policies and the systemic benefits of adopting FAIR principles. Designed for the Health and Life Sciences domain, the module guides trainers through instructing others on how to write and configure a practical FAIR & Open Science Plan. To ground these concepts, the lesson features a real-world case study from the Faculty of Health, Medicine, and Life Sciences at Maastricht University, providing trainers with concrete examples to facilitate discussion and active learning.
 sources:
-  - authors: FAIR Metroline
-    title: Define FAIRification objectives
-    type: Internet
-    url: 'https://fairmetroline.org/metroline_steps/define_fairification_objectives'
-    accessed: 2026-09-01
-tasks_text: '**1.0 Lecture - Introduction to Research Data Policies:** A brief presentation introducing institutional data policies, detailing why they are critical for securing compliance, funding eligibility, and institutional prestige.
-
+- authors: FAIR Metroline
+  title: Define FAIRification objectives
+  type: Internet
+  url: https://fairmetroline.org/metroline_steps/define_fairification_objectives
+  accessed: 2026-09-01
+tasks_text: |-
+  **1.0 Lecture - Introduction to Research Data Policies:** A brief presentation introducing institutional data policies, detailing why they are critical for securing compliance, funding eligibility, and institutional prestige.
 
   **2.0 Case Study Analysis - The Maastricht University FAIR Data Blueprint:** Participants review a real-world institutional example, exploring how Maastricht University structured and launched its integrated FAIR Open Science Action Plan.
 
-
   **3.0 Lecture - Strategic Steps for Policy Implementation:** A concise lecture mapping out the institutional milestones required to move from policy drafting to full campus-wide implementation and adoption.
-
 
   **4.0 Practical Policy Simulation:** The trainer selects an interactive exercise based on audience needs:
 
-
   * *Option A (Exercise 7):* Simulating stakeholder buy-in and mapping policy requirements.
-
-  * *Option B (Exercise 8):* Evaluating existing drafts against international framework criteria.'
+  * *Option B (Exercise 8):* Evaluating existing drafts against international framework criteria.
 materials:
-  text: "* **For Participants:** A computer or tablet with a stable internet connection for policy review, online research, and collaborative case analysis.\n* **For the Trainer:**\n  * *Virtual Delivery:* An online interactive whiteboard (e.g., Miro) to map stakeholders and track policy exercises.\n  * *In-Person Delivery:* A projector/display for lectures, accompanied by physical chart paper, sticky notes, and markers for group work."
+  text: |-
+    * **For Participants:** A computer or tablet with a stable internet connection for policy review, online research, and collaborative case analysis.
+    * **For the Trainer:**
+      * *Virtual Delivery:* An online interactive whiteboard (e.g., Miro) to map stakeholders and track policy exercises.
+      * *In-Person Delivery:* A projector/display for lectures, accompanied by physical chart paper, sticky notes, and markers for group work.
 take_home: Standardized FAIR policies transform data management from an administrative burden into a strategic asset—enabling researchers to build practical, compliant Open Science Plans grounded in real-world institutional practice.
 doi: 10.5072/zenodo.627819
 zenodo_concept_doi: 10.5072/zenodo.627818
