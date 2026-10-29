@@ -337,10 +337,19 @@ additionalResources:
     url: 'https://fairsharing.org/stakeholders'
 description: This topic introduces participants to the foundational concepts of the FAIR principles (Findable, Accessible, Interoperable, Reusable). It highlights how stakeholders, researchers, and the broader community benefit from FAIR implementation, while exploring the growing incentives from journals, funding bodies, and institutions that tie FAIR compliance to scientific impact. A fundamental understanding of FAIR and its role across all stages of the research lifecycle is vital for driving successful implementation.
 summary: This topic introduces participants to the foundational concepts of the FAIR principles (Findable, Accessible, Interoperable, Reusable). It highlights how stakeholders, researchers, and the broader community benefit from FAIR implementation, while exploring the growing incentives from journals, funding bodies, and institutions that tie FAIR compliance to scientific impact. A fundamental understanding of FAIR and its role across all stages of the research lifecycle is vital for driving successful implementation.
-sources: 'GO FAIR. (n.d.). *FAIR principles*. Retrieved September 1, 2026, from[https://www.go-fair.org/fair-principles/](https://www.go-fair.org/fair-principles/)
-
-
-  Wilkinson, M., Dumontier, M., Aalbersberg, I. *et al.* The FAIR Guiding Principles for scientific data management and stewardship. *Sci Data* **3**, 160018 (2016). [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)'
+sources:
+  - authors: GO FAIR
+    title: FAIR principles
+    type: Internet
+    url: 'https://www.go-fair.org/fair-principles/'
+    accessed: 2026-09-01
+  - authors: Wilkinson MD, Dumontier M, Aalbersberg IJ, et al
+    title: The FAIR Guiding Principles for scientific data management and stewardship
+    journal: Sci Data
+    year: 2016
+    volume: 3
+    pages: '160018'
+    doi: 10.1038/sdata.2016.18
 tasks:
 - title: Pre-Workshop Assignment
   description: Participants read a foundational academic article to familiarize themselves with the FAIR principles before the session begins.

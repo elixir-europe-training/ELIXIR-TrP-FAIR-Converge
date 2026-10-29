@@ -649,6 +649,10 @@ body:has(.library-page) > .container {
   font-size: 11.5px;
   white-space: nowrap;
 }
+/* Keep anchored sections clear of the sticky header (56px) and condensed bar. */
+.lp-card[id], .lp-citation[id] {
+  scroll-margin-top: 120px;
+}
 .lp-condensed-bar {
   max-height: 0;
   opacity: 0;
@@ -1147,6 +1151,49 @@ body:has(.library-page) > .container {
 }
 .lp-resources-card > div {
   padding: 0 30px 24px;
+}
+.lp-refs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: lp-ref;
+}
+.lp-ref {
+  position: relative;
+  padding: 7px 0 7px 32px;
+  counter-increment: lp-ref;
+  color: #544d44;
+  font-size: 14px;
+  line-height: 1.65;
+}
+.lp-ref::before {
+  content: counter(lp-ref) ".";
+  position: absolute;
+  left: 0;
+  width: 22px;
+  color: var(--lp-muted);
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+.lp-ref-title a {
+  color: var(--lp-navy);
+  text-decoration: underline;
+  text-decoration-color: var(--lp-border-strong);
+  text-underline-offset: 3px;
+}
+.lp-ref-title a:hover {
+  text-decoration-color: var(--lp-teal);
+}
+.lp-ref-type, .lp-ref-accessed, .lp-ref-details, .lp-ref-note {
+  color: var(--lp-muted);
+}
+.lp-ref-note {
+  display: block;
+  font-size: 13px;
+}
+.lp-ref-doi {
+  color: var(--lp-muted);
+  word-break: break-all;
 }
 .lp-reference-list {
   margin: 0;

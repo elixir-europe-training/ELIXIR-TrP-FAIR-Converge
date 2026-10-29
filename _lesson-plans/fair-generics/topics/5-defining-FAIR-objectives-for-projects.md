@@ -297,10 +297,19 @@ prerequisites:
   - Basic knowledge of Data Management
 description: This module provides trainers with the pedagogical framework needed to teach effective DMP creation. The lesson plan covers the core requirements and overarching purpose of a DMP, preparing trainers to confidently explain these concepts to peers and researchers. Special emphasis is placed on identifying common drafting pitfalls and resolving complex legal, ethical, and privacy dilemmas. Additionally, the session prepares trainers to introduce diverse DMP templates, facilitate hands-on drafting exercises, and connect researchers with vital institutional support systems.
 summary: This module provides trainers with the pedagogical framework needed to teach effective DMP creation. The lesson plan covers the core requirements and overarching purpose of a DMP, preparing trainers to confidently explain these concepts to peers and researchers. Special emphasis is placed on identifying common drafting pitfalls and resolving complex legal, ethical, and privacy dilemmas. Additionally, the session prepares trainers to introduce diverse DMP templates, facilitate hands-on drafting exercises, and connect researchers with vital institutional support systems.
-sources: 'Michener, W. K. (2015). Ten simple rules for creating a good data management plan. *PLoS computational biology*, *11*(10), e1004525.
-
-
-  Vivas-Romero, M. (2025) [DMP Training Session MUMC+ FHML | Zenodo](https://zenodo.org/records/20344397)'
+sources:
+  - authors: Michener WK
+    title: Ten simple rules for creating a good data management plan
+    journal: PLoS Comput Biol
+    year: 2015
+    volume: 11
+    number: 10
+    pages: e1004525
+  - authors: Vivas-Romero M
+    title: DMP Training Session MUMC+ FHML
+    publisher: Zenodo
+    year: 2025
+    url: 'https://zenodo.org/records/20344397'
 tasks_text: 'This lesson is divided itself in the 3 phases: ​
 
 

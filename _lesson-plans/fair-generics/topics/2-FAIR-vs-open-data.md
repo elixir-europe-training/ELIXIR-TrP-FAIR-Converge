@@ -348,7 +348,13 @@ activities:
         | 
 description: This lesson plan explores the distinct boundaries, intersections, and synergies between Open Science and the FAIR principles. While Open Science focuses on making research, data, and methods freely available to everyone—from professionals to citizens—FAIR focuses on making data optimized for discovery and reuse (by both humans and machines), regardless of whether it is openly accessible or restricted. Understanding this distinction allows trainers to help researchers navigate data sharing responsibly, balancing public access with necessary data protections.
 summary: This lesson plan explores the distinct boundaries, intersections, and synergies between Open Science and the FAIR principles. While Open Science focuses on making research, data, and methods freely available to everyone—from professionals to citizens—FAIR focuses on making data optimized for discovery and reuse (by both humans and machines), regardless of whether it is openly accessible or restricted. Understanding this distinction allows trainers to help researchers navigate data sharing responsibly, balancing public access with necessary data protections.
-sources: 'FOSTER. (2018). *Open Science Training Handbook: Readme*. GitBook.[https://open-science-training-handbook.gitbook.io/book](https://open-science-training-handbook.gitbook.io/book)'
+sources:
+  - authors: FOSTER
+    title: 'Open Science Training Handbook: Readme'
+    type: Internet
+    publisher: GitBook
+    year: 2018
+    url: 'https://open-science-training-handbook.gitbook.io/book'
 tasks_text: '**1.0 Practical Framework Discussion:** Participants analyze the core concepts to identify the critical differences, overlaps, and misconceptions between FAIR and Open Science.
 
 

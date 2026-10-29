@@ -128,7 +128,7 @@ layout: plan-unit
                 </section>
                 <section class="lp-card" id="learning-outcomes">
                     <h2>
-                        Key learning outcomes
+                        Learning outcomes
                     </h2>
                     {% if page.learning_outcomes %}
                         <ol class="lp-outcomes">
@@ -219,7 +219,7 @@ layout: plan-unit
                                                 {{ phase_labels[phase_index] }}
                                             </strong>
                                             <small>
-                                                {{ phase_activities.size }} {% if phase_activities.size == 1 %}activity{% else %}activities{% endif %} · trainer-guided sequence
+                                                {{ phase_activities.size }} {% if phase_activities.size == 1 %}activity{% else %}activities{% endif %}
                                             </small>
                                         </span>
                                         <span class="lp-shape-strip">
@@ -391,9 +391,13 @@ layout: plan-unit
                         <h2>
                             Sources and attribution
                         </h2>
-                        <div class="lp-prose">
-                            {{ page.sources | markdownify }}
-                        </div>
+                        {% if page.sources.first.title %}
+                            {% include lp-references.html items=page.sources %}
+                        {% else %}
+                            <div class="lp-prose">
+                                {{ page.sources | markdownify }}
+                            </div>
+                        {% endif %}
                     </section>
                 {% endif %}
                 <section class="lp-card lp-resources-card" id="additional-resources">
@@ -403,7 +407,7 @@ layout: plan-unit
                                 Additional resources
                             </strong>
                             <small>
-                                {{ page.additionalResources.size | default: 0 }} references
+                                {{ page.additionalResources.size | default: 0 }} references for further reading
                             </small>
                         </span>
                         <span class="lp-chevron" aria-hidden="true">
@@ -412,24 +416,7 @@ layout: plan-unit
                     </button>
                     <div id="resources-list" hidden>
                         {% if page.additionalResources %}
-                            <ol class="lp-reference-list">
-                                {% for resource in page.additionalResources %}
-                                    <li>
-                                        {% if resource.url %}
-                                            <a href="{{ resource.url }}" target="_blank" rel="noopener">
-                                                {{ resource.title }}
-                                            </a>
-                                        {% else %}
-                                            {{ resource.title }}
-                                        {% endif %}
-                                        {% if resource.author %}
-                                            <small>
-                                                {{ resource.author }}
-                                            </small>
-                                        {% endif %}
-                                    </li>
-                                {% endfor %}
-                            </ol>
+                            {% include lp-references.html items=page.additionalResources %}
                         {% else %}
                             <p class="lp-empty-note">
                                 No additional resources have been added yet.

@@ -342,7 +342,14 @@ prerequisites:
     of the FAIR principles: https://www.go-fair.org/fair-principles/
 description: This lesson plan guides participants to explore data repositories as critical infrastructure for the FAIR principles. Rather than serving as mere storage folders, repositories are active, centralized services designed to organize, preserve, and make research outputs findable, accessible, and reusable.
 summary: This lesson plan guides participants to explore data repositories as critical infrastructure for the FAIR principles. Rather than serving as mere storage folders, repositories are active, centralized services designed to organize, preserve, and make research outputs findable, accessible, and reusable.
-sources: 'Pinfield, S., Salter, J., Bath, P. A., Hubbard, B., Millington, P., Anders, J. H., & Hussain, A. (2014). Open‐access repositories worldwide, 2005–2012: Past growth, current characteristics, and future possibilities. *Journal of the association for information science and technology*, *65*(12), 2404-2421.'
+sources:
+  - authors: Pinfield S, Salter J, Bath PA, Hubbard B, Millington P, Anders JH, et al
+    title: 'Open-access repositories worldwide, 2005–2012: past growth, current characteristics, and future possibilities'
+    journal: J Assoc Inf Sci Technol
+    year: 2014
+    volume: 65
+    number: 12
+    pages: 2404-21
 tasks_text: '**1.0 Lecture - Repositories as FAIR Enablers:** A brief introduction defining what a repository is (and isn''t). The trainer highlights how repositories go beyond simple cloud storage to actively enable metadata indexing, persistent identifiers (PIDs), and long-term preservation.&#x20;
 
 

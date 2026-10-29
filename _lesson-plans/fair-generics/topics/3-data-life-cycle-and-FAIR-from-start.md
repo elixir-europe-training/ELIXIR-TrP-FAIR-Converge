@@ -214,16 +214,29 @@ additionalResources:
     author: FAIR Metroline Health-RI
 description: This topic introduces the research data life cycle, breaking down each phase alongside the practical best practices required to embed FAIR principles from day one. By fostering deep awareness of these cyclical processes, this lesson equips trainers to help researchers plan proactively, engage with the appropriate institutional infrastructures early, and ultimately ensure their research data is "FAIR by design" rather than as an afterthought.
 summary: This topic introduces the research data life cycle, breaking down each phase alongside the practical best practices required to embed FAIR principles from day one. By fostering deep awareness of these cyclical processes, this lesson equips trainers to help researchers plan proactively, engage with the appropriate institutional infrastructures early, and ultimately ensure their research data is "FAIR by design" rather than as an afterthought.
-sources: '* University of Virginia Library. (n.d.). *Research data management*. Library Guides. Retrieved September 1, 2026, from[https://guides.lib.virginia.edu/c.php?g\=515290\&p\=3522215](https://guides.lib.virginia.edu/c.php?g=515290\&p=3522215)
-
-  * FOSTER Open Science. (n.d.). *Data life cycle + Open Science principles* \[Google Slides presentation]. Retrieved September 1, 2026, from[https://docs.google.com/presentation/d/1SZ6ADqTNp\_GBT3UT-JAsH-6zKfAWab\_1xMOSxZhdZvw/edit?usp\=sharing](https://docs.google.com/presentation/d/1SZ6ADqTNp_GBT3UT-JAsH-6zKfAWab_1xMOSxZhdZvw/edit?usp=sharing)
-
-  * UK Data Service. (n.d.). *Research data management*. Learning Hub. Retrieved September 1, 2026, from[https://ukdataservice.ac.uk/learning-hub/research-data-management/](https://ukdataservice.ac.uk/learning-hub/research-data-management/)
-
-  * ELIXIR Europe. (n.d.). *RDMkit: Research Data Management toolkit*. Retrieved September 1, 2026, from[https://rdmkit.elixir-europe.org/](https://rdmkit.elixir-europe.org/)
-
-
-  ***'
+sources:
+  - authors: University of Virginia Library
+    title: Research data management
+    type: Internet
+    publisher: Library Guides
+    url: 'https://guides.lib.virginia.edu/c.php?g=515290&p=3522215'
+    accessed: 2026-09-01
+  - authors: FOSTER Open Science
+    title: Data life cycle + Open Science principles
+    type: Google Slides presentation
+    url: 'https://docs.google.com/presentation/d/1SZ6ADqTNp_GBT3UT-JAsH-6zKfAWab_1xMOSxZhdZvw/edit?usp=sharing'
+    accessed: 2026-09-01
+  - authors: UK Data Service
+    title: Research data management
+    type: Internet
+    publisher: Learning Hub
+    url: 'https://ukdataservice.ac.uk/learning-hub/research-data-management/'
+    accessed: 2026-09-01
+  - authors: ELIXIR Europe
+    title: 'RDMkit: Research Data Management toolkit'
+    type: Internet
+    url: 'https://rdmkit.elixir-europe.org/'
+    accessed: 2026-09-01
 tasks:
 - title: Pre-Workshop Reflection
   description: Participants read and critique a foundational article on the FAIR principles prior to the session, bringing their notes and reflections to kickstart the workshop.

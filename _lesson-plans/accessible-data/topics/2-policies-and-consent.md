@@ -322,7 +322,13 @@ prerequisites:
     for the opening discussion.
 description: Just like any other form of intellectual property, research data requires a license to define how individuals and automated tools can legally access, modify, and reuse it. This lesson equips participants with a practical understanding of data licensing frameworks, enabling them to confidently select an appropriate license for their own datasets or communicate effectively with Data Stewards and information professionals.
 summary: Just like any other form of intellectual property, research data requires a license to define how individuals and automated tools can legally access, modify, and reuse it. This lesson equips participants with a practical understanding of data licensing frameworks, enabling them to confidently select an appropriate license for their own datasets or communicate effectively with Data Stewards and information professionals.
-sources: '> The Turing Way Community, Becky Arnold, Louise Bowler, Sarah Gibson, Patricia Herterich, Rosie Higman, … Kirstie Whitaker. (2019, March 25). *The Turing Way: A Handbook for Reproducible Data Science* (Version v0.0.4). Zenodo.[https://doi.org/10.5281/zenodo.3233986](https://www.google.com/search?q=https://doi.org/10.5281/zenodo.3233986)'
+sources:
+  - authors: The Turing Way Community, Arnold B, Bowler L, Gibson S, Herterich P, Higman R, et al
+    title: 'The Turing Way: a handbook for reproducible data science (Version v0.0.4)'
+    type: Internet
+    publisher: Zenodo
+    year: 2019
+    doi: 10.5281/zenodo.3233986
 tasks_text: ''
 materials:
   text: ''

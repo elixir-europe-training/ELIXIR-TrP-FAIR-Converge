@@ -230,7 +230,12 @@ activities:
         | 
 description: This lesson plan equips trainers to teach the value of standardized institutional data policies and the systemic benefits of adopting FAIR principles. Designed for the Health and Life Sciences domain, the module guides trainers through instructing others on how to write and configure a practical FAIR & Open Science Plan. To ground these concepts, the lesson features a real-world case study from the Faculty of Health, Medicine, and Life Sciences at Maastricht University, providing trainers with concrete examples to facilitate discussion and active learning.
 summary: This lesson plan equips trainers to teach the value of standardized institutional data policies and the systemic benefits of adopting FAIR principles. Designed for the Health and Life Sciences domain, the module guides trainers through instructing others on how to write and configure a practical FAIR & Open Science Plan. To ground these concepts, the lesson features a real-world case study from the Faculty of Health, Medicine, and Life Sciences at Maastricht University, providing trainers with concrete examples to facilitate discussion and active learning.
-sources: FAIR Metroline. (n.d.). *Define FAIRification objectives*. Retrieved September 1, 2026, from[https://fairmetroline.org/metroline\_steps/define\_fairification\_objectives](https://fairmetroline.org/metroline_steps/define_fairification_objectives)
+sources:
+  - authors: FAIR Metroline
+    title: Define FAIRification objectives
+    type: Internet
+    url: 'https://fairmetroline.org/metroline_steps/define_fairification_objectives'
+    accessed: 2026-09-01
 tasks_text: '**1.0 Lecture - Introduction to Research Data Policies:** A brief presentation introducing institutional data policies, detailing why they are critical for securing compliance, funding eligibility, and institutional prestige.
 
 

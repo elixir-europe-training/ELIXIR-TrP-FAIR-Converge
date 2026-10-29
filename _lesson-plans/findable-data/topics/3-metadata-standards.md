@@ -348,7 +348,12 @@ activities:
       level: beginner
 description: This lesson plan has been created with the aim to educate PhD students and researchers on metadata standards using tangible examples and practical activities. It assumes a low level of prior knowledge regarding metadata but assumes experience in research and familiarity with the FAIR principles. Resources can be provided asynchronous to bring everyone up to the same level.
 summary: This lesson plan has been created with the aim to educate PhD students and researchers on metadata standards using tangible examples and practical activities. It assumes a low level of prior knowledge regarding metadata but assumes experience in research and familiarity with the FAIR principles. Resources can be provided asynchronous to bring everyone up to the same level.
-sources: FAIRsharing. (n.d.). *Metadata standards*. Retrieved September 1, 2026, from[https://fairsharing.org/standards/](https://fairsharing.org/standards/)
+sources:
+  - authors: FAIRsharing
+    title: Metadata standards
+    type: Internet
+    url: 'https://fairsharing.org/standards/'
+    accessed: 2026-09-01
 materials:
   text: |-
     **For Participants:** A computer and a stable internet connection (if the training is delivered online or uses cloud-based tools).

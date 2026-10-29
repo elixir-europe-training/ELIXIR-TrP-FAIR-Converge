@@ -1,0 +1,42 @@
+{%- comment -%}
+  Renders a numbered, Vancouver-style reference list.
+  Params: items (list), id (optional element id).
+  Item fields: authors (or author), title, journal | container | publisher, year, volume,
+  number | issue, pages, edition, doi, url, accessed, type, note | additionalInformation.
+{%- endcomment -%}
+<ol class="lp-refs"{% if include.id %} id="{{ include.id }}"{% endif %}>
+    {%- for ref in include.items -%}
+        {%- assign doi = ref.doi | remove: "https://doi.org/" | remove: "http://doi.org/" | remove: "doi:" | strip -%}
+        {%- assign link = ref.url -%}
+        {%- if doi != "" and ref.url == nil -%}{%- capture link -%}https://doi.org/{{ doi }}{%- endcapture -%}{%- endif -%}
+        {%- assign authors = ref.authors | default: ref.author -%}
+        {%- assign container = ref.journal | default: ref.container -%}
+        <li class="lp-ref">
+            <div class="lp-ref-body">
+                {%- if authors %}<span class="lp-ref-authors">{{ authors }}.</span>{% endif %}
+                <span class="lp-ref-title">
+                    {%- if link %}<a href="{{ link }}" target="_blank" rel="noopener">{{ ref.title | strip }}</a>{% else %}{{ ref.title | strip }}{% endif -%}
+                    {%- unless ref.title contains "?" %}.{% endunless -%}
+                </span>
+                {%- if ref.type %} <span class="lp-ref-type">[{{ ref.type }}]</span>{% endif -%}
+                {%- if container %} <em class="lp-ref-container">{{ container }}.</em>{% endif -%}
+                {%- if ref.edition %} {{ ref.edition }}.{% endif -%}
+                {%- if ref.publisher %} <span class="lp-ref-publisher">{{ ref.publisher }};</span>{% endif -%}
+                {%- if ref.year or ref.volume or ref.pages %}
+                    <span class="lp-ref-details">
+                        {%- if ref.year %} {{ ref.year }}{% endif -%}
+                        {%- if ref.volume %};{{ ref.volume }}{% endif -%}
+                        {%- assign issue = ref.number | default: ref.issue -%}
+                        {%- if issue %}({{ issue }}){% endif -%}
+                        {%- if ref.pages %}:{{ ref.pages }}{% endif -%}.
+                    </span>
+                {%- endif -%}
+                {%- if ref.accessed %} <span class="lp-ref-accessed">[cited {{ ref.accessed | date: "%Y %b %-d" }}].</span>{% endif -%}
+                {%- if doi != "" %} <a class="lp-ref-doi" href="https://doi.org/{{ doi }}" target="_blank" rel="noopener">doi:{{ doi }}</a>{% endif -%}
+                {%- if ref.note or ref.additionalInformation %}
+                    <span class="lp-ref-note">{{ ref.note | default: ref.additionalInformation }}</span>
+                {%- endif %}
+            </div>
+        </li>
+    {%- endfor -%}
+</ol>
