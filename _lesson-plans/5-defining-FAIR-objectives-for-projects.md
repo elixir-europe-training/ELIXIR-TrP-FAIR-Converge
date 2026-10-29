@@ -228,7 +228,7 @@ tasks_text: |-
 materials:
   text: "**For the participants:** Instruct participants to bring their project proposals and other documents that will be helpful to fill out their DMPs. They also have to ideally bring a computer to fill out the form.&#x20;"
 take_home: A Data Management Plan is not an administrative burden—it is a living roadmap. Anticipating legal, ethical, and technical challenges early turns compliance into a smooth, proactive research strategy.
-doi: 10.5072/zenodo.627821
+doi: 10.5072/zenodo.627872
 zenodo_concept_doi: 10.5072/zenodo.627820
-zenodo_hash: 55f08466525d7820
+zenodo_hash: ee33d92c3b0b5131
 ---

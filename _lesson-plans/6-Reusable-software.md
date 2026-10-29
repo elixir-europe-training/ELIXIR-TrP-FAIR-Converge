@@ -25,9 +25,9 @@ learning_outcomes:
 - title: Have sufficient understanding of modular scripting to identify it within a repository and translate a single (large) script into multiple (smaller) modules.
 - title: Define version control and have a basic understanding of how git operates.
 - title: Be able to critically assess whether automated testing might be worth implementing for a research software project.
-doi: 10.5072/zenodo.627833
+doi: 10.5072/zenodo.627873
 zenodo_concept_doi: 10.5072/zenodo.627832
-zenodo_hash: ba6f1bb9838217af
+zenodo_hash: 054f38287779430a
 ---
 ## Topic, definition and scope
 

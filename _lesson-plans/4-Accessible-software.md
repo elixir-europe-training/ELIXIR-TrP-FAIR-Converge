@@ -24,9 +24,9 @@ learning_outcomes:
 - title: Understand the importance of licences and the implications of not having one.
 - title: Know how to create a CFF file.
 - title: List some the pros and cons of popular software repositories, such as GitHub and GitLab.
-doi: 10.5072/zenodo.627829
+doi: 10.5072/zenodo.627869
 zenodo_concept_doi: 10.5072/zenodo.627828
-zenodo_hash: 13e089c8b6d28670
+zenodo_hash: d28c01d3af131584
 ---
 ## Topic, definition and scope
 

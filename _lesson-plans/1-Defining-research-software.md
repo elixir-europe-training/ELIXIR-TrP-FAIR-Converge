@@ -30,9 +30,9 @@ learning_outcomes:
 - title: Understand the challenges facing the development of research software in the current academic landscape.
 prerequisites:
 - Have basic knowledge of the FAIR Principles.
-doi: 10.5072/zenodo.627823
+doi: 10.5072/zenodo.627856
 zenodo_concept_doi: 10.5072/zenodo.627822
-zenodo_hash: 2fab730b72049e13
+zenodo_hash: a70ed2a1fc862eb0
 ---
 ## Topic, definition and scope
 

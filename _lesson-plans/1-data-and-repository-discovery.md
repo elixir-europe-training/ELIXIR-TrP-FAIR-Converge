@@ -294,9 +294,9 @@ materials:
 
     ***
 take_home: Long-term data reusability relies on centralized services, not local drives. Trusted repositories provide the persistent identifiers, metadata standards, and access controls that make data truly FAIR and preserved for the future.
-doi: 10.5072/zenodo.627837
+doi: 10.5072/zenodo.627858
 zenodo_concept_doi: 10.5072/zenodo.627836
-zenodo_hash: 70c091f5df39f2da
+zenodo_hash: 762c240a72ead848
 ---
 ## Take home tasks/preparation
 

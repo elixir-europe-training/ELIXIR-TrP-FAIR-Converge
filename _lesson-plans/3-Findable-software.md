@@ -24,9 +24,9 @@ learning_outcomes:
 - title: Name and navigate through a software directory, such as [RSD](https://research-software-directory.org/).
 - title: Understand why metadata can help make research software more findable.
 - title: List the important components of a README file.
-doi: 10.5072/zenodo.627827
+doi: 10.5072/zenodo.627865
 zenodo_concept_doi: 10.5072/zenodo.627826
-zenodo_hash: 828af4aa5ae35c3a
+zenodo_hash: aa10f4d497c33468
 ---
 ## Topic, definition and scope
 

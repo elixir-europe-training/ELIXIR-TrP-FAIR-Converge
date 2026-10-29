@@ -26,9 +26,9 @@ audience:
 learning_outcomes:
 - title: Map FAIR principles to research software.
 - title: Understand the benefits of ensuring research software is FAIR.
-doi: 10.5072/zenodo.627825
+doi: 10.5072/zenodo.627861
 zenodo_concept_doi: 10.5072/zenodo.627824
-zenodo_hash: 8278a660b13606cb
+zenodo_hash: 9a748e447169ff9c
 ---
 ## Topic, definition and scope
 

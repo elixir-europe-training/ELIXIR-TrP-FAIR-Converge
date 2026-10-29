@@ -24,9 +24,9 @@ learning_outcomes:
 - title: Be able to define vendor locking and why it is important to FAIR research software.
 - title: Understand why the programming language itself can determine interoperability.
 - title: Critique common data formats (e.g., csv) in the context of research software.
-doi: 10.5072/zenodo.627831
+doi: 10.5072/zenodo.627871
 zenodo_concept_doi: 10.5072/zenodo.627830
-zenodo_hash: 21a54853eac8a7c8
+zenodo_hash: 5916a153de9e59d5
 ---
 ## Topic, definition and scope
 
