@@ -5,7 +5,7 @@ require "date"
 require "open3"
 
 Jekyll::Hooks.register :documents, :post_init do |doc|
-  next unless doc.collection.label == "lesson-plans" && doc.path.include?("/topics/")
+  next unless doc.collection.label == "lesson-plans"
   next if doc.data["last_modified_at"]
 
   out, status = Open3.capture2("git", "log", "-1", "--format=%cs", "--", doc.path, chdir: doc.site.source)

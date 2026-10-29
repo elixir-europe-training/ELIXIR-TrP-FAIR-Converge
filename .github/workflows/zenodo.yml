@@ -12,7 +12,7 @@ on:
         options: [ sandbox, production ]
         default: sandbox
       only:
-        description: "Single plan path (optional), e.g. _lesson-plans/findable-data/topics/3-metadata-standards.md"
+        description: "Single plan path (optional), e.g. _lesson-plans/3-metadata-standards.md"
         required: false
         type: string
       dry_run:

@@ -26,7 +26,7 @@ Check it out with your browser at [http://localhost:4000/](http://localhost:4000
 ## Lesson plan metadata
 
 The lesson view and library read the topic front matter in
-`_lesson-plans/<unit>/topics/*.md`. The canonical fields for the redesigned
+`_lesson-plans/*.md`. The canonical fields for the redesigned
 views are:
 
 ```yaml

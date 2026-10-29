@@ -2,7 +2,7 @@
 permalink: /search-index.json
 sitemap: false
 ---
-{%- assign index_plans = site.lesson-plans | where_exp: "item", "item.path contains '/topics/'" -%}
+{%- assign index_plans = site.lesson-plans -%}
 {%- assign phases = "before,during,after" | split: "," -%}
 [
 {%- for plan in index_plans -%}

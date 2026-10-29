@@ -2,7 +2,7 @@
 layout: plan-unit
 ---
 
-{% assign topic_pages = site.lesson-plans | where_exp: "item", "item.path contains '/topics/'" %}
+{% assign topic_pages = site.lesson-plans %}
 <div class="library-page" id="library" data-search-index="{{ '/search-index.json' | relative_url }}">
     <div class="library-container">
         <section class="library-hero" aria-labelledby="library-title">

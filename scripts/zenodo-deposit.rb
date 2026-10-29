@@ -29,7 +29,7 @@ require "yaml"
 SANDBOX_API = "https://sandbox.zenodo.org/api"
 PRODUCTION_API = "https://zenodo.org/api"
 SITE_URL = "https://plans.fairdata.education"
-PLAN_GLOB = "_lesson-plans/*/topics/*.md"
+PLAN_GLOB = "_lesson-plans/*.md"
 MANAGED_KEYS = %w[doi zenodo_concept_doi zenodo_hash].freeze
 KEY_PREFIX = "lesson-plan-id:"
 HASH_PREFIX = "lesson-plan-hash:"
@@ -71,8 +71,13 @@ def plan_url(path)
   "#{SITE_URL}/plan/#{slug}/"
 end
 
-def plan_key(path)
-  path.sub(%r{\A_lesson-plans/}, "").sub(/\.md\z/, "")
+# Deposits are matched by this key, so it stays "<unit>/topics/<name>" for plans
+# that moved out of the old unit folders (recovered from their legacy URL).
+def plan_key(path, front)
+  legacy = Array(front["redirect_from"]).map(&:to_s).find { |url| url.start_with?("/units/") }
+  return legacy.sub(%r{\A/units/}, "").chomp("/") if legacy
+
+  File.basename(path, ".md")
 end
 
 def creators(front)
@@ -112,7 +117,7 @@ def metadata(path, front, digest)
           "Read it online: <a href=\"#{plan_url(path)}\">#{plan_url(path)}</a>.</p>"
 
   keywords = %w[FAIR lesson-plan training] + Array(front["fair_elements"]).map { |e| "FAIR-#{e}" }
-  keywords << "#{KEY_PREFIX}#{plan_key(path)}"
+  keywords << "#{KEY_PREFIX}#{plan_key(path, front)}"
   keywords << "#{HASH_PREFIX}#{digest[0, 16]}" if DEV
 
   title = front["title"].to_s
@@ -278,7 +283,7 @@ files.each do |path|
   end
 
   puts "#{path} (#{front['status']})"
-  key = plan_key(path)
+  key = plan_key(path, front)
 
   existing =
     if DEV
