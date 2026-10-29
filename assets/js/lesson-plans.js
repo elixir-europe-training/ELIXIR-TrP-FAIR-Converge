@@ -3,12 +3,14 @@
 
   function copyText(button) {
     var text = button.getAttribute('data-copy-text') || '';
-    var original = button.textContent;
+    var original = button.getAttribute('title');
 
     var done = function () {
-      button.textContent = 'Copied';
+      button.classList.add('is-copied');
+      button.setAttribute('title', 'Copied');
       window.setTimeout(function () {
-        button.textContent = original;
+        button.classList.remove('is-copied');
+        button.setAttribute('title', original);
       }, 1600);
     };
 

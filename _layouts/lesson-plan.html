@@ -82,9 +82,11 @@ layout: plan-unit
                             <span class="lp-neutral-tag">
                                 {% include lp-icon.html name="gauge" size=14 %} {{ page.levels | default: "Beginner–Expert" }}
                             </span>
-                            <span class="lp-neutral-tag">
-                                {% include lp-icon.html name="monitor" size=14 %} {{ page.delivery_format | default: "Flexible delivery" }}
-                            </span>
+                            {% if page.delivery_format %}
+                                <span class="lp-neutral-tag">
+                                    {% include lp-icon.html name="monitor" size=14 %} {{ page.delivery_format }}
+                                </span>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
@@ -435,25 +437,19 @@ layout: plan-unit
                         {% endif %}
                     </div>
                 </section>
-                {% capture citation_authors %}
-                    {% for author_id in page.authors %}
-                        {% assign author = site.data.contributors | find: "id", author_id %}
-                        {% if author %}
-                            {{ author.lastName }}, {{ author.firstName | slice: 0, 1 }}.
-                        {% else %}
-                            {{ author_id }}
-                        {% endif %}
-                        {% unless forloop.last %}
-                            ,
-                        {% endunless %}
-                    {% endfor %}
-                {% endcapture %}
-                {% assign sandbox_record = site.data.zenodo[page.path] %}
-                {% assign citation_doi = page.doi | default: sandbox_record.doi %}
+                {%- capture citation_authors -%}
+                    {%- for author_id in page.authors limit: 6 -%}
+                        {%- assign author = site.data.contributors | find: "id", author_id -%}
+                        {%- if author -%}{{ author.lastName }} {{ author.firstName | slice: 0, 1 }}{%- else -%}{{ author_id }}{%- endif -%}
+                        {%- unless forloop.last -%}, {% endunless -%}
+                    {%- endfor -%}
+                    {%- if page.authors.size > 6 -%}, et al{%- endif -%}
+                {%- endcapture -%}
+                {% assign citation_doi = page.doi %}
                 {% assign citation_year = updated | default: site.time | date: "%Y" %}
-                {% capture citation_text %}
-                    {{ citation_authors | strip }} ({{ citation_year }}). {{ page.title }} (Version {{ page.version | default: "1.0" }}). FAIR Lesson Plan Handbook, ELIXIR Training Platform. {% if citation_doi %}https://doi.org/{{ citation_doi }}{% else %}{{ site.url }}{{ page.url }}{% endif %}
-                {% endcapture %}
+                {% capture citation_text -%}
+                    {{ citation_authors | strip }}. {{ page.title }}. Version {{ page.version | default: "1.0" }}. FAIR Lesson Plan Handbook [Internet]. {{ citation_year }}. Available from: {% if citation_doi %}https://doi.org/{{ citation_doi }}{% else %}{{ site.url }}{{ page.url }}{% endif %}
+                {%- endcapture %}
                 <section class="lp-citation" id="cite">
                     <div class="lp-citation-heading">
                         <div>
@@ -465,11 +461,11 @@ layout: plan-unit
                             </p>
                         </div>
                         <div class="lp-button-row">
-                            <button class="lp-button lp-button-secondary lp-copy-button" type="button" data-copy="apa" data-copy-text="{{ citation_text | strip | escape }}">
-                                Copy APA
+                            <button class="lp-icon-button lp-copy-button" type="button" data-copy="vancouver" title="Copy citation (Vancouver)" aria-label="Copy citation (Vancouver)" data-copy-text="{{ citation_text | strip | escape }}">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg>
                             </button>
-                            <button class="lp-button lp-button-secondary lp-copy-button" type="button" data-copy="bib" data-copy-text="@misc{lesson-plan-{{ page.number }}, title={ {{ page.title }} }, version={ {{ page.version | default: '1.0' }} }, {% if citation_doi %}doi={ {{ citation_doi }} }, {% endif %}url={ {{ site.url }}{{ page.url }} }}">
-                                Copy BibTeX
+                            <button class="lp-icon-button lp-copy-button" type="button" data-copy="bib" title="Copy BibTeX" aria-label="Copy BibTeX" data-copy-text="@misc{lesson-plan-{{ page.number }}, title={ {{ page.title }} }, version={ {{ page.version | default: '1.0' }} }, {% if citation_doi %}doi={ {{ citation_doi }} }, {% endif %}url={ {{ site.url }}{{ page.url }} }}">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 7 4 12l4 5"/><path d="m16 7 4 5-4 5"/><path d="m13.5 5-3 14"/></svg>
                             </button>
                         </div>
                     </div>
@@ -584,7 +580,7 @@ layout: plan-unit
                                     </span>
                                     {% if author.orcid %}
                                         <a href="https://orcid.org/{{ author.orcid }}" aria-label="ORCID" target="_blank" rel="noopener">
-                                            iD
+                                            <img src="{{ site.baseurl }}/assets/images/icons/orcid.svg" alt="" width="16" height="16">
                                         </a>
                                     {% endif %}
                                 </div>
@@ -604,7 +600,7 @@ layout: plan-unit
                                     </span>
                                     {% if author.orcid %}
                                         <a href="https://orcid.org/{{ author.orcid }}" aria-label="ORCID" target="_blank" rel="noopener">
-                                            iD
+                                            <img src="{{ site.baseurl }}/assets/images/icons/orcid.svg" alt="" width="16" height="16">
                                         </a>
                                     {% endif %}
                                 </div>

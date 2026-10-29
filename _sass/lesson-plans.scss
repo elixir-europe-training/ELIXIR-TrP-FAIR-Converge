@@ -1180,6 +1180,27 @@ body:has(.library-page) > .container {
   font-size: 15.5px;
   line-height: 1.65;
 }
+.lp-icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  border: 1px solid #e4dccd;
+  border-radius: 10px;
+  background: #fff;
+  color: var(--lp-body);
+  cursor: pointer;
+}
+.lp-icon-button:hover {
+  border-color: #c9bfab;
+  color: #000;
+}
+.lp-icon-button.is-copied {
+  border-color: #2f7d4f;
+  color: #2f7d4f;
+}
 .lp-citation-meta {
   display: flex;
   flex-wrap: wrap;
@@ -1323,10 +1344,11 @@ body:has(.library-page) > .container {
   font-weight: 700;
 }
 .lp-person a {
+  display: inline-flex;
   margin-left: auto;
-  color: #a6ce39;
-  font-size: 10px;
-  font-weight: 700;
+}
+.lp-person a img {
+  display: block;
 }
 /* Library */
 .library-page {

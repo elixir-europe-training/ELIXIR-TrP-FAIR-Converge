@@ -1,8 +1,8 @@
 name: Zenodo sandbox (dev build)
 
-# Deposits every lesson plan on the Zenodo *sandbox* and builds a dev copy of
-# the site that shows the sandbox DOIs (10.5072/...). Never touches main's
-# front matter and never deploys to the production domain.
+# Deposits every lesson plan on the Zenodo *sandbox* (10.5072/... DOIs), commits
+# the DOIs back into the plans' front matter on the pushed branch, and builds a
+# dev copy of the site that shows them. Never deploys to the production domain.
 
 on:
   push:
@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: zenodo-dev-${{ github.ref }}
@@ -44,6 +44,20 @@ jobs:
             echo "No sandbox token available; dry run only."
             ruby scripts/zenodo-deposit.rb --mode dev --dry-run
           fi
+
+      # Pushes made with GITHUB_TOKEN do not retrigger workflows, so no loop.
+      - name: Commit sandbox DOIs to the branch
+        if: ${{ github.event_name == 'push' }}
+        run: |
+          if git diff --quiet -- _lesson-plans; then
+            echo "No DOI changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _lesson-plans
+          git commit -m "Add Zenodo sandbox DOIs to lesson plans"
+          git push origin "HEAD:${{ github.ref_name }}"
 
       - name: Build dev site
         run: bundle exec jekyll build
