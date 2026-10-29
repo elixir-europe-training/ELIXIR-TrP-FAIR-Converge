@@ -32,6 +32,9 @@ learning_outcomes:
     outcome: Know how to create a CFF file.
   3:
     outcome: List some the pros and cons of popular software repositories, such as GitHub and GitLab.
+doi: 10.5072/zenodo.627829
+zenodo_concept_doi: 10.5072/zenodo.627828
+zenodo_hash: 13e089c8b6d28670
 ---
 ## Topic, definition and scope
 

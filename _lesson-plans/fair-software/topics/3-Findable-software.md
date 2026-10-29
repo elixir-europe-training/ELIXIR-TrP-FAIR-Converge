@@ -32,6 +32,9 @@ learning_outcomes:
     outcome: Understand why metadata can help make research software more findable.
   3:
     outcome: List the important components of a README file.
+doi: 10.5072/zenodo.627827
+zenodo_concept_doi: 10.5072/zenodo.627826
+zenodo_hash: 828af4aa5ae35c3a
 ---
 ## Topic, definition and scope
 

@@ -33,6 +33,9 @@ learning_outcomes:
     outcome: Map FAIR principles to research software.
   2:
     outcome: Understand the benefits of ensuring research software is FAIR.
+doi: 10.5072/zenodo.627825
+zenodo_concept_doi: 10.5072/zenodo.627824
+zenodo_hash: 8278a660b13606cb
 ---
 ## Topic, definition and scope
 
