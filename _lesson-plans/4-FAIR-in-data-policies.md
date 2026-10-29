@@ -157,9 +157,9 @@ materials:
       * *Virtual Delivery:* An online interactive whiteboard (e.g., Miro) to map stakeholders and track policy exercises.
       * *In-Person Delivery:* A projector/display for lectures, accompanied by physical chart paper, sticky notes, and markers for group work.
 take_home: Standardized FAIR policies transform data management from an administrative burden into a strategic asset—enabling researchers to build practical, compliant Open Science Plans grounded in real-world institutional practice.
-doi: 10.5072/zenodo.627819
+doi: 10.5072/zenodo.627870
 zenodo_concept_doi: 10.5072/zenodo.627818
-zenodo_hash: f870975f4047a2c4
+zenodo_hash: 745d91f327f9c49e
 ---
 ------------------------ |
         -----------------------------------------------------------------------------------------------------------------------------------

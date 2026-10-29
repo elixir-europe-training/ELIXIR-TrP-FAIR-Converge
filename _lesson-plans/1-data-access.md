@@ -191,9 +191,9 @@ materials:
 
     ***
 take_home: Mastering data accessibility turns compliance into collaboration. By pairing proper data licenses with transparent access controls early, researchers protect sensitive outputs while building strong foundations for interdisciplinary sharing.
-doi: 10.5072/zenodo.627809
+doi: 10.5072/zenodo.627857
 zenodo_concept_doi: 10.5072/zenodo.627808
-zenodo_hash: 388b123e80c8d475
+zenodo_hash: 561dd81030298ffd
 ---
 **Data accessibility** is the degree to which data can be easily accessed, understood, and used by authorized users when they need it. It ensures that people can obtain relevant data in a usable format to support reuse.
 

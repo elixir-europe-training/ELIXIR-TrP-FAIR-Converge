@@ -32,9 +32,9 @@ additionalResources:
 - title: 'FAIR Data Point: A FAIR-Oriented Approach for Metadata Publication'
   url: https://direct.mit.edu/dint/article/5/1/163/112599/FAIR-Data-Point-A-FAIR-Oriented-Approach-for
   authors: Luiz Olavo Bonino da Silva Santos, Kees Burger, Rajaram Kaliyaperumal, Mark D. Wilkinson
-doi: 10.5072/zenodo.627843
+doi: 10.5072/zenodo.627859
 zenodo_concept_doi: 10.5072/zenodo.627842
-zenodo_hash: f8dfb9f31281ce4e
+zenodo_hash: cb5fc46cc7210d7b
 ---
 ## Topic, definition and scope
 
