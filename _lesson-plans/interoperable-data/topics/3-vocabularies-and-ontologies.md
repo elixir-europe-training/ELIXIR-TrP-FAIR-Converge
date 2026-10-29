@@ -226,6 +226,9 @@ prerequisites:
     describe similar concepts (semantic heterogeneity).
 description: This lesson plan will help to better understand what ontologies and vocabularies are, how they relate to the FAIR principles, and why they are important for research. At the end of this lesson, participants will be able to define and distinguish ontologies and vocabularies, understand how they are used in repositories, explain their role in metadata organisation, use ontology lookup services, and evaluate the process of creating an ontology or vocabulary.
 summary: This lesson plan will help to better understand what ontologies and vocabularies are, how they relate to the FAIR principles, and why they are important for research. At the end of this lesson, participants will be able to define and distinguish ontologies and vocabularies, understand how they are used in repositories, explain their role in metadata organisation, use ontology lookup services, and evaluate the process of creating an ontology or vocabulary.
+doi: 10.5072/zenodo.627845
+zenodo_concept_doi: 10.5072/zenodo.627844
+zenodo_hash: 1872427968fac38e
 ---
 ***
 

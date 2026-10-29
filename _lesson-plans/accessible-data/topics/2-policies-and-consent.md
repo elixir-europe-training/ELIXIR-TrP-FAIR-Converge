@@ -327,6 +327,9 @@ tasks_text: ''
 materials:
   text: ''
 take_home: '##'
+doi: 10.5072/zenodo.627811
+zenodo_concept_doi: 10.5072/zenodo.627810
+zenodo_hash: c1d9dada81e13179
 ---
 Grounded in the open research principles established by ***The Turing Way*** community, this lesson focuses on three fundamental dimensions of data reuse:
 

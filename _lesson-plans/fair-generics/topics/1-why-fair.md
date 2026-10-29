@@ -352,4 +352,7 @@ materials:
   participants: A computer and a stable internet connection (if the training is delivered online or uses cloud-based tools).
   trainer: A digital collaboration tool (such as Miro or an equivalent virtual whiteboard). For in-person delivery, this can easily be replaced with physical chart paper, sticky notes, and markers.
 take_home: FAIR is not an end-of-project checklist item—it is a lifecycle strategy that aligns research workflows with funder requirements, accelerates scientific discovery, and maximizes long-term research impact.
+doi: 10.5072/zenodo.627813
+zenodo_concept_doi: 10.5072/zenodo.627812
+zenodo_hash: 5330c26f17a0a315
 ---
