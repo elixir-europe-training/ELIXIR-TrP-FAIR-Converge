@@ -360,6 +360,9 @@ materials:
 
     **For the Trainer:** A digital collaboration tool (such as Miro or an equivalent virtual whiteboard). For in-person delivery, this can easily be substituted with physical chart paper, sticky notes, and markers.
 take_home: High-quality metadata is the foundation of scientific visibility. By applying domain-standard metadata and persistent identifiers early, researchers prevent data isolation, ensure long-term citation, and enable automated discovery across global research networks.
+doi: 10.5072/zenodo.627841
+zenodo_concept_doi: 10.5072/zenodo.627840
+zenodo_hash: 387281a69faa49f9
 ---
 We recommend starting by building up a theoretical baseline of all participants before giving the opportunity for participants to practice and start working directly with metadata, metadata standards and general concepts. 
 

@@ -369,6 +369,9 @@ materials:
   trainer: A computer connected to a projector/display to present instructions and visual aids.
   participants: A computer or tablet for active research, repository exploration, and group activities.
 take_home: FAIR does not automatically mean Open, and Open is not automatically FAIR. Open Science dictates who can access research, while FAIR dictates how effectively data can be discovered and reused by both humans and machines. As close as possible and close as neccesary.
+doi: 10.5072/zenodo.627815
+zenodo_concept_doi: 10.5072/zenodo.627814
+zenodo_hash: 917541824fccf896
 ---
 ---------------------------------------- |
         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

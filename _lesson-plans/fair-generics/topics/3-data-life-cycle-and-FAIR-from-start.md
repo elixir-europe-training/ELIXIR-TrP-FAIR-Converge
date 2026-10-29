@@ -262,4 +262,7 @@ materials:
 
     ***'
 take_home: You can relate different elements in a research project in general to different phases of the data life cycle. At each step, different methods, tools, or infrastructures are required to make your data FAIR. Planning for this in advance is extremely beneficial for your projects, not only to produce FAIR data by design but also in terms of organisation and budgeting. This information should be recorded in a data management plan (DMP) at an early stage.
+doi: 10.5072/zenodo.627817
+zenodo_concept_doi: 10.5072/zenodo.627816
+zenodo_hash: 6968c34b293464c2
 ---

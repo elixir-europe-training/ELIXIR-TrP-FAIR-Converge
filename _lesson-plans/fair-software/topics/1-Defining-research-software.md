@@ -40,6 +40,9 @@ learning_outcomes:
 
 prerequisites:
   - Have basic knowledge of the FAIR Principles.
+doi: 10.5072/zenodo.627823
+zenodo_concept_doi: 10.5072/zenodo.627822
+zenodo_hash: 2fab730b72049e13
 ---
 ## Topic, definition and scope
 

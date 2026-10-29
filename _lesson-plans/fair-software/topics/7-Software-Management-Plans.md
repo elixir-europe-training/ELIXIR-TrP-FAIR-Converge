@@ -23,6 +23,9 @@ audience:
   - Data stewards
   - Software stewards
   - Research software consultants
+doi: 10.5072/zenodo.627835
+zenodo_concept_doi: 10.5072/zenodo.627834
+zenodo_hash: 465f33541fb37143
 ---
 ## Topic, definition and scope
 

@@ -40,6 +40,9 @@ additionalResources:
       Mark D. Wilkinson
     url: >-
       https://direct.mit.edu/dint/article/5/1/163/112599/FAIR-Data-Point-A-FAIR-Oriented-Approach-for
+doi: 10.5072/zenodo.627843
+zenodo_concept_doi: 10.5072/zenodo.627842
+zenodo_hash: f8dfb9f31281ce4e
 ---
 ## Topic, definition and scope
 

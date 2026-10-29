@@ -34,6 +34,9 @@ learning_outcomes:
     outcome: Define version control and have a basic understanding of how git operates.
   4:
     outcome: Be able to critically assess whether automated testing might be worth implementing for a research software project.
+doi: 10.5072/zenodo.627833
+zenodo_concept_doi: 10.5072/zenodo.627832
+zenodo_hash: ba6f1bb9838217af
 ---
 ## Topic, definition and scope
 
