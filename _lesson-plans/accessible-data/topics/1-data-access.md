@@ -3,6 +3,9 @@ number: 3.1
 title: Data Access
 status: published
 layout: lesson-plan
+permalink: /plan/data-access/
+redirect_from:
+  - /units/accessible-data/topics/1-data-access/
 authors:
   - 0000-0002-7702-4495
   - 0000-0001-7791-4984
@@ -116,14 +119,6 @@ terms4FAIRskills:
     object:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000478'
         label: accessibility of digital assets
-description: >-
-  Overview: This lesson plan provides participants with a comprehensive overview
-  of data accessibility, focusing on the distinctions between open and
-  restricted access, the role of data licenses, and the ethical and legal
-  considerations involved. Participants will engage with examples, participate
-  in discussions, and apply their knowledge through interactive activities. The
-  goal is to develop a clear understanding of how data accessibility impacts
-  research and collaborations.&#x20;
 activities:
   during:
     - learning_outcome: 1
@@ -201,11 +196,39 @@ activities:
       level: beginner
 prerequisites:
   - Have a minimum understanding of the FAIR principles
+description: This lesson plan provides participants with a comprehensive overview of data accessibility, focusing on the distinctions between open and restricted access, the role of data licenses, and the ethical and legal considerations involved. Participants will engage with examples, participate in discussions, and apply their knowledge through interactive activities. The goal is to develop a clear understanding of how data accessibility impacts research and collaborations.
+summary: This lesson plan provides participants with a comprehensive overview of data accessibility, focusing on the distinctions between open and restricted access, the role of data licenses, and the ethical and legal considerations involved. Participants will engage with examples, participate in discussions, and apply their knowledge through interactive activities. The goal is to develop a clear understanding of how data accessibility impacts research and collaborations.
+sources: 'Ritchie, F. (2016). Five safes: designing data access for research.'
+tasks_text: '**1.0 Reading:** FAIRsharing’s educational factsheet on databases
+
+
+  **2.0 Exercise use case:** Explore the COVID-19 data registries such as the WHO Global Clinical Platform or other in FAIRsharing.org. If you want to add a level of complexity look for data registry that contains personal and or sensitive data. These examples can be found at: [https://fairsharing.org/FAIRsharing.42193d](https://fairsharing.org/FAIRsharing.42193d)
+
+
+  **3.0 Exercise:** Define types of access modes (tip: use examples from own research field)
+
+
+  **4.0 Exercise evaluate the following elements:** A- The discoverability and how easy it was to find the data registry and the meta-data provided; B- The usability, the formats, and  conditions of access; C- The quality of the data-set and opportunities for re-usability and inter-operability.
+
+
+  **5.0 Exercise:** The second part of the exercise is to write a reflection on the case study (FAIRness of it) and how it can be improved.
+
+
+  **6.0 Exercise:** Finally Prepare (contribute with) a use case from your institution and share its solution with the community via a github page
+
+
+  ***'
+materials:
+  text: '* Personal computer
+
+    * Internet connection
+
+    * Browser
+
+
+    ***'
+take_home: Mastering data accessibility turns compliance into collaboration. By pairing proper data licenses with transparent access controls early, researchers protect sensitive outputs while building strong foundations for interdisciplinary sharing.
 ---
-## Overview:&#x20;
-
-This lesson plan provides participants with a comprehensive overview of data accessibility, focusing on the distinctions between open and restricted access, the role of data licenses, and the ethical and legal considerations involved. Participants will engage with examples, participate in discussions, and apply their knowledge through interactive activities. The goal is to develop a clear understanding of how data accessibility impacts research and collaborations.
-
 **Data accessibility** is the degree to which data can be easily accessed, understood, and used by authorized users when they need it. It ensures that people can obtain relevant data in a usable format to support reuse.
 
 In the Life Sciences, data professionals often define it as the processes and ease with which data can be accessed, retrieved, and have a secondary use when authorized by its original participants and owners. This topic encompasses not only the technical access, but also the format, and documentation that allows for distinct levels of access. In the context of the FAIR principles: "Accessible" means that data should be retrievable by their identifier using a standard communications protocol. This protocol should be open, free, and universally implementable. While data access can be regulated (e.g., controlled or registered access), the protocol itself remains open and free.
@@ -241,42 +264,6 @@ In this section aims to provide trainers with the foundational understandings of
 
 ***
 
-## &#x20;Key Learning Outcomes:&#x20;
-
-1.0 Distinguish Access Protocols & Licensing: Evaluate the practical differences between open, restricted, and embargoed data access mechanisms while applying appropriate data licenses (e.g., Creative Commons, Open Data Commons) to govern reuse.
-
-2.0 Navigate Legal and Ethical Boundaries: Resolve data-sharing friction points—including GDPR compliance, participant consent, and sensitive human subjects data—to determine responsible access conditions.
-
-3.0 Formulate Transparent Data Access Strategies: Design clear data access statements and governance workflows that facilitate collaborative research while maintaining necessary ethical and legal safeguards.
-
-## Citations and Attributions:&#x20;
-
-Ritchie, F. (2016). Five safes: designing data access for research.
-
-## Summary of Tasks / Actions
-
-**1.0 Reading:** FAIRsharing’s educational factsheet on databases
-
-**2.0 Exercise use case:** Explore the COVID-19 data registries such as the WHO Global Clinical Platform or other in FAIRsharing.org. If you want to add a level of complexity look for data registry that contains personal and or sensitive data. These examples can be found at: [https://fairsharing.org/FAIRsharing.42193d](https://fairsharing.org/FAIRsharing.42193d)
-
-**3.0 Exercise:** Define types of access modes (tip: use examples from own research field)
-
-**4.0 Exercise evaluate the following elements:** A- The discoverability and how easy it was to find the data registry and the meta-data provided; B- The usability, the formats, and  conditions of access; C- The quality of the data-set and opportunities for re-usability and inter-operability.
-
-**5.0 Exercise:** The second part of the exercise is to write a reflection on the case study (FAIRness of it) and how it can be improved.
-
-**6.0 Exercise:** Finally Prepare (contribute with) a use case from your institution and share its solution with the community via a github page
-
-***
-
-## Materials / Equipment
-
-* Personal computer
-* Internet connection
-* Browser
-
-***
-
 ## References
 
 * Dyke, S.O.M., Linden, M., Lappalainen, I., Rambla De Argila, J., Carey, K., Lloyd, D., Spalding, J.D., Cabili, M.N., Kerry, G., Foreman, J., et al. (2018). Registered access: authorizing data access. European Journal of Human Genetics, 26, 1721-1731. Available at: [https://www.nature.com/articles/s41431-018-0219-y](https://www.nature.com/articles/s41431-018-0219-y)
@@ -290,7 +277,3 @@ Ritchie, F. (2016). Five safes: designing data access for research.
 * Understanding what principles to consider in a context of sharing sensitive data
 
 ***
-
-## Take Home Message:&#x20;
-
-Mastering data accessibility turns compliance into collaboration. By pairing proper data licenses with transparent access controls early, researchers protect sensitive outputs while building strong foundations for interdisciplinary sharing.

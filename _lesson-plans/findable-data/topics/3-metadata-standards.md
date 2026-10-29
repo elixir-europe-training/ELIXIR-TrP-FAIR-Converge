@@ -3,6 +3,9 @@ number: 2.3
 title: Metadata
 status: published
 layout: lesson-plan
+permalink: /plan/metadata-standards/
+redirect_from:
+  - /units/findable-data/topics/3-metadata-standards/
 authors:
   - 0000-0003-1378-5495
   - 0000-0002-9016-4820
@@ -115,7 +118,6 @@ terms4FAIRskills:
     object:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000447'
         label: the FAIR Principles
-description: "Overview: This lesson plan has been created with the aim to educate PhD students and researchers on metadata standards using tangible examples and practical activities. It assumes a low level of prior knowledge regarding metadata but assumes experience in research and familiarity with the FAIR principles. Resources can be provided asynchronous to bring everyone up to the same level.\_\n\nWe recommend starting by building up a theoretical baseline of all participants before giving the opportunity for participants to practice and start working directly with metadata, metadata standards and general concepts.\_\n\nNote that many activities can be done as an individual or a group. This can be changed based on what type of session you are giving. Working in pairs or small groups can increase peer-learning and reduce the threshold for asking questions when confused (as these participants can discuss with their peers rather than having to ask the instructor). Working individually can also be advantageous when doing asynchronous work, hybrid or online sessions or with self-paced study.&#x20;\n\n#"
 additionalResources:
   - title: 'Metadata standards in FAIRsharing '
     url: >-
@@ -344,11 +346,16 @@ activities:
       time: '20'
       type: group group
       level: beginner
+description: This lesson plan has been created with the aim to educate PhD students and researchers on metadata standards using tangible examples and practical activities. It assumes a low level of prior knowledge regarding metadata but assumes experience in research and familiarity with the FAIR principles. Resources can be provided asynchronous to bring everyone up to the same level.
+summary: This lesson plan has been created with the aim to educate PhD students and researchers on metadata standards using tangible examples and practical activities. It assumes a low level of prior knowledge regarding metadata but assumes experience in research and familiarity with the FAIR principles. Resources can be provided asynchronous to bring everyone up to the same level.
+sources: FAIRsharing. (n.d.). *Metadata standards*. Retrieved September 1, 2026, from[https://fairsharing.org/standards/](https://fairsharing.org/standards/)
+materials:
+  text: |-
+    **For Participants:** A computer and a stable internet connection (if the training is delivered online or uses cloud-based tools).
+
+    **For the Trainer:** A digital collaboration tool (such as Miro or an equivalent virtual whiteboard). For in-person delivery, this can easily be substituted with physical chart paper, sticky notes, and markers.
+take_home: High-quality metadata is the foundation of scientific visibility. By applying domain-standard metadata and persistent identifiers early, researchers prevent data isolation, ensure long-term citation, and enable automated discovery across global research networks.
 ---
-## Overview:&#x20;
-
-This lesson plan has been created with the aim to educate PhD students and researchers on metadata standards using tangible examples and practical activities. It assumes a low level of prior knowledge regarding metadata but assumes experience in research and familiarity with the FAIR principles. Resources can be provided asynchronous to bring everyone up to the same level. 
-
 We recommend starting by building up a theoretical baseline of all participants before giving the opportunity for participants to practice and start working directly with metadata, metadata standards and general concepts. 
 
 Note that many activities can be done as an individual or a group. This can be changed based on what type of session you are giving. Working in pairs or small groups can increase peer-learning and reduce the threshold for asking questions when confused (as these participants can discuss with their peers rather than having to ask the instructor). Working individually can also be advantageous when doing asynchronous work, hybrid or online sessions or with self-paced study.
@@ -362,23 +369,3 @@ The adoption of high-quality metadata standards significantly enhances the visib
 Findable: Data should be available in a discoverable resource (i.e. repository), have appropriate description (i.e. metadata) and have a persistent identifier (PID)
 
 * Data are described with rich metadata
-
-## Key Learning Outcomes:&#x20;
-
-1. Distinguish Theoretical & Practical Metadata Standards: Define key metadata types (descriptive, structural, administrative) and articulate how rich, semantically annotated metadata drives dataset discoverability and automated machine processing.
-2. Apply Metadata Standards to Research Outputs: Select and configure appropriate domain-specific or general metadata schema to structure datasets for seamless indexing in repositories and global aggregators.
-3. Implement "Findable by Design" Workflows: Create rich metadata records containing persistent identifiers (PIDs) that prevent data isolation, optimize search-engine retrieval, and satisfy FAIR principles.
-
-## Citations and Attributions:&#x20;
-
-FAIRsharing. (n.d.). *Metadata standards*. Retrieved September 1, 2026, from[https://fairsharing.org/standards/](https://fairsharing.org/standards/)
-
-## Materials / Equipment
-
-**For Participants:** A computer and a stable internet connection (if the training is delivered online or uses cloud-based tools).
-
-**For the Trainer:** A digital collaboration tool (such as Miro or an equivalent virtual whiteboard). For in-person delivery, this can easily be substituted with physical chart paper, sticky notes, and markers.
-
-## Take Home Message:&#x20;
-
-High-quality metadata is the foundation of scientific visibility. By applying domain-standard metadata and persistent identifiers early, researchers prevent data isolation, ensure long-term citation, and enable automated discovery across global research networks.

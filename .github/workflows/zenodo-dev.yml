@@ -1,0 +1,60 @@
+name: Zenodo sandbox (dev build)
+
+# Deposits every lesson plan on the Zenodo *sandbox* and builds a dev copy of
+# the site that shows the sandbox DOIs (10.5072/...). Never touches main's
+# front matter and never deploys to the production domain.
+
+on:
+  push:
+    branches-ignore: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: zenodo-dev-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  dev-build:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1.196.0
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+          cache-version: 0
+
+      # Secrets are unavailable to fork PRs: fall back to a dry run there.
+      - name: Deposit on Zenodo sandbox
+        env:
+          ZENODO_TOKEN: ${{ secrets.ZENODO_SANDBOX_TOKEN }}
+          ZENODO_API_URL: https://sandbox.zenodo.org/api
+        run: |
+          if [ -n "$ZENODO_TOKEN" ]; then
+            ruby scripts/zenodo-deposit.rb --mode dev
+          else
+            echo "No sandbox token available; dry run only."
+            ruby scripts/zenodo-deposit.rb --mode dev --dry-run
+          fi
+
+      - name: Build dev site
+        run: bundle exec jekyll build
+        env:
+          PAGES_REPO_NWO: ${{ github.repository }}
+          JEKYLL_ENV: development
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload dev site
+        uses: actions/upload-artifact@v4
+        with:
+          name: dev-site-zenodo-sandbox
+          path: _site
+          retention-days: 14

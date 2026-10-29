@@ -3,6 +3,9 @@ number: 6.1
 title: Defining research software
 status: in_progress
 layout: lesson-plan
+permalink: /plan/defining-research-software/
+redirect_from:
+  - /units/fair-software/topics/1-Defining-research-software/
 authors:
   - 0000-0001-9334-7190
   - 0000-0002-1322-1553
@@ -14,6 +17,11 @@ fair_elements:
   - A
   - I
   - R
+
+activities:
+  before: []
+  during: []
+  after: []
 
 audience:
   - Data stewards
@@ -32,9 +40,7 @@ learning_outcomes:
 
 prerequisites:
   - Have basic knowledge of the FAIR Principles.
-
 ---
-
 ## Topic, definition and scope
 
 * Differentiating research software and software in research

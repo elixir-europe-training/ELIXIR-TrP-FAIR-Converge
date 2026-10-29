@@ -1,0 +1,18 @@
+---
+permalink: /search-index.json
+sitemap: false
+---
+{%- assign index_plans = site.lesson-plans | where_exp: "item", "item.path contains '/topics/'" -%}
+{%- assign phases = "before,during,after" | split: "," -%}
+[
+{%- for plan in index_plans -%}
+  {%- capture plan_text -%}
+    {{ plan.title }} {{ plan.description }}
+    {%- for lo in plan.learning_outcomes %} {{ lo[1].outcome }}{% endfor -%}
+    {%- for phase in phases -%}
+      {%- for activity in plan.activities[phase] %} {{ activity.title }} {{ activity.description | default: activity.activities }}{% endfor -%}
+    {%- endfor %} {{ plan.content }}
+  {%- endcapture -%}
+  {"url": {{ plan.url | relative_url | jsonify }}, "text": {{ plan_text | markdownify | strip_html | strip_newlines | normalize_whitespace | jsonify }}}{% unless forloop.last %},{% endunless %}
+{%- endfor -%}
+]

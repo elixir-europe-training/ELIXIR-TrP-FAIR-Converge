@@ -1,0 +1,72 @@
+name: Zenodo DOIs (published plans)
+
+# Manual: deposits `status: published` lesson plans on Zenodo and opens a PR
+# with the resulting DOIs written to the plans' front matter.
+
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "Zenodo instance"
+        type: choice
+        options: [ sandbox, production ]
+        default: sandbox
+      only:
+        description: "Single plan path (optional), e.g. _lesson-plans/findable-data/topics/3-metadata-standards.md"
+        required: false
+        type: string
+      dry_run:
+        description: "Dry run (no Zenodo changes)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  deposit:
+    runs-on: ubuntu-24.04
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1.196.0
+        with:
+          ruby-version: '3.3'
+
+      - name: Deposit
+        env:
+          ZENODO_TOKEN: ${{ inputs.target == 'production' && secrets.ZENODO_TOKEN || secrets.ZENODO_SANDBOX_TOKEN }}
+          ZENODO_API_URL: ${{ inputs.target == 'production' && 'https://zenodo.org/api' || 'https://sandbox.zenodo.org/api' }}
+          # Sandbox runs of this workflow exercise the prod code path.
+          ZENODO_ALLOW_SANDBOX_PROD: "1"
+          DRY_RUN: ${{ inputs.dry_run }}
+          ONLY: ${{ inputs.only }}
+        run: |
+          args=(--mode prod)
+          [ "$DRY_RUN" = "true" ] && args+=(--dry-run)
+          [ -n "$ONLY" ] && args+=(--only "$ONLY")
+          ruby scripts/zenodo-deposit.rb "${args[@]}"
+
+      - name: Open PR with DOIs
+        if: ${{ !inputs.dry_run && inputs.target == 'production' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if git diff --quiet -- _lesson-plans; then
+            echo "No front matter changes."
+            exit 0
+          fi
+          branch="zenodo-dois-${{ github.run_id }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add _lesson-plans
+          git commit -m "Add Zenodo DOIs to published lesson plans"
+          git push origin "$branch"
+          gh pr create --base main --head "$branch" \
+            --title "Add Zenodo DOIs to published lesson plans" \
+            --body "Automated DOI write-back from the Zenodo workflow (run ${{ github.run_id }})."

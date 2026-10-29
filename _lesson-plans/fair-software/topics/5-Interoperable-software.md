@@ -3,6 +3,9 @@ number: 6.5
 title: Interoperable Software
 status: in_progress
 layout: lesson-plan
+permalink: /plan/interoperable-software/
+redirect_from:
+  - /units/fair-software/topics/5-Interoperable-software/
 authors:
   - 0000-0001-9334-7190
   - 0000-0002-1322-1553
@@ -11,6 +14,11 @@ reviewers:
 
 fair_elements:
   - I
+
+activities:
+  before: []
+  during: []
+  after: []
 
 audience:
   - Data stewards
@@ -24,9 +32,7 @@ learning_outcomes:
     outcome: Understand why the programming language itself can determine interoperability.
   3:
     outcome: Critique common data formats (e.g., csv) in the context of research software.
-
---- 
-
+---
 ## Topic, definition and scope
 
 * Open-source programming languages
@@ -42,7 +48,7 @@ learning_outcomes:
 * What data formats are recommended within your organisation? Do they align with DANS?
 * How might a research software be 'locked' (untentionally or unintentionally) by the developer?
 
---- 
+---
 
 ## Recommended reading
 

@@ -1,0 +1,24 @@
+{%- assign lp_t = include.type | default: "" | downcase | strip -%}
+{%- if lp_t contains "lecture" or lp_t contains "demo" -%}
+  {%- assign lp_type = "lecture" -%}
+{%- elsif lp_t contains "workshop" or lp_t contains "working session" -%}
+  {%- assign lp_type = "workshop" -%}
+{%- elsif lp_t contains "discussion" -%}
+  {%- assign lp_type = "group discussion" -%}
+{%- elsif lp_t contains "reading" -%}
+  {%- assign lp_type = "reading" -%}
+{%- elsif lp_t contains "individual" or lp_t contains "independent" -%}
+  {%- assign lp_type = "individual exercise" -%}
+{%- else -%}
+  {%- assign lp_type = "group activity" -%}
+{%- endif -%}
+{%- case lp_type -%}
+  {%- when "lecture" -%}{%- assign lp_type_icon = "presentation" -%}
+  {%- when "workshop" -%}{%- assign lp_type_icon = "wrench" -%}
+  {%- when "group discussion" -%}{%- assign lp_type_icon = "message-square" -%}
+  {%- when "reading" -%}{%- assign lp_type_icon = "book-open" -%}
+  {%- when "individual exercise" -%}{%- assign lp_type_icon = "pencil" -%}
+  {%- else -%}{%- assign lp_type_icon = "users" -%}
+{%- endcase -%}
+{%- assign lp_type_class = lp_type | replace: " ", "-" -%}
+{%- assign lp_type_label = lp_type | capitalize -%}

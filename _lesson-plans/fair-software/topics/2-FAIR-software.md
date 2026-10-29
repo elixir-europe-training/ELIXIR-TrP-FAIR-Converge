@@ -3,6 +3,9 @@ number: 6.2
 title: FAIR Software
 status: in_progress
 layout: lesson-plan
+permalink: /plan/fair-software/
+redirect_from:
+  - /units/fair-software/topics/2-FAIR-software/
 authors:
   - 0000-0001-9334-7190
   - 0000-0002-1322-1553
@@ -15,6 +18,11 @@ fair_elements:
   - I
   - R
 
+activities:
+  before: []
+  during: []
+  after: []
+
 audience:
   - Data stewards
   - Software stewards
@@ -25,9 +33,7 @@ learning_outcomes:
     outcome: Map FAIR principles to research software.
   2:
     outcome: Understand the benefits of ensuring research software is FAIR.
-
 ---
-
 ## Topic, definition and scope
 
 * Re-cap FAIR generics
@@ -45,7 +51,7 @@ learning_outcomes:
 * Try to reproduce the analysis of a well-known publication in your field. How challenging/easy was it to undertake in terms of FAIR principles?
 * Provide a brief definition for each FAIR principle. Match each principle to an aspect of research software that it could improve.
 
---- 
+---
 
 ## Recommended reading
 

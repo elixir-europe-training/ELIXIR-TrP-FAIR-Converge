@@ -5,6 +5,9 @@ title: >-
   Science Action Plan
 status: ready_for_review
 layout: lesson-plan
+permalink: /plan/fair-in-data-policies/
+redirect_from:
+  - /units/fair-generics/topics/4-FAIR-in-data-policies/
 authors:
   - 0000-0003-2313-0011
   - 0000-0003-1391-9959
@@ -12,15 +15,6 @@ authors:
 reviewers:
   - 0000-0002-7702-4495
   - 0000-0002-7398-0594
-description: >-
-  Overview: This lesson plan equips trainers to teach the value of standardized
-  institutional data policies and the systemic benefits of adopting FAIR
-  principles. Designed for the Health and Life Sciences domain, the module
-  guides trainers through instructing others on how to write and configure a
-  practical FAIR & Open Science Plan. To ground these concepts, the lesson
-  features a real-world case study from the Faculty of Health, Medicine, and
-  Life Sciences at Maastricht University, providing trainers with concrete
-  examples to facilitate discussion and active learning.
 fair_elements:
   - F
   - A
@@ -233,7 +227,30 @@ activities:
         Questions                                                                                                               
         | Participant Answers / Institutional Sketch |
 
-        | --------------------------- |
+        | 
+description: This lesson plan equips trainers to teach the value of standardized institutional data policies and the systemic benefits of adopting FAIR principles. Designed for the Health and Life Sciences domain, the module guides trainers through instructing others on how to write and configure a practical FAIR & Open Science Plan. To ground these concepts, the lesson features a real-world case study from the Faculty of Health, Medicine, and Life Sciences at Maastricht University, providing trainers with concrete examples to facilitate discussion and active learning.
+summary: This lesson plan equips trainers to teach the value of standardized institutional data policies and the systemic benefits of adopting FAIR principles. Designed for the Health and Life Sciences domain, the module guides trainers through instructing others on how to write and configure a practical FAIR & Open Science Plan. To ground these concepts, the lesson features a real-world case study from the Faculty of Health, Medicine, and Life Sciences at Maastricht University, providing trainers with concrete examples to facilitate discussion and active learning.
+sources: FAIR Metroline. (n.d.). *Define FAIRification objectives*. Retrieved September 1, 2026, from[https://fairmetroline.org/metroline\_steps/define\_fairification\_objectives](https://fairmetroline.org/metroline_steps/define_fairification_objectives)
+tasks_text: '**1.0 Lecture - Introduction to Research Data Policies:** A brief presentation introducing institutional data policies, detailing why they are critical for securing compliance, funding eligibility, and institutional prestige.
+
+
+  **2.0 Case Study Analysis - The Maastricht University FAIR Data Blueprint:** Participants review a real-world institutional example, exploring how Maastricht University structured and launched its integrated FAIR Open Science Action Plan.
+
+
+  **3.0 Lecture - Strategic Steps for Policy Implementation:** A concise lecture mapping out the institutional milestones required to move from policy drafting to full campus-wide implementation and adoption.
+
+
+  **4.0 Practical Policy Simulation:** The trainer selects an interactive exercise based on audience needs:
+
+
+  * *Option A (Exercise 7):* Simulating stakeholder buy-in and mapping policy requirements.
+
+  * *Option B (Exercise 8):* Evaluating existing drafts against international framework criteria.'
+materials:
+  text: "* **For Participants:** A computer or tablet with a stable internet connection for policy review, online research, and collaborative case analysis.\n* **For the Trainer:**\n  * *Virtual Delivery:* An online interactive whiteboard (e.g., Miro) to map stakeholders and track policy exercises.\n  * *In-Person Delivery:* A projector/display for lectures, accompanied by physical chart paper, sticky notes, and markers for group work."
+take_home: Standardized FAIR policies transform data management from an administrative burden into a strategic asset—enabling researchers to build practical, compliant Open Science Plans grounded in real-world institutional practice.
+---
+------------------------ |
         -----------------------------------------------------------------------------------------------------------------------------------
         | ------------------------------------------ |
 
@@ -285,32 +302,6 @@ prerequisites:
     regarding health and life science data is highly recommended, as the session
     focuses on policy implementation rather than introductory data theory.
 ---
-## Overview:&#x20;
-
-This lesson plan equips trainers to teach the value of standardized institutional data policies and the systemic benefits of adopting FAIR principles. Designed for the Health and Life Sciences domain, the module guides trainers through instructing others on how to write and configure a practical FAIR & Open Science Plan. To ground these concepts, the lesson features a real-world case study from the Faculty of Health, Medicine, and Life Sciences at Maastricht University, providing trainers with concrete examples to facilitate discussion and active learning.
-
-## **Key Learning Outcomes:**&#x20;
-
-1. Explain the Systemic Impact of FAIR Policies: Articulate the scientific, legal, and institutional benefits of standardized data policies and FAIR principles within the Health and Life Sciences domain.
-2. Guide the Creation of FAIR & Open Science Plans: Instruct researchers step-by-step on how to draft and configure practical, domain-tailored FAIR & Open Science Plans for their projects.
-3. Facilitate Case-Based Active Learning: Utilize real-world institutional benchmarks—such as the Maastricht University FHML case study—to lead interactive discussions and practical exercises on policy adoption.
-
-## **Citation & Attribution**&#x20;
-
-FAIR Metroline. (n.d.). *Define FAIRification objectives*. Retrieved September 1, 2026, from[https://fairmetroline.org/metroline\_steps/define\_fairification\_objectives](https://fairmetroline.org/metroline_steps/define_fairification_objectives)
-
-## Summary of Tasks and Actions
-
-**1.0 Lecture - Introduction to Research Data Policies:** A brief presentation introducing institutional data policies, detailing why they are critical for securing compliance, funding eligibility, and institutional prestige.
-
-**2.0 Case Study Analysis - The Maastricht University FAIR Data Blueprint:** Participants review a real-world institutional example, exploring how Maastricht University structured and launched its integrated FAIR Open Science Action Plan.
-
-**3.0 Lecture - Strategic Steps for Policy Implementation:** A concise lecture mapping out the institutional milestones required to move from policy drafting to full campus-wide implementation and adoption.
-
-**4.0 Practical Policy Simulation:** The trainer selects an interactive exercise based on audience needs:
-
-* *Option A (Exercise 7):* Simulating stakeholder buy-in and mapping policy requirements.
-* *Option B (Exercise 8):* Evaluating existing drafts against international framework criteria.
 
 ## Take-Home Tasks & Preparation
 
@@ -319,14 +310,3 @@ To cement the training or prepare for an advanced session, participants are aske
 * **Policy Audit:** Review their current institutional data policy and objectively assess its baseline adoption of FAIR principles.
 * **Stakeholder Mapping:** Identify the key decision-makers and support services (e.g., IT, library, legal, research office) at their local institution who must be engaged to effectively launch a data policy.
 * **Drafting Exercise:** Begin drafting a specialized FAIR data policy for a specific use case, leveraging standard institutional checklists (such as resources from the Digital Curation Centre \[DCC] or FAIRsharing).
-
-## Materials and Equipment
-
-* **For Participants:** A computer or tablet with a stable internet connection for policy review, online research, and collaborative case analysis.
-* **For the Trainer:**
-  * *Virtual Delivery:* An online interactive whiteboard (e.g., Miro) to map stakeholders and track policy exercises.
-  * *In-Person Delivery:* A projector/display for lectures, accompanied by physical chart paper, sticky notes, and markers for group work.
-
-## Take Home Message:&#x20;
-
-Standardized FAIR policies transform data management from an administrative burden into a strategic asset—enabling researchers to build practical, compliant Open Science Plans grounded in real-world institutional practice.
