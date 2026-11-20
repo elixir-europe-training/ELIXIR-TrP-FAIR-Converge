@@ -1,0 +1,49 @@
+---
+number: 6.3
+title: Findable Software
+status: in_progress
+layout: lesson-plan
+permalink: "/plan/findable-software/"
+redirect_from:
+- "/units/fair-software/topics/3-Findable-software/"
+authors:
+- 0000-0001-9334-7190
+- 0000-0002-1322-1553
+reviewers: 
+fair_elements:
+- F
+activities:
+  before: []
+  during: []
+  after: []
+audience:
+- Data stewards
+- Software stewards
+- Research software consultants
+learning_outcomes:
+- title: Name and navigate through a software directory, such as [RSD](https://research-software-directory.org/).
+- title: Understand why metadata can help make research software more findable.
+- title: List the important components of a README file.
+doi: 10.5072/zenodo.627827
+zenodo_concept_doi: 10.5072/zenodo.627826
+zenodo_hash: 828af4aa5ae35c3a
+---
+## Topic, definition and scope
+
+* Software directories
+* Personal identifiers
+* Metadata
+* Descriptive information (e.g., README)
+
+---
+
+## Exercises
+
+* Discuss what a good README must, should, and could contain
+* Which identifiers, registries, catalogs are most authorative in your field?
+
+---
+
+## Recommended reading
+
+* Nine best practices for research software registries and repositories [(Gajiro et at., 2022)](https://doi.org/10.7717/peerj-cs.1023)
